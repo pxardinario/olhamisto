@@ -104,7 +104,7 @@ function pieceHTML(p, i, edition, opts = {}) {
   return `
   <article class="piece ${opts.cls || ""}" id="p-${p.id}" data-id="${p.id}" aria-labelledby="h-${p.id}">
     <div class="piece-text">
-      <div class="kicker"><span class="num">${String(i + 1).padStart(2, "0")}</span><span class="kind">${p.kind === "atualidade" ? "Atualidade" : "Descoberta"}</span><span>${esc(p.themeLabel)}</span><span>${esc(p.vizLabel)}</span><a class="ai-tag" href="/metodologia/" title="Investigado, escrito e visualizado por IA; verificado por um segundo agente de IA">Feito por IA</a></div>
+      <div class="kicker"><span class="num">${String(i + 1).padStart(2, "0")}</span><span class="kind">${p.kind === "atualidade" ? "Atualidade" : "Descoberta"}</span><span>${esc(p.themeLabel)}</span><span>${esc(p.vizLabel)}</span><a class="ai-tag" href="/metodologia/" title="Investigado, escrito e visualizado por IA; verificado por um agente verificador independente de IA">Feito por IA</a></div>
       <h2 id="h-${p.id}"><a class="title-link" href="${pieceUrl(edition, p.id)}">${esc(p.title)}</a></h2>
       <p class="text context">${esc(p.context)}</p>
     </div>
@@ -198,7 +198,7 @@ async function viewEdition(date, focusId) {
   main.innerHTML = `
     <div class="edition-bar"><span><strong>Edição n.º ${ed.number}</strong> · ${dateLong(date)}<span class="ed-sched">${schedText()}</span></span>
       <span class="edition-nav">${prev ? `<a href="${edUrl(prev.date)}">← ${dateShort(prev.date)}</a>` : ""}${next ? `<a href="${edUrl(next.date)}">${dateShort(next.date)} →</a>` : ""}<a href="/arquivo/">Arquivo</a></span></div>
-    <p class="ai-banner"><strong>Feito por IA.</strong> Esta edição foi investigada, escrita e visualizada por agentes de inteligência artificial e verificada por um segundo agente. Sem revisão humana prévia. <a href="/metodologia/">Como funciona</a> · <a href="/correcoes/">Correções</a></p>
+    <p class="ai-banner"><strong>Feito por IA.</strong> Esta edição foi investigada, escrita e visualizada por agentes de inteligência artificial e verificada por um agente verificador independente. Sem revisão humana prévia. <a href="/metodologia/">Como funciona</a> · <a href="/correcoes/">Correções</a></p>
     <p class="opening">${esc(ed.opening)}</p>
     ${pieceHTML(lead, 0, date, { cls: "lead" })}
     <div class="rest">${rest.map((p, i) => pieceHTML(p, i + 1, date, { cls: layout[i % layout.length] })).join("")}</div>
@@ -218,7 +218,7 @@ async function viewPiece(date, id) {
   const others = ed.pieces.filter((x) => x !== p);
   main.innerHTML = `
     <div class="edition-bar"><span><a href="${edUrl(date)}"><strong>Edição n.º ${ed.number}</strong></a> · ${dateLong(date)}</span><span class="edition-nav"><a href="${edUrl(date)}">Edição completa</a><a href="/arquivo/">Arquivo</a></span></div>
-    <p class="ai-banner"><strong>Feito por IA.</strong> Investigado, escrito e visualizado por agentes de inteligência artificial e verificado por um segundo agente. <a href="/metodologia/">Como funciona</a> · <a href="/correcoes/">Correções</a></p>
+    <p class="ai-banner"><strong>Feito por IA.</strong> Investigado, escrito e visualizado por agentes de inteligência artificial e verificado por um agente verificador independente. <a href="/metodologia/">Como funciona</a> · <a href="/correcoes/">Correções</a></p>
     ${pieceHTML(p, i, date, { cls: "lead" })}
     <section class="page-head"><h2 style="font-size:1.4rem">Na mesma edição</h2></section>
     <div class="cards">${others.map((x) => cardHTML({ ...x, date })).join("")}</div>`;
@@ -279,7 +279,7 @@ function viewMethod() {
   $("#mast-date").textContent = "Metodologia";
   main.innerHTML = `<div class="page-head prose"><h2>Metodologia editorial</h2>
   <p class="text"><strong>${SITE}</strong> publica, de segunda a sexta, cinco histórias contadas sobretudo através de visualizações. A regra principal: primeiro a história, depois o gráfico.</p>
-  <h3>Feito por inteligência artificial</h3><p class="text">Cada edição é investigada, escrita e visualizada por agentes de inteligência artificial (Claude, da Anthropic), que pesquisam fontes públicas, transcrevem os dados, calculam, desenham os gráficos e redigem os textos. Um segundo agente, que não participou na produção, verifica valores, cálculos, escalas e afirmações contra as fontes antes da publicação. As edições são publicadas sem revisão humana prévia. Os erros são corrigidos e registados na página de <a href="/correcoes/">correções</a>.</p>
+  <h3>Feito por inteligência artificial</h3><p class="text">Cada edição é investigada, escrita e visualizada por agentes de inteligência artificial (Claude, da Anthropic), que pesquisam fontes públicas, transcrevem os dados, calculam, desenham os gráficos e redigem os textos. Um agente verificador independente, que não participou na produção, verifica valores, cálculos, escalas e afirmações contra as fontes antes da publicação. As edições são publicadas sem revisão humana prévia. Os erros são corrigidos e registados na página de <a href="/correcoes/">correções</a>.</p>
   <h3>Horário</h3><p class="text">Há uma edição nova de segunda a sexta-feira. Os agentes entram ao serviço às 7h15 (hora de Lisboa) e a edição é publicada por volta das 8h00, depois de verificada. Também se pode receber pelo <a href="/feed.xml">feed RSS</a>.</p>
   <h3>Seleção</h3><p class="text">Cada edição parte de 12 a 20 candidatas, avaliadas por importância (30%), potencial visual (25%), qualidade dos dados (25%), surpresa (10%) e interesse para o leitor (10%). Candidatas sem dados verificáveis são rejeitadas e registadas nas notas de edição.</p>
   <h3>Rigor</h3><p class="text">Nenhum dado é inventado ou interpolado sem indicação. As barras começam sempre no zero. É a única regra que nem a diretora editorial pode quebrar (e é uma agente muito teimosa). Séries de índice podem começar noutro valor, sempre assinalado.  Valores absolutos, percentagens e pontos percentuais são distinguidos. Correlação não é apresentada como causalidade.</p>

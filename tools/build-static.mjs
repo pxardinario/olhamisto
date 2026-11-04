@@ -77,7 +77,7 @@ function pieceStatic(p, date, i, heading = "h2") {
   <details class="meta"><summary>Fontes e método</summary><div class="meta-body"><ul>${src}</ul><ul>${p.method.map((m) => `<li>${esc(m)}</li>`).join("")}</ul></div></details>
 </article>`;
 }
-const aiNote = `<p class="ai-banner"><strong>Feito por IA.</strong> Investigado, escrito e visualizado por agentes de inteligência artificial e verificado por um segundo agente. <a href="/metodologia/">Como funciona</a> · <a href="/correcoes/">Correções</a></p>`;
+const aiNote = `<p class="ai-banner"><strong>Feito por IA.</strong> Investigado, escrito e visualizado por agentes de inteligência artificial e verificado por um agente verificador independente. <a href="/metodologia/">Como funciona</a> · <a href="/correcoes/">Correções</a></p>`;
 const org = { "@type": "Organization", name: SITE, url: ORIGIN, email: "contacto@olhamisto.com", founder: { "@type": "Person", name: "Pedro Silva", url: "https://pedroxaviersilva.eu/" } };
 
 const urls = [];
@@ -155,7 +155,7 @@ const ogSize = (id) => { try { return fs.statSync(path.join(OUT, "og", `${id}.pn
 const rfc822 = (d) => new Date(d + "T07:00:00Z").toUTCString();
 const items = editions.slice(0, 30).map((ed) => {
   const lead = ed.pieces.find((p) => p.id === ed.lead) || ed.pieces[0];
-  const html = `<p>${esc(ed.opening)}</p><ul>${ed.pieces.map((p) => `<li><a href="${ORIGIN + pieceUrl(ed.date, p.id)}"><strong>${esc(p.title)}</strong></a><br>${esc(p.finding)}</li>`).join("")}</ul><p><em>Feito por IA: investigado, escrito e visualizado por agentes de inteligência artificial e verificado por um segundo agente.</em></p>`;
+  const html = `<p>${esc(ed.opening)}</p><ul>${ed.pieces.map((p) => `<li><a href="${ORIGIN + pieceUrl(ed.date, p.id)}"><strong>${esc(p.title)}</strong></a><br>${esc(p.finding)}</li>`).join("")}</ul><p><em>Feito por IA: investigado, escrito e visualizado por agentes de inteligência artificial e verificado por um agente verificador independente.</em></p>`;
   return `<item><title>${esc(`Edição n.º ${ed.number}: ${lead.title}`)}</title><link>${ORIGIN + edUrl(ed.date)}</link><guid isPermaLink="true">${ORIGIN + edUrl(ed.date)}</guid><pubDate>${rfc822(ed.date)}</pubDate>${ogSize(lead.id) ? `<enclosure url="${ORIGIN}/og/${lead.id}.png" type="image/png" length="${ogSize(lead.id)}"/>` : ""}<description>${esc(html)}</description></item>`;
 }).join("\n");
 write("feed.xml", `<?xml version="1.0" encoding="UTF-8"?>
