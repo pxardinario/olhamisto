@@ -44,7 +44,13 @@ copyDir(path.join(SRC, "data"), path.join(OUT, "data"));
 fs.copyFileSync(path.join(SRC, "favicon.svg"), path.join(OUT, "favicon.svg"));
 if (fs.existsSync(ogKeep)) { fs.renameSync(ogKeep, path.join(OUT, "og")); } else fs.mkdirSync(path.join(OUT, "og"));
 
-const TPL = fs.readFileSync(path.join(SRC, "template.html"), "utf8");
+// Versões dos ficheiros (impressão digital do conteúdo): cada alteração muda o endereço e obriga o navegador a recarregar
+import crypto from "node:crypto";
+const ver = (rel) => crypto.createHash("sha1").update(fs.readFileSync(path.join(SRC, rel))).digest("hex").slice(0, 10);
+const V = { V_CSS: ver("assets/css/main.css"), V_APP: ver("assets/js/app.js") + ver("assets/js/charts.js").slice(0, 4) };
+const appOut = path.join(OUT, "assets/js/app.js");
+fs.writeFileSync(appOut, fs.readFileSync(appOut, "utf8").replace('from "./charts.js"', `from "./charts.js?v=${ver("assets/js/charts.js")}"`));
+const TPL = fs.readFileSync(path.join(SRC, "template.html"), "utf8").replace(/\{\{(V_CSS|V_APP)\}\}/g, (_, k) => V[k]);
 const index = JSON.parse(fs.readFileSync(path.join(SRC, "data", "index.json"), "utf8"));
 const editions = index.editions.map((e) => JSON.parse(fs.readFileSync(path.join(SRC, "data", "editions", `${e.date}.json`), "utf8")));
 
@@ -160,5 +166,5 @@ ${items}
 </channel></rss>`);
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${ORIGIN + u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join("\n")}\n</urlset>`);
 write("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${ORIGIN}/sitemap.xml\n`);
-write("_headers", `/assets/*\n  Cache-Control: public, max-age=604800\n/og/*\n  Cache-Control: public, max-age=86400\n/data/*\n  Cache-Control: public, max-age=300\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n`);
+write("_headers", `/assets/vendor/*\n  Cache-Control: public, max-age=604800\n/assets/fonts/*\n  Cache-Control: public, max-age=31536000, immutable\n/assets/geo/*\n  Cache-Control: public, max-age=604800\n/assets/js/*\n  Cache-Control: public, max-age=3600\n/assets/css/*\n  Cache-Control: public, max-age=3600\n/og/*\n  Cache-Control: public, max-age=86400\n/data/*\n  Cache-Control: public, max-age=300\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n`);
 console.log(`public/: ${urls.length} URLs no sitemap, ${editions.length} edições, ${editions.reduce((a, e) => a + e.pieces.length, 0)} peças; feed com ${Math.min(30, editions.length)} itens`);

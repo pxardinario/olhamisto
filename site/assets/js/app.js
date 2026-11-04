@@ -344,8 +344,8 @@ async function route() {
 (function weekend() {
   try {
     const wd = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Lisbon", weekday: "short" }).format(new Date());
-    const el = document.getElementById("schedule");
-    if (el && (wd === "Sat" || wd === "Sun")) el.textContent = "Fim de semana. Até os agentes precisam de desligar. Próxima edição: segunda-feira, por volta das 8h00.";
+    const el = document.getElementById("schedule-text");
+    if (el && (wd === "Sat" || wd === "Sun")) { el.innerHTML = "Fim de semana. Até os agentes precisam de desligar. Próxima edição: segunda-feira, por volta das <strong>8h00</strong>."; el.parentElement.classList.add("off"); }
   } catch { /* sem Intl */ }
 })();
 loadIndex().then((idx) => { $("#foot-version").textContent = `Última edição: ${dateLong(idx.latest)} · ${idx.editions.length} ${idx.editions.length === 1 ? "edição" : "edições"} no arquivo.`; }).catch(() => {});

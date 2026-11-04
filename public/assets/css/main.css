@@ -238,7 +238,12 @@ footer.site p { margin: 0; max-width: 60rem; }
 
 footer.site .credit { color: var(--ink-2); }
 footer.site .credit a { color: var(--ink); }
-.schedule { text-align: center; font-size: .78rem; letter-spacing: .04em; color: var(--ink-3); margin: .35rem 0 0; }
+.schedule { text-align: center; margin: .7rem 0 .2rem; }
+.schedule-chip { display: inline-flex; align-items: center; gap: .55rem; background: var(--ink); color: var(--paper); font-size: .78rem; letter-spacing: .02em; padding: .38rem .95rem; border-radius: 999px; max-width: 100%; text-align: left; line-height: 1.35; }
+.schedule-chip strong { color: var(--paper); font-weight: 600; }
+.schedule-chip .dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-4); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-4) 35%, transparent); }
+.schedule-chip.off .dot { background: var(--ink-3); box-shadow: none; }
+@media (max-width: 640px) { .schedule-chip { font-size: .74rem; padding: .4rem .8rem; } }
 footer.site .joke { font-family: var(--serif); font-style: italic; color: var(--ink-2); }
 .staff { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
 .staff article { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem 1.1rem; }

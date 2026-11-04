@@ -20,7 +20,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Olhamisto" href="/feed.xml">
 <link rel="preload" href="/assets/fonts/fraunces-latin-full-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css?v=2934c6c642">
 <script>
   try { var t = localStorage.getItem("rv.theme"); if (t) t = JSON.parse(t); if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; document.documentElement.dataset.theme = t; } catch (e) {}
   window.__OLHA__ = {"view":"piece","date":"2026-11-03","piece":"portugal-habitacao-real"};
@@ -46,9 +46,9 @@
     </div>
   </div>
   <div class="mast-title">
-    <a href="/"><p class="site-name">Olham<span>isto</span></p></a>
+    <a href="/"><p class="site-name">Olha<span>misto</span></p></a>
     <p class="tagline">Antes de opinar, olha-me isto.</p>
-    <p class="schedule" id="schedule">Nova edição de segunda a sexta, por volta das 8h00. Os agentes entram ao serviço às 7h15.</p>
+    <p class="schedule"><span class="schedule-chip" id="schedule"><span class="dot" aria-hidden="true"></span><span id="schedule-text">Nova edição de segunda a sexta, por volta das <strong>8h00</strong>. Os agentes entram ao serviço às 7h15.</span></span></p>
   </div>
 </header>
 <main id="conteudo" tabindex="-1">
@@ -79,6 +79,6 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="/assets/vendor/d3.min.js"></script>
 <script src="/assets/vendor/topojson-client.min.js"></script>
-<script type="module" src="/assets/js/app.js"></script>
+<script type="module" src="/assets/js/app.js?v=40ba4f3b190e73"></script>
 </body>
 </html>

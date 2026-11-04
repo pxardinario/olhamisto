@@ -30,7 +30,9 @@ for (const [name, opts] of [["desktop", { viewport: { width: 1280, height: 900 }
       ok(charts.length > 0 && charts.every((n) => n > 0), `${name} ${p}: todos os gráficos com SVG ${JSON.stringify(charts)}`);
       ok(await page.$(".ai-banner") !== null, `${name} ${p}: etiqueta de IA`);
     } else {
-      await page.waitForTimeout(400);
+      await page.waitForTimeout(800);
+      const want = { "/redacao/": ".staff", "/arquivo/": "#cards", "/metodologia/": ".prose h3", "/correcoes/": ".prose" }[p];
+      if (want) ok(await page.$(want) !== null, `${name} ${p}: a página mantém o seu conteúdo depois de a aplicação arrancar`);
     }
     const ovf = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
     ok(ovf <= 1, `${name} ${p}: scroll horizontal ${ovf}px`);

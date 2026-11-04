@@ -34,7 +34,7 @@ async function card(url, file, sel) {
       <div style="font:700 ${title.length > 85 ? 36 : 44}px/1.1 var(--serif);color:${cs.getPropertyValue("--ink")};max-width:1080px">${title}</div>
       <div id="og-chart" style="min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden"></div>
       <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:2px solid ${cs.getPropertyValue("--ink")};padding-top:10px">
-        <span style="font:800 30px var(--serif);color:${cs.getPropertyValue("--ink")}">Olham<span style="color:${cs.getPropertyValue("--accent")}">isto</span></span>
+        <span style="font:800 30px var(--serif);color:${cs.getPropertyValue("--ink")}">Olha<span style="color:${cs.getPropertyValue("--accent")}">misto</span></span>
         <span style="font:500 15px var(--sans);color:${cs.getPropertyValue("--ink-3")}">olhamisto.com · feito por IA</span></div>`;
     document.body.appendChild(wrap);
     const box = wrap.querySelector("#og-chart");
