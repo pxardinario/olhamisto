@@ -80,6 +80,7 @@ nav.main-nav a[aria-current="page"], nav.main-nav a:hover, .tool-btn:hover { bor
 main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.25rem 4rem; }
 .edition-bar { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .8rem 0; border-bottom: 1px solid var(--rule); font-size: .85rem; color: var(--ink-2); flex-wrap: wrap; }
 .edition-bar strong { color: var(--ink); font-weight: 600; }
+.ed-sched { display: block; margin-top: .2rem; font-size: .76rem; color: var(--ink-3); }
 .edition-nav a { margin-left: .8rem; }
 .opening { font-family: var(--serif); font-size: clamp(1.15rem, 2.4vw, 1.5rem); line-height: 1.4; max-width: 46rem; margin: 2rem auto 2.5rem; text-align: center; color: var(--ink); font-weight: 400; }
 
@@ -239,10 +240,8 @@ footer.site p { margin: 0; max-width: 60rem; }
 footer.site .credit { color: var(--ink-2); }
 footer.site .credit a { color: var(--ink); }
 .schedule { text-align: center; margin: .7rem 0 .2rem; }
-.schedule-chip { display: inline-flex; align-items: center; gap: .55rem; background: var(--ink); color: var(--paper); font-size: .78rem; letter-spacing: .02em; padding: .38rem .95rem; border-radius: 999px; max-width: 100%; text-align: left; line-height: 1.35; }
+.schedule-chip { display: inline-block; background: var(--ink); color: var(--paper); font-size: .78rem; letter-spacing: .02em; padding: .38rem .95rem; border-radius: 999px; max-width: 100%; text-align: center; line-height: 1.35; }
 .schedule-chip strong { color: var(--paper); font-weight: 600; }
-.schedule-chip .dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-4); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-4) 35%, transparent); }
-.schedule-chip.off .dot { background: var(--ink-3); box-shadow: none; }
 @media (max-width: 640px) { .schedule-chip { font-size: .74rem; padding: .4rem .8rem; } }
 footer.site .joke { font-family: var(--serif); font-style: italic; color: var(--ink-2); }
 .staff { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
@@ -252,3 +251,4 @@ footer.site .joke { font-family: var(--serif); font-style: italic; color: var(--
 .staff p { margin: .3rem 0 0; font-size: .92rem; color: var(--ink-2); }
 .staff .quirk { font-style: italic; color: var(--ink); }
 .staff article.human { border-style: dashed; }
+.nw { white-space: nowrap; }

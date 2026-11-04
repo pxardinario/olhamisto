@@ -196,7 +196,7 @@ async function viewEdition(date, focusId) {
   const rest = ed.pieces.filter((p) => p !== lead);
   const layout = ["split", "wide", "split flip", "wide"];
   main.innerHTML = `
-    <div class="edition-bar"><span><strong>Edição n.º ${ed.number}</strong> · ${dateLong(date)}</span>
+    <div class="edition-bar"><span><strong>Edição n.º ${ed.number}</strong> · ${dateLong(date)}<span class="ed-sched">${schedText()}</span></span>
       <span class="edition-nav">${prev ? `<a href="${edUrl(prev.date)}">← ${dateShort(prev.date)}</a>` : ""}${next ? `<a href="${edUrl(next.date)}">${dateShort(next.date)} →</a>` : ""}<a href="/arquivo/">Arquivo</a></span></div>
     <p class="ai-banner"><strong>Feito por IA.</strong> Esta edição foi investigada, escrita e visualizada por agentes de inteligência artificial e verificada por um segundo agente. Sem revisão humana prévia. <a href="/metodologia/">Como funciona</a> · <a href="/correcoes/">Correções</a></p>
     <p class="opening">${esc(ed.opening)}</p>
@@ -341,12 +341,10 @@ async function route() {
     main.innerHTML = `<p class="empty">Não foi possível carregar este conteúdo. ${esc(e.message)}</p>`;
   }
 }
-(function weekend() {
-  try {
-    const wd = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Lisbon", weekday: "short" }).format(new Date());
-    const el = document.getElementById("schedule-text");
-    if (el && (wd === "Sat" || wd === "Sun")) { el.innerHTML = "Fim de semana. Até os agentes precisam de desligar. Próxima edição: segunda-feira, por volta das <strong>8h00</strong>."; el.parentElement.classList.add("off"); }
-  } catch { /* sem Intl */ }
-})();
+function schedText() {
+  let wd = "";
+  try { wd = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Lisbon", weekday: "short" }).format(new Date()); } catch { /* sem Intl */ }
+  return wd === "Sat" || wd === "Sun" ? "Fim de semana. Até os agentes precisam de desligar. Próxima edição: segunda-feira, por volta das 8h00." : "Sai de segunda a sexta, por volta das 8h00. Os agentes entram ao serviço às 7h15.";
+}
 loadIndex().then((idx) => { $("#foot-version").textContent = `Última edição: ${dateLong(idx.latest)} · ${idx.editions.length} ${idx.editions.length === 1 ? "edição" : "edições"} no arquivo.`; }).catch(() => {});
 route();

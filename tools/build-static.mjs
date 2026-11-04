@@ -86,7 +86,7 @@ function edition(ed, { home = false } = {}) {
   const url = home ? "/" : edUrl(ed.date);
   const title = home ? `${SITE} — ${TAGLINE}` : `Edição n.º ${ed.number}, ${dateLong(ed.date)} — ${SITE}`;
   const content = `<h1 class="sr-only">${esc(home ? `${SITE}: edição n.º ${ed.number}` : `Edição n.º ${ed.number}`)}</h1>
-<div class="edition-bar"><span><strong>Edição n.º ${ed.number}</strong> · ${esc(dateLong(ed.date))}</span><span class="edition-nav"><a href="/arquivo/">Arquivo</a></span></div>${aiNote}
+<div class="edition-bar"><span><strong>Edição n.º ${ed.number}</strong> · ${esc(dateLong(ed.date))}<span class="ed-sched">Sai de segunda a sexta, por volta das 8h00. Os agentes entram ao serviço às 7h15.</span></span><span class="edition-nav"><a href="/arquivo/">Arquivo</a></span></div>${aiNote}
 <p class="opening">${esc(ed.opening)}</p>
 ${ed.pieces.map((p, i) => pieceStatic(p, ed.date, i)).join("\n")}`;
   return page({
