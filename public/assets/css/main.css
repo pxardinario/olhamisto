@@ -252,3 +252,4 @@ footer.site .joke { font-family: var(--serif); font-style: italic; color: var(--
 .staff .quirk { font-style: italic; color: var(--ink); }
 .staff article.human { border-style: dashed; }
 .nw { white-space: nowrap; }
+.staff .who { display: block; width: 30px; height: 30px; color: var(--accent); margin: 0 0 .5rem; }
