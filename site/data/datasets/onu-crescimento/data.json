@@ -1,0 +1,1571 @@
+{
+ "members": [
+  {
+   "id": "032",
+   "name": "Argentina",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "036",
+   "name": "Austrália",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "056",
+   "name": "Bélgica",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "068",
+   "name": "Bolívia",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "076",
+   "name": "Brasil",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "112",
+   "name": "Bielorrússia",
+   "year": 1945,
+   "note": "continua a RSS da Bielorrússia"
+  },
+  {
+   "id": "124",
+   "name": "Canadá",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "152",
+   "name": "Chile",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "156",
+   "name": "China",
+   "year": 1945,
+   "note": "lugar ocupado pela RPC desde 1971"
+  },
+  {
+   "id": "170",
+   "name": "Colômbia",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "188",
+   "name": "Costa Rica",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "192",
+   "name": "Cuba",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "208",
+   "name": "Dinamarca",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "214",
+   "name": "República Dominicana",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "218",
+   "name": "Equador",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "818",
+   "name": "Egito",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "222",
+   "name": "El Salvador",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "231",
+   "name": "Etiópia",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "250",
+   "name": "França",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "300",
+   "name": "Grécia",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "320",
+   "name": "Guatemala",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "332",
+   "name": "Haiti",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "340",
+   "name": "Honduras",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "356",
+   "name": "Índia",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "364",
+   "name": "Irão",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "368",
+   "name": "Iraque",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "422",
+   "name": "Líbano",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "430",
+   "name": "Libéria",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "442",
+   "name": "Luxemburgo",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "484",
+   "name": "México",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "528",
+   "name": "Países Baixos",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "554",
+   "name": "Nova Zelândia",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "558",
+   "name": "Nicarágua",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "578",
+   "name": "Noruega",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "591",
+   "name": "Panamá",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "600",
+   "name": "Paraguai",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "604",
+   "name": "Peru",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "608",
+   "name": "Filipinas",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "616",
+   "name": "Polónia",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "682",
+   "name": "Arábia Saudita",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "760",
+   "name": "Síria",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "792",
+   "name": "Turquia",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "804",
+   "name": "Ucrânia",
+   "year": 1945,
+   "note": "continua a RSS da Ucrânia"
+  },
+  {
+   "id": "710",
+   "name": "África do Sul",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "643",
+   "name": "Rússia",
+   "year": 1945,
+   "note": "continua a URSS (24 dez. 1991)"
+  },
+  {
+   "id": "826",
+   "name": "Reino Unido",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "840",
+   "name": "Estados Unidos",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "858",
+   "name": "Uruguai",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "862",
+   "name": "Venezuela",
+   "year": 1945,
+   "note": null
+  },
+  {
+   "id": "004",
+   "name": "Afeganistão",
+   "year": 1946,
+   "note": null
+  },
+  {
+   "id": "352",
+   "name": "Islândia",
+   "year": 1946,
+   "note": null
+  },
+  {
+   "id": "764",
+   "name": "Tailândia",
+   "year": 1946,
+   "note": "admitida como Sião"
+  },
+  {
+   "id": "752",
+   "name": "Suécia",
+   "year": 1946,
+   "note": null
+  },
+  {
+   "id": "586",
+   "name": "Paquistão",
+   "year": 1947,
+   "note": null
+  },
+  {
+   "id": "887",
+   "name": "Iémen",
+   "year": 1947,
+   "note": "continua a República Árabe do Iémen (unificação 1990)"
+  },
+  {
+   "id": "104",
+   "name": "Myanmar",
+   "year": 1948,
+   "note": "admitido como Birmânia"
+  },
+  {
+   "id": "376",
+   "name": "Israel",
+   "year": 1949,
+   "note": null
+  },
+  {
+   "id": "360",
+   "name": "Indonésia",
+   "year": 1950,
+   "note": null
+  },
+  {
+   "id": "008",
+   "name": "Albânia",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "040",
+   "name": "Áustria",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "100",
+   "name": "Bulgária",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "116",
+   "name": "Camboja",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "144",
+   "name": "Sri Lanka",
+   "year": 1955,
+   "note": "admitido como Ceilão"
+  },
+  {
+   "id": "246",
+   "name": "Finlândia",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "348",
+   "name": "Hungria",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "372",
+   "name": "Irlanda",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "380",
+   "name": "Itália",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "400",
+   "name": "Jordânia",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "418",
+   "name": "Laos",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "434",
+   "name": "Líbia",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "524",
+   "name": "Nepal",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "620",
+   "name": "Portugal",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "642",
+   "name": "Roménia",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "724",
+   "name": "Espanha",
+   "year": 1955,
+   "note": null
+  },
+  {
+   "id": "392",
+   "name": "Japão",
+   "year": 1956,
+   "note": null
+  },
+  {
+   "id": "504",
+   "name": "Marrocos",
+   "year": 1956,
+   "note": null
+  },
+  {
+   "id": "729",
+   "name": "Sudão",
+   "year": 1956,
+   "note": null
+  },
+  {
+   "id": "788",
+   "name": "Tunísia",
+   "year": 1956,
+   "note": null
+  },
+  {
+   "id": "288",
+   "name": "Gana",
+   "year": 1957,
+   "note": null
+  },
+  {
+   "id": "458",
+   "name": "Malásia",
+   "year": 1957,
+   "note": "admitida como Federação da Malaia"
+  },
+  {
+   "id": "324",
+   "name": "Guiné",
+   "year": 1958,
+   "note": null
+  },
+  {
+   "id": "120",
+   "name": "Camarões",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "140",
+   "name": "República Centro-Africana",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "148",
+   "name": "Chade",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "178",
+   "name": "Congo",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "180",
+   "name": "RD Congo",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "196",
+   "name": "Chipre",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "204",
+   "name": "Benim",
+   "year": 1960,
+   "note": "admitido como Daomé"
+  },
+  {
+   "id": "266",
+   "name": "Gabão",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "384",
+   "name": "Costa do Marfim",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "450",
+   "name": "Madagáscar",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "466",
+   "name": "Mali",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "562",
+   "name": "Níger",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "566",
+   "name": "Nigéria",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "686",
+   "name": "Senegal",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "706",
+   "name": "Somália",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "768",
+   "name": "Togo",
+   "year": 1960,
+   "note": null
+  },
+  {
+   "id": "854",
+   "name": "Burkina Faso",
+   "year": 1960,
+   "note": "admitido como Alto Volta"
+  },
+  {
+   "id": "478",
+   "name": "Mauritânia",
+   "year": 1961,
+   "note": null
+  },
+  {
+   "id": "496",
+   "name": "Mongólia",
+   "year": 1961,
+   "note": null
+  },
+  {
+   "id": "694",
+   "name": "Serra Leoa",
+   "year": 1961,
+   "note": null
+  },
+  {
+   "id": "834",
+   "name": "Tanzânia",
+   "year": 1961,
+   "note": "continua o Tanganica (união com Zanzibar em 1964)"
+  },
+  {
+   "id": "012",
+   "name": "Argélia",
+   "year": 1962,
+   "note": null
+  },
+  {
+   "id": "108",
+   "name": "Burundi",
+   "year": 1962,
+   "note": null
+  },
+  {
+   "id": "388",
+   "name": "Jamaica",
+   "year": 1962,
+   "note": null
+  },
+  {
+   "id": "646",
+   "name": "Ruanda",
+   "year": 1962,
+   "note": null
+  },
+  {
+   "id": "780",
+   "name": "Trindade e Tobago",
+   "year": 1962,
+   "note": null
+  },
+  {
+   "id": "800",
+   "name": "Uganda",
+   "year": 1962,
+   "note": null
+  },
+  {
+   "id": "404",
+   "name": "Quénia",
+   "year": 1963,
+   "note": null
+  },
+  {
+   "id": "414",
+   "name": "Kuwait",
+   "year": 1963,
+   "note": null
+  },
+  {
+   "id": "454",
+   "name": "Malawi",
+   "year": 1964,
+   "note": null
+  },
+  {
+   "id": "470",
+   "name": "Malta",
+   "year": 1964,
+   "note": null
+  },
+  {
+   "id": "894",
+   "name": "Zâmbia",
+   "year": 1964,
+   "note": null
+  },
+  {
+   "id": "270",
+   "name": "Gâmbia",
+   "year": 1965,
+   "note": null
+  },
+  {
+   "id": "462",
+   "name": "Maldivas",
+   "year": 1965,
+   "note": null
+  },
+  {
+   "id": "702",
+   "name": "Singapura",
+   "year": 1965,
+   "note": null
+  },
+  {
+   "id": "052",
+   "name": "Barbados",
+   "year": 1966,
+   "note": null
+  },
+  {
+   "id": "072",
+   "name": "Botsuana",
+   "year": 1966,
+   "note": null
+  },
+  {
+   "id": "328",
+   "name": "Guiana",
+   "year": 1966,
+   "note": null
+  },
+  {
+   "id": "426",
+   "name": "Lesoto",
+   "year": 1966,
+   "note": null
+  },
+  {
+   "id": "226",
+   "name": "Guiné Equatorial",
+   "year": 1968,
+   "note": null
+  },
+  {
+   "id": "480",
+   "name": "Maurícia",
+   "year": 1968,
+   "note": null
+  },
+  {
+   "id": "748",
+   "name": "Essuatíni",
+   "year": 1968,
+   "note": "admitido como Suazilândia"
+  },
+  {
+   "id": "242",
+   "name": "Fiji",
+   "year": 1970,
+   "note": null
+  },
+  {
+   "id": "048",
+   "name": "Barém",
+   "year": 1971,
+   "note": null
+  },
+  {
+   "id": "064",
+   "name": "Butão",
+   "year": 1971,
+   "note": null
+  },
+  {
+   "id": "512",
+   "name": "Omã",
+   "year": 1971,
+   "note": null
+  },
+  {
+   "id": "634",
+   "name": "Catar",
+   "year": 1971,
+   "note": null
+  },
+  {
+   "id": "784",
+   "name": "Emirados Árabes Unidos",
+   "year": 1971,
+   "note": null
+  },
+  {
+   "id": "044",
+   "name": "Bahamas",
+   "year": 1973,
+   "note": null
+  },
+  {
+   "id": "276",
+   "name": "Alemanha",
+   "year": 1973,
+   "note": "continua a RFA (unificação 1990)"
+  },
+  {
+   "id": "050",
+   "name": "Bangladesh",
+   "year": 1974,
+   "note": null
+  },
+  {
+   "id": "308",
+   "name": "Granada",
+   "year": 1974,
+   "note": null
+  },
+  {
+   "id": "624",
+   "name": "Guiné-Bissau",
+   "year": 1974,
+   "note": null
+  },
+  {
+   "id": "132",
+   "name": "Cabo Verde",
+   "year": 1975,
+   "note": null
+  },
+  {
+   "id": "174",
+   "name": "Comores",
+   "year": 1975,
+   "note": null
+  },
+  {
+   "id": "508",
+   "name": "Moçambique",
+   "year": 1975,
+   "note": null
+  },
+  {
+   "id": "598",
+   "name": "Papua-Nova Guiné",
+   "year": 1975,
+   "note": null
+  },
+  {
+   "id": "678",
+   "name": "São Tomé e Príncipe",
+   "year": 1975,
+   "note": null
+  },
+  {
+   "id": "740",
+   "name": "Suriname",
+   "year": 1975,
+   "note": null
+  },
+  {
+   "id": "024",
+   "name": "Angola",
+   "year": 1976,
+   "note": null
+  },
+  {
+   "id": "882",
+   "name": "Samoa",
+   "year": 1976,
+   "note": null
+  },
+  {
+   "id": "690",
+   "name": "Seicheles",
+   "year": 1976,
+   "note": null
+  },
+  {
+   "id": "262",
+   "name": "Djibuti",
+   "year": 1977,
+   "note": null
+  },
+  {
+   "id": "704",
+   "name": "Vietname",
+   "year": 1977,
+   "note": null
+  },
+  {
+   "id": "212",
+   "name": "Domínica",
+   "year": 1978,
+   "note": null
+  },
+  {
+   "id": "090",
+   "name": "Ilhas Salomão",
+   "year": 1978,
+   "note": null
+  },
+  {
+   "id": "662",
+   "name": "Santa Lúcia",
+   "year": 1979,
+   "note": null
+  },
+  {
+   "id": "670",
+   "name": "São Vicente e Granadinas",
+   "year": 1980,
+   "note": null
+  },
+  {
+   "id": "716",
+   "name": "Zimbabué",
+   "year": 1980,
+   "note": null
+  },
+  {
+   "id": "028",
+   "name": "Antígua e Barbuda",
+   "year": 1981,
+   "note": null
+  },
+  {
+   "id": "084",
+   "name": "Belize",
+   "year": 1981,
+   "note": null
+  },
+  {
+   "id": "548",
+   "name": "Vanuatu",
+   "year": 1981,
+   "note": null
+  },
+  {
+   "id": "659",
+   "name": "São Cristóvão e Neves",
+   "year": 1983,
+   "note": null
+  },
+  {
+   "id": "096",
+   "name": "Brunei",
+   "year": 1984,
+   "note": null
+  },
+  {
+   "id": "438",
+   "name": "Listenstaine",
+   "year": 1990,
+   "note": null
+  },
+  {
+   "id": "516",
+   "name": "Namíbia",
+   "year": 1990,
+   "note": null
+  },
+  {
+   "id": "408",
+   "name": "Coreia do Norte",
+   "year": 1991,
+   "note": null
+  },
+  {
+   "id": "233",
+   "name": "Estónia",
+   "year": 1991,
+   "note": null
+  },
+  {
+   "id": "428",
+   "name": "Letónia",
+   "year": 1991,
+   "note": null
+  },
+  {
+   "id": "440",
+   "name": "Lituânia",
+   "year": 1991,
+   "note": null
+  },
+  {
+   "id": "584",
+   "name": "Ilhas Marshall",
+   "year": 1991,
+   "note": null
+  },
+  {
+   "id": "583",
+   "name": "Micronésia",
+   "year": 1991,
+   "note": null
+  },
+  {
+   "id": "410",
+   "name": "Coreia do Sul",
+   "year": 1991,
+   "note": null
+  },
+  {
+   "id": "051",
+   "name": "Arménia",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "031",
+   "name": "Azerbaijão",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "070",
+   "name": "Bósnia e Herzegovina",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "191",
+   "name": "Croácia",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "268",
+   "name": "Geórgia",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "398",
+   "name": "Cazaquistão",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "417",
+   "name": "Quirguistão",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "498",
+   "name": "Moldávia",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "674",
+   "name": "São Marinho",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "705",
+   "name": "Eslovénia",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "762",
+   "name": "Tajiquistão",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "795",
+   "name": "Turquemenistão",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "860",
+   "name": "Usbequistão",
+   "year": 1992,
+   "note": null
+  },
+  {
+   "id": "020",
+   "name": "Andorra",
+   "year": 1993,
+   "note": null
+  },
+  {
+   "id": "203",
+   "name": "Chéquia",
+   "year": 1993,
+   "note": "sucessora da Checoslováquia (membro desde 1945)"
+  },
+  {
+   "id": "232",
+   "name": "Eritreia",
+   "year": 1993,
+   "note": null
+  },
+  {
+   "id": "492",
+   "name": "Mónaco",
+   "year": 1993,
+   "note": null
+  },
+  {
+   "id": "703",
+   "name": "Eslováquia",
+   "year": 1993,
+   "note": "sucessora da Checoslováquia (membro desde 1945)"
+  },
+  {
+   "id": "807",
+   "name": "Macedónia do Norte",
+   "year": 1993,
+   "note": null
+  },
+  {
+   "id": "585",
+   "name": "Palau",
+   "year": 1994,
+   "note": null
+  },
+  {
+   "id": "296",
+   "name": "Quiribáti",
+   "year": 1999,
+   "note": null
+  },
+  {
+   "id": "520",
+   "name": "Nauru",
+   "year": 1999,
+   "note": null
+  },
+  {
+   "id": "776",
+   "name": "Tonga",
+   "year": 1999,
+   "note": null
+  },
+  {
+   "id": "688",
+   "name": "Sérvia",
+   "year": 2000,
+   "note": "admitida como RF da Jugoslávia"
+  },
+  {
+   "id": "798",
+   "name": "Tuvalu",
+   "year": 2000,
+   "note": null
+  },
+  {
+   "id": "756",
+   "name": "Suíça",
+   "year": 2002,
+   "note": null
+  },
+  {
+   "id": "626",
+   "name": "Timor-Leste",
+   "year": 2002,
+   "note": null
+  },
+  {
+   "id": "499",
+   "name": "Montenegro",
+   "year": 2006,
+   "note": null
+  },
+  {
+   "id": "728",
+   "name": "Sudão do Sul",
+   "year": 2011,
+   "note": null
+  }
+ ],
+ "totals": [
+  {
+   "year": 1945,
+   "total": 51
+  },
+  {
+   "year": 1946,
+   "total": 55
+  },
+  {
+   "year": 1947,
+   "total": 57
+  },
+  {
+   "year": 1948,
+   "total": 58
+  },
+  {
+   "year": 1949,
+   "total": 59
+  },
+  {
+   "year": 1950,
+   "total": 60
+  },
+  {
+   "year": 1951,
+   "total": 60
+  },
+  {
+   "year": 1952,
+   "total": 60
+  },
+  {
+   "year": 1953,
+   "total": 60
+  },
+  {
+   "year": 1954,
+   "total": 60
+  },
+  {
+   "year": 1955,
+   "total": 76
+  },
+  {
+   "year": 1956,
+   "total": 80
+  },
+  {
+   "year": 1957,
+   "total": 82
+  },
+  {
+   "year": 1958,
+   "total": 82
+  },
+  {
+   "year": 1959,
+   "total": 82
+  },
+  {
+   "year": 1960,
+   "total": 99
+  },
+  {
+   "year": 1961,
+   "total": 104
+  },
+  {
+   "year": 1962,
+   "total": 110
+  },
+  {
+   "year": 1963,
+   "total": 113
+  },
+  {
+   "year": 1964,
+   "total": 115
+  },
+  {
+   "year": 1965,
+   "total": 117
+  },
+  {
+   "year": 1966,
+   "total": 122
+  },
+  {
+   "year": 1967,
+   "total": 123
+  },
+  {
+   "year": 1968,
+   "total": 126
+  },
+  {
+   "year": 1969,
+   "total": 126
+  },
+  {
+   "year": 1970,
+   "total": 127
+  },
+  {
+   "year": 1971,
+   "total": 132
+  },
+  {
+   "year": 1972,
+   "total": 132
+  },
+  {
+   "year": 1973,
+   "total": 135
+  },
+  {
+   "year": 1974,
+   "total": 138
+  },
+  {
+   "year": 1975,
+   "total": 144
+  },
+  {
+   "year": 1976,
+   "total": 147
+  },
+  {
+   "year": 1977,
+   "total": 149
+  },
+  {
+   "year": 1978,
+   "total": 151
+  },
+  {
+   "year": 1979,
+   "total": 152
+  },
+  {
+   "year": 1980,
+   "total": 154
+  },
+  {
+   "year": 1981,
+   "total": 157
+  },
+  {
+   "year": 1982,
+   "total": 157
+  },
+  {
+   "year": 1983,
+   "total": 158
+  },
+  {
+   "year": 1984,
+   "total": 159
+  },
+  {
+   "year": 1985,
+   "total": 159
+  },
+  {
+   "year": 1986,
+   "total": 159
+  },
+  {
+   "year": 1987,
+   "total": 159
+  },
+  {
+   "year": 1988,
+   "total": 159
+  },
+  {
+   "year": 1989,
+   "total": 159
+  },
+  {
+   "year": 1990,
+   "total": 159
+  },
+  {
+   "year": 1991,
+   "total": 166
+  },
+  {
+   "year": 1992,
+   "total": 179
+  },
+  {
+   "year": 1993,
+   "total": 184
+  },
+  {
+   "year": 1994,
+   "total": 185
+  },
+  {
+   "year": 1995,
+   "total": 185
+  },
+  {
+   "year": 1996,
+   "total": 185
+  },
+  {
+   "year": 1997,
+   "total": 185
+  },
+  {
+   "year": 1998,
+   "total": 185
+  },
+  {
+   "year": 1999,
+   "total": 188
+  },
+  {
+   "year": 2000,
+   "total": 189
+  },
+  {
+   "year": 2001,
+   "total": 189
+  },
+  {
+   "year": 2002,
+   "total": 191
+  },
+  {
+   "year": 2003,
+   "total": 191
+  },
+  {
+   "year": 2004,
+   "total": 191
+  },
+  {
+   "year": 2005,
+   "total": 191
+  },
+  {
+   "year": 2006,
+   "total": 192
+  },
+  {
+   "year": 2007,
+   "total": 192
+  },
+  {
+   "year": 2008,
+   "total": 192
+  },
+  {
+   "year": 2009,
+   "total": 192
+  },
+  {
+   "year": 2010,
+   "total": 192
+  },
+  {
+   "year": 2011,
+   "total": 193
+  },
+  {
+   "year": 2012,
+   "total": 193
+  },
+  {
+   "year": 2013,
+   "total": 193
+  },
+  {
+   "year": 2014,
+   "total": 193
+  },
+  {
+   "year": 2015,
+   "total": 193
+  },
+  {
+   "year": 2016,
+   "total": 193
+  },
+  {
+   "year": 2017,
+   "total": 193
+  },
+  {
+   "year": 2018,
+   "total": 193
+  },
+  {
+   "year": 2019,
+   "total": 193
+  },
+  {
+   "year": 2020,
+   "total": 193
+  },
+  {
+   "year": 2021,
+   "total": 193
+  },
+  {
+   "year": 2022,
+   "total": 193
+  },
+  {
+   "year": 2023,
+   "total": 193
+  },
+  {
+   "year": 2024,
+   "total": 193
+  },
+  {
+   "year": 2025,
+   "total": 193
+  },
+  {
+   "year": 2026,
+   "total": 193
+  }
+ ],
+ "notes": [
+  "1958: Síria e Egito formam a República Árabe Unida (um só membro).",
+  "1961: a Síria retoma a qualidade de membro separada.",
+  "1964: Tanganica e Zanzibar unem-se na República Unida da Tanzânia.",
+  "1965–1966: a Indonésia retira-se temporariamente e regressa.",
+  "1990: unificação do Iémen (maio) e da Alemanha (outubro).",
+  "1993: Chéquia e Eslováquia admitidas após a dissolução da Checoslováquia, membro original.",
+  "2000: a RF da Jugoslávia (atual Sérvia) é admitida; a RSF da Jugoslávia, membro original, sai do registo."
+ ],
+ "summary": {
+  "current": 193,
+  "foundingStillMembers": 49,
+  "joinedAfter1945": 144,
+  "joinedAfter1945Pct": 74.6,
+  "admitted1960": 17,
+  "byDecade": [
+   [
+    "1945",
+    49
+   ],
+   [
+    "1940s",
+    8
+   ],
+   [
+    "1950s",
+    24
+   ],
+   [
+    "1960s",
+    42
+   ],
+   [
+    "1970s",
+    25
+   ],
+   [
+    "1980s",
+    7
+   ],
+   [
+    "1990s",
+    32
+   ],
+   [
+    "2000s",
+    5
+   ],
+   [
+    "2010s",
+    1
+   ]
+  ],
+  "lusofonos": [
+   "Guiné-Bissau (1974)",
+   "Cabo Verde (1975)",
+   "Moçambique (1975)",
+   "São Tomé e Príncipe (1975)",
+   "Angola (1976)",
+   "Timor-Leste (2002)"
+  ]
+ },
+ "mapNonMembers": {
+  "158": "Taiwan (sem lugar desde 1971)",
+  "275": "Palestina (Estado observador)",
+  "732": "Sara Ocidental (território não autónomo)",
+  "Kosovo": "Kosovo (não membro)"
+ },
+ "mapTerritories": {
+  "238": "Ilhas Falkland (Reino Unido)",
+  "260": "Terras Austrais Francesas",
+  "304": "Gronelândia (Dinamarca)",
+  "540": "Nova Caledónia (França)",
+  "630": "Porto Rico (EUA)"
+ },
+ "mapAlias": {
+  "N. Cyprus": "196",
+  "Somaliland": "706"
+ }
+}

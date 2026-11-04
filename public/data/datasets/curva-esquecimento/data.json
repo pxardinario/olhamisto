@@ -1,0 +1,63 @@
+{
+ "rows": [
+  {
+   "label": "20 min",
+   "hoursE": 0.33,
+   "hoursD": 0.33,
+   "ebbinghaus": 58.2,
+   "dros": 47.2
+  },
+  {
+   "label": "1 hora",
+   "hoursE": 1,
+   "hoursD": 1,
+   "ebbinghaus": 44.2,
+   "dros": 37.3
+  },
+  {
+   "label": "9 horas",
+   "hoursE": 8.8,
+   "hoursD": 9,
+   "ebbinghaus": 35.8,
+   "dros": 27.6
+  },
+  {
+   "label": "1 dia",
+   "hoursE": 24,
+   "hoursD": 24,
+   "ebbinghaus": 33.7,
+   "dros": 31.7
+  },
+  {
+   "label": "2 dias",
+   "hoursE": 48,
+   "hoursD": 48,
+   "ebbinghaus": 27.8,
+   "dros": 23
+  },
+  {
+   "label": "6 dias",
+   "hoursE": 144,
+   "hoursD": 144,
+   "ebbinghaus": 25.4,
+   "dros": 16.8
+  },
+  {
+   "label": "31 dias",
+   "hoursE": 744,
+   "hoursD": 744,
+   "ebbinghaus": 21.1,
+   "dros": 4.1
+  }
+ ],
+ "summary": {
+  "e20min": 58.2,
+  "e1h": 44.2,
+  "e1d": 33.7,
+  "e31d": 21.1,
+  "dropFirstHourPts": 14,
+  "dropDay2to31Pts": 6.7,
+  "bumpE": -2.1,
+  "bumpD": 4.1
+ }
+}

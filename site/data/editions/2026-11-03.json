@@ -1,0 +1,233 @@
+{
+  "schema": "ronda-visual/edition@1",
+  "date": "2026-11-03",
+  "number": 1,
+  "status": "publicada",
+  "opening": "Cinco histórias sobre ciclos: o das eleições que castigam quem governa, o dos impérios que se desfizeram em Estados, o da habitação portuguesa, o da eletricidade irlandesa — e o da própria memória.",
+  "lead": "onu-crescimento",
+  "generatedAt": "2026-11-03T12:00:00Z",
+  "limitations": [
+    "Candidata rejeitada: comparação dos 27 países da UE (preços das casas vs. rendas, 2015–2025). O Eurostat publica os valores por país apenas em gráfico de imagem e o acesso direto à base de dados não estava disponível neste ambiente; a peça foi substituída pela série real do BIS para Portugal."
+  ],
+  "pieces": [
+    {
+      "id": "onu-crescimento",
+      "slug": "onu-membros-mapa",
+      "kind": "descoberta",
+      "theme": "historia",
+      "themeLabel": "História e geopolítica",
+      "vizType": "mapa",
+      "vizLabel": "Mapa interativo + linha temporal",
+      "interactive": true,
+      "title": "Em 1945, a ONU tinha 51 membros. Três quartos dos atuais chegaram depois",
+      "question": "Como cresceu a ONU e o que esse crescimento revela sobre o fim dos impérios?",
+      "finding": "144 dos 193 membros atuais (75%) entraram depois da fundação, em vagas ligadas à descolonização e ao fim da URSS e da Jugoslávia.",
+      "context": "A Organização das Nações Unidas nasceu em outubro de 1945 com 51 Estados fundadores. Hoje tem 193. O crescimento não foi gradual: chegou em vagas, cada uma associada ao desmoronamento de uma ordem política — os impérios coloniais europeus, a União Soviética, a Jugoslávia. Arraste a linha do tempo para ver o mapa político mundial a preencher-se.",
+      "interpretation": "Dos 193 membros atuais, 144 entraram depois da fundação. Só em 1960 foram admitidos 17 Estados, 16 deles africanos. Portugal entrou em 1955; as suas antigas colónias chegaram entre 1974 e 1976, logo após o 25 de Abril, e Timor-Leste em 2002. O mapa mostra quando entrou o Estado atual, que nem sempre coincide com a data da independência.",
+      "chart": {
+        "type": "un-map",
+        "dataset": "onu-crescimento"
+      },
+      "period": "1945–2011 (última admissão: Sudão do Sul, 2011)",
+      "unit": "Estados-membros; ano de admissão",
+      "sources": [
+        {
+          "name": "Nações Unidas — Growth in United Nations membership",
+          "url": "https://www.un.org/en/node/122664",
+          "accessed": "2026-11-03"
+        },
+        {
+          "name": "Natural Earth / world-atlas 2.0 (geometrias 1:110M)",
+          "url": "https://github.com/topojson/world-atlas",
+          "accessed": "2026-11-03"
+        }
+      ],
+      "method": [
+        "Cada Estado atual recebe o ano da sua própria admissão. Exceções por continuidade jurídica: Rússia (continua a URSS, 1945), Bielorrússia e Ucrânia (1945), Alemanha (RFA, 1973), Iémen (República Árabe do Iémen, 1947), Tanzânia (Tanganica, 1961).",
+        "Chéquia, Eslováquia (1993) e Sérvia (2000) foram admitidas como novos membros após a dissolução da Checoslováquia e da Jugoslávia, ambas fundadoras; o mapa usa a data de 1993/2000.",
+        "O contador mostra o total oficial de membros em cada ano (inclui fusões: p. ex. 1958 e 1990).",
+        "Territórios dependentes (Gronelândia, Porto Rico, etc.) e entidades não membros (Sara Ocidental, Palestina, Taiwan, Kosovo) aparecem a cinzento-claro. Microestados não visíveis à escala 1:110M constam da tabela de dados."
+      ],
+      "verification": {
+        "status": "verificada",
+        "by": "verificador independente (agente H, sessão separada)",
+        "date": "2026-11-03"
+      }
+    },
+    {
+      "id": "portugal-habitacao-real",
+      "slug": "habitacao-portugal-real",
+      "kind": "descoberta",
+      "theme": "portugal",
+      "themeLabel": "Portugal e economia",
+      "vizType": "linha",
+      "vizLabel": "Linhas temporais interativas",
+      "interactive": true,
+      "title": "Doze anos a descer, treze a subir: o ciclo real das casas em Portugal",
+      "question": "Descontada a inflação, como evoluíram os preços da habitação em Portugal face à zona euro?",
+      "finding": "O preço real caiu 34% entre o fim de 2000 e meados de 2013 e subiu 155% desde então; a zona euro subiu 25% no mesmo período.",
+      "context": "Os números nominais escondem metade da história. Descontada a inflação, os preços da habitação em Portugal atingiram um máximo no fim de 2000 e caíram durante doze anos e meio, atravessando a crise financeira e o programa de ajustamento. Entre o fim de 2010 e meados de 2017, o índice real esteve abaixo do nível de 1988.",
+      "interpretation": "A partir do mínimo do 2.º trimestre de 2013, o preço real subiu 155% até ao 1.º trimestre de 2026; na zona euro, no mesmo intervalo, a subida foi de 25%. Não se trata apenas de recuperar o perdido: o índice está 67% acima do máximo de 2000. Atenção ao que o gráfico não mede: preços face à inflação, não acessibilidade face aos rendimentos.",
+      "chart": {
+        "type": "house-lines",
+        "dataset": "portugal-habitacao-real"
+      },
+      "period": "1.º trimestre de 1988 – 1.º trimestre de 2026",
+      "unit": "Índice real (2010 = 100), deflacionado pelo IPC",
+      "sources": [
+        {
+          "name": "BIS Residential Property Price database, via FRED — Real Residential Property Prices for Portugal (QPTR628BIS)",
+          "url": "https://fred.stlouisfed.org/series/QPTR628BIS",
+          "accessed": "2026-11-03"
+        },
+        {
+          "name": "BIS via FRED — Real Residential Property Prices for Euro area (QXMR628BIS)",
+          "url": "https://fred.stlouisfed.org/series/QXMR628BIS",
+          "accessed": "2026-11-03"
+        }
+      ],
+      "method": [
+        "Séries trimestrais do BIS, preços nominais de todos os tipos de habitação nova e existente, deflacionados pelo IPC (definição do BIS). Atualização FRED de 31-07-2026.",
+        "Variações calculadas sobre os valores trimestrais: máximo pré-crise 2000T4 = 122,0; mínimo 2013T2 = 80,0; último 2026T1 = 203,8.",
+        "A zona euro é um agregado ponderado do BIS de composição variável. Escala começa em 60 (não em zero) por ser uma série de índice; a referência visual é a linha 100 (2010)."
+      ],
+      "verification": {
+        "status": "verificada",
+        "by": "verificador independente (agente H, sessão separada)",
+        "date": "2026-11-03"
+      }
+    },
+    {
+      "id": "eua-intercalares",
+      "slug": "intercalares-eua-1946-2022",
+      "kind": "atualidade",
+      "theme": "politica",
+      "themeLabel": "Política internacional",
+      "vizType": "barras",
+      "vizLabel": "Barras divergentes + dispersão",
+      "interactive": true,
+      "title": "Hoje vota-se nos EUA. Desde 1946, o partido do presidente perdeu lugares em 18 de 20 intercalares",
+      "question": "Quão sólida é a regra de que as eleições intercalares castigam o partido do presidente?",
+      "finding": "Perda média de 26 lugares na Câmara; 35 quando a aprovação do presidente estava abaixo de 50%, 15 quando estava acima.",
+      "context": "Os norte-americanos votam hoje para renovar a totalidade da Câmara dos Representantes e cerca de um terço do Senado, a meio do mandato presidencial. A regularidade histórica é das mais estáveis da política americana: as eleições intercalares tendem a castigar o partido que ocupa a Casa Branca.",
+      "interpretation": "Em média, o partido presidencial perdeu 26 lugares na Câmara. Com a aprovação Gallup abaixo de 50%, a perda média foi de 35; acima, de 15. As duas exceções — 1998 e 2002 — coincidiram com aprovações de 65% e 67%. É uma regularidade, não uma previsão: em 2022, com 40% de aprovação, a perda foi de apenas 9 lugares.",
+      "chart": {
+        "type": "midterms",
+        "dataset": "eua-intercalares"
+      },
+      "period": "Eleições intercalares de 1946 a 2022 (série completa desde 1934 na tabela)",
+      "unit": "Lugares ganhos/perdidos pelo partido do presidente",
+      "sources": [
+        {
+          "name": "The American Presidency Project (UC Santa Barbara) — Seats in Congress Gained/Lost by the President's Party in Mid-Term Elections",
+          "url": "https://presidency.ucsb.edu/node/332343",
+          "accessed": "2026-11-03"
+        }
+      ],
+      "method": [
+        "Variação de lugares do partido do presidente face à eleição anterior, resultados imediatos (sem eleições especiais).",
+        "Aprovação: Gallup, fim de outubro; quando indisponível, último valor anterior (início de setembro/outubro em 1942, 1954, 1958, 1970, 1974, 1986).",
+        "Médias por grupo de aprovação calculadas por nós sobre 1946–2022 (n = 9 com ≥ 50%; n = 11 com < 50%). Correlação, não causalidade.",
+        "Em 1974 o presidente era Gerald Ford, três meses após a demissão de Nixon."
+      ],
+      "verification": {
+        "status": "verificada",
+        "by": "verificador independente (agente H, sessão separada)",
+        "date": "2026-11-03"
+      }
+    },
+    {
+      "id": "irlanda-centros-dados",
+      "slug": "irlanda-centros-dados-eletricidade",
+      "kind": "atualidade",
+      "theme": "tecnologia",
+      "themeLabel": "Tecnologia e IA",
+      "vizType": "area",
+      "vizLabel": "Área empilhada (estática)",
+      "interactive": false,
+      "title": "Três quartos do aumento do consumo elétrico da Irlanda numa década foram para centros de dados",
+      "question": "Quanto do crescimento do consumo elétrico irlandês se deve aos centros de dados?",
+      "finding": "Os centros de dados absorveram 77% do aumento do consumo medido entre 2015 e 2025; os restantes consumidores cresceram 8%.",
+      "context": "A Irlanda tornou-se um caso-limite da expansão da computação em nuvem e da inteligência artificial na Europa. Em julho, o instituto de estatística irlandês (CSO) publicou a série 2015–2025 da eletricidade medida consumida pelos centros de dados, a partir dos contadores da rede elétrica nacional.",
+      "interpretation": "O consumo dos centros de dados multiplicou-se por 6,2 e chegou a 23% do total em 2025 — mais do que as habitações urbanas (18%), ainda abaixo do conjunto das habitações (28%). Os restantes consumidores cresceram apenas 8% em dez anos. Por isso, 77% do aumento do consumo nacional coube aos centros de dados.",
+      "chart": {
+        "type": "ireland-area",
+        "dataset": "irlanda-centros-dados"
+      },
+      "period": "2015–2025, anual",
+      "unit": "Gigawatts-hora (GWh) de eletricidade medida",
+      "sources": [
+        {
+          "name": "CSO — Data Centres Metered Electricity Consumption 2025 (Tabela 1 e comentário do estatístico), 07-07-2026",
+          "url": "https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2025/keyfindings/",
+          "accessed": "2026-11-03"
+        },
+        {
+          "name": "CSO — Notas metodológicas da publicação",
+          "url": "https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2025/backgroundnotes/",
+          "accessed": "2026-11-03"
+        }
+      ],
+      "method": [
+        "Dados de contadores da ESB Networks extraídos pelo CSO. 'Outros consumidores' = total medido − centros de dados (coluna publicada).",
+        "Quota de 77%: (7 663 − 1 240) / (32 986 − 24 600) GWh. Cálculo nosso a partir da Tabela 1.",
+        "Habitações urbanas (18%), rurais (9%) e total residencial (28%) em 2025: valores arredondados publicados pelo CSO.",
+        "Cobre apenas eletricidade registada nos contadores ligados à rede (ESB Networks); eventual produção no local não está incluída."
+      ],
+      "verification": {
+        "status": "verificada",
+        "by": "verificador independente (agente H, sessão separada)",
+        "date": "2026-11-03"
+      }
+    },
+    {
+      "id": "curva-esquecimento",
+      "slug": "ebbinghaus-curva-esquecimento",
+      "kind": "descoberta",
+      "theme": "ciencia",
+      "themeLabel": "Ciência e comportamento",
+      "vizType": "linha",
+      "vizLabel": "Curvas com escala logarítmica alternável",
+      "interactive": true,
+      "title": "Ebbinghaus esqueceu mais em 40 minutos do que em quatro semanas",
+      "question": "Qual é a forma real do esquecimento, e resistiu a uma replicação moderna?",
+      "finding": "No ensaio original, a poupança cai 14 pontos entre 20 minutos e 1 hora e só 6,7 pontos entre o 2.º e o 31.º dia; a réplica de 2015 confirma a forma, mas esquece mais a longo prazo.",
+      "context": "Em 1879–1880, com testes de controlo em 1883–84, Hermann Ebbinghaus decorou milhares de sílabas sem sentido e mediu quanto tempo poupava ao reaprendê-las após um intervalo. Essa «poupança» deu origem à curva do esquecimento que ainda hoje aparece nos manuais. Em 2015, investigadores da Universidade de Amesterdão repetiram a experiência com o mesmo método, ao longo de cerca de 70 horas de estudo.",
+      "interpretation": "O padrão repete-se: queda acentuada nas primeiras horas, declínio lento depois. Na escala logarítmica, a curva de 1885 aproxima-se de uma reta. A réplica esqueceu bastante mais ao fim de um mês e poupou mais ao fim de um dia do que ao fim de nove horas — um efeito que os autores admitem poder dever-se ao sono, sem o demonstrarem. Ambos os estudos têm um único participante.",
+      "chart": {
+        "type": "forgetting",
+        "dataset": "curva-esquecimento"
+      },
+      "period": "Intervalos de 20 minutos a 31 dias",
+      "unit": "Poupança no tempo de reaprendizagem (%)",
+      "sources": [
+        {
+          "name": "Ebbinghaus, H. (1885/1913). Memory: A Contribution to Experimental Psychology, cap. VII, §28–30",
+          "url": "https://psychclassics.yorku.ca/Ebbinghaus/memory7.htm",
+          "accessed": "2026-11-03"
+        },
+        {
+          "name": "Murre, J. M. J. & Dros, J. (2015). Replication and Analysis of Ebbinghaus' Forgetting Curve. PLOS ONE 10(7): e0120644, Tabela 3",
+          "url": "https://doi.org/10.1371/journal.pone.0120644",
+          "accessed": "2026-11-03"
+        },
+        {
+          "name": "Murre & Dros (2015), versão publicada em PDF — repositório da Universidade de Amesterdão (Tabela 3 legível)",
+          "url": "https://pure.uva.nl/ws/files/2701916/172027_503084.pdf",
+          "accessed": "2026-11-03"
+        }
+      ],
+      "method": [
+        "Poupança = (tempo de aprendizagem − tempo de reaprendizagem) / tempo de aprendizagem. Não é a percentagem de material recordado.",
+        "Intervalos de Ebbinghaus: 0,33; 1; 8,8; 24; 48; 144; 744 horas. Réplica: idem, com 9 horas no terceiro ponto.",
+        "Réplica: 10 listas por intervalo (9 no intervalo de 9 horas). Os autores corrigem o valor aos 31 dias para 13,7% por efeito de tendência no tempo de aprendizagem; o gráfico mostra o valor não corrigido (4,1%).",
+        "A Tabela 3 do artigo é imagem nas páginas da PLOS e da PMC; os valores foram conferidos pelo verificador no PDF publicado no repositório da Universidade de Amesterdão."
+      ],
+      "verification": {
+        "status": "verificada",
+        "by": "verificador independente (agente H, sessão separada)",
+        "date": "2026-11-03"
+      }
+    }
+  ]
+}

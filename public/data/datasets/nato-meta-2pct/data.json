@@ -1,0 +1,299 @@
+{
+ "rows": [
+  {
+   "label": "Albânia",
+   "a": 1.33,
+   "b": 2.01,
+   "c": 1.48,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Bélgica",
+   "a": 0.97,
+   "b": 2,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Bulgária",
+   "a": 1.31,
+   "b": 2.06,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Canadá",
+   "a": 1.01,
+   "b": 2.01,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Croácia",
+   "a": 1.81,
+   "b": 2.03,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Chéquia",
+   "a": 0.94,
+   "b": 2,
+   "c": 1.86,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Dinamarca",
+   "a": 1.15,
+   "b": 3.22,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Estónia",
+   "a": 1.9,
+   "b": 3.38,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Finlândia",
+   "a": 1.46,
+   "b": 2.77,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "França",
+   "a": 1.82,
+   "b": 2.05,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Alemanha",
+   "a": 1.16,
+   "b": null,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Grécia",
+   "a": 2.24,
+   "b": 2.85,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Hungria",
+   "a": 0.86,
+   "b": 2.06,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Itália",
+   "a": 1.13,
+   "b": 2.01,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Letónia",
+   "a": 0.97,
+   "b": 3.73,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Lituânia",
+   "a": 0.88,
+   "b": 4,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 0.37,
+   "b": 2,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Montenegro",
+   "a": 1.5,
+   "b": 2.03,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Países Baixos",
+   "a": 1.12,
+   "b": 2.49,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Macedónia do Norte",
+   "a": 1.09,
+   "b": 2,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Noruega",
+   "a": 1.54,
+   "b": 3.35,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Polónia",
+   "a": 1.86,
+   "b": 4.48,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Portugal",
+   "a": 1.31,
+   "b": 2,
+   "c": null,
+   "highlight": true,
+   "law2pct": false
+  },
+  {
+   "label": "Roménia",
+   "a": 1.35,
+   "b": 2.28,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Eslováquia",
+   "a": 0.98,
+   "b": 2.04,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Eslovénia",
+   "a": 0.98,
+   "b": 2.02,
+   "c": 1.57,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Espanha",
+   "a": 0.92,
+   "b": 2,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Suécia",
+   "a": 1.07,
+   "b": 2.51,
+   "c": null,
+   "highlight": false,
+   "law2pct": true
+  },
+  {
+   "label": "Turquia",
+   "a": 1.45,
+   "b": 2.33,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Reino Unido",
+   "a": 2.14,
+   "b": 2.4,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  },
+  {
+   "label": "Estados Unidos",
+   "a": 3.71,
+   "b": 3.22,
+   "c": null,
+   "highlight": false,
+   "law2pct": false
+  }
+ ],
+ "config": {
+  "aLabel": "2014",
+  "bLabel": "2025 (estimativa, dados até jun. 2025)",
+  "cLabel": "2025 revisto (jul. 2026)",
+  "ref": 2,
+  "refLabel": "Meta de Gales: 2% do PIB",
+  "band": [
+   2,
+   2.05
+  ],
+  "bandLabel": "2,00–2,05%",
+  "unit": "%",
+  "decimals": 2,
+  "domain": [
+   0,
+   4.6
+  ],
+  "sorts": [
+   [
+    "b",
+    "Por 2025"
+   ],
+   [
+    "delta",
+    "Por subida"
+   ]
+  ]
+ },
+ "summary": {
+  "allies": 31,
+  "withEstimate": 30,
+  "atOrAbove2": 30,
+  "inBand": 14,
+  "exactly2": 6,
+  "in2014": 3,
+  "revisedAbove2": 24,
+  "revisedJustAbove": 12,
+  "ptA": 1.31,
+  "ptB": 2,
+  "euCanada2014": 1.4,
+  "euCanada2025e": 2.27,
+  "revised": [
+   "Chéquia 1.86%",
+   "Eslovénia 1.57%",
+   "Albânia 1.48%"
+  ]
+ }
+}

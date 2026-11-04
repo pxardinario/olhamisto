@@ -1,0 +1,128 @@
+{
+ "rows": [
+  {
+   "cat": "2015",
+   "change": 0,
+   "age": "66 anos",
+   "portaria": "387-G/2013 de 31/12"
+  },
+  {
+   "cat": "2016",
+   "change": 2,
+   "age": "66 anos e 2 meses",
+   "portaria": "277/2014 de 26/12"
+  },
+  {
+   "cat": "2017",
+   "change": 1,
+   "age": "66 anos e 3 meses",
+   "portaria": "67/2016 de 1/4"
+  },
+  {
+   "cat": "2018",
+   "change": 1,
+   "age": "66 anos e 4 meses",
+   "portaria": "99/2017 de 7/3"
+  },
+  {
+   "cat": "2019",
+   "change": 1,
+   "age": "66 anos e 5 meses",
+   "portaria": "25/2018 de 18/1"
+  },
+  {
+   "cat": "2020",
+   "change": 0,
+   "age": "66 anos e 5 meses",
+   "portaria": "50/2019 de 8/2"
+  },
+  {
+   "cat": "2021",
+   "change": 1,
+   "age": "66 anos e 6 meses",
+   "portaria": "30/2020 de 31/1"
+  },
+  {
+   "cat": "2022",
+   "change": 1,
+   "age": "66 anos e 7 meses",
+   "portaria": "53/2021 de 10/3"
+  },
+  {
+   "cat": "2023",
+   "change": -3,
+   "age": "66 anos e 4 meses",
+   "portaria": "307/2021 de 17/12"
+  },
+  {
+   "cat": "2024",
+   "change": 0,
+   "age": "66 anos e 4 meses",
+   "portaria": "292/2022 de 9/12"
+  },
+  {
+   "cat": "2025",
+   "change": 3,
+   "age": "66 anos e 7 meses",
+   "portaria": "414/2023 de 7/12"
+  },
+  {
+   "cat": "2026",
+   "change": 2,
+   "age": "66 anos e 9 meses",
+   "portaria": "358/2024/1 de 30/12"
+  },
+  {
+   "cat": "2027",
+   "change": 2,
+   "age": "66 anos e 11 meses",
+   "portaria": "476/2025/1 de 29/12"
+  }
+ ],
+ "views": [
+  {
+   "id": "change",
+   "label": "Variação",
+   "yLabel": "Variação da idade normal de acesso à pensão face ao ano anterior (meses)",
+   "unit": " meses",
+   "decimals": 0,
+   "series": [
+    {
+     "key": "change",
+     "label": "Variação anual (meses)",
+     "color": "--accent-2",
+     "negColor": "--accent"
+    }
+   ],
+   "valueLabels": true,
+   "tipExtra": [
+    {
+     "key": "age",
+     "label": "Idade nesse ano",
+     "suffix": ""
+    },
+    {
+     "key": "portaria",
+     "label": "Portaria",
+     "suffix": ""
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2023",
+     "text": "Pandemia: primeira descida",
+     "short": "Pandemia"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "age2014": "66 anos",
+  "age2022": "66 anos e 7 meses",
+  "age2023": "66 anos e 4 meses",
+  "age2027": "66 anos e 11 meses",
+  "totalMonths": 11,
+  "last3Months": 7,
+  "emv65_2023_2025": 20.19
+ }
+}

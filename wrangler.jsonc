@@ -1,0 +1,13 @@
+{
+  // Olha-me isto — site estático servido por Cloudflare Workers (static assets).
+  // O site é gerado pelo processo diário (tools/build-static.mjs) e versionado em public/.
+  // Na Cloudflare: sem comando de build; comando de deploy: npx wrangler deploy
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "olhamisto",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}

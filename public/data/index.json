@@ -1,0 +1,217 @@
+{
+ "schema": "ronda-visual/index@1",
+ "updated": "2026-11-04T11:04:31.203Z",
+ "latest": "2026-11-04",
+ "editions": [
+  {
+   "date": "2026-11-04",
+   "number": 2,
+   "lead": "inflacao-energia-2026",
+   "opening": "Cinco histórias sobre metas e preços: a energia que voltou a encarecer a vida, a que ficou mil vezes mais barata, os aliados que aterraram em cima dos 2%, a idade da reforma que a pandemia fez recuar e as crianças que Portugal deixou de perder.",
+   "pieces": [
+    {
+     "id": "inflacao-energia-2026",
+     "title": "A inflação da zona euro mais do que duplicou desde janeiro — e a energia explica toda a subida",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia",
+     "vizType": "barras",
+     "vizLabel": "Colunas empilhadas + linha · 2 vistas",
+     "interactive": true,
+     "question": "O que está a puxar a inflação da zona euro para quase o dobro da meta do BCE?",
+     "finding": "Entre janeiro e setembro de 2026 a inflação subiu 2,1 pontos (de 1,7% para 3,8%) e o contributo da energia subiu exatamente o mesmo, de −0,39 para +1,71 pontos. Sem energia, a inflação foi de 2,3% nos dois meses.",
+     "period": "Outubro de 2025 a setembro de 2026 (mensal)",
+     "dataset": "inflacao-energia-2026",
+     "sourceNames": [
+      "Eurostat — Euro indicators: Annual inflation up to 3.8% in the euro area (16 out. 2026, dados de setembro)",
+      "Eurostat — Euro indicators: Annual inflation up to 2.6% in the euro area (16 abr. 2026, dados de março)",
+      "U.S. EIA via FRED — Crude Oil Prices: Brent - Europe (MCOILBRENTEU), média mensal",
+      "Banco Mundial — Strait of Hormuz disruption sends oil prices surging (7 mai. 2026)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "nato-meta-2pct",
+     "title": "Catorze aliados da NATO aterraram entre 2,00% e 2,05% do PIB: a meta como íman",
+     "kind": "descoberta",
+     "theme": "geopolitica",
+     "themeLabel": "Geopolítica e defesa",
+     "vizType": "halteres",
+     "vizLabel": "Gráfico de halteres · ordenação alternável",
+     "interactive": true,
+     "question": "Quanto se aproximaram os aliados da meta de 2% do PIB em defesa — e porque é que tantos ficaram exatamente em cima dela?",
+     "finding": "Em 2014 só 3 aliados gastavam pelo menos 2% do PIB em defesa. Nas estimativas publicadas em agosto de 2025, os 30 com dados declaravam todos ≥ 2% e 14 ficavam entre 2,00% e 2,05% — seis exatamente em 2,00%, incluindo Portugal. Com números revistos, só 24 ultrapassaram a meta.",
+     "period": "2014 e 2025 (estimativa publicada em agosto de 2025, dados até junho; revisões de julho de 2026 para três países)",
+     "dataset": "nato-meta-2pct",
+     "sourceNames": [
+      "NATO — Defence Expenditure of NATO Countries (2014-2025), tabela 3",
+      "ICDS (Tallinn) — Defence spending: who is doing what, julho de 2026 (revisões de 2025 segundo a NATO)",
+      "NATO — Defence Investment Update: record spending in Europe and Canada (7 jul. 2026)"
+     ],
+     "verification": "parcial"
+    },
+    {
+     "id": "idade-reforma-pt",
+     "title": "A pandemia baixou a idade da reforma. Agora sobe ao ritmo mais rápido desde que segue a esperança de vida",
+     "kind": "descoberta",
+     "theme": "portugal",
+     "themeLabel": "Portugal e políticas públicas",
+     "vizType": "barras",
+     "vizLabel": "Colunas divergentes",
+     "interactive": true,
+     "question": "Como mudou a idade normal de acesso à pensão desde que passou a acompanhar a esperança de vida?",
+     "finding": "Entre 2014 e 2027 a idade normal de reforma sobe 11 meses, de 66 anos para 66 anos e 11 meses. A única descida foi em 2023 (−3 meses), reflexo da mortalidade da pandemia; desde então soma +7 meses em três anos (2025–2027), incluindo a maior subida anual da série (+3 em 2025).",
+     "period": "2015–2027 (variação face ao ano anterior; base: 2014)",
+     "dataset": "idade-reforma-pt",
+     "sourceNames": [
+      "APCMC — Idade de acesso à reforma em 2027 e fator de sustentabilidade em 2026 (quadro histórico com as portarias 2014–2027)",
+      "Segurança Social — Portaria n.º 53/2021, de 10 de março (idade de 2022: 66 anos e 7 meses)",
+      "Renascença/INE — Idade da reforma vai subir para os 66 anos e 11 meses em 2027 (28 mai. 2026)",
+      "RTP — INE: idade da reforma sobe para os 66 anos e 11 meses em 2027 (27 nov. 2025)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "solar-preco-modulos",
+     "title": "Um painel solar custa hoje mais de mil vezes menos do que em 1975",
+     "kind": "descoberta",
+     "theme": "tecnologia",
+     "themeLabel": "Tecnologia e energia",
+     "vizType": "linha",
+     "vizLabel": "Linha · escala logarítmica ⇄ linear",
+     "interactive": true,
+     "question": "Quanto ficou mais barata a eletricidade solar, na peça que mais pesava no custo — o módulo fotovoltaico?",
+     "finding": "O preço médio dos módulos fotovoltaicos caiu de 132 para 0,12 dólares por watt (a preços de 2025) entre 1975 e 2025: 1 101 vezes menos, uma queda de 99,9%. Só desde 2023 caiu 56%.",
+     "period": "1975–2025 (anual)",
+     "dataset": "solar-preco-modulos",
+     "sourceNames": [
+      "Our World in Data — Solar photovoltaic module price (IRENA 2025 e 2026; Nemet 2009; Farmer e Lafond 2016)",
+      "Our World in Data — ficheiro CSV completo"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "mortalidade-5anos-europa",
+     "title": "Em 1960, mais de uma em cada nove crianças portuguesas morria antes dos cinco anos",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História e sociedade",
+     "vizType": "linha",
+     "vizLabel": "Linhas · escala linear ⇄ logarítmica",
+     "interactive": true,
+     "question": "Como passou Portugal da pior para uma das melhores taxas de mortalidade infantil da Europa do Sul?",
+     "finding": "Em 1960 morriam antes dos cinco anos 11,4% das crianças portuguesas — 5,8 vezes a taxa sueca e a mais alta dos seis países. Em 2024 a taxa é de 0,32%: igual à espanhola e abaixo da grega (0,38%) e da francesa (0,43%).",
+     "period": "1950–2020 de cinco em cinco anos; 2020–2024 anual",
+     "dataset": "mortalidade-5anos-europa",
+     "sourceNames": [
+      "Our World in Data — Child mortality rate (UN IGME 2025; Gapminder 2015), atualizado a 9 jun. 2026"
+     ],
+     "verification": "verificada"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "number": 1,
+   "lead": "onu-crescimento",
+   "opening": "Cinco histórias sobre ciclos: o das eleições que castigam quem governa, o dos impérios que se desfizeram em Estados, o da habitação portuguesa, o da eletricidade irlandesa — e o da própria memória.",
+   "pieces": [
+    {
+     "id": "onu-crescimento",
+     "title": "Em 1945, a ONU tinha 51 membros. Três quartos dos atuais chegaram depois",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História e geopolítica",
+     "vizType": "mapa",
+     "vizLabel": "Mapa interativo + linha temporal",
+     "interactive": true,
+     "question": "Como cresceu a ONU e o que esse crescimento revela sobre o fim dos impérios?",
+     "finding": "144 dos 193 membros atuais (75%) entraram depois da fundação, em vagas ligadas à descolonização e ao fim da URSS e da Jugoslávia.",
+     "period": "1945–2011 (última admissão: Sudão do Sul, 2011)",
+     "dataset": "onu-crescimento",
+     "sourceNames": [
+      "Nações Unidas — Growth in United Nations membership",
+      "Natural Earth / world-atlas 2.0 (geometrias 1:110M)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "portugal-habitacao-real",
+     "title": "Doze anos a descer, treze a subir: o ciclo real das casas em Portugal",
+     "kind": "descoberta",
+     "theme": "portugal",
+     "themeLabel": "Portugal e economia",
+     "vizType": "linha",
+     "vizLabel": "Linhas temporais interativas",
+     "interactive": true,
+     "question": "Descontada a inflação, como evoluíram os preços da habitação em Portugal face à zona euro?",
+     "finding": "O preço real caiu 34% entre o fim de 2000 e meados de 2013 e subiu 155% desde então; a zona euro subiu 25% no mesmo período.",
+     "period": "1.º trimestre de 1988 – 1.º trimestre de 2026",
+     "dataset": "portugal-habitacao-real",
+     "sourceNames": [
+      "BIS Residential Property Price database, via FRED — Real Residential Property Prices for Portugal (QPTR628BIS)",
+      "BIS via FRED — Real Residential Property Prices for Euro area (QXMR628BIS)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "eua-intercalares",
+     "title": "Hoje vota-se nos EUA. Desde 1946, o partido do presidente perdeu lugares em 18 de 20 intercalares",
+     "kind": "atualidade",
+     "theme": "politica",
+     "themeLabel": "Política internacional",
+     "vizType": "barras",
+     "vizLabel": "Barras divergentes + dispersão",
+     "interactive": true,
+     "question": "Quão sólida é a regra de que as eleições intercalares castigam o partido do presidente?",
+     "finding": "Perda média de 26 lugares na Câmara; 35 quando a aprovação do presidente estava abaixo de 50%, 15 quando estava acima.",
+     "period": "Eleições intercalares de 1946 a 2022 (série completa desde 1934 na tabela)",
+     "dataset": "eua-intercalares",
+     "sourceNames": [
+      "The American Presidency Project (UC Santa Barbara) — Seats in Congress Gained/Lost by the President's Party in Mid-Term Elections"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "irlanda-centros-dados",
+     "title": "Três quartos do aumento do consumo elétrico da Irlanda numa década foram para centros de dados",
+     "kind": "atualidade",
+     "theme": "tecnologia",
+     "themeLabel": "Tecnologia e IA",
+     "vizType": "area",
+     "vizLabel": "Área empilhada (estática)",
+     "interactive": false,
+     "question": "Quanto do crescimento do consumo elétrico irlandês se deve aos centros de dados?",
+     "finding": "Os centros de dados absorveram 77% do aumento do consumo medido entre 2015 e 2025; os restantes consumidores cresceram 8%.",
+     "period": "2015–2025, anual",
+     "dataset": "irlanda-centros-dados",
+     "sourceNames": [
+      "CSO — Data Centres Metered Electricity Consumption 2025 (Tabela 1 e comentário do estatístico), 07-07-2026",
+      "CSO — Notas metodológicas da publicação"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "curva-esquecimento",
+     "title": "Ebbinghaus esqueceu mais em 40 minutos do que em quatro semanas",
+     "kind": "descoberta",
+     "theme": "ciencia",
+     "themeLabel": "Ciência e comportamento",
+     "vizType": "linha",
+     "vizLabel": "Curvas com escala logarítmica alternável",
+     "interactive": true,
+     "question": "Qual é a forma real do esquecimento, e resistiu a uma replicação moderna?",
+     "finding": "No ensaio original, a poupança cai 14 pontos entre 20 minutos e 1 hora e só 6,7 pontos entre o 2.º e o 31.º dia; a réplica de 2015 confirma a forma, mas esquece mais a longo prazo.",
+     "period": "Intervalos de 20 minutos a 31 dias",
+     "dataset": "curva-esquecimento",
+     "sourceNames": [
+      "Ebbinghaus, H. (1885/1913). Memory: A Contribution to Experimental Psychology, cap. VII, §28–30",
+      "Murre, J. M. J. & Dros, J. (2015). Replication and Analysis of Ebbinghaus' Forgetting Curve. PLOS ONE 10(7): e0120644, Tabela 3",
+      "Murre & Dros (2015), versão publicada em PDF — repositório da Universidade de Amesterdão (Tabela 3 legível)"
+     ],
+     "verification": "verificada"
+    }
+   ]
+  }
+ ]
+}

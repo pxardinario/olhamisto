@@ -1,0 +1,249 @@
+{
+ "rows": [
+  {
+   "cat": "out. 25",
+   "month": "2025-10",
+   "headline": 2.1,
+   "exEnergy": 2.4,
+   "energyRate": -0.9,
+   "portugal": 2,
+   "energy": -0.08,
+   "food": 0.48,
+   "neig": 0.15,
+   "services": 1.55,
+   "brent": 64.54
+  },
+  {
+   "cat": "nov. 25",
+   "month": "2025-11",
+   "headline": 2.1,
+   "exEnergy": 2.4,
+   "energyRate": -0.5,
+   "portugal": 2.1,
+   "energy": -0.04,
+   "food": 0.46,
+   "neig": 0.13,
+   "services": 1.59,
+   "brent": 63.8
+  },
+  {
+   "cat": "dez. 25",
+   "month": "2025-12",
+   "headline": 2,
+   "exEnergy": 2.4,
+   "energyRate": -1.9,
+   "portugal": 2.4,
+   "energy": -0.18,
+   "food": 0.48,
+   "neig": 0.09,
+   "services": 1.57,
+   "brent": 62.54
+  },
+  {
+   "cat": "jan. 26",
+   "month": "2026-01",
+   "headline": 1.7,
+   "exEnergy": 2.3,
+   "energyRate": -4,
+   "portugal": 1.9,
+   "energy": -0.39,
+   "food": 0.51,
+   "neig": 0.09,
+   "services": 1.46,
+   "brent": 66.6
+  },
+  {
+   "cat": "fev. 26",
+   "month": "2026-02",
+   "headline": 1.9,
+   "exEnergy": 2.4,
+   "energyRate": -3.1,
+   "portugal": 2.1,
+   "energy": -0.3,
+   "food": 0.48,
+   "neig": 0.17,
+   "services": 1.54,
+   "brent": 70.89
+  },
+  {
+   "cat": "mar. 26",
+   "month": "2026-03",
+   "headline": 2.6,
+   "exEnergy": 2.3,
+   "energyRate": 5.1,
+   "portugal": 2.7,
+   "energy": 0.48,
+   "food": 0.45,
+   "neig": 0.13,
+   "services": 1.49,
+   "brent": 103.13
+  },
+  {
+   "cat": "abr. 26",
+   "month": "2026-04",
+   "headline": 3,
+   "exEnergy": 2.2,
+   "energyRate": 10.8,
+   "portugal": 3.3,
+   "energy": 0.99,
+   "food": 0.46,
+   "neig": 0.2,
+   "services": 1.38,
+   "brent": 117.29
+  },
+  {
+   "cat": "mai. 26",
+   "month": "2026-05",
+   "headline": 3.2,
+   "exEnergy": 2.4,
+   "energyRate": 10.8,
+   "portugal": 3.1,
+   "energy": 0.98,
+   "food": 0.36,
+   "neig": 0.23,
+   "services": 1.61,
+   "brent": 107.14
+  },
+  {
+   "cat": "jun. 26",
+   "month": "2026-06",
+   "headline": 2.8,
+   "exEnergy": 2.2,
+   "energyRate": 8.5,
+   "portugal": 3.1,
+   "energy": 0.77,
+   "food": 0.29,
+   "neig": 0.18,
+   "services": 1.51,
+   "brent": 85.4
+  },
+  {
+   "cat": "jul. 26",
+   "month": "2026-07",
+   "headline": 2.9,
+   "exEnergy": 2.2,
+   "energyRate": 10.3,
+   "portugal": 3.1,
+   "energy": 0.94,
+   "food": 0.23,
+   "neig": 0.23,
+   "services": 1.55,
+   "brent": 83.76
+  },
+  {
+   "cat": "ago. 26",
+   "month": "2026-08",
+   "headline": 3.2,
+   "exEnergy": 2.1,
+   "energyRate": 14.3,
+   "portugal": 3.6,
+   "energy": 1.29,
+   "food": 0.22,
+   "neig": 0.3,
+   "services": 1.43,
+   "brent": 91.08
+  },
+  {
+   "cat": "set. 26",
+   "month": "2026-09",
+   "headline": 3.8,
+   "exEnergy": 2.3,
+   "energyRate": 18.9,
+   "portugal": 3.6,
+   "energy": 1.71,
+   "food": 0.25,
+   "neig": 0.29,
+   "services": 1.52,
+   "brent": 114.16
+  }
+ ],
+ "views": [
+  {
+   "id": "contrib",
+   "label": "Contributos",
+   "yLabel": "Contributo para a inflação homóloga da zona euro (pontos percentuais)",
+   "unit": "pp",
+   "decimals": 2,
+   "series": [
+    {
+     "key": "services",
+     "label": "Serviços",
+     "color": "--ink-3"
+    },
+    {
+     "key": "food",
+     "label": "Alimentação, álcool e tabaco",
+     "color": "--accent-3"
+    },
+    {
+     "key": "neig",
+     "label": "Bens industriais não energéticos",
+     "color": "--accent-2"
+    },
+    {
+     "key": "energy",
+     "label": "Energia",
+     "color": "--accent"
+    }
+   ],
+   "line": {
+    "key": "headline",
+    "label": "Inflação total (%)"
+   },
+   "tipExtra": [
+    {
+     "key": "exEnergy",
+     "label": "Sem energia",
+     "suffix": "%"
+    },
+    {
+     "key": "energyRate",
+     "label": "Taxa da energia",
+     "suffix": "%"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "mar. 26",
+     "text": "Março: energia passa a positiva",
+     "short": "Energia > 0"
+    }
+   ]
+  },
+  {
+   "id": "brent",
+   "label": "Petróleo Brent",
+   "yLabel": "Brent, média mensal (dólares por barril)",
+   "unit": "$",
+   "decimals": 2,
+   "series": [
+    {
+     "key": "brent",
+     "label": "Brent (US$/barril)",
+     "color": "--accent"
+    }
+   ],
+   "valueLabels": true
+  }
+ ],
+ "summary": {
+  "headlineJan": 1.7,
+  "headlineSep": 3.8,
+  "riseHeadline": 2.1,
+  "energyJan": -0.39,
+  "energySep": 1.71,
+  "riseEnergyContrib": 2.1,
+  "riseOther": 0,
+  "exEnergyJan": 2.3,
+  "exEnergySep": 2.3,
+  "energyRateSep": 18.9,
+  "energyRateApr": 10.8,
+  "brentJan": 66.6,
+  "brentSep": 114.16,
+  "brentApr": 117.29,
+  "brentJanSepPct": 71,
+  "portugalSep": 3.6,
+  "portugalJan": 1.9,
+  "energyShareOfSep": 45
+ }
+}

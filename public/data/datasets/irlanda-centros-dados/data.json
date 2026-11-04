@@ -1,0 +1,117 @@
+{
+ "rows": [
+  {
+   "year": 2015,
+   "dc": 1240,
+   "other": 23360,
+   "total": 24600,
+   "share": 5,
+   "sharePublished": 5
+  },
+  {
+   "year": 2016,
+   "dc": 1482,
+   "other": 23874,
+   "total": 25356,
+   "share": 5.8,
+   "sharePublished": 6
+  },
+  {
+   "year": 2017,
+   "dc": 1762,
+   "other": 23963,
+   "total": 25725,
+   "share": 6.8,
+   "sharePublished": 7
+  },
+  {
+   "year": 2018,
+   "dc": 2182,
+   "other": 24548,
+   "total": 26730,
+   "share": 8.2,
+   "sharePublished": 8
+  },
+  {
+   "year": 2019,
+   "dc": 2490,
+   "other": 24015,
+   "total": 26505,
+   "share": 9.4,
+   "sharePublished": 9
+  },
+  {
+   "year": 2020,
+   "dc": 3030,
+   "other": 24025,
+   "total": 27056,
+   "share": 11.2,
+   "sharePublished": 11
+  },
+  {
+   "year": 2021,
+   "dc": 4012,
+   "other": 24493,
+   "total": 28506,
+   "share": 14.1,
+   "sharePublished": 14
+  },
+  {
+   "year": 2022,
+   "dc": 5273,
+   "other": 24551,
+   "total": 29824,
+   "share": 17.7,
+   "sharePublished": 18
+  },
+  {
+   "year": 2023,
+   "dc": 6339,
+   "other": 24242,
+   "total": 30581,
+   "share": 20.7,
+   "sharePublished": 21
+  },
+  {
+   "year": 2024,
+   "dc": 6973,
+   "other": 24930,
+   "total": 31903,
+   "share": 21.9,
+   "sharePublished": 22
+  },
+  {
+   "year": 2025,
+   "dc": 7663,
+   "other": 25324,
+   "total": 32986,
+   "share": 23.2,
+   "sharePublished": 23
+  }
+ ],
+ "shares2025": [
+  {
+   "category": "Centros de dados",
+   "pct": 23
+  },
+  {
+   "category": "Habitações urbanas",
+   "pct": 18
+  },
+  {
+   "category": "Habitações rurais",
+   "pct": 9
+  },
+  {
+   "category": "Todas as habitações",
+   "pct": 28
+  }
+ ],
+ "summary": {
+  "multiple": 6.2,
+  "dcGrowthPct": 518,
+  "totalGrowthPct": 34,
+  "otherGrowthPct": 8,
+  "dcShareOfTotalIncrease": 77
+ }
+}

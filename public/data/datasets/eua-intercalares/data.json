@@ -1,0 +1,248 @@
+{
+ "rows": [
+  {
+   "year": 1934,
+   "president": "Franklin D. Roosevelt",
+   "party": "D",
+   "approval": null,
+   "approvalNote": "sem dados Gallup",
+   "lameDuck": null,
+   "house": 9,
+   "senate": 9
+  },
+  {
+   "year": 1938,
+   "president": "Franklin D. Roosevelt",
+   "party": "D",
+   "approval": 60,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -72,
+   "senate": -7
+  },
+  {
+   "year": 1942,
+   "president": "Franklin D. Roosevelt",
+   "party": "D",
+   "approval": 74,
+   "approvalNote": "início set.",
+   "lameDuck": null,
+   "house": -45,
+   "senate": -9
+  },
+  {
+   "year": 1946,
+   "president": "Harry S. Truman",
+   "party": "D",
+   "approval": 27,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -56,
+   "senate": -12
+  },
+  {
+   "year": 1950,
+   "president": "Harry S. Truman",
+   "party": "D",
+   "approval": 41,
+   "approvalNote": null,
+   "lameDuck": "LD*",
+   "house": -28,
+   "senate": -6
+  },
+  {
+   "year": 1954,
+   "president": "Dwight D. Eisenhower",
+   "party": "R",
+   "approval": 62,
+   "approvalNote": "início out.",
+   "lameDuck": null,
+   "house": -18,
+   "senate": -1
+  },
+  {
+   "year": 1958,
+   "president": "Dwight D. Eisenhower",
+   "party": "R",
+   "approval": 57,
+   "approvalNote": "início out.",
+   "lameDuck": "LD",
+   "house": -48,
+   "senate": -13
+  },
+  {
+   "year": 1962,
+   "president": "John F. Kennedy",
+   "party": "D",
+   "approval": 61,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -4,
+   "senate": 3
+  },
+  {
+   "year": 1966,
+   "president": "Lyndon B. Johnson",
+   "party": "D",
+   "approval": 44,
+   "approvalNote": null,
+   "lameDuck": "†",
+   "house": -47,
+   "senate": -4
+  },
+  {
+   "year": 1970,
+   "president": "Richard Nixon",
+   "party": "R",
+   "approval": 58,
+   "approvalNote": "início out.",
+   "lameDuck": null,
+   "house": -12,
+   "senate": 2
+  },
+  {
+   "year": 1974,
+   "president": "Gerald R. Ford",
+   "party": "R",
+   "approval": 53,
+   "approvalNote": "início out.",
+   "lameDuck": "±",
+   "house": -48,
+   "senate": -5
+  },
+  {
+   "year": 1978,
+   "president": "Jimmy Carter",
+   "party": "D",
+   "approval": 45,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -15,
+   "senate": -3
+  },
+  {
+   "year": 1982,
+   "president": "Ronald Reagan",
+   "party": "R",
+   "approval": 42,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -26,
+   "senate": 1
+  },
+  {
+   "year": 1986,
+   "president": "Ronald Reagan",
+   "party": "R",
+   "approval": 64,
+   "approvalNote": "início out.",
+   "lameDuck": "LD",
+   "house": -5,
+   "senate": -8
+  },
+  {
+   "year": 1990,
+   "president": "George H. W. Bush",
+   "party": "R",
+   "approval": 57,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -8,
+   "senate": -1
+  },
+  {
+   "year": 1994,
+   "president": "Bill Clinton",
+   "party": "D",
+   "approval": 48,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -54,
+   "senate": -8
+  },
+  {
+   "year": 1998,
+   "president": "Bill Clinton",
+   "party": "D",
+   "approval": 65,
+   "approvalNote": null,
+   "lameDuck": "LD",
+   "house": 4,
+   "senate": 0
+  },
+  {
+   "year": 2002,
+   "president": "George W. Bush",
+   "party": "R",
+   "approval": 67,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": 8,
+   "senate": 2
+  },
+  {
+   "year": 2006,
+   "president": "George W. Bush",
+   "party": "R",
+   "approval": 37,
+   "approvalNote": null,
+   "lameDuck": "LD",
+   "house": -30,
+   "senate": -6
+  },
+  {
+   "year": 2010,
+   "president": "Barack Obama",
+   "party": "D",
+   "approval": 45,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -63,
+   "senate": -6
+  },
+  {
+   "year": 2014,
+   "president": "Barack Obama",
+   "party": "D",
+   "approval": 41,
+   "approvalNote": null,
+   "lameDuck": "LD",
+   "house": -13,
+   "senate": -9
+  },
+  {
+   "year": 2018,
+   "president": "Donald J. Trump",
+   "party": "R",
+   "approval": 44,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -41,
+   "senate": 2
+  },
+  {
+   "year": 2022,
+   "president": "Joseph R. Biden Jr.",
+   "party": "D",
+   "approval": 40,
+   "approvalNote": null,
+   "lameDuck": null,
+   "house": -9,
+   "senate": 1
+  }
+ ],
+ "summary": {
+  "since1946": 20,
+  "losses": 18,
+  "meanHouse": -25.6,
+  "medianHouse": -22,
+  "approvalAtOrAbove50": {
+   "n": 9,
+   "meanHouse": -14.6
+  },
+  "approvalBelow50": {
+   "n": 11,
+   "meanHouse": -34.7
+  }
+ }
+}
