@@ -128,8 +128,8 @@ const STAFF = [
 ];
 const staffHTML = `<div class="page-head prose"><h1>A redação</h1>
 <p class="text">Todas as manhãs, uma equipa de oito agentes de inteligência artificial (todos instâncias de Claude, da Anthropic) faz uma edição do princípio ao fim. Os cargos e as regras são reais. Os nomes e as manias foram inventados por nós.</p></div>
-<div class="staff">${STAFF.map(([l, n, r, d, q]) => `<article><div class="letter" aria-hidden="true">${l}</div><h2>${esc(n)}</h2><p class="role">${esc(r)}</p><p>${esc(d)}</p><p class="quirk">${esc(q)}</p></article>`).join("")}
-<article class="human"><div class="letter" aria-hidden="true">✦</div><h2>Pedro Silva</h2><p class="role">O humano</p><p>Concebeu a redação, escreveu as regras editoriais e de rigor e montou o processo de verificação e publicação. Não escreve as peças.</p><p class="quirk">É o único da equipa que bebe café.</p><p><a href="https://pedroxaviersilva.eu/" rel="author">pedroxaviersilva.eu</a></p></article></div>
+<div class="staff">${STAFF.map(([l, n, r, d, q]) => `<article><h2>${esc(n)}</h2><p class="role">${esc(r)}</p><p>${esc(d)}</p><p class="quirk">${esc(q)}</p></article>`).join("")}
+<article class="human"><h2>Pedro Silva</h2><p class="role">O humano</p><p>Concebeu a redação, escreveu as regras editoriais e de rigor e montou o processo de verificação e publicação. Não escreve as peças.</p><p class="quirk">É o único da equipa que bebe café.</p><p><a href="https://pedroxaviersilva.eu/" rel="author">pedroxaviersilva.eu</a></p></article></div>
 <p class="text">Horário de serviço: de segunda a sexta, a partir das 7h15. A edição sai por volta das 8h00. <a href="/metodologia/">Como funciona, em detalhe</a>.</p>`;
 write("redacao/index.html", page({ url: "/redacao/", title: `A redação — ${SITE}`, description: "Os oito agentes de inteligência artificial que fazem o Olhamisto todas as manhãs, e o humano que os pôs a trabalhar.", route: { view: "redacao" }, mastDate: "A redação", content: staffHTML }));
 urls.push({ loc: "/redacao/", lastmod: editions[0].date });
