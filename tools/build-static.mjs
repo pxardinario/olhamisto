@@ -109,6 +109,25 @@ editions.forEach((ed, k) => {
   });
 });
 
+// A redação: os agentes, com nomes e manias inventados; cargos e regras reais
+const STAFF = [
+  ["A", "Edite", "Diretora editorial", "Escolhe as cinco histórias do dia entre 12 a 20 candidatas, garante a variedade de temas e decide qual abre a edição.", "Tem sempre razão. Quando não tem, chama o Tomé."],
+  ["B", "Aurora", "Repórter de atualidade", "Procura o que aconteceu nos últimos dias e que os números explicam melhor do que as manchetes.", "Entra às 7h15 e às 7h16 já leu tudo."],
+  ["C", "Cristóvão", "Caçador de descobertas", "Vai atrás de séries longas, estudos esquecidos e relações inesperadas, que não precisam de ser notícia para valerem a pena.", "Já descobriu três vezes o caminho marítimo para o Eurostat."],
+  ["D", "Fonseca", "Investigador de dados", "Encontra as fontes primárias, transcreve os dados sem lhes tocar e regista de onde vieram e quando.", "Nunca arredonda sem avisar. Nunca."],
+  ["E", "Mediana", "Analista estatística", "Faz as contas, verifica se as comparações fazem sentido e trava conclusões que os dados não sustentam.", "Recusa-se a ser confundida com a média."],
+  ["F", "Íris", "Jornalista visual", "Escolhe a forma de cada gráfico, o título, as anotações e o que o olho deve ver primeiro.", "Tem uma relação complicada com os gráficos circulares."],
+  ["G", "Gil", "Designer e programador", "Desenha os gráficos, os mapas e as interações e garante que tudo funciona no telemóvel.", "Alinha píxeis por desporto."],
+  ["H", "Tomé", "Verificador independente", "Não participa na produção. Confere valores, escalas, legendas e afirmações contra as fontes antes de qualquer peça ser publicada.", "Desconfia de tudo, incluindo desta frase."],
+];
+const staffHTML = `<div class="page-head prose"><h1>A redação</h1>
+<p class="text">Todas as manhãs, uma equipa de oito agentes de inteligência artificial (todos instâncias de Claude, da Anthropic) faz uma edição do princípio ao fim. Os cargos e as regras são reais. Os nomes e as manias foram inventados por nós.</p></div>
+<div class="staff">${STAFF.map(([l, n, r, d, q]) => `<article><div class="letter" aria-hidden="true">${l}</div><h2>${esc(n)}</h2><p class="role">${esc(r)}</p><p>${esc(d)}</p><p class="quirk">${esc(q)}</p></article>`).join("")}
+<article class="human"><div class="letter" aria-hidden="true">✦</div><h2>Pedro Silva</h2><p class="role">O humano</p><p>Concebeu a redação, escreveu as regras editoriais e de rigor e montou o processo de verificação e publicação. Não escreve as peças.</p><p class="quirk">É o único da equipa que bebe café.</p><p><a href="https://pedroxaviersilva.eu/" rel="author">pedroxaviersilva.eu</a></p></article></div>
+<p class="text">Horário de serviço: de segunda a sexta, a partir das 7h15. A edição sai por volta das 8h00. <a href="/metodologia/">Como funciona, em detalhe</a>.</p>`;
+write("redacao/index.html", page({ url: "/redacao/", title: `A redação — ${SITE}`, description: "Os oito agentes de inteligência artificial que fazem o Olhamisto todas as manhãs, e o humano que os pôs a trabalhar.", route: { view: "redacao" }, mastDate: "A redação", content: staffHTML }));
+urls.push({ loc: "/redacao/", lastmod: editions[0].date });
+
 // Páginas fixas (conteúdo montado pela aplicação; texto mínimo pré-renderizado)
 const fixed = {
   arquivo: ["Arquivo", "Todas as edições e peças, com pesquisa e filtros por tema e tipo de visualização."],
@@ -122,7 +141,7 @@ for (const [slug, [t, d]] of Object.entries(fixed)) {
   if (slug !== "favoritos") urls.push({ loc: `/${slug}/`, lastmod: editions[0].date });
 }
 write("404.html", page({ url: "/404.html", title: `Página não encontrada — ${SITE}`, description: "Esta página não existe.", route: { view: "edition" },
-  content: `<div class="page-head prose"><h1>Página não encontrada</h1><p class="text">Esta página não existe ou mudou de sítio. <a href="/">Ver a edição mais recente</a> ou <a href="/arquivo/">procurar no arquivo</a>.</p></div>` }));
+  content: `<div class="page-head prose"><h1>Olha-me isto… não está aqui.</h1><p class="text">Dois agentes procuraram esta página e nenhum a encontrou. Pode ter mudado de sítio ou nunca ter existido.</p><p class="text"><a href="/">Ver a edição mais recente</a> ou <a href="/arquivo/">procurar no arquivo</a>.</p></div>` }));
 
 // Imagens de partilha: tamanho real (exigido pelo RSS) — corre build-static de novo depois de og-images se forem novas
 const ogSize = (id) => { try { return fs.statSync(path.join(OUT, "og", `${id}.png`)).size; } catch { return 0; } };

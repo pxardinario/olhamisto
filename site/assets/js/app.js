@@ -230,7 +230,7 @@ async function viewCorrections() {
   let list = [];
   try { list = (await getJSON("/data/corrections.json")).corrections || []; } catch { /* sem ficheiro */ }
   main.innerHTML = `<div class="page-head prose"><h2>Correções</h2>
-    <p class="text">Quando um valor, uma escala, uma fonte ou uma afirmação estiver errada, corrigimos a peça e registamos aqui o que mudou, quando e porquê. Nenhuma correção é silenciosa.</p>
+    <p class="text"><strong>Errar é humano. Os agentes também conseguem.</strong> Quando acontece, fica aqui registado. Quando um valor, uma escala, uma fonte ou uma afirmação estiver errada, corrigimos a peça e registamos aqui o que mudou, quando e porquê. Nenhuma correção é silenciosa.</p>
     <p class="text">Encontrou um erro? Escreva para <strong>correcoes@olhamisto.com</strong> com a ligação da peça e a fonte que o demonstra.</p></div>
     ${list.length ? `<div class="cards">${list.map((c) => `<article class="card"><div class="kicker"><span class="kind">${dateShort(c.date)}</span></div><h3><a href="${pieceUrl(c.edition, c.piece)}">${esc(c.title)}</a></h3><p>${esc(c.change)}</p></article>`).join("")}</div>` : `<p class="empty">Ainda não há correções registadas.</p>`}`;
 }
@@ -282,7 +282,7 @@ function viewMethod() {
   <h3>Feito por inteligência artificial</h3><p class="text">Cada edição é investigada, escrita e visualizada por agentes de inteligência artificial (Claude, da Anthropic), que pesquisam fontes públicas, transcrevem os dados, calculam, desenham os gráficos e redigem os textos. Um segundo agente, que não participou na produção, verifica valores, cálculos, escalas e afirmações contra as fontes antes da publicação. As edições são publicadas sem revisão humana prévia. Os erros são corrigidos e registados na página de <a href="/correcoes/">correções</a>.</p>
   <h3>Horário</h3><p class="text">Há uma edição nova de segunda a sexta-feira. Os agentes entram ao serviço às 7h15 (hora de Lisboa) e a edição é publicada por volta das 8h00, depois de verificada. Também se pode receber pelo <a href="/feed.xml">feed RSS</a>.</p>
   <h3>Seleção</h3><p class="text">Cada edição parte de 12 a 20 candidatas, avaliadas por importância (30%), potencial visual (25%), qualidade dos dados (25%), surpresa (10%) e interesse para o leitor (10%). Candidatas sem dados verificáveis são rejeitadas e registadas nas notas de edição.</p>
-  <h3>Rigor</h3><p class="text">Nenhum dado é inventado ou interpolado sem indicação. Barras começam em zero; séries de índice podem começar noutro valor, sempre assinalado. Valores absolutos, percentagens e pontos percentuais são distinguidos. Correlação não é apresentada como causalidade.</p>
+  <h3>Rigor</h3><p class="text">Nenhum dado é inventado ou interpolado sem indicação. As barras começam sempre no zero. É a única regra que nem a diretora editorial pode quebrar (e é uma agente muito teimosa). Séries de índice podem começar noutro valor, sempre assinalado.  Valores absolutos, percentagens e pontos percentuais são distinguidos. Correlação não é apresentada como causalidade.</p>
   <h3>Verificação</h3><p class="text">Um agente diferente do que constrói o gráfico confere valores, escalas, legendas, cálculos e correspondência com as fontes. O estado aparece em cada peça: <span class="badge ok">verificada</span> ou <span class="badge partial">verificação parcial</span>.</p>
   <h3>Dados</h3><p class="text">Os dados originais (transcritos sem alteração) e os transformados ficam separados em <code>/data/datasets/&lt;peça&gt;/raw/</code> e <code>data.json</code>, e cada peça permite descarregar os dados em CSV. O código e os scripts de transformação são públicos no <a href="https://github.com/pxardinario/olhamisto">repositório do projeto</a>.</p>
   <h3>Quem está por trás</h3><p class="text">${SITE} é um projeto de <a href="https://pedroxaviersilva.eu/" rel="author">Pedro Silva</a>, que concebeu o projeto e definiu as regras editoriais e de rigor, a equipa de agentes, o processo de verificação e a publicação automática. As peças são produzidas pelos agentes de IA; a responsabilidade pelo projeto é dele. Contacto: <strong>contacto@olhamisto.com</strong>.</p>
@@ -310,7 +310,7 @@ function parsePath() {
   const m = location.pathname.match(/^\/(\d{4})\/(\d{2})\/(\d{2})\/(?:([a-z0-9-]+)\/)?$/);
   if (m) return m[4] ? { view: "piece", date: `${m[1]}-${m[2]}-${m[3]}`, piece: m[4] } : { view: "edition", date: `${m[1]}-${m[2]}-${m[3]}` };
   const seg = location.pathname.split("/").filter(Boolean)[0];
-  if (["arquivo", "favoritos", "metodologia", "correcoes"].includes(seg)) return { view: seg };
+  if (["arquivo", "favoritos", "metodologia", "correcoes", "redacao"].includes(seg)) return { view: seg };
   return { view: "edition" };
 }
 async function legacyHash() {
@@ -332,6 +332,7 @@ async function route() {
     if (r.view === "arquivo") { nav("arquivo"); await viewArchive(); }
     else if (r.view === "favoritos") { nav("favoritos"); await viewFavorites(); }
     else if (r.view === "metodologia") { nav("metodologia"); viewMethod(); }
+    else if (r.view === "redacao") { nav("redacao"); $("#mast-date").textContent = "A redação"; }
     else if (r.view === "correcoes") { viewCorrections(); await Promise.resolve(); }
     else if (r.view === "piece") { nav("hoje"); await viewPiece(r.date, r.piece); }
     else { nav("hoje"); await viewEdition(r.date, location.hash.startsWith("#p-") ? location.hash.slice(3) : undefined); }
@@ -340,5 +341,12 @@ async function route() {
     main.innerHTML = `<p class="empty">Não foi possível carregar este conteúdo. ${esc(e.message)}</p>`;
   }
 }
+(function weekend() {
+  try {
+    const wd = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Lisbon", weekday: "short" }).format(new Date());
+    const el = document.getElementById("schedule");
+    if (el && (wd === "Sat" || wd === "Sun")) el.textContent = "Fim de semana. Até os agentes precisam de desligar. Próxima edição: segunda-feira, por volta das 8h00.";
+  } catch { /* sem Intl */ }
+})();
 loadIndex().then((idx) => { $("#foot-version").textContent = `Última edição: ${dateLong(idx.latest)} · ${idx.editions.length} ${idx.editions.length === 1 ? "edição" : "edições"} no arquivo.`; }).catch(() => {});
 route();

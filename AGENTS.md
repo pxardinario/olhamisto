@@ -18,6 +18,9 @@ Primeiro a história, depois o gráfico. Uma peça só existe se responder concr
 ## Público e marca
 Site público e gratuito em https://olhamisto.com, para leitores portugueses curiosos e exigentes (história, política, economia, sociedade, tecnologia, cultura, ciência). Nome: «Olhamisto»; assinatura: «Antes de opinar, olha-me isto.» Nunca usar o nome de uma pessoa como marca. O nome do responsável (Pedro Silva) aparece apenas no rodapé e na página «Como funciona», nunca como autor das peças. Cada página mostra a etiqueta «Feito por IA» (obrigação do AI Act, art. 50.º, n.º 4: não há revisão humana prévia).
 
+## Humor
+O site tem humor nas margens (rodapé, página «A redação», mensagens da interface, 404, correções). As peças são intocáveis: títulos, textos, gráficos, anotações, fontes e notas metodológicas são sérios e sem piadas. Nunca humor sobre os temas das histórias (guerra, pobreza, saúde, etc.), nem na etiqueta «Feito por IA».
+
 ## Processo diário (resumo — detalhe em docs/automacao.md)
 1. Confirmar a data (Europe/Lisbon) e se é dia útil.
 2. Clonar o repositório pxardinario/olhamisto (o repositório é a fonte de verdade).

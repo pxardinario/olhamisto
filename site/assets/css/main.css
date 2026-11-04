@@ -178,7 +178,7 @@ table.data th { color: var(--ink-3); font-weight: 500; position: sticky; top: 0;
 
 /* Arquivo */
 .page-head { padding: 2rem 0 1rem; }
-.page-head h2 { font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0 0 .3rem; }
+.page-head h1, .page-head h2 { font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0 0 .3rem; }
 .filters { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin: 1rem 0 1.4rem; }
 .filters input, .filters select { font: inherit; font-size: .9rem; padding: .45rem .7rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--card); color: var(--ink); min-height: 40px; }
 .filters input[type=search] { flex: 1 1 240px; }
@@ -239,3 +239,12 @@ footer.site p { margin: 0; max-width: 60rem; }
 footer.site .credit { color: var(--ink-2); }
 footer.site .credit a { color: var(--ink); }
 .schedule { text-align: center; font-size: .78rem; letter-spacing: .04em; color: var(--ink-3); margin: .35rem 0 0; }
+footer.site .joke { font-family: var(--serif); font-style: italic; color: var(--ink-2); }
+.staff { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+.staff article { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem 1.1rem; }
+.staff .letter { font-family: var(--serif); font-size: 2.2rem; font-weight: 800; line-height: 1; color: var(--accent); }
+.staff h2 { font-family: var(--serif); font-size: 1.35rem; margin: .35rem 0 .1rem; }
+.staff .role { font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 .5rem; }
+.staff p { margin: .3rem 0 0; font-size: .92rem; color: var(--ink-2); }
+.staff .quirk { font-style: italic; color: var(--ink); }
+.staff article.human { border-style: dashed; }
