@@ -36,8 +36,9 @@ function write(rel, content) {
 // --- Limpa public/ preservando as imagens de partilha já geradas (cache)
 const ogKeep = path.join(ROOT, ".og-cache");
 if (fs.existsSync(path.join(OUT, "og"))) { fs.rmSync(ogKeep, { recursive: true, force: true }); fs.renameSync(path.join(OUT, "og"), ogKeep); }
-fs.rmSync(OUT, { recursive: true, force: true });
+// Esvazia public/ sem apagar a própria pasta (um servidor local a servi-la continua a funcionar)
 fs.mkdirSync(OUT, { recursive: true });
+for (const e of fs.readdirSync(OUT)) fs.rmSync(path.join(OUT, e), { recursive: true, force: true });
 copyDir(path.join(SRC, "assets"), path.join(OUT, "assets"));
 copyDir(path.join(SRC, "data"), path.join(OUT, "data"));
 fs.copyFileSync(path.join(SRC, "favicon.svg"), path.join(OUT, "favicon.svg"));
