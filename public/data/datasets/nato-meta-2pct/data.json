@@ -275,7 +275,9 @@
     "delta",
     "Por subida"
    ]
-  ]
+  ],
+  "howToRead": "Cada linha é um país: vai do valor de 2014 (ponto cinzento) ao de 2025 (ponto azul). Os anéis mostram o valor revisto em julho de 2026 nos três países que ficaram abaixo do que tinham anunciado. A faixa sombreada junto à meta marca quem ficou mesmo em cima dela.",
+  "bandNote": "14 aliados"
  },
  "summary": {
   "allies": 31,

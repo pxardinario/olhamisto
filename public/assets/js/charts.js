@@ -58,7 +58,8 @@ function legend(container, items) {
   const ul = document.createElement("ul"); ul.className = "legend";
   for (const it of items) {
     const li = document.createElement("li");
-    li.innerHTML = `<i class="${it.line ? "line" : ""}" style="${it.dash ? `background:repeating-linear-gradient(90deg,${it.color} 0 6px,transparent 6px 9px)` : `background:${it.color}`}"></i>${it.label}`;
+    const st = it.shape === "ring" ? `background:transparent;border:2px solid ${it.color}` : it.dash ? `background:repeating-linear-gradient(90deg,${it.color} 0 6px,transparent 6px 9px)` : `background:${it.color}${it.opacity ? `;opacity:${it.opacity}` : ""}`;
+    li.innerHTML = `<i class="${it.line ? "line" : ""}${it.shape === "dot" || it.shape === "ring" ? " dot" : ""}" style="${st}"></i>${it.label}`;
     ul.appendChild(li);
   }
   container.appendChild(ul);
@@ -573,7 +574,8 @@ function dumbbell(host, data) {
   let sortKey = C.sorts?.[0]?.[0] || "b";
   const tip = tooltip(host.chart);
   if (C.sorts?.length > 1) segmented(host.controls, C.sorts, sortKey, (v) => { sortKey = v; r.redraw(); }, "Ordenação");
-  legend(host.legend, [{ color: css("--ink-3"), label: C.aLabel }, { color: css("--accent-2"), label: C.bLabel }, ...(C.cLabel ? [{ color: css("--accent"), label: C.cLabel + " (anel)" }] : []), { color: css("--paper-2"), label: `Faixa ${C.bandLabel}` }]);
+  if (C.howToRead) { const p = document.createElement("p"); p.className = "how-to-read"; p.textContent = C.howToRead; host.legend.appendChild(p); }
+  legend(host.legend, [{ color: css("--ink-3"), label: C.aLabel, shape: "dot" }, { color: css("--accent-2"), label: C.bLabel, shape: "dot" }, ...(C.cLabel ? [{ color: css("--ink"), label: C.cLabel, shape: "ring" }] : []), ...(C.band ? [{ color: css("--accent-2"), opacity: 0.25, label: `Faixa ${C.bandLabel}${C.bandNote ? ` (${C.bandNote})` : ""}` }] : [])]);
   const r = responsive(host.chart, (W) => {
     const narrow = W < 560;
     const key = (q) => (sortKey === "delta" ? (q.b ?? -9) - q.a : q.b ?? -9);
@@ -583,7 +585,7 @@ function dumbbell(host, data) {
     const svg = svgIn(host.chart, W, H, `Gráfico de halteres: ${C.aLabel} e ${C.bLabel} por país`);
     const x = d3.scaleLinear().domain(C.domain).range([m.l, W - m.r]);
     const y = (i) => m.t + i * rowH + rowH / 2;
-    if (C.band) svg.append("rect").attr("x", x(C.band[0])).attr("width", Math.max(2, x(C.band[1]) - x(C.band[0]))).attr("y", m.t - 4).attr("height", rows.length * rowH + 8).attr("fill", css("--paper-2"));
+    if (C.band) svg.append("rect").attr("x", x(C.band[0])).attr("width", Math.max(2, x(C.band[1]) - x(C.band[0]))).attr("y", m.t - 4).attr("height", rows.length * rowH + 8).attr("fill", css("--accent-2")).attr("opacity", 0.16);
     svg.append("g").attr("class", "grid").selectAll("line").data(x.ticks(narrow ? 4 : 8)).join("line").attr("x1", x).attr("x2", x).attr("y1", m.t - 4).attr("y2", H - m.b);
     svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(narrow ? 4 : 8).tickFormat((t) => fmtN(t, t % 1 ? 1 : 0) + C.unit).tickSizeOuter(0));
     svg.append("g").attr("class", "axis").attr("transform", `translate(0,${m.t - 8})`).call(d3.axisTop(x).ticks(narrow ? 4 : 8).tickFormat((t) => fmtN(t, t % 1 ? 1 : 0) + C.unit).tickSize(0)).call((g) => g.select(".domain").remove());
@@ -601,7 +603,7 @@ function dumbbell(host, data) {
     g.filter((q) => q.b != null).append("line").attr("x1", (q) => x(q.a)).attr("x2", (q) => x(q.b)).attr("stroke", css("--ink-3")).attr("stroke-width", 1.4).attr("opacity", 0.7);
     g.append("circle").attr("cx", (q) => x(q.a)).attr("r", 3.6).attr("fill", css("--ink-3"));
     g.filter((q) => q.b != null).append("circle").attr("cx", (q) => x(q.b)).attr("r", 4.6).attr("fill", (q) => (q.highlight ? css("--accent") : css("--accent-2"))).attr("stroke", css("--card")).attr("stroke-width", 1);
-    g.filter((q) => q.c != null).append("circle").attr("cx", (q) => x(q.c)).attr("r", 5).attr("fill", "none").attr("stroke", css("--accent")).attr("stroke-width", 2);
+    g.filter((q) => q.c != null).append("circle").attr("cx", (q) => x(q.c)).attr("r", 5).attr("fill", "none").attr("stroke", css("--ink")).attr("stroke-width", 2);
     g.filter((q) => q.b == null).append("text").attr("class", "ann-muted").attr("x", (q) => x(q.a) + 8).attr("y", 4).text("2025: sem dados");
     g.filter((q) => q.highlight && q.b != null).append("text").attr("class", "ann").style("font-size", "11px").style("font-weight", 700)
       .attr("x", (q) => x(q.b) + 8).attr("y", 4).text((q) => `${fmtN(q.a, d)} → ${fmtN(q.b, d)}${C.unit}`);

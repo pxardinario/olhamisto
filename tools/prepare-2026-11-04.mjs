@@ -108,7 +108,8 @@ function write(id, data, rawFiles) {
   const tot = all.find((r) => r.country === "NATO Europe and Canada");
   write("nato-meta-2pct", {
     rows: rows.map(({ en, ...r }) => r),
-    config: { aLabel: "2014", bLabel: "2025 (estimativa, dados até jun. 2025)", cLabel: "2025 revisto (jul. 2026)", ref: 2, refLabel: "Meta de Gales: 2% do PIB", band: [2, 2.05], bandLabel: "2,00–2,05%", unit: "%", decimals: 2, domain: [0, 4.6],
+    config: { aLabel: "2014", bLabel: "2025 (estimativa, dados até jun. 2025)", cLabel: "2025 revisto (jul. 2026)", ref: 2, refLabel: "Meta de Gales: 2% do PIB", band: [2, 2.05], bandLabel: "2,00–2,05%", bandNote: `${band.length} aliados`, unit: "%", decimals: 2, domain: [0, 4.6],
+      howToRead: "Cada linha é um país: vai do valor de 2014 (ponto cinzento) ao de 2025 (ponto azul). Os anéis mostram o valor revisto em julho de 2026 nos três países que ficaram abaixo do que tinham anunciado. A faixa sombreada junto à meta marca quem ficou mesmo em cima dela.",
       sorts: [["b", "Por 2025"], ["delta", "Por subida"]] },
     summary: { allies: 31, withEstimate: withB.length, atOrAbove2: at2, inBand: band.length, exactly2: exactly.length, in2014: in2014.length,
       revisedAbove2: 24, revisedJustAbove: 12, ptA: pt.a, ptB: pt.b, euCanada2014: +tot["2014"], euCanada2025e: +tot["2025e"],

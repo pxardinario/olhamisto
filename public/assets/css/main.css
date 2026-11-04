@@ -253,3 +253,5 @@ footer.site .joke { font-family: var(--serif); font-style: italic; color: var(--
 .staff article.human { border-style: dashed; }
 .nw { white-space: nowrap; }
 .staff .who { display: block; width: 30px; height: 30px; color: var(--accent); margin: 0 0 .5rem; }
+.legend i.dot { border-radius: 50%; box-sizing: border-box; }
+.how-to-read { font-size: .82rem; color: var(--ink-2); margin: .3rem 0 .2rem; max-width: 62ch; }
