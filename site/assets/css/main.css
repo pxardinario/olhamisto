@@ -235,3 +235,6 @@ footer.site p { margin: 0; max-width: 60rem; }
 .title-link { text-decoration: none; }
 .title-link:hover { color: var(--accent); }
 .edition-bar a { text-decoration: none; }
+
+footer.site .credit { color: var(--ink-2); }
+footer.site .credit a { color: var(--ink); }

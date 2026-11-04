@@ -72,7 +72,7 @@ function pieceStatic(p, date, i, heading = "h2") {
 </article>`;
 }
 const aiNote = `<p class="ai-banner"><strong>Feito por IA.</strong> Investigado, escrito e visualizado por agentes de inteligência artificial e verificado por um segundo agente. <a href="/metodologia/">Como funciona</a> · <a href="/correcoes/">Correções</a></p>`;
-const org = { "@type": "Organization", name: SITE, url: ORIGIN };
+const org = { "@type": "Organization", name: SITE, url: ORIGIN, email: "contacto@olhamisto.com", founder: { "@type": "Person", name: "Pedro Silva", url: "https://pedroxaviersilva.eu/" } };
 
 const urls = [];
 function edition(ed, { home = false } = {}) {
