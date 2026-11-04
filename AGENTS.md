@@ -1,4 +1,4 @@
-# AGENTS.md — instruções para os agentes de «Olha-me isto»
+# AGENTS.md — instruções para os agentes de «Olhamisto»
 
 Lê isto antes de qualquer edição. O projeto não depende da memória de nenhuma conversa: tudo o que precisas está aqui, em `docs/` e no arquivo publicado.
 
@@ -16,7 +16,7 @@ Primeiro a história, depois o gráfico. Uma peça só existe se responder concr
 - **H — Verificador independente**: confere valores contra as fontes, cálculos, escalas, legendas, unidades, datas e conclusões. Sem aprovação de H, a peça não é publicada (ou é publicada com `verification.status = "parcial"` e a limitação explícita).
 
 ## Público e marca
-Site público e gratuito em https://olhamisto.com, para leitores portugueses curiosos e exigentes (história, política, economia, sociedade, tecnologia, cultura, ciência). Nome: «Olha-me isto»; assinatura: «Antes de opinar, olha-me isto.» Nunca usar o nome de uma pessoa como marca. O nome do responsável (Pedro Silva) aparece apenas no rodapé e na página «Como funciona», nunca como autor das peças. Cada página mostra a etiqueta «Feito por IA» (obrigação do AI Act, art. 50.º, n.º 4: não há revisão humana prévia).
+Site público e gratuito em https://olhamisto.com, para leitores portugueses curiosos e exigentes (história, política, economia, sociedade, tecnologia, cultura, ciência). Nome: «Olhamisto»; assinatura: «Antes de opinar, olha-me isto.» Nunca usar o nome de uma pessoa como marca. O nome do responsável (Pedro Silva) aparece apenas no rodapé e na página «Como funciona», nunca como autor das peças. Cada página mostra a etiqueta «Feito por IA» (obrigação do AI Act, art. 50.º, n.º 4: não há revisão humana prévia).
 
 ## Processo diário (resumo — detalhe em docs/automacao.md)
 1. Confirmar a data (Europe/Lisbon) e se é dia útil.

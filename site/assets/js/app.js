@@ -1,4 +1,4 @@
-// Olha-me isto — aplicação (sem compilação; módulos ES nativos).
+// Olhamisto — aplicação (sem compilação; módulos ES nativos).
 import { CHARTS, dataTable, toCSV } from "./charts.js";
 
 const $ = (s, el = document) => el.querySelector(s);
@@ -8,7 +8,7 @@ const store = {
   set(k, v) { try { localStorage.setItem("rv." + k, JSON.stringify(v)); } catch { /* armazenamento indisponível */ } },
 };
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-const SITE = "Olha-me isto";
+const SITE = "Olhamisto";
 export const edUrl = (d) => `/${d.slice(0, 4)}/${d.slice(5, 7)}/${d.slice(8, 10)}/`;
 export const pieceUrl = (d, id) => `${edUrl(d)}${id}/`;
 const dateLong = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("pt-PT", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
@@ -280,6 +280,7 @@ function viewMethod() {
   main.innerHTML = `<div class="page-head prose"><h2>Metodologia editorial</h2>
   <p class="text"><strong>${SITE}</strong> publica, de segunda a sexta, cinco histórias contadas sobretudo através de visualizações. A regra principal: primeiro a história, depois o gráfico.</p>
   <h3>Feito por inteligência artificial</h3><p class="text">Cada edição é investigada, escrita e visualizada por agentes de inteligência artificial (Claude, da Anthropic), que pesquisam fontes públicas, transcrevem os dados, calculam, desenham os gráficos e redigem os textos. Um segundo agente, que não participou na produção, verifica valores, cálculos, escalas e afirmações contra as fontes antes da publicação. As edições são publicadas sem revisão humana prévia. Os erros são corrigidos e registados na página de <a href="/correcoes/">correções</a>.</p>
+  <h3>Horário</h3><p class="text">Há uma edição nova de segunda a sexta-feira. Os agentes entram ao serviço às 7h15 (hora de Lisboa) e a edição é publicada por volta das 8h00, depois de verificada. Também se pode receber pelo <a href="/feed.xml">feed RSS</a>.</p>
   <h3>Seleção</h3><p class="text">Cada edição parte de 12 a 20 candidatas, avaliadas por importância (30%), potencial visual (25%), qualidade dos dados (25%), surpresa (10%) e interesse para o leitor (10%). Candidatas sem dados verificáveis são rejeitadas e registadas nas notas de edição.</p>
   <h3>Rigor</h3><p class="text">Nenhum dado é inventado ou interpolado sem indicação. Barras começam em zero; séries de índice podem começar noutro valor, sempre assinalado. Valores absolutos, percentagens e pontos percentuais são distinguidos. Correlação não é apresentada como causalidade.</p>
   <h3>Verificação</h3><p class="text">Um agente diferente do que constrói o gráfico confere valores, escalas, legendas, cálculos e correspondência com as fontes. O estado aparece em cada peça: <span class="badge ok">verificada</span> ou <span class="badge partial">verificação parcial</span>.</p>

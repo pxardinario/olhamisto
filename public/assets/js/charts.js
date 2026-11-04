@@ -1,4 +1,4 @@
-// Motor de visualizações de «Olha-me isto».
+// Motor de visualizações de «Olhamisto».
 // Cada tipo recebe (host, data, ctx) e desenha dentro de host.chart; controlos vão para host.controls.
 // Todos redesenham ao mudar a largura (ResizeObserver) e expõem uma tabela de dados acessível.
 /* global d3, topojson */

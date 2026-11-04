@@ -1,4 +1,4 @@
-# Olha-me isto
+# Olhamisto
 
 *Antes de opinar, olha-me isto.* — **https://olhamisto.com**
 
@@ -35,4 +35,4 @@ node tests/site.mjs http://127.0.0.1:8790 /tmp/capturas
 
 ## Licenças
 
-Código: MIT. Textos e visualizações: CC BY 4.0, com atribuição a «Olha-me isto». Dados: segundo a licença de cada fonte, indicada em cada peça. Tipos de letra Fraunces e IBM Plex Sans (SIL OFL), D3 (ISC), Natural Earth / world-atlas (domínio público / ISC).
+Código: MIT. Textos e visualizações: CC BY 4.0, com atribuição a «Olhamisto». Dados: segundo a licença de cada fonte, indicada em cada peça. Tipos de letra Fraunces e IBM Plex Sans (SIL OFL), D3 (ISC), Natural Earth / world-atlas (domínio público / ISC).

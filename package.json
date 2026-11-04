@@ -1,7 +1,7 @@
 {
   "name": "olhamisto",
   "version": "1.0.0",
-  "description": "Olha-me isto — cinco histórias por dia útil, contadas em gráficos. Feito por IA.",
+  "description": "Olhamisto — cinco histórias por dia útil, contadas em gráficos. Feito por IA.",
   "scripts": {
     "index": "node tools/build-index.mjs",
     "validate": "node tools/validate.mjs",

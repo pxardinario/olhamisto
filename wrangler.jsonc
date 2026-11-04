@@ -1,5 +1,5 @@
 {
-  // Olha-me isto — site estático servido por Cloudflare Workers (static assets).
+  // Olhamisto — site estático servido por Cloudflare Workers (static assets).
   // O site é gerado pelo processo diário (tools/build-static.mjs) e versionado em public/.
   // Na Cloudflare: sem comando de build; comando de deploy: npx wrangler deploy
   "$schema": "node_modules/wrangler/config-schema.json",

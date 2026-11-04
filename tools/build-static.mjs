@@ -11,7 +11,7 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..")
 const SRC = path.join(ROOT, "site");
 const OUT = path.join(ROOT, "public");
 export const ORIGIN = process.env.SITE_ORIGIN || "https://olhamisto.com";
-const SITE = "Olha-me isto";
+const SITE = "Olhamisto";
 const TAGLINE = "Antes de opinar, olha-me isto.";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
