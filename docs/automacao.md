@@ -10,7 +10,7 @@
 3. Lê `AGENTS.md`, `docs/`, `site/data/index.json`, `site/data/corrections.json`.
 4. Pesquisa, seleção, dados (`raw/`), `tools/prepare-AAAA-MM-DD.mjs`, edição em `site/data/editions/AAAA-MM-DD.json`.
 5. `build-index` → `validate` (OK) → verificação independente por subagente → correções.
-6. `build-static` → servir `public/` → `og-images` → `tests/site.mjs` (tem de passar).
+6. `build-static` → servir `public/` → `og-images` → `build-static` outra vez (para o feed incluir as imagens novas) → `tests/site.mjs` (tem de passar).
 7. `git commit -m "Edição n.º X — AAAA-MM-DD"` e `git push origin main`.
 8. Mensagem curta: títulos, ligação https://olhamisto.com e limitações.
 

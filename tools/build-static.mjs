@@ -123,12 +123,14 @@ for (const [slug, [t, d]] of Object.entries(fixed)) {
 write("404.html", page({ url: "/404.html", title: `Página não encontrada — ${SITE}`, description: "Esta página não existe.", route: { view: "edition" },
   content: `<div class="page-head prose"><h1>Página não encontrada</h1><p class="text">Esta página não existe ou mudou de sítio. <a href="/">Ver a edição mais recente</a> ou <a href="/arquivo/">procurar no arquivo</a>.</p></div>` }));
 
+// Imagens de partilha: tamanho real (exigido pelo RSS) — corre build-static de novo depois de og-images se forem novas
+const ogSize = (id) => { try { return fs.statSync(path.join(OUT, "og", `${id}.png`)).size; } catch { return 0; } };
 // RSS: um item por edição (adequado a envio automático por email a partir do feed)
 const rfc822 = (d) => new Date(d + "T07:00:00Z").toUTCString();
 const items = editions.slice(0, 30).map((ed) => {
   const lead = ed.pieces.find((p) => p.id === ed.lead) || ed.pieces[0];
   const html = `<p>${esc(ed.opening)}</p><ul>${ed.pieces.map((p) => `<li><a href="${ORIGIN + pieceUrl(ed.date, p.id)}"><strong>${esc(p.title)}</strong></a><br>${esc(p.finding)}</li>`).join("")}</ul><p><em>Feito por IA: investigado, escrito e visualizado por agentes de inteligência artificial e verificado por um segundo agente.</em></p>`;
-  return `<item><title>${esc(`Edição n.º ${ed.number}: ${lead.title}`)}</title><link>${ORIGIN + edUrl(ed.date)}</link><guid isPermaLink="true">${ORIGIN + edUrl(ed.date)}</guid><pubDate>${rfc822(ed.date)}</pubDate><enclosure url="${ORIGIN}/og/${lead.id}.png" type="image/png" length="0"/><description>${esc(html)}</description></item>`;
+  return `<item><title>${esc(`Edição n.º ${ed.number}: ${lead.title}`)}</title><link>${ORIGIN + edUrl(ed.date)}</link><guid isPermaLink="true">${ORIGIN + edUrl(ed.date)}</guid><pubDate>${rfc822(ed.date)}</pubDate>${ogSize(lead.id) ? `<enclosure url="${ORIGIN}/og/${lead.id}.png" type="image/png" length="${ogSize(lead.id)}"/>` : ""}<description>${esc(html)}</description></item>`;
 }).join("\n");
 write("feed.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>

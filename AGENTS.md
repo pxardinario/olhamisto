@@ -26,7 +26,7 @@ Site público e gratuito em https://olhamisto.com, para leitores portugueses cur
 5. Selecionar 5; recolher dados; transformar; escrever a edição em `site/data/editions/AAAA-MM-DD.json`.
 6. `node tools/build-index.mjs && node tools/validate.mjs` → corrigir até OK.
 7. Verificação independente (agente H) e correções.
-8. `node tools/build-static.mjs`; servir `public/`; `node tools/og-images.mjs`; `node tests/site.mjs` → tem de passar; rever capturas.
+8. `node tools/build-static.mjs`; servir `public/`; `node tools/og-images.mjs`; `node tools/build-static.mjs` de novo; `node tests/site.mjs` → tem de passar; rever capturas.
 9. `git add -A && git commit` e `git push` para `main` (a Cloudflare publica automaticamente).
 10. Se algo falhar: **não publicar** (não fazer push); a última edição válida mantém-se.
 
