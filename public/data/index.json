@@ -1,6 +1,6 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-05T07:28:16.550Z",
+ "updated": "2026-11-05T16:09:32.126Z",
  "latest": "2026-11-05",
  "editions": [
   {
@@ -292,7 +292,13 @@
      ],
      "verification": "verificada"
     }
-   ]
+   ],
+   "chave": {
+    "id": "falacia-janela-partida",
+    "title": "A falácia da janela partida",
+    "axis": "economia",
+    "verification": "verificada"
+   }
   }
  ]
 }

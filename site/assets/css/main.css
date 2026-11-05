@@ -255,3 +255,40 @@ footer.site .joke { font-family: var(--serif); font-style: italic; color: var(--
 .staff .who { display: block; width: 30px; height: 30px; color: var(--accent); margin: 0 0 .5rem; }
 .legend i.dot { border-radius: 50%; box-sizing: border-box; }
 .how-to-read { font-size: .82rem; color: var(--ink-2); margin: .3rem 0 .2rem; max-width: 62ch; }
+
+/* A Chave do Dia — rubrica que fecha a edição (lição, sem gráfico de dados) */
+.chave { --key-bg: #1f2a33; --key-ink: #efeae0; --key-ink-2: #c3c9cc; --key-rule: #3a4752; --key-acc: #c8902a;
+  background: var(--key-bg); color: var(--key-ink); border-radius: 10px; margin: 2.6rem 0 2.2rem; position: relative;
+  padding: clamp(1.4rem, 4vw, 2.8rem) clamp(1.2rem, 4vw, 3rem) clamp(1.2rem, 3vw, 2rem); }
+:root[data-theme="dark"] .chave { --key-bg: #232d36; --key-ink-2: #b9c2c7; --key-rule: #3d4b57; --key-acc: #e0ad4b; }
+.chave::before { content: ""; position: absolute; left: clamp(1.2rem, 4vw, 3rem); right: clamp(1.2rem, 4vw, 3rem); top: 0; border-top: 3px solid var(--key-acc); }
+.chave a { color: inherit; text-decoration-color: var(--key-acc); }
+.chave .ai-tag { border-color: var(--key-ink-2); color: var(--key-ink-2); }
+.chave-label { display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--key-ink-2); margin-bottom: .8rem; }
+.chave-name { color: var(--key-acc); font-weight: 700; display: inline-flex; align-items: center; gap: .45rem; }
+.chave-certeza { font-size: .66rem; border-radius: 3px; padding: .05rem .45rem; background: rgba(200,144,42,.18); color: var(--key-ink); letter-spacing: .06em; }
+.chave h2 { font-family: var(--serif); font-weight: 700; font-size: clamp(1.7rem, 4vw, 2.7rem); line-height: 1.08; letter-spacing: -.012em; margin: 0 0 1rem; font-variation-settings: "opsz" 96; }
+.chave-conceito { font-family: var(--serif); font-size: clamp(1.12rem, 2.3vw, 1.35rem); line-height: 1.42; margin: 0 0 1.6rem; max-width: 44rem; border-left: 3px solid var(--key-acc); padding-left: 1rem; }
+.chave-cols { display: grid; gap: 1.6rem 2.6rem; }
+@media (min-width: 900px) { .chave-cols { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); align-items: start; } }
+.chave-licao p { margin: 0 0 1.1rem; color: var(--key-ink-2); max-width: 40rem; }
+.chave-licao p:first-child::first-letter { font-family: var(--serif); font-weight: 700; float: left; font-size: 3.1em; line-height: .85; padding: .08em .1em 0 0; color: var(--key-acc); }
+.chave-esquema { margin: 0; background: rgba(255,255,255,.04); border: 1px solid var(--key-rule); border-radius: 8px; padding: 1rem 1rem .7rem; }
+.chave-esquema-t { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--key-ink-2); margin: 0 0 .6rem; }
+.chave-esquema svg { width: 100%; height: auto; display: block; font-family: var(--sans); }
+.chave-esquema figcaption { font-size: .78rem; color: var(--key-ink-2); margin: .5rem 0 0; }
+.chave-extras { display: grid; gap: 1rem; margin-top: 1.6rem; }
+@media (min-width: 700px) { .chave-extras { grid-template-columns: 1fr 1fr; } }
+.chave-box { border: 1px solid var(--key-rule); border-radius: 8px; padding: .9rem 1rem; }
+.chave-box h3 { margin: 0 0 .35rem; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--key-acc); font-weight: 600; }
+.chave-box p { margin: 0; font-size: .93rem; color: var(--key-ink-2); }
+.chave-motto { text-align: center; margin: 2rem auto .4rem; max-width: 40rem; }
+.chave-motto q { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: clamp(1.35rem, 3.2vw, 1.9rem); line-height: 1.25; quotes: "«" "»"; }
+.chave-meta { margin-top: 1.4rem; font-size: .84rem; color: var(--key-ink-2); border-top: 1px solid var(--key-rule); padding-top: .7rem; }
+.chave-meta summary { cursor: pointer; font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; list-style: none; }
+.chave-meta summary::-webkit-details-marker { display: none; }
+.chave-meta summary::before { content: "+ "; color: var(--key-acc); }
+.chave-meta[open] summary::before { content: "− "; }
+.chave-meta ul { padding-left: 1.1rem; margin: .5rem 0; }
+.chave-meta li { margin: .25rem 0; }
+@media print { .chave { --key-bg: transparent; --key-ink: #1c1b19; --key-ink-2: #4a4741; --key-rule: #d7cfbd; --key-acc: #8a5a12; border: 1px solid #d7cfbd; } }

@@ -48,6 +48,20 @@ for (const p of ed.pieces) {
   else if (p.verification.status !== "verificada") warn(`${where} verificação: ${p.verification.status} — ${p.verification.note || ""}`);
   if (/[“”]/.test(p.title + p.context + p.interpretation)) warn(`${where} usa aspas inglesas; preferir «»`);
 }
+// A Chave do Dia (opcional): lição que fecha a edição
+if (ed.chave) {
+  const c = ed.chave, where = `[chave ${c.id}]`;
+  for (const k of ["id", "axis", "title", "concept", "lesson", "motto", "certainty"]) if (!c[k]) err(`${where} falta ${k}`);
+  if (!["portugal", "pensamento", "sabedoria", "economia", "geopolitica", "ciencia"].includes(c.axis)) err(`${where} eixo inválido: ${c.axis}`);
+  if (!Array.isArray(c.lesson) || c.lesson.length < 2 || c.lesson.length > 3) err(`${where} a lição tem de ter 2 ou 3 parágrafos`);
+  for (const [i, t] of (c.lesson || []).entries()) { const w = words(t); if (w < 30 || w > 80) warn(`${where} parágrafo ${i + 1} com ${w} palavras (alvo 40–70)`); }
+  if (!c.sources?.length) err(`${where} sem fontes`);
+  for (const s of c.sources || []) { if (!/^https?:\/\//.test(s.url)) err(`${where} fonte sem URL: ${s.name}`); if (!/^\d{4}-\d{2}-\d{2}$/.test(s.accessed || "")) err(`${where} fonte sem data de consulta: ${s.name}`); }
+  if (c.diagram?.svg && !/^<svg[\s>]/.test(c.diagram.svg.trim())) err(`${where} esquema não é SVG`);
+  if (c.diagram?.svg && /<script|on\w+=/i.test(c.diagram.svg)) err(`${where} esquema com código ativo`);
+  if (!c.verification?.status) err(`${where} sem estado de verificação`);
+  if (/[“”]/.test(c.title + c.concept + (c.lesson || []).join(" "))) warn(`${where} usa aspas inglesas; preferir «»`);
+}
 const kinds = ed.pieces.reduce((a, p) => ((a[p.kind] = (a[p.kind] || 0) + 1), a), {});
 const themes = new Set(ed.pieces.map((p) => p.theme));
 if (themes.size < 3) warn(`pouca diversidade temática (${themes.size} temas)`);

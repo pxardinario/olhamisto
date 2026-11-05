@@ -1,5 +1,6 @@
 // Olhamisto — aplicação (sem compilação; módulos ES nativos).
 import { CHARTS, dataTable, toCSV } from "./charts.js";
+import { chaveHTML } from "./chave.js";
 
 const $ = (s, el = document) => el.querySelector(s);
 const main = $("#conteudo");
@@ -202,6 +203,7 @@ async function viewEdition(date, focusId) {
     <p class="opening">${esc(ed.opening)}</p>
     ${pieceHTML(lead, 0, date, { cls: "lead" })}
     <div class="rest">${rest.map((p, i) => pieceHTML(p, i + 1, date, { cls: layout[i % layout.length] })).join("")}</div>
+    ${chaveHTML(ed.chave, esc)}
     ${ed.limitations?.length ? `<aside class="notice"><strong>Notas de edição.</strong><ul>${ed.limitations.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></aside>` : ""}`;
   for (const p of ed.pieces) { const a = $(`#p-${p.id}`); await mountPiece(a, p, date); seenObserver.observe(a); }
   if (focusId) $(`#p-${focusId}`)?.scrollIntoView({ block: "start" });

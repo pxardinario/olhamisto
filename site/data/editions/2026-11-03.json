@@ -229,5 +229,47 @@
         "date": "2026-11-03"
       }
     }
-  ]
+  ],
+  "chave": {
+    "id": "falacia-janela-partida",
+    "axis": "economia",
+    "axisLabel": "Economia e finanças",
+    "certainty": "Consenso, com uma ressalva",
+    "title": "A falácia da janela partida",
+    "concept": "Destruir não cria riqueza. O dinheiro gasto a reparar um estrago é dinheiro que deixou de ir para outra coisa.",
+    "lesson": [
+      "Em 1850, o economista francês Frédéric Bastiat contou a história de um lojista cujo filho parte uma vidraça. Os vizinhos consolam-no: o vidraceiro ganha seis francos, gasta-os noutro lado, e assim a economia mexe. Bastiat aceitou a conta e acrescentou a parte que ninguém vê. Sem o acidente, os seis francos teriam comprado sapatos ou um livro. O vidraceiro ganhou o que o sapateiro perdeu.",
+      "Chama-se custo de oportunidade: cada euro gasto num sítio é um euro que não foi gasto noutro. A falácia regressa sempre que alguém diz que um incêndio «vai dinamizar a construção» ou que uma guerra «relança a indústria». O gasto é real e visível. A alternativa sacrificada não tem rosto, não dá entrevistas e não aparece em nenhuma estatística.",
+      "Há uma ressalva honesta. O PIB mede fluxos, o que se produz num ano, e não o património que se perdeu, por isso pode subir depois de uma catástrofe. E numa recessão, com pessoas e máquinas paradas, a reconstrução pode pôr a trabalhar recursos que estariam ociosos. Ainda assim, a sociedade fica com menos do que teria se nada tivesse sido destruído."
+    ],
+    "diagram": {
+      "title": "O que se vê e o que não se vê",
+      "svg": "<svg viewBox=\"0 0 340 300\" role=\"img\" aria-label=\"Esquema: com a janela partida, os seis francos vão para o vidraceiro e a sociedade fica com uma janela. Sem estrago, vão para o sapateiro e a sociedade fica com uma janela e um par de sapatos.\"> <text x=\"85\" y=\"18\" text-anchor=\"middle\" fill=\"var(--key-acc)\" font-size=\"11\" font-weight=\"600\" letter-spacing=\"1.2\">O QUE SE VÊ</text> <text x=\"255\" y=\"18\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"11\" font-weight=\"600\" letter-spacing=\"1.2\">O QUE NÃO SE VÊ</text> <line x1=\"170\" y1=\"6\" x2=\"170\" y2=\"236\" stroke=\"var(--key-rule)\" stroke-dasharray=\"3 4\"/> <rect x=\"20\" y=\"34\" width=\"130\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"var(--key-acc)\"/> <text x=\"85\" y=\"53\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"12.5\">Janela partida</text> <text x=\"85\" y=\"69\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"11\">o estrago acontece</text> <path d=\"M85 80 V104\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta-janela)\"/> <text x=\"93\" y=\"96\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">6 francos</text> <rect x=\"20\" y=\"108\" width=\"130\" height=\"44\" rx=\"6\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\"/> <text x=\"85\" y=\"127\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"12.5\">Vidraceiro</text> <text x=\"85\" y=\"143\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"11\">trabalha e recebe</text> <path d=\"M85 154 V178\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta-janela)\"/> <rect x=\"20\" y=\"182\" width=\"130\" height=\"50\" rx=\"6\" fill=\"none\" stroke=\"var(--key-rule)\"/> <text x=\"85\" y=\"202\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">a sociedade fica com</text> <text x=\"85\" y=\"221\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"13\" font-weight=\"600\">1 janela</text> <rect x=\"190\" y=\"34\" width=\"130\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"var(--key-rule)\" stroke-dasharray=\"4 3\"/> <text x=\"255\" y=\"53\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"12.5\">Janela intacta</text> <text x=\"255\" y=\"69\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"11\">nada acontece</text> <path d=\"M255 80 V104\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta-janela)\"/> <text x=\"263\" y=\"96\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">6 francos</text> <rect x=\"190\" y=\"108\" width=\"130\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"var(--key-rule)\" stroke-dasharray=\"4 3\"/> <text x=\"255\" y=\"127\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"12.5\">Sapateiro</text> <text x=\"255\" y=\"143\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"11\">trabalha e recebe</text> <path d=\"M255 154 V178\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta-janela)\"/> <rect x=\"190\" y=\"182\" width=\"130\" height=\"50\" rx=\"6\" fill=\"none\" stroke=\"var(--key-rule)\" stroke-dasharray=\"4 3\"/> <text x=\"255\" y=\"202\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">a sociedade fica com</text> <text x=\"255\" y=\"221\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"13\" font-weight=\"600\">1 janela + sapatos</text> <rect x=\"20\" y=\"250\" width=\"300\" height=\"40\" rx=\"6\" fill=\"rgba(200,144,42,.16)\"/> <text x=\"170\" y=\"268\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"12\">Em ambos os casos alguém trabalha.</text> <text x=\"170\" y=\"283\" text-anchor=\"middle\" fill=\"var(--key-acc)\" font-size=\"12\" font-weight=\"600\">A diferença é um par de sapatos.</text> <defs><marker id=\"chave-seta-janela\" viewBox=\"0 0 8 8\" refX=\"6\" refY=\"4\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0 0 L8 4 L0 8 z\" fill=\"var(--key-ink-2)\"/></marker></defs> </svg>",
+      "caption": "O emprego existe dos dois lados. O que muda é o que fica no fim."
+    },
+    "aside": "O panfleto «Ce qu'on voit et ce qu'on ne voit pas» saiu em julho de 1850 e foi o último que Bastiat escreveu. Morreu a 24 de dezembro desse ano, com 49 anos. Quase um século depois, em 1946, Henry Hazlitt pôs a vidraça partida no centro de «Economics in One Lesson».",
+    "application": "Sempre que se anuncia que uma obra, um evento ou um subsídio «cria emprego» ou «mexe com a economia». O emprego pode ser real, mas a conta só fica completa quando se pergunta o que esses recursos fariam noutro sítio.",
+    "motto": "Pergunta sempre: em vez de quê?",
+    "sources": [
+      {
+        "name": "Liberty Fund, Online Library of Liberty — Bastiat, «What is Seen and What is Not Seen» (julho de 1850), com nota bibliográfica da 1.ª edição",
+        "url": "https://oll.libertyfund.org/page/wswns",
+        "accessed": "2026-11-05"
+      },
+      {
+        "name": "Frédéric Bastiat (1801–1850): datas biográficas",
+        "url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bastiat",
+        "accessed": "2026-11-05"
+      }
+    ],
+    "notes": [
+      "Grau de certeza: a ideia de que a destruição reduz a riqueza é consenso em economia. A forma como a reconstrução afeta a produção no curto prazo, sobretudo em recessão, é debatida e está assinalada no terceiro parágrafo."
+    ],
+    "verification": {
+      "status": "verificada",
+      "by": "Claude (sessão com o Pedro), contra as fontes indicadas",
+      "date": "2026-11-05",
+      "note": "Rubrica-piloto acrescentada a 5 de novembro de 2026 a pedido do responsável do projeto."
+    }
+  }
 }

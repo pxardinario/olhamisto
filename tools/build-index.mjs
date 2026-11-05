@@ -17,6 +17,7 @@ const editions = files.map((f) => {
       question: p.question, finding: p.finding, period: p.period, dataset: p.chart.dataset,
       sourceNames: p.sources.map((s) => s.name), verification: p.verification?.status,
     })),
+    ...(e.chave ? { chave: { id: e.chave.id, title: e.chave.title, axis: e.chave.axis, verification: e.chave.verification?.status } } : {}),
   };
 }).filter(Boolean);
 // Salvaguarda do arquivo: edições já indexadas cujo ficheiro não esteja presente localmente

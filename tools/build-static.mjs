@@ -6,6 +6,7 @@
 // no navegador pelo assets/js/app.js. Imagens de partilha: tools/og-images.mjs (passo seguinte).
 import fs from "node:fs";
 import path from "node:path";
+import { chaveHTML } from "../site/assets/js/chave.js";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const SRC = path.join(ROOT, "site");
@@ -47,9 +48,9 @@ if (fs.existsSync(ogKeep)) { fs.renameSync(ogKeep, path.join(OUT, "og")); } else
 // Versões dos ficheiros (impressão digital do conteúdo): cada alteração muda o endereço e obriga o navegador a recarregar
 import crypto from "node:crypto";
 const ver = (rel) => crypto.createHash("sha1").update(fs.readFileSync(path.join(SRC, rel))).digest("hex").slice(0, 10);
-const V = { V_CSS: ver("assets/css/main.css"), V_APP: ver("assets/js/app.js") + ver("assets/js/charts.js").slice(0, 4) };
+const V = { V_CSS: ver("assets/css/main.css"), V_APP: ver("assets/js/app.js") + ver("assets/js/charts.js").slice(0, 4) + ver("assets/js/chave.js").slice(0, 4) };
 const appOut = path.join(OUT, "assets/js/app.js");
-fs.writeFileSync(appOut, fs.readFileSync(appOut, "utf8").replace('from "./charts.js"', `from "./charts.js?v=${ver("assets/js/charts.js")}"`));
+fs.writeFileSync(appOut, fs.readFileSync(appOut, "utf8").replace('from "./charts.js"', `from "./charts.js?v=${ver("assets/js/charts.js")}"`).replace('from "./chave.js"', `from "./chave.js?v=${ver("assets/js/chave.js")}"`));
 const TPL = fs.readFileSync(path.join(SRC, "template.html"), "utf8").replace(/\{\{(V_CSS|V_APP)\}\}/g, (_, k) => V[k]);
 const index = JSON.parse(fs.readFileSync(path.join(SRC, "data", "index.json"), "utf8"));
 const editions = index.editions.map((e) => JSON.parse(fs.readFileSync(path.join(SRC, "data", "editions", `${e.date}.json`), "utf8")));
@@ -88,7 +89,8 @@ function edition(ed, { home = false } = {}) {
   const content = `<h1 class="sr-only">${esc(home ? `${SITE}: edição n.º ${ed.number}` : `Edição n.º ${ed.number}`)}</h1>
 <div class="edition-bar"><span><strong>Edição n.º ${ed.number}</strong> · ${esc(dateLong(ed.date))}<span class="ed-sched">Sai de segunda a sexta, por volta das 8h00. Os agentes entram ao serviço às 7h15.</span></span><span class="edition-nav"><a href="/arquivo/">Arquivo</a></span></div>${aiNote}
 <p class="opening">${esc(ed.opening)}</p>
-${ed.pieces.map((p, i) => pieceStatic(p, ed.date, i)).join("\n")}`;
+${ed.pieces.map((p, i) => pieceStatic(p, ed.date, i)).join("\n")}
+${chaveHTML(ed.chave, esc)}`;
   return page({
     url, title, ogTitle: home ? `${SITE}: ${lead.title}` : title,
     description: `${ed.opening}`, ogImage: `/og/${lead.id}.png`,
