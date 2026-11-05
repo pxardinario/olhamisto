@@ -1,0 +1,82 @@
+{
+  "_sobre": "Lista de espera editorial. Cada edição começa por aqui (ver AGENTS.md e docs/politica-editorial.md). Estados: pronta (dados e licença confirmados, falta produzir), bloqueada (falta resolver o campo bloqueio), descartada (não insistir; motivo em bloqueio). Não é publicada no site.",
+  "candidatas": [
+    {
+      "id": "ia-generativa-por-pais-2025",
+      "tema": "tecnologia",
+      "ideia": "Uso de IA generativa pelas pessoas, por país da UE, em 2025: onde fica Portugal?",
+      "fonte": "Eurostat, inquérito à utilização de TIC pelas famílias (isoc_ai_iaigu ou equivalente)",
+      "licenca": "Eurostat: reutilização permitida com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "Statistics Explained só dá os extremos no texto; o valor por país está num mapa. Tentar a tabela na base de dados do Eurostat (data browser) por WebFetch, ou um conjunto derivado no OWID.",
+      "registada": "2026-11-05",
+      "tentativas": 2
+    },
+    {
+      "id": "adocao-ia-empresas-ue-2025",
+      "tema": "tecnologia",
+      "ideia": "Empresas da UE que usam IA em 2025, por país e dimensão",
+      "fonte": "Eurostat, inquérito ao uso de TIC nas empresas (isoc_eb_ai)",
+      "licenca": "Eurostat: reutilização permitida com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "Statistics Explained inacessível em 2026-11-04. Tentar a tabela isoc_eb_ai no data browser por WebFetch.",
+      "registada": "2026-11-04",
+      "tentativas": 1
+    },
+    {
+      "id": "reprodutibilidade-psicologia-2015",
+      "tema": "ciencia",
+      "ideia": "Quantos resultados da psicologia se repetiram quando foram refeitos (Open Science Collaboration, Science 2015): efeito original contra efeito na réplica",
+      "fonte": "Open Science Collaboration (2015); dados no OSF (osf.io/fgjvw) e repositório github.com/CenterForOpenScience/rpp",
+      "licenca": "Confirmar no OSF (projetos OSF costumam ser CC0 ou CC-BY)",
+      "estado": "bloqueada",
+      "bloqueio": "Ficheiro de dados inacessível em 2026-11-05. Pista: o GitHub é acessível pela linha de comandos; experimentar `git clone --depth 1 https://github.com/CenterForOpenScience/rpp` e procurar o CSV ou o rpp_reproduce.zip.",
+      "registada": "2026-11-05",
+      "tentativas": 1
+    },
+    {
+      "id": "nudges-revistas-vs-governo",
+      "tema": "comportamento",
+      "ideia": "Os nudges funcionam muito menos nas unidades governamentais do que nas revistas científicas (DellaVigna e Linos, Econometrica 2022)",
+      "fonte": "DellaVigna e Linos (2022), Econometrica; dados de replicação",
+      "licenca": "Por confirmar: o pacote de replicação não indicava licença",
+      "estado": "bloqueada",
+      "bloqueio": "Só dois valores médios no resumo; dados por ensaio sem licença de reutilização indicada. Procurar o pacote de replicação no openICPSR ou no sítio da Econometric Society e confirmar a licença.",
+      "registada": "2026-11-05",
+      "tentativas": 1
+    },
+    {
+      "id": "precos-casas-vs-rendas-ue",
+      "tema": "economia",
+      "ideia": "Preços das casas contra rendas nos 27 países da UE, 2015–2025",
+      "fonte": "Eurostat, índices de preços da habitação (prc_hpi_a) e rendas (prc_hicp)",
+      "licenca": "Eurostat: reutilização permitida com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "Valores por país só em gráfico de imagem na página consultada. Tentar as tabelas prc_hpi_a e o índice de rendas no data browser por WebFetch.",
+      "registada": "2026-11-03",
+      "tentativas": 1
+    },
+    {
+      "id": "musica-gravada-vinil",
+      "tema": "cultura",
+      "ideia": "A longa série das receitas de música gravada por formato: o regresso do vinil",
+      "fonte": "RIAA, base de dados de receitas por formato (U.S. Sales Database)",
+      "licenca": "Por confirmar",
+      "estado": "bloqueada",
+      "bloqueio": "Em 2026-11-04 só havia números de 2025 em notícias, sem série longa. Procurar a série da RIAA ou uma fonte com licença aberta.",
+      "registada": "2026-11-04",
+      "tentativas": 1
+    },
+    {
+      "id": "doacao-orgaos-consentimento-presumido",
+      "tema": "comportamento",
+      "ideia": "Consentimento presumido e taxas de dadores de órgãos",
+      "fonte": "Registos internacionais de dadores (IRODaT, Newsletter Transplant do Conselho da Europa)",
+      "licenca": "Sem licença de reutilização clara",
+      "estado": "bloqueada",
+      "bloqueio": "Licença. Só avançar se aparecer uma fonte com licença aberta (ex.: Newsletter Transplant com termos de reutilização explícitos).",
+      "registada": "2026-11-05",
+      "tentativas": 1
+    }
+  ]
+}

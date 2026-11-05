@@ -1,6 +1,6 @@
 # Política editorial
 
-**Missão.** Cinco histórias por dia útil, contadas sobretudo visualmente, para leitores portugueses curiosos e críticos, interessados em história, política, economia, sociedade, tecnologia, marketing, turismo, empreendedorismo, cultura alternativa e ciência do comportamento. Não é um dashboard nem uma galeria de gráficos. Público e gratuito em olhamisto.com.
+**Missão.** Até cinco histórias por dia útil, contadas sobretudo visualmente, para leitores portugueses curiosos e críticos, interessados em história, política, economia, sociedade, tecnologia, marketing, turismo, empreendedorismo, cultura alternativa e ciência do comportamento. Não é um dashboard nem uma galeria de gráficos. Público e gratuito em olhamisto.com.
 
 **Primeiro a história.** Procura-se algo que valha a pena explicar (evolução inesperada, diferença significativa, desigualdade pouco conhecida, contradição entre perceção e realidade, decisão com efeitos mensuráveis). Só depois se escolhe a visualização.
 
@@ -18,7 +18,14 @@
 | Surpresa/perspetiva original | 10% |
 | Interesse para o leitor-alvo | 10% |
 
-**Diversidade.** Pelo menos 3 temas por edição; ao longo de semanas, diversidade evidente. 
+**Diversidade.** Pelo menos 3 temas por edição; ao longo de semanas, diversidade evidente.
+
+**Quota de variedade (obrigatória).** O risco principal desta revista não é falhar uma regra, é tornar-se previsível sem nunca falhar nenhuma. Por isso, em cada edição:
+- no máximo **2 peças** do tipo «tabela oficial de Portugal comparado com a Europa ou a OCDE» (INE, Eurostat, PORDATA, OCDE com Portugal destacado entre países);
+- pelo menos **1 peça** cuja fonte não seja estatística oficial: estudo científico, série histórica longa, base de dados temática (cultura, desporto, ciência, tecnologia, comportamento), arquivo;
+- pelo menos **1 peça** sem Portugal como ângulo principal;
+- não repetir o mesmo tipo de gráfico mais de 2 vezes na mesma edição.
+Se a quota obrigar a publicar menos peças, publica-se menos; nunca se enfraquece a verificação para a cumprir. Regista em `limitations` quando a quota não for cumprida e porquê.
 
 **Repetição.** Não repetir visualizações com mudanças cosméticas. Regressar a um tema só com dados novos que alterem a interpretação — e dizer o que mudou.
 
@@ -27,3 +34,11 @@
 **Escrita.** PT-PT, voz ativa, sem linguagem promocional nem paternalismo. Título curto e específico; contexto (40–70 palavras); interpretação (40–70 palavras) que acrescenta, não repete, os números do gráfico.
 
 **Política de qualidade.** Se não houver cinco histórias com dados verificáveis, publica-se menos e regista-se porquê em `limitations`. Candidatas rejeitadas por falta de dados também são registadas.
+
+**Lista de espera (`editorial/candidatas.json`).** A pesquisa de cada dia não começa do zero:
+1. **Antes de pesquisar**, lê a lista. Escolhe primeiro as candidatas `pronta`. Depois tenta resolver 1 ou 2 `bloqueada` usando a pista do campo `bloqueio` e o mapa `docs/fontes.md`; se resolver, produz a peça.
+2. **Depois de fechar a edição**, atualiza a lista: retira as que foram publicadas; acrescenta as candidatas promissoras rejeitadas hoje (com fonte, licença, estado e o bloqueio concreto); incrementa `tentativas` das que voltaram a falhar. Com `tentativas` ≥ 3, passa a `descartada` e diz porquê.
+3. Mantém a lista curta e útil: no máximo 30 entradas ativas; remove as descartadas com mais de 30 dias.
+4. Uma candidata de atualidade que perdeu a atualidade sai da lista, a não ser que funcione como descoberta.
+
+**Mapa de fontes (`docs/fontes.md`).** Antes de investir numa candidata, confirma lá se a fonte é alcançável neste ambiente. Quando descobrires uma fonte que funciona ou deixou de funcionar, atualiza o mapa com a data do teste.

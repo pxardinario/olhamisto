@@ -7,7 +7,8 @@
     "validate": "node tools/validate.mjs",
     "build": "node tools/build-index.mjs && node tools/build-static.mjs",
     "og": "node tools/og-images.mjs",
-    "test": "node tests/site.mjs"
+    "test": "node tests/site.mjs",
+    "report": "node tools/weekly-report.mjs"
   },
   "keywords": [],
   "author": "",

@@ -24,12 +24,13 @@ O site tem humor nas margens (rodapé, página «A redação», mensagens da int
 ## Processo diário (resumo — detalhe em docs/automacao.md)
 1. Confirmar a data (Europe/Lisbon) e se é dia útil.
 2. Clonar o repositório pxardinario/olhamisto (o repositório é a fonte de verdade).
-3. Ler o histórico (`site/data/index.json`) e `site/data/corrections.json`.
-4. Pesquisar 12–20 candidatas; avaliar com a matriz (30/25/25/10/10); rejeitar as sem dados.
-5. Selecionar 5; recolher dados; transformar; escrever a edição em `site/data/editions/AAAA-MM-DD.json`.
+3. Ler o histórico (`site/data/index.json`), `site/data/corrections.json`, a lista de espera `editorial/candidatas.json` e o mapa `docs/fontes.md`.
+4. Começar pelas candidatas da lista de espera; completar com pesquisa nova até 12–20 candidatas; avaliar com a matriz (30/25/25/10/10); rejeitar as sem dados; respeitar a quota de variedade (docs/politica-editorial.md).
+5. Selecionar até 5; recolher dados; transformar; escrever a edição em `site/data/editions/AAAA-MM-DD.json`.
 6. `node tools/build-index.mjs && node tools/validate.mjs` → corrigir até OK.
 7. Verificação independente (agente H) e correções.
 8. `node tools/build-static.mjs`; servir `public/`; `node tools/og-images.mjs`; `node tools/build-static.mjs` de novo; `node tests/site.mjs` → tem de passar; rever capturas.
+8b. Atualizar `editorial/candidatas.json` (e `docs/fontes.md` se aprendeste algo sobre uma fonte).
 9. `git add -A && git commit` e `git push` para `main` (a Cloudflare publica automaticamente).
 10. Se algo falhar: **não publicar** (não fazer push); a última edição válida mantém-se.
 

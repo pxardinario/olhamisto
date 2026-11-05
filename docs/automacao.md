@@ -6,11 +6,12 @@
 
 ## Cada execução
 1. Data em Europe/Lisbon; termina se for fim de semana ou se a edição do dia já existir.
-2. `add_repo` (pxardinario/olhamisto, acesso de escrita), `git clone --depth 1`, `npm install`.
-3. Lê `AGENTS.md`, `docs/`, `site/data/index.json`, `site/data/corrections.json`.
+2. O repositório pxardinario/olhamisto vem ligado à tarefa agendada «Olhamisto diário v2» (criada no modo de código, com credenciais de escrita). Usa a cópia da sessão, `git checkout main && git pull --ff-only`, `npm install`.
+3. Lê `AGENTS.md`, `docs/` (incluindo `docs/fontes.md`), `site/data/index.json`, `site/data/corrections.json` e `editorial/candidatas.json`.
 4. Pesquisa, seleção, dados (`raw/`), `tools/prepare-AAAA-MM-DD.mjs`, edição em `site/data/editions/AAAA-MM-DD.json`.
 5. `build-index` → `validate` (OK) → verificação independente por subagente → correções.
 6. `build-static` → servir `public/` → `og-images` → `build-static` outra vez (para o feed incluir as imagens novas) → `tests/site.mjs` (tem de passar).
+6b. Atualiza `editorial/candidatas.json` (e `docs/fontes.md` se for o caso).
 7. `git commit -m "Edição n.º X — AAAA-MM-DD"` e `git push origin main`.
 8. Mensagem curta: títulos, ligação https://olhamisto.com e limitações.
 
@@ -21,3 +22,6 @@
 
 ## Email (fase seguinte)
 O feed `https://olhamisto.com/feed.xml` tem um item por edição, pensado para campanhas automáticas por RSS (MailerLite, Brevo, Beehiiv). A plataforma de email lê o feed; a tarefa agendada não guarda nem usa credenciais de envio.
+
+## Revisão semanal
+À sexta-feira, a tarefa «Olhamisto — revisão semanal» corre `node tools/weekly-report.mjs` (só leitura) e manda ao Pedro um resumo: peças por edição, temas, tipos de gráfico, fontes, verificações parciais, correções, cumprimento da quota de variedade e estado da lista de espera. Não altera nada no repositório.
