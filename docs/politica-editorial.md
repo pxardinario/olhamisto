@@ -42,3 +42,5 @@ Se a quota obrigar a publicar menos peças, publica-se menos; nunca se enfraquec
 4. Uma candidata de atualidade que perdeu a atualidade sai da lista, a não ser que funcione como descoberta.
 
 **Mapa de fontes (`docs/fontes.md`).** Antes de investir numa candidata, confirma lá se a fonte é alcançável neste ambiente. Quando descobrires uma fonte que funciona ou deixou de funcionar, atualiza o mapa com a data do teste.
+
+**A Chave do Dia.** Todas as edições fecham com uma lição sobre um conceito, sem gráfico de dados, com rotação entre seis eixos e o mesmo rigor das peças. Regras em `docs/chave-do-dia.md`.

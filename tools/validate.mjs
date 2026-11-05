@@ -48,7 +48,8 @@ for (const p of ed.pieces) {
   else if (p.verification.status !== "verificada") warn(`${where} verificação: ${p.verification.status} — ${p.verification.note || ""}`);
   if (/[“”]/.test(p.title + p.context + p.interpretation)) warn(`${where} usa aspas inglesas; preferir «»`);
 }
-// A Chave do Dia (opcional): lição que fecha a edição
+// A Chave do Dia: obrigatória a partir de 2026-11-06, salvo nota «Chave do Dia: …» em limitations
+if (!ed.chave && date >= "2026-11-06" && !(ed.limitations || []).some((l) => /^Chave do Dia:/.test(l))) err("falta a Chave do Dia (ou a nota «Chave do Dia: …» em limitations)");
 if (ed.chave) {
   const c = ed.chave, where = `[chave ${c.id}]`;
   for (const k of ["id", "axis", "title", "concept", "lesson", "motto", "certainty"]) if (!c[k]) err(`${where} falta ${k}`);
@@ -60,6 +61,13 @@ if (ed.chave) {
   if (c.diagram?.svg && !/^<svg[\s>]/.test(c.diagram.svg.trim())) err(`${where} esquema não é SVG`);
   if (c.diagram?.svg && /<script|on\w+=/i.test(c.diagram.svg)) err(`${where} esquema com código ativo`);
   if (!c.verification?.status) err(`${where} sem estado de verificação`);
+  if (c.verification?.status && c.verification.status !== "verificada") err(`${where} não verificada: a edição sai sem Chave (nota em limitations)`);
+  if (!c.aside || !c.application) err(`${where} faltam «Já agora» (aside) ou «Onde se aplica» (application)`);
+  if (/\b(tu|teu|tua|experimenta)\b/i.test((c.application || "") + " " + (c.motto || ""))) warn(`${where} «Onde se aplica»/motto parecem dirigir-se ao leitor por «tu»: devem ser descritivos e impessoais`);
+  const prev = fs.existsSync(path.join(SITE, "data", "index.json")) ? JSON.parse(fs.readFileSync(path.join(SITE, "data", "index.json"), "utf8")).editions.filter((e) => e.date < date && e.chave) : [];
+  if (prev.some((e) => e.chave.id === c.id || e.chave.title === c.title)) err(`${where} conceito já publicado`);
+  const recent = prev.slice(0, 4).map((e) => e.chave.axis);
+  if (recent.includes(c.axis)) warn(`${where} eixo «${c.axis}» já saiu nas últimas 4 edições (${recent.join(", ")})`);
   if (/[“”]/.test(c.title + c.concept + (c.lesson || []).join(" "))) warn(`${where} usa aspas inglesas; preferir «»`);
 }
 const kinds = ed.pieces.reduce((a, p) => ((a[p.kind] = (a[p.kind] || 0) + 1), a), {});

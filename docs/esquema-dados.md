@@ -8,15 +8,18 @@
 | lead | id | peça principal |
 | limitations | string[] | candidatas rejeitadas, verificações parciais, falhas |
 | pieces[] | Piece | idealmente 5 |
+| chave | Chave | «A Chave do Dia», obrigatória a partir de 2026-11-06 (ou nota «Chave do Dia: …» em `limitations`) |
 
 **Piece:** `id` (estável, kebab-case, único em todo o arquivo) · `slug` · `kind` (`atualidade`/`descoberta`) · `theme` + `themeLabel` · `vizType` (`barras`, `linha`, `area`, `mapa`, `cronologia`, `tabela`, `dispersao`, …) + `vizLabel` · `interactive` · `title` · `question` (questão editorial) · `finding` (descoberta principal) · `context`, `interpretation` (40–70 palavras) · `chart` {`type` = renderizador, `dataset` = pasta} · `period` · `unit` · `sources[]` {`name`, `url`, `accessed`} · `method[]` (notas metodológicas, transformações, limitações) · `verification` {`status`, `by`, `date`, `note`}.
+
+**Chave:** `id` (kebab-case, permanente) · `axis` (`portugal`/`pensamento`/`sabedoria`/`economia`/`geopolitica`/`ciencia`) + `axisLabel` · `certainty` · `title` · `concept` · `lesson[]` (2–3 parágrafos de 40–70 palavras) · `diagram` {`title`, `svg`, `caption`} · `aside` («Já agora») · `application` («Onde se aplica») · `motto` · `sources[]` {`name`, `url`, `accessed`} · `notes[]` · `verification` {`status`, `by`, `date`, `note`}. Detalhe em docs/chave-do-dia.md. Renderizada por `site/assets/js/chave.js` (navegador e pré-renderização).
 
 ## `data/datasets/<id>/`
 - `raw/` — ficheiros originais transcritos (CSV/JSON), imutáveis.
 - `data.json` — dados transformados: `rows` (ou `members`) + `summary` (números citados no texto) + campos auxiliares do renderizador.
 
 ## `data/index.json` (`ronda-visual/index@1`, gerado)
-`latest`, `editions[]` com metadados de cada peça (id, título, tema, tipo de visualização, questão, descoberta, período, dataset, fontes, estado de verificação). É a memória editorial consultada antes de cada edição.
+`latest`, `editions[]` com metadados de cada peça e, quando existe, da Chave do Dia (`chave`: id, título, eixo, verificação — base da regra de rotação) (id, título, tema, tipo de visualização, questão, descoberta, período, dataset, fontes, estado de verificação). É a memória editorial consultada antes de cada edição.
 
 ## `data/corrections.json`
 `{"corrections": [{date, edition, piece, title, change}]}` — registo público, mostrado em `/correcoes/`.

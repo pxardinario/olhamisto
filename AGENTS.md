@@ -21,14 +21,18 @@ Site público e gratuito em https://olhamisto.com, para leitores portugueses cur
 ## Humor
 O site tem humor nas margens (rodapé, página «A redação», mensagens da interface, 404, correções). As peças são intocáveis: títulos, textos, gráficos, anotações, fontes e notas metodológicas são sérios e sem piadas. Nunca humor sobre os temas das histórias (guerra, pobreza, saúde, etc.), nem na etiqueta «Feito por IA».
 
+## A Chave do Dia (todas as edições)
+Cada edição fecha com «A Chave do Dia»: uma lição sobre um conceito, em texto e com um esquema conceptual, sem gráfico de dados. Regras completas, rotação dos seis eixos, estrutura e voz em **docs/chave-do-dia.md** (obrigatório ler); ideias em `editorial/chaves.json`. Produz-se depois de escolhidas as histórias, verifica-se pelo agente H como as peças, e nunca impede a publicação: se falhar a verificação, a edição sai sem ela e regista-se em `limitations` («Chave do Dia: …»).
+
 ## Processo diário (resumo — detalhe em docs/automacao.md)
 1. Confirmar a data (Europe/Lisbon) e se é dia útil.
 2. Clonar o repositório pxardinario/olhamisto (o repositório é a fonte de verdade).
 3. Ler o histórico (`site/data/index.json`), `site/data/corrections.json`, a lista de espera `editorial/candidatas.json` e o mapa `docs/fontes.md`.
 4. Começar pelas candidatas da lista de espera; completar com pesquisa nova até 12–20 candidatas; avaliar com a matriz (30/25/25/10/10); rejeitar as sem dados; respeitar a quota de variedade (docs/politica-editorial.md).
 5. Selecionar até 5; recolher dados; transformar; escrever a edição em `site/data/editions/AAAA-MM-DD.json`.
+5b. Escrever «A Chave do Dia» (campo `chave` da edição), segundo docs/chave-do-dia.md: eixo pela regra de rotação, fontes, grau de certeza, esquema SVG.
 6. `node tools/build-index.mjs && node tools/validate.mjs` → corrigir até OK.
-7. Verificação independente (agente H) e correções.
+7. Verificação independente (agente H) das peças **e da Chave do Dia** e correções.
 8. `node tools/build-static.mjs`; servir `public/`; `node tools/og-images.mjs`; `node tools/build-static.mjs` de novo; `node tests/site.mjs` → tem de passar; rever capturas.
 8b. Atualizar `editorial/candidatas.json` (e `docs/fontes.md` se aprendeste algo sobre uma fonte).
 9. `git add -A && git commit` e `git push` para `main` (a Cloudflare publica automaticamente).

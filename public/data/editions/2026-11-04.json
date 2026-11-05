@@ -260,5 +260,64 @@
     "note": "Os valores citados e 15 pontos de Portugal conferidos no CSV da OWID; corrigido o título («mais de uma em cada nove»)."
    }
   }
- ]
+ ],
+ "chave": {
+  "id": "paradoxo-produtividade",
+  "axis": "portugal",
+  "axisLabel": "Portugal em foco",
+  "certainty": "Dados oficiais · causas debatidas",
+  "title": "O paradoxo da produtividade",
+  "concept": "A produtividade não mede o esforço de quem trabalha. Mede o valor que cada hora consegue criar, e isso depende mais das ferramentas, da organização e do setor do que da vontade.",
+  "lesson": [
+   "Em 2025, segundo a Pordata, trabalhavam-se em Portugal 39,7 horas por semana, contra 37 na média da UE; só quatro países tinham semanas mais longas. No mesmo ano, cada hora trabalhada criou o equivalente a 66,9% do valor médio europeu, em paridades de poder de compra. Em 2005 eram 68,6%. Trabalha-se mais tempo, cria-se menos por hora, e a distância não encolheu em vinte anos.",
+   "A tentação é ler isto como preguiça. Os números dizem outra coisa. Imagine-se duas pessoas a abrir uma vala, uma com uma pá e outra com uma retroescavadora. A segunda não se esforça mais; tem mais capital nas mãos. O valor de cada hora depende sobretudo do investimento, da tecnologia, da dimensão das empresas, da gestão e dos setores onde o emprego cresce.",
+   "Em Portugal, mais de nove em cada dez empresas são microempresas, e grande parte do emprego novo surgiu em setores de baixo valor acrescentado. Somar horas compensa pouco. É como pedalar mais depressa numa bicicleta com a mudança errada: cansa mais e avança pouco. O peso exato de cada causa é debatido entre economistas; a direção do diagnóstico, nem tanto."
+  ],
+  "diagram": {
+   "title": "Valor criado = horas × valor por hora",
+   "svg": "<svg viewBox=\"0 0 340 270\" role=\"img\" aria-label=\"Esquema: em 2025, 39,7 horas de trabalho por semana em Portugal contra 37 na UE; cada hora criou 66,9 por cento do valor médio europeu.\"> <text x=\"0\" y=\"16\" fill=\"var(--key-ink)\" font-size=\"12.5\" font-weight=\"600\">Horas de trabalho por semana (2025)</text> <text x=\"0\" y=\"44\" fill=\"var(--key-ink-2)\" font-size=\"11.5\">Portugal</text><rect x=\"70\" y=\"32\" width=\"214\" height=\"16\" rx=\"3\" fill=\"var(--key-acc)\"/><text x=\"290\" y=\"45\" fill=\"var(--key-ink)\" font-size=\"12\" font-weight=\"600\">39,7</text> <text x=\"0\" y=\"70\" fill=\"var(--key-ink-2)\" font-size=\"11.5\">UE</text><rect x=\"70\" y=\"58\" width=\"200\" height=\"16\" rx=\"3\" fill=\"var(--key-ink-2)\" opacity=\".55\"/><text x=\"276\" y=\"71\" fill=\"var(--key-ink)\" font-size=\"12\">37,0</text> <text x=\"70\" y=\"92\" fill=\"var(--key-acc)\" font-size=\"11\">+7% de horas</text> <text x=\"170\" y=\"120\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"18\">×</text> <text x=\"0\" y=\"148\" fill=\"var(--key-ink)\" font-size=\"12.5\" font-weight=\"600\">Valor criado por hora (UE = 100, 2025)</text> <text x=\"0\" y=\"176\" fill=\"var(--key-ink-2)\" font-size=\"11.5\">Portugal</text><rect x=\"70\" y=\"164\" width=\"140\" height=\"16\" rx=\"3\" fill=\"var(--key-acc)\"/><text x=\"216\" y=\"177\" fill=\"var(--key-ink)\" font-size=\"12\" font-weight=\"600\">66,9</text> <text x=\"0\" y=\"202\" fill=\"var(--key-ink-2)\" font-size=\"11.5\">UE</text><rect x=\"70\" y=\"190\" width=\"209\" height=\"16\" rx=\"3\" fill=\"var(--key-ink-2)\" opacity=\".55\"/><text x=\"285\" y=\"203\" fill=\"var(--key-ink)\" font-size=\"12\">100</text> <text x=\"70\" y=\"224\" fill=\"var(--key-acc)\" font-size=\"11\">−33% de valor por hora</text> <rect x=\"0\" y=\"236\" width=\"340\" height=\"32\" rx=\"6\" fill=\"rgba(200,144,42,.16)\"/><text x=\"170\" y=\"256\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"12\">Mais horas não compensam a mudança errada.</text> </svg>",
+   "caption": "Duas medidas diferentes, lado a lado: as barras de cada bloco só se comparam entre si."
+  },
+  "aside": "A Irlanda aparece no topo europeu, com cerca do dobro da média da UE em valor por hora. Parte disso é contabilidade: em 2015, o PIB irlandês cresceu 26,3% num só ano porque multinacionais transferiram patentes e ativos para o país. Paul Krugman chamou-lhe «leprechaun economics», a economia dos duendes.",
+  "application": "Em qualquer organização que mede o desempenho pelas horas de presença. O ganho raramente está na hora a mais, mas na ferramenta, no processo ou na regra que faz a mesma tarefa em metade do tempo.",
+  "motto": "Mais horas não são mais valor. O que conta é o que cada hora rende.",
+  "sources": [
+   {
+    "name": "Pordata (dados do Eurostat) — Produtividade do trabalho por hora de trabalho, UE27 = 100: Portugal 66,9 em 2025 (provisório) e 68,6 em 2005",
+    "url": "https://www.pordata.pt/Europa/Produtividade+do+trabalho++por+hora+de+trabalho+(UE27+100)-1992",
+    "accessed": "2026-11-05"
+   },
+   {
+    "name": "Pordata — «Dia do Trabalhador» (maio de 2026): 39,7 horas semanais em Portugal e 37 na UE em 2025, população empregada dos 15 aos 64 anos, dados do Eurostat",
+    "url": "https://www.terraruiva.pt/wp-content/uploads/2026/05/Pordata-Dia-do-Trabalhador.pdf",
+    "accessed": "2026-11-05"
+   },
+   {
+    "name": "ECO, 22 set. 2026 — snapshot «Comparar para Crescer», Business Roundtable Portugal: microempresas e emprego em setores de menor valor acrescentado",
+    "url": "https://eco.sapo.pt/2026/09/22/produtividade-de-portugal-face-a-ue-e-mais-baixa-do-que-em-2000/",
+    "accessed": "2026-11-05"
+   },
+   {
+    "name": "VER — Irlanda a 200,2% da média da UE em produtividade por hora (2025)",
+    "url": "https://ver.pt/porque-continuamos-a-trabalhar-mais-e-a-produzir-menos/",
+    "accessed": "2026-11-05"
+   },
+   {
+    "name": "The Irish Times, julho de 2016 — PIB irlandês de 2015 revisto pelo CSO e a expressão de Paul Krugman",
+    "url": "https://www.irishtimes.com/business/economy/concern-as-irish-growth-rate-dubbed-leprechaun-economics-1.2719676",
+    "accessed": "2026-11-05"
+   }
+  ],
+  "notes": [
+   "As horas semanais vêm do inquérito ao emprego e o valor por hora vem das contas nacionais, em paridades de poder de compra. São indicadores diferentes. O esquema põe-nos lado a lado para mostrar a ideia, não para os multiplicar.",
+   "Com outra medida do Eurostat (horas efetivamente trabalhadas, tempo completo e parcial, 20 a 64 anos), os valores de 2025 são 37,4 horas em Portugal e 35,9 na UE. Também por essa medida Portugal fica acima da média.",
+   "Grau de certeza: os valores são estatística oficial, e o de 2025 ainda é provisório. A explicação (capital, escala, setores, gestão) reúne um consenso alargado. O peso relativo de cada fator é debatido."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "Claude (sessão com o Pedro), contra as fontes indicadas",
+   "date": "2026-11-05",
+   "note": "Rubrica acrescentada a 5 de novembro de 2026 a pedido do responsável do projeto."
+  }
+ }
 }

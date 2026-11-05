@@ -1,0 +1,81 @@
+{
+ "schema": "olhamisto/chaves@1",
+ "nota": "Ideias para «A Chave do Dia». Algumas vêm de um projeto anterior do Pedro («Projecto Vassouradas») e trazem ressalvas de rigor obrigatórias. Uma ideia não é uma Chave: tem de ser investigada e verificada como qualquer peça. Depois de publicada, sai desta lista (o registo do que já saiu está em site/data/index.json, campo chave).",
+ "ideias": [
+  {
+   "axis": "portugal",
+   "tema": "A zona económica exclusiva: Portugal é sobretudo mar",
+   "ressalva": "Usar a área da ZEE e da plataforma continental com fonte oficial (DGPM/EMEPC); distinguir ZEE de pedido de extensão da plataforma."
+  },
+  {
+   "axis": "portugal",
+   "tema": "O inverno demográfico e a Segurança Social",
+   "ressalva": "Usar projeções do INE e relatórios de sustentabilidade da Segurança Social; não apresentar projeções como certezas."
+  },
+  {
+   "axis": "pensamento",
+   "tema": "O viés do sobrevivente (os aviões de Abraham Wald)",
+   "ressalva": "A história dos aviões é uma reconstrução simplificada do trabalho de Wald no Statistical Research Group; assinalá-lo."
+  },
+  {
+   "axis": "pensamento",
+   "tema": "O efeito Dunning-Kruger",
+   "ressalva": "O «monte da estupidez» é um meme, não aparece no artigo de 1999; parte do efeito é discutida como artefacto estatístico. Só publicar com estas ressalvas."
+  },
+  {
+   "axis": "pensamento",
+   "tema": "A navalha de Hanlon",
+   "ressalva": "Máxima, não lei empírica; atribuição de autoria incerta."
+  },
+  {
+   "axis": "sabedoria",
+   "tema": "A lei de Parkinson (o trabalho expande-se até ocupar o tempo disponível)",
+   "ressalva": "Ensaio satírico de 1955 na The Economist; observação, não lei demonstrada."
+  },
+  {
+   "axis": "sabedoria",
+   "tema": "O efeito holofote (achamos que nos observam mais do que observam)",
+   "ressalva": "Gilovich, Medvec e Savitsky (2000); citar o estudo e o tamanho do efeito."
+  },
+  {
+   "axis": "economia",
+   "tema": "A tulipomania e o mito da «mãe de todas as bolhas»",
+   "ressalva": "A investigação de Anne Goldgar (2007) mostra uma crise muito menos dramática do que a lenda; a peça deve ser sobre o mito."
+  },
+  {
+   "axis": "economia",
+   "tema": "O dilema do prisioneiro e a cooperação repetida",
+   "ressalva": "Distinguir jogo único de jogo repetido (Axelrod)."
+  },
+  {
+   "axis": "geopolitica",
+   "tema": "A Armadilha de Tucídides",
+   "ressalva": "Tese de Graham Allison, com críticas metodológicas importantes; apresentar como tese debatida."
+  },
+  {
+   "axis": "geopolitica",
+   "tema": "As fronteiras de África desenhadas «à régua»",
+   "ressalva": "A Conferência de Berlim não traçou a maioria das fronteiras; os estudos sobre o efeito das fronteiras retas são debatidos. Peça sobre o mito e o que se sabe."
+  },
+  {
+   "axis": "geopolitica",
+   "tema": "A janela de Overton",
+   "ressalva": "Conceito de think tank, útil mas descritivo; sem pretensão de lei."
+  },
+  {
+   "axis": "ciencia",
+   "tema": "A entropia: porque é que a desordem é a regra",
+   "ressalva": "Explicar a 2.ª lei da termodinâmica sem extrapolações morais."
+  },
+  {
+   "axis": "ciencia",
+   "tema": "Dificuldades desejáveis: porque aprender custa",
+   "ressalva": "Robert Bjork; evitar «se é fácil, não estás a aprender» como regra absoluta."
+  },
+  {
+   "axis": "ciencia",
+   "tema": "O efeito Lindy (o que dura há muito tende a durar)",
+   "ressalva": "Heurística (Mandelbrot, Taleb), não lei; aplicar só a bens não perecíveis."
+  }
+ ]
+}

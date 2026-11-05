@@ -1,6 +1,6 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-05T16:09:32.126Z",
+ "updated": "2026-11-05T16:30:58.812Z",
  "latest": "2026-11-05",
  "editions": [
   {
@@ -82,7 +82,13 @@
      ],
      "verification": "verificada"
     }
-   ]
+   ],
+   "chave": {
+    "id": "regressao-para-a-media",
+    "title": "A regressão para a média",
+    "axis": "pensamento",
+    "verification": "verificada"
+   }
   },
   {
    "date": "2026-11-04",
@@ -189,7 +195,13 @@
      ],
      "verification": "verificada"
     }
-   ]
+   ],
+   "chave": {
+    "id": "paradoxo-produtividade",
+    "title": "O paradoxo da produtividade",
+    "axis": "portugal",
+    "verification": "verificada"
+   }
   },
   {
    "date": "2026-11-03",
