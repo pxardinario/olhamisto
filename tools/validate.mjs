@@ -9,7 +9,7 @@ const SITE = path.join(ROOT, "site");
 const ED = path.join(SITE, "data", "editions");
 const date = process.argv[2] || fs.readdirSync(ED).filter((f) => f.endsWith(".json")).sort().at(-1).replace(".json", "");
 const ed = JSON.parse(fs.readFileSync(path.join(ED, `${date}.json`), "utf8"));
-const CHART_TYPES = ["midterms", "ireland-area", "house-lines", "un-map", "forgetting", "columns", "lines", "dumbbell"];
+const CHART_TYPES = ["midterms", "ireland-area", "house-lines", "un-map", "forgetting", "columns", "lines", "dumbbell", "bars"];
 const errors = [], warns = [];
 const err = (m) => errors.push(m), warn = (m) => warns.push(m);
 const words = (s) => (s || "").trim().split(/\s+/).filter(Boolean).length;

@@ -1,8 +1,89 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-04T11:04:31.203Z",
- "latest": "2026-11-04",
+ "updated": "2026-11-05T07:28:16.550Z",
+ "latest": "2026-11-05",
  "editions": [
+  {
+   "date": "2026-11-05",
+   "number": 3,
+   "lead": "divida-publica-ue-2025",
+   "opening": "Quatro histórias sobre quem sobe e quem desce: a dívida que Portugal cortou mais depressa do que quase toda a Europa, o CO₂ de cada habitante à porta da COP31, as regiões que puxaram o turismo em setembro e os portugueses que nunca foram tantos.",
+   "pieces": [
+    {
+     "id": "divida-publica-ue-2025",
+     "title": "Em três anos, Portugal baixou o rácio da dívida pública em 22 pontos. Só a Grécia e Chipre baixaram mais",
+     "kind": "atualidade",
+     "theme": "portugal",
+     "themeLabel": "Portugal e políticas públicas",
+     "vizType": "halteres",
+     "vizLabel": "Gráfico de halteres · ordenação alternável",
+     "interactive": true,
+     "question": "Como evoluiu a dívida pública portuguesa face aos outros 26 países da UE desde 2022?",
+     "finding": "Entre 2022 e 2025 a dívida pública portuguesa caiu de 111,2% para 89,2% do PIB (−22,0 pontos), a terceira maior descida da UE, depois da Grécia (−32,4) e de Chipre (−27,7). Em 2022 só três países tinham mais dívida do que Portugal; em 2025 são cinco, e Portugal fica a 1,5 pontos do rácio da zona euro (87,7%).",
+     "period": "2022 e 2025 (dados anuais notificados em outubro de 2026)",
+     "dataset": "divida-publica-ue-2025",
+     "sourceNames": [
+      "Eurostat — Euro indicators: Euro area government deficit at 3.0% and EU at 3.1% of GDP (21 out. 2026)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "co2-por-habitante",
+     "title": "Um chinês emite hoje mais CO₂ do que um europeu. Um português emite menos do que a média mundial",
+     "kind": "descoberta",
+     "theme": "ambiente",
+     "themeLabel": "Ambiente e clima",
+     "vizType": "linha",
+     "vizLabel": "Linhas · escala linear ⇄ logarítmica",
+     "interactive": true,
+     "question": "Como mudaram as emissões de CO₂ por habitante nas maiores economias — e em Portugal — desde 1990?",
+     "finding": "Em 2024, cada habitante da China emitiu 8,7 toneladas de CO₂ de origem fóssil, contra 5,4 na UE: a China passou a UE em 2013 e ficou sempre acima desde 2017. Portugal emitiu 3,4 toneladas, metade do pico de 2002 (6,7) e abaixo da média mundial (4,7) desde 2019.",
+     "period": "1990–2024 (anual)",
+     "dataset": "co2-por-habitante",
+     "sourceNames": [
+      "Global Carbon Project — Global Carbon Budget 2025, via Our World in Data, CO₂ and Greenhouse Gas Emissions dataset (CC BY 4.0)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "turismo-regioes-set-2026",
+     "title": "Em setembro, o Norte deu ao turismo quase 60% do crescimento das dormidas",
+     "kind": "atualidade",
+     "theme": "turismo",
+     "themeLabel": "Turismo",
+     "vizType": "barras",
+     "vizLabel": "Barras divergentes · 3 vistas",
+     "interactive": true,
+     "question": "Onde cresceu o turismo em setembro de 2026, e quem o fez crescer?",
+     "finding": "As dormidas subiram 2,0% em setembro. O Norte cresceu 6,6% e, com 19% das dormidas, explica cerca de 59% do aumento nacional; o Algarve, com 27%, cresceu 0,6%. As dormidas de não residentes caíram em cinco das nove regiões, as de residentes subiram em sete.",
+     "period": "Setembro de 2026 face a setembro de 2025",
+     "dataset": "turismo-regioes-set-2026",
+     "sourceNames": [
+      "INE — Atividade Turística, setembro de 2026: Estatísticas Rápidas (30 out. 2026), quadro 1"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "populacao-portugal-1960-2025",
+     "title": "Portugal nunca teve tanta gente. Em 2018 tinha menos do que em 2000",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade e demografia",
+     "vizType": "barras",
+     "vizLabel": "Colunas divergentes · 2 vistas",
+     "interactive": true,
+     "question": "Como se explica que Portugal tenha hoje a maior população de sempre, depois de anos a perder habitantes?",
+     "finding": "Em 2025 Portugal tinha 10,80 milhões de habitantes, o valor mais alto da série. Entre 2010 e 2018 perdeu 289 mil pessoas; desde então ganhou 521 mil. O maior aumento anual desde 1976 foi em 2023 (+144 mil). Só 1975 (+339 mil) e 1976 (+262 mil), com a descolonização, cresceram mais.",
+     "period": "1960–2025 (anual; variações a partir de 1961)",
+     "dataset": "populacao-portugal-1960-2025",
+     "sourceNames": [
+      "Banco Mundial — World Development Indicators, Population, total (SP.POP.TOTL), Portugal (CC BY 4.0)",
+      "Datahub / datasets — population.csv (cópia em CSV dos dados do Banco Mundial)"
+     ],
+     "verification": "verificada"
+    }
+   ]
+  },
   {
    "date": "2026-11-04",
    "number": 2,

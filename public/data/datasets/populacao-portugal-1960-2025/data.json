@@ -1,0 +1,390 @@
+{
+ "rows": [
+  {
+   "cat": "1961",
+   "change": 71.6,
+   "pop": 8.93
+  },
+  {
+   "cat": "1962",
+   "change": 64.7,
+   "pop": 8.99
+  },
+  {
+   "cat": "1963",
+   "change": 36.4,
+   "pop": 9.03
+  },
+  {
+   "cat": "1964",
+   "change": 5,
+   "pop": 9.04
+  },
+  {
+   "cat": "1965",
+   "change": -36.8,
+   "pop": 9
+  },
+  {
+   "cat": "1966",
+   "change": -67.6,
+   "pop": 8.93
+  },
+  {
+   "cat": "1967",
+   "change": -56.5,
+   "pop": 8.87
+  },
+  {
+   "cat": "1968",
+   "change": -37.9,
+   "pop": 8.84
+  },
+  {
+   "cat": "1969",
+   "change": -78.9,
+   "pop": 8.76
+  },
+  {
+   "cat": "1970",
+   "change": -77.3,
+   "pop": 8.68
+  },
+  {
+   "cat": "1971",
+   "change": -36.7,
+   "pop": 8.64
+  },
+  {
+   "cat": "1972",
+   "change": -13.3,
+   "pop": 8.63
+  },
+  {
+   "cat": "1973",
+   "change": 2.7,
+   "pop": 8.63
+  },
+  {
+   "cat": "1974",
+   "change": 121.3,
+   "pop": 8.75
+  },
+  {
+   "cat": "1975",
+   "change": 339.1,
+   "pop": 9.09
+  },
+  {
+   "cat": "1976",
+   "change": 262.3,
+   "pop": 9.36
+  },
+  {
+   "cat": "1977",
+   "change": 99.9,
+   "pop": 9.46
+  },
+  {
+   "cat": "1978",
+   "change": 102.6,
+   "pop": 9.56
+  },
+  {
+   "cat": "1979",
+   "change": 103,
+   "pop": 9.66
+  },
+  {
+   "cat": "1980",
+   "change": 105,
+   "pop": 9.77
+  },
+  {
+   "cat": "1981",
+   "change": 85.1,
+   "pop": 9.85
+  },
+  {
+   "cat": "1982",
+   "change": 60.4,
+   "pop": 9.91
+  },
+  {
+   "cat": "1983",
+   "change": 46.1,
+   "pop": 9.96
+  },
+  {
+   "cat": "1984",
+   "change": 38.4,
+   "pop": 10
+  },
+  {
+   "cat": "1985",
+   "change": 27.4,
+   "pop": 10.02
+  },
+  {
+   "cat": "1986",
+   "change": 9.1,
+   "pop": 10.03
+  },
+  {
+   "cat": "1987",
+   "change": -2.7,
+   "pop": 10.03
+  },
+  {
+   "cat": "1988",
+   "change": -10.4,
+   "pop": 10.02
+  },
+  {
+   "cat": "1989",
+   "change": -14.6,
+   "pop": 10.01
+  },
+  {
+   "cat": "1990",
+   "change": -21.8,
+   "pop": 9.98
+  },
+  {
+   "cat": "1991",
+   "change": -23,
+   "pop": 9.96
+  },
+  {
+   "cat": "1992",
+   "change": -7.7,
+   "pop": 9.95
+  },
+  {
+   "cat": "1993",
+   "change": 12.2,
+   "pop": 9.96
+  },
+  {
+   "cat": "1994",
+   "change": 26.9,
+   "pop": 9.99
+  },
+  {
+   "cat": "1995",
+   "change": 34.7,
+   "pop": 10.03
+  },
+  {
+   "cat": "1996",
+   "change": 37.8,
+   "pop": 10.06
+  },
+  {
+   "cat": "1997",
+   "change": 45,
+   "pop": 10.11
+  },
+  {
+   "cat": "1998",
+   "change": 51.2,
+   "pop": 10.16
+  },
+  {
+   "cat": "1999",
+   "change": 57.6,
+   "pop": 10.22
+  },
+  {
+   "cat": "2000",
+   "change": 72.1,
+   "pop": 10.29
+  },
+  {
+   "cat": "2001",
+   "change": 72.8,
+   "pop": 10.36
+  },
+  {
+   "cat": "2002",
+   "change": 56.9,
+   "pop": 10.42
+  },
+  {
+   "cat": "2003",
+   "change": 39.2,
+   "pop": 10.46
+  },
+  {
+   "cat": "2004",
+   "change": 25,
+   "pop": 10.48
+  },
+  {
+   "cat": "2005",
+   "change": 19.5,
+   "pop": 10.5
+  },
+  {
+   "cat": "2006",
+   "change": 19,
+   "pop": 10.52
+  },
+  {
+   "cat": "2007",
+   "change": 20.7,
+   "pop": 10.54
+  },
+  {
+   "cat": "2008",
+   "change": 15.2,
+   "pop": 10.56
+  },
+  {
+   "cat": "2009",
+   "change": 10.1,
+   "pop": 10.57
+  },
+  {
+   "cat": "2010",
+   "change": 4.9,
+   "pop": 10.57
+  },
+  {
+   "cat": "2011",
+   "change": -15.5,
+   "pop": 10.56
+  },
+  {
+   "cat": "2012",
+   "change": -42.7,
+   "pop": 10.51
+  },
+  {
+   "cat": "2013",
+   "change": -57.5,
+   "pop": 10.46
+  },
+  {
+   "cat": "2014",
+   "change": -56.2,
+   "pop": 10.4
+  },
+  {
+   "cat": "2015",
+   "change": -43,
+   "pop": 10.36
+  },
+  {
+   "cat": "2016",
+   "change": -32.6,
+   "pop": 10.33
+  },
+  {
+   "cat": "2017",
+   "change": -25.2,
+   "pop": 10.3
+  },
+  {
+   "cat": "2018",
+   "change": -16.5,
+   "pop": 10.28
+  },
+  {
+   "cat": "2019",
+   "change": 2.4,
+   "pop": 10.29
+  },
+  {
+   "cat": "2020",
+   "change": 10.8,
+   "pop": 10.3
+  },
+  {
+   "cat": "2021",
+   "change": 64.8,
+   "pop": 10.36
+  },
+  {
+   "cat": "2022",
+   "change": 72.5,
+   "pop": 10.43
+  },
+  {
+   "cat": "2023",
+   "change": 143.8,
+   "pop": 10.58
+  },
+  {
+   "cat": "2024",
+   "change": 116.5,
+   "pop": 10.69
+  },
+  {
+   "cat": "2025",
+   "change": 110.2,
+   "pop": 10.8
+  }
+ ],
+ "views": [
+  {
+   "id": "var",
+   "label": "Variação anual",
+   "yLabel": "Variação da população face ao ano anterior (milhares de pessoas)",
+   "unit": " mil",
+   "decimals": 1,
+   "yMax": 400,
+   "labelEvery": 5,
+   "labelEveryNarrow": 10,
+   "series": [
+    {
+     "key": "change",
+     "label": "Variação anual (milhares)",
+     "color": "--accent-2",
+     "negColor": "--accent-3"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "1975",
+     "text": "1975: descolonização, +339 mil",
+     "short": "1975: +339 mil"
+    },
+    {
+     "cat": "2013",
+     "text": "2011–2018: crise e emigração",
+     "short": "2011–18"
+    }
+   ]
+  },
+  {
+   "id": "pop",
+   "label": "População",
+   "yLabel": "População residente (milhões, estimativa a meio do ano)",
+   "unit": " milhões",
+   "decimals": 2,
+   "labelEvery": 5,
+   "labelEveryNarrow": 10,
+   "series": [
+    {
+     "key": "pop",
+     "label": "População (milhões)",
+     "color": "--accent-2"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "pop1960": 8857716,
+  "pop2025": 10804871,
+  "peak2010": 10573100,
+  "low2018": 10283822,
+  "lost": 289,
+  "gained": 521,
+  "loss60s": 405,
+  "c75": 339.1,
+  "c76": 262.3,
+  "since76": 143.8,
+  "negYears": 22
+ }
+}

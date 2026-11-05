@@ -1,0 +1,180 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-05",
+ "number": 3,
+ "status": "publicada",
+ "opening": "Quatro histórias sobre quem sobe e quem desce: a dívida que Portugal cortou mais depressa do que quase toda a Europa, o CO₂ de cada habitante à porta da COP31, as regiões que puxaram o turismo em setembro e os portugueses que nunca foram tantos.",
+ "lead": "divida-publica-ue-2025",
+ "generatedAt": "2026-11-05T08:30:00Z",
+ "limitations": [
+  "Edição com quatro peças em vez de cinco: nenhuma quinta candidata tinha dados verificáveis e reutilizáveis a tempo do fecho.",
+  "Candidata rejeitada: uso de IA generativa por país em 2025 (Eurostat). O relatório e a página Statistics Explained só dão no texto os valores extremos; o valor de Portugal só existe num mapa sem números legíveis neste ambiente.",
+  "Candidata rejeitada: o Projeto de Reprodutibilidade em Psicologia (2015). O ficheiro de dados do repositório público não estava acessível neste ambiente.",
+  "Candidata rejeitada: efeito dos nudges em revistas científicas e em unidades governamentais (DellaVigna e Linos, Econometrica 2022). O resumo só tem dois valores médios; os dados por ensaio não tinham licença de reutilização indicada.",
+  "Candidata rejeitada: consentimento presumido e doação de órgãos. As taxas de dadores por milhão de habitantes vêm de registos sem licença de reutilização clara.",
+  "Turismo: a estimativa rápida do INE só tem o mês de setembro; os valores são preliminares e serão revistos."
+ ],
+ "pieces": [
+  {
+   "id": "divida-publica-ue-2025",
+   "slug": "divida-publica-portugal-ue-2022-2025",
+   "kind": "atualidade",
+   "theme": "portugal",
+   "themeLabel": "Portugal e políticas públicas",
+   "vizType": "halteres",
+   "vizLabel": "Gráfico de halteres · ordenação alternável",
+   "interactive": true,
+   "title": "Em três anos, Portugal baixou o rácio da dívida pública em 22 pontos. Só a Grécia e Chipre baixaram mais",
+   "question": "Como evoluiu a dívida pública portuguesa face aos outros 26 países da UE desde 2022?",
+   "finding": "Entre 2022 e 2025 a dívida pública portuguesa caiu de 111,2% para 89,2% do PIB (−22,0 pontos), a terceira maior descida da UE, depois da Grécia (−32,4) e de Chipre (−27,7). Em 2022 só três países tinham mais dívida do que Portugal; em 2025 são cinco, e Portugal fica a 1,5 pontos do rácio da zona euro (87,7%).",
+   "context": "O Orçamento do Estado para 2027 está em discussão no Parlamento. A 21 de outubro, o Eurostat publicou a segunda notificação de défice e dívida de 2026, com os números de 2022 a 2025 de todos os Estados-membros. Em 2025, a dívida pública da zona euro subiu para 87,7% do PIB e Portugal foi um dos cinco países com excedente orçamental (0,7%).",
+   "interpretation": "Um rácio desce quando a dívida cresce menos do que o PIB nominal, e a inflação de 2022 e 2023 fez crescer o PIB nominal em toda a UE. Ainda assim, catorze países subiram, entre eles França (+4,3 pontos), Polónia (+10,8) e Finlândia (+14,3). Em 2022 Portugal estava 22 pontos acima do rácio da zona euro; em 2025, 1,5 pontos.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "divida-publica-ue-2025"
+   },
+   "period": "2022 e 2025 (dados anuais notificados em outubro de 2026)",
+   "unit": "Dívida bruta das administrações públicas em % do PIB (conceito de Maastricht)",
+   "sources": [
+    {
+     "name": "Eurostat — Euro indicators: Euro area government deficit at 3.0% and EU at 3.1% of GDP (21 out. 2026)",
+     "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-21102026-ap",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "method": [
+    "Valores de dívida (2022 e 2025) e saldo orçamental de 2025 transcritos da tabela da notificação de outubro de 2026 (procedimento relativo aos défices excessivos). Os anos anteriores podem ser revistos em notificações futuras.",
+    "Rácio da zona euro: dívida agregada de 20 países (EA20), a composição em 2025. Com a Bulgária (EA21, membro desde janeiro de 2026) o rácio seria 87,3%. Em euros, a dívida portuguesa aumentou no período; o que desce é o rácio face ao PIB.",
+    "Variações em pontos percentuais do PIB, calculadas em tools/prepare-2026-11-05.mjs. Uma descida do rácio pode resultar de menos dívida, de mais PIB nominal ou de ambos; o gráfico não separa os dois efeitos."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-05",
+    "note": "Os 27 países (2022 e 2025), os agregados e os saldos de 2025 conferidos na publicação do Eurostat de 21/10/2026 (135 valores). Título reformulado: o que desce é o rácio, não a dívida em euros; «média» passou a «rácio da zona euro»."
+   }
+  },
+  {
+   "id": "co2-por-habitante",
+   "slug": "co2-por-habitante-portugal-ue-china-1990-2024",
+   "kind": "descoberta",
+   "theme": "ambiente",
+   "themeLabel": "Ambiente e clima",
+   "vizType": "linha",
+   "vizLabel": "Linhas · escala linear ⇄ logarítmica",
+   "interactive": true,
+   "title": "Um chinês emite hoje mais CO₂ do que um europeu. Um português emite menos do que a média mundial",
+   "question": "Como mudaram as emissões de CO₂ por habitante nas maiores economias — e em Portugal — desde 1990?",
+   "finding": "Em 2024, cada habitante da China emitiu 8,7 toneladas de CO₂ de origem fóssil, contra 5,4 na UE: a China passou a UE em 2013 e ficou sempre acima desde 2017. Portugal emitiu 3,4 toneladas, metade do pico de 2002 (6,7) e abaixo da média mundial (4,7) desde 2019.",
+   "context": "A COP31 começa a 9 de novembro em Antália, na Turquia. As emissões totais dependem do tamanho de cada país; por habitante, a comparação muda. Em 1990, um europeu emitia mais de quatro vezes o CO₂ de um chinês. Os Estados Unidos continuam muito acima de todos: 14,2 toneladas por pessoa em 2024, menos 30% do que em 1990.",
+   "interpretation": "A descida portuguesa coincide com o fim do carvão na produção de eletricidade, concluído em 2021, e com mais renováveis. Estes números são territoriais: contam o que é emitido em cada país, não o que cada país consome. Medido pelo consumo, a UE fica mais perto da China (7,3 contra 7,6 toneladas em 2023), mas a ordem não muda.",
+   "chart": {
+    "type": "lines",
+    "dataset": "co2-por-habitante"
+   },
+   "period": "1990–2024 (anual)",
+   "unit": "Toneladas de CO₂ por habitante (combustíveis fósseis e indústria)",
+   "sources": [
+    {
+     "name": "Global Carbon Project — Global Carbon Budget 2025, via Our World in Data, CO₂ and Greenhouse Gas Emissions dataset (CC BY 4.0)",
+     "url": "https://github.com/owid/co2-data",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "method": [
+    "Variável co2_per_capita (emissões territoriais de combustíveis fósseis e indústria, sem alterações do uso do solo) do conjunto de dados da OWID, versão disponível a 5 de novembro de 2026, baseada no Global Carbon Budget 2025. Transcrição em raw/co2-capita/ para seis entidades.",
+    "UE: os 27 Estados-membros atuais em toda a série. O Global Carbon Budget 2026, com estimativas de 2025, deverá sair durante a COP31; os valores podem ser revistos.",
+    "Emissões baseadas no consumo (consumption_co2_per_capita) usadas apenas para a comparação de 2023 no texto. A China ultrapassou a UE em 2013; em 2016 a UE voltou a ficar ligeiramente acima (6,96 contra 6,94 t). Portugal já tinha ficado abaixo da média mundial em 2012–2014; está sempre abaixo desde 2019."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-05",
+    "note": "Os 390 registos brutos conferidos com o ficheiro atual da OWID, sem diferenças; datas da COP31 confirmadas. Corrigida a cor do marcador da China (o terracota fica reservado a Portugal) e precisada a versão dos dados."
+   }
+  },
+  {
+   "id": "turismo-regioes-set-2026",
+   "slug": "turismo-dormidas-regioes-setembro-2026",
+   "kind": "atualidade",
+   "theme": "turismo",
+   "themeLabel": "Turismo",
+   "vizType": "barras",
+   "vizLabel": "Barras divergentes · 3 vistas",
+   "interactive": true,
+   "title": "Em setembro, o Norte deu ao turismo quase 60% do crescimento das dormidas",
+   "question": "Onde cresceu o turismo em setembro de 2026, e quem o fez crescer?",
+   "finding": "As dormidas subiram 2,0% em setembro. O Norte cresceu 6,6% e, com 19% das dormidas, explica cerca de 59% do aumento nacional; o Algarve, com 27%, cresceu 0,6%. As dormidas de não residentes caíram em cinco das nove regiões, as de residentes subiram em sete.",
+   "context": "A estimativa rápida do INE, publicada a 30 de outubro, dá 8,7 milhões de dormidas no alojamento turístico em setembro de 2026, mais 2,0% do que um ano antes. Os não residentes fizeram 71% das dormidas e cresceram 1,6%; os residentes em Portugal cresceram 3,1%. O Reino Unido continua a ser o principal mercado externo, com 19,1% das dormidas de não residentes.",
+   "interpretation": "O crescimento não foi igual em todo o país. Fora do Norte, Grande Lisboa, Algarve e Açores, os não residentes recuaram: −7,7% no Oeste e Vale do Tejo, −4,8% no Centro, −3,9% na Península de Setúbal. Os residentes subiram em quase todo o lado, exceto no Algarve (−2,0%) e nos Açores (−11,1%). Um só mês não faz tendência: são dados preliminares.",
+   "chart": {
+    "type": "bars",
+    "dataset": "turismo-regioes-set-2026"
+   },
+   "period": "Setembro de 2026 face a setembro de 2025",
+   "unit": "Variação homóloga das dormidas no alojamento turístico (%)",
+   "sources": [
+    {
+     "name": "INE — Atividade Turística, setembro de 2026: Estatísticas Rápidas (30 out. 2026), quadro 1",
+     "url": "https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=825209253&att_display=n&att_download=y",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "method": [
+    "Dormidas no alojamento turístico (hotelaria, alojamento local com 10 ou mais camas e turismo no espaço rural e de habitação), sem parques de campismo, por região NUTS II (versão de 2024), transcritas do quadro 1. Valores preliminares.",
+    "Contributo do Norte para o aumento nacional estimado em tools/prepare-2026-11-05.mjs a partir das dormidas e das taxas publicadas (dormidas de setembro de 2025 implícitas); é aproximado por causa do arredondamento das taxas.",
+    "O INE não atribui causas às variações; a peça também não."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-05",
+    "note": "Todos os valores do quadro 1 e dos mercados conferidos na estimativa rápida do INE (66 valores). Corrigida a interpretação (os não residentes também subiram nos Açores; «estrangeiros» passou a «não residentes») e o âmbito do alojamento local."
+   }
+  },
+  {
+   "id": "populacao-portugal-1960-2025",
+   "slug": "populacao-portugal-1960-2025-tres-vagas",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade e demografia",
+   "vizType": "barras",
+   "vizLabel": "Colunas divergentes · 2 vistas",
+   "interactive": true,
+   "title": "Portugal nunca teve tanta gente. Em 2018 tinha menos do que em 2000",
+   "question": "Como se explica que Portugal tenha hoje a maior população de sempre, depois de anos a perder habitantes?",
+   "finding": "Em 2025 Portugal tinha 10,80 milhões de habitantes, o valor mais alto da série. Entre 2010 e 2018 perdeu 289 mil pessoas; desde então ganhou 521 mil. O maior aumento anual desde 1976 foi em 2023 (+144 mil). Só 1975 (+339 mil) e 1976 (+262 mil), com a descolonização, cresceram mais.",
+   "context": "A população portuguesa não cresceu de forma contínua. Nos anos 60, a emigração para França e Alemanha fez o país perder 405 mil pessoas entre 1964 e 1972. A descolonização trouxe centenas de milhares de pessoas em 1975 e 1976. A crise financeira e a nova vaga de emigração levaram a oito anos seguidos de perdas, entre 2011 e 2018.",
+   "interpretation": "Desde 2019, o crescimento depende da imigração: em Portugal morrem mais pessoas do que nascem desde 2009, pelo que o saldo natural é negativo. As colunas contam, por isso, sobretudo a história migratória do país. Os valores são estimativas a meio do ano e os mais recentes ainda podem ser revistos pelo INE e pelo Eurostat.",
+   "chart": {
+    "type": "columns",
+    "dataset": "populacao-portugal-1960-2025"
+   },
+   "period": "1960–2025 (anual; variações a partir de 1961)",
+   "unit": "Milhares de pessoas (variação anual); milhões de pessoas (população)",
+   "sources": [
+    {
+     "name": "Banco Mundial — World Development Indicators, Population, total (SP.POP.TOTL), Portugal (CC BY 4.0)",
+     "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+     "accessed": "2026-11-05"
+    },
+    {
+     "name": "Datahub / datasets — population.csv (cópia em CSV dos dados do Banco Mundial)",
+     "url": "https://github.com/datasets/population",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "method": [
+    "População total a meio do ano (indicador SP.POP.TOTL do Banco Mundial, que usa as estimativas do Eurostat e do INE para Portugal), transcrita em raw/populacao-pt/. A variação anual é a diferença entre anos consecutivos, em milhares.",
+    "A variação inclui o saldo natural (nascimentos menos óbitos) e o saldo migratório; esta série não os separa. A atribuição dos picos à emigração, à descolonização e à imigração segue a história demográfica conhecida e não é calculada aqui.",
+    "As colunas da população começam em zero. Os valores mais recentes podem ser revistos pelo INE e pelo Eurostat."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-05",
+    "note": "Os 66 anos conferidos com o ficheiro do Banco Mundial (cópia datahub) e 10 anos com a série do Banco Mundial no FRED; afirmações históricas e saldo natural negativo desde 2009 confirmados."
+   }
+  }
+ ]
+}

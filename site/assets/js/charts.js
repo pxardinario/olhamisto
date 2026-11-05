@@ -458,7 +458,7 @@ function columns(host, data) {
     const stacks = rows.map((row) => { let pos = 0, neg = 0; return v.series.map((s) => { const val = row[s.key]; const y0 = val >= 0 ? pos : neg; if (val >= 0) pos += val; else neg += val; return { row, s, val, y0, y1: y0 + val }; }); });
     let lo = d3.min(stacks.flat(), (e) => Math.min(e.y0, e.y1)), hi = d3.max(stacks.flat(), (e) => Math.max(e.y0, e.y1));
     if (v.line) { lo = Math.min(lo, d3.min(rows, (r) => r[v.line.key])); hi = Math.max(hi, d3.max(rows, (r) => r[v.line.key])); }
-    const y = d3.scaleLinear().domain([Math.min(0, lo), Math.max(0, hi)]).nice().range([H - m.b, m.t]);
+    const y = d3.scaleLinear().domain([Math.min(0, lo), Math.max(0, hi, v.yMax ?? 0)]).nice().range([H - m.b, m.t]);
     svg.append("g").attr("class", "grid").selectAll("line").data(y.ticks(6)).join("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y).attr("y2", y);
     svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(6).tickFormat((t) => fmtN(t, Number.isInteger(t) ? 0 : 1)).tickSize(0)).call((g) => g.select(".domain").remove());
     yl.forEach((t, i) => halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 30 : 40)).attr("y", 14 + i * 14).text(t)));
@@ -477,7 +477,7 @@ function columns(host, data) {
       .on("pointerleave blur", () => tip.hide())
       .on("focus", (e, row) => tip.show(html(row), ((x(row.cat) + x.bandwidth() / 2) / W) * host.chart.clientWidth, 60));
     svg.append("line").attr("class", "zero").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y(0)).attr("y2", y(0));
-    const every = narrow && rows.length > 8 ? 2 : 1;
+    const every = narrow ? (v.labelEveryNarrow || (rows.length > 8 ? 2 : 1)) : (v.labelEvery || 1);
     svg.append("g").selectAll("text").data(rows.filter((_, i) => i % every === (rows.length - 1) % every)).join("text").attr("class", "ann-muted")
       .attr("x", (row) => x(row.cat) + x.bandwidth() / 2).attr("y", H - m.b + 16).attr("text-anchor", "middle").text((row) => row.cat);
     if (v.line) {
@@ -544,14 +544,14 @@ function lines(host, data) {
       for (let i = 1; i < labs.length; i++) if (labs[i].y - labs[i - 1].y < gap) labs[i].y = labs[i - 1].y + gap;
       const over = labs.at(-1).y - (H - m.b); if (over > 0) labs.forEach((l) => (l.y -= over));
       for (const l of labs) halo(svg.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", l.s.color === "--muted" ? 400 : 700)
-        .style("fill", l.s.color === "--muted" ? css("--ink-3") : css(l.s.color)).attr("x", x(L.x) + 6).attr("y", l.y + 4).text(`${narrow ? l.s.label.slice(0, 3) + "." : l.s.label} ${fmtN(l.v, d)}`));
+        .style("fill", l.s.color === "--muted" ? css("--ink-3") : css(l.s.color)).attr("x", x(L.x) + 6).attr("y", l.y + 4).text(`${narrow ? l.s.short || l.s.label.slice(0, 3) + "." : l.s.label} ${fmtN(l.v, d)}`));
     }
     for (const a of C.annotations || []) {
       if ((a.logOnly && !log) || (a.linOnly && log)) continue;
       const q = rows.find((z) => z.x === a.x); if (!q) continue;
-      svg.append("circle").attr("cx", x(a.x)).attr("cy", y(q[a.key])).attr("r", 4.5).attr("fill", css("--accent")).attr("stroke", css("--card")).attr("stroke-width", 2);
+      svg.append("circle").attr("cx", x(a.x)).attr("cy", y(q[a.key])).attr("r", 4.5).attr("fill", css((C.series.find((sr) => sr.key === a.key) || {}).color || "--accent")).attr("stroke", css("--card")).attr("stroke-width", 2);
       halo(svg.append("text").attr("class", "ann").style("font-weight", a.strong ? 700 : 400).style("fill", a.strong ? css("--accent") : null)
-        .attr("x", x(a.x) + (a.dx || 0)).attr("y", y(q[a.key]) + (a.dy || 0)).attr("text-anchor", a.anchor || "start").text(a.text));
+        .attr("x", x(a.x) + (a.dx || 0)).attr("y", y(q[a.key]) + (a.dy || 0)).attr("text-anchor", a.anchor || "start").text(narrow && a.short ? a.short : a.text));
     }
     const cursor = svg.append("g").style("display", "none").style("pointer-events", "none");
     cursor.append("line").attr("y1", m.t).attr("y2", H - m.b).attr("stroke", css("--ink")).attr("stroke-width", 1).attr("opacity", 0.6);
@@ -606,12 +606,62 @@ function dumbbell(host, data) {
     g.filter((q) => q.c != null).append("circle").attr("cx", (q) => x(q.c)).attr("r", 5).attr("fill", "none").attr("stroke", css("--ink")).attr("stroke-width", 2);
     g.filter((q) => q.b == null).append("text").attr("class", "ann-muted").attr("x", (q) => x(q.a) + 8).attr("y", 4).text("2025: sem dados");
     g.filter((q) => q.highlight && q.b != null).append("text").attr("class", "ann").style("font-size", "11px").style("font-weight", 700)
-      .attr("x", (q) => x(q.b) + 8).attr("y", 4).text((q) => `${fmtN(q.a, d)} → ${fmtN(q.b, d)}${C.unit}`);
+      .attr("x", (q) => x(Math.max(q.a, q.b)) + 8).attr("y", 4).text((q) => `${fmtN(q.a, d)} → ${fmtN(q.b, d)}${C.unit}`);
   });
   return r;
 }
 
-export const CHARTS = { midterms, "ireland-area": irelandArea, "house-lines": houseLines, "un-map": unMap, forgetting, columns, lines, dumbbell };
+
+/* bars: barras horizontais divergentes (valores positivos e negativos), várias vistas (uma chave por vista), linha de referência opcional, ordenação alternável.
+   data.rows[{label,highlight,total?,...keys}], data.config{views[{id,label,key,axisLabel,ref,refLabel}],unit,decimals,howToRead,sorts[[id,label]],pinned:[labels fixos no topo]} */
+function bars(host, data) {
+  const C = data.config, d = C.decimals ?? 1, views = C.views;
+  let view = views[0], sortKey = C.sorts?.[0]?.[0] || "value";
+  const tip = tooltip(host.chart);
+  if (views.length > 1) segmented(host.controls, views.map((v) => [v.id, v.label]), view.id, (v) => { view = views.find((q) => q.id === v); r.redraw(); }, "Vista");
+  if (C.sorts?.length > 1) segmented(host.controls, C.sorts, sortKey, (v) => { sortKey = v; r.redraw(); }, "Ordenação");
+  if (C.howToRead) { const p = document.createElement("p"); p.className = "how-to-read"; p.textContent = C.howToRead; host.legend.appendChild(p); }
+  legend(host.legend, [{ color: css("--accent-2"), label: C.posLabel || "Subida" }, { color: css("--accent-3"), label: C.negLabel || "Descida" }, ...(C.highlightLabel ? [{ color: css("--accent"), label: C.highlightLabel }] : [])]);
+  const r = responsive(host.chart, (W) => {
+    const narrow = W < 560, v = view, k = v.key;
+    const pinned = rowsOf().filter((q) => (C.pinned || []).includes(q.label));
+    const rest = rowsOf().filter((q) => !(C.pinned || []).includes(q.label)).sort((p, q) => (sortKey === "label" ? p.label.localeCompare(q.label, "pt") : q[k] - p[k]));
+    const rows = [...pinned, ...rest];
+    const rowH = narrow ? 26 : 28, m = { t: 40, r: narrow ? 44 : 60, b: 30, l: narrow ? 118 : 170 };
+    const H = m.t + m.b + rows.length * rowH + (pinned.length ? 8 : 0);
+    const svg = svgIn(host.chart, W, H, v.axisLabel);
+    const ext = d3.extent(rows.flatMap((q) => views.map((w) => q[w.key])).concat([0]));
+    const x = d3.scaleLinear().domain([Math.min(0, ext[0]), Math.max(0, ext[1])]).nice().range([m.l, W - m.r]);
+    const y = (i) => m.t + i * rowH + (pinned.length && i >= pinned.length ? 8 : 0);
+    svg.append("g").attr("class", "grid").selectAll("line").data(x.ticks(narrow ? 4 : 8)).join("line").attr("x1", x).attr("x2", x).attr("y1", m.t - 4).attr("y2", H - m.b);
+    svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(narrow ? 4 : 8).tickFormat((t) => fmtS(t, 0) + C.unit).tickSizeOuter(0));
+    halo(svg.append("text").attr("class", "ann-muted").attr("x", narrow ? 4 : m.l).attr("y", 14).text(narrow && v.axisShort ? v.axisShort : v.axisLabel));
+    if (pinned.length) svg.append("line").attr("x1", 0).attr("x2", W).attr("y1", y(pinned.length) - 4).attr("y2", y(pinned.length) - 4).attr("stroke", css("--rule"));
+    const html = (q) => `<b>${q.label}</b>` + views.map((w) => `<br>${w.label}: ${fmtS(q[w.key], d)}${C.unit}`).join("") + (q.note ? `<br>${q.note}` : "");
+    const g = svg.append("g").selectAll("g").data(rows).join("g").attr("transform", (q, i) => `translate(0,${y(i)})`).attr("tabindex", 0)
+      .attr("aria-label", (q) => html(q).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim())
+      .on("pointerenter pointermove", (e, q) => { const [px, py] = d3.pointer(e, host.chart); tip.show(html(q), px, py); })
+      .on("pointerleave blur", () => tip.hide())
+      .on("focus", function (e, q) { tip.show(html(q), (x(Math.max(0, q[k])) / W) * host.chart.clientWidth, y(rows.indexOf(q)) + rowH); });
+    g.append("rect").attr("x", 0).attr("width", W).attr("y", 0).attr("height", rowH).attr("fill", (q) => (q.highlight ? css("--paper-2") : "transparent")).attr("opacity", 0.9);
+    g.append("text").attr("x", m.l - 8).attr("y", rowH / 2 + 4).attr("text-anchor", "end").attr("class", "ann").style("font-size", narrow ? "11px" : "12.5px")
+      .style("font-weight", (q) => (q.highlight || (C.pinned || []).includes(q.label) ? 700 : 400)).text((q) => (narrow && q.short ? q.short : q.label));
+    const bh = rowH - 10;
+    g.append("rect").attr("x", (q) => x(Math.min(0, q[k]))).attr("width", (q) => Math.max(1, Math.abs(x(q[k]) - x(0)))).attr("y", 5).attr("height", bh)
+      .attr("fill", (q) => css(q.highlight ? "--accent" : q[k] < 0 ? "--accent-3" : "--accent-2"));
+    g.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", 600).attr("y", rowH / 2 + 4)
+      .attr("x", (q) => (q[k] < 0 ? x(q[k]) - 4 : x(q[k]) + 4)).attr("text-anchor", (q) => (q[k] < 0 ? "end" : "start")).text((q) => fmtS(q[k], d) + C.unit);
+    svg.append("line").attr("class", "zero").attr("x1", x(0)).attr("x2", x(0)).attr("y1", m.t - 4).attr("y2", H - m.b);
+    if (v.ref != null) {
+      svg.append("line").attr("x1", x(v.ref)).attr("x2", x(v.ref)).attr("y1", m.t - 4).attr("y2", H - m.b).attr("stroke", css("--ink")).attr("stroke-dasharray", "4 3");
+      halo(svg.append("text").attr("class", "ann").style("font-size", "11px").attr("x", x(v.ref) + 4).attr("y", m.t - 10).text(v.refLabel || ""));
+    }
+  });
+  function rowsOf() { return data.rows; }
+  return r;
+}
+
+export const CHARTS = { midterms, "ireland-area": irelandArea, "house-lines": houseLines, "un-map": unMap, forgetting, columns, lines, dumbbell, bars };
 
 /* Tabelas acessíveis (equivalente textual dos dados) */
 export function dataTable(type, data) {
@@ -627,11 +677,12 @@ export function dataTable(type, data) {
       return T(["", ...cols.map(lab)], data.rows.map((r) => [r.cat, ...cols.map((k) => (typeof r[k] === "number" ? fmtN(r[k], Number.isInteger(r[k]) ? 0 : 2) : r[k] ?? "—"))])); }
     case "lines": return T(["Ano", ...data.config.series.map((s) => s.label)], data.rows.map((r) => [r.x, ...data.config.series.map((s) => fmtN(r[s.key], data.config.y.decimals ?? 1))]));
     case "dumbbell": { const C = data.config; return T(["País", C.aLabel, C.bLabel, ...(C.cLabel ? [C.cLabel] : [])], [...data.rows].sort((a, b) => (b.b ?? -9) - (a.b ?? -9)).map((r) => [r.label, fmtN(r.a, C.decimals), r.b == null ? "—" : fmtN(r.b, C.decimals), ...(C.cLabel ? [r.c == null ? "" : fmtN(r.c, C.decimals)] : [])])); }
+    case "bars": { const C = data.config; return T(["", ...C.views.map((w) => w.label + (C.unit ? ` (${C.unit.trim()})` : ""))], data.rows.map((r) => [r.label, ...C.views.map((w) => fmtN(r[w.key], C.decimals ?? 1))])); }
     default: return "";
   }
 }
 export function toCSV(type, data) {
-  const rows = type === "un-map" ? data.members : ["ireland-area", "house-lines", "midterms", "forgetting", "columns", "lines", "dumbbell"].includes(type) ? data.rows : [];
+  const rows = type === "un-map" ? data.members : ["ireland-area", "house-lines", "midterms", "forgetting", "columns", "lines", "dumbbell", "bars"].includes(type) ? data.rows : [];
   if (!rows.length) return "";
   const cols = Object.keys(rows[0]);
   const q = (v) => (v == null ? "" : /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));

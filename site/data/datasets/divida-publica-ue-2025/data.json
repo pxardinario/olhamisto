@@ -1,0 +1,285 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "a": 103.3,
+   "b": 108.1,
+   "c": null,
+   "balance2025": -5.2,
+   "highlight": false
+  },
+  {
+   "label": "Bulgária",
+   "a": 22.4,
+   "b": 29.9,
+   "c": null,
+   "balance2025": -4,
+   "highlight": false
+  },
+  {
+   "label": "Chéquia",
+   "a": 42.5,
+   "b": 44.2,
+   "c": null,
+   "balance2025": -2.2,
+   "highlight": false
+  },
+  {
+   "label": "Dinamarca",
+   "a": 33.4,
+   "b": 27.2,
+   "c": null,
+   "balance2025": 2.9,
+   "highlight": false
+  },
+  {
+   "label": "Alemanha",
+   "a": 64.1,
+   "b": 62.8,
+   "c": null,
+   "balance2025": -2.9,
+   "highlight": false
+  },
+  {
+   "label": "Estónia",
+   "a": 19.1,
+   "b": 24,
+   "c": null,
+   "balance2025": -2,
+   "highlight": false
+  },
+  {
+   "label": "Irlanda",
+   "a": 42.8,
+   "b": 34.8,
+   "c": null,
+   "balance2025": 1.8,
+   "highlight": false
+  },
+  {
+   "label": "Grécia",
+   "a": 177.8,
+   "b": 145.4,
+   "c": null,
+   "balance2025": 2,
+   "highlight": false
+  },
+  {
+   "label": "Espanha",
+   "a": 109.3,
+   "b": 100.5,
+   "c": null,
+   "balance2025": -2.4,
+   "highlight": false
+  },
+  {
+   "label": "França",
+   "a": 111.4,
+   "b": 115.7,
+   "c": null,
+   "balance2025": -5.1,
+   "highlight": false
+  },
+  {
+   "label": "Croácia",
+   "a": 68,
+   "b": 55.7,
+   "c": null,
+   "balance2025": -3,
+   "highlight": false
+  },
+  {
+   "label": "Itália",
+   "a": 138.4,
+   "b": 136.7,
+   "c": null,
+   "balance2025": -3.1,
+   "highlight": false
+  },
+  {
+   "label": "Chipre",
+   "a": 80,
+   "b": 52.3,
+   "c": null,
+   "balance2025": 3.6,
+   "highlight": false
+  },
+  {
+   "label": "Letónia",
+   "a": 44.5,
+   "b": 46.2,
+   "c": null,
+   "balance2025": -2.5,
+   "highlight": false
+  },
+  {
+   "label": "Lituânia",
+   "a": 39.4,
+   "b": 39.3,
+   "c": null,
+   "balance2025": -1.8,
+   "highlight": false
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 24.9,
+   "b": 26,
+   "c": null,
+   "balance2025": -1.8,
+   "highlight": false
+  },
+  {
+   "label": "Hungria",
+   "a": 74.1,
+   "b": 74.4,
+   "c": null,
+   "balance2025": -4.7,
+   "highlight": false
+  },
+  {
+   "label": "Malta",
+   "a": 50.1,
+   "b": 46.3,
+   "c": null,
+   "balance2025": -2.1,
+   "highlight": false
+  },
+  {
+   "label": "Países Baixos",
+   "a": 48.4,
+   "b": 44.7,
+   "c": null,
+   "balance2025": -1.6,
+   "highlight": false
+  },
+  {
+   "label": "Áustria",
+   "a": 78.1,
+   "b": 80.7,
+   "c": null,
+   "balance2025": -4.1,
+   "highlight": false
+  },
+  {
+   "label": "Polónia",
+   "a": 48.8,
+   "b": 59.6,
+   "c": null,
+   "balance2025": -7.2,
+   "highlight": false
+  },
+  {
+   "label": "Portugal",
+   "a": 111.2,
+   "b": 89.2,
+   "c": null,
+   "balance2025": 0.7,
+   "highlight": true
+  },
+  {
+   "label": "Roménia",
+   "a": 48.3,
+   "b": 58.9,
+   "c": null,
+   "balance2025": -7.8,
+   "highlight": false
+  },
+  {
+   "label": "Eslovénia",
+   "a": 72.7,
+   "b": 65.1,
+   "c": null,
+   "balance2025": -2.5,
+   "highlight": false
+  },
+  {
+   "label": "Eslováquia",
+   "a": 57.7,
+   "b": 60.5,
+   "c": null,
+   "balance2025": -4.4,
+   "highlight": false
+  },
+  {
+   "label": "Finlândia",
+   "a": 74.1,
+   "b": 88.4,
+   "c": null,
+   "balance2025": -3.8,
+   "highlight": false
+  },
+  {
+   "label": "Suécia",
+   "a": 34.4,
+   "b": 35.1,
+   "c": null,
+   "balance2025": -1.6,
+   "highlight": false
+  }
+ ],
+ "config": {
+  "aLabel": "2022",
+  "bLabel": "2025",
+  "ref": 87.7,
+  "refLabel": "Zona euro 2025: 87,7%",
+  "unit": "%",
+  "decimals": 1,
+  "domain": [
+   0,
+   190
+  ],
+  "howToRead": "Cada linha é um país: vai da dívida pública de 2022 (ponto cinzento) à de 2025 (ponto azul). Linha para a esquerda: a dívida desceu em percentagem do PIB. A linha tracejada marca o rácio da zona euro em 2025. Portugal aparece destacado a terracota.",
+  "sorts": [
+   [
+    "b",
+    "Por dívida em 2025"
+   ],
+   [
+    "delta",
+    "Por variação"
+   ]
+  ]
+ },
+ "summary": {
+  "pt2022": 111.2,
+  "pt2025": 89.2,
+  "ptDrop": 22,
+  "ea2022": 89.2,
+  "ea2025": 87.7,
+  "eu2025": 81.5,
+  "gapEA": 1.5,
+  "ptAboveEA2022": 22,
+  "gr": [
+   177.8,
+   145.4,
+   32.4
+  ],
+  "cy": [
+   80,
+   52.3,
+   27.7
+  ],
+  "above2022": [
+   "Greece",
+   "France",
+   "Italy"
+  ],
+  "above2025": [
+   "Belgium",
+   "Greece",
+   "Spain",
+   "France",
+   "Italy"
+  ],
+  "surplus": [
+   "Denmark",
+   "Ireland",
+   "Greece",
+   "Cyprus",
+   "Portugal"
+  ],
+  "ptBalance": 0.7,
+  "fell": 13,
+  "rose": 14
+ }
+}

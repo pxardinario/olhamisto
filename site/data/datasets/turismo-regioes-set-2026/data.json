@@ -1,0 +1,186 @@
+{
+ "rows": [
+  {
+   "label": "Portugal",
+   "total": 2,
+   "res": 3.1,
+   "nres": 1.6,
+   "nights": 8683.7,
+   "highlight": false
+  },
+  {
+   "label": "Norte",
+   "total": 6.6,
+   "res": 4.8,
+   "nres": 7.5,
+   "nights": 1631.4,
+   "highlight": false
+  },
+  {
+   "label": "Centro",
+   "total": 2.8,
+   "res": 7.5,
+   "nres": -4.8,
+   "nights": 520.9,
+   "highlight": false
+  },
+  {
+   "label": "Oeste e Vale do Tejo",
+   "short": "Oeste e V. Tejo",
+   "total": -2,
+   "res": 4.9,
+   "nres": -7.7,
+   "nights": 377,
+   "highlight": false
+  },
+  {
+   "label": "Grande Lisboa",
+   "total": 2.8,
+   "res": 8,
+   "nres": 1.8,
+   "nights": 1928,
+   "highlight": false
+  },
+  {
+   "label": "Península de Setúbal",
+   "short": "Pen. Setúbal",
+   "total": 1.8,
+   "res": 10.1,
+   "nres": -3.9,
+   "nights": 170.8,
+   "highlight": false
+  },
+  {
+   "label": "Alentejo",
+   "total": -0.8,
+   "res": 0.7,
+   "nres": -3.4,
+   "nights": 392.8,
+   "highlight": false
+  },
+  {
+   "label": "Algarve",
+   "total": 0.6,
+   "res": -2,
+   "nres": 1.4,
+   "nights": 2388,
+   "highlight": false
+  },
+  {
+   "label": "RA Açores",
+   "short": "Açores",
+   "total": -1.6,
+   "res": -11.1,
+   "nres": 1.9,
+   "nights": 355.6,
+   "highlight": false
+  },
+  {
+   "label": "RA Madeira",
+   "short": "Madeira",
+   "total": 0.7,
+   "res": 4.7,
+   "nres": -0.2,
+   "nights": 919.2,
+   "highlight": false
+  }
+ ],
+ "config": {
+  "unit": "%",
+  "decimals": 1,
+  "pinned": [
+   "Portugal"
+  ],
+  "posLabel": "Aumento",
+  "negLabel": "Diminuição",
+  "views": [
+   {
+    "id": "total",
+    "label": "Total",
+    "key": "total",
+    "axisLabel": "Dormidas em setembro de 2026: variação face a setembro de 2025 (%)",
+    "axisShort": "Dormidas, variação homóloga (%)"
+   },
+   {
+    "id": "res",
+    "label": "Residentes",
+    "key": "res",
+    "axisLabel": "Dormidas de residentes em Portugal: variação homóloga (%)",
+    "axisShort": "Residentes, variação (%)"
+   },
+   {
+    "id": "nres",
+    "label": "Não residentes",
+    "key": "nres",
+    "axisLabel": "Dormidas de não residentes: variação homóloga (%)",
+    "axisShort": "Não residentes, variação (%)"
+   }
+  ],
+  "sorts": [
+   [
+    "value",
+    "Por variação"
+   ],
+   [
+    "label",
+    "Alfabética"
+   ]
+  ],
+  "howToRead": "Cada barra é uma região (NUTS II de 2024) e mostra quanto variaram as dormidas face a setembro de 2025. Portugal fica fixo no topo. Os botões mudam entre todas as dormidas, só as de residentes em Portugal ou só as de não residentes."
+ },
+ "summary": {
+  "pt": {
+   "total": 2,
+   "res": 3.1,
+   "nres": 1.6,
+   "nights": 8683.7
+  },
+  "norte": {
+   "total": 6.6,
+   "nres": 7.5
+  },
+  "alg": {
+   "total": 0.6,
+   "res": -2
+  },
+  "nresDown": [
+   "Centro",
+   "Oeste e Vale do Tejo",
+   "Península de Setúbal",
+   "Alentejo",
+   "RA Madeira"
+  ],
+  "resUp": 7,
+  "norteShareInc": 59,
+  "algShare": 27,
+  "norteShare": 19,
+  "nresShare": 71,
+  "markets": [
+   {
+    "market": "Reino Unido",
+    "share_nonresident_nights_pct": "19.1",
+    "yoy_pct": "3.0"
+   },
+   {
+    "market": "Alemanha",
+    "share_nonresident_nights_pct": "12.0",
+    "yoy_pct": "-2.9"
+   },
+   {
+    "market": "América do Norte",
+    "share_nonresident_nights_pct": "11.4",
+    "yoy_pct": "5.7"
+   },
+   {
+    "market": "Polónia",
+    "share_nonresident_nights_pct": "",
+    "yoy_pct": "11.0"
+   },
+   {
+    "market": "França",
+    "share_nonresident_nights_pct": "",
+    "yoy_pct": "-5.5"
+   }
+  ]
+ }
+}
