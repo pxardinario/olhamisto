@@ -2,7 +2,7 @@
 
 *Antes de opinar, olha-me isto.* — **https://olhamisto.com**
 
-Revista digital de jornalismo visual, gratuita e pública: cinco histórias por dia útil, contadas sobretudo através de gráficos, mapas e tabelas visuais. **Feito por IA**: cada edição é investigada, escrita e visualizada por agentes de inteligência artificial (Claude, da Anthropic) e verificada por um agente verificador independente antes de ser publicada, sem revisão humana prévia. Erros corrigidos e registados em `/correcoes/`.
+Revista digital de jornalismo visual, gratuita e pública: até cinco histórias por dia útil, contadas sobretudo através de gráficos, mapas e tabelas visuais. **Feito por IA**: cada edição é investigada, escrita e visualizada por agentes de inteligência artificial (Claude, da Anthropic) e verificada por um agente verificador independente antes de ser publicada, sem revisão humana prévia. Erros corrigidos e registados em `/correcoes/`.
 
 ## Como funciona
 

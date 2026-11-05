@@ -117,7 +117,7 @@ editions.forEach((ed, k) => {
 
 // A redação: os agentes, com nomes e manias inventados; cargos e regras reais
 const STAFF = [
-  ["A", "Edite", "Diretora editorial", "Escolhe as cinco histórias do dia entre 12 a 20 candidatas, garante a variedade de temas e decide qual abre a edição.", "Tem sempre razão. Quando não tem, chama o Tomé."],
+  ["A", "Edite", "Diretora editorial", "Escolhe até cinco histórias do dia entre 12 a 20 candidatas, garante a variedade de temas e decide qual abre a edição.", "Tem sempre razão. Quando não tem, chama o Tomé."],
   ["B", "Aurora", "Repórter de atualidade", "Procura o que aconteceu nos últimos dias e que os números explicam melhor do que as manchetes.", "Entra às 7h15 e às 7h16 já leu tudo."],
   ["C", "Cristóvão", "Caçador de descobertas", "Vai atrás de séries longas, estudos esquecidos e relações inesperadas, que não precisam de ser notícia para valerem a pena.", "Já descobriu três vezes o caminho marítimo para o Eurostat."],
   ["D", "Fonseca", "Investigador de dados", "Encontra as fontes primárias, transcreve os dados sem lhes tocar e regista de onde vieram e quando.", "Nunca arredonda sem avisar. Nunca."],
@@ -138,7 +138,7 @@ urls.push({ loc: "/redacao/", lastmod: editions[0].date });
 const fixed = {
   arquivo: ["Arquivo", "Todas as edições e peças, com pesquisa e filtros por tema e tipo de visualização."],
   favoritos: ["Favoritos", "As peças que guardou neste navegador."],
-  metodologia: ["Como funciona", "Como são escolhidas, verificadas e visualizadas as cinco histórias diárias, feitas por agentes de inteligência artificial."],
+  metodologia: ["Como funciona", "Como são escolhidas, verificadas e visualizadas as histórias diárias, feitas por agentes de inteligência artificial."],
   correcoes: ["Correções", "Registo público de correções às peças publicadas."],
 };
 for (const [slug, [t, d]] of Object.entries(fixed)) {
