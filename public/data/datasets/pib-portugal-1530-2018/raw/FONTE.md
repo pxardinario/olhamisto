@@ -1,0 +1,2 @@
+Fonte: Maddison Project Database, versão 2020 (Bolt e van Zanden, 2020), via Our World in Data, github.com/owid/owid-datasets, datasets/Maddison Project Database 2020 (Bolt and van Zanden (2020)). Licença CC BY 4.0. Descarregado a 2026-11-06.
+Transcrição: só as linhas de Portugal, Reino Unido, Países Baixos, Espanha e Itália; colunas e valores sem alterações. PIB por habitante em dólares internacionais de 2011.

@@ -1,0 +1,3 @@
+Fonte: Open Science Collaboration (2015), «Estimating the reproducibility of psychological science», Science 349 (6251), aac4716. Dados: rpp_data.csv do projeto OSF osf.io/ezcuj (licença CC0 1.0), na versão guardada no repositório github.com/CenterForOpenScience/rpp (commit c755df6, 10/09/2015, último antes de o ficheiro passar a ser lido diretamente do OSF). Obtido por git a 2026-11-06.
+Transcrição: só as colunas usadas (identificação do estudo, revista, área, efeitos r, valores p e indicadores de significância); valores sem alterações. Foram omitidas colunas com dados pessoais (p. ex. e-mails dos codificadores).
+Controlo: médias de r (0,396 e 0,197 em 97 pares) iguais às do output.txt do mesmo repositório (análise publicada).

@@ -513,11 +513,12 @@ function lines(host, data) {
   let log = !!C.y.logDefault;
   const tip = tooltip(host.chart);
   if (C.scaleToggle) segmented(host.controls, [["log", "Escala logarítmica"], ["lin", "Escala linear"]], log ? "log" : "lin", (v) => { log = v === "log"; r.redraw(); }, "Escala do eixo vertical");
+  if (C.howToRead) { const p = document.createElement("p"); p.className = "how-to-read"; p.textContent = C.howToRead; host.legend.appendChild(p); }
   if (C.series.length > 1) legend(host.legend, C.series.filter((s, i, a) => a.findIndex((q) => q.color === s.color) === i || s.color !== "--muted").map((s) => ({ color: css(s.color), label: s.color === "--muted" ? "Outros países" : s.label, line: true })));
   const d = C.y.decimals ?? 1;
   const r = responsive(host.chart, (W) => {
     const narrow = W < 560;
-    const H = narrow ? 340 : 400, m = { t: 34, r: C.series.length > 1 ? (narrow ? 64 : 92) : 16, b: 32, l: narrow ? 40 : 48 };
+    const H = narrow ? 340 : 400, m = { t: 34, r: C.series.length > 1 ? (C.labelMargin ? C.labelMargin[narrow ? 0 : 1] : narrow ? 64 : 92) : 16, b: 32, l: narrow ? 40 : 48 };
     const svg = svgIn(host.chart, W, H, C.y.label);
     const x = d3.scaleLinear().domain([C.x.min, C.x.max]).range([m.l, W - m.r]);
     const y = log ? d3.scaleLog().domain([C.y.logMin, C.y.logMax]).range([H - m.b, m.t]) : d3.scaleLinear().domain([0, C.y.linMax]).range([H - m.b, m.t]);
@@ -527,24 +528,25 @@ function lines(host, data) {
     }
     const yt = log ? y.ticks(10).filter((t) => [0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100, 200].some((k) => Math.abs(t - k) < 1e-9)) : y.ticks(6);
     svg.append("g").attr("class", "grid").selectAll("line").data(yt).join("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y).attr("y2", y);
-    svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues(yt).tickFormat((t) => fmtN(t, t < 1 ? 1 : 0)).tickSize(0)).call((g) => g.select(".domain").remove());
+    svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues(yt).tickFormat((t) => fmtN(t, t > 0 && t < 1 ? 1 : 0)).tickSize(0)).call((g) => g.select(".domain").remove());
     svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(narrow ? C.x.ticks.filter((_, i) => i % 2 === 0 || i === C.x.ticks.length - 1) : C.x.ticks).tickFormat(d3.format("d")).tickSizeOuter(0));
     halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 36 : 44)).attr("y", 14).text((narrow ? C.y.label.replace(/ \(.*\)$/, "") : C.y.label) + (log ? " — escala log." : "")));
     const order = [...C.series].sort((a, b) => (a.color === "--muted" ? -1 : 0) - (b.color === "--muted" ? -1 : 0));
     for (const s of order) {
       svg.append("path").datum(rows.filter((q) => q[s.key] != null)).attr("fill", "none").attr("stroke", css(s.color)).attr("stroke-width", s.width || 1.6).attr("opacity", s.color === "--muted" ? 0.8 : 1)
         .attr("stroke-linejoin", "round").attr("d", d3.line().x((q) => x(q.x)).y((q) => y(q[s.key])));
-      if (C.dots && s.color !== "--muted") svg.append("g").selectAll("circle").data(rows).join("circle").attr("cx", (q) => x(q.x)).attr("cy", (q) => y(q[s.key])).attr("r", 2.6).attr("fill", css(s.color)).style("pointer-events", "none");
+      if (C.dots && s.color !== "--muted") svg.append("g").selectAll("circle").data(rows.filter((q) => q[s.key] != null)).join("circle").attr("cx", (q) => x(q.x)).attr("cy", (q) => y(q[s.key])).attr("r", 2.6).attr("fill", css(s.color)).style("pointer-events", "none");
     }
     // rótulos diretos no fim, sem sobreposição
     if (C.series.length > 1) {
       const L = rows.at(-1);
-      const labs = C.series.map((s) => ({ s, y: y(L[s.key]), v: L[s.key] })).sort((a, b) => a.y - b.y);
+      const lastOf = (k) => [...rows].reverse().find((q) => q[k] != null) || L;
+      const labs = C.series.map((s) => ({ s, y: y(lastOf(s.key)[s.key]), v: lastOf(s.key)[s.key] })).sort((a, b) => a.y - b.y);
       const gap = narrow ? 12 : 13;
       for (let i = 1; i < labs.length; i++) if (labs[i].y - labs[i - 1].y < gap) labs[i].y = labs[i - 1].y + gap;
       const over = labs.at(-1).y - (H - m.b); if (over > 0) labs.forEach((l) => (l.y -= over));
       for (const l of labs) halo(svg.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", l.s.color === "--muted" ? 400 : 700)
-        .style("fill", l.s.color === "--muted" ? css("--ink-3") : css(l.s.color)).attr("x", x(L.x) + 6).attr("y", l.y + 4).text(`${narrow ? l.s.short || l.s.label.slice(0, 3) + "." : l.s.label} ${fmtN(l.v, d)}`));
+        .style("fill", l.s.color === "--muted" ? css("--ink-3") : css(l.s.color)).attr("x", x(L.x) + 6).attr("y", l.y + 4).text(`${narrow || C.shortEndLabels ? l.s.short || l.s.label.slice(0, 3) + "." : l.s.label} ${fmtN(l.v, d)}`));
     }
     for (const a of C.annotations || []) {
       if ((a.logOnly && !log) || (a.linOnly && log)) continue;
@@ -661,7 +663,61 @@ function bars(host, data) {
   return r;
 }
 
-export const CHARTS = { midterms, "ireland-area": irelandArea, "house-lines": houseLines, "un-map": unMap, forgetting, columns, lines, dumbbell, bars };
+
+/* scatter: dispersão genérica (um ponto por observação), diagonal y = x opcional, linhas do zero, grupos por cor e filtro de destaque.
+   data.rows[{x,y,group,label,facet?}], data.config{x{label,short,min,max,ticks,decimals}, y{...}, groups[{key,label,color,shape}], diagonal{label},
+   zeroLines, facets{key,options[[id,label]]}, howToRead, notes[{x,y,text,short,anchor}]} */
+function scatter(host, data) {
+  const C = data.config, rows = data.rows;
+  let facet = C.facets ? C.facets.options[0][0] : "all";
+  const tip = tooltip(host.chart);
+  if (C.facets) segmented(host.controls, C.facets.options, facet, (v) => { facet = v; r.redraw(); }, "Destacar");
+  if (C.howToRead) { const p = document.createElement("p"); p.className = "how-to-read"; p.textContent = C.howToRead; host.legend.appendChild(p); }
+  legend(host.legend, [...C.groups.map((g) => ({ color: css(g.color), label: g.label, shape: g.shape === "ring" ? "ring" : "dot" })), ...(C.diagonal ? [{ color: css("--ink"), label: C.diagonal.label, dash: true, line: true }] : [])]);
+  const gOf = (k) => C.groups.find((g) => g.key === k) || C.groups[0];
+  const r = responsive(host.chart, (W) => {
+    const narrow = W < 560;
+    const m = { t: 30, r: 14, b: 46, l: narrow ? 44 : 52 };
+    const H = Math.round(Math.min(Math.max(W * 0.78, 320), 500));
+    const svg = svgIn(host.chart, W, H, `${C.y.label} em função de ${C.x.label}`);
+    const x = d3.scaleLinear().domain([C.x.min, C.x.max]).range([m.l, W - m.r]);
+    const y = d3.scaleLinear().domain([C.y.min, C.y.max]).range([H - m.b, m.t]);
+    const xt = C.x.ticks || x.ticks(6), yt = C.y.ticks || y.ticks(6);
+    svg.append("g").attr("class", "grid").selectAll("line").data(yt).join("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y).attr("y2", y);
+    svg.append("g").attr("class", "grid").selectAll("line").data(xt).join("line").attr("y1", m.t).attr("y2", H - m.b).attr("x1", x).attr("x2", x);
+    svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(narrow ? xt.filter((_, i) => i % 2 === 0) : xt).tickFormat((t) => fmtN(t, C.x.decimals ?? 1)).tickSizeOuter(0));
+    svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues(yt).tickFormat((t) => fmtN(t, C.y.decimals ?? 1)).tickSize(0)).call((g) => g.select(".domain").remove());
+    halo(svg.append("text").attr("class", "ann-muted").attr("x", W - m.r).attr("y", H - 8).attr("text-anchor", "end").text(narrow && C.x.short ? C.x.short : C.x.label));
+    halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 40 : 48)).attr("y", 14).text(narrow && C.y.short ? C.y.short : C.y.label));
+    if (C.zeroLines) {
+      if (C.y.min < 0) svg.append("line").attr("class", "zero").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y(0)).attr("y2", y(0));
+      if (C.x.min < 0) svg.append("line").attr("class", "zero").attr("y1", m.t).attr("y2", H - m.b).attr("x1", x(0)).attr("x2", x(0));
+    }
+    if (C.diagonal) {
+      const a = Math.max(C.x.min, C.y.min), b = Math.min(C.x.max, C.y.max);
+      svg.append("line").attr("x1", x(a)).attr("y1", y(a)).attr("x2", x(b)).attr("y2", y(b)).attr("stroke", css("--ink")).attr("stroke-dasharray", "5 4").attr("opacity", 0.8);
+      if (C.diagonal.text) halo(svg.append("text").attr("class", "ann").style("font-size", "11px").attr("x", x(b) - 4).attr("y", y(b) + 14).attr("text-anchor", "end").text(narrow && C.diagonal.short ? C.diagonal.short : C.diagonal.text));
+    }
+    const on = (q) => facet === "all" || q[C.facets.key] === facet;
+    const html = (q) => `<b>${q.label}</b>${q.sub ? `<br>${q.sub}` : ""}<br>${C.x.tipLabel || C.x.label}: ${fmtN(q.x, C.x.tipDecimals ?? 2)}<br>${C.y.tipLabel || C.y.label}: ${fmtN(q.y, C.y.tipDecimals ?? 2)}<br>${gOf(q.group).label}`;
+    const pts = svg.append("g").selectAll("circle").data([...rows].sort((a, b) => on(a) - on(b))).join("circle")
+      .attr("cx", (q) => x(q.x)).attr("cy", (q) => y(q.y)).attr("r", narrow ? 4.2 : 5)
+      .attr("fill", (q) => (gOf(q.group).shape === "ring" ? css("--card") : css(gOf(q.group).color)))
+      .attr("stroke", (q) => (gOf(q.group).shape === "ring" ? css(gOf(q.group).color) : css("--card")))
+      .attr("stroke-width", (q) => (gOf(q.group).shape === "ring" ? 1.8 : 1))
+      .attr("opacity", (q) => (on(q) ? 0.9 : 0.12)).attr("tabindex", (q) => (on(q) ? 0 : -1))
+      .attr("aria-label", (q) => html(q).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim())
+      .on("pointerenter pointermove", (e, q) => { const [px, py] = d3.pointer(e, host.chart); tip.show(html(q), px, py); })
+      .on("pointerleave blur", () => tip.hide())
+      .on("focus", (e, q) => tip.show(html(q), (x(q.x) / W) * host.chart.clientWidth, y(q.y)));
+    pts.filter((q) => !on(q)).style("pointer-events", "none");
+    for (const n of C.notes || []) halo(svg.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", 600)
+      .attr("x", x(n.x)).attr("y", y(n.y)).attr("text-anchor", n.anchor || "start").text(narrow && n.short ? n.short : n.text));
+  });
+  return r;
+}
+
+export const CHARTS = { midterms, "ireland-area": irelandArea, "house-lines": houseLines, "un-map": unMap, forgetting, columns, lines, dumbbell, bars, scatter };
 
 /* Tabelas acessíveis (equivalente textual dos dados) */
 export function dataTable(type, data) {
@@ -677,12 +733,13 @@ export function dataTable(type, data) {
       return T(["", ...cols.map(lab)], data.rows.map((r) => [r.cat, ...cols.map((k) => (typeof r[k] === "number" ? fmtN(r[k], Number.isInteger(r[k]) ? 0 : 2) : r[k] ?? "—"))])); }
     case "lines": return T(["Ano", ...data.config.series.map((s) => s.label)], data.rows.map((r) => [r.x, ...data.config.series.map((s) => fmtN(r[s.key], data.config.y.decimals ?? 1))]));
     case "dumbbell": { const C = data.config; return T(["País", C.aLabel, C.bLabel, ...(C.cLabel ? [C.cLabel] : [])], [...data.rows].sort((a, b) => (b.b ?? -9) - (a.b ?? -9)).map((r) => [r.label, fmtN(r.a, C.decimals), r.b == null ? "—" : fmtN(r.b, C.decimals), ...(C.cLabel ? [r.c == null ? "" : fmtN(r.c, C.decimals)] : [])])); }
+    case "scatter": { const C = data.config; return T(["", ...(C.facets ? [C.facets.label || "Grupo"] : []), C.x.tipLabel || C.x.label, C.y.tipLabel || C.y.label, "Resultado"], data.rows.map((r) => [r.label, ...(C.facets ? [(C.facets.options.find((o) => o[0] === r[C.facets.key]) || [, r[C.facets.key]])[1]] : []), fmtN(r.x, C.x.tipDecimals ?? 2), fmtN(r.y, C.y.tipDecimals ?? 2), (C.groups.find((g) => g.key === r.group) || {}).label || ""])); }
     case "bars": { const C = data.config; return T(["", ...C.views.map((w) => w.label + (C.unit ? ` (${C.unit.trim()})` : ""))], data.rows.map((r) => [r.label, ...C.views.map((w) => fmtN(r[w.key], C.decimals ?? 1))])); }
     default: return "";
   }
 }
 export function toCSV(type, data) {
-  const rows = type === "un-map" ? data.members : ["ireland-area", "house-lines", "midterms", "forgetting", "columns", "lines", "dumbbell", "bars"].includes(type) ? data.rows : [];
+  const rows = type === "un-map" ? data.members : ["ireland-area", "house-lines", "midterms", "forgetting", "columns", "lines", "dumbbell", "bars", "scatter"].includes(type) ? data.rows : [];
   if (!rows.length) return "";
   const cols = Object.keys(rows[0]);
   const q = (v) => (v == null ? "" : /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));

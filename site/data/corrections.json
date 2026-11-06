@@ -1,1 +1,11 @@
-{"corrections":[]}
+{
+ "corrections": [
+  {
+   "date": "2026-11-06",
+   "edition": "2026-11-05",
+   "piece": "populacao-portugal-1960-2025",
+   "title": "Portugal nunca teve tanta gente. Em 2018 tinha menos do que em 2000",
+   "change": "A peça usava a série do Banco Mundial, que não incorpora a revisão da população feita pelo INE a 22 de junho de 2026 (11 424 031 residentes no fim de 2025; mais 824 914 pessoas entre 2021 e 2025). Os valores de 2021 a 2025 ficavam subestimados. A descoberta foi reescrita, retirou-se a afirmação de que só 1975 e 1976 cresceram mais do que 2023, acrescentou-se a fonte do INE e a verificação passou a parcial."
+  }
+ ]
+}

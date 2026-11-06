@@ -1,0 +1,169 @@
+Study Num,Authors (O),Journal (O),Discipline (O),T_r..O.,T_r..R.,T_pval_USE..O.,T_pval_USE..R.,T_sign_O,T_sign_R,T_O_larger
+1,A Roelofs,JEPLMC,Cognitive,0.594605285,0.148340453,0.019394664,0.434030725,1,0,1
+2,"AL Morris, ML Still",JEPLMC,Cognitive,0.611120054,0.229604631,0.001173471,0.269558068,1,0,1
+3,"B Liefooghe, P Barrouillet, A Vandierendonck, V Camos",JEPLMC,Cognitive,0.424979665,-0.215243835,0.030449585,0.228988827,1,0,1
+4,"BC Storm, EL Bjork, RA Bjork",JEPLMC,Cognitive,0.228739615,-0.006108358,0.00141669,0.920419089,1,0,1
+5,"C Mitchell, S Nash, G Hall",JEPLMC,Cognitive,0.461300742,0.134811802,0.00689115,0.355722382,1,0,1
+6,"CJ Berry, DR Shanks, RN Henson",JEPLMC,Cognitive,0.594960462,0.395843475,0.001706566,0.02258934,1,1,1
+7,"CP Beaman, I Neath, AM Surprenant",JEPLMC,Cognitive,0.715143728,0.131411981,2.22E-17,0.313795083,1,0,1
+8,"CS Dodson, J Darragh, A Williams",JEPLMC,Cognitive,0.561422534,-0.110614348,0.000200441,0.539998592,1,0,1
+9,"CT Weidemann, DE Huber, RM Shiffrin",JEPLMC,,0.302242514,,9.61E-37,,,,
+10,"D Ganor-Stern, J Tzelgov",JEPLMC,Cognitive,0.698586719,0.780725807,1.76E-05,2.21E-07,1,1,0
+11,"D Mirman, JS Magnuson",JEPLMC,Cognitive,0.672084167,0.466443576,0.000443918,0.008168915,1,1,1
+12,"JE Marsh, F Vachon, DM Jones",JEPLMC,Cognitive,0.178477629,0.08323764,0.048407105,0.198165248,1,0,1
+13,"JI Campbell, ND Robert",JEPLMC,Cognitive,0.52450217,0.524539034,1.59E-12,1.58E-12,1,1,0
+14,"JJ Richler, I Gauthier, MJ Wenger, TJ Palmeri",JEPLMC,Cognitive,0.539560135,,1.50E-07,,,,
+15,"JR Schmidt, D Besner",JEPLMC,Cognitive,0.195136354,0.24687812,0.028373705,5.05E-05,1,1,0
+16,"K Dent, RA Johnston, GW Humphreys",JEPLMC,,0.24377044,,0.005585769,,,,
+17,K Fiedler,JEPLMC,Cognitive,0.304772411,0.434510306,0.000405826,1.37E-06,1,1,0
+18,"K Lemh_fer, T Dijkstra, H Schriefers, RH Baayen, J Grainger, P Zwitserlood",JEPLMC,,0.008872296,,0.029261311,,,,
+19,K Oberauer,JEPLMC,Cognitive,0.560499145,0.401939168,0.000692486,0.070889711,1,0,1
+20,"L Sahakyan, PF Delaney, ER Waldum",JEPLMC,Cognitive,0.224092029,0.019422053,0.028172412,0.841863775,1,0,1
+21,"LH Wurm, SR Seaman",JEPLMC,,NA,,NA,,,,
+22,"LS Colzato, MT Bajo, W van den Wildenberg, D Paolieri, S Nieuwenhuis, W La Heij, B Hommel",JEPLMC,Cognitive,0.219359299,0.064661345,0.002218001,0.716617946,1,0,1
+23,"LS Colzato, MT Bajo, W van den Wildenberg, D Paolieri, S Nieuwenhuis, W La Heij, B Hommel",JEPLMC,,NA,,NA,,,,
+24,"M Bassok, SF Pedigo, AT Oskarsson",JEPLMC,Cognitive,0.363732358,0.284274426,3.54E-06,0.045417099,1,1,1
+25,"M Couture, D Lafond, S Tremblay",JEPLMC,Cognitive,0.348120689,0.2733272,6.83E-05,0.001737041,1,1,1
+26,"M Reynolds, D Besner",JEPLMC,Cognitive,0.160955695,0.14406846,0.117205428,0.165946909,0,0,1
+27,"MJ Yap, DA Balota, CS Tse, D Besner",JEPLMC,Cognitive,0.378068955,0.379573968,0.030057008,0.001007522,1,1,0
+28,"N Janssen, W Schirm, BZ Mahon, A Caramazza",JEPLMC,Cognitive,0.341773488,0.103261105,0.051569634,0.327320513,1,0,1
+29,"NB Turk-Browne, PJ Isola, BJ Scholl, TA Treat",JEPLMC,Cognitive,0.73782079,0.703904904,0.023249789,0.002339966,1,1,1
+30,"P Tabossi, R Fanari, K Wolf",JEPLMC,,0.62290039,,0.000519937,,,,
+31,"P WÙhr, R Biebl, U Ansorge",JEPLMC,,0.785727789,,3.26E-06,,,,
+32,PA White,JEPLMC,Cognitive,0.623367433,0.480717115,2.91E-05,0.001950822,1,1,1
+33,S Farrell,JEPLMC,Cognitive,0.516812354,0.315999964,0.000541079,0.04414462,1,1,1
+34,"S Frisson, B McElree",JEPLMC,,NA,,NA,,,,
+35,"S O'Malley, MG Reynolds, JA Stolz, D Besner",JEPLMC,Cognitive,0.091499705,,3.93E-09,,,,
+36,"S Pacton, P Perruchet",JEPLMC,Cognitive,0.713921386,0.681560537,0.000190422,0.00047793,1,1,1
+37,"T Makovski, R Sussman, YV Jiang",JEPLMC,Cognitive,0.551178255,0.349791589,0.05088911,0.142093022,1,0,1
+38,"T Meiser, C Sattler, K Weisser",JEPLMC,,0.041,,0.55986211,,,,
+39,TJ Pleskac,JEPLMC,Cognitive,0.366615713,0.101709161,0.001935206,0.211299547,1,0,1
+40,"W Mou, X Li, TP McNamara",JEPLMC,,0.124140883,,0.554372267,,,,
+41,A Guinote,JPSP,Social,0.239558785,,0.045782735,,,,
+42,"B De Raad, DP Barelds",JPSP,,NA,,NA,,,,
+43,"B Monin, PJ Sawyer, MJ Marquez",JPSP,Social,0.347251138,0.161063754,0.000146111,0.146902278,1,0,1
+44,"BK Payne, MA Burkley, MB Stokes",JPSP,Social,0.352175067,0.150236955,0.003000884,0.045320778,1,1,1
+45,"C Anderson, A Shirako",JPSP,,NA,,NA,,,,
+46,"CJ Soto, OP John, SD Gosling, J Potter",JPSP,Social,0.022542373,0.023841537,0,0,1,1,0
+47,"CK De Dreu, M Baas, BA Nijstad",JPSP,Social,0.104753853,,0.014285621,,,,
+48,"CR Cox, J Arndt, T Pyszczynski, J Greenberg, A Abdollahi, S Solomon",JPSP,Social,0.225490086,-0.052290282,0.028875522,0.468999328,1,0,1
+49,"D AlbarracÕn, IM Handley, K Noguchi, KC McCulloch, H Li, J Leeper, RD Brown, A Earl, WP Hart",JPSP,Social,0.378345294,-0.030485538,0.022889441,0.777977082,1,0,1
+50,"D AlbarracÕn, IM Handley, K Noguchi, KC McCulloch, H Li, J Leeper, RD Brown, A Earl, WP Hart",JPSP,Social,0.208058463,0.155043132,0.015520906,0.079067813,1,0,1
+51,"DA Stinson, C Logel, MP Zanna, JG Holmes, JJ Cameron, JV Wood, SJ Spencer",JPSP,Social,NA,,NA,,,,
+52,"DB Centerbar, S Schnall, GL Clore, ED Garvin",JPSP,Social,0.20573686,0.094021673,0.017513309,0.321906461,1,0,1
+53,"DM Amodio, PG Devine, E Harmon-Jones",JPSP,Social,0.377126878,0.076700677,0.030503191,0.513076239,1,0,1
+54,"DP Schmitt, A Realo, M Voracek, J Allik",JPSP,,0.330467577,,2.62E-05,,,,
+55,"E Harmon-Jones, C Harmon-Jones, M Fearn, JD Sigelman, P Johnson",JPSP,Social,0.229852265,0.066130007,0.049036287,0.741793627,1,0,1
+56,"E van Dijk, GA van Kleef, W Steinel, I van Beest",JPSP,Social,0.379139495,-0.042140104,9.23E-05,0.796267394,1,0,1
+57,"ER Hirt, EE Devers, SM McCrea",JPSP,Social,0.289273426,,0.032188467,,,,
+58,"EP Lemay, MS Clark",JPSP,Social,0.167288593,0.03675175,0.023221684,0.540253118,1,0,1
+59,"EP Lemay, MS Clark",JPSP,Social,NA,,,,1,1,0
+60,"GR Maio, G Thomas, FD Fincham, KB Carnelley",JPSP,,NA,,NA,,,,
+61,"H Ersner-Hershfield, JA Mikels, SJ Sullivan, LL Carstensen",JPSP,Social,0.219666896,-0.004719346,0.021121432,0.944257246,1,0,1
+62,HS Kim,JPSP,,0.239163565,,0.046042837,,,,
+63,J Correll,JPSP,Social,0.274010238,0.073797292,0.021711499,0.374369532,1,0,1
+64,"J F_rster, N Liberman, S Kuschel",JPSP,Social,0.425496777,0.11385379,3.81E-08,0.425841059,1,0,1
+65,"JJ Exline, RF Baumeister, AL Zell, AJ Kraft, CV Witvliet",JPSP,Social,0.431865646,0.011721165,0.003830676,0.893478732,1,0,1
+66,"JJ Exline, RF Baumeister, AL Zell, AJ Kraft, CV Witvliet",JPSP,,NA,,NA,,,,
+67,"JK McNulty, EM O'Mara, BR Karney",JPSP,,0.112203571,,0.075463183,,,,
+68,"JL Risen, T Gilovich",JPSP,Social,0.185849827,0.003001488,0.043910406,0.964369609,1,0,1
+69,"JL Tracy, RW Robins",JPSP,Social,NA,,0.000001,0.000001,1,1,1
+70,"K Brinkmann, GH Gendolla",JPSP,,0.281657559,,0.026571937,,,,
+71,"KE Stanovich, RF West",JPSP,Social,0.222131584,0.073353737,1.41E-05,0.331896286,1,0,1
+72,"KL Blankenship, DT Wegener",JPSP,Social,0.207643072,0.04449582,0.000773087,0.48458607,1,0,1
+73,"KR Morrison, DT Miller",JPSP,Social,0.322574106,0.2,0.049745991,0.028459737,1,1,1
+74,"LA Fast, DC Funder",JPSP,,NA,,NA,,,,
+75,"LM Diamond, AM Hicks, KD Otter-Henderson",JPSP,,NA,,NA,,,,
+76,"M Iida, G Seidman, PE Shrout, K Fujita, N Bolger",JPSP,,0.315325682,,6.38E-06,,,,
+77,"M Koo, A Fishbach",JPSP,Social,0.203642514,,0.001382678,0.758,1,0,
+78,"MA Fournier, DS Moskowitz, DC Zuroff",JPSP,,NA,,NA,,,,
+79,"MA Zàrate, CJ Stoever, MK MacLin, CJ Arms-Chavez",JPSP,Social,0.257724259,,0.041425181,,,,
+80,"MD Henderson, Y de Liver, PM Gollwitzer",JPSP,Social,0.259958534,0.15539539,0.044070981,0.190467907,1,0,1
+81,"N Shnabel, A Nadler",JPSP,Social,0.268278965,-0.101637251,0.009719762,0.233830099,1,0,1
+82,"NO Rule, N Ambady",JPSP,Social,0.3,0.27,0.033841139,0.086,1,0,1
+83,"NO Rule, N Ambady",JPSP,,NA,,NA,,,,
+84,"P Fischer, S Schulz-Hardt, D Frey",JPSP,Social,0.503449638,0.217562252,0.000282953,0.007708395,1,1,1
+85,"P Fischer, S Schulz-Hardt, D Frey",JPSP,,NA,,NA,,,,
+86,"P Fischer, T Greitemeyer, D Frey",JPSP,Social,0.212014281,0.118808574,0.02102091,0.140627311,1,0,1
+87,"PA Goff, CM Steele, PG Davies",JPSP,Social,0.395559206,0.013045451,0.003371756,0.929110139,1,0,1
+88,"PA Goff, JL Eberhardt, MJ Williams, MC Jackson",JPSP,,0.172120148,,0.033382483,,,,
+89,"PW Eastwick, EJ Finkel",JPSP,Social,0.139816632,0.0294047,0.477948177,0.881922196,0,0,1
+90,"R Brown, R Gonzàlez, H Zagefka, J Manzi, S Cehajic",JPSP,,NA,,NA,,,,
+91,"RD Ray, FH Wilhelm, JJ Gross",JPSP,,0.326513519,,0.00059829,,,,
+92,"RK Mallett, TD Wilson, DT Gilbert",JPSP,,0.298295838,,0.00933879,,,,
+93,"SL Murray, JL Derrick, S Leder, JG Holmes",JPSP,Social,0.317462994,-0.1351,0.003071238,0.2649653,1,0,1
+94,SM McCrea,JPSP,Social,0.344312999,0.28970838,0.036392019,0.011765834,1,1,1
+95,"ST Wolf, CA Insko, JL Kirchner, T Wildschut",JPSP,Social,0.395527139,,0.01868282,,,,
+96,"T Masuda, PC Ellsworth, B Mesquita, J Leu, S Tanida, E Van de Veerdonk",JPSP,,0.413966332,,0.003107906,,,,
+97,"V Purdie-Vaughns, CM Steele, PG Davies, R Ditlmann, JR Crosby",JPSP,Social,0.378274916,-0.036935346,0.000819277,0.154430586,1,0,1
+98,"VS Kwan, OP John, RW Robins, LL Kuang",JPSP,,0.91,,3.61E-52,,,,
+99,"WB Mendes, B Major, S McCoy, J Blascovich",JPSP,,0.243517826,,0.012738074,,,,
+100,"A Santos, C Rondan, DB Rosset, D Da Fonseca, C Deruelle",PS,,0.469332403,,0.000857784,,,,
+101,"A Weiss, TC Bates, M Luciano",PS,,NA,,NA,,,,
+102,"AC Krendl, JA Richeson, WM Kelley, TF Heatherton",PS,,0.842545902,,8.06E-05,,,,
+103,"AD Galinsky, WW Maddux, D Gilin, JB White",PS,,0.23593488,,0.014277405,,,,
+104,"AL Alter, DM Oppenheimer",PS,Social,0.127392361,0.018376516,0.050342933,0.533880559,1,0,1
+105,"AW Kruglanski, A Pierro",PS,Social,0.446647979,,0.00386326,,,,
+106,"B Dessalegn, B Landau",PS,Cognitive,0.381744212,-0.222920955,0.021595498,0.132031044,1,0,1
+107,"B Eitam, RR Hassin, Y Schul",PS,Social,0.222330235,0.104941786,0.039641746,0.189435742,1,0,1
+108,"BC Malt, S Gennari, M Imai, E Ameel, N Tsuda, A Majid",PS,,0.99,,4.49E-136,,,,
+109,"C Bannard, D Matthews",PS,,0.403632537,,0.034799408,,,,
+110,"C Farris, TA Treat, RJ Viken, RM McFall",PS,Social,0.554427187,0.091162691,5.76E-24,0.277177119,1,0,1
+111,"C Janiszewski, D Uy",PS,Cognitive,0.333441051,0.225764222,0.011256115,0.013965691,1,1,1
+112,"C McKinstry, R Dale, MJ Spivey",PS,Cognitive,0.701088742,0.750404422,0.016232104,0.007800372,1,1,0
+113,"DA Armor, C Massey, AM Sackett",PS,Social,0.681152182,0.763508789,1.69E-18,4.59E-35,1,1,0
+114,"DR Addis, AT Wong, DL Schacter",PS,Social,0.570693584,0.652730428,0.000647885,5.14E-05,1,1,0
+115,"E Nurmsoo, P Bloom",PS,Cognitive,0.501799075,-0.450187899,0.00292708,0.191700924,1,0,1
+116,"E Vul, H Pashler",PS,Cognitive,0.28771881,0.322727228,1.18E-04,9.50E-05,1,1,0
+117,"E Vul, M Nieuwenstein, N Kanwisher",PS,Cognitive,0.130782132,0.120519146,6.06E-42,3.35E-33,1,1,1
+118,"EJ Masicampo, RF Baumeister",PS,Social,0.21368683,-0.048918238,0.023051359,0.539024693,1,0,1
+119,"FK Anggoro, SR Waxman, DL Medin",PS,,1.029664185,,9.77E-13,,,,
+120,"G Hajcak, D Foti",PS,Social,0.38,0.25,0.01713346,0.053115031,1,0,1
+121,"G Tabibnia, AB Satpute, MD Lieberman",PS,Social,0.851679354,0.828997685,0.00021998,2.82E-08,1,1,1
+122,"GA Alvarez, A Oliva",PS,Cognitive,0.721890032,0.922934494,0.02809598,4.90E-08,1,1,0
+123,"GF Woodman, MS Kang, K Thompson, JD Schall",PS,,0.919994961,,4.85E-17,,,,
+124,"GP Lau, AC Kay, SJ Spencer",PS,Social,0.384260399,-0.034279559,0.02067727,0.778156632,1,0,1
+125,"GP Lau, AC Kay, SJ Spencer",PS,,NA,,NA,,,,
+126,"IJ Deary, GD Batty, CR Gale",PS,,0.283587799,,7.59E-40,,,,
+127,"J Winawer, AC Huk, L Boroditsky",PS,Cognitive,0.685347348,0.527307869,0.0000293,0.004708112,1,1,1
+128,"J Zaki, N Bolger, K Ochsner",PS,Social,NA,,NA,,,,
+129,"JA Richeson, S Trawalter",PS,Social,0.371775163,0.017674908,0.051411614,0.887981301,1,0,1
+130,"JA Richeson, S Trawalter",PS,,NA,,NA,,,,
+131,"JM Toro, M Nespor, J Mehler, LL Bonatti",PS,,NA,,NA,,,,
+132,"JR Crosby, B Monin, D Richardson",PS,Social,0.246947019,0.179397898,0.002850691,0.254170145,1,0,1
+133,"JS Nairne, JN Pandeirada, SR Thompson",PS,Cognitive,0.445652636,0.423363806,0.025570456,0.007242548,1,1,1
+134,"JT Larsen, AR McKibban",PS,Social,0.20996855,0.500179963,0.023,2.41E-16,1,1,0
+135,"KA Ranganath, BA Nosek",PS,Social,0.00464002,0.105891025,0.912448643,3.14E-10,0,1,0
+136,"KD Vohs, JW Schooler",PS,Social,0.498149178,0.102355162,0.005086904,0.444536036,1,0,1
+137,"KH Trzesniewski, MB Donnellan, RW Robins",PS,,NA,,NA,,,,
+138,"KI Ruys, DA Stapel",PS,,0.323295181,,5.28E-05,,,,
+139,"L Demany, W Trost, M Serman, C Semal",PS,Cognitive,0.496363588,0.505151268,0.002712614,0.000217732,1,1,0
+140,"LE Williams, JA Bargh",PS,Social,0.233776428,0.044266281,0.009205933,0.786998369,1,0,1
+141,"LN Jefferies, D Smilek, E Eich, JT Enns",PS,Cognitive,0.206419847,,0.047127477,,,,
+142,"M Tamir, C Mitchell, JJ Gross",PS,Social,0.593405778,0.609913782,1.39E-43,3.30E-52,1,1,0
+143,"N Epley, S Akalis, A Waytz, JT Cacioppo",PS,Social,0.172960188,0.061707156,0.007654847,0.677581223,1,0,1
+144,"N Epley, S Akalis, A Waytz, JT Cacioppo",PS,,NA,,NA,,,,
+145,"N Halevy, G Bornstein, L Sagiv",PS,Social,0.768651993,0.652982567,2.10E-16,8.85E-06,1,1,1
+146,"N Janssen, FX Alario, A Caramazza",PS,Cognitive,0.649955571,0.497082522,0.006420541,0.083950437,1,0,1
+147,"O Ayduk, E Kross",PS,Social,0.303094508,,0.010189448,,,,
+148,"P Bressan, D Stranieri",PS,Social,0.188662549,-0.030172295,0.008092031,0.627520896,1,0,1
+149,"P Bressan, D Stranieri",PS,Social,0.188662549,0.018283411,0.008092031,0.74612573,1,0,1
+150,"S Forti, GW Humphreys",PS,Cognitive,0.722536382,0.207514339,0.002344469,0.380003702,1,0,1
+151,"S Schnall, J Benton, S Harvey",PS,Social,0.400010244,0.002839798,0.007866967,0.974823723,1,0,1
+152,SA Burt,PS,,0.2,,0.023974716,,,,
+153,"SE Palmer, T Ghose",PS,Cognitive,0.859552403,0.120073568,0.002971641,0.758308044,1,0,1
+154,"SJ Heine, EE Buchtel, A Norenzayan",PS,Social,0.43,0.11,0.000166938,0.690466537,1,0,1
+155,"SK Moeller, MD Robinson, DL Zabelina",PS,Social,0.31,-0.034,0.023414774,0.777533992,1,0,1
+156,"T Brosch, D Sander, G Pourtois, KR Scherer",PS,,0.355146097,,0.937803018,,,,
+157,"T Ganel, M Tanzer, MA Goodale",PS,,0.589311447,,0.020787407,,,,
+158,"T Goschke, G Dreisbach",PS,Social,0.374787884,0.411336583,0.017182464,3.46E-05,1,1,0
+159,"T Hedden, S Ketay, A Aron, HR Markus, JD Gabrieli",PS,,0.769849352,,7.20E-05,,,,
+160,"T Kraljic, AG Samuel, SE Brennan",PS,Cognitive,0.295458535,,0.017775393,,,,
+161,"V Lobue, JS DeLoache",PS,Cognitive,0.483442318,0.177837588,0.000665379,0.237041962,1,0,1
+162,"VL Brescoll, EL Uhlmann",PS,,0.469786797,,0.000987739,,,,
+163,"W von Hippel, L Brener, C von Hippel",PS,,NA,,NA,,,,
+164,"WA Cunningham, JJ Van Bavel, IR Johnsen",PS,Social,0.683979364,,0.009931447,,,,
+165,"X Dai, K Wertenbroch, CM Brendl",PS,Social,0.28378815,-0.175454592,0.033697241,0.210207014,1,0,1
+166,"YX Ho, MS Landy, LT Maloney",PS,,NA,,NA,,,,
+167,"Z Estes, M Verges, LW Barsalou",PS,Cognitive,0.595271914,0.25414164,0.007169828,0.241925362,1,0,1
+,,,,NA,NA,,,,,

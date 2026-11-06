@@ -1,0 +1,2 @@
+Fonte primária: U.S. Energy Information Administration (EIA), Europe Brent Spot Price FOB, série diária RBRTE (dólares por barril). Domínio público.
+Cópia usada: github.com/datasets/oil-prices, data/brent-daily.csv (licença ODC-PDDL-1.0, datapackage.json). Descarregado a 2026-11-06 de raw.githubusercontent.com/datasets/oil-prices/main/data/brent-daily.csv. Ficheiro sem alterações. Último valor: 2026-11-03.

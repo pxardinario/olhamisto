@@ -7,10 +7,10 @@
       "ideia": "Uso de IA generativa pelas pessoas, por país da UE, em 2025: onde fica Portugal?",
       "fonte": "Eurostat, inquérito à utilização de TIC pelas famílias (isoc_ai_iaigu ou equivalente)",
       "licenca": "Eurostat: reutilização permitida com atribuição",
-      "estado": "bloqueada",
-      "bloqueio": "Statistics Explained só dá os extremos no texto; o valor por país está num mapa. Tentar a tabela na base de dados do Eurostat (data browser) por WebFetch, ou um conjunto derivado no OWID.",
+      "estado": "descartada",
+      "bloqueio": "Statistics Explained só dá os extremos no texto; o valor por país está num mapa. Tentar a tabela na base de dados do Eurostat (data browser) por WebFetch, ou um conjunto derivado no OWID. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar. Descartada após 3 tentativas: os valores por país não chegaram em formato legível neste ambiente.",
       "registada": "2026-11-05",
-      "tentativas": 2
+      "tentativas": 3
     },
     {
       "id": "adocao-ia-empresas-ue-2025",
@@ -19,20 +19,9 @@
       "fonte": "Eurostat, inquérito ao uso de TIC nas empresas (isoc_eb_ai)",
       "licenca": "Eurostat: reutilização permitida com atribuição",
       "estado": "bloqueada",
-      "bloqueio": "Statistics Explained inacessível em 2026-11-04. Tentar a tabela isoc_eb_ai no data browser por WebFetch.",
+      "bloqueio": "Statistics Explained inacessível em 2026-11-04. Tentar a tabela isoc_eb_ai no data browser por WebFetch. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar.",
       "registada": "2026-11-04",
-      "tentativas": 1
-    },
-    {
-      "id": "reprodutibilidade-psicologia-2015",
-      "tema": "ciencia",
-      "ideia": "Quantos resultados da psicologia se repetiram quando foram refeitos (Open Science Collaboration, Science 2015): efeito original contra efeito na réplica",
-      "fonte": "Open Science Collaboration (2015); dados no OSF (osf.io/fgjvw) e repositório github.com/CenterForOpenScience/rpp",
-      "licenca": "Confirmar no OSF (projetos OSF costumam ser CC0 ou CC-BY)",
-      "estado": "bloqueada",
-      "bloqueio": "Ficheiro de dados inacessível em 2026-11-05. Pista: o GitHub é acessível pela linha de comandos; experimentar `git clone --depth 1 https://github.com/CenterForOpenScience/rpp` e procurar o CSV ou o rpp_reproduce.zip.",
-      "registada": "2026-11-05",
-      "tentativas": 1
+      "tentativas": 2
     },
     {
       "id": "nudges-revistas-vs-governo",
@@ -52,9 +41,9 @@
       "fonte": "Eurostat, índices de preços da habitação (prc_hpi_a) e rendas (prc_hicp)",
       "licenca": "Eurostat: reutilização permitida com atribuição",
       "estado": "bloqueada",
-      "bloqueio": "Valores por país só em gráfico de imagem na página consultada. Tentar as tabelas prc_hpi_a e o índice de rendas no data browser por WebFetch.",
+      "bloqueio": "Valores por país só em gráfico de imagem na página consultada. Tentar as tabelas prc_hpi_a e o índice de rendas no data browser por WebFetch. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar.",
       "registada": "2026-11-03",
-      "tentativas": 1
+      "tentativas": 2
     },
     {
       "id": "musica-gravada-vinil",
@@ -76,6 +65,39 @@
       "estado": "bloqueada",
       "bloqueio": "Licença. Só avançar se aparecer uma fonte com licença aberta (ex.: Newsletter Transplant com termos de reutilização explícitos).",
       "registada": "2026-11-05",
+      "tentativas": 1
+    },
+    {
+      "id": "revisao-populacao-ine-2026",
+      "tema": "portugal",
+      "ideia": "A revisão da população pelo INE (junho de 2026) e da emigração (novembro de 2026): série antiga contra série nova, 2021–2025, saldo migratório por ano",
+      "fonte": "INE, Estimativas de População Residente 2025 (destaque de 22/06/2026) e dados de emigração revistos (5/11/2026)",
+      "licenca": "INE: reutilização permitida com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "Em 2026-11-06 o WebFetch não chegou a www.ine.pt; só houve resumos de pesquisa. Precisa dos quadros do destaque (população a 31/12 por ano, saldos natural e migratório, séries antiga e nova). Pode servir também para refazer a peça populacao-portugal-1960-2025.",
+      "registada": "2026-11-06",
+      "tentativas": 1
+    },
+    {
+      "id": "intercalares-eua-2026-resultados",
+      "tema": "politica",
+      "ideia": "Resultados das intercalares de 3/11/2026 contra o padrão histórico (o partido do presidente perdeu lugares em 18 de 20)",
+      "fonte": "Clerk of the House / resultados oficiais certificados pelos estados",
+      "licenca": "Domínio público (governo dos EUA)",
+      "estado": "bloqueada",
+      "bloqueio": "Resultados ainda não finais e sem fonte primária acessível a 2026-11-06. Tentar quando houver contagem quase final; ligar à peça eua-intercalares de 2026-11-03.",
+      "registada": "2026-11-06",
+      "tentativas": 1
+    },
+    {
+      "id": "credito-habitacao-recorde-2026",
+      "tema": "economia",
+      "ideia": "Stock de crédito à habitação em máximo (120,2 mil milhões em setembro de 2026, +11,2%)",
+      "fonte": "Banco de Portugal, BPstat",
+      "licenca": "BdP: reutilização com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "BPstat inacessível em 2026-11-06 (WebFetch bloqueado). Procurar a série em CSV no GitHub ou tentar o BPstat noutro dia.",
+      "registada": "2026-11-06",
       "tentativas": 1
     }
   ]

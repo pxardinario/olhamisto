@@ -19,6 +19,9 @@ Para que serve: poupar tempo em becos sem saída. Antes de escolher uma candidat
 | Datasets, temperatura global anual | raw.githubusercontent.com/datasets/global-temp/main/data/annual.csv | CC BY 4.0 (datapackage.json) | 2026-11-05 |
 | Datasets, CO₂ atmosférico (Mauna Loa) | raw.githubusercontent.com/datasets/co2-ppm/main/data/co2-mm-mlo.csv | ver datapackage.json | 2026-11-05 |
 | FiveThirtyEight, conjuntos de dados | github.com/fivethirtyeight/data | CC BY 4.0 | 2026-11-05 (repositório acessível) |
+| Datasets, preços do petróleo (Brent e WTI, diários, EIA) | raw.githubusercontent.com/datasets/oil-prices/main/data/brent-daily.csv | ODC-PDDL-1.0 | 2026-11-06, atualizado até 3/11/2026; faltam dias em vários anos antes de 2007 |
+| OWID, arquivo owid-datasets (centenas de conjuntos históricos: Maddison 2020, homicídios de Eisner, alfabetização, livros…) | github.com/owid/owid-datasets (`git clone --depth 1 --filter=blob:none --no-checkout` e `git ls-tree`; ficheiros por raw.githubusercontent.com) | CC BY 4.0, mas confirmar a fonte de cada conjunto (p. ex. linhas do IHME têm licença não comercial) | 2026-11-06; alguns CSV estão vazios |
+| Reproducibility Project: Psychology | github.com/CenterForOpenScience/rpp (`git show c755df6:rpp_data.csv`) | CC0 1.0 (projeto OSF osf.io/ezcuj) | 2026-11-06; o CSV convertido em data_allformats tem colunas desalinhadas, usar o rpp_data.csv do histórico |
 | TidyTuesday, conjuntos de dados semanais | github.com/rfordatascience/tidytuesday | **varia por conjunto**: confirmar a licença de cada um | 2026-11-05 (repositório acessível) |
 
 Regras: confirma sempre a licença no próprio repositório (README, LICENSE ou datapackage.json) e regista-a no `raw/` da peça. Os ficheiros agregadores (OWID, Datasets) citam a fonte primária: cita as duas.
@@ -31,6 +34,8 @@ Regras: confirma sempre a licença no próprio repositório (README, LICENSE ou 
 - **Artigos científicos:** o resumo raramente chega; procurar o pacote de dados de replicação (OSF, openICPSR, Dataverse, Zenodo) e confirmar a licença.
 
 ## Becos sem saída conhecidos
+
+- 2026-11-06: o WebFetch falhou para todos os domínios fora do GitHub (ine.pt, osf.io, jornais), com erro de resolução de nomes. A API api.github.com também foi recusada; `git clone` e raw.githubusercontent.com funcionaram. Nesses dias, contar só com dados do GitHub.
 
 - Valores que só existem em mapas ou gráficos de imagem.
 - PDFs e Excel do relatório anual da NATO (2026-11-04).

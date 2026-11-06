@@ -1,0 +1,217 @@
+{
+ "rows": [
+  {
+   "x": 1300,
+   "en": 23,
+   "de": 37,
+   "it": 56,
+   "nl": 47,
+   "sc": null
+  },
+  {
+   "x": 1450,
+   "en": null,
+   "de": 16,
+   "it": 73,
+   "nl": 45,
+   "sc": 46
+  },
+  {
+   "x": 1550,
+   "en": 7,
+   "de": 11,
+   "it": 47,
+   "nl": 25,
+   "sc": 21
+  },
+  {
+   "x": 1625,
+   "en": 6,
+   "de": 11,
+   "it": 32,
+   "nl": 6,
+   "sc": 24
+  },
+  {
+   "x": 1675,
+   "en": 4,
+   "de": 3,
+   "it": null,
+   "nl": 9,
+   "sc": 12
+  },
+  {
+   "x": 1725,
+   "en": 2,
+   "de": 7,
+   "it": 12,
+   "nl": 7,
+   "sc": 3
+  },
+  {
+   "x": 1775,
+   "en": 1,
+   "de": 8,
+   "it": 9,
+   "nl": 4,
+   "sc": 0.7
+  },
+  {
+   "x": 1812,
+   "en": 2,
+   "de": 3,
+   "it": 18,
+   "nl": 2,
+   "sc": 1
+  },
+  {
+   "x": 1837,
+   "en": 1.7,
+   "de": 4,
+   "it": 15,
+   "nl": null,
+   "sc": 1.4
+  },
+  {
+   "x": 1862,
+   "en": 1.6,
+   "de": 2,
+   "it": 12,
+   "nl": 0.9,
+   "sc": 1.2
+  },
+  {
+   "x": 1887,
+   "en": 0.8,
+   "de": 2.2,
+   "it": 5.5,
+   "nl": 1.5,
+   "sc": 0.9
+  },
+  {
+   "x": 1912,
+   "en": 0.8,
+   "de": 2,
+   "it": 3.9,
+   "nl": 1.7,
+   "sc": 0.8
+  },
+  {
+   "x": 1937,
+   "en": 0.8,
+   "de": 1.4,
+   "it": 2.6,
+   "nl": 1.3,
+   "sc": 0.6
+  },
+  {
+   "x": 1962,
+   "en": 0.7,
+   "de": 0.9,
+   "it": 1.3,
+   "nl": 0.6,
+   "sc": 0.6
+  },
+  {
+   "x": 1984,
+   "en": 1.2,
+   "de": 1.2,
+   "it": 1.7,
+   "nl": 1.2,
+   "sc": 1.2
+  }
+ ],
+ "config": {
+  "x": {
+   "label": "Ano",
+   "min": 1300,
+   "max": 1984,
+   "ticks": [
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    1984
+   ]
+  },
+  "y": {
+   "label": "Homicídios por 100 mil habitantes",
+   "suffix": "",
+   "decimals": 1,
+   "logDefault": true,
+   "logMin": 0.5,
+   "logMax": 100,
+   "linMax": 80
+  },
+  "series": [
+   {
+    "key": "it",
+    "label": "Itália",
+    "short": "Itália",
+    "color": "--accent-2",
+    "width": 2.6
+   },
+   {
+    "key": "en",
+    "label": "Inglaterra",
+    "short": "Inglaterra",
+    "color": "--accent-3",
+    "width": 2.6
+   },
+   {
+    "key": "nl",
+    "label": "Países Baixos e Bélgica",
+    "short": "PB e Bélg.",
+    "color": "--accent-4",
+    "width": 2
+   },
+   {
+    "key": "de",
+    "label": "Alemanha e Suíça",
+    "short": "Alem./Suíça",
+    "color": "--ink-3",
+    "width": 2
+   },
+   {
+    "key": "sc",
+    "label": "Escandinávia",
+    "short": "Escand.",
+    "color": "--ink",
+    "width": 1.6
+   }
+  ],
+  "scaleToggle": true,
+  "dots": true,
+  "shortEndLabels": true,
+  "labelMargin": [
+   88,
+   104
+  ],
+  "howToRead": "Cada ponto é uma estimativa para um período (por exemplo, o século XIV aparece em 1300). Em escala logarítmica, cada linha da grelha multiplica por 2 ou por 2,5: uma descida do 50 para o 5 tem a mesma altura do que do 5 para o 0,5.",
+  "annotations": [
+   {
+    "x": 1450,
+    "key": "it",
+    "text": "Itália, 1450: 73",
+    "short": "It. 1450: 73",
+    "anchor": "start",
+    "dx": 8,
+    "dy": -8
+   }
+  ]
+ },
+ "summary": {
+  "it1450": 73,
+  "it1962": 1.3,
+  "en1300": 23,
+  "en1962": 0.7,
+  "it1450to1962": 56,
+  "en": 33,
+  "nl1300": 47,
+  "de1300": 37,
+  "sc1450": 46
+ }
+}

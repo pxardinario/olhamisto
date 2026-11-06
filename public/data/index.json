@@ -1,8 +1,117 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-05T16:30:58.812Z",
- "latest": "2026-11-05",
+ "updated": "2026-11-06T07:35:25.279Z",
+ "latest": "2026-11-06",
  "editions": [
+  {
+   "date": "2026-11-06",
+   "number": 4,
+   "lead": "brent-dias-5pct",
+   "opening": "Cinco histórias sobre o que muda devagar e o que muda de um dia para o outro: os sobressaltos do petróleo em 2026, quatro séculos de distância entre Portugal e o Reino Unido, a psicologia posta à prova, os bebés que evitam o domingo e a longa descida dos homicídios na Europa.",
+   "pieces": [
+    {
+     "id": "brent-dias-5pct",
+     "title": "Em 2026, o Brent já subiu 5% ou mais num só dia 26 vezes, mais do que em qualquer ano desde 2007",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia e mercados",
+     "vizType": "barras",
+     "vizLabel": "Colunas divergentes · 2 vistas",
+     "interactive": true,
+     "question": "Quão invulgar é a instabilidade do preço do petróleo em 2026?",
+     "finding": "Até 3 de novembro, o Brent teve 42 dias com variações de 5% ou mais face à cotação anterior: 26 subidas e 16 descidas. É mais do que em qualquer ano completo desde 2007, incluindo 2020 (41 dias, dos quais 20 subidas) e 2022 (21). Entre 2023 e 2025 houve 5, 2 e 6 dias assim.",
+     "period": "2007 a 3 de novembro de 2026 (cotações diárias)",
+     "dataset": "brent-dias-5pct",
+     "sourceNames": [
+      "U.S. Energy Information Administration (EIA) — Europe Brent Spot Price FOB, série diária RBRTE (domínio público)",
+      "Datasets — oil-prices, brent-daily.csv (cópia em CSV da série da EIA, licença ODC-PDDL)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "pib-portugal-1530-2018",
+     "title": "Nos anos 1750, um português produzia três quartos do que produzia um britânico. Nos anos 1910, um quarto",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Portugal foi sempre um dos países pobres da Europa ocidental?",
+     "finding": "Até aos anos 1780, o PIB por habitante de Portugal nunca ficou abaixo de 65% do britânico (77% nos anos 1750) e, nesta base de dados, superou o espanhol de meados do século XVII ao fim do XVIII. Enquanto os outros se industrializavam, caiu até 24% nos anos 1910. Recuperou entre os anos 1960 e 1990 (de 41% para 70%) e desde então parou: 69% nos anos 2010.",
+     "period": "Décadas de 1530 a 2010 (a última vai de 2010 a 2018)",
+     "dataset": "pib-portugal-1530-2018",
+     "sourceNames": [
+      "Maddison Project Database, versão 2020 (Bolt e van Zanden, 2020), via Our World in Data — owid-datasets (CC BY 4.0)",
+      "Palma, N. e Reis, J. (2019), «From Convergence to Divergence: Portuguese Economic Growth, 1527–1850», The Journal of Economic History, 79(2), 477–506"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "reprodutibilidade-psicologia",
+     "title": "Cem estudos de psicologia foram refeitos. Em média, o efeito encolheu para metade",
+     "kind": "descoberta",
+     "theme": "comportamento",
+     "themeLabel": "Ciência do comportamento",
+     "vizType": "dispersao",
+     "vizLabel": "Dispersão · destaque por área",
+     "interactive": true,
+     "question": "Quando se repete uma experiência de psicologia já publicada, o resultado mantém-se?",
+     "finding": "Nos 97 pares com efeito medido, a força média do efeito caiu de r = 0,40 nos artigos originais para 0,20 nas réplicas. Em 81 casos a réplica deu um efeito menor e em 17 um efeito de sinal contrário. Entre os pares do gráfico, na psicologia social só 13 de 54 réplicas foram estatisticamente significativas (24%); na cognitiva, 21 de 43 (49%).",
+     "period": "Estudos originais de 2008; réplicas de 2011 a 2015",
+     "dataset": "reprodutibilidade-psicologia",
+     "sourceNames": [
+      "Open Science Collaboration (2015), «Estimating the reproducibility of psychological science», Science, 349(6251), aac4716",
+      "Center for Open Science — repositório rpp (dados rpp_data.csv do projeto OSF osf.io/ezcuj, CC0 1.0)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "nascimentos-dia-semana-eua",
+     "title": "Nos EUA, ao domingo nascem menos 43% de bebés do que à terça-feira",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade e demografia",
+     "vizType": "barras",
+     "vizLabel": "Colunas",
+     "interactive": false,
+     "question": "Os bebés nascem em qualquer dia da semana?",
+     "finding": "Entre 2000 e 2014 nasceram em média 13 122 bebés por dia às terças-feiras e 7 518 aos domingos, menos 43%. O fim de semana teve menos 37% de nascimentos do que os dias úteis. Os oito dias com menos nascimentos do período foram todos dias de Natal, e às sextas-feiras 13 nasceram menos 6,4% do que às sextas-feiras 6 e 20.",
+     "period": "1 de janeiro de 2000 a 31 de dezembro de 2014 (5 479 dias)",
+     "dataset": "nascimentos-dia-semana-eua",
+     "sourceNames": [
+      "FiveThirtyEight — births, US_births_2000-2014_SSA.csv (dados da Social Security Administration; CC BY 4.0)",
+      "CDC / NCHS — «Attendant, Place and Timing, and Use of Obstetric Interventions» (nota de 1999, arquivo)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "homicidios-europa-1300-1984",
+     "title": "Na Itália do século XV, a taxa de homicídios era 56 vezes a de 1962",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História",
+     "vizType": "linha",
+     "vizLabel": "Linhas · escala logarítmica ⇄ linear",
+     "interactive": true,
+     "question": "A Europa ocidental tornou-se mais violenta ou menos violenta ao longo dos séculos?",
+     "finding": "Nas estimativas para 1300 e 1450, as taxas vão de 16 a 73 homicídios por 100 mil habitantes, conforme a região. Em 1962 estavam todas entre 0,6 e 1,3. Em Itália a taxa caiu de 73 (1450) para 1,3; em Inglaterra, de 23 (1300) para 0,7. A Escandinávia já estava abaixo de 1 em 1775.",
+     "period": "1300–1984 (estimativas por período, no ponto médio)",
+     "dataset": "homicidios-europa-1300-1984",
+     "sourceNames": [
+      "Eisner, M. (2003), «Long-Term Historical Trends in Violent Crime», Crime and Justice, 30, 83–142 (quadro 1)",
+      "Our World in Data — owid-datasets, Homicide rates in Europe over long-term (Eisner & IHME) (CC BY 4.0)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "armadilha-de-tucidides",
+    "title": "A armadilha de Tucídides",
+    "axis": "geopolitica",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-05",
    "number": 3,
@@ -73,14 +182,15 @@
      "vizLabel": "Colunas divergentes · 2 vistas",
      "interactive": true,
      "question": "Como se explica que Portugal tenha hoje a maior população de sempre, depois de anos a perder habitantes?",
-     "finding": "Em 2025 Portugal tinha 10,80 milhões de habitantes, o valor mais alto da série. Entre 2010 e 2018 perdeu 289 mil pessoas; desde então ganhou 521 mil. O maior aumento anual desde 1976 foi em 2023 (+144 mil). Só 1975 (+339 mil) e 1976 (+262 mil), com a descolonização, cresceram mais.",
+     "finding": "Em 2025 Portugal teve a população mais alta da série. Entre 2010 e 2018 perdeu 289 mil pessoas. Na série do Banco Mundial usada no gráfico, ganhou 521 mil desde então; essa série é anterior à revisão do INE de junho de 2026, que estima 11 424 031 residentes no fim de 2025 e um aumento de 824 914 pessoas entre 2021 e 2025.",
      "period": "1960–2025 (anual; variações a partir de 1961)",
      "dataset": "populacao-portugal-1960-2025",
      "sourceNames": [
       "Banco Mundial — World Development Indicators, Population, total (SP.POP.TOTL), Portugal (CC BY 4.0)",
-      "Datahub / datasets — population.csv (cópia em CSV dos dados do Banco Mundial)"
+      "Datahub / datasets — population.csv (cópia em CSV dos dados do Banco Mundial)",
+      "INE — Estimativas de População Residente, 2025 (destaque de 22 de junho de 2026)"
      ],
-     "verification": "verificada"
+     "verification": "parcial"
     }
    ],
    "chave": {

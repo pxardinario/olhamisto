@@ -1,0 +1,252 @@
+{
+ "rows": [
+  {
+   "cat": "2007",
+   "up": 1,
+   "down": 0,
+   "total": 1,
+   "obs": 247
+  },
+  {
+   "cat": "2008",
+   "up": 10,
+   "down": -10,
+   "total": 20,
+   "obs": 253
+  },
+  {
+   "cat": "2009",
+   "up": 18,
+   "down": -10,
+   "total": 28,
+   "obs": 252
+  },
+  {
+   "cat": "2010",
+   "up": 3,
+   "down": -1,
+   "total": 4,
+   "obs": 252
+  },
+  {
+   "cat": "2011",
+   "up": 0,
+   "down": -1,
+   "total": 1,
+   "obs": 248
+  },
+  {
+   "cat": "2012",
+   "up": 0,
+   "down": -1,
+   "total": 1,
+   "obs": 249
+  },
+  {
+   "cat": "2013",
+   "up": 0,
+   "down": 0,
+   "total": 0,
+   "obs": 252
+  },
+  {
+   "cat": "2014",
+   "up": 0,
+   "down": -1,
+   "total": 1,
+   "obs": 253
+  },
+  {
+   "cat": "2015",
+   "up": 12,
+   "down": -5,
+   "total": 17,
+   "obs": 255
+  },
+  {
+   "cat": "2016",
+   "up": 14,
+   "down": -5,
+   "total": 19,
+   "obs": 255
+  },
+  {
+   "cat": "2017",
+   "up": 0,
+   "down": 0,
+   "total": 0,
+   "obs": 256
+  },
+  {
+   "cat": "2018",
+   "up": 1,
+   "down": -3,
+   "total": 4,
+   "obs": 252
+  },
+  {
+   "cat": "2019",
+   "up": 3,
+   "down": -3,
+   "total": 6,
+   "obs": 257
+  },
+  {
+   "cat": "2020",
+   "up": 20,
+   "down": -21,
+   "total": 41,
+   "obs": 255
+  },
+  {
+   "cat": "2021",
+   "up": 4,
+   "down": -4,
+   "total": 8,
+   "obs": 253
+  },
+  {
+   "cat": "2022",
+   "up": 7,
+   "down": -14,
+   "total": 21,
+   "obs": 252
+  },
+  {
+   "cat": "2023",
+   "up": 2,
+   "down": -3,
+   "total": 5,
+   "obs": 251
+  },
+  {
+   "cat": "2024",
+   "up": 0,
+   "down": -2,
+   "total": 2,
+   "obs": 254
+  },
+  {
+   "cat": "2025",
+   "up": 2,
+   "down": -4,
+   "total": 6,
+   "obs": 253
+  },
+  {
+   "cat": "2026",
+   "up": 26,
+   "down": -16,
+   "total": 42,
+   "obs": 213
+  }
+ ],
+ "views": [
+  {
+   "id": "split",
+   "label": "Subidas e descidas",
+   "yLabel": "Dias em que o Brent subiu (acima) ou desceu (abaixo) 5% ou mais face ao dia anterior",
+   "unit": " dias",
+   "decimals": 0,
+   "labelEvery": 1,
+   "labelEveryNarrow": 3,
+   "series": [
+    {
+     "key": "down",
+     "label": "Dias a descer 5% ou mais",
+     "color": "--accent-2"
+    },
+    {
+     "key": "up",
+     "label": "Dias a subir 5% ou mais",
+     "color": "--accent-3"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2026",
+     "text": "2026, até 3 de novembro",
+     "short": "2026 (até 3/11)"
+    }
+   ]
+  },
+  {
+   "id": "total",
+   "label": "Total",
+   "yLabel": "Dias com variação diária de 5% ou mais, para cima ou para baixo",
+   "unit": " dias",
+   "decimals": 0,
+   "valueLabels": true,
+   "labelEveryNarrow": 3,
+   "series": [
+    {
+     "key": "total",
+     "label": "Dias com variação de 5% ou mais",
+     "color": "--accent-2"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2026",
+     "text": "2026, até 3 de novembro",
+     "short": "2026 (até 3/11)"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "y2026": {
+   "cat": "2026",
+   "up": 26,
+   "down": -16,
+   "total": 42,
+   "obs": 213
+  },
+  "y2020": {
+   "cat": "2020",
+   "up": 20,
+   "down": -21,
+   "total": 41,
+   "obs": 255
+  },
+  "y2022": {
+   "cat": "2022",
+   "up": 7,
+   "down": -14,
+   "total": 21,
+   "obs": 252
+  },
+  "y2008": {
+   "cat": "2008",
+   "up": 10,
+   "down": -10,
+   "total": 20,
+   "obs": 253
+  },
+  "y2009": {
+   "cat": "2009",
+   "up": 18,
+   "down": -10,
+   "total": 28,
+   "obs": 252
+  },
+  "maxUpOther": 20,
+  "first": {
+   "d": "2026-01-02",
+   "p": 61.98
+  },
+  "max": {
+   "d": "2026-04-07",
+   "p": 138.21
+  },
+  "last": {
+   "d": "2026-11-03",
+   "p": 107.03
+  },
+  "biggest": {
+   "d": "2026-10-02",
+   "pct": 18
+  },
+  "march2026": 11
+ }
+}

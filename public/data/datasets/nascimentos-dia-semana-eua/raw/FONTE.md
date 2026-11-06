@@ -1,0 +1,1 @@
+Fonte: FiveThirtyEight, github.com/fivethirtyeight/data/tree/master/births, ficheiro US_births_2000-2014_SSA.csv (nascimentos diários nos EUA, 2000–2014, Social Security Administration). Licença CC BY 4.0 (LICENSE do repositório). Descarregado a 2026-11-06. Sem alterações. day_of_week: 1 = segunda … 7 = domingo.

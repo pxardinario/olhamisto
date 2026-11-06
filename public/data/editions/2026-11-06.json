@@ -1,0 +1,298 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-06",
+ "number": 4,
+ "status": "publicada",
+ "opening": "Cinco histórias sobre o que muda devagar e o que muda de um dia para o outro: os sobressaltos do petróleo em 2026, quatro séculos de distância entre Portugal e o Reino Unido, a psicologia posta à prova, os bebés que evitam o domingo e a longa descida dos homicídios na Europa.",
+ "lead": "brent-dias-5pct",
+ "generatedAt": "2026-11-06T08:30:00Z",
+ "limitations": [
+  "Edição com uma peça de atualidade e quatro de descoberta. Nesta execução, a leitura direta de páginas da web (incluindo INE, Eurostat e Banco de Portugal) falhou em todos os domínios fora do GitHub; só foi possível usar dados descarregáveis do GitHub e resumos de pesquisa.",
+  "Candidata rejeitada: revisão da população residente e da emigração pelo INE (destaque de 22 de junho e dados divulgados a 5 de novembro de 2026). Os quadros do INE não estavam acessíveis para transcrição; a revisão foi usada apenas para corrigir a peça de 5 de novembro sobre a população.",
+  "Candidata rejeitada: resultados das eleições intercalares dos EUA de 3 de novembro. Não havia resultados finais verificáveis numa fonte primária acessível.",
+  "Candidata rejeitada: crédito à habitação em máximo histórico (Banco de Portugal, setembro de 2026). O BPstat não estava acessível neste ambiente.",
+  "Homicídios: as estimativas de 1990 em diante do conjunto da Our World in Data vêm do IHME (Global Burden of Disease), com licença não comercial, e foram excluídas; a série publicada termina em 1984.",
+  "Correção: a peça «Portugal nunca teve tanta gente» (5 de novembro) usava uma série anterior à revisão da população feita pelo INE em junho de 2026. A peça foi corrigida e a verificação passou a parcial (ver /correcoes/)."
+ ],
+ "pieces": [
+  {
+   "id": "brent-dias-5pct",
+   "slug": "petroleo-brent-dias-variacao-5pct-2007-2026",
+   "kind": "atualidade",
+   "theme": "economia",
+   "themeLabel": "Economia e mercados",
+   "vizType": "barras",
+   "vizLabel": "Colunas divergentes · 2 vistas",
+   "interactive": true,
+   "title": "Em 2026, o Brent já subiu 5% ou mais num só dia 26 vezes, mais do que em qualquer ano desde 2007",
+   "question": "Quão invulgar é a instabilidade do preço do petróleo em 2026?",
+   "finding": "Até 3 de novembro, o Brent teve 42 dias com variações de 5% ou mais face à cotação anterior: 26 subidas e 16 descidas. É mais do que em qualquer ano completo desde 2007, incluindo 2020 (41 dias, dos quais 20 subidas) e 2022 (21). Entre 2023 e 2025 houve 5, 2 e 6 dias assim.",
+   "context": "O preço spot do Brent começou o ano a 61,98 dólares por barril, chegou a 138,21 a 7 de abril e estava a 107,03 a 3 de novembro. Desde março, o conflito no Médio Oriente e a quase paralisação do estreito de Ormuz fizeram da energia o motor da subida da inflação na zona euro, como esta revista mostrou a 4 de novembro.",
+   "interpretation": "O preço médio diz pouco sobre a instabilidade. Em 2020 o petróleo afundou e em 2026 disparou, mas os dois anos têm quase o mesmo número de dias bruscos; a diferença está na direção, porque 2026 é o ano das subidas. Só em março houve 11 dias com variações de 5% ou mais, e a maior do ano foi de +18,0%, a 2 de outubro.",
+   "chart": {
+    "type": "columns",
+    "dataset": "brent-dias-5pct"
+   },
+   "period": "2007 a 3 de novembro de 2026 (cotações diárias)",
+   "unit": "Número de dias por ano com variação diária do preço de ±5% ou mais",
+   "sources": [
+    {
+     "name": "U.S. Energy Information Administration (EIA) — Europe Brent Spot Price FOB, série diária RBRTE (domínio público)",
+     "url": "https://www.eia.gov/dnav/pet/hist/rbrteD.htm",
+     "accessed": "2026-11-06"
+    },
+    {
+     "name": "Datasets — oil-prices, brent-daily.csv (cópia em CSV da série da EIA, licença ODC-PDDL)",
+     "url": "https://github.com/datasets/oil-prices",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "method": [
+    "Preço spot diário do Brent (FOB, dólares correntes por barril) da EIA, na cópia em CSV do repositório datasets/oil-prices, transcrita sem alterações em raw/brent-volatilidade/. A série da EIA não foi consultada diretamente nesta edição. Variação diária = cotação do dia ÷ última cotação anterior disponível − 1 (depois de feriados, compara com o último dia com cotação); contam-se os dias com variação de +5% ou mais e de −5% ou menos.",
+    "A série começa em 2007 porque é desde esse ano que a cópia usada tem cotações diárias completas (247 ou mais por ano); em vários anos anteriores faltam dias, o que tornaria a contagem incomparável. 2026 vai até 3 de novembro e o total ainda pode crescer.",
+    "O preço spot (Brent físico datado) pode afastar-se do preço dos contratos de futuros citado nas notícias, sobretudo em períodos de escassez física. A peça não atribui causas a dias concretos; a referência ao Médio Oriente e a Ormuz descreve o contexto do ano."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-06",
+    "note": "20 anos × 3 contagens e 10 números do texto recalculados de forma independente; ficheiro bruto idêntico à fonte; dois preços conferidos com a série da EIA no FRED; contexto de 2026 confirmado por pesquisa. Precisado o tratamento dos feriados no método."
+   }
+  },
+  {
+   "id": "pib-portugal-1530-2018",
+   "slug": "pib-por-habitante-portugal-reino-unido-espanha-1530-2018",
+   "kind": "descoberta",
+   "theme": "historia",
+   "themeLabel": "História",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Nos anos 1750, um português produzia três quartos do que produzia um britânico. Nos anos 1910, um quarto",
+   "question": "Portugal foi sempre um dos países pobres da Europa ocidental?",
+   "finding": "Até aos anos 1780, o PIB por habitante de Portugal nunca ficou abaixo de 65% do britânico (77% nos anos 1750) e, nesta base de dados, superou o espanhol de meados do século XVII ao fim do XVIII. Enquanto os outros se industrializavam, caiu até 24% nos anos 1910. Recuperou entre os anos 1960 e 1990 (de 41% para 70%) e desde então parou: 69% nos anos 2010.",
+   "context": "As contas nacionais só existem desde meados do século XX. Para trás, historiadores económicos reconstroem o PIB a partir de preços, salários, produção agrícola e população. O Maddison Project reúne essas reconstruções numa base comum, em dólares de 2011. A série portuguesa, anual desde 1530, vem até 1850 do trabalho de Nuno Palma e Jaime Reis, publicado em 2019.",
+   "interpretation": "Nos anos 1910, um português produzia em média 1 950 dólares por ano, menos do que nos anos 1750 (2 110), enquanto o Reino Unido e os Países Baixos se industrializavam. A convergência das décadas de 1960 a 1990 recuperou parte da distância, mas desde a viragem do século Portugal deixou de se aproximar do Reino Unido e afastou-se de Espanha: de 90% nos anos 1990 para 81% nos anos 2010.",
+   "chart": {
+    "type": "lines",
+    "dataset": "pib-portugal-1530-2018"
+   },
+   "period": "Décadas de 1530 a 2010 (a última vai de 2010 a 2018)",
+   "unit": "PIB por habitante de Portugal em % do de cada país (razão das médias da década, dólares internacionais de 2011)",
+   "sources": [
+    {
+     "name": "Maddison Project Database, versão 2020 (Bolt e van Zanden, 2020), via Our World in Data — owid-datasets (CC BY 4.0)",
+     "url": "https://github.com/owid/owid-datasets/tree/master/datasets/Maddison%20Project%20Database%202020%20(Bolt%20and%20van%20Zanden%20(2020))",
+     "accessed": "2026-11-06"
+    },
+    {
+     "name": "Palma, N. e Reis, J. (2019), «From Convergence to Divergence: Portuguese Economic Growth, 1527–1850», The Journal of Economic History, 79(2), 477–506",
+     "url": "https://doi.org/10.1017/S0022050719000056",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "method": [
+    "PIB por habitante em dólares internacionais de 2011 (Maddison Project Database 2020), transcrito em raw/maddison-pt/ para Portugal, Reino Unido, Países Baixos, Espanha e Itália. Para cada década calcula-se a média de cada país, só com os anos em que há valores para os dois, e divide-se a de Portugal pela do outro país (tools/prepare-2026-11-06.mjs). Médias por década para reduzir o ruído das colheitas anuais.",
+    "Antes de 1850, a série espanhola da base tem um ou dois anos por década; a comparação com Espanha nesse período assenta nesse ano. Portugal não tem valores de 1851 a 1854, 1856 a 1860 e 1862 a 1864. A série «Reino Unido» é só Inglaterra até 1700 e Grã-Bretanha até 1870. Há uma versão de 2023 da base, que não estava disponível nesta cópia.",
+    "Os níveis anteriores ao século XX são reconstruções com margens de erro grandes e dependem da conversão para preços de 2011; as comparações entre países devem ler-se como ordens de grandeza. O gráfico mostra distâncias relativas, não explica as suas causas."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-06",
+    "note": "196 rácios (49 décadas × 4 países) e 12 números do texto recalculados; fonte de Portugal (Palma e Reis, 2019) confirmada no README do Maddison 2020. Corrigidos: período em que Portugal supera Espanha, atribuição causal à industrialização e ponto de partida da comparação com Espanha."
+   }
+  },
+  {
+   "id": "reprodutibilidade-psicologia",
+   "slug": "reprodutibilidade-psicologia-100-estudos-refeitos",
+   "kind": "descoberta",
+   "theme": "comportamento",
+   "themeLabel": "Ciência do comportamento",
+   "vizType": "dispersao",
+   "vizLabel": "Dispersão · destaque por área",
+   "interactive": true,
+   "title": "Cem estudos de psicologia foram refeitos. Em média, o efeito encolheu para metade",
+   "question": "Quando se repete uma experiência de psicologia já publicada, o resultado mantém-se?",
+   "finding": "Nos 97 pares com efeito medido, a força média do efeito caiu de r = 0,40 nos artigos originais para 0,20 nas réplicas. Em 81 casos a réplica deu um efeito menor e em 17 um efeito de sinal contrário. Entre os pares do gráfico, na psicologia social só 13 de 54 réplicas foram estatisticamente significativas (24%); na cognitiva, 21 de 43 (49%).",
+   "context": "A Open Science Collaboration, uma rede de 270 investigadores, refez 100 estudos publicados em 2008 em três revistas de referência da psicologia, com amostras desenhadas para ter mais poder estatístico e, sempre que possível, os materiais originais. Os resultados saíram na revista Science em agosto de 2015: 97% dos estudos originais tinham resultados significativos; das réplicas, só 36%.",
+   "interpretation": "Uma réplica falhada não prova que o efeito original era falso: pode ser mais pequeno, depender do contexto ou a réplica ter sido diferente. Mas o padrão é sistemático. Quando se publicam sobretudo resultados positivos, os efeitos que chegam às revistas tendem a vir inflacionados, e o gráfico é coerente com isso: 81 dos 97 pontos ficam abaixo da diagonal.",
+   "chart": {
+    "type": "scatter",
+    "dataset": "reprodutibilidade-psicologia"
+   },
+   "period": "Estudos originais de 2008; réplicas de 2011 a 2015",
+   "unit": "Tamanho do efeito como coeficiente de correlação r (0 = nenhum efeito; 1 = máximo)",
+   "sources": [
+    {
+     "name": "Open Science Collaboration (2015), «Estimating the reproducibility of psychological science», Science, 349(6251), aac4716",
+     "url": "https://doi.org/10.1126/science.aac4716",
+     "accessed": "2026-11-06"
+    },
+    {
+     "name": "Center for Open Science — repositório rpp (dados rpp_data.csv do projeto OSF osf.io/ezcuj, CC0 1.0)",
+     "url": "https://github.com/CenterForOpenScience/rpp",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "method": [
+    "Tamanhos de efeito já convertidos em r pelo próprio projeto (colunas T_r..O. e T_r..R.) e indicador de réplica significativa (T_sign_R, p < 0,05), do ficheiro rpp_data.csv na versão do repositório do projeto (commit de 10/09/2015), transcrito em raw/rpp/ só com as colunas usadas. As médias (0,396 e 0,197) coincidem com a análise publicada no mesmo repositório.",
+    "Dos 100 estudos refeitos, 97 têm efeito original e da réplica em r. A percentagem de 36% de réplicas significativas é a do artigo (35 de 97 originais significativos); nos 97 pares do gráfico há 34 réplicas significativas: duas réplicas significativas (estudos 59 e 69) não têm r calculado, e um dos pares tem réplica significativa com original não significativo.",
+    "Áreas como classificadas pelo projeto (social ou cognitiva). O ficheiro no OSF pode ter correções posteriores à versão usada. A peça não avalia estudos individuais."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-06",
+    "note": "97 pontos conferidos contra o ficheiro bruto (zero diferenças); médias iguais à análise publicada; 270 autores, 97% e 36% confirmados no artigo da Science. Corrigida a explicação das 34 réplicas significativas e moderada a frase sobre o viés de publicação."
+   }
+  },
+  {
+   "id": "nascimentos-dia-semana-eua",
+   "slug": "nascimentos-por-dia-da-semana-eua-2000-2014",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade e demografia",
+   "vizType": "barras",
+   "vizLabel": "Colunas",
+   "interactive": false,
+   "title": "Nos EUA, ao domingo nascem menos 43% de bebés do que à terça-feira",
+   "question": "Os bebés nascem em qualquer dia da semana?",
+   "finding": "Entre 2000 e 2014 nasceram em média 13 122 bebés por dia às terças-feiras e 7 518 aos domingos, menos 43%. O fim de semana teve menos 37% de nascimentos do que os dias úteis. Os oito dias com menos nascimentos do período foram todos dias de Natal, e às sextas-feiras 13 nasceram menos 6,4% do que às sextas-feiras 6 e 20.",
+   "context": "Num calendário só biológico, nenhum dia da semana teria muito menos partos do que os outros. Os registos da Segurança Social dos EUA, com mais de 62 milhões de nascimentos entre 2000 e 2014, mostram outra coisa. O centro de estatísticas de saúde do país (NCHS) já assinalava em 1999 que as cesarianas repetidas e os partos induzidos se concentram nos dias úteis.",
+   "interpretation": "O que o gráfico mede é sobretudo a agenda dos hospitais: uma parte dos partos é marcada, e marca-se para dias úteis, sobretudo à terça-feira. A diferença entre fim de semana e dias úteis cresceu de 32% em 2000 para 39% em 2009 e 2010 e desceu para 36% em 2014. A sexta-feira 13 assenta em só 25 dias, e a explicação pela superstição é uma hipótese, não um resultado.",
+   "chart": {
+    "type": "columns",
+    "dataset": "nascimentos-dia-semana-eua"
+   },
+   "period": "1 de janeiro de 2000 a 31 de dezembro de 2014 (5 479 dias)",
+   "unit": "Nascimentos por dia (média por dia da semana)",
+   "sources": [
+    {
+     "name": "FiveThirtyEight — births, US_births_2000-2014_SSA.csv (dados da Social Security Administration; CC BY 4.0)",
+     "url": "https://github.com/fivethirtyeight/data/tree/master/births",
+     "accessed": "2026-11-06"
+    },
+    {
+     "name": "CDC / NCHS — «Attendant, Place and Timing, and Use of Obstetric Interventions» (nota de 1999, arquivo)",
+     "url": "https://webarchive.library.unt.edu/eot2008/20090114070815/http:/www.cdc.gov/nchs/pressroom/99facts/attendant.htm",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "method": [
+    "Nascimentos diários nos EUA segundo a Social Security Administration, no ficheiro publicado pela FiveThirtyEight, transcrito sem alterações em raw/nascimentos-eua/. Médias simples por dia da semana; a diferença de fim de semana compara a média de sábados e domingos com a média de segunda a sexta.",
+    "Sexta-feira 13: média dos 25 dias do período contra a dos 50 dias que caíram em sextas-feiras 6 ou 20, no mesmo período. Os feriados não foram retirados das médias. O ficheiro termina em 2014 e não há série equivalente para Portugal nesta fonte.",
+    "A ligação às cesarianas e induções programadas vem da nota do NCHS e não é calculada aqui: estes dados não distinguem o tipo de parto."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-06",
+    "note": "7 médias e 11 números recalculados sobre os 5 479 dias; nota do NCHS de 1999 confirmada. Corrigida a evolução da diferença de fim de semana (máximo em 2009 e 2010)."
+   }
+  },
+  {
+   "id": "homicidios-europa-1300-1984",
+   "slug": "homicidios-europa-1300-1984-longa-descida",
+   "kind": "descoberta",
+   "theme": "historia",
+   "themeLabel": "História",
+   "vizType": "linha",
+   "vizLabel": "Linhas · escala logarítmica ⇄ linear",
+   "interactive": true,
+   "title": "Na Itália do século XV, a taxa de homicídios era 56 vezes a de 1962",
+   "question": "A Europa ocidental tornou-se mais violenta ou menos violenta ao longo dos séculos?",
+   "finding": "Nas estimativas para 1300 e 1450, as taxas vão de 16 a 73 homicídios por 100 mil habitantes, conforme a região. Em 1962 estavam todas entre 0,6 e 1,3. Em Itália a taxa caiu de 73 (1450) para 1,3; em Inglaterra, de 23 (1300) para 0,7. A Escandinávia já estava abaixo de 1 em 1775.",
+   "context": "Contar homicídios antes das estatísticas oficiais exige arquivos: inquéritos a mortes, registos de tribunais e listas de crimes de cidades, cruzados com estimativas da população. O criminologista Manuel Eisner reuniu esses estudos locais para cinco regiões da Europa ocidental e calculou taxas por período, do século XIV ao XX. Portugal e Espanha não fazem parte da série.",
+   "interpretation": "A descida não foi contínua nem igual em todo o lado: os Países Baixos baixaram cedo, a Itália só no século XIX, e houve recuos, como o italiano entre 1775 (9) e 1812 (18). Eisner relaciona a tendência com Estados mais fortes, tribunais e normas de autocontrolo, explicações que continuam em debate. Os valores mais antigos assentam em poucas cidades e têm margens de erro grandes.",
+   "chart": {
+    "type": "lines",
+    "dataset": "homicidios-europa-1300-1984"
+   },
+   "period": "1300–1984 (estimativas por período, no ponto médio)",
+   "unit": "Homicídios por 100 mil habitantes por ano",
+   "sources": [
+    {
+     "name": "Eisner, M. (2003), «Long-Term Historical Trends in Violent Crime», Crime and Justice, 30, 83–142 (quadro 1)",
+     "url": "https://www.jstor.org/stable/1147697",
+     "accessed": "2026-11-06"
+    },
+    {
+     "name": "Our World in Data — owid-datasets, Homicide rates in Europe over long-term (Eisner & IHME) (CC BY 4.0)",
+     "url": "https://github.com/owid/owid-datasets/tree/master/datasets/Homicide%20rates%20in%20Europe%20over%20long-term%20(Eisner%20%26%20IHME)",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "method": [
+    "Taxas do quadro 1 de Eisner (2003), na compilação da Our World in Data, que coloca cada estimativa no ponto médio do período (por exemplo, 1300 para o século XIV). Transcritas em raw/homicidios-europa/ só as 71 observações de Eisner, até 1984. As linhas ligam estimativas existentes; não há valores intermédios.",
+    "Os valores de 1990 em diante do mesmo conjunto vêm do IHME (Global Burden of Disease), com outra definição e licença não comercial, e foram excluídos. Regiões agrupadas como na fonte: Alemanha e Suíça; Países Baixos e Bélgica; Escandinávia.",
+    "Escala logarítmica por omissão, porque os valores vão de 0,6 a 73; há uma vista em escala linear. As estimativas medievais assentam em poucas fontes locais e não representam necessariamente todo o território."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-06",
+    "note": "71 observações conferidas com a compilação da OWID e 12 números recalculados; o quadro de Eisner não foi consultado diretamente. Corrigido o intervalo das estimativas medievais (16 a 73)."
+   }
+  }
+ ],
+ "chave": {
+  "id": "armadilha-de-tucidides",
+  "axis": "geopolitica",
+  "axisLabel": "Geopolítica e história",
+  "certainty": "Tese debatida",
+  "title": "A armadilha de Tucídides",
+  "concept": "A tese de que, quando uma potência em ascensão ameaça ultrapassar a potência dominante, o medo de uma e a ambição da outra tornam a guerra muito provável.",
+  "lesson": [
+   "No fim do século V a.C., o historiador ateniense Tucídides resumiu numa frase a guerra que arrasou a Grécia durante 27 anos: o crescimento do poder de Atenas e o medo que isso causou em Esparta tornaram a guerra inevitável. Em 2012, o politólogo Graham Allison, de Harvard, chamou a isto «armadilha de Tucídides» e aplicou a ideia à rivalidade entre os Estados Unidos e a China.",
+   "O mecanismo lembra dois vizinhos numa escada estreita: quem sobe depressa quer espaço, quem está em cima teme ser empurrado. Cada um lê as precauções do outro como ameaça, e um incidente menor pode arrastar os dois. A equipa de Allison reuniu 16 casos dos últimos 500 anos em que uma potência ameaçou ultrapassar outra; em 12, houve guerra.",
+   "A conta é contestada. Os críticos dizem que os casos foram escolhidos de forma a confirmar a tese e que alguns estão mal descritos: Joseph Nye lembra que a Primeira Guerra Mundial nasceu também do medo alemão perante a Rússia em ascensão. E «inevitável» é uma tradução generosa do grego. O próprio Allison usa os quatro casos sem guerra para defender que a armadilha se pode evitar."
+  ],
+  "diagram": {
+   "title": "Quando as trajetórias se cruzam",
+   "svg": "<svg viewBox=\"0 0 340 262\" role=\"img\" aria-label=\"Esquema: duas linhas de poder relativo ao longo do tempo. A potência dominante desce ligeiramente; a potência em ascensão sobe e cruza-a. A zona à volta do cruzamento está assinalada como zona de perigo. Em baixo, dezasseis quadrados representam os casos da lista de Graham Allison: doze preenchidos, com guerra, e quatro vazios, sem guerra.\"> <text x=\"0\" y=\"14\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" letter-spacing=\"1\">PODER RELATIVO ↑</text> <text x=\"326\" y=\"178\" text-anchor=\"end\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" letter-spacing=\"1\">TEMPO →</text> <rect x=\"142\" y=\"28\" width=\"92\" height=\"138\" rx=\"4\" fill=\"rgba(200,144,42,.16)\"/> <text x=\"188\" y=\"42\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">zona de perigo</text> <line x1=\"14\" y1=\"166\" x2=\"326\" y2=\"166\" stroke=\"var(--key-rule)\" stroke-width=\"1\"/> <path d=\"M20 80 L320 110\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"2.4\"/> <path d=\"M20 160 Q 170 120 320 48\" fill=\"none\" stroke=\"var(--key-acc)\" stroke-width=\"2.8\"/> <text x=\"20\" y=\"70\" fill=\"var(--key-ink-2)\" font-size=\"11\">potência dominante</text> <text x=\"20\" y=\"183\" fill=\"var(--key-acc)\" font-size=\"11\" font-weight=\"600\">potência em ascensão</text> <text x=\"318\" y=\"126\" text-anchor=\"end\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">medo</text> <text x=\"318\" y=\"40\" text-anchor=\"end\" fill=\"var(--key-acc)\" font-size=\"10.5\">ambição</text> <g fill=\"var(--key-acc)\"><rect x=\"20\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"39\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"58\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"77\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"96\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"115\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"134\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"153\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"172\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"191\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"210\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"229\" y=\"194\" width=\"14\" height=\"14\" rx=\"2\"/></g> <g fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"><rect x=\"248.75\" y=\"194.75\" width=\"12.5\" height=\"12.5\" rx=\"2\"/><rect x=\"267.75\" y=\"194.75\" width=\"12.5\" height=\"12.5\" rx=\"2\"/><rect x=\"286.75\" y=\"194.75\" width=\"12.5\" height=\"12.5\" rx=\"2\"/><rect x=\"305.75\" y=\"194.75\" width=\"12.5\" height=\"12.5\" rx=\"2\"/></g> <text x=\"20\" y=\"226\" fill=\"var(--key-acc)\" font-size=\"11\" font-weight=\"600\">12 casos com guerra</text> <text x=\"318\" y=\"226\" text-anchor=\"end\" fill=\"var(--key-ink-2)\" font-size=\"11\">4 sem guerra</text> <text x=\"170\" y=\"250\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">16 rivalidades em 500 anos, na contagem de Allison</text> </svg>",
+   "caption": "Esquema ilustrativo: as trajetórias não são dados reais. A contagem de 16 casos e 12 guerras é a do projeto de Graham Allison no Belfer Center (Universidade de Harvard) e é contestada por outros investigadores."
+  },
+  "aside": "O primeiro caso da lista de Allison é ibérico. No fim do século XV, Portugal dominava o comércio marítimo e uma Espanha recém-unida disputava-lhe as rotas e as terras a descobrir. A guerra foi evitada com a mediação do papa e com o Tratado de Tordesilhas, de 1494, que repartiu esse mundo entre os dois reinos por um meridiano no Atlântico.",
+  "application": "Nas leituras da rivalidade entre os Estados Unidos e a China, das disputas no estreito de Taiwan e no mar do Sul da China e da corrida aos semicondutores. O conceito ajuda a perceber porque é que gestos defensivos são lidos como agressivos, mas não prevê o desfecho: descreve um risco estrutural, que a diplomacia e os acordos podem conter.",
+  "motto": "Uma rivalidade entre potências é um risco, não um destino.",
+  "sources": [
+   {
+    "name": "Belfer Center for Science and International Affairs (Universidade de Harvard) — Thucydides's Trap Case File",
+    "url": "https://www.belfercenter.org/thucydides-trap/case-file",
+    "accessed": "2026-11-06"
+   },
+   {
+    "name": "Tucídides, História da Guerra do Peloponeso, I.23.6, tradução inglesa de Richard Crawley (domínio público), edição Perseids",
+    "url": "https://fgh.perseids.org/read/greekLit/tlg0003/tlg001/perseus-eng6/1.23.1-1.23.6",
+    "accessed": "2026-11-06"
+   },
+   {
+    "name": "The Strategist (ASPI) — «The Thucydides Trap … or a trap for young players» (sobre a tradução de «inevitável»)",
+    "url": "https://www.aspistrategist.org.au/the-thucydides-trap-or-a-trap-for-young-players/",
+    "accessed": "2026-11-06"
+   },
+   {
+    "name": "Nye, J. S. — «Inevitability and War» (Harvard Kennedy School), sobre a Primeira Guerra Mundial e a Rússia",
+    "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037d-1fe0-6bd4-e053-0100007fdf3b/content",
+    "accessed": "2026-11-06"
+   },
+   {
+    "name": "Wikipedia — Thucydides Trap (origem do termo em 2012 e resumo das críticas)",
+    "url": "https://en.wikipedia.org/wiki/Thucydides_Trap",
+    "accessed": "2026-11-06"
+   }
+  ],
+  "notes": [
+   "O esquema é ilustrativo; só a contagem de casos (16, dos quais 12 com guerra) vem da fonte, e é a do Belfer Center.",
+   "Grau de certeza: a frase de Tucídides é um facto textual e a contagem de Allison está publicada, mas a conclusão de que as transições de poder tendem para a guerra é uma tese debatida, contestada pela seleção dos casos e pela leitura de vários deles.",
+   "A Guerra do Peloponeso durou de 431 a 404 a.C. A tradução «inevitável» é a de Richard Crawley (1874); outras traduções falam de uma guerra «forçada» ou «tornada necessária»."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-06",
+   "note": "10 factos conferidos (Crawley, Allison 2012, 16 casos e 12 guerras, caso Portugal–Espanha e Tordesilhas, crítica de Nye, datas da guerra); regras do esquema cumpridas. Corrigida a sobreposição do rótulo no esquema."
+  }
+ }
+}

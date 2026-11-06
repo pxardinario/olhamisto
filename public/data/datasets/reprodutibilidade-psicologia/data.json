@@ -1,0 +1,879 @@
+{
+ "rows": [
+  {
+   "label": "Estudo 1: A Roelofs (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.595,
+   "y": 0.148,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 2: AL Morris, ML Still (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.611,
+   "y": 0.23,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 3: B Liefooghe, P Barrouillet, A Vandierendonck, V Camos (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.425,
+   "y": -0.215,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 4: BC Storm, EL Bjork, RA Bjork (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.229,
+   "y": -0.006,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 5: C Mitchell, S Nash, G Hall (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.461,
+   "y": 0.135,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 6: CJ Berry, DR Shanks, RN Henson (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.595,
+   "y": 0.396,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 7: CP Beaman, I Neath, AM Surprenant (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.715,
+   "y": 0.131,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 8: CS Dodson, J Darragh, A Williams (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.561,
+   "y": -0.111,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 10: D Ganor-Stern, J Tzelgov (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.699,
+   "y": 0.781,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 11: D Mirman, JS Magnuson (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.672,
+   "y": 0.466,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 12: JE Marsh, F Vachon, DM Jones (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.178,
+   "y": 0.083,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 13: JI Campbell, ND Robert (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.525,
+   "y": 0.525,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 15: JR Schmidt, D Besner (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.195,
+   "y": 0.247,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 17: K Fiedler (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.305,
+   "y": 0.435,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 19: K Oberauer (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.56,
+   "y": 0.402,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 20: L Sahakyan, PF Delaney, ER Waldum (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.224,
+   "y": 0.019,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 22: LS Colzato, MT Bajo, W van den Wildenberg, D Paolieri, S Nieuwenhuis, W La Heij, B Hommel (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.219,
+   "y": 0.065,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 24: M Bassok, SF Pedigo, AT Oskarsson (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.364,
+   "y": 0.284,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 25: M Couture, D Lafond, S Tremblay (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.348,
+   "y": 0.273,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 26: M Reynolds, D Besner (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.161,
+   "y": 0.144,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 27: MJ Yap, DA Balota, CS Tse, D Besner (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.378,
+   "y": 0.38,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 28: N Janssen, W Schirm, BZ Mahon, A Caramazza (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.342,
+   "y": 0.103,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 29: NB Turk-Browne, PJ Isola, BJ Scholl, TA Treat (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.738,
+   "y": 0.704,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 32: PA White (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.623,
+   "y": 0.481,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 33: S Farrell (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.517,
+   "y": 0.316,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 36: S Pacton, P Perruchet (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.714,
+   "y": 0.682,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 37: T Makovski, R Sussman, YV Jiang (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.551,
+   "y": 0.35,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 39: TJ Pleskac (2008)",
+   "sub": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+   "x": 0.367,
+   "y": 0.102,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 43: B Monin, PJ Sawyer, MJ Marquez (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.347,
+   "y": 0.161,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 44: BK Payne, MA Burkley, MB Stokes (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.352,
+   "y": 0.15,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 46: CJ Soto, OP John, SD Gosling, J Potter (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.023,
+   "y": 0.024,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 48: CR Cox, J Arndt, T Pyszczynski, J Greenberg, A Abdollahi, S Solomon (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.225,
+   "y": -0.052,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 49: D AlbarracÕn, IM Handley, K Noguchi, KC McCulloch, H Li, J Leeper, RD Brown, A Earl, WP Hart (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.378,
+   "y": -0.03,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 50: D AlbarracÕn, IM Handley, K Noguchi, KC McCulloch, H Li, J Leeper, RD Brown, A Earl, WP Hart (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.208,
+   "y": 0.155,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 52: DB Centerbar, S Schnall, GL Clore, ED Garvin (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.206,
+   "y": 0.094,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 53: DM Amodio, PG Devine, E Harmon-Jones (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.377,
+   "y": 0.077,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 55: E Harmon-Jones, C Harmon-Jones, M Fearn, JD Sigelman, P Johnson (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.23,
+   "y": 0.066,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 56: E van Dijk, GA van Kleef, W Steinel, I van Beest (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.379,
+   "y": -0.042,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 58: EP Lemay, MS Clark (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.167,
+   "y": 0.037,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 61: H Ersner-Hershfield, JA Mikels, SJ Sullivan, LL Carstensen (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.22,
+   "y": -0.005,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 63: J Correll (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.274,
+   "y": 0.074,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 64: J F_rster, N Liberman, S Kuschel (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.425,
+   "y": 0.114,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 65: JJ Exline, RF Baumeister, AL Zell, AJ Kraft, CV Witvliet (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.432,
+   "y": 0.012,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 68: JL Risen, T Gilovich (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.186,
+   "y": 0.003,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 71: KE Stanovich, RF West (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.222,
+   "y": 0.073,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 72: KL Blankenship, DT Wegener (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.208,
+   "y": 0.044,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 73: KR Morrison, DT Miller (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.323,
+   "y": 0.2,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 80: MD Henderson, Y de Liver, PM Gollwitzer (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.26,
+   "y": 0.155,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 81: N Shnabel, A Nadler (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.268,
+   "y": -0.102,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 82: NO Rule, N Ambady (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.3,
+   "y": 0.27,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 84: P Fischer, S Schulz-Hardt, D Frey (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.503,
+   "y": 0.218,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 86: P Fischer, T Greitemeyer, D Frey (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.212,
+   "y": 0.119,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 87: PA Goff, CM Steele, PG Davies (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.396,
+   "y": 0.013,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 89: PW Eastwick, EJ Finkel (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.14,
+   "y": 0.029,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 93: SL Murray, JL Derrick, S Leder, JG Holmes (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.317,
+   "y": -0.135,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 94: SM McCrea (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.344,
+   "y": 0.29,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 97: V Purdie-Vaughns, CM Steele, PG Davies, R Ditlmann, JR Crosby (2008)",
+   "sub": "Journal of Personality and Social Psychology",
+   "x": 0.378,
+   "y": -0.037,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 104: AL Alter, DM Oppenheimer (2008)",
+   "sub": "Psychological Science",
+   "x": 0.127,
+   "y": 0.018,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 106: B Dessalegn, B Landau (2008)",
+   "sub": "Psychological Science",
+   "x": 0.382,
+   "y": -0.223,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 107: B Eitam, RR Hassin, Y Schul (2008)",
+   "sub": "Psychological Science",
+   "x": 0.222,
+   "y": 0.105,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 110: C Farris, TA Treat, RJ Viken, RM McFall (2008)",
+   "sub": "Psychological Science",
+   "x": 0.554,
+   "y": 0.091,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 111: C Janiszewski, D Uy (2008)",
+   "sub": "Psychological Science",
+   "x": 0.333,
+   "y": 0.226,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 112: C McKinstry, R Dale, MJ Spivey (2008)",
+   "sub": "Psychological Science",
+   "x": 0.701,
+   "y": 0.75,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 113: DA Armor, C Massey, AM Sackett (2008)",
+   "sub": "Psychological Science",
+   "x": 0.681,
+   "y": 0.764,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 114: DR Addis, AT Wong, DL Schacter (2008)",
+   "sub": "Psychological Science",
+   "x": 0.571,
+   "y": 0.653,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 115: E Nurmsoo, P Bloom (2008)",
+   "sub": "Psychological Science",
+   "x": 0.502,
+   "y": -0.45,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 116: E Vul, H Pashler (2008)",
+   "sub": "Psychological Science",
+   "x": 0.288,
+   "y": 0.323,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 117: E Vul, M Nieuwenstein, N Kanwisher (2008)",
+   "sub": "Psychological Science",
+   "x": 0.131,
+   "y": 0.121,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 118: EJ Masicampo, RF Baumeister (2008)",
+   "sub": "Psychological Science",
+   "x": 0.214,
+   "y": -0.049,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 120: G Hajcak, D Foti (2008)",
+   "sub": "Psychological Science",
+   "x": 0.38,
+   "y": 0.25,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 121: G Tabibnia, AB Satpute, MD Lieberman (2008)",
+   "sub": "Psychological Science",
+   "x": 0.852,
+   "y": 0.829,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 122: GA Alvarez, A Oliva (2008)",
+   "sub": "Psychological Science",
+   "x": 0.722,
+   "y": 0.923,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 124: GP Lau, AC Kay, SJ Spencer (2008)",
+   "sub": "Psychological Science",
+   "x": 0.384,
+   "y": -0.034,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 127: J Winawer, AC Huk, L Boroditsky (2008)",
+   "sub": "Psychological Science",
+   "x": 0.685,
+   "y": 0.527,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 129: JA Richeson, S Trawalter (2008)",
+   "sub": "Psychological Science",
+   "x": 0.372,
+   "y": 0.018,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 132: JR Crosby, B Monin, D Richardson (2008)",
+   "sub": "Psychological Science",
+   "x": 0.247,
+   "y": 0.179,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 133: JS Nairne, JN Pandeirada, SR Thompson (2008)",
+   "sub": "Psychological Science",
+   "x": 0.446,
+   "y": 0.423,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 134: JT Larsen, AR McKibban (2008)",
+   "sub": "Psychological Science",
+   "x": 0.21,
+   "y": 0.5,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 135: KA Ranganath, BA Nosek (2008)",
+   "sub": "Psychological Science",
+   "x": 0.005,
+   "y": 0.106,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 136: KD Vohs, JW Schooler (2008)",
+   "sub": "Psychological Science",
+   "x": 0.498,
+   "y": 0.102,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 139: L Demany, W Trost, M Serman, C Semal (2008)",
+   "sub": "Psychological Science",
+   "x": 0.496,
+   "y": 0.505,
+   "group": "sig",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 140: LE Williams, JA Bargh (2008)",
+   "sub": "Psychological Science",
+   "x": 0.234,
+   "y": 0.044,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 142: M Tamir, C Mitchell, JJ Gross (2008)",
+   "sub": "Psychological Science",
+   "x": 0.593,
+   "y": 0.61,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 143: N Epley, S Akalis, A Waytz, JT Cacioppo (2008)",
+   "sub": "Psychological Science",
+   "x": 0.173,
+   "y": 0.062,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 145: N Halevy, G Bornstein, L Sagiv (2008)",
+   "sub": "Psychological Science",
+   "x": 0.769,
+   "y": 0.653,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 146: N Janssen, FX Alario, A Caramazza (2008)",
+   "sub": "Psychological Science",
+   "x": 0.65,
+   "y": 0.497,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 148: P Bressan, D Stranieri (2008)",
+   "sub": "Psychological Science",
+   "x": 0.189,
+   "y": -0.03,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 149: P Bressan, D Stranieri (2008)",
+   "sub": "Psychological Science",
+   "x": 0.189,
+   "y": 0.018,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 150: S Forti, GW Humphreys (2008)",
+   "sub": "Psychological Science",
+   "x": 0.723,
+   "y": 0.208,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 151: S Schnall, J Benton, S Harvey (2008)",
+   "sub": "Psychological Science",
+   "x": 0.4,
+   "y": 0.003,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 153: SE Palmer, T Ghose (2008)",
+   "sub": "Psychological Science",
+   "x": 0.86,
+   "y": 0.12,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 154: SJ Heine, EE Buchtel, A Norenzayan (2008)",
+   "sub": "Psychological Science",
+   "x": 0.43,
+   "y": 0.11,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 155: SK Moeller, MD Robinson, DL Zabelina (2008)",
+   "sub": "Psychological Science",
+   "x": 0.31,
+   "y": -0.034,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 158: T Goschke, G Dreisbach (2008)",
+   "sub": "Psychological Science",
+   "x": 0.375,
+   "y": 0.411,
+   "group": "sig",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 161: V Lobue, JS DeLoache (2008)",
+   "sub": "Psychological Science",
+   "x": 0.483,
+   "y": 0.178,
+   "group": "ns",
+   "area": "cognitiva"
+  },
+  {
+   "label": "Estudo 165: X Dai, K Wertenbroch, CM Brendl (2008)",
+   "sub": "Psychological Science",
+   "x": 0.284,
+   "y": -0.175,
+   "group": "ns",
+   "area": "social"
+  },
+  {
+   "label": "Estudo 167: Z Estes, M Verges, LW Barsalou (2008)",
+   "sub": "Psychological Science",
+   "x": 0.595,
+   "y": 0.254,
+   "group": "ns",
+   "area": "cognitiva"
+  }
+ ],
+ "config": {
+  "x": {
+   "label": "Efeito no estudo original (r)",
+   "short": "Efeito original (r)",
+   "tipLabel": "Efeito original (r)",
+   "min": 0,
+   "max": 1,
+   "ticks": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1
+   ],
+   "decimals": 1
+  },
+  "y": {
+   "label": "Efeito na réplica (r)",
+   "short": "Efeito na réplica (r)",
+   "tipLabel": "Efeito na réplica (r)",
+   "min": -0.5,
+   "max": 1,
+   "ticks": [
+    -0.4,
+    -0.2,
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1
+   ],
+   "decimals": 1
+  },
+  "groups": [
+   {
+    "key": "sig",
+    "label": "Réplica estatisticamente significativa (p < 0,05)",
+    "color": "--accent-2"
+   },
+   {
+    "key": "ns",
+    "label": "Réplica não significativa",
+    "color": "--ink-3",
+    "shape": "ring"
+   }
+  ],
+  "diagonal": {
+   "label": "Réplica igual ao original",
+   "text": "réplica = original",
+   "short": "igual ao original"
+  },
+  "zeroLines": true,
+  "facets": {
+   "key": "area",
+   "label": "Área",
+   "options": [
+    [
+     "all",
+     "Todos"
+    ],
+    [
+     "social",
+     "Psicologia social"
+    ],
+    [
+     "cognitiva",
+     "Psicologia cognitiva"
+    ]
+   ]
+  },
+  "howToRead": "Cada ponto é um estudo publicado em 2008 e refeito por outra equipa. Na horizontal, a força do efeito no artigo original; na vertical, na réplica. Os pontos sobre a linha tracejada repetiram o efeito tal e qual; abaixo dela, o efeito encolheu; abaixo do zero, inverteu-se."
+ },
+ "summary": {
+  "n": 97,
+  "meanO": 0.396,
+  "meanR": 0.197,
+  "smaller": 81,
+  "neg": 17,
+  "sigO": 94,
+  "sigR": 34,
+  "social": {
+   "n": 54,
+   "sig": 13,
+   "mean": [
+    0.33,
+    0.13
+   ]
+  },
+  "cognitive": {
+   "n": 43,
+   "sig": 21,
+   "mean": [
+    0.49,
+    0.28
+   ]
+  }
+ }
+}
