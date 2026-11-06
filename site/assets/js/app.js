@@ -87,13 +87,85 @@ async function saveFile(filename, data, mime) {
   }
   toast("Exportação indisponível neste visualizador");
 }
-async function exportPNG(svg, filename, title) {
+// PNG completo: título da peça, título e período do gráfico, gráfico, legenda, «como ler», fonte e assinatura.
+// O SVG do gráfico é rasterizado e o resto é desenhado no canvas com as fontes do site.
+function wrapLines(ctx, text, maxW) {
+  const out = []; let line = "";
+  for (const w of String(text || "").split(/\s+/).filter(Boolean)) {
+    const t = line ? line + " " + w : w;
+    if (ctx.measureText(t).width > maxW && line) { out.push(line); line = w; } else line = t;
+  }
+  if (line) out.push(line);
+  return out;
+}
+function figureMeta(fig) {
+  if (!fig) return {};
+  const txt = (sel) => fig.querySelector(sel)?.textContent.trim() || "";
+  const legend = [...fig.querySelectorAll(".fig-legend .legend li")].map((li) => {
+    const i = li.querySelector("i"), cs = i ? getComputedStyle(i) : null;
+    return { label: li.textContent.trim(), color: cs ? (cs.backgroundColor !== "rgba(0, 0, 0, 0)" ? cs.backgroundColor : cs.borderTopColor) : "#888",
+      line: i?.classList.contains("line"), dot: i?.classList.contains("dot"), ring: cs && cs.backgroundColor === "rgba(0, 0, 0, 0)", opacity: cs ? +cs.opacity : 1 };
+  });
+  const src = fig.querySelector(".fig-foot > span:first-child")?.cloneNode(true);
+  src?.querySelectorAll(".badge").forEach((b) => b.remove());
+  return { figTitle: txt(".fig-title"), sub: txt(".fig-sub"), howTo: txt(".fig-legend .how-to-read"), legend,
+    source: (src?.textContent || "").replace(/\s*·\s*$/, "").replace(/\s+/g, " ").trim(), verified: !!fig.querySelector(".badge.ok") };
+}
+async function exportPNG(svg, filename, title, fig) {
   const s = svgString(svg, title); const vb = svg.viewBox.baseVal; const k = 2;
   const img = new Image(); img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(s);
   await img.decode();
-  const cv = document.createElement("canvas"); cv.width = vb.width * k; cv.height = vb.height * k;
-  cv.getContext("2d").drawImage(img, 0, 0, cv.width, cv.height);
-  const blob = await new Promise((r) => cv.toBlob(r, "image/png"));
+  try { await Promise.all(["600 15px 'IBM Plex Sans'", "400 12px 'IBM Plex Sans'", "700 22px Fraunces"].map((f) => document.fonts.load(f))); } catch { /* usa as fontes de recurso */ }
+  const m = figureMeta(fig), cs = getComputedStyle(document.documentElement), v = (n) => cs.getPropertyValue(n).trim();
+  const SANS = "'IBM Plex Sans', 'Segoe UI', system-ui, sans-serif", SERIF = "Fraunces, Georgia, serif";
+  const pad = 28, W = Math.round(vb.width) + pad * 2, inner = W - pad * 2;
+  const probe = document.createElement("canvas").getContext("2d");
+  // 1) medir
+  probe.font = `700 22px ${SERIF}`; const head = wrapLines(probe, title, inner);
+  probe.font = `600 14px ${SANS}`; const ft = m.figTitle ? wrapLines(probe, m.figTitle, inner) : [];
+  probe.font = `400 12px ${SANS}`; const sub = m.sub ? wrapLines(probe, m.sub, inner) : [];
+  const how = m.howTo ? wrapLines(probe, m.howTo, inner) : [];
+  probe.font = `400 12.5px ${SANS}`;
+  const legRows = []; let row = [], x = 0;
+  for (const it of m.legend || []) { const w = 22 + probe.measureText(it.label).width + 18; if (x + w > inner && row.length) { legRows.push(row); row = []; x = 0; } row.push({ ...it, x }); x += w; }
+  if (row.length) legRows.push(row);
+  probe.font = `400 11.5px ${SANS}`; const src = m.source ? wrapLines(probe, m.source, inner) : [];
+  const H = pad + head.length * 28 + 10 + ft.length * 19 + sub.length * 17 + 10 + vb.height + 10 + legRows.length * 22 + how.length * 17 + 6 + 8 + src.length * 16 + 30 + pad + 40; // margem; recorta-se no fim
+  // 2) desenhar
+  const cv = document.createElement("canvas"); cv.width = W * k; cv.height = Math.ceil(H) * k;
+  const g = cv.getContext("2d"); g.scale(k, k); g.textBaseline = "alphabetic";
+  g.fillStyle = v("--card") || "#fbf9f4"; g.fillRect(0, 0, W, H);
+  let y = pad;
+  g.fillStyle = v("--ink"); g.font = `700 22px ${SERIF}`; for (const l of head) { y += 24; g.fillText(l, pad, y); y += 4; }
+  y += 10;
+  g.font = `600 14px ${SANS}`; for (const l of ft) { y += 16; g.fillText(l, pad, y); y += 3; }
+  g.fillStyle = v("--ink-3"); g.font = `400 12px ${SANS}`; for (const l of sub) { y += 14; g.fillText(l, pad, y); y += 3; }
+  y += 10;
+  g.drawImage(img, pad, y, vb.width, vb.height); y += vb.height + 10;
+  g.font = `400 12.5px ${SANS}`;
+  for (const r of legRows) {
+    y += 16;
+    for (const it of r) {
+      const sx = pad + it.x; g.globalAlpha = it.opacity || 1;
+      if (it.line) { g.fillStyle = it.color; g.fillRect(sx, y - 6, 18, 3); }
+      else if (it.ring) { g.strokeStyle = it.color; g.lineWidth = 2; g.beginPath(); g.arc(sx + 6, y - 5, 5, 0, Math.PI * 2); g.stroke(); }
+      else if (it.dot) { g.fillStyle = it.color; g.beginPath(); g.arc(sx + 6, y - 5, 6, 0, Math.PI * 2); g.fill(); }
+      else { g.fillStyle = it.color; g.fillRect(sx, y - 11, 12, 12); }
+      g.globalAlpha = 1; g.fillStyle = v("--ink-2"); g.fillText(it.label, sx + 22, y);
+    }
+    y += 6;
+  }
+  g.fillStyle = v("--ink-2"); g.font = `400 12px ${SANS}`; for (const l of how) { y += 14; g.fillText(l, pad, y); y += 3; }
+  if (how.length) y += 6;
+  y += 8; g.fillStyle = v("--ink-3"); g.font = `400 11.5px ${SANS}`; for (const l of src) { y += 13; g.fillText(l, pad, y); y += 3; }
+  y += 12; g.strokeStyle = v("--rule"); g.lineWidth = 1; g.beginPath(); g.moveTo(pad, y); g.lineTo(W - pad, y); g.stroke();
+  y += 18; g.fillStyle = v("--ink"); g.font = `700 13px ${SERIF}`; g.fillText("Olhamisto", pad, y);
+  const brandW = g.measureText("Olhamisto").width;
+  g.fillStyle = v("--ink-3"); g.font = `400 11.5px ${SANS}`; g.fillText(" · olhamisto.com", pad + brandW, y);
+  g.textAlign = "right"; g.fillText(m.verified ? "Feito por IA · verificado" : "Feito por IA", W - pad, y); g.textAlign = "left";
+  const Hf = Math.ceil(y + pad - 8), out = document.createElement("canvas"); out.width = W * k; out.height = Hf * k;
+  out.getContext("2d").drawImage(cv, 0, 0, W * k, Hf * k, 0, 0, W * k, Hf * k);
+  const blob = await new Promise((r) => out.toBlob(r, "image/png"));
   await saveFile(filename, blob, "image/png");
 }
 
@@ -114,7 +186,7 @@ function pieceHTML(p, i, edition, opts = {}) {
       <div class="chart" data-chart="${p.chart.type}"></div>
       <div class="fig-legend"></div>
       <figcaption class="fig-foot">
-        <span>Fonte: ${[...new Set(p.sources.filter((s) => !/secundária|geometrias/.test(s.name)).map((s) => s.name.split(" — ")[0].split(",")[0].replace(/ \(.*$/, "")))].map(esc).join("; ")} · ${badge}</span>
+        <span>Fonte: ${[...new Set(p.sources.filter((s) => !/secundária|geometrias|cópia/.test(s.name)).map((s) => s.name.split(" — ")[0].split(",")[0].replace(/ \(.*$/, "")))].map(esc).join("; ")} · ${badge}</span>
         <span class="fig-actions">
           <button class="icon-btn" data-act="zoom" type="button">Ampliar</button>
           <button class="icon-btn" data-act="png" type="button">PNG</button>
@@ -170,9 +242,9 @@ async function mountPiece(article, p, edition, ctx = {}) {
       try { if (navigator.share) { await navigator.share({ title: p.title, text: `${p.title} — ${SITE}`, url }); return; } } catch { return; }
       try { await navigator.clipboard.writeText(url); toast("Ligação copiada"); } catch { toast(url); }
     } else if (act === "zoom") openModal(p, edition);
-    else if (act === "png") exportPNG(svgOf(), `ronda-${edition}-${p.id}.png`, p.title).catch(() => toast("Não foi possível gerar o PNG"));
-    else if (act === "svg") saveFile(`ronda-${edition}-${p.id}.svg`, svgString(svgOf(), p.title), "image/svg+xml");
-    else if (act === "csv") saveFile(`ronda-${edition}-${p.id}.csv`, toCSV(p.chart.type, data), "text/csv");
+    else if (act === "png") exportPNG(svgOf(), `olhamisto-${edition}-${p.id}.png`, p.title, article.querySelector(".figure")).catch(() => toast("Não foi possível gerar o PNG"));
+    else if (act === "svg") saveFile(`olhamisto-${edition}-${p.id}.svg`, svgString(svgOf(), p.title), "image/svg+xml");
+    else if (act === "csv") saveFile(`olhamisto-${edition}-${p.id}.csv`, toCSV(p.chart.type, data), "text/csv");
     else if (act === "fav") { const on = toggleFav(p.id); b.setAttribute("aria-pressed", String(on)); b.textContent = on ? "★ Guardado" : "☆ Guardar"; toast(on ? "Guardado nos favoritos" : "Removido dos favoritos"); }
     else if (act === "up" || act === "down") {
       const res = await vote(p, edition, act);
