@@ -7,6 +7,7 @@
 ## Cada execução
 1. Data em Europe/Lisbon; termina se for fim de semana ou se a edição do dia já existir.
 2. O repositório pxardinario/olhamisto vem ligado à tarefa agendada «Olhamisto diário v2» (criada no modo de código, com credenciais de escrita). Usa a cópia da sessão, `git checkout main && git pull --ff-only`, `npm install`.
+2b. `node tools/net-check.mjs`: testa o acesso às fontes oficiais (ambiente «Olhamisto», com domínios autorizados; ver docs/fontes.md).
 3. Lê `AGENTS.md`, `docs/` (incluindo `docs/fontes.md` e `docs/chave-do-dia.md`), `site/data/index.json`, `site/data/corrections.json`, `editorial/candidatas.json` e `editorial/chaves.json`.
 4. Pesquisa, seleção, dados (`raw/`), `tools/prepare-AAAA-MM-DD.mjs`, edição em `site/data/editions/AAAA-MM-DD.json`, incluindo «A Chave do Dia» (campo `chave`).
 5. `build-index` → `validate` (OK) → verificação independente por subagente → correções.

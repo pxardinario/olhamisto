@@ -4,9 +4,24 @@ Para que serve: poupar tempo em becos sem saída. Antes de escolher uma candidat
 
 ## Como o ambiente chega à web
 
-- **Linha de comandos (curl, git):** só chega ao GitHub (incluindo `raw.githubusercontent.com`) e aos registos de pacotes (npm, PyPI). Testado em 2026-11-05: `ec.europa.eu` e `www.ine.pt` não respondem pela linha de comandos.
+- **Desde 2026-11-09, a tarefa diária corre no ambiente «Olhamisto»**, com acesso de rede próprio pela linha de comandos a: `*.ine.pt`, `*.pordata.pt`, `*.europa.eu` (Eurostat, BCE), `*.bportugal.pt`, `*.oecd.org`, `*.worldbank.org`, `fred.stlouisfed.org`, `*.ourworldindata.org`, `*.un.org`, `dados.gov.pt`, `zenodo.org`, `osf.io`, além do GitHub e dos registos de pacotes. Para acrescentar um domínio, é o Pedro que o faz nas definições do ambiente (não se contorna por outras vias).
+- **Teste obrigatório no início de cada execução:** `node tools/net-check.mjs`. Se uma fonte falhar, usa as alternativas abaixo e regista em `limitations` as candidatas afetadas. Depois do primeiro teste com sucesso, atualiza esta secção com a data e os resultados (e corrige os endereços de API que não funcionarem).
+- **Ordem de preferência para dados:** (1) API ou ficheiro oficial descarregado com `curl` para `raw/<peça>/` (série completa, sem transcrição manual); (2) cópia no GitHub da mesma série (citar a fonte primária); (3) transcrição de uma página por WebFetch, só para poucos valores e com verificação reforçada.
+- **Linha de comandos no ambiente antigo (até 2026-11-06):** só chegava ao GitHub e aos registos de pacotes.
 - **WebFetch:** chega à web em geral, mas só abre URLs que tenham aparecido antes num resultado de WebSearch. Converte a página em texto: tabelas HTML funcionam; gráficos em imagem, mapas e PDFs pesados quase nunca.
 - **Consequência prática:** dados que existam como CSV no GitHub são os mais fiáveis de obter, porque se descarregam completos e sem transcrição manual. Prefere-os quando a fonte original for a mesma.
+
+## APIs oficiais (a confirmar no primeiro teste; ajustar se falharem)
+
+| Fonte | Padrão de endereço | Notas |
+|---|---|---|
+| Eurostat | `https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/<código>?format=JSON&lang=EN&geo=PT&geo=EU27_2020` | JSON-stat; o código do conjunto está no data browser. CSV: `https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/<código>/?format=SDMX-CSV` |
+| INE | `https://www.ine.pt/ine/json_indicador/pindica.jsp?op=2&varcd=<código>&lang=PT` | o código do indicador (varcd) aparece no endereço do indicador no portal do INE |
+| Banco de Portugal (BPstat) | API em `bpstat.bportugal.pt` | confirmar a documentação da API no próprio site |
+| OCDE | `https://sdmx.oecd.org/public/rest/data/<fluxo>/<chave>?format=csvfilewithlabels` | o explorador de dados da OCDE mostra o pedido da API |
+| Banco Mundial | `https://api.worldbank.org/v2/country/<ISO3>/indicator/<código>?format=json&per_page=20000` | CC BY 4.0 |
+| FRED | `https://fred.stlouisfed.org/graph/fredgraph.csv?id=<série>` | sem chave; confirmar a licença da série (algumas são de terceiros) |
+| Our World in Data | `https://ourworldindata.org/grapher/<gráfico>.csv` | CC BY 4.0; confirmar a fonte primária de cada gráfico |
 
 ## Fontes testadas pela linha de comandos (descarga direta)
 
