@@ -52,6 +52,11 @@ for (const [name, opts] of [["desktop", { viewport: { width: 1280, height: 900 }
   const fav = await page.$('.piece [data-act="fav"]'); await fav.click();
   ok((await fav.getAttribute("aria-pressed")) === "true", `${name}: favorito`);
   ok((await page.$$eval(".fb:not([hidden])", (a) => a.length)) === 0, `${name}: avaliações escondidas fora do Claude`);
+  if (name === "mobile") {
+    ok(!(await page.isVisible("nav.main-nav")), "mobile: navegação recolhida no menu");
+    await page.click("#menu-btn"); ok(await page.isVisible("nav.main-nav a[href='/arquivo/']"), "mobile: menu abre");
+    await page.screenshot({ path: `${shots}/mobile-menu.png` });
+  }
   await page.click("#btn-theme"); ok((await page.getAttribute("html", "data-theme")) === "dark", `${name}: modo escuro`);
   await page.screenshot({ path: `${shots}/${name}-inicio-escuro.png` }); await page.click("#btn-theme");
   await page.goto(base + "/", { waitUntil: "networkidle" }); await page.waitForSelector(".piece .chart svg"); await page.waitForTimeout(500);

@@ -415,6 +415,15 @@ async function route() {
     main.innerHTML = `<p class="empty">Não foi possível carregar este conteúdo. ${esc(e.message)}</p>`;
   }
 }
+(function mobileMenu() {
+  const btn = document.getElementById("menu-btn"), menu = document.getElementById("menu");
+  if (!btn || !menu) return;
+  const set = (open) => { menu.classList.toggle("open", open); btn.setAttribute("aria-expanded", String(open)); };
+  btn.addEventListener("click", () => set(btn.getAttribute("aria-expanded") !== "true"));
+  menu.addEventListener("click", (e) => { if (e.target.closest("nav a")) set(false); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && btn.getAttribute("aria-expanded") === "true") { set(false); btn.focus(); } });
+  document.addEventListener("click", (e) => { if (!e.target.closest(".mast-top")) set(false); });
+})();
 function schedText() {
   let wd = "";
   try { wd = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Lisbon", weekday: "short" }).format(new Date()); } catch { /* sem Intl */ }

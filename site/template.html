@@ -31,6 +31,9 @@
 <a class="skip" href="#conteudo">Saltar para o conteúdo</a>
 <header class="masthead">
   <div class="mast-top">
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="menu-label">Menu</span></button>
+    <span class="date" id="mast-date">{{MAST_DATE}}</span>
+    <div class="menu" id="menu">
     <nav class="main-nav" aria-label="Navegação principal">
       <a href="/" data-nav="hoje">Edição</a>
       <a href="/arquivo/" data-nav="arquivo">Arquivo</a>
@@ -38,11 +41,11 @@
       <a href="/metodologia/" data-nav="metodologia">Como funciona</a>
       <a href="/redacao/" data-nav="redacao">A redação</a>
     </nav>
-    <span class="date" id="mast-date">{{MAST_DATE}}</span>
     <div class="tools">
       <a class="tool-btn" href="/feed.xml" title="Subscrever por RSS">RSS</a>
       <button class="tool-btn" id="btn-size" type="button" aria-pressed="false" title="Aumentar o tamanho do texto">A+</button>
       <button class="tool-btn" id="btn-theme" type="button" aria-label="Alternar modo claro/escuro">◐ Tema</button>
+    </div>
     </div>
   </div>
   <div class="mast-title">

@@ -20,7 +20,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Olhamisto" href="/feed.xml">
 <link rel="preload" href="/assets/fonts/fraunces-latin-full-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/main.css?v=ae80273ed1">
+<link rel="stylesheet" href="/assets/css/main.css?v=4b50093810">
 <script>
   try { var t = localStorage.getItem("rv.theme"); if (t) t = JSON.parse(t); if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; document.documentElement.dataset.theme = t; } catch (e) {}
   window.__OLHA__ = {"view":"piece","date":"2026-11-04","piece":"mortalidade-5anos-europa"};
@@ -31,6 +31,9 @@
 <a class="skip" href="#conteudo">Saltar para o conteúdo</a>
 <header class="masthead">
   <div class="mast-top">
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="menu-label">Menu</span></button>
+    <span class="date" id="mast-date">quarta-feira, 4 de novembro de 2026</span>
+    <div class="menu" id="menu">
     <nav class="main-nav" aria-label="Navegação principal">
       <a href="/" data-nav="hoje">Edição</a>
       <a href="/arquivo/" data-nav="arquivo">Arquivo</a>
@@ -38,11 +41,11 @@
       <a href="/metodologia/" data-nav="metodologia">Como funciona</a>
       <a href="/redacao/" data-nav="redacao">A redação</a>
     </nav>
-    <span class="date" id="mast-date">quarta-feira, 4 de novembro de 2026</span>
     <div class="tools">
       <a class="tool-btn" href="/feed.xml" title="Subscrever por RSS">RSS</a>
       <button class="tool-btn" id="btn-size" type="button" aria-pressed="false" title="Aumentar o tamanho do texto">A+</button>
       <button class="tool-btn" id="btn-theme" type="button" aria-label="Alternar modo claro/escuro">◐ Tema</button>
+    </div>
     </div>
   </div>
   <div class="mast-title">
@@ -79,6 +82,6 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="/assets/vendor/d3.min.js"></script>
 <script src="/assets/vendor/topojson-client.min.js"></script>
-<script type="module" src="/assets/js/app.js?v=55dcbed1c3179c98a2"></script>
+<script type="module" src="/assets/js/app.js?v=234e99bcb9179c98a2"></script>
 </body>
 </html>
