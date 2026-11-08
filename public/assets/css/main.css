@@ -310,3 +310,5 @@ footer.site .joke { font-family: var(--serif); font-style: italic; color: var(--
 .chave-meta ul { padding-left: 1.1rem; margin: .5rem 0; }
 .chave-meta li { margin: .25rem 0; }
 @media print { .chave { --key-bg: transparent; --key-ink: #1c1b19; --key-ink-2: #4a4741; --key-rule: #d7cfbd; --key-acc: #8a5a12; border: 1px solid #d7cfbd; } }
+footer .sister { margin: .9rem 0 .3rem; }
+footer .sister a { color: var(--ink); }
