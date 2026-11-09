@@ -1,0 +1,51 @@
+{
+  "schema": "olhamisto/newsletter@1",
+  "number": 1,
+  "editions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "title": "Portugal face ao Reino Unido desde 1530, a mortalidade antes dos cinco anos e cem estudos refeitos",
+  "subtitle": "O melhor das edições n.º 1 a 4 do Olhamisto, as quatro Chaves do Dia e uma correção.",
+  "intro": [
+    "Esta é a primeira carta do Olhamisto. Todos os dias úteis, o site publica até cinco histórias contadas com dados, de fontes primárias e com o método à vista. Ao fim da semana, esta newsletter escolhe as que mais merecem o seu tempo, lista as restantes e junta as lições da Chave do Dia. Hoje cobre as quatro primeiras edições."
+  ],
+  "highlights": [
+    {
+      "piece": "pib-portugal-1530-2018",
+      "text": "Durante dois séculos e meio, até aos anos 1780, o PIB por habitante português nunca ficou abaixo de 65% do britânico. A distância abriu-se enquanto os outros se industrializavam, e nos anos 1910 Portugal estava em 24%. A convergência dos anos 1960 a 1990 levou-o a 70%. Desde então, parou: 69% nos anos 2010, segundo o Maddison Project."
+    },
+    {
+      "piece": "mortalidade-5anos-europa",
+      "text": "Em 1960, 11,4% das crianças portuguesas morriam antes dos cinco anos: 5,8 vezes a taxa sueca e a mais alta dos seis países europeus comparados. A queda acelerou nos anos 1970, quando a taxa caiu 60% numa década. Em 2024 está em 0,32%, igual à espanhola e abaixo da francesa (0,43%). Os dados mostram quando a queda acelerou, não o que a causou."
+    },
+    {
+      "piece": "divida-publica-ue-2025",
+      "text": "Entre 2022 e 2025, a dívida pública portuguesa desceu de 111,2% para 89,2% do PIB. São 22 pontos a menos, a terceira maior descida da UE, depois da Grécia e de Chipre. A inflação fez crescer o PIB nominal em toda a UE, o que puxa o rácio para baixo, e mesmo assim catorze países viram-no subir. Em 2025, Portugal ficou 1,5 pontos acima do rácio da zona euro (87,7%)."
+    },
+    {
+      "piece": "reprodutibilidade-psicologia",
+      "text": "Uma rede de 270 investigadores refez 100 estudos de psicologia publicados em três revistas de referência. Nos originais, 97% dos resultados eram estatisticamente significativos; nas réplicas, cujos resultados saíram em 2015, só 36%. A força média do efeito caiu para metade, de 0,40 para 0,20. Uma réplica falhada não prova que o original estava errado, mas o padrão é sistemático."
+    }
+  ],
+  "notes": [
+    {
+      "piece": "mortalidade-5anos-europa",
+      "text": "Em 1960, 11,4% das crianças portuguesas morriam antes dos cinco anos. Em 2024, 0,32%."
+    },
+    {
+      "piece": "pib-portugal-1530-2018",
+      "text": "Nos anos 1750, um português produzia três quartos do que produzia um britânico. Nos anos 1910, um quarto."
+    },
+    {
+      "piece": "reprodutibilidade-psicologia",
+      "text": "Cem estudos de psicologia foram refeitos. Em média, o efeito encolheu para metade."
+    }
+  ],
+  "correctionsNote": {
+    "2026-11-06|populacao-portugal-1960-2025": "A 6 de novembro corrigimos a peça «Portugal nunca teve tanta gente. Em 2018 tinha menos do que em 2000». A série do Banco Mundial usada no gráfico não incorpora a revisão da população feita pelo INE em junho de 2026 e subestima os valores de 2021 a 2025. A descoberta foi reescrita, retirou-se a afirmação de que só 1975 e 1976 cresceram mais do que 2023, acrescentou-se a fonte do INE e a verificação passou a parcial."
+  },
+  "signoff": "Até à próxima semana. Até lá, desconfie de gráficos sem eixos."
+}

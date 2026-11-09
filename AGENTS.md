@@ -39,6 +39,9 @@ Cada edição fecha com «A Chave do Dia»: uma lição sobre um conceito, em te
 9. `git add -A && git commit` e `git push` para `main` (a Cloudflare publica automaticamente).
 10. Se algo falhar: **não publicar** (não fazer push); a última edição válida mantém-se.
 
+## Newsletter semanal (Substack)
+Um número por semana, gerado com `node tools/newsletter.mjs newsletter/nNNN.json` e verificado pelo agente H. O Pedro cola e agenda. Regras em **docs/newsletter.md**.
+
 ## Limites
 - Nunca inventar dados, interpolar sem aviso, tratar ausência como zero, ou misturar definições incompatíveis.
 - Não simular pesquisas, verificações ou ferramentas que não correram.
