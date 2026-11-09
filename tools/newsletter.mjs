@@ -110,11 +110,11 @@ ${html.join("\n")}
 
 fs.mkdirSync(path.join(OUT, "imagens"), { recursive: true });
 fs.writeFileSync(path.join(OUT, "email.html"), doc);
-for (const h of src.highlights) fs.copyFileSync(path.join(ROOT, "public/og", `${h.piece}.png`), path.join(OUT, "imagens", `${h.piece}.png`));
+for (const id of new Set([...src.highlights, ...src.notes].map((x) => x.piece))) fs.copyFileSync(path.join(ROOT, "public/og", `${id}.png`), path.join(OUT, "imagens", `${id}.png`));
 
 const notes = src.notes.map((n, i) => {
   const p = pieces.get(n.piece);
-  return `## Nota ${i + 1}\n\n${n.text} Feito por IA.\n\nImagem: \`imagens/${n.piece}.png\`${hl.has(n.piece) ? "" : " (não copiada: carregar de public/og/)"} · Ligação (opcional, na resposta à nota): ${pieceUrl(p.date, p.id)}\n`;
+  return `## Nota ${i + 1}\n\n${n.text} Feito por IA.\n\nImagem: \`imagens/${n.piece}.png\` · Ligação (opcional, na resposta à nota): ${pieceUrl(p.date, p.id)}\n`;
 }).join("\n");
 fs.writeFileSync(path.join(OUT, "notas.md"), `# Notes da newsletter n.º ${src.number}\n\nUma por dia, a partir do dia do envio. Texto curto, sem pedir subscrições. A etiqueta «Feito por IA.» faz parte do texto de cada nota (AI Act, art. 50.º, n.º 4): não a retires.\n\n${notes}`);
 
