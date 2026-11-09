@@ -1,0 +1,175 @@
+{
+ "rows": [
+  {
+   "label": "Países Baixos",
+   "y1525": 1.42,
+   "y1575": 3.35,
+   "y1675": 25.94,
+   "y1775": 48.83
+  },
+  {
+   "label": "Grã-Bretanha",
+   "y1525": 1.46,
+   "y1575": 2.73,
+   "y1675": 19.18,
+   "y1775": 19.2
+  },
+  {
+   "label": "Suécia",
+   "y1525": 0.08,
+   "y1575": 0.11,
+   "y1675": 5.85,
+   "y1775": 20.89
+  },
+  {
+   "label": "Alemanha",
+   "y1525": 2.12,
+   "y1575": 4.34,
+   "y1675": 7.87,
+   "y1775": 12.24
+  },
+  {
+   "label": "França",
+   "y1525": 2.99,
+   "y1575": 3.37,
+   "y1675": 7.01,
+   "y1775": 11.79
+  },
+  {
+   "label": "Itália",
+   "y1525": 2.13,
+   "y1575": 5.1,
+   "y1675": 5.63,
+   "y1775": 8.65
+  },
+  {
+   "label": "Irlanda",
+   "y1525": 0,
+   "y1575": 0.01,
+   "y1675": 1.42,
+   "y1775": 7.77
+  },
+  {
+   "label": "Bélgica",
+   "y1525": 1.77,
+   "y1575": 4.82,
+   "y1675": 7.36,
+   "y1775": 4.45
+  },
+  {
+   "label": "Suíça",
+   "y1525": 4.81,
+   "y1575": 7.85,
+   "y1675": 1.46,
+   "y1775": 3.23
+  },
+  {
+   "label": "Espanha",
+   "y1525": 0.42,
+   "y1575": 0.43,
+   "y1675": 1.43,
+   "y1775": 2.83
+  },
+  {
+   "label": "Polónia",
+   "y1525": 0.02,
+   "y1575": 0.05,
+   "y1675": 0.62,
+   "y1775": 2.25
+  },
+  {
+   "label": "Rússia",
+   "y1525": 0,
+   "y1575": 0,
+   "y1675": 0.01,
+   "y1775": 0.58
+  }
+ ],
+ "config": {
+  "unit": "",
+  "decimals": 1,
+  "signed": false,
+  "posLabel": "Livros por 100 habitantes, por ano",
+  "howToRead": "Cada barra mostra quantos livros impressos havia, em média, por cada 100 habitantes e por ano, segundo a estimativa dos historiadores. Os botões mudam o meio século.",
+  "views": [
+   {
+    "id": "y1775",
+    "key": "y1775",
+    "label": "1750–1800",
+    "axisLabel": "Livros por 100 habitantes e por ano, média de 1750–1800 (estimativa)",
+    "axisShort": "Livros por 100 hab./ano, 1750–1800"
+   },
+   {
+    "id": "y1675",
+    "key": "y1675",
+    "label": "1650–1700",
+    "axisLabel": "Livros por 100 habitantes e por ano, média de 1650–1700 (estimativa)",
+    "axisShort": "Livros por 100 hab./ano, 1650–1700"
+   },
+   {
+    "id": "y1575",
+    "key": "y1575",
+    "label": "1550–1600",
+    "axisLabel": "Livros por 100 habitantes e por ano, média de 1550–1600 (estimativa)",
+    "axisShort": "Livros por 100 hab./ano, 1550–1600"
+   },
+   {
+    "id": "y1525",
+    "key": "y1525",
+    "label": "1500–1550",
+    "axisLabel": "Livros por 100 habitantes e por ano, média de 1500–1550 (estimativa)",
+    "axisShort": "Livros por 100 hab./ano, 1500–1550"
+   }
+  ],
+  "sorts": [
+   [
+    "value",
+    "Por valor"
+   ],
+   [
+    "label",
+    "Por nome"
+   ]
+  ]
+ },
+ "summary": {
+  "nl1775": 48.83,
+  "we1775": 12.24,
+  "it1775": 8.65,
+  "es1775": 2.83,
+  "se1775": 20.89,
+  "gb1775": 19.2,
+  "ch1575": 7.85,
+  "it1575": 5.1,
+  "nl1525": 1.42,
+  "we1525": 1.75,
+  "order1575": [
+   "Switzerland",
+   "Italy",
+   "Belgium",
+   "Germany",
+   "France",
+   "Netherlands",
+   "Great Britain",
+   "Spain",
+   "Sweden",
+   "Poland",
+   "Ireland",
+   "Russia"
+  ],
+  "order1775": [
+   "Netherlands",
+   "Sweden",
+   "Great Britain",
+   "Germany",
+   "France",
+   "Italy",
+   "Ireland",
+   "Belgium",
+   "Switzerland",
+   "Spain",
+   "Poland",
+   "Russia"
+  ]
+ }
+}

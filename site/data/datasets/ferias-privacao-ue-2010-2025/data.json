@@ -1,0 +1,252 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "a": 26.9,
+   "b": 19.5,
+   "highlight": false
+  },
+  {
+   "label": "Bulgária",
+   "a": 62.4,
+   "b": 39.1,
+   "highlight": false
+  },
+  {
+   "label": "Chéquia",
+   "a": 39.5,
+   "b": 19,
+   "highlight": false
+  },
+  {
+   "label": "Dinamarca",
+   "a": 11.8,
+   "b": 14.1,
+   "highlight": false
+  },
+  {
+   "label": "Alemanha",
+   "a": 23.7,
+   "b": 20.9,
+   "highlight": false
+  },
+  {
+   "label": "Estónia",
+   "a": 50.6,
+   "b": 25.8,
+   "highlight": false
+  },
+  {
+   "label": "Irlanda",
+   "a": 41.7,
+   "b": 20.5,
+   "highlight": false
+  },
+  {
+   "label": "Grécia",
+   "a": 46.3,
+   "b": 46.6,
+   "highlight": false
+  },
+  {
+   "label": "Espanha",
+   "a": 42.6,
+   "b": 32.2,
+   "highlight": false
+  },
+  {
+   "label": "França",
+   "a": 28.7,
+   "b": 23.2,
+   "highlight": false
+  },
+  {
+   "label": "Croácia",
+   "a": 67.3,
+   "b": 32.6,
+   "highlight": false
+  },
+  {
+   "label": "Itália",
+   "a": 40.5,
+   "b": 35.7,
+   "highlight": false
+  },
+  {
+   "label": "Chipre",
+   "a": 47.8,
+   "b": 27.6,
+   "highlight": false
+  },
+  {
+   "label": "Letónia",
+   "a": 62.7,
+   "b": 28.9,
+   "highlight": false
+  },
+  {
+   "label": "Lituânia",
+   "a": 63.1,
+   "b": 30.9,
+   "highlight": false
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 13.6,
+   "b": 10.6,
+   "highlight": false
+  },
+  {
+   "label": "Hungria",
+   "a": 64.9,
+   "b": 39.1,
+   "highlight": false
+  },
+  {
+   "label": "Malta",
+   "a": 60.8,
+   "b": 27.6,
+   "highlight": false
+  },
+  {
+   "label": "Países Baixos",
+   "a": 15.8,
+   "b": 12.8,
+   "highlight": false
+  },
+  {
+   "label": "Áustria",
+   "a": 22.3,
+   "b": 17.8,
+   "highlight": false
+  },
+  {
+   "label": "Polónia",
+   "a": 59.9,
+   "b": 24.5,
+   "highlight": false
+  },
+  {
+   "label": "Portugal",
+   "a": 64.6,
+   "b": 33.1,
+   "highlight": true
+  },
+  {
+   "label": "Roménia",
+   "a": 77.4,
+   "b": 61.4,
+   "highlight": false
+  },
+  {
+   "label": "Eslovénia",
+   "a": 31.4,
+   "b": 15.2,
+   "highlight": false
+  },
+  {
+   "label": "Eslováquia",
+   "a": 55.7,
+   "b": 29.1,
+   "highlight": false
+  },
+  {
+   "label": "Finlândia",
+   "a": 14.7,
+   "b": 14.8,
+   "highlight": false
+  },
+  {
+   "label": "Suécia",
+   "a": 11,
+   "b": 12.4,
+   "highlight": false
+  }
+ ],
+ "config": {
+  "aLabel": "2010",
+  "bLabel": "2025",
+  "ref": 27.5,
+  "refLabel": "UE 2025: 27,5%",
+  "unit": "%",
+  "decimals": 1,
+  "domain": [
+   0,
+   80
+  ],
+  "howToRead": "Cada linha é um país: vai da percentagem de pessoas sem dinheiro para uma semana de férias fora de casa em 2010 (ponto cinzento) à de 2025 (ponto azul). Linha para a esquerda: menos pessoas privadas de férias. A linha tracejada é a média da UE em 2025. Portugal aparece destacado a terracota.",
+  "sorts": [
+   [
+    "b",
+    "Por valor em 2025"
+   ],
+   [
+    "delta",
+    "Por variação"
+   ]
+  ]
+ },
+ "summary": {
+  "pt": {
+   "2004": 60.7,
+   "2005": 60.1,
+   "2006": 59.8,
+   "2007": 61.4,
+   "2008": 64.3,
+   "2009": 63.3,
+   "2010": 64.6,
+   "2011": 57.2,
+   "2012": 56.1,
+   "2013": 59.8,
+   "2014": 55.6,
+   "2015": 51.3,
+   "2016": 47.2,
+   "2017": 44.3,
+   "2018": 41.3,
+   "2019": 40,
+   "2020": 38.1,
+   "2021": 36.7,
+   "2022": 37.2,
+   "2023": 38.9,
+   "2024": 35.2,
+   "2025": 33.1
+  },
+  "eu2010": 38.8,
+  "eu2025": 27.5,
+  "rank2010": 4,
+  "rank2025": 6,
+  "drops": [
+   [
+    "PL",
+    -35.4
+   ],
+   [
+    "HR",
+    -34.7
+   ],
+   [
+    "LV",
+    -33.8
+   ],
+   [
+    "MT",
+    -33.2
+   ],
+   [
+    "LT",
+    -32.2
+   ],
+   [
+    "PT",
+    -31.5
+   ]
+  ],
+  "worse2025": [
+   "Bulgária",
+   "Grécia",
+   "Itália",
+   "Hungria",
+   "Roménia"
+  ]
+ }
+}

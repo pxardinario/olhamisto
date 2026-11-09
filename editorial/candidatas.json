@@ -8,20 +8,9 @@
       "fonte": "Eurostat, inquérito à utilização de TIC pelas famílias (isoc_ai_iaigu ou equivalente)",
       "licenca": "Eurostat: reutilização permitida com atribuição",
       "estado": "descartada",
-      "bloqueio": "Statistics Explained só dá os extremos no texto; o valor por país está num mapa. Tentar a tabela na base de dados do Eurostat (data browser) por WebFetch, ou um conjunto derivado no OWID. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar. Descartada após 3 tentativas: os valores por país não chegaram em formato legível neste ambiente.",
+      "bloqueio": "Statistics Explained só dá os extremos no texto; o valor por país está num mapa. Tentar a tabela na base de dados do Eurostat (data browser) por WebFetch, ou um conjunto derivado no OWID. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar. Descartada após 3 tentativas: os valores por país não chegaram em formato legível neste ambiente. 2026-11-09: com a API do Eurostat acessível pela linha de comandos, pode ser reativada (conjunto de utilização de IA pelas pessoas, a confirmar o código).",
       "registada": "2026-11-05",
       "tentativas": 3
-    },
-    {
-      "id": "adocao-ia-empresas-ue-2025",
-      "tema": "tecnologia",
-      "ideia": "Empresas da UE que usam IA em 2025, por país e dimensão",
-      "fonte": "Eurostat, inquérito ao uso de TIC nas empresas (isoc_eb_ai)",
-      "licenca": "Eurostat: reutilização permitida com atribuição",
-      "estado": "bloqueada",
-      "bloqueio": "Statistics Explained inacessível em 2026-11-04. Tentar a tabela isoc_eb_ai no data browser por WebFetch. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar.",
-      "registada": "2026-11-04",
-      "tentativas": 2
     },
     {
       "id": "nudges-revistas-vs-governo",
@@ -40,8 +29,8 @@
       "ideia": "Preços das casas contra rendas nos 27 países da UE, 2015–2025",
       "fonte": "Eurostat, índices de preços da habitação (prc_hpi_a) e rendas (prc_hicp)",
       "licenca": "Eurostat: reutilização permitida com atribuição",
-      "estado": "bloqueada",
-      "bloqueio": "Valores por país só em gráfico de imagem na página consultada. Tentar as tabelas prc_hpi_a e o índice de rendas no data browser por WebFetch. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar.",
+      "estado": "pronta",
+      "bloqueio": "Valores por país só em gráfico de imagem na página consultada. Tentar as tabelas prc_hpi_a e o índice de rendas no data browser por WebFetch. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar. 2026-11-09: a API do Eurostat responde pela linha de comandos (ambiente «Olhamisto»); prc_hpi_a e o índice de rendas (prc_hicp_aind, CP041) podem descarregar-se diretamente. Não produzida hoje para não juntar duas peças de habitação na mesma edição.",
       "registada": "2026-11-03",
       "tentativas": 2
     },
@@ -74,7 +63,7 @@
       "fonte": "INE, Estimativas de População Residente 2025 (destaque de 22/06/2026) e dados de emigração revistos (5/11/2026)",
       "licenca": "INE: reutilização permitida com atribuição",
       "estado": "bloqueada",
-      "bloqueio": "Em 2026-11-06 o WebFetch não chegou a www.ine.pt; só houve resumos de pesquisa. Precisa dos quadros do destaque (população a 31/12 por ano, saldos natural e migratório, séries antiga e nova). Pode servir também para refazer a peça populacao-portugal-1960-2025.",
+      "bloqueio": "Em 2026-11-06 o WebFetch não chegou a www.ine.pt; só houve resumos de pesquisa. Precisa dos quadros do destaque (população a 31/12 por ano, saldos natural e migratório, séries antiga e nova). Pode servir também para refazer a peça populacao-portugal-1960-2025. 2026-11-09: a API do INE responde pela linha de comandos, mas devolve só a série atual; falta uma fonte primária da série antiga (antes da revisão) para comparar. Não tentada hoje.",
       "registada": "2026-11-06",
       "tentativas": 1
     },
@@ -85,19 +74,41 @@
       "fonte": "Clerk of the House / resultados oficiais certificados pelos estados",
       "licenca": "Domínio público (governo dos EUA)",
       "estado": "bloqueada",
-      "bloqueio": "Resultados ainda não finais e sem fonte primária acessível a 2026-11-06. Tentar quando houver contagem quase final; ligar à peça eua-intercalares de 2026-11-03.",
+      "bloqueio": "Resultados ainda não finais e sem fonte primária acessível a 2026-11-06. Tentar quando houver contagem quase final; ligar à peça eua-intercalares de 2026-11-03. 2026-11-09: continua sem resultados certificados numa fonte primária acessível.",
       "registada": "2026-11-06",
+      "tentativas": 2
+    },
+    {
+      "id": "nados-vivos-mae-estrangeira-2025",
+      "tema": "sociedade",
+      "ideia": "Proporção de bebés de mães nascidas no estrangeiro, por região, 2015–2025",
+      "fonte": "INE, Estatísticas Vitais (API de indicadores)",
+      "licenca": "INE: reutilização permitida com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-09: não foi encontrado o código (varcd) do indicador de nados-vivos por naturalidade da mãe; o tema já teve muita cobertura («um terço»). Procurar o código no portal do INE e um ângulo novo (regiões, evolução por país de origem).",
+      "registada": "2026-11-09",
       "tentativas": 1
     },
     {
-      "id": "credito-habitacao-recorde-2026",
-      "tema": "economia",
-      "ideia": "Stock de crédito à habitação em máximo (120,2 mil milhões em setembro de 2026, +11,2%)",
-      "fonte": "Banco de Portugal, BPstat",
-      "licenca": "BdP: reutilização com atribuição",
+      "id": "idade-saida-casa-pais",
+      "tema": "sociedade",
+      "ideia": "Idade média de saída de casa dos pais, Portugal e UE",
+      "fonte": "Eurostat yth_demo_030",
+      "licenca": "Eurostat: reutilização permitida com atribuição",
       "estado": "bloqueada",
-      "bloqueio": "BPstat inacessível em 2026-11-06 (WebFetch bloqueado). Procurar a série em CSV no GitHub ou tentar o BPstat noutro dia.",
-      "registada": "2026-11-06",
+      "bloqueio": "2026-11-09: dados acessíveis, mas a série portuguesa tem um salto em 2021 (33,3 anos, contra 29,9 em 2020 e 30,1 em 2022) que parece quebra metodológica; confirmar nos metadados antes de usar.",
+      "registada": "2026-11-09",
+      "tentativas": 1
+    },
+    {
+      "id": "nobel-idade-premiados",
+      "tema": "ciencia",
+      "ideia": "Idade dos laureados com o Nobel no momento do prémio, por disciplina, 1901–2025",
+      "fonte": "Fundação Nobel, API de dados (CC0)",
+      "licenca": "CC0",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-09: api.nobelprize.org não está na lista de domínios do ambiente; procurar uma cópia no GitHub ou pedir ao Pedro para autorizar o domínio.",
+      "registada": "2026-11-09",
       "tentativas": 1
     }
   ]

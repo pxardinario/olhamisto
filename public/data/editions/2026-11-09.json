@@ -1,0 +1,297 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-09",
+ "number": 5,
+ "status": "publicada",
+ "opening": "Cinco histórias para começar a semana: o crédito à habitação a crescer como nunca, o CO₂ no dia em que abre a COP31, a inteligência artificial que tarda a entrar nas empresas portuguesas, as férias fora de casa ao alcance de mais portugueses do que em 2010 e os livros que mudaram de geografia na Europa moderna.",
+ "lead": "credito-habitacao-crescimento-2026",
+ "generatedAt": "2026-11-09T09:30:00Z",
+ "limitations": [
+  "Peça sobre livros na Europa publicada com verificação parcial: o artigo de Buringh e van Zanden (2009) não foi consultado diretamente, e o total da Europa ocidental de 1750–1800 na cópia da Our World in Data parece um erro de transcrição; foi retirado do gráfico e o título não depende dele.",
+  "Nesta execução, o grapher da Our World in Data e várias páginas de editoras e universidades não estavam acessíveis; usaram-se cópias no GitHub (citadas como tal) e resumos de pesquisa.",
+  "Candidata rejeitada: proporção de bebés de mães nascidas no estrangeiro (INE). Não foi encontrado o código do indicador na API do INE, e o «um terço» já foi muito noticiado.",
+  "Candidata rejeitada: idade de saída de casa dos pais (Eurostat). A série portuguesa tem um salto em 2021 que parece quebra metodológica, por confirmar.",
+  "Candidata rejeitada: idade dos laureados com o Nobel. A API da Fundação Nobel não está acessível neste ambiente.",
+  "Candidata adiada: preços das casas contra rendas na UE (Eurostat). Os dados já estão acessíveis, mas ficou para outro dia para não juntar duas peças de habitação na mesma edição.",
+  "Candidata adiada: resultados das intercalares dos EUA de 3 de novembro. Ainda não há resultados certificados numa fonte primária acessível."
+ ],
+ "pieces": [
+  {
+   "id": "credito-habitacao-crescimento-2026",
+   "slug": "credito-habitacao-portugal-zona-euro-taxa-variacao-2004-2026",
+   "kind": "atualidade",
+   "theme": "economia",
+   "themeLabel": "Economia e mercados",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cursor por rato e teclado",
+   "interactive": true,
+   "title": "O crédito à habitação cresce 11% ao ano em Portugal, quase quatro vezes o ritmo da zona euro",
+   "question": "A que velocidade cresce o crédito para comprar casa em Portugal, comparado com o passado e com a zona euro?",
+   "finding": "Em setembro de 2026, os empréstimos dos bancos às famílias para compra de casa cresciam 11,1% ao ano, a taxa mais alta desde o início da série, em 2004, e 3,7 vezes a da zona euro (3,0%). Em dezembro de 2023 encolhiam 1,3%. O montante em dívida, 122,4 mil milhões de euros, ultrapassou em março o máximo de 2011.",
+   "context": "Entre agosto de 2023 e maio de 2024, o crédito à habitação em Portugal esteve abaixo do nível de um ano antes: em doze meses, os reembolsos superaram os novos empréstimos. O saldo bateu no fundo em janeiro de 2024 e, desde então, a tendência inverteu-se sem pausas. A série mensal do Banco Central Europeu, compilada a partir dos dados do Banco de Portugal, permite comparar este ritmo com o da zona euro desde 2004.",
+   "interpretation": "Desde janeiro de 2024, a taxa subiu ou manteve-se em todos os meses. Em janeiro de 2006, no ciclo de crédito anterior à crise financeira, Portugal crescia 10,6%, menos do que a zona euro (11,7%). Hoje a relação inverteu-se: em 2026, a zona euro não passou dos 3,0%. A série mede o ritmo do endividamento, não o risco, que depende de rendimentos, juros e incumprimento.",
+   "chart": {
+    "type": "lines",
+    "dataset": "credito-habitacao-crescimento-2026"
+   },
+   "period": "Janeiro de 2004 a setembro de 2026 (dados mensais)",
+   "unit": "Taxa de variação anual dos empréstimos das instituições financeiras monetárias às famílias para aquisição de habitação (%)",
+   "sources": [
+    {
+     "name": "Banco Central Europeu — Data Portal, BSI: empréstimos às famílias para aquisição de habitação, Portugal e zona euro (dados de Portugal compilados pelo Banco de Portugal)",
+     "url": "https://data.ecb.europa.eu/data/datasets/BSI",
+     "accessed": "2026-11-09"
+    },
+    {
+     "name": "Banco Central Europeu — série BSI.M.PT.N.A.A22.A.I.U2.2250.Z01.A (API)",
+     "url": "https://data-api.ecb.europa.eu/service/data/BSI/M.PT.N.A.A22.A.I.U2.2250.Z01.A?format=csvdata",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "method": [
+    "Taxa de variação anual publicada pelo BCE (índice de stocks nocionais): mede as transações — novos empréstimos menos reembolsos — e exclui reclassificações, abatimentos ao ativo e variações cambiais. Por isso não coincide exatamente com a variação do saldo em dívida. Dados não ajustados de sazonalidade, descarregados da API do BCE e guardados sem alterações em raw/credito-habitacao-pt/.",
+    "Empréstimos de instituições financeiras monetárias (exceto bancos centrais) a famílias e instituições sem fim lucrativo ao serviço das famílias residentes, para aquisição de habitação; contraparte na zona euro. Zona euro em composição variável. O saldo em dívida (122,4 mil milhões de euros em setembro de 2026) é a série BSI.M.PT.N.A.A22.A.1.U2.2250.Z01.E; o Banco de Portugal publica também valores só para habitação própria permanente, que são mais baixos.",
+    "A série de crescimento de Portugal começa em janeiro de 2004; «a mais alta da série» refere-se a esse período, não a toda a história do crédito em Portugal. Os valores do gráfico estão arredondados a uma casa decimal. O valor de setembro de 2026 é provisório no BCE."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-09",
+    "note": "Ficheiros brutos idênticos aos da API do BCE; 273 observações de Portugal, 337 da zona euro e 285 do saldo comparadas; todos os números do texto e das anotações recalculados. Corrigida a descrição do período de 2023–2024 (a taxa é homóloga; o saldo bateu no fundo em janeiro de 2024)."
+   }
+  },
+  {
+   "id": "co2-atmosfera-cop31",
+   "slug": "co2-mauna-loa-aumento-anual-cop-1960-2025",
+   "kind": "atualidade",
+   "theme": "ambiente",
+   "themeLabel": "Ambiente e clima",
+   "vizType": "barras",
+   "vizLabel": "Colunas · detalhe por ano",
+   "interactive": true,
+   "title": "Desde a primeira COP, o CO₂ no ar subiu mais do que nos 36 anos anteriores, e cada vez mais depressa",
+   "question": "Trinta anos de conferências do clima abrandaram a acumulação de CO₂ na atmosfera?",
+   "finding": "Entre 1959 e 1995, ano da primeira COP, a concentração média de CO₂ em Mauna Loa subiu 45,0 partes por milhão (ppm). Entre 1995 e 2025 subiu 66,4 ppm. O aumento médio anual passou de 0,86 ppm nos anos 1960 para 2,63 ppm entre 2016 e 2025, e o maior aumento da série foi em 2024: 3,53 ppm.",
+   "context": "A 31.ª conferência das Nações Unidas sobre alterações climáticas, a COP31, abre hoje em Antália, na Turquia, e decorre até 20 de novembro. A primeira reuniu-se em Berlim, em 1995. Desde 1958, o observatório de Mauna Loa, no Havai, mede o dióxido de carbono no ar: é a mais longa série de medições diretas da concentração deste gás na atmosfera.",
+   "interpretation": "A concentração sobe sempre que as emissões superam o que oceanos e vegetação absorvem; para a estabilizar, não basta que as emissões deixem de crescer. O gráfico não mostra o que teria acontecido sem acordos internacionais. O ritmo varia de ano para ano: os maiores aumentos, em 1998, 2016 e 2024, coincidem com episódios fortes de El Niño, que reduzem a absorção pela vegetação.",
+   "chart": {
+    "type": "columns",
+    "dataset": "co2-atmosfera-cop31"
+   },
+   "period": "1959 a 2025 (médias anuais)",
+   "unit": "Aumento da concentração média anual de CO₂ face ao ano anterior, em partes por milhão (ppm)",
+   "sources": [
+    {
+     "name": "NOAA Global Monitoring Laboratory e Scripps Institution of Oceanography — CO₂ em Mauna Loa, médias anuais (domínio público)",
+     "url": "https://gml.noaa.gov/ccgg/trends/data.html",
+     "accessed": "2026-11-09"
+    },
+    {
+     "name": "Datasets — co2-ppm, co2-annmean-mlo.csv (cópia em CSV da série da NOAA, licença ODC-PDDL)",
+     "url": "https://github.com/datasets/co2-ppm",
+     "accessed": "2026-11-09"
+    },
+    {
+     "name": "UNFCCC — COP31, Antália, 9 a 20 de novembro de 2026",
+     "url": "https://unfccc.int/cop31",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "method": [
+    "Médias anuais da fração molar de CO₂ em ar seco medida em Mauna Loa (NOAA GML; medições iniciadas por Charles David Keeling, da Scripps, em 1958), na cópia em CSV do repositório datasets/co2-ppm, transcrita sem alterações em raw/co2-cop/. A série da NOAA não foi descarregada diretamente nesta edição.",
+    "Aumento anual = média anual menos a média do ano anterior. A NOAA publica também uma «taxa de crescimento anual» calculada de outra forma (diferença entre dezembro e janeiro, com médias móveis), cujos valores podem diferir destes em alguns décimos de ppm. As médias por década são médias simples dos aumentos anuais.",
+    "Mauna Loa mede a concentração num ponto do Pacífico, representativa da atmosfera bem misturada do hemisfério norte; a média global da NOAA é ligeiramente diferente. A ligação entre El Niño e aumentos anuais maiores é descrita pela NOAA e pela literatura científica; a peça não estima o seu efeito."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-09",
+    "note": "Cópia em CSV idêntica à do repositório; os 66 aumentos anuais e as médias por década recalculados; valores de 2023 e 2024 coerentes com a NOAA; datas da COP31 e da COP1 confirmadas. O valor de 2025 vem da cópia, sem acesso direto à NOAA nesta edição (indicado no método)."
+   }
+  },
+  {
+   "id": "ia-empresas-ue-2021-2025",
+   "slug": "inteligencia-artificial-empresas-uniao-europeia-portugal-2021-2025",
+   "kind": "descoberta",
+   "theme": "tecnologia",
+   "themeLabel": "Tecnologia e IA",
+   "vizType": "halteres",
+   "vizLabel": "Halteres · ordenação alternável",
+   "interactive": true,
+   "title": "Em 2021, as empresas portuguesas usavam inteligência artificial quase tanto como as europeias. Em 2025 ficaram para trás",
+   "question": "Portugal acompanhou a entrada da inteligência artificial nas empresas europeias?",
+   "finding": "Em 2021, 7,2% das empresas portuguesas com 10 ou mais pessoas usavam pelo menos uma tecnologia de IA, contra 7,7% na UE. Em 2025, a média europeia chegou a 20,0% e Portugal a 11,5%. O país desceu do 14.º para o 21.º lugar entre os 27, com o segundo menor aumento, depois da Roménia.",
+   "context": "O Eurostat perguntou às empresas da UE, nos inquéritos de 2021, 2023, 2024 e 2025, se usam tecnologias de inteligência artificial, como análise de texto, reconhecimento de voz ou de imagem, aprendizagem automática ou geração de conteúdos. A chegada das ferramentas de IA generativa, a partir do fim de 2022, coincidiu com uma aceleração da utilização em quase toda a Europa, sobretudo entre 2023 e 2025.",
+   "interpretation": "Na Dinamarca, 42% das empresas já usam IA; em Portugal, pouco mais de uma em cada dez. A Espanha, que partiu do mesmo ponto que a média europeia (7,7%), chegou a 20,3%. O indicador conta empresas que usam pelo menos uma tecnologia, não a intensidade nem a qualidade do uso, e a estrutura empresarial de cada país, com mais ou menos pequenas empresas, pesa nos resultados.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "ia-empresas-ue-2021-2025"
+   },
+   "period": "2021, 2024 e 2025",
+   "unit": "Percentagem de empresas com 10 ou mais pessoas ao serviço que usam pelo menos uma tecnologia de inteligência artificial",
+   "sources": [
+    {
+     "name": "Eurostat — Artificial intelligence by size class of enterprise (isoc_eb_ai)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table?lang=en",
+     "accessed": "2026-11-09"
+    },
+    {
+     "name": "Eurostat — API de difusão, isoc_eb_ai (indicador E_AI_TANY)",
+     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/isoc_eb_ai?format=JSON&lang=EN&indic_is=E_AI_TANY&unit=PC_ENT&nace_r2=C10-S951_X_K&size_emp=GE10",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "method": [
+    "Inquérito comunitário à utilização de TIC e comércio eletrónico nas empresas. Indicador E_AI_TANY: empresas que usam pelo menos uma de várias tecnologias de IA (análise de texto, reconhecimento de voz, geração de linguagem, reconhecimento de imagem, aprendizagem automática, automatização de processos, robôs autónomos e, nas listas mais recentes, geração de imagem, vídeo ou som). Empresas com 10 ou mais pessoas, todas as atividades exceto agricultura, pesca, indústrias extrativas e setor financeiro.",
+    "O inquérito sobre IA não se realizou em 2022. O Eurostat assinala quebras de série em França e na Suécia (2023) e nos Países Baixos (2025); Portugal e a média da UE não têm quebras assinaladas. Posições calculadas entre os 27 Estados-membros com os valores publicados (duas casas decimais). Dados descarregados da API do Eurostat (atualização de 15 de junho de 2026) e guardados sem alterações."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-09",
+    "note": "API do Eurostat idêntica ao bruto; 27 países × 4 anos, posições, diferenças e quebras de série recalculadas. Corrigidas uma contradição sobre a periodicidade do inquérito e uma formulação causal."
+   }
+  },
+  {
+   "id": "ferias-privacao-ue-2010-2025",
+   "slug": "ferias-semana-fora-de-casa-privacao-portugal-ue-2010-2025",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade",
+   "vizType": "halteres",
+   "vizLabel": "Halteres · ordenação alternável",
+   "interactive": true,
+   "title": "Em 2010, quase dois terços dos portugueses não podiam pagar uma semana de férias fora de casa. Em 2025, um terço",
+   "question": "Quantos portugueses não têm dinheiro para uma semana de férias por ano, e como mudou isso face à Europa?",
+   "finding": "A percentagem de pessoas em Portugal que vivem em agregados sem dinheiro para uma semana de férias por ano fora de casa caiu de 64,6% em 2010, o máximo da série, para 33,1% em 2025. É a sexta maior descida da UE (−31,5 pontos percentuais), mas Portugal continua acima da média europeia (27,5%), com o sexto valor mais alto.",
+   "context": "O inquérito europeu às condições de vida e rendimento (EU-SILC) pergunta aos agregados se conseguem pagar uma semana de férias por ano fora de casa, incluindo estadias em casa de familiares ou amigos. É um dos indicadores de privação material que o Eurostat usa para medir a pobreza para lá do rendimento. Portugal tem dados desde 2004.",
+   "interpretation": "A descida foi quase contínua desde 2013 (59,8%), com uma subida em 2022 e 2023, os anos de inflação mais alta. Em 2010, só a Roménia, a Croácia e a Hungria tinham valores mais altos; em 2025 estão pior a Roménia, a Grécia, a Bulgária, a Hungria e a Itália. Na Grécia, o valor de 2025 (46,6%) é praticamente o de 2010 (46,3%), depois de ter passado dos 50% em vários anos.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "ferias-privacao-ue-2010-2025"
+   },
+   "period": "2010 e 2025 (anos do inquérito)",
+   "unit": "Percentagem da população que vive em agregados sem capacidade para pagar uma semana de férias por ano fora de casa",
+   "sources": [
+    {
+     "name": "Eurostat — Inability to afford paying for one week annual holiday away from home (ilc_mdes02), EU-SILC",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_mdes02/default/table?lang=en",
+     "accessed": "2026-11-09"
+    },
+    {
+     "name": "Eurostat — API de difusão, ilc_mdes02",
+     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_mdes02?format=JSON&lang=EN&hhcomp=TOTAL&rskpovth=TOTAL&unit=PC",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "method": [
+    "EU-SILC, total da população (todos os tipos de agregado e níveis de rendimento). O indicador mede a capacidade financeira declarada pelo agregado, não se as pessoas fizeram férias. Os anos são os do inquérito. Dados descarregados da API do Eurostat (atualização de 20 de outubro de 2026) e guardados sem alterações em raw/ferias-ue/.",
+    "Comparação 2010–2025 porque 2010 é o primeiro ano com média da UE-27 (composição atual) e o máximo da série portuguesa, iniciada em 2004. Há quebras metodológicas pontuais em vários países ao longo do período (assinaladas pelo Eurostat); as posições são calculadas entre os 27 Estados-membros. Portugal tem uma quebra de série em 2021 e o valor da UE-27 em 2010 é uma estimativa do Eurostat; o Luxemburgo tem quebra em 2025 e o valor da Lituânia em 2025 é provisório."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-09",
+    "note": "API do Eurostat idêntica ao bruto; 27 países em 2010 e 2025 e a série portuguesa completa recalculados; definição do indicador conferida no guia EU-SILC. Acrescentadas ao método as quebras e estimativas assinaladas pelo Eurostat; precisada a frase sobre a Grécia."
+   }
+  },
+  {
+   "id": "livros-europa-1450-1800",
+   "slug": "livros-impressos-por-habitante-europa-1500-1800",
+   "kind": "descoberta",
+   "theme": "cultura",
+   "themeLabel": "Cultura e história",
+   "vizType": "barras",
+   "vizLabel": "Barras · 4 períodos, ordenação alternável",
+   "interactive": true,
+   "title": "Na segunda metade do século XVIII, os Países Baixos tinham quatro vezes mais livros por habitante do que a França ou a Alemanha",
+   "question": "Onde se liam mais livros na Europa depois da invenção da imprensa, e como mudou essa geografia?",
+   "finding": "Entre 1750 e 1800, os Países Baixos tinham cerca de 49 livros por 100 habitantes e por ano: quatro vezes a França e a Alemanha, 5,6 vezes a Itália e 17 vezes a Espanha. No início do século XVI estavam abaixo do total da Europa ocidental calculado pelos autores; na segunda metade desse século, a Suíça e a Itália ainda lideravam.",
+   "context": "Os historiadores económicos Eltjo Buringh e Jan Luiten van Zanden reconstituíram a produção de manuscritos e de livros impressos na Europa, do século VI ao XVIII, a partir de catálogos e bibliografias históricas. As estimativas, publicadas em 2009 e apresentadas pelos autores como valores mínimos, permitem comparar o número de livros por habitante em cada país, meio século a meio século.",
+   "interpretation": "A liderança mudou de lugar. A Itália, segunda na segunda metade do século XVI, caiu para sexto lugar dois séculos depois, enquanto os Países Baixos, a Suécia e a Grã-Bretanha passaram para a frente. Os autores usam os livros como indicador do capital humano no noroeste europeu, mas os números não provam causas, e as médias nacionais escondem regiões como o norte de Itália.",
+   "chart": {
+    "type": "bars",
+    "dataset": "livros-europa-1450-1800"
+   },
+   "period": "1500–1550, 1550–1600, 1650–1700 e 1750–1800 (médias de meio século)",
+   "unit": "Consumo anual estimado de livros impressos por 100 habitantes",
+   "sources": [
+    {
+     "name": "Eltjo Buringh e Jan Luiten van Zanden (2009), «Charting the \"Rise of the West\": Manuscripts and Printed Books in Europe», The Journal of Economic History 69(2), pp. 409–445",
+     "url": "https://doi.org/10.1017/S0022050709000837",
+     "accessed": "2026-11-09"
+    },
+    {
+     "name": "Our World in Data — owid-datasets, «Books - Buringh and Van Zanden (2009)» (cópia secundária, CC BY 4.0)",
+     "url": "https://github.com/owid/owid-datasets/tree/master/datasets/Books%20-%20Buringh%20and%20Van%20Zanden%20(2009)",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "method": [
+    "Série «Annual per capita consumption of books» do conjunto da Our World in Data que reproduz as estimativas de Buringh e van Zanden (2009), transcrita sem alterações em raw/livros-europa/; multiplicada por 100 para se ler como livros por 100 habitantes. Os anos 1525, 1575, 1675 e 1775 do ficheiro são os pontos médios de cada meio século. O artigo original não foi consultado diretamente nesta edição.",
+    "Os metadados da OWID descrevem a unidade da produção impressa como «título ou edição», mas os totais (centenas de milhões por meio século) indicam que a série de consumo resulta de títulos convertidos em exemplares com tiragens estimadas pelos autores; as comparações entre países no mesmo meio século são mais robustas do que as comparações entre períodos, que dependem também dessas tiragens. Os autores consideram as estimativas conservadoras, valores mínimos.",
+    "Fronteiras e agregados («Grã-Bretanha», «Países Baixos») são os dos autores. Portugal não aparece separado no conjunto de dados. Mostram-se 12 países; ficam de fora a categoria «outros países» e o total da Europa ocidental, porque o valor deste para 1750–1800 na cópia da OWID (12,24) é igual ao da Alemanha e não bate com a agregação dos países (cerca de 10); nos meios séculos anteriores, o total coincide com essa agregação."
+   ],
+   "verification": {
+    "status": "parcial",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-09",
+    "note": "Valores dos 12 países conferidos com a cópia da OWID e recalculados nos 7 meios séculos. Não foi possível consultar o artigo original; o total da Europa ocidental de 1750–1800 na OWID parece um erro de transcrição e foi retirado, e o título foi refeito para não depender dele."
+   }
+  }
+ ],
+ "chave": {
+  "id": "dificuldades-desejaveis",
+  "axis": "ciencia",
+  "axisLabel": "Ciência e tecnologia",
+  "certainty": "Consenso, com uma ressalva",
+  "title": "As dificuldades desejáveis",
+  "concept": "A ideia, proposta pelo psicólogo Robert Bjork em 1994, de que certas formas de estudar que tornam a aprendizagem mais lenta e trabalhosa no momento, como testar a memória, espaçar as revisões ou misturar matérias, deixam uma memória mais duradoura do que as formas fáceis.",
+  "lesson": [
+   "Em 2006, os psicólogos Henry Roediger e Jeffrey Karpicke pediram a estudantes que aprendessem um texto curto. Uns leram-no quatro vezes; outros leram-no uma vez e tentaram depois recordá-lo três vezes, sem o ver. Logo a seguir ao estudo, quem releu saía-se melhor. Uma semana depois, a vantagem invertera-se: recordavam 40% das ideias, contra 61%. E quem releu era o grupo mais confiante.",
+   "O mecanismo lembra um caminho no mato: é o esforço de o percorrer que o marca. Reler dá uma sensação de fluência, porque o texto parece familiar, mas reconhecer não é o mesmo que recordar. Obrigar a memória a ir buscar a informação, deixar passar tempo entre revisões ou alternar tipos de problemas custa mais e corre pior no momento, mas fortalece o acesso futuro.",
+   "O adjetivo «desejáveis» é a ressalva. Os Bjork sublinham que muitas dificuldades são apenas obstáculos: um texto mal escrito, ou uma matéria para a qual faltam bases, não ensina mais por ser difícil. A dificuldade só ajuda quando quem aprende consegue, com esforço, chegar à resposta. E a maior parte das provas vem da memória de factos e conceitos, em laboratório e em salas de aula."
+  ],
+  "diagram": {
+   "title": "Fácil hoje, esquecido daqui a uma semana",
+   "svg": "<svg viewBox=\"0 0 340 250\" role=\"img\" aria-label=\"Esquema: duas linhas ligam a memória cinco minutos depois do estudo à memória uma semana depois. Logo a seguir ao estudo, quem releu o texto quatro vezes recorda mais do que quem o leu uma vez e tentou recordá-lo três vezes. Uma semana depois, o primeiro grupo recorda 40% das ideias e o segundo 61%. As linhas cruzam-se: a vantagem inverte-se.\"><text x=\"0\" y=\"14\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" letter-spacing=\"1\">IDEIAS DO TEXTO RECORDADAS</text><line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"200\" stroke=\"var(--key-rule)\" stroke-width=\"1\"/><line x1=\"270\" y1=\"40\" x2=\"270\" y2=\"200\" stroke=\"var(--key-rule)\" stroke-width=\"1\"/><text x=\"70\" y=\"218\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">5 minutos depois</text><text x=\"270\" y=\"218\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">1 semana depois</text><circle cx=\"143\" cy=\"85\" r=\"16\" fill=\"rgba(200,144,42,.16)\"/><path d=\"M70 54 L270 140\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"2.4\"/><path d=\"M70 78 L270 98\" fill=\"none\" stroke=\"var(--key-acc)\" stroke-width=\"2.8\"/><circle cx=\"70\" cy=\"54\" r=\"4.5\" fill=\"var(--key-ink-2)\"/><circle cx=\"270\" cy=\"140\" r=\"4.5\" fill=\"var(--key-ink-2)\"/><circle cx=\"70\" cy=\"78\" r=\"4.5\" fill=\"var(--key-acc)\"/><circle cx=\"270\" cy=\"98\" r=\"4.5\" fill=\"var(--key-acc)\"/><text x=\"278\" y=\"144\" fill=\"var(--key-ink-2)\" font-size=\"11\" font-weight=\"600\">40%</text><text x=\"278\" y=\"102\" fill=\"var(--key-acc)\" font-size=\"11\" font-weight=\"600\">61%</text><text x=\"80\" y=\"40\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">reler 4 vezes</text><text x=\"170\" y=\"176\" text-anchor=\"middle\" fill=\"var(--key-acc)\" font-size=\"10.5\" font-weight=\"600\">ler 1 vez e recordar 3 vezes</text><text x=\"170\" y=\"242\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">A vantagem do mais fácil não sobrevive a uma semana</text></svg>",
+   "caption": "Esquema baseado na segunda experiência de Roediger e Karpicke (2006). Os valores a uma semana (40% e 61% das ideias do texto recordadas) são os do estudo; as posições à esquerda são ilustrativas: só indicam que, cinco minutos depois do estudo, o grupo que releu recordava mais."
+  },
+  "aside": "Em 2008, Nate Kornell e Robert Bjork mostraram a estudantes quadros de 12 pintores, uns agrupados por artista, outros misturados. Quem viu os quadros misturados reconheceu melhor o estilo de cada pintor em obras que nunca tinha visto. Mesmo assim, a maioria dos participantes considerou a apresentação agrupada tão eficaz ou mais eficaz do que a misturada.",
+  "application": "Aparece no estudo para exames, quando reler apontamentos parece produtivo e resolver testes parece frustrante; na formação de profissionais como pilotos ou médicos, em que a prática variada prepara melhor do que repetir sempre o mesmo exercício; na aprendizagem de línguas com revisões espaçadas; e nas empresas que avaliam formações pelo agrado dos participantes no fim da sessão.",
+  "motto": "Nem toda a dificuldade ensina, mas a facilidade engana.",
+  "sources": [
+   {
+    "name": "Henry L. Roediger e Jeffrey D. Karpicke (2006), «Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention», Psychological Science 17(3), 249–255",
+    "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+    "accessed": "2026-11-09"
+   },
+   {
+    "name": "Washington University in St. Louis — «Repeated testing better than repeated studying» (2006)",
+    "url": "https://source.washu.edu/2006/04/repeated-testing-better-than-repeated-studying/",
+    "accessed": "2026-11-09"
+   },
+   {
+    "name": "Robert A. Bjork e Elizabeth L. Bjork (2020), «Desirable difficulties in theory and practice», Journal of Applied Research in Memory and Cognition 9(4), 475–479",
+    "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2021/01/RABjorkELBjorkJARMAC2020ForPostingSingleSpaced.pdf",
+    "accessed": "2026-11-09"
+   },
+   {
+    "name": "Nate Kornell e Robert A. Bjork (2008), «Learning concepts and categories: Is spacing the \"enemy of induction\"?», Psychological Science 19(6), 585–592",
+    "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Kornell_Bjork_2008_PsychScience.pdf",
+    "accessed": "2026-11-09"
+   }
+  ],
+  "notes": [
+   "O termo surge em Bjork (1994), «Memory and metamemory considerations in the training of human beings», em J. Metcalfe e A. Shimamura (orgs.), Metacognition: Knowing about Knowing, MIT Press, pp. 185–205.",
+   "Grau de certeza: os efeitos de testagem, espaçamento e intercalação estão entre os mais replicados da psicologia da aprendizagem. A ressalva é a generalização: o benefício depende de o aprendiz conseguir responder, do tipo de material e do intervalo até à avaliação.",
+   "Os valores citados (40% e 61% uma semana depois) são os da segunda experiência do artigo, confirmados pelo comunicado da Universidade de Washington em St. Louis. A vantagem de quem releu no teste feito cinco minutos depois é descrita no resumo do artigo. O texto integral não foi consultado nesta edição."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-09",
+   "note": "Referências bibliográficas, eixo e voz conferidos; valores a uma semana, maior confiança de quem releu e desenho de Kornell e Bjork (2008) confirmados por pesquisa. Retirados os valores aos cinco minutos (não confirmados em fonte acessível) e moderada a frase do «Já agora»."
+  }
+ }
+}

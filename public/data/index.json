@@ -1,8 +1,118 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-06T07:35:25.279Z",
- "latest": "2026-11-06",
+ "updated": "2026-11-09T07:42:28.679Z",
+ "latest": "2026-11-09",
  "editions": [
+  {
+   "date": "2026-11-09",
+   "number": 5,
+   "lead": "credito-habitacao-crescimento-2026",
+   "opening": "Cinco histórias para começar a semana: o crédito à habitação a crescer como nunca, o CO₂ no dia em que abre a COP31, a inteligência artificial que tarda a entrar nas empresas portuguesas, as férias fora de casa ao alcance de mais portugueses do que em 2010 e os livros que mudaram de geografia na Europa moderna.",
+   "pieces": [
+    {
+     "id": "credito-habitacao-crescimento-2026",
+     "title": "O crédito à habitação cresce 11% ao ano em Portugal, quase quatro vezes o ritmo da zona euro",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia e mercados",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cursor por rato e teclado",
+     "interactive": true,
+     "question": "A que velocidade cresce o crédito para comprar casa em Portugal, comparado com o passado e com a zona euro?",
+     "finding": "Em setembro de 2026, os empréstimos dos bancos às famílias para compra de casa cresciam 11,1% ao ano, a taxa mais alta desde o início da série, em 2004, e 3,7 vezes a da zona euro (3,0%). Em dezembro de 2023 encolhiam 1,3%. O montante em dívida, 122,4 mil milhões de euros, ultrapassou em março o máximo de 2011.",
+     "period": "Janeiro de 2004 a setembro de 2026 (dados mensais)",
+     "dataset": "credito-habitacao-crescimento-2026",
+     "sourceNames": [
+      "Banco Central Europeu — Data Portal, BSI: empréstimos às famílias para aquisição de habitação, Portugal e zona euro (dados de Portugal compilados pelo Banco de Portugal)",
+      "Banco Central Europeu — série BSI.M.PT.N.A.A22.A.I.U2.2250.Z01.A (API)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "co2-atmosfera-cop31",
+     "title": "Desde a primeira COP, o CO₂ no ar subiu mais do que nos 36 anos anteriores, e cada vez mais depressa",
+     "kind": "atualidade",
+     "theme": "ambiente",
+     "themeLabel": "Ambiente e clima",
+     "vizType": "barras",
+     "vizLabel": "Colunas · detalhe por ano",
+     "interactive": true,
+     "question": "Trinta anos de conferências do clima abrandaram a acumulação de CO₂ na atmosfera?",
+     "finding": "Entre 1959 e 1995, ano da primeira COP, a concentração média de CO₂ em Mauna Loa subiu 45,0 partes por milhão (ppm). Entre 1995 e 2025 subiu 66,4 ppm. O aumento médio anual passou de 0,86 ppm nos anos 1960 para 2,63 ppm entre 2016 e 2025, e o maior aumento da série foi em 2024: 3,53 ppm.",
+     "period": "1959 a 2025 (médias anuais)",
+     "dataset": "co2-atmosfera-cop31",
+     "sourceNames": [
+      "NOAA Global Monitoring Laboratory e Scripps Institution of Oceanography — CO₂ em Mauna Loa, médias anuais (domínio público)",
+      "Datasets — co2-ppm, co2-annmean-mlo.csv (cópia em CSV da série da NOAA, licença ODC-PDDL)",
+      "UNFCCC — COP31, Antália, 9 a 20 de novembro de 2026"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "ia-empresas-ue-2021-2025",
+     "title": "Em 2021, as empresas portuguesas usavam inteligência artificial quase tanto como as europeias. Em 2025 ficaram para trás",
+     "kind": "descoberta",
+     "theme": "tecnologia",
+     "themeLabel": "Tecnologia e IA",
+     "vizType": "halteres",
+     "vizLabel": "Halteres · ordenação alternável",
+     "interactive": true,
+     "question": "Portugal acompanhou a entrada da inteligência artificial nas empresas europeias?",
+     "finding": "Em 2021, 7,2% das empresas portuguesas com 10 ou mais pessoas usavam pelo menos uma tecnologia de IA, contra 7,7% na UE. Em 2025, a média europeia chegou a 20,0% e Portugal a 11,5%. O país desceu do 14.º para o 21.º lugar entre os 27, com o segundo menor aumento, depois da Roménia.",
+     "period": "2021, 2024 e 2025",
+     "dataset": "ia-empresas-ue-2021-2025",
+     "sourceNames": [
+      "Eurostat — Artificial intelligence by size class of enterprise (isoc_eb_ai)",
+      "Eurostat — API de difusão, isoc_eb_ai (indicador E_AI_TANY)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "ferias-privacao-ue-2010-2025",
+     "title": "Em 2010, quase dois terços dos portugueses não podiam pagar uma semana de férias fora de casa. Em 2025, um terço",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade",
+     "vizType": "halteres",
+     "vizLabel": "Halteres · ordenação alternável",
+     "interactive": true,
+     "question": "Quantos portugueses não têm dinheiro para uma semana de férias por ano, e como mudou isso face à Europa?",
+     "finding": "A percentagem de pessoas em Portugal que vivem em agregados sem dinheiro para uma semana de férias por ano fora de casa caiu de 64,6% em 2010, o máximo da série, para 33,1% em 2025. É a sexta maior descida da UE (−31,5 pontos percentuais), mas Portugal continua acima da média europeia (27,5%), com o sexto valor mais alto.",
+     "period": "2010 e 2025 (anos do inquérito)",
+     "dataset": "ferias-privacao-ue-2010-2025",
+     "sourceNames": [
+      "Eurostat — Inability to afford paying for one week annual holiday away from home (ilc_mdes02), EU-SILC",
+      "Eurostat — API de difusão, ilc_mdes02"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "livros-europa-1450-1800",
+     "title": "Na segunda metade do século XVIII, os Países Baixos tinham quatro vezes mais livros por habitante do que a França ou a Alemanha",
+     "kind": "descoberta",
+     "theme": "cultura",
+     "themeLabel": "Cultura e história",
+     "vizType": "barras",
+     "vizLabel": "Barras · 4 períodos, ordenação alternável",
+     "interactive": true,
+     "question": "Onde se liam mais livros na Europa depois da invenção da imprensa, e como mudou essa geografia?",
+     "finding": "Entre 1750 e 1800, os Países Baixos tinham cerca de 49 livros por 100 habitantes e por ano: quatro vezes a França e a Alemanha, 5,6 vezes a Itália e 17 vezes a Espanha. No início do século XVI estavam abaixo do total da Europa ocidental calculado pelos autores; na segunda metade desse século, a Suíça e a Itália ainda lideravam.",
+     "period": "1500–1550, 1550–1600, 1650–1700 e 1750–1800 (médias de meio século)",
+     "dataset": "livros-europa-1450-1800",
+     "sourceNames": [
+      "Eltjo Buringh e Jan Luiten van Zanden (2009), «Charting the \"Rise of the West\": Manuscripts and Printed Books in Europe», The Journal of Economic History 69(2), pp. 409–445",
+      "Our World in Data — owid-datasets, «Books - Buringh and Van Zanden (2009)» (cópia secundária, CC BY 4.0)"
+     ],
+     "verification": "parcial"
+    }
+   ],
+   "chave": {
+    "id": "dificuldades-desejaveis",
+    "title": "As dificuldades desejáveis",
+    "axis": "ciencia",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-06",
    "number": 4,
