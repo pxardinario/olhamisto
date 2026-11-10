@@ -1,8 +1,115 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-09T07:42:28.679Z",
- "latest": "2026-11-09",
+ "updated": "2026-11-10T07:44:21.477Z",
+ "latest": "2026-11-10",
  "editions": [
+  {
+   "date": "2026-11-10",
+   "number": 6,
+   "lead": "empresas-natalidade-sobrevivencia-ue",
+   "opening": "Cinco histórias para terça-feira: as empresas que nascem e morrem depressa em Portugal, as casas que se afastaram das rendas, a amêndoa que pôs o país em segundo lugar na UE, um Congresso americano cada vez mais velho e o Leste alemão 35 anos depois da reunificação.",
+   "pieces": [
+    {
+     "id": "empresas-natalidade-sobrevivencia-ue",
+     "title": "Em Portugal nascem empresas a um ritmo raro na Europa. Menos de metade chega aos três anos",
+     "kind": "atualidade",
+     "theme": "empreendedorismo",
+     "themeLabel": "Empreendedorismo",
+     "vizType": "dispersao",
+     "vizLabel": "Dispersão · 27 países",
+     "interactive": true,
+     "question": "Portugal cria muitas empresas, mas quantas sobrevivem aos primeiros anos?",
+     "finding": "Por cada 100 empresas ativas em Portugal, nasceram 14,4 em 2021 e 16,1 em 2024, a segunda taxa mais alta da UE nesse ano (UE: 10,4). Mas só 47,7% das empresas nascidas em 2021 ainda estavam ativas em 2024, contra 57,2% na UE. Só a Lituânia (43,5%) e a Dinamarca (45,4%) tiveram uma sobrevivência mais baixa.",
+     "period": "Empresas nascidas em 2021, seguidas até 2024 (taxa de natalidade de 2024 citada no texto)",
+     "dataset": "empresas-natalidade-sobrevivencia-ue",
+     "sourceNames": [
+      "Eurostat — Business demography by size class and NACE Rev. 2 activity (bd_size)",
+      "Eurostat — API, bd_size, indicadores ENT_BRTHR_PC, ENT_DTHR_PC, ENT_SRVLR_BRTH_PC e ENT_SRVLR_BRTH_CHB_PC"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "casas-rendas-ue-2015-2025",
+     "title": "Desde 2015, as casas subiram 164% em Portugal e as rendas 36%. Em nenhum país da UE comprar se afastou tanto de arrendar",
+     "kind": "descoberta",
+     "theme": "economia",
+     "themeLabel": "Economia e habitação",
+     "vizType": "barras",
+     "vizLabel": "Barras · 3 vistas, ordenação alternável",
+     "interactive": true,
+     "question": "Os preços das casas e as rendas subiram ao mesmo ritmo em Portugal e na Europa?",
+     "finding": "Entre 2015 e 2025, o índice de preços da habitação subiu 163,9% em Portugal e o índice das rendas pagas pelos inquilinos 36,4%. O rácio entre o preço das casas e a renda subiu 93,5%, o maior afastamento entre os 26 países da UE com dados (UE: 34,3%). Só a Hungria teve uma subida maior nos preços de compra (266,6%).",
+     "period": "2015 a 2025 (médias anuais)",
+     "dataset": "casas-rendas-ue-2015-2025",
+     "sourceNames": [
+      "Eurostat — House price index, annual data (prc_hpi_a)",
+      "Eurostat — HICP, annual data (prc_hicp_aind), rubrica 04.1 «Actual rentals for housing» e índice total"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "amendoa-portugal-2000-2025",
+     "title": "Em nove anos, Portugal multiplicou por nove a produção de amêndoa e passou a Itália",
+     "kind": "descoberta",
+     "theme": "agricultura",
+     "themeLabel": "Agricultura e território",
+     "vizType": "barras",
+     "vizLabel": "Colunas · 2 vistas",
+     "interactive": true,
+     "question": "Quanto cresceu a amêndoa em Portugal, e onde fica o país na Europa?",
+     "finding": "Portugal colheu 90,8 mil toneladas de amêndoa em 2024, nove vezes as 10,1 mil de 2015, numa área 2,4 vezes maior (de 30,2 para 73,8 mil hectares). Ultrapassou a Itália e tornou-se o segundo produtor da UE, com 15,9% do total, atrás de Espanha (369,7 mil toneladas). Para 2025, o valor provisório é de 86,2 mil toneladas.",
+     "period": "2000 a 2025 (2025 provisório)",
+     "dataset": "amendoa-portugal-2000-2025",
+     "sourceNames": [
+      "Eurostat — Crop production in EU standard humidity (apro_cpsh1), amêndoa (F4300); dados de Portugal transmitidos pelo INE"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "congresso-eua-idade-1919-2023",
+     "title": "O Senado dos EUA nunca foi tão velho: idade mediana de 65 anos em 2023, mais 14 do que em 1981",
+     "kind": "atualidade",
+     "theme": "politica",
+     "themeLabel": "Política internacional",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Os membros do Congresso dos EUA estão mais velhos do que no passado?",
+     "finding": "No primeiro dia do Congresso que começou em 2023, a idade mediana dos senadores era de 65,3 anos, a mais alta desde 1919 e mais 13,6 anos do que em 1981. Na Câmara dos Representantes, a mediana passou de 48,5 para 57,8 anos. A parte de membros com 70 anos ou mais subiu de 3,5% para 19,8%.",
+     "period": "66.º Congresso (1919) a 118.º Congresso (2023)",
+     "dataset": "congresso-eua-idade-1919-2023",
+     "sourceNames": [
+      "FiveThirtyEight — congress-demographics, data_aging_congress.csv (dados do Biographical Directory of the United States Congress e de VoteView; CC BY 4.0)",
+      "FiveThirtyEight — Geoffrey Skelley, «Congress Today Is Older Than It's Ever Been» (3/4/2023)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "alemanha-leste-populacao-1990-2025",
+     "title": "Desde 1990, o Leste da Alemanha perdeu 18% dos habitantes. O Oeste ganhou 11%",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História e geopolítica",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Como mudou a população dos dois lados da antiga fronteira alemã desde a reunificação?",
+     "finding": "Entre 1990 e 2025, os cinco estados do Leste (sem Berlim) passaram de 15,2 para 12,4 milhões de habitantes, menos 18,1%, enquanto os dez do Oeste ganharam 11,5% e Berlim 8,4%. A Saxónia-Anhalt perdeu 28,0%. Desde 2014, a população do Leste quase não mudou.",
+     "period": "1 de janeiro de 1990 a 1 de janeiro de 2025",
+     "dataset": "alemanha-leste-populacao-1990-2025",
+     "sourceNames": [
+      "Eurostat — Population on 1 January by age, sex and NUTS 2 region (demo_r_d2jan), regiões NUTS 1 da Alemanha; dados do Destatis"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "lei-de-parkinson",
+    "title": "A lei de Parkinson",
+    "axis": "sabedoria",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-09",
    "number": 5,

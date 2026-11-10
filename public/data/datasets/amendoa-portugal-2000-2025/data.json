@@ -1,0 +1,253 @@
+{
+ "rows": [
+  {
+   "cat": "2000",
+   "prod": 16.74,
+   "area": 37.92,
+   "yield": 0.44
+  },
+  {
+   "cat": "2001",
+   "prod": 14.27,
+   "area": 36.9,
+   "yield": 0.39
+  },
+  {
+   "cat": "2002",
+   "prod": 17.76,
+   "area": 35.72,
+   "yield": 0.5
+  },
+  {
+   "cat": "2003",
+   "prod": 13.82,
+   "area": 34.71,
+   "yield": 0.4
+  },
+  {
+   "cat": "2004",
+   "prod": 12.14,
+   "area": 34.24,
+   "yield": 0.35
+  },
+  {
+   "cat": "2005",
+   "prod": 11.74,
+   "area": 33.76,
+   "yield": 0.35
+  },
+  {
+   "cat": "2006",
+   "prod": 10.36,
+   "area": 33.16,
+   "yield": 0.31
+  },
+  {
+   "cat": "2007",
+   "prod": 9.16,
+   "area": 30.05,
+   "yield": 0.3
+  },
+  {
+   "cat": "2008",
+   "prod": 7.37,
+   "area": 28.54,
+   "yield": 0.26
+  },
+  {
+   "cat": "2009",
+   "prod": 9.15,
+   "area": 26.84,
+   "yield": 0.34
+  },
+  {
+   "cat": "2010",
+   "prod": 7.01,
+   "area": 26.84,
+   "yield": 0.26
+  },
+  {
+   "cat": "2011",
+   "prod": 7.68,
+   "area": 26.88,
+   "yield": 0.29
+  },
+  {
+   "cat": "2012",
+   "prod": 7.18,
+   "area": 27.19,
+   "yield": 0.26
+  },
+  {
+   "cat": "2013",
+   "prod": 4.45,
+   "area": 28.48,
+   "yield": 0.16
+  },
+  {
+   "cat": "2014",
+   "prod": 9.03,
+   "area": 28.87,
+   "yield": 0.31
+  },
+  {
+   "cat": "2015",
+   "prod": 10.09,
+   "area": 30.15,
+   "yield": 0.33
+  },
+  {
+   "cat": "2016",
+   "prod": 8.71,
+   "area": 31.46,
+   "yield": 0.28
+  },
+  {
+   "cat": "2017",
+   "prod": 23.05,
+   "area": 33.4,
+   "yield": 0.69
+  },
+  {
+   "cat": "2018",
+   "prod": 17.12,
+   "area": 38.68,
+   "yield": 0.44
+  },
+  {
+   "cat": "2019",
+   "prod": 32.3,
+   "area": 49.35,
+   "yield": 0.65
+  },
+  {
+   "cat": "2020",
+   "prod": 31.61,
+   "area": 52.34,
+   "yield": 0.6
+  },
+  {
+   "cat": "2021",
+   "prod": 41.45,
+   "area": 58.4,
+   "yield": 0.71
+  },
+  {
+   "cat": "2022",
+   "prod": 46.22,
+   "area": 63.88,
+   "yield": 0.72
+  },
+  {
+   "cat": "2023",
+   "prod": 69.51,
+   "area": 71.69,
+   "yield": 0.97
+  },
+  {
+   "cat": "2024",
+   "prod": 90.76,
+   "area": 73.77,
+   "yield": 1.23
+  },
+  {
+   "cat": "2025",
+   "prod": 86.22,
+   "area": 73.77,
+   "yield": 1.17
+  }
+ ],
+ "views": [
+  {
+   "id": "prod",
+   "label": "Produção",
+   "yLabel": "Produção de amêndoa em Portugal (milhares de toneladas)",
+   "unit": " mil t",
+   "decimals": 1,
+   "labelEvery": 5,
+   "labelEveryNarrow": 5,
+   "series": [
+    {
+     "key": "prod",
+     "label": "Produção",
+     "color": "--accent"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "area",
+     "label": "Área",
+     "suffix": " mil ha"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2013",
+     "text": "2013: 4,5 mil t",
+     "short": "4,5"
+    },
+    {
+     "cat": "2024",
+     "text": "2024: 90,8 mil t",
+     "short": "90,8"
+    }
+   ]
+  },
+  {
+   "id": "area",
+   "label": "Área",
+   "yLabel": "Área de amendoal em Portugal (milhares de hectares)",
+   "unit": " mil ha",
+   "decimals": 1,
+   "labelEvery": 5,
+   "labelEveryNarrow": 5,
+   "series": [
+    {
+     "key": "area",
+     "label": "Área",
+     "color": "--accent"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "prod",
+     "label": "Produção",
+     "suffix": " mil t"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2010",
+     "text": "2010: 26,8 mil ha",
+     "short": "26,8"
+    },
+    {
+     "cat": "2024",
+     "text": "2024: 73,8 mil ha",
+     "short": "73,8"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "prod": {
+   "y2000": 16.74,
+   "y2013": 4.45,
+   "y2015": 10.09,
+   "y2024": 90.76,
+   "y2025": 86.22
+  },
+  "area": {
+   "y2000": 37.92,
+   "y2010": 26.84,
+   "y2015": 30.15,
+   "y2024": 73.77
+  },
+  "eu2024": {
+   "ES": 369.7,
+   "PT": 90.76,
+   "IT": 74.96,
+   "EU": 570.72
+  }
+ }
+}

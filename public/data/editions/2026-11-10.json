@@ -1,0 +1,286 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-10",
+ "number": 6,
+ "status": "publicada",
+ "opening": "Cinco histórias para terça-feira: as empresas que nascem e morrem depressa em Portugal, as casas que se afastaram das rendas, a amêndoa que pôs o país em segundo lugar na UE, um Congresso americano cada vez mais velho e o Leste alemão 35 anos depois da reunificação.",
+ "lead": "empresas-natalidade-sobrevivencia-ue",
+ "generatedAt": "2026-11-10T09:30:00Z",
+ "limitations": [
+  "Candidata rejeitada: altura média dos europeus por geração, 1896–1996 (NCD-RisC, via Our World in Data). Não foi possível confirmar a licença dos dados neste ambiente: o sítio ncdrisc.org e a revista eLife não estão acessíveis.",
+  "Candidata rejeitada: castanha no São Martinho (Eurostat). A área de castanheiro em Portugal salta de 41 para 52 mil hectares em 2019 sem salto equivalente na produção, o que parece efeito de método por confirmar; a produção oscila sem tendência clara.",
+  "Candidata rejeitada: abandono escolar precoce em Portugal e na UE (Eurostat). Seria a terceira peça do tipo «Portugal comparado com a Europa», acima do limite de duas por edição.",
+  "Candidata rejeitada: taxas de juro dos depósitos em Portugal e na zona euro (BCE). Tema demasiado próximo da peça sobre crédito à habitação de 9 de novembro.",
+  "Candidata rejeitada: utilização de IA generativa pelas pessoas na UE (Eurostat). Tema próximo da peça sobre IA nas empresas de 9 de novembro; fica na lista de espera.",
+  "Candidata rejeitada: fecundidade abaixo do nível de substituição no mundo (Banco Mundial). Sem tempo para a verificação nesta edição; fica na lista de espera.",
+  "Candidatas adiadas: resultados das intercalares dos EUA de 3 de novembro (ainda sem resultados certificados numa fonte primária acessível); revisão da população pelo INE (a API do INE recusou a ligação nesta execução).",
+  "Nesta execução, a API do INE e o grapher da Our World in Data não responderam pela linha de comandos, e o WebFetch não chegou a ncdrisc.org nem a elifesciences.org."
+ ],
+ "pieces": [
+  {
+   "id": "empresas-natalidade-sobrevivencia-ue",
+   "slug": "empresas-nascimento-sobrevivencia-tres-anos-portugal-ue-2021-2024",
+   "kind": "atualidade",
+   "theme": "empreendedorismo",
+   "themeLabel": "Empreendedorismo",
+   "vizType": "dispersao",
+   "vizLabel": "Dispersão · 27 países",
+   "interactive": true,
+   "title": "Em Portugal nascem empresas a um ritmo raro na Europa. Menos de metade chega aos três anos",
+   "question": "Portugal cria muitas empresas, mas quantas sobrevivem aos primeiros anos?",
+   "finding": "Por cada 100 empresas ativas em Portugal, nasceram 14,4 em 2021 e 16,1 em 2024, a segunda taxa mais alta da UE nesse ano (UE: 10,4). Mas só 47,7% das empresas nascidas em 2021 ainda estavam ativas em 2024, contra 57,2% na UE. Só a Lituânia (43,5%) e a Dinamarca (45,4%) tiveram uma sobrevivência mais baixa.",
+   "context": "Até quinta-feira, a Web Summit reúne em Lisboa fundadores e investidores de empresas novas. As estatísticas da demografia das empresas do Eurostat mostram o outro lado da criação de empresas: quantas fecham nos primeiros anos. A série atual, harmonizada entre os 27 países, começa em 2021 e acompanha cada geração de empresas recém-nascidas até ao terceiro ano de vida.",
+   "interpretation": "Natalidade alta e sobrevivência baixa aparecem muitas vezes juntas: em 2021, sete países, Portugal incluído, combinaram natalidade acima da média da UE e sobrevivência abaixo. Nos Países Baixos, quase oito em cada dez empresas (78,1%) chegam aos três anos; na Bélgica, três em cada quatro. Os dados contam empresas, não empregos, e não dizem porque fecham: um encerramento pode ser uma falência ou o fim voluntário de uma atividade.",
+   "chart": {
+    "type": "scatter",
+    "dataset": "empresas-natalidade-sobrevivencia-ue"
+   },
+   "period": "Empresas nascidas em 2021, seguidas até 2024 (taxa de natalidade de 2024 citada no texto)",
+   "unit": "Percentagem: nascimentos em % das empresas ativas; sobreviventes em % das nascidas",
+   "sources": [
+    {
+     "name": "Eurostat — Business demography by size class and NACE Rev. 2 activity (bd_size)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/bd_size/default/table",
+     "accessed": "2026-11-10"
+    },
+    {
+     "name": "Eurostat — API, bd_size, indicadores ENT_BRTHR_PC, ENT_DTHR_PC, ENT_SRVLR_BRTH_PC e ENT_SRVLR_BRTH_CHB_PC",
+     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bd_size?format=JSON&lang=EN&nace_r2=B-S_X_O_S94&sizeclas=TOTAL&indic_sbs=ENT_BRTHR_PC&indic_sbs=ENT_SRVLR_BRTH_PC&indic_sbs=ENT_DTHR_PC&indic_sbs=ENT_SRVLR_BRTH_CHB_PC",
+     "accessed": "2026-11-10"
+    }
+   ],
+   "method": [
+    "Taxa de natalidade: empresas nascidas no ano em percentagem das empresas ativas nesse ano. Sobrevivência a três anos: empresas nascidas em 2021 ainda ativas em 2024, em percentagem das nascidas em 2021. Universo: indústria, construção e serviços de mercado (exceto administração pública e organizações associativas), todas as dimensões, incluindo empresas sem pessoal ao serviço.",
+    "Um nascimento é a criação de uma empresa nova; não conta fusões, cisões nem reestruturações. Do mesmo modo, uma morte não inclui saídas por fusão ou aquisição. A série harmonizada começa em 2021, com quebra de série assinalada em Portugal nesse ano, e não é comparável com a série anterior (2004–2020).",
+    "A sobrevivência a três anos só existe, nesta série, para a geração de 2021. A taxa de mortalidade de 2024 é provisória na UE e estimada e provisória em Portugal (11,8%, contra 9,2%). O ponto da UE-27 é o agregado publicado pelo Eurostat, não a média simples dos países. A taxa de natalidade de 2021 da Estónia (25,4%) tem quebra de série e definição diferente assinaladas pelo Eurostat."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-10",
+    "note": "84 valores do gráfico e 16 números do texto recalculados a partir do Eurostat bd_size (descarregado de novo, idêntico ao bruto). Corrigidas a afirmação sobre a Bélgica (74,9%) e a definição dos sete países (natalidade de 2021); acrescentada a quebra da Estónia."
+   }
+  },
+  {
+   "id": "casas-rendas-ue-2015-2025",
+   "slug": "precos-casas-rendas-portugal-ue-2015-2025",
+   "kind": "descoberta",
+   "theme": "economia",
+   "themeLabel": "Economia e habitação",
+   "vizType": "barras",
+   "vizLabel": "Barras · 3 vistas, ordenação alternável",
+   "interactive": true,
+   "title": "Desde 2015, as casas subiram 164% em Portugal e as rendas 36%. Em nenhum país da UE comprar se afastou tanto de arrendar",
+   "question": "Os preços das casas e as rendas subiram ao mesmo ritmo em Portugal e na Europa?",
+   "finding": "Entre 2015 e 2025, o índice de preços da habitação subiu 163,9% em Portugal e o índice das rendas pagas pelos inquilinos 36,4%. O rácio entre o preço das casas e a renda subiu 93,5%, o maior afastamento entre os 26 países da UE com dados (UE: 34,3%). Só a Hungria teve uma subida maior nos preços de compra (266,6%).",
+   "context": "Os preços das casas medem quanto custa comprar; as rendas, quanto custa usar uma casa sem a comprar. Quando os dois sobem ao mesmo ritmo, a relação entre comprar e arrendar mantém-se. O Eurostat publica os dois índices para quase todos os países da UE com a mesma base, 2015, o que permite medir quanto a compra se afastou do arrendamento numa década.",
+   "interpretation": "Em Portugal, as rendas pagas subiram mais do que a inflação geral (24,8%), mas muito menos do que os preços de compra: com 2015 como base, o índice das casas vale hoje 1,9 vezes o das rendas. Parte do afastamento é estatística, porque o índice de rendas inclui contratos antigos, que sobem devagar. Ainda assim, nenhum outro país da UE mostra uma distância tão grande.",
+   "chart": {
+    "type": "bars",
+    "dataset": "casas-rendas-ue-2015-2025"
+   },
+   "period": "2015 a 2025 (médias anuais)",
+   "unit": "Variação percentual dos índices (2015 = 100)",
+   "sources": [
+    {
+     "name": "Eurostat — House price index, annual data (prc_hpi_a)",
+     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hpi_a?format=JSON&lang=EN&purchase=TOTAL&unit=I15_A_AVG",
+     "accessed": "2026-11-10"
+    },
+    {
+     "name": "Eurostat — HICP, annual data (prc_hicp_aind), rubrica 04.1 «Actual rentals for housing» e índice total",
+     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_aind?format=JSON&lang=EN&coicop=CP041&unit=INX_A_AVG&sinceTimePeriod=2015",
+     "accessed": "2026-11-10"
+    }
+   ],
+   "method": [
+    "Preços das casas: índice de preços da habitação do Eurostat (compras de habitações novas e existentes, a preços de mercado), média anual, 2015 = 100. Rendas: rubrica 04.1 do índice harmonizado de preços no consumidor (rendas efetivamente pagas pelos inquilinos pela habitação), média anual, 2015 = 100.",
+    "«Casas face às rendas» = (índice de preços da habitação ÷ índice de rendas − 1) × 100. Mede quanto mudou o rácio entre preço e renda desde 2015, não o seu nível: não diz se as casas são caras face às rendas, só quanto essa relação se alterou.",
+    "O índice de rendas do IHPC acompanha todos os contratos em vigor, não só os novos; por isso sobe mais devagar do que as rendas pedidas no mercado, e o afastamento medido aqui é maior do que o que enfrenta quem procura casa hoje para arrendar. Inflação geral: IHPC total (Portugal 2025: 124,83; UE: 132,86).",
+    "A Grécia não tem índice de preços da habitação no Eurostat. Valores provisórios da Hungria (2024, 2025) e de Malta (2025); quebra de série na Bulgária e em Chipre. UE-27: agregado publicado pelo Eurostat."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-10",
+    "note": "84 valores do gráfico e 12 números do texto recalculados a partir de prc_hpi_a e prc_hicp_aind (CP041, CP00), descarregados de novo e idênticos aos brutos; ordenação, sinais de série e escalas conferidos. Reformulado o finding para falar do rácio preço/renda."
+   }
+  },
+  {
+   "id": "amendoa-portugal-2000-2025",
+   "slug": "amendoa-producao-area-portugal-2000-2025",
+   "kind": "descoberta",
+   "theme": "agricultura",
+   "themeLabel": "Agricultura e território",
+   "vizType": "barras",
+   "vizLabel": "Colunas · 2 vistas",
+   "interactive": true,
+   "title": "Em nove anos, Portugal multiplicou por nove a produção de amêndoa e passou a Itália",
+   "question": "Quanto cresceu a amêndoa em Portugal, e onde fica o país na Europa?",
+   "finding": "Portugal colheu 90,8 mil toneladas de amêndoa em 2024, nove vezes as 10,1 mil de 2015, numa área 2,4 vezes maior (de 30,2 para 73,8 mil hectares). Ultrapassou a Itália e tornou-se o segundo produtor da UE, com 15,9% do total, atrás de Espanha (369,7 mil toneladas). Para 2025, o valor provisório é de 86,2 mil toneladas.",
+   "context": "Durante a primeira década do século, a amêndoa foi uma cultura em declínio em Portugal: a área caiu de 37,9 mil hectares em 2000 para 26,8 mil em 2010, e a colheita de 2013 ficou-se pelas 4,5 mil toneladas. A partir de meados da década seguinte, a tendência inverteu-se. As estatísticas agrícolas que o INE transmite ao Eurostat medem a escala da mudança.",
+   "interpretation": "A produção cresceu muito mais depressa do que a área: as colheitas por hectare passaram de 0,33 toneladas em 2015 para 1,23 em 2024. Uma explicação provável é a entrada em produção de pomares novos, que só dão colheitas plenas alguns anos depois de plantados, mas os dados não distinguem pomares por idade nem por regime de rega. Em 2015, Portugal produzia 3,2% da amêndoa da UE.",
+   "chart": {
+    "type": "columns",
+    "dataset": "amendoa-portugal-2000-2025"
+   },
+   "period": "2000 a 2025 (2025 provisório)",
+   "unit": "Milhares de toneladas (produção) e milhares de hectares (área)",
+   "sources": [
+    {
+     "name": "Eurostat — Crop production in EU standard humidity (apro_cpsh1), amêndoa (F4300); dados de Portugal transmitidos pelo INE",
+     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/apro_cpsh1?format=JSON&lang=EN&geo=PT&geo=ES&geo=IT&geo=FR&geo=EL&geo=EU27_2020&crops=F4300&crops=F4400&strucpro=AR_THS_HA&strucpro=HPRD_HUMD_EU_THS_T&strucpro=YLD_HUMD_EU_T_HA",
+     "accessed": "2026-11-10"
+    }
+   ],
+   "method": [
+    "Área e produção colhida de amêndoa (código F4300) na base de dados de produção vegetal do Eurostat, com a produção à humidade normalizada da UE. Valores de Portugal de 2025 provisórios; nos dados provisórios, a área de 2025 é igual à de 2024.",
+    "Produção por hectare = produção ÷ área (cálculo próprio, não o rendimento publicado). Se a área incluir pomares ainda sem produção, o valor por hectare fica subestimado nos anos de plantação intensa.",
+    "Posição na UE: Portugal, Espanha, Itália, Grécia e França somam quase toda a produção da UE-27 em 2023–2025 (os restantes países, menos de 2,4 mil toneladas por ano). Em 2023, a Itália ainda produzia mais do que Portugal (77,7 contra 69,5 mil toneladas)."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-10",
+    "note": "78 valores do gráfico e 16 números do texto recalculados a partir de apro_cpsh1 (descarregado de novo, idêntico ao bruto), incluindo quotas e posição na UE em 2023–2025. Título corrigido para «nove anos»; 2025 assinalado como provisório no gráfico."
+   }
+  },
+  {
+   "id": "congresso-eua-idade-1919-2023",
+   "slug": "idade-mediana-congresso-senado-eua-1919-2023",
+   "kind": "atualidade",
+   "theme": "politica",
+   "themeLabel": "Política internacional",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cursor por rato e teclado",
+   "interactive": true,
+   "title": "O Senado dos EUA nunca foi tão velho: idade mediana de 65 anos em 2023, mais 14 do que em 1981",
+   "question": "Os membros do Congresso dos EUA estão mais velhos do que no passado?",
+   "finding": "No primeiro dia do Congresso que começou em 2023, a idade mediana dos senadores era de 65,3 anos, a mais alta desde 1919 e mais 13,6 anos do que em 1981. Na Câmara dos Representantes, a mediana passou de 48,5 para 57,8 anos. A parte de membros com 70 anos ou mais subiu de 3,5% para 19,8%.",
+   "context": "A 3 de novembro, os americanos elegeram toda a Câmara dos Representantes e cerca de um terço do Senado do Congresso que começa em janeiro. A FiveThirtyEight reuniu a data de nascimento de todos os membros com direito de voto desde 1919, a partir do diretório biográfico oficial do Congresso, e calculou a idade de cada um no primeiro dia de cada legislatura, até à que começou em 2023.",
+   "interpretation": "O envelhecimento não foi constante: entre 1919 e 1981, a idade mediana do Congresso subiu e desceu mais de uma vez, até ao mínimo da série, 49,3 anos, em 1981. A subida concentrou-se nas quatro décadas seguintes e foi maior no Senado. A mediana descreve o membro do meio, não os extremos. Os dados não incluem os Congressos eleitos em 2024 e em 2026.",
+   "chart": {
+    "type": "lines",
+    "dataset": "congresso-eua-idade-1919-2023"
+   },
+   "period": "66.º Congresso (1919) a 118.º Congresso (2023)",
+   "unit": "Idade mediana no primeiro dia de cada Congresso (anos)",
+   "sources": [
+    {
+     "name": "FiveThirtyEight — congress-demographics, data_aging_congress.csv (dados do Biographical Directory of the United States Congress e de VoteView; CC BY 4.0)",
+     "url": "https://github.com/fivethirtyeight/data/tree/master/congress-demographics",
+     "accessed": "2026-11-10"
+    },
+    {
+     "name": "FiveThirtyEight — Geoffrey Skelley, «Congress Today Is Older Than It's Ever Been» (3/4/2023)",
+     "url": "https://fivethirtyeight.com/features/aging-congress-boomers/",
+     "accessed": "2026-11-10"
+    }
+   ],
+   "method": [
+    "Idade de cada membro no primeiro dia de cada Congresso (data de início menos data de nascimento), calculada pela FiveThirtyEight. Inclui todos os membros com direito de voto que serviram em cada Congresso, também os que entraram a meio por substituição (com a idade medida na data de início); exclui delegados sem direito de voto. Quem serviu nas duas câmaras no mesmo Congresso conta na câmara em que votou mais vezes.",
+    "Medianas calculadas pela Olhamisto a partir dos 29 120 registos (membro × Congresso), por câmara e para o Congresso inteiro; arredondadas a uma casa decimal. A escala vertical começa nos 44 anos.",
+    "Dados a 29 de março de 2023. O 119.º Congresso (2025) e o 120.º (2027) não estão incluídos. A parte de membros com 70 anos ou mais refere-se à idade no primeiro dia de cada Congresso."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-10",
+    "note": "Medianas por câmara e totais recalculadas de raiz a partir dos 29 120 registos da FiveThirtyEight (CSV idêntico ao do repositório); 212 valores do gráfico e 10 números do texto conferidos. Início da escala assinalado no gráfico."
+   }
+  },
+  {
+   "id": "alemanha-leste-populacao-1990-2025",
+   "slug": "populacao-leste-oeste-alemanha-1990-2025",
+   "kind": "descoberta",
+   "theme": "historia",
+   "themeLabel": "História e geopolítica",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Desde 1990, o Leste da Alemanha perdeu 18% dos habitantes. O Oeste ganhou 11%",
+   "question": "Como mudou a população dos dois lados da antiga fronteira alemã desde a reunificação?",
+   "finding": "Entre 1990 e 2025, os cinco estados do Leste (sem Berlim) passaram de 15,2 para 12,4 milhões de habitantes, menos 18,1%, enquanto os dez do Oeste ganharam 11,5% e Berlim 8,4%. A Saxónia-Anhalt perdeu 28,0%. Desde 2014, a população do Leste quase não mudou.",
+   "context": "O Muro de Berlim caiu a 9 de novembro de 1989 e a Alemanha reunificou-se a 3 de outubro de 1990. A série regional do Eurostat, com dados do instituto de estatística alemão, começa a 1 de janeiro de 1990 e permite seguir a população de cada um dos 16 estados federados dos dois lados da antiga fronteira, incluindo os cinco restabelecidos em 1990 no território da antiga RDA.",
+   "interpretation": "Todos os estados do Leste perderam habitantes; o Brandemburgo, que rodeia Berlim, só 3,2%. No Oeste, só o Sarre encolheu. A descida do Leste abrandou e quase parou na última década: desde 2014, a população manteve-se entre 81,9% e 83,1% da de 1990. Parte da quebra de 2011 é estatística: o recenseamento desse ano corrigiu em baixa a população de toda a Alemanha.",
+   "chart": {
+    "type": "lines",
+    "dataset": "alemanha-leste-populacao-1990-2025"
+   },
+   "period": "1 de janeiro de 1990 a 1 de janeiro de 2025",
+   "unit": "Índice da população residente (1990 = 100)",
+   "sources": [
+    {
+     "name": "Eurostat — Population on 1 January by age, sex and NUTS 2 region (demo_r_d2jan), regiões NUTS 1 da Alemanha; dados do Destatis",
+     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_r_d2jan?format=JSON&lang=EN&sex=T&age=TOTAL&unit=NR&geo=DE&geo=DE1&geo=DE2&geo=DE3&geo=DE4&geo=DE5&geo=DE6&geo=DE7&geo=DE8&geo=DE9&geo=DEA&geo=DEB&geo=DEC&geo=DED&geo=DEE&geo=DEF&geo=DEG",
+     "accessed": "2026-11-10"
+    }
+   ],
+   "method": [
+    "População residente a 1 de janeiro por estado federado (regiões NUTS 1). Leste: Brandemburgo, Meclemburgo-Pomerânia Ocidental, Saxónia, Saxónia-Anhalt e Turíngia. Oeste: os outros dez estados. Berlim, que junta as duas antigas metades da cidade, aparece à parte. Índice 1990 = 100; a escala vertical começa em 75.",
+    "Quebras de série assinaladas pelo Eurostat em 2011 e em 2023, anos em que a população foi revista com base em recenseamentos (em 2011, o total da Alemanha desceu 1,9% de um ano para o outro). Parte das descidas desses anos é correção estatística, não perda de habitantes. O Eurostat não tem valores para 2013: o gráfico deixa esse ano em branco.",
+    "Em 1990, a soma dos estados fica 9 299 pessoas abaixo do total nacional publicado; a partir de 1991, a diferença é de poucas dezenas ou nula."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-10",
+    "note": "105 valores do índice, 16 variações por estado e 12 números do texto recalculados a partir de demo_r_d2jan (17 regiões, descarregado de novo e idêntico ao bruto); quebras de 2011/2023 e ausência de 2013 confirmadas. Corrigidos o URL da fonte, a indicação da base e do início da escala e «restabelecidos»."
+   }
+  }
+ ],
+ "chave": {
+  "id": "lei-de-parkinson",
+  "axis": "sabedoria",
+  "axisLabel": "Produtividade e sabedoria prática",
+  "certainty": "Tese debatida",
+  "title": "A lei de Parkinson",
+  "concept": "«É uma observação comum que o trabalho se expande de modo a ocupar o tempo disponível para a sua conclusão.» Assim começa um ensaio satírico do historiador naval britânico Cyril Northcote Parkinson, publicado na revista The Economist a 19 de novembro de 1955, sobre o crescimento das burocracias.",
+  "lesson": [
+   "Parkinson começou por um caso. Em 1914, a Marinha Real britânica tinha 62 navios capitais e o Almirantado empregava 2000 funcionários. Em 1928, os navios eram 20 e os funcionários 3569, mais 78%. Daí tirou uma taxa de crescimento do pessoal, 5,6% ao ano, que apresentou como independente da quantidade de trabalho a fazer. A frase de abertura ficou mais famosa do que o resto do ensaio.",
+   "O mecanismo que propunha tinha dois motores: um funcionário sobrecarregado prefere contratar subordinados a dividir o trabalho com um rival, e os funcionários passam a criar trabalho uns para os outros, em pareceres, minutas e reuniões. Como um gás que ocupa todo o recipiente, a tarefa estica-se até ao prazo. Em 1967, os psicólogos Judith Bryan e Edwin Locke estudaram a ideia como um problema de definição de objetivos.",
+   "A ressalva é a natureza do texto: é sátira, não uma lei demonstrada. Os números do Almirantado foram escolhidos para ilustrar o argumento e não excluem outras explicações. O que a investigação posterior apoia é uma versão mais modesta: numa meta-análise de 1987, metas difíceis e específicas levaram a melhor desempenho do que metas fáceis ou vagas. Um prazo folgado é uma meta fácil."
+  ],
+  "diagram": {
+   "title": "O mesmo trabalho, mais tempo",
+   "svg": "<svg viewBox=\"0 0 340 236\" role=\"img\" aria-label=\"Esquema ilustrativo: duas barras representam o tempo disponível para a mesma tarefa. Na de cima, com um prazo curto, o trabalho essencial ocupa quase todo o espaço. Na de baixo, com o dobro do prazo, o trabalho essencial tem o mesmo tamanho, mas o resto da barra enche-se de revisões, reuniões e esperas, até ao fim do prazo.\"><text x=\"0\" y=\"46\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Prazo curto</text><rect x=\"0\" y=\"54\" width=\"150\" height=\"34\" fill=\"none\" stroke=\"var(--key-rule)\" stroke-width=\"1.5\"/><rect x=\"3\" y=\"57\" width=\"128\" height=\"28\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"2\"/><text x=\"67\" y=\"75\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"10.5\" font-weight=\"600\">trabalho essencial</text><text x=\"0\" y=\"122\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Prazo longo</text><rect x=\"0\" y=\"130\" width=\"300\" height=\"34\" fill=\"none\" stroke=\"var(--key-rule)\" stroke-width=\"1.5\"/><rect x=\"3\" y=\"133\" width=\"128\" height=\"28\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"2\"/><text x=\"67\" y=\"151\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"10.5\" font-weight=\"600\">trabalho essencial</text><rect x=\"133\" y=\"133\" width=\"164\" height=\"28\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><text x=\"215\" y=\"151\" text-anchor=\"middle\" fill=\"var(--key-acc)\" font-size=\"10.5\" font-weight=\"600\">revisões, reuniões, esperas</text><line x1=\"300\" y1=\"122\" x2=\"300\" y2=\"172\" stroke=\"var(--key-acc)\" stroke-width=\"2\"/><text x=\"300\" y=\"186\" text-anchor=\"end\" fill=\"var(--key-acc)\" font-size=\"10.5\">fim do prazo</text><text x=\"170\" y=\"210\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">O trabalho essencial não cresce;</text><text x=\"170\" y=\"226\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">o resto ocupa o tempo que sobra</text></svg>",
+   "caption": "Esquema ilustrativo, não são dados reais."
+  },
+  "aside": "No livro de 1957 que alargou o ensaio, Parkinson acrescentou a «lei da trivialidade»: uma comissão de finanças imaginária aprova em dois minutos e meio um reator de 10 milhões de libras e discute durante 45 minutos um telheiro para bicicletas de 350 libras. Daí vem o termo inglês «bikeshedding», usado para discussões longas sobre pormenores.",
+  "application": "Aparece nos projetos que terminam sempre no último dia do prazo, seja ele qual for; nas reuniões marcadas para uma hora que ocupam a hora inteira; nos orçamentos que se gastam até ao fim do ano para não serem cortados; e nas organizações em que o número de chefias cresce mais depressa do que o trabalho que coordenam.",
+  "motto": "O prazo é a primeira decisão sobre o tamanho do trabalho.",
+  "sources": [
+   {
+    "name": "The Economist — «Parkinson's Law» (19 de novembro de 1955)",
+    "url": "https://www.economist.com/news/1955/11/19/parkinsons-law",
+    "accessed": "2026-11-10"
+   },
+   {
+    "name": "J. F. Bryan e E. A. Locke (1967), «Parkinson's law as a goal-setting phenomenon», Organizational Behavior and Human Performance 2(3), 258–275",
+    "url": "https://doi.org/10.1016/0030-5073(67)90021-9",
+    "accessed": "2026-11-10"
+   },
+   {
+    "name": "A. J. Mento, R. P. Steel e R. J. Karren (1987), «A meta-analytic study of the effects of goal setting on task performance: 1966–1984», Organizational Behavior and Human Decision Processes 39(1), 52–83 (cópia no Zenodo, CC0)",
+    "url": "https://zenodo.org/records/1258559",
+    "accessed": "2026-11-10"
+   },
+   {
+    "name": "C. Northcote Parkinson (1957), «Parkinson's Law, and Other Studies in Administration», Houghton Mifflin (capítulo «High Finance»)",
+    "url": "https://en.wikipedia.org/wiki/Law_of_triviality",
+    "accessed": "2026-11-10"
+   }
+  ],
+  "notes": [
+   "Grau de certeza: tese debatida. A «lei» é uma observação satírica, sem demonstração empírica no texto original. A investigação sobre definição de objetivos, iniciada por Edwin Locke nos anos 1960, apoia a ideia mais limitada de que metas mais exigentes, incluindo prazos, se associam a melhor desempenho; não demonstra que o trabalho se expanda sempre até ao prazo.",
+   "Os números do Almirantado (62 e 20 navios capitais; 2000 e 3569 funcionários; 5,6% ao ano) são os do ensaio de 1955, confirmados por várias reproduções; o texto integral da The Economist não foi consultado diretamente nesta edição. A meta-análise de 1987 foi lida no texto integral (Zenodo).",
+   "O episódio do reator e do telheiro é ficção do próprio Parkinson. O termo «bikeshedding» foi popularizado em 1999 por Poul-Henning Kamp, na comunidade do sistema operativo FreeBSD."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-10",
+   "note": "Datas, números e citações conferidos com o texto integral de Mento et al. (1987, Zenodo), os metadados de Bryan e Locke (1967) e resumos de pesquisa para o ensaio da The Economist e o livro de 1957 (fontes primárias inacessíveis neste ambiente). Corrigida a apresentação da primeira frase do ensaio; legenda do esquema dividida em duas linhas."
+  }
+ }
+}

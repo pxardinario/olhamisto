@@ -1,0 +1,359 @@
+{
+ "rows": [
+  {
+   "x": 1990,
+   "label": "1 jan. 1990",
+   "east": 100,
+   "west": 100,
+   "berlin": 100
+  },
+  {
+   "x": 1991,
+   "label": "1 jan. 1991",
+   "east": 97.3,
+   "west": 101.7,
+   "berlin": 101
+  },
+  {
+   "x": 1992,
+   "label": "1 jan. 1992",
+   "east": 95.7,
+   "west": 102.9,
+   "berlin": 101.3
+  },
+  {
+   "x": 1993,
+   "label": "1 jan. 1993",
+   "east": 95,
+   "west": 104.2,
+   "berlin": 101.9
+  },
+  {
+   "x": 1994,
+   "label": "1 jan. 1994",
+   "east": 94.4,
+   "west": 105,
+   "berlin": 102.2
+  },
+  {
+   "x": 1995,
+   "label": "1 jan. 1995",
+   "east": 93.9,
+   "west": 105.4,
+   "berlin": 102.1
+  },
+  {
+   "x": 1996,
+   "label": "1 jan. 1996",
+   "east": 93.5,
+   "west": 106,
+   "berlin": 102.1
+  },
+  {
+   "x": 1997,
+   "label": "1 jan. 1997",
+   "east": 93.3,
+   "west": 106.4,
+   "berlin": 101.7
+  },
+  {
+   "x": 1998,
+   "label": "1 jan. 1998",
+   "east": 92.9,
+   "west": 106.6,
+   "berlin": 100.7
+  },
+  {
+   "x": 1999,
+   "label": "1 jan. 1999",
+   "east": 92.5,
+   "west": 106.7,
+   "berlin": 100
+  },
+  {
+   "x": 2000,
+   "label": "1 jan. 2000",
+   "east": 92,
+   "west": 107.1,
+   "berlin": 99.6
+  },
+  {
+   "x": 2001,
+   "label": "1 jan. 2001",
+   "east": 91.4,
+   "west": 107.4,
+   "berlin": 99.5
+  },
+  {
+   "x": 2002,
+   "label": "1 jan. 2002",
+   "east": 90.6,
+   "west": 107.9,
+   "berlin": 99.6
+  },
+  {
+   "x": 2003,
+   "label": "1 jan. 2003",
+   "east": 89.9,
+   "west": 108.2,
+   "berlin": 99.8
+  },
+  {
+   "x": 2004,
+   "label": "1 jan. 2004",
+   "east": 89.2,
+   "west": 108.4,
+   "berlin": 99.6
+  },
+  {
+   "x": 2005,
+   "label": "1 jan. 2005",
+   "east": 88.6,
+   "west": 108.5,
+   "berlin": 99.6
+  },
+  {
+   "x": 2006,
+   "label": "1 jan. 2006",
+   "east": 88.1,
+   "west": 108.5,
+   "berlin": 99.8
+  },
+  {
+   "x": 2007,
+   "label": "1 jan. 2007",
+   "east": 87.4,
+   "west": 108.5,
+   "berlin": 100.1
+  },
+  {
+   "x": 2008,
+   "label": "1 jan. 2008",
+   "east": 86.7,
+   "west": 108.4,
+   "berlin": 100.5
+  },
+  {
+   "x": 2009,
+   "label": "1 jan. 2009",
+   "east": 86,
+   "west": 108.2,
+   "berlin": 100.9
+  },
+  {
+   "x": 2010,
+   "label": "1 jan. 2010",
+   "east": 85.4,
+   "west": 108,
+   "berlin": 101.2
+  },
+  {
+   "x": 2011,
+   "label": "1 jan. 2011",
+   "east": 83.4,
+   "west": 106.2,
+   "berlin": 96.4
+  },
+  {
+   "x": 2012,
+   "label": "1 jan. 2012",
+   "east": 83,
+   "west": 106.4,
+   "berlin": 97.8
+  },
+  {
+   "x": 2013,
+   "label": "1 jan. 2013",
+   "east": null,
+   "west": null,
+   "berlin": null
+  },
+  {
+   "x": 2014,
+   "label": "1 jan. 2014",
+   "east": 82.5,
+   "west": 107.1,
+   "berlin": 100.6
+  },
+  {
+   "x": 2015,
+   "label": "1 jan. 2015",
+   "east": 82.5,
+   "west": 107.7,
+   "berlin": 102
+  },
+  {
+   "x": 2016,
+   "label": "1 jan. 2016",
+   "east": 83.1,
+   "west": 109.1,
+   "berlin": 103.5
+  },
+  {
+   "x": 2017,
+   "label": "1 jan. 2017",
+   "east": 83,
+   "west": 109.6,
+   "berlin": 105.1
+  },
+  {
+   "x": 2018,
+   "label": "1 jan. 2018",
+   "east": 83,
+   "west": 110,
+   "berlin": 106.3
+  },
+  {
+   "x": 2019,
+   "label": "1 jan. 2019",
+   "east": 82.8,
+   "west": 110.4,
+   "berlin": 107.2
+  },
+  {
+   "x": 2020,
+   "label": "1 jan. 2020",
+   "east": 82.7,
+   "west": 110.6,
+   "berlin": 107.9
+  },
+  {
+   "x": 2021,
+   "label": "1 jan. 2021",
+   "east": 82.5,
+   "west": 110.6,
+   "berlin": 107.8
+  },
+  {
+   "x": 2022,
+   "label": "1 jan. 2022",
+   "east": 82.3,
+   "west": 110.8,
+   "berlin": 108.1
+  },
+  {
+   "x": 2023,
+   "label": "1 jan. 2023",
+   "east": 82.1,
+   "west": 110.7,
+   "berlin": 106.8
+  },
+  {
+   "x": 2024,
+   "label": "1 jan. 2024",
+   "east": 82.1,
+   "west": 111.2,
+   "berlin": 107.7
+  },
+  {
+   "x": 2025,
+   "label": "1 jan. 2025",
+   "east": 81.9,
+   "west": 111.5,
+   "berlin": 108.4
+  }
+ ],
+ "config": {
+  "x": {
+   "label": "Ano",
+   "tableLabel": "Data",
+   "min": 1990,
+   "max": 2025,
+   "ticks": [
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020,
+    2025
+   ]
+  },
+  "y": {
+   "label": "População, índice 1990 = 100 — eixo a partir de 75",
+   "suffix": "",
+   "decimals": 1,
+   "logDefault": false,
+   "linMin": 75,
+   "linMax": 115
+  },
+  "series": [
+   {
+    "key": "west",
+    "label": "Oeste (10 estados)",
+    "short": "Oeste",
+    "color": "--ink-2",
+    "width": 2.4
+   },
+   {
+    "key": "berlin",
+    "label": "Berlim",
+    "short": "Berlim",
+    "color": "--accent-4",
+    "width": 2
+   },
+   {
+    "key": "east",
+    "label": "Leste (5 estados)",
+    "short": "Leste",
+    "color": "--accent-2",
+    "width": 3
+   }
+  ],
+  "scaleToggle": false,
+  "dots": false,
+  "gaps": true,
+  "shortEndLabels": true,
+  "labelMargin": [
+   86,
+   104
+  ],
+  "annotations": [
+   {
+    "x": 2011,
+    "key": "east",
+    "text": "2011: revisão do recenseamento",
+    "short": "2011: recenseamento",
+    "anchor": "end",
+    "dx": -4,
+    "dy": 20
+   }
+  ]
+ },
+ "summary": {
+  "east": {
+   "y1990": 15154584,
+   "y2025": 12408640,
+   "chg": -18.1
+  },
+  "west": {
+   "y1990": 60548522,
+   "y2025": 67483235,
+   "chg": 11.5
+  },
+  "berlin": {
+   "y1990": 3400426,
+   "y2025": 3685265,
+   "chg": 8.4
+  },
+  "states": {
+   "Brandemburgo": -3.2,
+   "Meclemburgo-Pomerânia Ocidental": -19.9,
+   "Saxónia": -17.5,
+   "Saxónia-Anhalt": -28,
+   "Turíngia": -21.7,
+   "Bade-Vurtemberga": 16.9,
+   "Baviera": 18.1,
+   "Bremen": 4.6,
+   "Hamburgo": 14.5,
+   "Hesse": 11,
+   "Baixa Saxónia": 9.9,
+   "Renânia do Norte-Vestefália": 5.4,
+   "Renânia-Palatinado": 11.6,
+   "Sarre": -5,
+   "Schleswig-Holstein": 14.1,
+   "Berlim": 8.4
+  }
+ }
+}

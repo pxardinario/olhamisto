@@ -1,0 +1,542 @@
+{
+ "rows": [
+  {
+   "x": 1919,
+   "label": "66.º Congresso (1919)",
+   "house": 49.7,
+   "senate": 56.8,
+   "all": 51,
+   "over70": 3.1
+  },
+  {
+   "x": 1921,
+   "label": "67.º Congresso (1921)",
+   "house": 50.6,
+   "senate": 57.4,
+   "all": 51.8,
+   "over70": 3.8
+  },
+  {
+   "x": 1923,
+   "label": "68.º Congresso (1923)",
+   "house": 51.3,
+   "senate": 58.6,
+   "all": 52.2,
+   "over70": 3.8
+  },
+  {
+   "x": 1925,
+   "label": "69.º Congresso (1925)",
+   "house": 52.8,
+   "senate": 57.5,
+   "all": 53.3,
+   "over70": 3.1
+  },
+  {
+   "x": 1927,
+   "label": "70.º Congresso (1927)",
+   "house": 53.9,
+   "senate": 57.6,
+   "all": 54.3,
+   "over70": 4
+  },
+  {
+   "x": 1929,
+   "label": "71.º Congresso (1929)",
+   "house": 54.2,
+   "senate": 57.6,
+   "all": 55,
+   "over70": 5.5
+  },
+  {
+   "x": 1931,
+   "label": "72.º Congresso (1931)",
+   "house": 54.5,
+   "senate": 57.1,
+   "all": 55.3,
+   "over70": 4.6
+  },
+  {
+   "x": 1933,
+   "label": "73.º Congresso (1933)",
+   "house": 52.9,
+   "senate": 57.5,
+   "all": 54.1,
+   "over70": 5.7
+  },
+  {
+   "x": 1935,
+   "label": "74.º Congresso (1935)",
+   "house": 51.1,
+   "senate": 57.6,
+   "all": 53.5,
+   "over70": 4.6
+  },
+  {
+   "x": 1937,
+   "label": "75.º Congresso (1937)",
+   "house": 50.6,
+   "senate": 59.1,
+   "all": 52.7,
+   "over70": 4.9
+  },
+  {
+   "x": 1939,
+   "label": "76.º Congresso (1939)",
+   "house": 50.3,
+   "senate": 59.9,
+   "all": 51.3,
+   "over70": 6.1
+  },
+  {
+   "x": 1941,
+   "label": "77.º Congresso (1941)",
+   "house": 50.4,
+   "senate": 57.5,
+   "all": 51.3,
+   "over70": 7
+  },
+  {
+   "x": 1943,
+   "label": "78.º Congresso (1943)",
+   "house": 50.8,
+   "senate": 58.7,
+   "all": 52.1,
+   "over70": 6
+  },
+  {
+   "x": 1945,
+   "label": "79.º Congresso (1945)",
+   "house": 51.7,
+   "senate": 56.9,
+   "all": 52.6,
+   "over70": 6.4
+  },
+  {
+   "x": 1947,
+   "label": "80.º Congresso (1947)",
+   "house": 51.5,
+   "senate": 56.3,
+   "all": 51.9,
+   "over70": 6.9
+  },
+  {
+   "x": 1949,
+   "label": "81.º Congresso (1949)",
+   "house": 50.7,
+   "senate": 56.4,
+   "all": 52.2,
+   "over70": 7.6
+  },
+  {
+   "x": 1951,
+   "label": "82.º Congresso (1951)",
+   "house": 51.8,
+   "senate": 55.2,
+   "all": 52.7,
+   "over70": 7.8
+  },
+  {
+   "x": 1953,
+   "label": "83.º Congresso (1953)",
+   "house": 52.2,
+   "senate": 56.7,
+   "all": 53.3,
+   "over70": 6.9
+  },
+  {
+   "x": 1955,
+   "label": "84.º Congresso (1955)",
+   "house": 52.4,
+   "senate": 58.1,
+   "all": 53.5,
+   "over70": 7
+  },
+  {
+   "x": 1957,
+   "label": "85.º Congresso (1957)",
+   "house": 53,
+   "senate": 58.2,
+   "all": 53.9,
+   "over70": 9.2
+  },
+  {
+   "x": 1959,
+   "label": "86.º Congresso (1959)",
+   "house": 51.3,
+   "senate": 57.4,
+   "all": 52.8,
+   "over70": 7.2
+  },
+  {
+   "x": 1961,
+   "label": "87.º Congresso (1961)",
+   "house": 52.5,
+   "senate": 57.8,
+   "all": 53.5,
+   "over70": 6.8
+  },
+  {
+   "x": 1963,
+   "label": "88.º Congresso (1963)",
+   "house": 51,
+   "senate": 57.8,
+   "all": 52.7,
+   "over70": 5.8
+  },
+  {
+   "x": 1965,
+   "label": "89.º Congresso (1965)",
+   "house": 50,
+   "senate": 58.6,
+   "all": 51.1,
+   "over70": 5.5
+  },
+  {
+   "x": 1967,
+   "label": "90.º Congresso (1967)",
+   "house": 50.6,
+   "senate": 59,
+   "all": 51.4,
+   "over70": 6.3
+  },
+  {
+   "x": 1969,
+   "label": "91.º Congresso (1969)",
+   "house": 51.6,
+   "senate": 56.1,
+   "all": 52.5,
+   "over70": 5.4
+  },
+  {
+   "x": 1971,
+   "label": "92.º Congresso (1971)",
+   "house": 51.7,
+   "senate": 55.8,
+   "all": 52.2,
+   "over70": 6.2
+  },
+  {
+   "x": 1973,
+   "label": "93.º Congresso (1973)",
+   "house": 50.8,
+   "senate": 54.6,
+   "all": 51.4,
+   "over70": 5.3
+  },
+  {
+   "x": 1975,
+   "label": "94.º Congresso (1975)",
+   "house": 49.8,
+   "senate": 54.7,
+   "all": 50.9,
+   "over70": 5.4
+  },
+  {
+   "x": 1977,
+   "label": "95.º Congresso (1977)",
+   "house": 49.5,
+   "senate": 53.1,
+   "all": 50.3,
+   "over70": 4.4
+  },
+  {
+   "x": 1979,
+   "label": "96.º Congresso (1979)",
+   "house": 49.3,
+   "senate": 52.7,
+   "all": 49.9,
+   "over70": 3.5
+  },
+  {
+   "x": 1981,
+   "label": "97.º Congresso (1981)",
+   "house": 48.5,
+   "senate": 51.7,
+   "all": 49.3,
+   "over70": 3.5
+  },
+  {
+   "x": 1983,
+   "label": "98.º Congresso (1983)",
+   "house": 48.4,
+   "senate": 52.8,
+   "all": 50,
+   "over70": 4
+  },
+  {
+   "x": 1985,
+   "label": "99.º Congresso (1985)",
+   "house": 49,
+   "senate": 53.7,
+   "all": 50.7,
+   "over70": 4.4
+  },
+  {
+   "x": 1987,
+   "label": "100.º Congresso (1987)",
+   "house": 49.6,
+   "senate": 53.8,
+   "all": 50.6,
+   "over70": 5.7
+  },
+  {
+   "x": 1989,
+   "label": "101.º Congresso (1989)",
+   "house": 50.3,
+   "senate": 54.7,
+   "all": 51.4,
+   "over70": 5.5
+  },
+  {
+   "x": 1991,
+   "label": "102.º Congresso (1991)",
+   "house": 51.9,
+   "senate": 56.5,
+   "all": 52.8,
+   "over70": 5.7
+  },
+  {
+   "x": 1993,
+   "label": "103.º Congresso (1993)",
+   "house": 50.7,
+   "senate": 57.3,
+   "all": 51.9,
+   "over70": 5.3
+  },
+  {
+   "x": 1995,
+   "label": "104.º Congresso (1995)",
+   "house": 50.7,
+   "senate": 57.5,
+   "all": 52,
+   "over70": 5.5
+  },
+  {
+   "x": 1997,
+   "label": "105.º Congresso (1997)",
+   "house": 51.5,
+   "senate": 56.2,
+   "all": 52.7,
+   "over70": 4.8
+  },
+  {
+   "x": 1999,
+   "label": "106.º Congresso (1999)",
+   "house": 52.5,
+   "senate": 57.1,
+   "all": 53.6,
+   "over70": 6.3
+  },
+  {
+   "x": 2001,
+   "label": "107.º Congresso (2001)",
+   "house": 53.8,
+   "senate": 58.3,
+   "all": 54.3,
+   "over70": 6.6
+  },
+  {
+   "x": 2003,
+   "label": "108.º Congresso (2003)",
+   "house": 54.9,
+   "senate": 59.4,
+   "all": 55.7,
+   "over70": 6.3
+  },
+  {
+   "x": 2005,
+   "label": "109.º Congresso (2005)",
+   "house": 56,
+   "senate": 61,
+   "all": 56.9,
+   "over70": 8.9
+  },
+  {
+   "x": 2007,
+   "label": "110.º Congresso (2007)",
+   "house": 56.5,
+   "senate": 62.6,
+   "all": 57.4,
+   "over70": 10.6
+  },
+  {
+   "x": 2009,
+   "label": "111.º Congresso (2009)",
+   "house": 57.2,
+   "senate": 61.9,
+   "all": 57.9,
+   "over70": 12.1
+  },
+  {
+   "x": 2011,
+   "label": "112.º Congresso (2011)",
+   "house": 57.1,
+   "senate": 61.1,
+   "all": 58.1,
+   "over70": 12.1
+  },
+  {
+   "x": 2013,
+   "label": "113.º Congresso (2013)",
+   "house": 57.2,
+   "senate": 61.6,
+   "all": 57.9,
+   "over70": 11.3
+  },
+  {
+   "x": 2015,
+   "label": "114.º Congresso (2015)",
+   "house": 57.5,
+   "senate": 61.3,
+   "all": 58.4,
+   "over70": 12.9
+  },
+  {
+   "x": 2017,
+   "label": "115.º Congresso (2017)",
+   "house": 58.1,
+   "senate": 62.6,
+   "all": 59.3,
+   "over70": 13.7
+  },
+  {
+   "x": 2019,
+   "label": "116.º Congresso (2019)",
+   "house": 57.8,
+   "senate": 63.3,
+   "all": 59,
+   "over70": 17.1
+  },
+  {
+   "x": 2021,
+   "label": "117.º Congresso (2021)",
+   "house": 58.3,
+   "senate": 64.3,
+   "all": 59.4,
+   "over70": 18.3
+  },
+  {
+   "x": 2023,
+   "label": "118.º Congresso (2023)",
+   "house": 57.8,
+   "senate": 65.3,
+   "all": 59.1,
+   "over70": 19.8
+  }
+ ],
+ "config": {
+  "x": {
+   "label": "Ano de início",
+   "tableLabel": "Congresso",
+   "min": 1919,
+   "max": 2023,
+   "ticks": [
+    1923,
+    1935,
+    1947,
+    1959,
+    1971,
+    1983,
+    1995,
+    2007,
+    2019
+   ]
+  },
+  "y": {
+   "label": "Idade mediana, em anos — eixo a partir de 44",
+   "suffix": " anos",
+   "decimals": 1,
+   "logDefault": false,
+   "linMin": 44,
+   "linMax": 68
+  },
+  "series": [
+   {
+    "key": "senate",
+    "label": "Senado",
+    "short": "Senado",
+    "color": "--accent-2",
+    "width": 3
+   },
+   {
+    "key": "house",
+    "label": "Câmara dos Representantes",
+    "short": "Câmara",
+    "color": "--accent-3",
+    "width": 2.4
+   }
+  ],
+  "scaleToggle": false,
+  "dots": true,
+  "shortEndLabels": true,
+  "labelMargin": [
+   86,
+   104
+  ],
+  "annotations": [
+   {
+    "x": 1981,
+    "key": "senate",
+    "text": "1981: 51,7",
+    "anchor": "end",
+    "dx": 2,
+    "dy": 17
+   },
+   {
+    "x": 1981,
+    "key": "house",
+    "text": "1981: 48,5",
+    "anchor": "middle",
+    "dy": 18
+   },
+   {
+    "x": 2023,
+    "key": "senate",
+    "text": "2023: 65,3",
+    "short": "65,3",
+    "anchor": "end",
+    "dx": -8,
+    "dy": -10
+   }
+  ]
+ },
+ "summary": {
+  "y1919": {
+   "x": 1919,
+   "label": "66.º Congresso (1919)",
+   "house": 49.7,
+   "senate": 56.8,
+   "all": 51,
+   "over70": 3.1,
+   "n": 555
+  },
+  "y1981": {
+   "x": 1981,
+   "label": "97.º Congresso (1981)",
+   "house": 48.5,
+   "senate": 51.7,
+   "all": 49.3,
+   "over70": 3.5,
+   "n": 545
+  },
+  "y2021": {
+   "x": 2021,
+   "label": "117.º Congresso (2021)",
+   "house": 58.3,
+   "senate": 64.3,
+   "all": 59.4,
+   "over70": 18.3,
+   "n": 551
+  },
+  "y2023": {
+   "x": 2023,
+   "label": "118.º Congresso (2023)",
+   "house": 57.8,
+   "senate": 65.3,
+   "all": 59.1,
+   "over70": 19.8,
+   "n": 536
+  }
+ }
+}

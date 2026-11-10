@@ -507,7 +507,7 @@ function columns(host, data) {
 }
 
 /* lines: séries temporais com escala log ⇄ linear, cursor, rótulos diretos.
-   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], scaleToggle, dots, annotations[], shade[]} */
+   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], scaleToggle, dots, gaps (anos sem valor ficam em branco, sem ligar os pontos), annotations[], shade[]} */
 function lines(host, data) {
   const C = data.config, rows = data.rows;
   let log = !!C.y.logDefault;
@@ -534,8 +534,8 @@ function lines(host, data) {
     halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 36 : 44)).attr("y", 14).text((narrow ? C.y.label.replace(/ \(.*\)$/, "") : C.y.label) + (log ? " — escala log." : "")));
     const order = [...C.series].sort((a, b) => (a.color === "--muted" ? -1 : 0) - (b.color === "--muted" ? -1 : 0));
     for (const s of order) {
-      svg.append("path").datum(rows.filter((q) => q[s.key] != null)).attr("fill", "none").attr("stroke", css(s.color)).attr("stroke-width", s.width || 1.6).attr("opacity", s.color === "--muted" ? 0.8 : 1)
-        .attr("stroke-linejoin", "round").attr("d", d3.line().x((q) => x(q.x)).y((q) => y(q[s.key])));
+      svg.append("path").datum(C.gaps ? rows : rows.filter((q) => q[s.key] != null)).attr("fill", "none").attr("stroke", css(s.color)).attr("stroke-width", s.width || 1.6).attr("opacity", s.color === "--muted" ? 0.8 : 1)
+        .attr("stroke-linejoin", "round").attr("d", d3.line().defined((q) => q[s.key] != null).x((q) => x(q.x)).y((q) => y(q[s.key])));
       if (C.dots && s.color !== "--muted") svg.append("g").selectAll("circle").data(rows.filter((q) => q[s.key] != null)).join("circle").attr("cx", (q) => x(q.x)).attr("cy", (q) => y(q[s.key])).attr("r", 2.6).attr("fill", css(s.color)).style("pointer-events", "none");
     }
     // rótulos diretos no fim, sem sobreposição
@@ -655,7 +655,8 @@ function bars(host, data) {
     g.append("rect").attr("x", (q) => x(Math.min(0, q[k]))).attr("width", (q) => Math.max(1, Math.abs(x(q[k]) - x(0)))).attr("y", 5).attr("height", bh)
       .attr("fill", (q) => css(q.highlight ? "--accent" : q[k] < 0 ? "--accent-3" : "--accent-2"));
     g.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", 600).attr("y", rowH / 2 + 4)
-      .attr("x", (q) => (q[k] < 0 ? x(q[k]) - 4 : x(q[k]) + 4)).attr("text-anchor", (q) => (q[k] < 0 ? "end" : "start")).text((q) => fmtV(q[k], d) + C.unit);
+      // negativos curtos perto da margem: o rótulo passa para a direita do zero, para não tapar o nome
+      .attr("x", (q) => (q[k] < 0 ? (x(q[k]) - 56 < m.l ? x(0) + 4 : x(q[k]) - 4) : x(q[k]) + 4)).attr("text-anchor", (q) => (q[k] < 0 && x(q[k]) - 56 >= m.l ? "end" : "start")).text((q) => fmtV(q[k], d) + C.unit);
     svg.append("line").attr("class", "zero").attr("x1", x(0)).attr("x2", x(0)).attr("y1", m.t - 4).attr("y2", H - m.b);
     if (v.ref != null) {
       svg.append("line").attr("x1", x(v.ref)).attr("x2", x(v.ref)).attr("y1", m.t - 4).attr("y2", H - m.b).attr("stroke", css("--ink")).attr("stroke-dasharray", "4 3");
