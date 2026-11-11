@@ -433,7 +433,7 @@ const fmtN = (x, d = 1) => (x == null || Number.isNaN(x) ? "—" : x.toLocaleStr
 const fmtS = (x, d = 1) => (x > 0 ? "+" : "") + fmtN(x, d);
 
 /* columns: colunas (simples ou empilhadas, com valores negativos) + linha opcional do total; várias vistas alternáveis.
-   data.rows[{cat,...}], data.views[{id,label,yLabel,unit,decimals,series[{key,label,color,negColor}],line{key,label},valueLabels,tipExtra[],notes[{cat,text}]}] */
+   data.rows[{cat,...}], data.views[{id,label,yLabel,unit,decimals,series[{key,label,color,negColor,altColor,altLabel (cor alternativa nas linhas com alt: true)}],line{key,label},valueLabels,tipExtra[],notes[{cat,text}]}] */
 function columns(host, data) {
   const rows = data.rows, views = data.views;
   let view = views[0];
@@ -441,7 +441,8 @@ function columns(host, data) {
   if (views.length > 1) segmented(host.controls, views.map((v) => [v.id, v.label]), view.id, (v) => { view = views.find((x) => x.id === v); drawLegend(); r.redraw(); }, "Vista");
   function drawLegend() {
     host.legend.innerHTML = "";
-    const items = view.series.length > 1 || view.line ? [...view.series].reverse().map((s) => ({ color: css(s.color), label: s.label })) : [];
+    const alt = view.series.filter((s) => s.altColor);
+    const items = view.series.length > 1 || view.line || alt.length ? [...view.series].reverse().flatMap((s) => [{ color: css(s.color), label: s.label }, ...(s.altColor ? [{ color: css(s.altColor), label: s.altLabel }] : [])]) : [];
     if (view.line) items.push({ color: css("--ink"), label: view.line.label, line: true });
     if (items.length) legend(host.legend, items);
   }
@@ -468,7 +469,7 @@ function columns(host, data) {
     g.selectAll("g").data(stacks).join("g").selectAll("rect").data((st) => st).join("rect")
       .attr("x", (e) => x(e.row.cat)).attr("width", x.bandwidth())
       .attr("y", (e) => y(Math.max(e.y0, e.y1))).attr("height", (e) => Math.max(0.5, Math.abs(y(e.y0) - y(e.y1))))
-      .attr("fill", (e) => css(e.val < 0 && e.s.negColor ? e.s.negColor : e.s.color)).attr("opacity", (e) => (stacked && e.s.key !== v.series.at(-1).key ? 0.75 : 1));
+      .attr("fill", (e) => css(e.row.alt && e.s.altColor ? e.s.altColor : e.val < 0 && e.s.negColor ? e.s.negColor : e.s.color)).attr("opacity", (e) => (stacked && e.s.key !== v.series.at(-1).key ? 0.75 : 1));
     // alvos de interação por coluna (inclui teclado)
     svg.append("g").selectAll("rect").data(rows).join("rect").attr("class", "hit").attr("x", (row) => x(row.cat) - (x.step() - x.bandwidth()) / 2).attr("width", x.step())
       .attr("y", m.t).attr("height", H - m.t - m.b).attr("fill", "transparent").attr("tabindex", 0)
@@ -617,7 +618,7 @@ function dumbbell(host, data) {
 
 
 /* bars: barras horizontais divergentes (valores positivos e negativos), várias vistas (uma chave por vista), linha de referência opcional, ordenação alternável.
-   data.rows[{label,highlight,total?,...keys}], data.config{views[{id,label,key,axisLabel,ref,refLabel}],unit,decimals,signed (false = sem sinal +),howToRead,sorts[[id,label]],pinned:[labels fixos no topo]} */
+   data.rows[{label,highlight,total?,...keys}], data.config{views[{id,label,key,axisLabel,ref,refLabel}],unit,decimals,signed (false = sem sinal +),independentScale (escala própria em cada vista, para vistas com unidades diferentes),howToRead,sorts[[id,label]],pinned:[labels fixos no topo]} */
 function bars(host, data) {
   const C = data.config, d = C.decimals ?? 1, views = C.views;
   const fmtV = (t, dd) => (C.signed === false ? fmtN(t, dd) : fmtS(t, dd));
@@ -635,7 +636,7 @@ function bars(host, data) {
     const rowH = narrow ? 26 : 28, m = { t: 40, r: narrow ? 44 : 60, b: 30, l: narrow ? 118 : 170 };
     const H = m.t + m.b + rows.length * rowH + (pinned.length ? 8 : 0);
     const svg = svgIn(host.chart, W, H, v.axisLabel);
-    const ext = d3.extent(rows.flatMap((q) => views.map((w) => q[w.key])).concat([0]));
+    const ext = d3.extent(rows.flatMap((q) => (C.independentScale ? [q[k]] : views.map((w) => q[w.key]))).concat([0]));
     const x = d3.scaleLinear().domain([Math.min(0, ext[0]), Math.max(0, ext[1])]).nice().range([m.l, W - m.r]);
     const y = (i) => m.t + i * rowH + (pinned.length && i >= pinned.length ? 8 : 0);
     svg.append("g").attr("class", "grid").selectAll("line").data(x.ticks(narrow ? 4 : 8)).join("line").attr("x1", x).attr("x2", x).attr("y1", m.t - 4).attr("y2", H - m.b);

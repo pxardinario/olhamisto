@@ -1,0 +1,110 @@
+{
+ "rows": [
+  {
+   "cat": "0",
+   "films": 109,
+   "pct": 24.9,
+   "alt": false
+  },
+  {
+   "cat": "+0,1",
+   "films": 66,
+   "pct": 15.1,
+   "alt": false
+  },
+  {
+   "cat": "+0,2",
+   "films": 82,
+   "pct": 18.8,
+   "alt": false
+  },
+  {
+   "cat": "+0,3",
+   "films": 72,
+   "pct": 16.5,
+   "alt": true
+  },
+  {
+   "cat": "+0,4",
+   "films": 70,
+   "pct": 16,
+   "alt": true
+  },
+  {
+   "cat": "+0,5",
+   "films": 37,
+   "pct": 8.5,
+   "alt": true
+  },
+  {
+   "cat": "+0,6",
+   "films": 0,
+   "pct": 0,
+   "alt": true
+  },
+  {
+   "cat": "+0,7",
+   "films": 0,
+   "pct": 0,
+   "alt": true
+  },
+  {
+   "cat": "+0,8",
+   "films": 0,
+   "pct": 0,
+   "alt": true
+  },
+  {
+   "cat": "+0,9",
+   "films": 0,
+   "pct": 0,
+   "alt": true
+  },
+  {
+   "cat": "+1,0",
+   "films": 1,
+   "pct": 0.2,
+   "alt": true
+  }
+ ],
+ "views": [
+  {
+   "id": "films",
+   "label": "Filmes",
+   "yLabel": "Número de filmes, por diferença entre as estrelas mostradas e a média real dos votos",
+   "unit": "",
+   "decimals": 0,
+   "valueLabels": true,
+   "series": [
+    {
+     "key": "films",
+     "label": "Diferença até 0,25: possível ao arredondar à meia estrela mais próxima",
+     "color": "--ink-3",
+     "altColor": "--accent-2",
+     "altLabel": "Diferença acima de 0,25: impossível com esse arredondamento"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "pct",
+     "label": "Parte dos 437 filmes",
+     "suffix": "%"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "n": 437,
+  "equal": 109,
+  "up": 328,
+  "over": 180,
+  "half": 37,
+  "one": 1,
+  "means146": {
+   "fandango": 4.09,
+   "real": 3.85,
+   "imdb": 3.37
+  },
+  "lt3": 0
+ }
+}

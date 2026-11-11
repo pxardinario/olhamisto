@@ -1,0 +1,450 @@
+{
+ "rows": [
+  {
+   "cat": "1960",
+   "share": 3.9,
+   "world": 4.69
+  },
+  {
+   "cat": "1961",
+   "share": 3.5,
+   "world": 4.56
+  },
+  {
+   "cat": "1962",
+   "share": 4.1,
+   "world": 5.02
+  },
+  {
+   "cat": "1963",
+   "share": 4.3,
+   "world": 5.31
+  },
+  {
+   "cat": "1964",
+   "share": 5.6,
+   "world": 5.13
+  },
+  {
+   "cat": "1965",
+   "share": 2.8,
+   "world": 5.08
+  },
+  {
+   "cat": "1966",
+   "share": 6,
+   "world": 4.97
+  },
+  {
+   "cat": "1967",
+   "share": 6.2,
+   "world": 4.87
+  },
+  {
+   "cat": "1968",
+   "share": 6.2,
+   "world": 4.98
+  },
+  {
+   "cat": "1969",
+   "share": 6.4,
+   "world": 4.88
+  },
+  {
+   "cat": "1970",
+   "share": 8.4,
+   "world": 4.84
+  },
+  {
+   "cat": "1971",
+   "share": 7.2,
+   "world": 4.69
+  },
+  {
+   "cat": "1972",
+   "share": 13.8,
+   "world": 4.55
+  },
+  {
+   "cat": "1973",
+   "share": 16.2,
+   "world": 4.42
+  },
+  {
+   "cat": "1974",
+   "share": 18.5,
+   "world": 4.26
+  },
+  {
+   "cat": "1975",
+   "share": 19.8,
+   "world": 4.07
+  },
+  {
+   "cat": "1976",
+   "share": 21.2,
+   "world": 3.97
+  },
+  {
+   "cat": "1977",
+   "share": 21.3,
+   "world": 3.84
+  },
+  {
+   "cat": "1978",
+   "share": 21.8,
+   "world": 3.77
+  },
+  {
+   "cat": "1979",
+   "share": 21.4,
+   "world": 3.76
+  },
+  {
+   "cat": "1980",
+   "share": 21.8,
+   "world": 3.73
+  },
+  {
+   "cat": "1981",
+   "share": 22.7,
+   "world": 3.71
+  },
+  {
+   "cat": "1982",
+   "share": 22.6,
+   "world": 3.72
+  },
+  {
+   "cat": "1983",
+   "share": 20.3,
+   "world": 3.59
+  },
+  {
+   "cat": "1984",
+   "share": 22.7,
+   "world": 3.57
+  },
+  {
+   "cat": "1985",
+   "share": 22.6,
+   "world": 3.53
+  },
+  {
+   "cat": "1986",
+   "share": 18.2,
+   "world": 3.51
+  },
+  {
+   "cat": "1987",
+   "share": 19,
+   "world": 3.48
+  },
+  {
+   "cat": "1988",
+   "share": 18.8,
+   "world": 3.39
+  },
+  {
+   "cat": "1989",
+   "share": 22.4,
+   "world": 3.35
+  },
+  {
+   "cat": "1990",
+   "share": 23.4,
+   "world": 3.31
+  },
+  {
+   "cat": "1991",
+   "share": 44.7,
+   "world": 3.13
+  },
+  {
+   "cat": "1992",
+   "share": 44.6,
+   "world": 3.04
+  },
+  {
+   "cat": "1993",
+   "share": 44.3,
+   "world": 2.97
+  },
+  {
+   "cat": "1994",
+   "share": 44.1,
+   "world": 2.92
+  },
+  {
+   "cat": "1995",
+   "share": 43.8,
+   "world": 2.87
+  },
+  {
+   "cat": "1996",
+   "share": 44.4,
+   "world": 2.82
+  },
+  {
+   "cat": "1997",
+   "share": 44.1,
+   "world": 2.78
+  },
+  {
+   "cat": "1998",
+   "share": 45,
+   "world": 2.75
+  },
+  {
+   "cat": "1999",
+   "share": 46.1,
+   "world": 2.72
+  },
+  {
+   "cat": "2000",
+   "share": 45.8,
+   "world": 2.73
+  },
+  {
+   "cat": "2001",
+   "share": 45.5,
+   "world": 2.69
+  },
+  {
+   "cat": "2002",
+   "share": 48,
+   "world": 2.66
+  },
+  {
+   "cat": "2003",
+   "share": 47.7,
+   "world": 2.64
+  },
+  {
+   "cat": "2004",
+   "share": 47.2,
+   "world": 2.63
+  },
+  {
+   "cat": "2005",
+   "share": 46.9,
+   "world": 2.61
+  },
+  {
+   "cat": "2006",
+   "share": 42.2,
+   "world": 2.61
+  },
+  {
+   "cat": "2007",
+   "share": 41.8,
+   "world": 2.6
+  },
+  {
+   "cat": "2008",
+   "share": 46,
+   "world": 2.6
+  },
+  {
+   "cat": "2009",
+   "share": 46.3,
+   "world": 2.59
+  },
+  {
+   "cat": "2010",
+   "share": 47.1,
+   "world": 2.57
+  },
+  {
+   "cat": "2011",
+   "share": 46.7,
+   "world": 2.55
+  },
+  {
+   "cat": "2012",
+   "share": 45.3,
+   "world": 2.56
+  },
+  {
+   "cat": "2013",
+   "share": 45.5,
+   "world": 2.52
+  },
+  {
+   "cat": "2014",
+   "share": 45.2,
+   "world": 2.52
+  },
+  {
+   "cat": "2015",
+   "share": 44,
+   "world": 2.49
+  },
+  {
+   "cat": "2016",
+   "share": 46.7,
+   "world": 2.49
+  },
+  {
+   "cat": "2017",
+   "share": 47.4,
+   "world": 2.46
+  },
+  {
+   "cat": "2018",
+   "share": 47.8,
+   "world": 2.39
+  },
+  {
+   "cat": "2019",
+   "share": 48.6,
+   "world": 2.35
+  },
+  {
+   "cat": "2020",
+   "share": 67.7,
+   "world": 2.28
+  },
+  {
+   "cat": "2021",
+   "share": 67.4,
+   "world": 2.25
+  },
+  {
+   "cat": "2022",
+   "share": 67.4,
+   "world": 2.22
+  },
+  {
+   "cat": "2023",
+   "share": 67.1,
+   "world": 2.2
+  },
+  {
+   "cat": "2024",
+   "share": 67.4,
+   "world": 2.19
+  }
+ ],
+ "views": [
+  {
+   "id": "share",
+   "label": "Parte da população mundial",
+   "yLabel": "População mundial que vive em países com fecundidade abaixo de 2,1 filhos por mulher (%)",
+   "unit": "%",
+   "decimals": 1,
+   "labelEvery": 8,
+   "labelEveryNarrow": 16,
+   "yMax": 100,
+   "series": [
+    {
+     "key": "share",
+     "label": "Em países abaixo de 2,1",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "world",
+     "label": "Fecundidade mundial",
+     "suffix": " filhos por mulher"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "1991",
+     "text": "1991: China",
+     "short": "China"
+    },
+    {
+     "cat": "2020",
+     "text": "2020: Índia",
+     "short": "Índia"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "Fecundidade mundial",
+   "yLabel": "Índice sintético de fecundidade do mundo (filhos por mulher)",
+   "unit": "",
+   "decimals": 2,
+   "labelEvery": 8,
+   "labelEveryNarrow": 16,
+   "series": [
+    {
+     "key": "world",
+     "label": "Fecundidade mundial",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "share",
+     "label": "População em países abaixo de 2,1",
+     "suffix": "%"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2024",
+     "text": "2024: 2,19",
+     "short": "2,19"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "y1960": {
+   "cat": "1960",
+   "share": 3.9,
+   "world": 4.69,
+   "n": 216,
+   "cover": 100
+  },
+  "y1990": {
+   "cat": "1990",
+   "share": 23.4,
+   "world": 3.31,
+   "n": 217,
+   "cover": 100
+  },
+  "y1991": {
+   "cat": "1991",
+   "share": 44.7,
+   "world": 3.13,
+   "n": 217,
+   "cover": 100
+  },
+  "y2000": {
+   "cat": "2000",
+   "share": 45.8,
+   "world": 2.73,
+   "n": 217,
+   "cover": 100
+  },
+  "y2019": {
+   "cat": "2019",
+   "share": 48.6,
+   "world": 2.35,
+   "n": 217,
+   "cover": 100
+  },
+  "y2020": {
+   "cat": "2020",
+   "share": 67.7,
+   "world": 2.28,
+   "n": 217,
+   "cover": 100
+  },
+  "y2024": {
+   "cat": "2024",
+   "share": 67.4,
+   "world": 2.19,
+   "n": 217,
+   "cover": 100
+  },
+  "crossCHN": "1991",
+  "crossIND": "2020"
+ }
+}

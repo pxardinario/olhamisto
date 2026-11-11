@@ -1,8 +1,119 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-10T07:44:21.477Z",
- "latest": "2026-11-10",
+ "updated": "2026-11-11T07:32:06.126Z",
+ "latest": "2026-11-11",
  "editions": [
+  {
+   "date": "2026-11-11",
+   "number": 7,
+   "lead": "fecundidade-abaixo-substituicao-mundo-1960-2024",
+   "opening": "Cinco histórias para quarta-feira: a parte da humanidade que já vive abaixo da fecundidade de substituição, os ucranianos protegidos na UE, os juros dos depósitos depois das subidas do BCE, a queda do abandono escolar em Portugal e as estrelas generosas de um site de bilhetes de cinema.",
+   "pieces": [
+    {
+     "id": "fecundidade-abaixo-substituicao-mundo-1960-2024",
+     "title": "Dois terços da humanidade vivem em países onde nascem menos de 2,1 filhos por mulher",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade",
+     "vizType": "barras",
+     "vizLabel": "Colunas · duas vistas",
+     "interactive": true,
+     "question": "Que parte da população mundial vive em países onde a fecundidade já não garante a substituição das gerações?",
+     "finding": "Em 2024, 67,4% da população mundial vivia em países com fecundidade abaixo de 2,1 filhos por mulher. Em 1960 eram 3,9%. Os dois maiores saltos vieram da China, em 1991 (de 23,4% para 44,7%), e da Índia, em 2020 (de 48,6% para 67,7%). A média mundial, 2,19 filhos por mulher, continua acima do limiar.",
+     "period": "1960–2024",
+     "dataset": "fecundidade-abaixo-substituicao-mundo-1960-2024",
+     "sourceNames": [
+      "Banco Mundial — World Development Indicators, SP.DYN.TFRT.IN (índice sintético de fecundidade) e SP.POP.TOTL (população), a partir das Nações Unidas, World Population Prospects, e de institutos nacionais (CC BY 4.0)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "protecao-temporaria-ucrania-ue-2026",
+     "title": "Há mais ucranianos com proteção temporária na UE do que em 2022. Na Chéquia são 36 por cada mil habitantes",
+     "kind": "atualidade",
+     "theme": "geopolitica",
+     "themeLabel": "Geopolítica",
+     "vizType": "barras",
+     "vizLabel": "Barras · duas vistas, ordenação alternável",
+     "interactive": true,
+     "question": "Quantos ucranianos continuam protegidos na UE, e onde?",
+     "finding": "No fim de setembro de 2026, 4 302 850 cidadãos ucranianos tinham proteção temporária na UE, contra 3 608 165 em agosto de 2022; o máximo foi em agosto de 2026, com 4 363 955. A Chéquia acolhe 35,8 por mil habitantes; a França, 0,7. Alemanha, Polónia e Chéquia somam 58,4% do total.",
+     "period": "Setembro de 2026 (comparações desde agosto de 2022)",
+     "dataset": "protecao-temporaria-ucrania-ue-2026",
+     "sourceNames": [
+      "Eurostat — Beneficiários de proteção temporária no fim do mês, por cidadania (migr_asytpsm), cidadãos da Ucrânia",
+      "Eurostat — População a 1 de janeiro (demo_gind), 2026",
+      "Conselho da UE — Decisão de Execução (UE) 2026/1912, prolongamento da proteção temporária até 4 de março de 2028"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "depositos-juros-pt-ze-2021-2026",
+     "title": "O BCE voltou a subir os juros. Nos depósitos a prazo, Portugal ficou meio ponto abaixo da zona euro",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Os bancos portugueses estão a passar a subida das taxas do BCE para os depositantes?",
+     "finding": "Em setembro de 2026, os novos depósitos a prazo das famílias rendiam em média 1,83% em Portugal e 2,33% na zona euro: 0,50 pontos de diferença. Desde julho, a diferença ronda meio ponto (0,51 em julho e agosto), o que não acontecia desde setembro de 2023. Com a taxa da facilidade de depósito do BCE a 2,50%, a taxa portuguesa equivalia a 73% da do BCE; a da zona euro, a 93%.",
+     "period": "Janeiro de 2021 a setembro de 2026",
+     "dataset": "depositos-juros-pt-ze-2021-2026",
+     "sourceNames": [
+      "BCE — Estatísticas das taxas de juro das IFM (MIR): novos depósitos de famílias com prazo acordado até 1 ano, Portugal e zona euro",
+      "BCE — Taxa da facilidade permanente de depósito (FM.B.U2.EUR.4F.KR.DFR.LEV)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "abandono-escolar-precoce-ue-2006-2025",
+     "title": "Em 2006, Portugal tinha o maior abandono escolar precoce da UE. Em 2025 ficou abaixo da média",
+     "kind": "descoberta",
+     "theme": "portugal",
+     "themeLabel": "Portugal e políticas públicas",
+     "vizType": "halteres",
+     "vizLabel": "Halteres · ordenação alternável",
+     "interactive": true,
+     "question": "Quanto mudou o abandono escolar precoce em Portugal face aos outros países da UE?",
+     "finding": "Em 2006, 38,5% dos portugueses de 18 a 24 anos tinham, no máximo, o ensino básico e não estavam a estudar nem em formação: a taxa mais alta da UE. Em 2025 eram 6,1%, abaixo da média europeia (9,1%). A descida de 32,4 pontos foi a maior da UE, à frente de Malta (23,6) e Espanha (17,5). Só sete países têm hoje uma taxa mais baixa.",
+     "period": "2006 e 2025 (série desde 1992)",
+     "dataset": "abandono-escolar-precoce-ue-2006-2025",
+     "sourceNames": [
+      "Eurostat — Abandono precoce de educação e formação, 18–24 anos (edat_lfse_14), inquérito às forças de trabalho",
+      "Conselho da UE — Resolução sobre o Espaço Europeu da Educação (2021/C 66/01), meta de menos de 9% em 2030",
+      "Diário da República — Lei n.º 85/2009, de 27 de agosto (escolaridade obrigatória até aos 18 anos)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "fandango-estrelas-arredondadas-2015",
+     "title": "Num site que vendia bilhetes de cinema, nenhum filme tinha menos estrelas do que a média dos votos",
+     "kind": "descoberta",
+     "theme": "marketing",
+     "themeLabel": "Marketing",
+     "vizType": "barras",
+     "vizLabel": "Colunas",
+     "interactive": false,
+     "question": "As estrelas mostradas por um site de venda de bilhetes correspondiam às notas dadas pelos espectadores?",
+     "finding": "Em agosto de 2015, o Fandango mostrava mais estrelas do que a média real dos votos em 328 de 437 filmes (75,1%), e nunca menos. Em 180 filmes (41,2%), a diferença passava de 0,25 estrelas, o que um arredondamento à meia estrela mais próxima nunca produz. Um filme com média de 4,0, com apenas dois votos, aparecia com cinco estrelas.",
+     "period": "24 de agosto de 2015",
+     "dataset": "fandango-estrelas-arredondadas-2015",
+     "sourceNames": [
+      "FiveThirtyEight — fandango_scrape.csv e fandango_score_comparison.csv (CC BY 4.0)",
+      "FiveThirtyEight — Walt Hickey, «Be Suspicious Of Online Movie Ratings, Especially Fandango's» (15/10/2015)",
+      "TheWrap — «Fandango Blames Inflated Movie Scores on Computer Glitch» (secundária, para a resposta da empresa)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "dilema-do-prisioneiro",
+    "title": "O dilema do prisioneiro",
+    "axis": "economia",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-10",
    "number": 6,

@@ -123,37 +123,48 @@
       "tentativas": 1
     },
     {
-      "id": "fecundidade-abaixo-substituicao-mundo",
-      "tema": "sociedade",
-      "ideia": "Parte da população mundial que vive em países com fecundidade abaixo de 2,1 filhos por mulher, 1960–2023",
-      "fonte": "Banco Mundial, SP.DYN.TFRT.IN e SP.POP.TOTL (API)",
+      "id": "populacao-ex-urss-1991-2024",
+      "tema": "geopolitica",
+      "ideia": "População dos 15 países da antiga URSS desde 1991: o Leste europeu encolheu, a Ásia Central quase duplicou",
+      "fonte": "Banco Mundial SP.POP.TOTL (API)",
       "licenca": "CC BY 4.0",
-      "estado": "pronta",
-      "bloqueio": "2026-11-10: não produzida por falta de tempo; API acessível.",
-      "registada": "2026-11-10",
-      "tentativas": 0
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-11: definições territoriais incompatíveis entre países e anos (Crimeia e territórios ocupados na Ucrânia, Transnístria, Abecásia e Ossétia do Sul); a série ucraniana cai 3,2 milhões de 2022 para 2023. Só avançar com os metadados do Banco Mundial/ONU sobre cobertura territorial de cada país.",
+      "registada": "2026-11-11",
+      "tentativas": 1
     },
     {
-      "id": "abandono-escolar-precoce-pt",
-      "tema": "portugal",
-      "ideia": "Abandono escolar precoce: Portugal, de um dos piores da UE para abaixo da média",
-      "fonte": "Eurostat edat_lfse_14",
-      "licenca": "Eurostat: reutilização permitida com atribuição",
-      "estado": "pronta",
-      "bloqueio": "2026-11-10: adiada pela quota de peças «Portugal comparado com a Europa».",
-      "registada": "2026-11-10",
-      "tentativas": 0
-    },
-    {
-      "id": "juros-depositos-pt-ze",
+      "id": "petroleo-golfo-importacoes-ue",
       "tema": "economia",
-      "ideia": "Juros dos depósitos a prazo novos em Portugal contra a zona euro",
-      "fonte": "BCE, MIR (API data-api.ecb.europa.eu)",
-      "licenca": "BCE: reutilização permitida com atribuição",
-      "estado": "pronta",
-      "bloqueio": "2026-11-10: adiada por proximidade com a peça de crédito à habitação de 2026-11-09; confirmar a chave da série MIR.",
-      "registada": "2026-11-10",
-      "tentativas": 0
+      "ideia": "Dependência dos países da UE do crude dos países do Golfo (estreito de Ormuz)",
+      "fonte": "Eurostat nrg_ti_oil (importações por parceiro)",
+      "licenca": "Eurostat: reutilização permitida com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-11: seria a terceira peça «Portugal comparado com a Europa»; a origem do crude não é a rota (parte do petróleo saudita e emiradense sai sem passar em Ormuz) — precisa de uma nota metodológica cuidada.",
+      "registada": "2026-11-11",
+      "tentativas": 1
+    },
+    {
+      "id": "esperanca-vida-aos-10-anos",
+      "tema": "historia",
+      "ideia": "Mito: «no passado morria-se aos 30». Esperança de vida à nascença contra esperança de vida aos 10 anos, séculos XVIII–XX",
+      "fonte": "OWID (owid-datasets), a partir da Human Mortality Database e da ONU (WPP 2015)",
+      "licenca": "CC BY 4.0 (OWID); HMD CC BY 4.0",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-11: o conjunto da OWID é de 2015 e mistura fontes; faltam a série à nascença da mesma origem e o acesso direto a mortality.org.",
+      "registada": "2026-11-11",
+      "tentativas": 1
+    },
+    {
+      "id": "voto-popular-compacto-eua",
+      "tema": "politica",
+      "ideia": "O pacto interestadual do voto popular nos EUA: quantos votos eleitorais faltam para os 270",
+      "fonte": "National Archives (votos eleitorais por estado); leis estaduais",
+      "licenca": "Domínio público (governo dos EUA)",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-11: sem fonte primária acessível pela linha de comandos para a lista de estados aderentes; archives.gov não testado.",
+      "registada": "2026-11-11",
+      "tentativas": 1
     }
   ]
 }

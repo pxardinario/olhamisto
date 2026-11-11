@@ -1,0 +1,305 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "per1000": 8,
+   "thousands": 95.6
+  },
+  {
+   "label": "Bulgária",
+   "per1000": 12.5,
+   "thousands": 80.4
+  },
+  {
+   "label": "Chéquia",
+   "per1000": 35.8,
+   "thousands": 391
+  },
+  {
+   "label": "Dinamarca",
+   "per1000": 8.9,
+   "thousands": 53.8
+  },
+  {
+   "label": "Alemanha",
+   "per1000": 15.2,
+   "thousands": 1264.7
+  },
+  {
+   "label": "Estónia",
+   "per1000": 22.7,
+   "thousands": 31
+  },
+  {
+   "label": "Irlanda",
+   "per1000": 21.8,
+   "thousands": 120.1
+  },
+  {
+   "label": "Grécia",
+   "per1000": 4,
+   "thousands": 41.8
+  },
+  {
+   "label": "Espanha",
+   "per1000": 5.4,
+   "thousands": 270
+  },
+  {
+   "label": "França",
+   "per1000": 0.7,
+   "thousands": 45.5
+  },
+  {
+   "label": "Croácia",
+   "per1000": 7.9,
+   "thousands": 30.6
+  },
+  {
+   "label": "Itália",
+   "per1000": 1,
+   "thousands": 58.7
+  },
+  {
+   "label": "Chipre",
+   "per1000": 27.2,
+   "thousands": 27.1
+  },
+  {
+   "label": "Letónia",
+   "per1000": 17.3,
+   "thousands": 31.9
+  },
+  {
+   "label": "Lituânia",
+   "per1000": 18.1,
+   "thousands": 52.2
+  },
+  {
+   "label": "Luxemburgo",
+   "per1000": 5.5,
+   "thousands": 3.8
+  },
+  {
+   "label": "Hungria",
+   "per1000": 4.9,
+   "thousands": 46
+  },
+  {
+   "label": "Malta",
+   "per1000": 4.7,
+   "thousands": 2.7
+  },
+  {
+   "label": "Países Baixos",
+   "per1000": 7.9,
+   "thousands": 142.4
+  },
+  {
+   "label": "Áustria",
+   "per1000": 9.9,
+   "thousands": 91.6
+  },
+  {
+   "label": "Polónia",
+   "per1000": 23.6,
+   "thousands": 856.3
+  },
+  {
+   "label": "Portugal",
+   "per1000": 5.4,
+   "thousands": 62.2
+  },
+  {
+   "label": "Roménia",
+   "per1000": 11.8,
+   "thousands": 223.7
+  },
+  {
+   "label": "Eslovénia",
+   "per1000": 5.5,
+   "thousands": 11.7
+  },
+  {
+   "label": "Eslováquia",
+   "per1000": 27.8,
+   "thousands": 150.6
+  },
+  {
+   "label": "Finlândia",
+   "per1000": 11.7,
+   "thousands": 66.2
+  },
+  {
+   "label": "Suécia",
+   "per1000": 4.8,
+   "thousands": 51
+  },
+  {
+   "label": "UE-27",
+   "per1000": 9.5,
+   "thousands": 4302.9
+  }
+ ],
+ "config": {
+  "unit": "",
+  "decimals": 1,
+  "signed": false,
+  "independentScale": true,
+  "pinned": [
+   "UE-27"
+  ],
+  "posLabel": "Beneficiários de proteção temporária",
+  "howToRead": "Cada barra é um país da UE. A primeira vista divide o número de cidadãos ucranianos com proteção temporária em setembro de 2026 pela população do país a 1 de janeiro de 2026; a segunda mostra o número absoluto, em milhares de pessoas.",
+  "views": [
+   {
+    "id": "per",
+    "key": "per1000",
+    "label": "Por mil habitantes",
+    "axisLabel": "Ucranianos com proteção temporária por mil habitantes, setembro de 2026",
+    "axisShort": "Por mil habitantes, set. 2026"
+   },
+   {
+    "id": "abs",
+    "key": "thousands",
+    "label": "Em milhares",
+    "axisLabel": "Ucranianos com proteção temporária, setembro de 2026 (milhares de pessoas)",
+    "axisShort": "Milhares de pessoas, set. 2026"
+   }
+  ],
+  "sorts": [
+   [
+    "value",
+    "Por valor"
+   ],
+   [
+    "label",
+    "Alfabética"
+   ]
+  ]
+ },
+ "summary": {
+  "eu": {
+   "sep2026": 4302850,
+   "aug2026": 4363955,
+   "aug2022": 3608165,
+   "sep2025": 4233895,
+   "per1000": 9.5
+  },
+  "top3share": 58.4,
+  "pt": {
+   "n": 62235,
+   "per1000": 5.4
+  },
+  "ranking": [
+   [
+    "Chéquia",
+    35.8
+   ],
+   [
+    "Eslováquia",
+    27.8
+   ],
+   [
+    "Chipre",
+    27.2
+   ],
+   [
+    "Polónia",
+    23.6
+   ],
+   [
+    "Estónia",
+    22.7
+   ],
+   [
+    "Irlanda",
+    21.8
+   ],
+   [
+    "Lituânia",
+    18.1
+   ],
+   [
+    "Letónia",
+    17.3
+   ],
+   [
+    "Alemanha",
+    15.2
+   ],
+   [
+    "Bulgária",
+    12.5
+   ],
+   [
+    "Roménia",
+    11.8
+   ],
+   [
+    "Finlândia",
+    11.7
+   ],
+   [
+    "Áustria",
+    9.9
+   ],
+   [
+    "Dinamarca",
+    8.9
+   ],
+   [
+    "Bélgica",
+    8
+   ],
+   [
+    "Croácia",
+    7.9
+   ],
+   [
+    "Países Baixos",
+    7.9
+   ],
+   [
+    "Luxemburgo",
+    5.5
+   ],
+   [
+    "Eslovénia",
+    5.5
+   ],
+   [
+    "Espanha",
+    5.4
+   ],
+   [
+    "Portugal",
+    5.4
+   ],
+   [
+    "Hungria",
+    4.9
+   ],
+   [
+    "Suécia",
+    4.8
+   ],
+   [
+    "Malta",
+    4.7
+   ],
+   [
+    "Grécia",
+    4
+   ],
+   [
+    "Itália",
+    1
+   ],
+   [
+    "França",
+    0.7
+   ]
+  ]
+ }
+}
