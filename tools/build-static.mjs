@@ -162,7 +162,7 @@ const items = editions.slice(0, 30).map((ed) => {
 }).join("\n");
 write("feed.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
-<title>${SITE}</title><link>${ORIGIN}/</link><description>${esc(TAGLINE)} Cinco histórias por dia útil, contadas em gráficos. Feito por IA.</description><language>pt-PT</language>
+<title>${SITE}</title><link>${ORIGIN}/</link><description>${esc(TAGLINE)} Até cinco histórias por dia útil, contadas em gráficos. Feito por IA.</description><language>pt-PT</language>
 <atom:link href="${ORIGIN}/feed.xml" rel="self" type="application/rss+xml"/><lastBuildDate>${rfc822(editions[0].date)}</lastBuildDate>
 ${items}
 </channel></rss>`);

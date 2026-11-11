@@ -1,0 +1,286 @@
+{
+ "rows": [
+  {
+   "label": "UE-27",
+   "house": 61.9,
+   "rent": 20.5,
+   "gap": 34.3
+  },
+  {
+   "label": "Bélgica",
+   "house": 44.9,
+   "rent": 30.3,
+   "gap": 11.2,
+   "highlight": false
+  },
+  {
+   "label": "Bulgária",
+   "house": 149.2,
+   "rent": 48.6,
+   "gap": 67.8,
+   "highlight": false
+  },
+  {
+   "label": "Chéquia",
+   "house": 145.4,
+   "rent": 48.3,
+   "gap": 65.5,
+   "highlight": false
+  },
+  {
+   "label": "Dinamarca",
+   "house": 52.8,
+   "rent": 17.5,
+   "gap": 30.1,
+   "highlight": false
+  },
+  {
+   "label": "Alemanha",
+   "house": 52.7,
+   "rent": 17.9,
+   "gap": 29.5,
+   "highlight": false
+  },
+  {
+   "label": "Estónia",
+   "house": 120.7,
+   "rent": 65.3,
+   "gap": 33.6,
+   "highlight": false
+  },
+  {
+   "label": "Irlanda",
+   "house": 97.2,
+   "rent": 73.6,
+   "gap": 13.6,
+   "highlight": false
+  },
+  {
+   "label": "Espanha",
+   "house": 80.6,
+   "rent": 13.6,
+   "gap": 59,
+   "highlight": false
+  },
+  {
+   "label": "França",
+   "house": 27.3,
+   "rent": 9.7,
+   "gap": 16,
+   "highlight": false
+  },
+  {
+   "label": "Croácia",
+   "house": 127.1,
+   "rent": 46.5,
+   "gap": 55,
+   "highlight": false
+  },
+  {
+   "label": "Itália",
+   "house": 16.2,
+   "rent": 12.6,
+   "gap": 3.2,
+   "highlight": false
+  },
+  {
+   "label": "Chipre",
+   "house": 50.9,
+   "rent": 29.2,
+   "gap": 16.8,
+   "highlight": false
+  },
+  {
+   "label": "Letónia",
+   "house": 114.1,
+   "rent": 27.8,
+   "gap": 67.5,
+   "highlight": false
+  },
+  {
+   "label": "Lituânia",
+   "house": 158.1,
+   "rent": 83.5,
+   "gap": 40.7,
+   "highlight": false
+  },
+  {
+   "label": "Luxemburgo",
+   "house": 65.1,
+   "rent": 14.6,
+   "gap": 44.2,
+   "highlight": false
+  },
+  {
+   "label": "Hungria",
+   "house": 266.6,
+   "rent": 105.4,
+   "gap": 78.5,
+   "highlight": false
+  },
+  {
+   "label": "Malta",
+   "house": 73.6,
+   "rent": 53.1,
+   "gap": 13.3,
+   "highlight": false
+  },
+  {
+   "label": "Países Baixos",
+   "house": 115.2,
+   "rent": 29.3,
+   "gap": 66.4,
+   "highlight": false
+  },
+  {
+   "label": "Áustria",
+   "house": 67.1,
+   "rent": 47.3,
+   "gap": 13.5,
+   "highlight": false
+  },
+  {
+   "label": "Polónia",
+   "house": 116.8,
+   "rent": 73.7,
+   "gap": 24.8,
+   "highlight": false
+  },
+  {
+   "label": "Portugal",
+   "house": 163.9,
+   "rent": 36.4,
+   "gap": 93.5,
+   "highlight": true
+  },
+  {
+   "label": "Roménia",
+   "house": 64.8,
+   "rent": 56.5,
+   "gap": 5.3,
+   "highlight": false
+  },
+  {
+   "label": "Eslovénia",
+   "house": 114.9,
+   "rent": 73.8,
+   "gap": 23.6,
+   "highlight": false
+  },
+  {
+   "label": "Eslováquia",
+   "house": 104.2,
+   "rent": 27.5,
+   "gap": 60.1,
+   "highlight": false
+  },
+  {
+   "label": "Finlândia",
+   "house": -1,
+   "rent": 18.4,
+   "gap": -16.3,
+   "highlight": false
+  },
+  {
+   "label": "Suécia",
+   "house": 33.4,
+   "rent": 25.4,
+   "gap": 6.4,
+   "highlight": false
+  }
+ ],
+ "config": {
+  "unit": "%",
+  "decimals": 1,
+  "pinned": [
+   "UE-27"
+  ],
+  "posLabel": "Subida desde 2015",
+  "negLabel": "Descida",
+  "highlightLabel": "Portugal",
+  "howToRead": "Cada barra mostra quanto subiu um índice entre 2015 e 2025. A primeira vista compara os preços das casas; a segunda, as rendas pagas pelos inquilinos; a terceira mostra quanto os preços das casas subiram a mais do que as rendas. A Grécia não tem índice de preços da habitação no Eurostat.",
+  "views": [
+   {
+    "id": "gap",
+    "key": "gap",
+    "label": "Casas face às rendas",
+    "axisLabel": "Quanto os preços das casas subiram a mais do que as rendas, 2015–2025 (%)",
+    "axisShort": "Casas face às rendas, 2015–2025 (%)"
+   },
+   {
+    "id": "house",
+    "key": "house",
+    "label": "Preços das casas",
+    "axisLabel": "Variação do índice de preços da habitação, 2015–2025 (%)",
+    "axisShort": "Preços das casas, 2015–2025 (%)"
+   },
+   {
+    "id": "rent",
+    "key": "rent",
+    "label": "Rendas",
+    "axisLabel": "Variação do índice de rendas pagas pelos inquilinos (IHPC), 2015–2025 (%)",
+    "axisShort": "Rendas (IHPC), 2015–2025 (%)"
+   }
+  ],
+  "sorts": [
+   [
+    "value",
+    "Por valor"
+   ],
+   [
+    "label",
+    "Alfabética"
+   ]
+  ]
+ },
+ "summary": {
+  "pt": {
+   "house": 263.85,
+   "rent": 136.37,
+   "hicp": 124.83,
+   "gap": 93.5
+  },
+  "eu": {
+   "house": 161.89,
+   "rent": 120.51,
+   "hicp": 132.86,
+   "gap": 34.3
+  },
+  "topGap": [
+   [
+    "Portugal",
+    93.5
+   ],
+   [
+    "Hungria",
+    78.5
+   ],
+   [
+    "Bulgária",
+    67.8
+   ],
+   [
+    "Letónia",
+    67.5
+   ],
+   [
+    "Países Baixos",
+    66.4
+   ]
+  ],
+  "topHouse": [
+   [
+    "Hungria",
+    366.62
+   ],
+   [
+    "Portugal",
+    263.85
+   ],
+   [
+    "Lituânia",
+    258.11
+   ]
+  ]
+ }
+}

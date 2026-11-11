@@ -7,8 +7,8 @@
       "ideia": "Uso de IA generativa pelas pessoas, por país da UE, em 2025: onde fica Portugal?",
       "fonte": "Eurostat, inquérito à utilização de TIC pelas famílias (isoc_ai_iaigu ou equivalente)",
       "licenca": "Eurostat: reutilização permitida com atribuição",
-      "estado": "descartada",
-      "bloqueio": "Statistics Explained só dá os extremos no texto; o valor por país está num mapa. Tentar a tabela na base de dados do Eurostat (data browser) por WebFetch, ou um conjunto derivado no OWID. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar. Descartada após 3 tentativas: os valores por país não chegaram em formato legível neste ambiente. 2026-11-09: com a API do Eurostat acessível pela linha de comandos, pode ser reativada (conjunto de utilização de IA pelas pessoas, a confirmar o código).",
+      "estado": "bloqueada",
+      "bloqueio": "Statistics Explained só dá os extremos no texto; o valor por país está num mapa. Tentar a tabela na base de dados do Eurostat (data browser) por WebFetch, ou um conjunto derivado no OWID. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar. Descartada após 3 tentativas: os valores por país não chegaram em formato legível neste ambiente. 2026-11-09: com a API do Eurostat acessível pela linha de comandos, pode ser reativada (conjunto de utilização de IA pelas pessoas, a confirmar o código). 2026-11-10: adiada por proximidade temática com a peça sobre IA nas empresas (2026-11-09); falta confirmar o código do conjunto.",
       "registada": "2026-11-05",
       "tentativas": 3
     },
@@ -22,17 +22,6 @@
       "bloqueio": "Só dois valores médios no resumo; dados por ensaio sem licença de reutilização indicada. Procurar o pacote de replicação no openICPSR ou no sítio da Econometric Society e confirmar a licença.",
       "registada": "2026-11-05",
       "tentativas": 1
-    },
-    {
-      "id": "precos-casas-vs-rendas-ue",
-      "tema": "economia",
-      "ideia": "Preços das casas contra rendas nos 27 países da UE, 2015–2025",
-      "fonte": "Eurostat, índices de preços da habitação (prc_hpi_a) e rendas (prc_hicp)",
-      "licenca": "Eurostat: reutilização permitida com atribuição",
-      "estado": "pronta",
-      "bloqueio": "Valores por país só em gráfico de imagem na página consultada. Tentar as tabelas prc_hpi_a e o índice de rendas no data browser por WebFetch. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar. 2026-11-09: a API do Eurostat responde pela linha de comandos (ambiente «Olhamisto»); prc_hpi_a e o índice de rendas (prc_hicp_aind, CP041) podem descarregar-se diretamente. Não produzida hoje para não juntar duas peças de habitação na mesma edição.",
-      "registada": "2026-11-03",
-      "tentativas": 2
     },
     {
       "id": "musica-gravada-vinil",
@@ -63,9 +52,9 @@
       "fonte": "INE, Estimativas de População Residente 2025 (destaque de 22/06/2026) e dados de emigração revistos (5/11/2026)",
       "licenca": "INE: reutilização permitida com atribuição",
       "estado": "bloqueada",
-      "bloqueio": "Em 2026-11-06 o WebFetch não chegou a www.ine.pt; só houve resumos de pesquisa. Precisa dos quadros do destaque (população a 31/12 por ano, saldos natural e migratório, séries antiga e nova). Pode servir também para refazer a peça populacao-portugal-1960-2025. 2026-11-09: a API do INE responde pela linha de comandos, mas devolve só a série atual; falta uma fonte primária da série antiga (antes da revisão) para comparar. Não tentada hoje.",
+      "bloqueio": "Em 2026-11-06 o WebFetch não chegou a www.ine.pt; só houve resumos de pesquisa. Precisa dos quadros do destaque (população a 31/12 por ano, saldos natural e migratório, séries antiga e nova). Pode servir também para refazer a peça populacao-portugal-1960-2025. 2026-11-09: a API do INE responde pela linha de comandos, mas devolve só a série atual; falta uma fonte primária da série antiga (antes da revisão) para comparar. Não tentada hoje. 2026-11-10: a API do INE recusou a ligação (connection reset) nesta execução.",
       "registada": "2026-11-06",
-      "tentativas": 1
+      "tentativas": 2
     },
     {
       "id": "intercalares-eua-2026-resultados",
@@ -73,10 +62,10 @@
       "ideia": "Resultados das intercalares de 3/11/2026 contra o padrão histórico (o partido do presidente perdeu lugares em 18 de 20)",
       "fonte": "Clerk of the House / resultados oficiais certificados pelos estados",
       "licenca": "Domínio público (governo dos EUA)",
-      "estado": "bloqueada",
-      "bloqueio": "Resultados ainda não finais e sem fonte primária acessível a 2026-11-06. Tentar quando houver contagem quase final; ligar à peça eua-intercalares de 2026-11-03. 2026-11-09: continua sem resultados certificados numa fonte primária acessível.",
+      "estado": "descartada",
+      "bloqueio": "Resultados ainda não finais e sem fonte primária acessível a 2026-11-06. Tentar quando houver contagem quase final; ligar à peça eua-intercalares de 2026-11-03. 2026-11-09: continua sem resultados certificados numa fonte primária acessível. 2026-11-10: continua sem resultados certificados acessíveis; descartada como atualidade. A peça de 2026-11-10 sobre a idade do Congresso usou dados da FiveThirtyEight; quando houver dados do 120.º Congresso, pode atualizar-se.",
       "registada": "2026-11-06",
-      "tentativas": 2
+      "tentativas": 3
     },
     {
       "id": "nados-vivos-mae-estrangeira-2025",
@@ -109,6 +98,72 @@
       "estado": "bloqueada",
       "bloqueio": "2026-11-09: api.nobelprize.org não está na lista de domínios do ambiente; procurar uma cópia no GitHub ou pedir ao Pedro para autorizar o domínio.",
       "registada": "2026-11-09",
+      "tentativas": 1
+    },
+    {
+      "id": "altura-europeus-ncd-risc",
+      "tema": "ciencia",
+      "ideia": "Altura média por geração, 1896–1996: os portugueses cresceram 14 cm e continuam entre os mais baixos da Europa ocidental",
+      "fonte": "NCD-RisC (2016), «A century of trends in adult human height», eLife; cópia em owid-datasets («Human Height - NCD RisC (2017)»)",
+      "licenca": "Por confirmar: o artigo é CC BY 4.0, mas a licença dos dados descarregáveis não foi confirmada",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-10: ncdrisc.org e elifesciences.org inacessíveis neste ambiente; o datapackage da OWID não indica licença. Pedir ao Pedro para autorizar ncdrisc.org ou encontrar a declaração de licença.",
+      "registada": "2026-11-10",
+      "tentativas": 1
+    },
+    {
+      "id": "castanha-portugal",
+      "tema": "agricultura",
+      "ideia": "Castanha em Portugal: a área de castanheiro cresceu, a produção não",
+      "fonte": "Eurostat apro_cpsh1 (F4400)",
+      "licenca": "Eurostat: reutilização permitida com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-10: salto da área de 41 para 52 mil ha em 2019, sem salto na produção; confirmar nos metadados do INE se é quebra de método (recenseamento agrícola de 2019).",
+      "registada": "2026-11-10",
+      "tentativas": 1
+    },
+    {
+      "id": "populacao-ex-urss-1991-2024",
+      "tema": "geopolitica",
+      "ideia": "População dos 15 países da antiga URSS desde 1991: o Leste europeu encolheu, a Ásia Central quase duplicou",
+      "fonte": "Banco Mundial SP.POP.TOTL (API)",
+      "licenca": "CC BY 4.0",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-11: definições territoriais incompatíveis entre países e anos (Crimeia e territórios ocupados na Ucrânia, Transnístria, Abecásia e Ossétia do Sul); a série ucraniana cai 3,2 milhões de 2022 para 2023. Só avançar com os metadados do Banco Mundial/ONU sobre cobertura territorial de cada país.",
+      "registada": "2026-11-11",
+      "tentativas": 1
+    },
+    {
+      "id": "petroleo-golfo-importacoes-ue",
+      "tema": "economia",
+      "ideia": "Dependência dos países da UE do crude dos países do Golfo (estreito de Ormuz)",
+      "fonte": "Eurostat nrg_ti_oil (importações por parceiro)",
+      "licenca": "Eurostat: reutilização permitida com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-11: seria a terceira peça «Portugal comparado com a Europa»; a origem do crude não é a rota (parte do petróleo saudita e emiradense sai sem passar em Ormuz) — precisa de uma nota metodológica cuidada.",
+      "registada": "2026-11-11",
+      "tentativas": 1
+    },
+    {
+      "id": "esperanca-vida-aos-10-anos",
+      "tema": "historia",
+      "ideia": "Mito: «no passado morria-se aos 30». Esperança de vida à nascença contra esperança de vida aos 10 anos, séculos XVIII–XX",
+      "fonte": "OWID (owid-datasets), a partir da Human Mortality Database e da ONU (WPP 2015)",
+      "licenca": "CC BY 4.0 (OWID); HMD CC BY 4.0",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-11: o conjunto da OWID é de 2015 e mistura fontes; faltam a série à nascença da mesma origem e o acesso direto a mortality.org.",
+      "registada": "2026-11-11",
+      "tentativas": 1
+    },
+    {
+      "id": "voto-popular-compacto-eua",
+      "tema": "politica",
+      "ideia": "O pacto interestadual do voto popular nos EUA: quantos votos eleitorais faltam para os 270",
+      "fonte": "National Archives (votos eleitorais por estado); leis estaduais",
+      "licenca": "Domínio público (governo dos EUA)",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-11: sem fonte primária acessível pela linha de comandos para a lista de estados aderentes; archives.gov não testado.",
+      "registada": "2026-11-11",
       "tentativas": 1
     }
   ]

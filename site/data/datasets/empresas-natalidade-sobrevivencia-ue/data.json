@@ -1,0 +1,329 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "x": 7.77,
+   "y": 74.9,
+   "group": "ue",
+   "b2024": 8
+  },
+  {
+   "label": "Bulgária",
+   "x": 10.03,
+   "y": 61.6,
+   "group": "ue",
+   "b2024": 10.44
+  },
+  {
+   "label": "Chéquia",
+   "x": 8.78,
+   "y": 63.97,
+   "group": "ue",
+   "b2024": 9.56
+  },
+  {
+   "label": "Dinamarca",
+   "x": 11.26,
+   "y": 45.39,
+   "group": "ue",
+   "b2024": 7.16
+  },
+  {
+   "label": "Alemanha",
+   "x": 7.81,
+   "y": 57.83,
+   "group": "ue",
+   "b2024": 7.78
+  },
+  {
+   "label": "Estónia",
+   "x": 25.43,
+   "y": 62.58,
+   "group": "ue",
+   "b2024": 12.05
+  },
+  {
+   "label": "Irlanda",
+   "x": 10.19,
+   "y": 52.69,
+   "group": "ue",
+   "b2024": 10.83
+  },
+  {
+   "label": "Grécia",
+   "x": 7.22,
+   "y": 72.49,
+   "group": "ue",
+   "b2024": 9.12
+  },
+  {
+   "label": "Espanha",
+   "x": 9.19,
+   "y": 53.63,
+   "group": "ue",
+   "b2024": 9.42
+  },
+  {
+   "label": "França",
+   "x": 16.17,
+   "y": 48.94,
+   "group": "ue",
+   "b2024": 14.23
+  },
+  {
+   "label": "Croácia",
+   "x": 11.01,
+   "y": 67.04,
+   "group": "ue",
+   "b2024": 11.86
+  },
+  {
+   "label": "Itália",
+   "x": 8.07,
+   "y": 61.25,
+   "group": "ue",
+   "b2024": 7.94
+  },
+  {
+   "label": "Chipre",
+   "x": 10.15,
+   "y": 62.96,
+   "group": "ue",
+   "b2024": 9.7
+  },
+  {
+   "label": "Letónia",
+   "x": 13.04,
+   "y": 50.14,
+   "group": "ue",
+   "b2024": 13.92
+  },
+  {
+   "label": "Lituânia",
+   "x": 19.32,
+   "y": 43.47,
+   "group": "ue",
+   "b2024": 17.47
+  },
+  {
+   "label": "Luxemburgo",
+   "x": 8.57,
+   "y": 70.73,
+   "group": "ue",
+   "b2024": 8.46
+  },
+  {
+   "label": "Hungria",
+   "x": 11.96,
+   "y": 49.12,
+   "group": "ue",
+   "b2024": 8.59
+  },
+  {
+   "label": "Malta",
+   "x": 14.44,
+   "y": 50.37,
+   "group": "ue",
+   "b2024": 14.39
+  },
+  {
+   "label": "Países Baixos",
+   "x": 11.01,
+   "y": 78.11,
+   "group": "ue",
+   "b2024": 8.16
+  },
+  {
+   "label": "Áustria",
+   "x": 6,
+   "y": 61.16,
+   "group": "ue",
+   "b2024": 6.3
+  },
+  {
+   "label": "Polónia",
+   "x": 12.27,
+   "y": 58.05,
+   "group": "ue",
+   "b2024": 11.24
+  },
+  {
+   "label": "Portugal",
+   "x": 14.38,
+   "y": 47.71,
+   "group": "pt",
+   "b2024": 16.08
+  },
+  {
+   "label": "Roménia",
+   "x": 11.47,
+   "y": 59.14,
+   "group": "ue",
+   "b2024": 11.6
+  },
+  {
+   "label": "Eslovénia",
+   "x": 10.78,
+   "y": 62.88,
+   "group": "ue",
+   "b2024": 9.97
+  },
+  {
+   "label": "Eslováquia",
+   "x": 11.43,
+   "y": 64.31,
+   "group": "ue",
+   "b2024": 10.91
+  },
+  {
+   "label": "Finlândia",
+   "x": 9.4,
+   "y": 66.26,
+   "group": "ue",
+   "b2024": 12.25
+  },
+  {
+   "label": "Suécia",
+   "x": 8.18,
+   "y": 58.9,
+   "group": "ue",
+   "b2024": 9.03
+  },
+  {
+   "label": "UE-27 (agregado)",
+   "x": 10.8,
+   "y": 57.18,
+   "group": "media",
+   "b2024": 10.36
+  }
+ ],
+ "config": {
+  "x": {
+   "label": "Empresas nascidas em 2021, em % das ativas →",
+   "short": "Natalidade 2021 (%) →",
+   "tipLabel": "Taxa de natalidade 2021 (%)",
+   "min": 4,
+   "max": 27,
+   "ticks": [
+    5,
+    10,
+    15,
+    20,
+    25
+   ],
+   "decimals": 0,
+   "tipDecimals": 1
+  },
+  "y": {
+   "label": "Sobreviventes em 2024 (%)",
+   "short": "Sobreviventes 2024 (%)",
+   "tipLabel": "Ainda ativas em 2024 (%)",
+   "min": 40,
+   "max": 82,
+   "ticks": [
+    40,
+    50,
+    60,
+    70,
+    80
+   ],
+   "decimals": 0,
+   "tipDecimals": 1
+  },
+  "groups": [
+   {
+    "key": "pt",
+    "label": "Portugal",
+    "color": "--accent"
+   },
+   {
+    "key": "ue",
+    "label": "Outros países da UE",
+    "color": "--accent-2"
+   },
+   {
+    "key": "media",
+    "label": "UE-27 (agregado)",
+    "color": "--ink",
+    "shape": "ring"
+   }
+  ],
+  "howToRead": "Cada ponto é um país da UE. Na horizontal, quantas empresas nasceram em 2021 por cada 100 ativas; na vertical, quantas dessas recém-nascidas ainda estavam ativas três anos depois, em 2024. Em baixo à direita ficam os países onde nascem muitas empresas e poucas sobrevivem. O anel é o agregado da UE.",
+  "notes": [
+   {
+    "x": 14.9,
+    "y": 45.6,
+    "text": "Portugal"
+   },
+   {
+    "x": 19.9,
+    "y": 44.6,
+    "text": "Lituânia"
+   },
+   {
+    "x": 24.8,
+    "y": 63.8,
+    "text": "Estónia",
+    "anchor": "end"
+   },
+   {
+    "x": 11.6,
+    "y": 78.4,
+    "text": "Países Baixos"
+   },
+   {
+    "x": 10.2,
+    "y": 55.4,
+    "text": "UE-27",
+    "anchor": "end"
+   }
+  ]
+ },
+ "summary": {
+  "pt": {
+   "birth2021": 14.38,
+   "birth2024": 16.08,
+   "surv1": 75.83,
+   "surv3": 47.71,
+   "death2024": 11.83
+  },
+  "eu": {
+   "birth2021": 10.8,
+   "birth2024": 10.36,
+   "surv1": 81.17,
+   "surv3": 57.18,
+   "death2024": 9.2
+  },
+  "lowestSurvival": [
+   [
+    "Lituânia",
+    43.47
+   ],
+   [
+    "Dinamarca",
+    45.39
+   ],
+   [
+    "Portugal",
+    47.71
+   ],
+   [
+    "França",
+    48.94
+   ],
+   [
+    "Hungria",
+    49.12
+   ]
+  ],
+  "highBirthLowSurvival": [
+   "Dinamarca",
+   "França",
+   "Letónia",
+   "Lituânia",
+   "Hungria",
+   "Malta",
+   "Portugal"
+  ]
+ }
+}

@@ -1,0 +1,314 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-11",
+ "number": 7,
+ "status": "publicada",
+ "opening": "Cinco histórias para quarta-feira: a parte da humanidade que já vive abaixo da fecundidade de substituição, os ucranianos protegidos na UE, os juros dos depósitos depois das subidas do BCE, a queda do abandono escolar em Portugal e as estrelas generosas de um site de bilhetes de cinema.",
+ "lead": "fecundidade-abaixo-substituicao-mundo-1960-2024",
+ "generatedAt": "2026-11-11T09:30:00Z",
+ "limitations": [
+  "Mistura da edição: 2 peças de atualidade e 3 de descoberta. Peças do tipo «Portugal comparado com a Europa»: 2 (depósitos e abandono escolar). Peça com fonte não oficial: Fandango (FiveThirtyEight). Peças sem Portugal como ângulo principal: fecundidade, proteção temporária e Fandango.",
+  "Candidata rejeitada: população dos países da antiga URSS desde 1991 (Banco Mundial). As definições territoriais mudam entre países e anos (Crimeia e territórios ocupados, Transnístria, Abecásia e Ossétia do Sul), o que tornaria as comparações incompatíveis.",
+  "Candidata rejeitada: dependência europeia do petróleo dos países do Golfo, a propósito do estreito de Ormuz (Eurostat). Seria a terceira peça do tipo «Portugal comparado com a Europa», e a origem do crude não coincide com a rota.",
+  "Candidata rejeitada: esperança de vida aos 10 anos contra à nascença, séculos XVIII–XX (Our World in Data). O conjunto disponível é de 2015 e mistura fontes; mortality.org não está acessível neste ambiente.",
+  "Candidata rejeitada: pacto interestadual do voto popular nos EUA. Sem fonte primária acessível para a lista de estados aderentes.",
+  "Candidatas adiadas: idade dos laureados com o Nobel (api.nobelprize.org inacessível); utilização de IA generativa pelas pessoas na UE (proximidade com a peça de 9 de novembro).",
+  "Nesta execução, o grapher da Our World in Data, api.nobelprize.org e ee.stanford.edu não responderam pela linha de comandos; a Chave do Dia usou a documentação do projeto Axelrod-Python e resumos de pesquisa em vez dos artigos de 1980 em texto integral."
+ ],
+ "pieces": [
+  {
+   "id": "fecundidade-abaixo-substituicao-mundo-1960-2024",
+   "slug": "populacao-mundial-paises-fecundidade-abaixo-2-1-1960-2024",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade",
+   "vizType": "barras",
+   "vizLabel": "Colunas · duas vistas",
+   "interactive": true,
+   "title": "Dois terços da humanidade vivem em países onde nascem menos de 2,1 filhos por mulher",
+   "question": "Que parte da população mundial vive em países onde a fecundidade já não garante a substituição das gerações?",
+   "finding": "Em 2024, 67,4% da população mundial vivia em países com fecundidade abaixo de 2,1 filhos por mulher. Em 1960 eram 3,9%. Os dois maiores saltos vieram da China, em 1991 (de 23,4% para 44,7%), e da Índia, em 2020 (de 48,6% para 67,7%). A média mundial, 2,19 filhos por mulher, continua acima do limiar.",
+   "context": "O índice sintético de fecundidade é o número médio de filhos que uma mulher teria ao longo da vida se, em cada idade, tivesse filhos ao ritmo observado nesse ano. Com mortalidade baixa, cerca de 2,1 filhos por mulher bastam para cada geração substituir a anterior, sem contar migrações. O Banco Mundial publica o índice para 217 economias desde 1960.",
+   "interpretation": "A média mundial esconde a distribuição: 2,19 parece perto do limiar, mas resulta de muitos países abaixo dele e de um grupo bem acima, sobretudo na África subsariana. Abaixo de 2,1, a população não diminui logo, porque a estrutura etária mantém durante décadas mais nascimentos do que mortes. O limiar também não é fixo: com mortalidade infantil alta, a substituição exige mais filhos.",
+   "chart": {
+    "type": "columns",
+    "dataset": "fecundidade-abaixo-substituicao-mundo-1960-2024"
+   },
+   "period": "1960–2024",
+   "unit": "% da população mundial; filhos por mulher",
+   "sources": [
+    {
+     "name": "Banco Mundial — World Development Indicators, SP.DYN.TFRT.IN (índice sintético de fecundidade) e SP.POP.TOTL (população), a partir das Nações Unidas, World Population Prospects, e de institutos nacionais (CC BY 4.0)",
+     "url": "https://data.worldbank.org/indicator/SP.DYN.TFRT.IN",
+     "accessed": "2026-11-11"
+    }
+   ],
+   "method": [
+    "Parte da população calculada pela Olhamisto: soma da população das economias com índice sintético de fecundidade inferior a 2,1 em cada ano, dividida pela população de todas as economias com os dois indicadores (215 a 217 economias, sem agregados regionais; a cobertura é praticamente 100% da população em todos os anos). Cada país conta por inteiro, abaixo ou acima do limiar, sem distinguir regiões internas.",
+    "O limiar de 2,1 é convencional para países com mortalidade baixa. Os valores mais recentes são estimativas das Nações Unidas incorporadas pelo Banco Mundial (atualização de 8 de outubro de 2026) e podem ser revistos. A série oscila em alguns anos (p. ex. 1965 e 2006–2007) porque há países que passam o limiar e voltam a ficar acima. Os anos de passagem (China 1991, Índia 2020) são os primeiros a partir dos quais o índice fica sempre abaixo de 2,1 nesta série."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-11",
+    "note": "Recalculadas de raiz as 65 percentagens anuais e os 65 índices mundiais (130 valores) a partir das séries SP.DYN.TFRT.IN e SP.POP.TOTL do Banco Mundial, voltadas a descarregar a 11/11/2026 (atualização de 8/10/2026); conferidos os anos de passagem da China e da Índia."
+   }
+  },
+  {
+   "id": "protecao-temporaria-ucrania-ue-2026",
+   "slug": "ucranianos-protecao-temporaria-ue-setembro-2026",
+   "kind": "atualidade",
+   "theme": "geopolitica",
+   "themeLabel": "Geopolítica",
+   "vizType": "barras",
+   "vizLabel": "Barras · duas vistas, ordenação alternável",
+   "interactive": true,
+   "title": "Há mais ucranianos com proteção temporária na UE do que em 2022. Na Chéquia são 36 por cada mil habitantes",
+   "question": "Quantos ucranianos continuam protegidos na UE, e onde?",
+   "finding": "No fim de setembro de 2026, 4 302 850 cidadãos ucranianos tinham proteção temporária na UE, contra 3 608 165 em agosto de 2022; o máximo foi em agosto de 2026, com 4 363 955. A Chéquia acolhe 35,8 por mil habitantes; a França, 0,7. Alemanha, Polónia e Chéquia somam 58,4% do total.",
+   "context": "Com novas negociações de paz para a Ucrânia em curso, o regresso de quem fugiu da guerra volta a ser uma questão prática. A proteção temporária, ativada pela UE em março de 2022, dá aos ucranianos deslocados direito de residência, de trabalho e de acesso a cuidados de saúde no país que os acolhe, sem passar por um pedido de asilo. Está prolongada até março de 2028.",
+   "interpretation": "O total da UE mudou pouco desde o fim de 2023, mas a distribuição mudou: a Polónia passou de 1 367 555 beneficiários, em setembro de 2022, para 856 340, enquanto a Alemanha subiu de 789 545 para 1 264 690 e a Espanha quase duplicou. Os números contam decisões de proteção válidas no fim de cada mês; quem regressou ou mudou de país pode demorar a sair dos registos.",
+   "chart": {
+    "type": "bars",
+    "dataset": "protecao-temporaria-ucrania-ue-2026"
+   },
+   "period": "Setembro de 2026 (comparações desde agosto de 2022)",
+   "unit": "Beneficiários por mil habitantes; milhares de pessoas",
+   "sources": [
+    {
+     "name": "Eurostat — Beneficiários de proteção temporária no fim do mês, por cidadania (migr_asytpsm), cidadãos da Ucrânia",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/migr_asytpsm/default/table",
+     "accessed": "2026-11-11"
+    },
+    {
+     "name": "Eurostat — População a 1 de janeiro (demo_gind), 2026",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table",
+     "accessed": "2026-11-11"
+    },
+    {
+     "name": "Conselho da UE — Decisão de Execução (UE) 2026/1912, prolongamento da proteção temporária até 4 de março de 2028",
+     "url": "https://eur-lex.europa.eu/eli/dec_impl/2026/1912/oj",
+     "accessed": "2026-11-11"
+    }
+   ],
+   "method": [
+    "Beneficiários por mil habitantes calculados pela Olhamisto com a população a 1 de janeiro de 2026. Usa-se setembro de 2026, o último mês com dados de todos os países (dados de 10 de novembro de 2026). O total da UE só existe a partir de agosto de 2022. O Eurostat arredonda cada valor a múltiplos de 5, por isso a soma dos países (4 302 845) difere 5 pessoas do total publicado.",
+    "O Eurostat assinala definições nacionais diferentes na Grécia, Espanha, França e Chipre, e o valor espanhol como provisório. Há quebras administrativas: em Itália, os beneficiários passaram de 164 415 em março de 2025 para 53 155 em setembro de 2025, uma descida que reflete os registos e não necessariamente partidas. Não inclui a Noruega, a Suíça, a Islândia nem o Listenstaine."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-11",
+    "note": "Conferidos 56 valores do gráfico e 15 números do texto contra migr_asytpsm e demo_gind do Eurostat, voltados a descarregar a 11/11/2026 (dados de 10/11/2026); prazo da proteção corrigido para 4/3/2028, segundo a Decisão de Execução (UE) 2026/1912."
+   }
+  },
+  {
+   "id": "depositos-juros-pt-ze-2021-2026",
+   "slug": "juros-depositos-prazo-portugal-zona-euro-2021-2026",
+   "kind": "atualidade",
+   "theme": "economia",
+   "themeLabel": "Economia",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cursor por rato e teclado",
+   "interactive": true,
+   "title": "O BCE voltou a subir os juros. Nos depósitos a prazo, Portugal ficou meio ponto abaixo da zona euro",
+   "question": "Os bancos portugueses estão a passar a subida das taxas do BCE para os depositantes?",
+   "finding": "Em setembro de 2026, os novos depósitos a prazo das famílias rendiam em média 1,83% em Portugal e 2,33% na zona euro: 0,50 pontos de diferença. Desde julho, a diferença ronda meio ponto (0,51 em julho e agosto), o que não acontecia desde setembro de 2023. Com a taxa da facilidade de depósito do BCE a 2,50%, a taxa portuguesa equivalia a 73% da do BCE; a da zona euro, a 93%.",
+   "context": "Depois de oito descidas entre junho de 2024 e junho de 2025, o Banco Central Europeu subiu duas vezes, em 2026, a taxa da facilidade de depósito: para 2,25% em junho e para 2,50% em setembro. É a taxa que os bancos recebem pelo dinheiro que deixam no banco central, e serve de referência ao que pagam aos clientes pelos depósitos.",
+   "interpretation": "O padrão repete o do ciclo anterior. Entre 2022 e 2023, quando o BCE subiu a taxa de −0,50% para 4%, os juros dos depósitos em Portugal reagiram mais devagar: em fevereiro de 2023 rendiam 0,65%, contra 1,90% na zona euro. A diferença encolheu depois, mas a taxa portuguesa ficou abaixo da média da zona euro em todos os meses desde junho de 2022.",
+   "chart": {
+    "type": "lines",
+    "dataset": "depositos-juros-pt-ze-2021-2026"
+   },
+   "period": "Janeiro de 2021 a setembro de 2026",
+   "unit": "Taxa de juro anual (%)",
+   "sources": [
+    {
+     "name": "BCE — Estatísticas das taxas de juro das IFM (MIR): novos depósitos de famílias com prazo acordado até 1 ano, Portugal e zona euro",
+     "url": "https://data.ecb.europa.eu/data/datasets/MIR",
+     "accessed": "2026-11-11"
+    },
+    {
+     "name": "BCE — Taxa da facilidade permanente de depósito (FM.B.U2.EUR.4F.KR.DFR.LEV)",
+     "url": "https://data.ecb.europa.eu/data/datasets/FM/FM.B.U2.EUR.4F.KR.DFR.LEV",
+     "accessed": "2026-11-11"
+    }
+   ],
+   "method": [
+    "Taxas anualizadas acordadas para novos depósitos de famílias com prazo até um ano (novas operações), em euros, média mensal ponderada pelos montantes. Não incluem depósitos à ordem, certificados de aforro nem outros produtos de poupança. O valor da zona euro de setembro de 2026 é provisório.",
+    "A taxa do BCE em cada mês é a que estava em vigor no último dia do mês (as subidas de 2026 entraram em vigor a 17 de junho e a 16 de setembro). A proporção face à taxa do BCE (73% e 93%) é um cálculo da Olhamisto, apenas indicativo: os depósitos a prazo não acompanham a taxa diretora mês a mês."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-11",
+    "note": "Conferidos os 207 valores mensais (Portugal, zona euro e taxa do BCE, jan. 2021–set. 2026) e todos os números do texto contra o MIR e o FM do BCE, voltados a descarregar a 11/11/2026; corrigidas a comparação com setembro de 2023 e o ponto de partida da subida de 2022 (−0,50%)."
+   }
+  },
+  {
+   "id": "abandono-escolar-precoce-ue-2006-2025",
+   "slug": "abandono-escolar-precoce-portugal-ue-2006-2025",
+   "kind": "descoberta",
+   "theme": "portugal",
+   "themeLabel": "Portugal e políticas públicas",
+   "vizType": "halteres",
+   "vizLabel": "Halteres · ordenação alternável",
+   "interactive": true,
+   "title": "Em 2006, Portugal tinha o maior abandono escolar precoce da UE. Em 2025 ficou abaixo da média",
+   "question": "Quanto mudou o abandono escolar precoce em Portugal face aos outros países da UE?",
+   "finding": "Em 2006, 38,5% dos portugueses de 18 a 24 anos tinham, no máximo, o ensino básico e não estavam a estudar nem em formação: a taxa mais alta da UE. Em 2025 eram 6,1%, abaixo da média europeia (9,1%). A descida de 32,4 pontos foi a maior da UE, à frente de Malta (23,6) e Espanha (17,5). Só sete países têm hoje uma taxa mais baixa.",
+   "context": "O indicador europeu de abandono precoce de educação e formação conta os jovens de 18 a 24 anos que completaram, no máximo, o 3.º ciclo do ensino básico e não frequentaram educação nem formação nas quatro semanas anteriores ao inquérito ao emprego. A UE fixou como meta para 2030 uma taxa inferior a 9%. Em 1992, primeiro ano da série, a taxa portuguesa era de 50%.",
+   "interpretation": "Portugal ficou abaixo da média da UE pela primeira vez em 2020 (9,1%, contra 10,0%). A descida coincidiu com o alargamento da escolaridade obrigatória até aos 18 anos, aprovado em 2009, e com a expansão dos cursos profissionais, mas estes dados não permitem separar o efeito de cada medida. A série tem quebras metodológicas, a última em 2021, e o inquérito por amostragem faz oscilar alguns anos.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "abandono-escolar-precoce-ue-2006-2025"
+   },
+   "period": "2006 e 2025 (série desde 1992)",
+   "unit": "% da população de 18 a 24 anos",
+   "sources": [
+    {
+     "name": "Eurostat — Abandono precoce de educação e formação, 18–24 anos (edat_lfse_14), inquérito às forças de trabalho",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_14/default/table",
+     "accessed": "2026-11-11"
+    },
+    {
+     "name": "Conselho da UE — Resolução sobre o Espaço Europeu da Educação (2021/C 66/01), meta de menos de 9% em 2030",
+     "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32021G0226(01)",
+     "accessed": "2026-11-11"
+    },
+    {
+     "name": "Diário da República — Lei n.º 85/2009, de 27 de agosto (escolaridade obrigatória até aos 18 anos)",
+     "url": "https://diariodarepublica.pt/dr/detalhe/lei/85-2009-488826",
+     "accessed": "2026-11-11"
+    }
+   ],
+   "method": [
+    "Percentagem da população de 18 a 24 anos com, no máximo, o nível 2 da classificação internacional (ISCED 0–2) e que não participou em educação ou formação nas quatro semanas anteriores à entrevista. Dados anuais do inquérito às forças de trabalho.",
+    "Usa-se 2006 como ano inicial (há valores para os 27 países desde 2002). Com 2002 como partida, Malta teria a taxa inicial mais alta (53,2%, contra 45,0% em Portugal) e a maior descida (44,6 pontos, contra 38,9). O Eurostat assinala quebras de série em 2006, 2011, 2014 e 2021 em Portugal e em muitos outros países; a dimensão da descida portuguesa supera largamente estes efeitos. Em Portugal, a taxa subiu de 6,3% em 2022 para 8,1% em 2023 e voltou a descer. Os valores da Croácia e do Luxemburgo em 2025 são de baixa fiabilidade, segundo o Eurostat, e a Dinamarca tem uma quebra de série em 2025; a Chéquia empata com Portugal em 2025 (6,1%)."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-11",
+    "note": "Conferidos 56 valores do gráfico e 18 números do texto contra o edat_lfse_14 do Eurostat, voltado a descarregar a 11/11/2026; corrigida a justificação do ano inicial e declarada no método a sensibilidade a 2002."
+   }
+  },
+  {
+   "id": "fandango-estrelas-arredondadas-2015",
+   "slug": "fandango-estrelas-classificacoes-filmes-2015",
+   "kind": "descoberta",
+   "theme": "marketing",
+   "themeLabel": "Marketing",
+   "vizType": "barras",
+   "vizLabel": "Colunas",
+   "interactive": false,
+   "title": "Num site que vendia bilhetes de cinema, nenhum filme tinha menos estrelas do que a média dos votos",
+   "question": "As estrelas mostradas por um site de venda de bilhetes correspondiam às notas dadas pelos espectadores?",
+   "finding": "Em agosto de 2015, o Fandango mostrava mais estrelas do que a média real dos votos em 328 de 437 filmes (75,1%), e nunca menos. Em 180 filmes (41,2%), a diferença passava de 0,25 estrelas, o que um arredondamento à meia estrela mais próxima nunca produz. Um filme com média de 4,0, com apenas dois votos, aparecia com cinco estrelas.",
+   "context": "O Fandango vende bilhetes de cinema nos EUA e mostra, para cada filme, uma classificação de zero a cinco estrelas dada pelos utilizadores. Em 2015, a FiveThirtyEight reparou que o código das páginas guardava também a média exata dos votos, recolheu os dois valores para 510 filmes e comparou 146 deles com as classificações do IMDb, do Metacritic e do Rotten Tomatoes.",
+   "interpretation": "Depois da publicação, o Fandango atribuiu a diferença a um erro informático na lógica de arredondamento e anunciou a correção. Mesmo a média exata era generosa: nos 146 filmes comparados, rondava 3,85 estrelas, contra 3,37 no IMDb convertido para a mesma escala, E nenhum desses 146 filmes aparecia na página com menos de três estrelas. A FiveThirtyEight sublinhou o conflito de interesses de um site que vende bilhetes para os filmes que classifica.",
+   "chart": {
+    "type": "columns",
+    "dataset": "fandango-estrelas-arredondadas-2015"
+   },
+   "period": "24 de agosto de 2015",
+   "unit": "Número de filmes",
+   "sources": [
+    {
+     "name": "FiveThirtyEight — fandango_scrape.csv e fandango_score_comparison.csv (CC BY 4.0)",
+     "url": "https://github.com/fivethirtyeight/data/tree/master/fandango",
+     "accessed": "2026-11-11"
+    },
+    {
+     "name": "FiveThirtyEight — Walt Hickey, «Be Suspicious Of Online Movie Ratings, Especially Fandango's» (15/10/2015)",
+     "url": "https://fivethirtyeight.com/features/fandango-movies-ratings/",
+     "accessed": "2026-11-11"
+    },
+    {
+     "name": "TheWrap — «Fandango Blames Inflated Movie Scores on Computer Glitch» (secundária, para a resposta da empresa)",
+     "url": "https://thewrap.com/fandango-blames-inflated-movie-scores-on-glitch-after-conflict-of-interest-complaint",
+     "accessed": "2026-11-11"
+    }
+   ],
+   "method": [
+    "Diferença entre as estrelas mostradas na página e o valor «ratingValue» guardado no código da mesma página (a média real), recolhidos pela FiveThirtyEight a 24 de agosto de 2015. Contam-se os 437 filmes com pelo menos um voto, dos 510 recolhidos. Diferenças arredondadas a uma casa decimal.",
+    "O filme com uma estrela a mais («Turbo Kid») tinha só dois votos. As médias dos 146 filmes comparados usam as colunas normalizadas para 0–5 do ficheiro da FiveThirtyEight. Os dados descrevem o site em 2015, antes da correção anunciada pela empresa; não dizem nada sobre o Fandango atual."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-11",
+    "note": "Conferidos os 11 valores do gráfico e 12 números do texto contra os dois CSV da FiveThirtyEight, voltados a descarregar a 11/11/2026; resposta da empresa confirmada no TheWrap; corrigida uma frase ambígua sobre as médias."
+   }
+  }
+ ],
+ "chave": {
+  "id": "dilema-do-prisioneiro",
+  "axis": "economia",
+  "axisLabel": "Economia e finanças",
+  "certainty": "Consenso, com uma ressalva",
+  "title": "O dilema do prisioneiro",
+  "concept": "Uma situação em que duas partes ganham mais se ambas cooperarem, mas em que cada uma, sozinha, ganha mais se trair, faça a outra o que fizer. Decidindo cada uma pelo seu interesse imediato, acabam as duas pior do que se tivessem cooperado.",
+  "lesson": [
+   "Em 1950, dois matemáticos da RAND Corporation, Merrill Flood e Melvin Dresher, estudavam jogos com aplicações militares e criaram um com esta estrutura. Albert Tucker deu-lhe a história que ficou, para o explicar a uma plateia de psicólogos: dois suspeitos interrogados em salas separadas. Se nenhum confessar, apanham pena leve; se só um denunciar o outro, sai livre e o outro apanha pena pesada; se ambos se denunciarem, ambos apanham pena intermédia.",
+   "A armadilha está no raciocínio de cada um: denunciar compensa quer o outro se cale, quer fale. Num jogo único, a teoria prevê traição mútua. Tudo muda quando o jogo se repete. Em 1980, o cientista político Robert Axelrod pôs programas de computador a defrontar-se em partidas de 200 rondas. Venceu o «olho por olho», de Anatol Rapoport: cooperar na primeira ronda e, depois, repetir a jogada anterior do adversário.",
+   "Voltou a vencer num segundo torneio, com 62 participantes que conheciam a análise do primeiro. A ressalva é que o êxito depende das regras: quando há erros e uma traição acidental desencadeia retaliações em cadeia, estratégias mais tolerantes saem-se melhor, e reanálises posteriores mostraram que o vencedor muda com o desenho do torneio. A conclusão robusta é mais geral: a cooperação entre interessados aguenta-se melhor quando se esperam encontros futuros."
+  ],
+  "diagram": {
+   "title": "Os pontos de cada ronda",
+   "svg": "<svg viewBox=\"0 0 340 262\" role=\"img\" aria-label=\"Tabela de pontos do dilema do prisioneiro usada nos torneios de Axelrod. Linhas: escolha do jogador A (cooperar ou trair). Colunas: escolha do jogador B. Se ambos cooperam, recebem 3 pontos cada. Se A coopera e B trai, A recebe 0 e B recebe 5. Se A trai e B coopera, A recebe 5 e B recebe 0. Se ambos traem, recebem 1 ponto cada. Para cada jogador, trair dá mais pontos qualquer que seja a escolha do outro, e por isso o jogo único tende a acabar na casa de 1 e 1, embora a casa de 3 e 3 seja melhor para os dois.\"><text x=\"210\" y=\"16\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Jogador B</text><text x=\"150\" y=\"36\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">coopera</text><text x=\"270\" y=\"36\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">trai</text><text x=\"14\" y=\"120\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\" transform=\"rotate(-90 14 120)\">Jogador A</text><text x=\"62\" y=\"84\" text-anchor=\"end\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">coopera</text><text x=\"62\" y=\"164\" text-anchor=\"end\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">trai</text><rect x=\"90\" y=\"44\" width=\"120\" height=\"80\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-rule)\" stroke-width=\"1.5\"/><rect x=\"210\" y=\"44\" width=\"120\" height=\"80\" fill=\"none\" stroke=\"var(--key-rule)\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"124\" width=\"120\" height=\"80\" fill=\"none\" stroke=\"var(--key-rule)\" stroke-width=\"1.5\"/><rect x=\"210\" y=\"124\" width=\"120\" height=\"80\" fill=\"none\" stroke=\"var(--key-acc)\" stroke-width=\"2.5\"/><text x=\"150\" y=\"82\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"18\" font-weight=\"600\">3 · 3</text><text x=\"150\" y=\"102\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">melhor para os dois</text><text x=\"270\" y=\"90\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"18\" font-weight=\"600\">0 · 5</text><text x=\"150\" y=\"170\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"18\" font-weight=\"600\">5 · 0</text><text x=\"270\" y=\"162\" text-anchor=\"middle\" fill=\"var(--key-acc)\" font-size=\"18\" font-weight=\"600\">1 · 1</text><text x=\"270\" y=\"182\" text-anchor=\"middle\" fill=\"var(--key-acc)\" font-size=\"10.5\">onde acaba o jogo único</text><text x=\"170\" y=\"230\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">Primeiro número: pontos de A; segundo: pontos de B.</text><text x=\"170\" y=\"248\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">Trair dá mais pontos, faça o outro o que fizer.</text></svg>",
+   "caption": "Pontos por ronda usados nos torneios de Axelrod (1980): 3 a cada um se ambos cooperam, 1 se ambos traem, 5 para quem trai e 0 para quem coopera sozinho."
+  },
+  "aside": "Axelrod dedicou um capítulo de «The Evolution of Cooperation» (1984) ao sistema de «viver e deixar viver» nas trincheiras da Primeira Guerra Mundial, descrito pelo historiador Tony Ashworth em 1980 a partir de diários e cartas de combatentes: unidades que se enfrentavam durante meses no mesmo setor continham o fogo de forma tácita. A interpretação é contestada por outros investigadores.",
+  "application": "Aparece nas guerras de preços em que todos os concorrentes acabam com margens mais baixas; nos cartéis, que tendem a desfazer-se quando um membro baixa o preço às escondidas; nas negociações sobre o clima, em que cada país ganha se forem os outros a cortar emissões; e nas relações comerciais longas, em que a expectativa de voltar a negociar sustenta a confiança entre as partes.",
+  "motto": "A cooperação dura enquanto houver amanhã.",
+  "sources": [
+   {
+    "name": "Stanford Encyclopedia of Philosophy — Steven Kuhn, «Prisoner's Dilemma» (origem do jogo em Flood, Dresher e Tucker)",
+    "url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+    "accessed": "2026-11-11"
+   },
+   {
+    "name": "R. Axelrod (1980), «Effective Choice in the Prisoner's Dilemma», Journal of Conflict Resolution 24(1), 3–25",
+    "url": "https://doi.org/10.1177/002200278002400101",
+    "accessed": "2026-11-11"
+   },
+   {
+    "name": "R. Axelrod (1980), «More Effective Choice in the Prisoner's Dilemma», Journal of Conflict Resolution 24(3), 379–403",
+    "url": "https://doi.org/10.1177/002200278002400301",
+    "accessed": "2026-11-11"
+   },
+   {
+    "name": "Projeto Axelrod-Python — «Overview of past tournaments» (lista de participantes e pontos usados, cópia de documentação)",
+    "url": "https://github.com/Axelrod-Python/Axelrod/blob/dev/docs/discussion/overview_of_past_tournaments.rst",
+    "accessed": "2026-11-11"
+   },
+   {
+    "name": "A. Rapoport, D. A. Seale e A. M. Colman (2015), «Is Tit-for-Tat the Answer? On the Conclusions Drawn from Axelrod's Tournaments», PLoS ONE 10(7): e0134128",
+    "url": "https://doi.org/10.1371/journal.pone.0134128",
+    "accessed": "2026-11-11"
+   },
+   {
+    "name": "M. Nowak e K. Sigmund (1993), «A strategy of win-stay, lose-shift that outperforms tit-for-tat in the Prisoner's Dilemma game», Nature 364, 56–58",
+    "url": "https://doi.org/10.1038/364056a0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "name": "Wikipédia — «Live and let live (World War I)» (resumo secundário de Ashworth, 1980, e do cap. 4 de Axelrod, 1984)",
+    "url": "https://en.wikipedia.org/wiki/Live_and_let_live_(World_War_I)",
+    "accessed": "2026-11-11"
+   }
+  ],
+  "notes": [
+   "Grau de certeza: consenso, com uma ressalva. A estrutura do jogo e o resultado do jogo único são matemática estabelecida. Que o «olho por olho» seja a melhor estratégia não é: depende do ambiente (erros, número de rondas, adversários, pontuação), como mostram Nowak e Sigmund (1993) e a reanálise de 2015.",
+   "O segundo torneio teve 62 programas inscritos, mais uma estratégia aleatória acrescentada por Axelrod (63 no total); algumas fontes indicam 63 participantes. A aplicação às trincheiras é uma interpretação de Axelrod sobre o trabalho de Ashworth, contestada, entre outros, por Joanne Gowa e Andrew Gelman.",
+   "As fontes primárias (artigos de 1980, livro de 1984) não foram lidas em texto integral neste ambiente; os números foram confirmados pela documentação do projeto Axelrod-Python e por resumos de pesquisa."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-11",
+   "note": "Conferidos 14 factos (origem na RAND e em Tucker, regras, participantes e vencedores dos torneios de 1980, pontuação, referências de 1980, 1984, 1993 e 2015, Ashworth e as críticas) contra a Stanford Encyclopedia of Philosophy, resumos dos artigos e a documentação Axelrod-Python; corrigidos um erro de conjugação e a extensão de um parágrafo."
+  }
+ }
+}

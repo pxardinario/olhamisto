@@ -433,7 +433,7 @@ const fmtN = (x, d = 1) => (x == null || Number.isNaN(x) ? "—" : x.toLocaleStr
 const fmtS = (x, d = 1) => (x > 0 ? "+" : "") + fmtN(x, d);
 
 /* columns: colunas (simples ou empilhadas, com valores negativos) + linha opcional do total; várias vistas alternáveis.
-   data.rows[{cat,...}], data.views[{id,label,yLabel,unit,decimals,series[{key,label,color,negColor}],line{key,label},valueLabels,tipExtra[],notes[{cat,text}]}] */
+   data.rows[{cat,...}], data.views[{id,label,yLabel,unit,decimals,series[{key,label,color,negColor,altColor,altLabel (cor alternativa nas linhas com alt: true)}],line{key,label},valueLabels,tipExtra[],notes[{cat,text}]}] */
 function columns(host, data) {
   const rows = data.rows, views = data.views;
   let view = views[0];
@@ -441,7 +441,8 @@ function columns(host, data) {
   if (views.length > 1) segmented(host.controls, views.map((v) => [v.id, v.label]), view.id, (v) => { view = views.find((x) => x.id === v); drawLegend(); r.redraw(); }, "Vista");
   function drawLegend() {
     host.legend.innerHTML = "";
-    const items = view.series.length > 1 || view.line ? [...view.series].reverse().map((s) => ({ color: css(s.color), label: s.label })) : [];
+    const alt = view.series.filter((s) => s.altColor);
+    const items = view.series.length > 1 || view.line || alt.length ? [...view.series].reverse().flatMap((s) => [{ color: css(s.color), label: s.label }, ...(s.altColor ? [{ color: css(s.altColor), label: s.altLabel }] : [])]) : [];
     if (view.line) items.push({ color: css("--ink"), label: view.line.label, line: true });
     if (items.length) legend(host.legend, items);
   }
@@ -468,7 +469,7 @@ function columns(host, data) {
     g.selectAll("g").data(stacks).join("g").selectAll("rect").data((st) => st).join("rect")
       .attr("x", (e) => x(e.row.cat)).attr("width", x.bandwidth())
       .attr("y", (e) => y(Math.max(e.y0, e.y1))).attr("height", (e) => Math.max(0.5, Math.abs(y(e.y0) - y(e.y1))))
-      .attr("fill", (e) => css(e.val < 0 && e.s.negColor ? e.s.negColor : e.s.color)).attr("opacity", (e) => (stacked && e.s.key !== v.series.at(-1).key ? 0.75 : 1));
+      .attr("fill", (e) => css(e.row.alt && e.s.altColor ? e.s.altColor : e.val < 0 && e.s.negColor ? e.s.negColor : e.s.color)).attr("opacity", (e) => (stacked && e.s.key !== v.series.at(-1).key ? 0.75 : 1));
     // alvos de interação por coluna (inclui teclado)
     svg.append("g").selectAll("rect").data(rows).join("rect").attr("class", "hit").attr("x", (row) => x(row.cat) - (x.step() - x.bandwidth()) / 2).attr("width", x.step())
       .attr("y", m.t).attr("height", H - m.t - m.b).attr("fill", "transparent").attr("tabindex", 0)
@@ -507,7 +508,7 @@ function columns(host, data) {
 }
 
 /* lines: séries temporais com escala log ⇄ linear, cursor, rótulos diretos.
-   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], scaleToggle, dots, annotations[], shade[]} */
+   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], scaleToggle, dots, gaps (anos sem valor ficam em branco, sem ligar os pontos), annotations[], shade[]} */
 function lines(host, data) {
   const C = data.config, rows = data.rows;
   let log = !!C.y.logDefault;
@@ -534,8 +535,8 @@ function lines(host, data) {
     halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 36 : 44)).attr("y", 14).text((narrow ? C.y.label.replace(/ \(.*\)$/, "") : C.y.label) + (log ? " — escala log." : "")));
     const order = [...C.series].sort((a, b) => (a.color === "--muted" ? -1 : 0) - (b.color === "--muted" ? -1 : 0));
     for (const s of order) {
-      svg.append("path").datum(rows.filter((q) => q[s.key] != null)).attr("fill", "none").attr("stroke", css(s.color)).attr("stroke-width", s.width || 1.6).attr("opacity", s.color === "--muted" ? 0.8 : 1)
-        .attr("stroke-linejoin", "round").attr("d", d3.line().x((q) => x(q.x)).y((q) => y(q[s.key])));
+      svg.append("path").datum(C.gaps ? rows : rows.filter((q) => q[s.key] != null)).attr("fill", "none").attr("stroke", css(s.color)).attr("stroke-width", s.width || 1.6).attr("opacity", s.color === "--muted" ? 0.8 : 1)
+        .attr("stroke-linejoin", "round").attr("d", d3.line().defined((q) => q[s.key] != null).x((q) => x(q.x)).y((q) => y(q[s.key])));
       if (C.dots && s.color !== "--muted") svg.append("g").selectAll("circle").data(rows.filter((q) => q[s.key] != null)).join("circle").attr("cx", (q) => x(q.x)).attr("cy", (q) => y(q[s.key])).attr("r", 2.6).attr("fill", css(s.color)).style("pointer-events", "none");
     }
     // rótulos diretos no fim, sem sobreposição
@@ -617,7 +618,7 @@ function dumbbell(host, data) {
 
 
 /* bars: barras horizontais divergentes (valores positivos e negativos), várias vistas (uma chave por vista), linha de referência opcional, ordenação alternável.
-   data.rows[{label,highlight,total?,...keys}], data.config{views[{id,label,key,axisLabel,ref,refLabel}],unit,decimals,signed (false = sem sinal +),howToRead,sorts[[id,label]],pinned:[labels fixos no topo]} */
+   data.rows[{label,highlight,total?,...keys}], data.config{views[{id,label,key,axisLabel,ref,refLabel}],unit,decimals,signed (false = sem sinal +),independentScale (escala própria em cada vista, para vistas com unidades diferentes),howToRead,sorts[[id,label]],pinned:[labels fixos no topo]} */
 function bars(host, data) {
   const C = data.config, d = C.decimals ?? 1, views = C.views;
   const fmtV = (t, dd) => (C.signed === false ? fmtN(t, dd) : fmtS(t, dd));
@@ -635,7 +636,7 @@ function bars(host, data) {
     const rowH = narrow ? 26 : 28, m = { t: 40, r: narrow ? 44 : 60, b: 30, l: narrow ? 118 : 170 };
     const H = m.t + m.b + rows.length * rowH + (pinned.length ? 8 : 0);
     const svg = svgIn(host.chart, W, H, v.axisLabel);
-    const ext = d3.extent(rows.flatMap((q) => views.map((w) => q[w.key])).concat([0]));
+    const ext = d3.extent(rows.flatMap((q) => (C.independentScale ? [q[k]] : views.map((w) => q[w.key]))).concat([0]));
     const x = d3.scaleLinear().domain([Math.min(0, ext[0]), Math.max(0, ext[1])]).nice().range([m.l, W - m.r]);
     const y = (i) => m.t + i * rowH + (pinned.length && i >= pinned.length ? 8 : 0);
     svg.append("g").attr("class", "grid").selectAll("line").data(x.ticks(narrow ? 4 : 8)).join("line").attr("x1", x).attr("x2", x).attr("y1", m.t - 4).attr("y2", H - m.b);
@@ -655,7 +656,8 @@ function bars(host, data) {
     g.append("rect").attr("x", (q) => x(Math.min(0, q[k]))).attr("width", (q) => Math.max(1, Math.abs(x(q[k]) - x(0)))).attr("y", 5).attr("height", bh)
       .attr("fill", (q) => css(q.highlight ? "--accent" : q[k] < 0 ? "--accent-3" : "--accent-2"));
     g.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", 600).attr("y", rowH / 2 + 4)
-      .attr("x", (q) => (q[k] < 0 ? x(q[k]) - 4 : x(q[k]) + 4)).attr("text-anchor", (q) => (q[k] < 0 ? "end" : "start")).text((q) => fmtV(q[k], d) + C.unit);
+      // negativos curtos perto da margem: o rótulo passa para a direita do zero, para não tapar o nome
+      .attr("x", (q) => (q[k] < 0 ? (x(q[k]) - 56 < m.l ? x(0) + 4 : x(q[k]) - 4) : x(q[k]) + 4)).attr("text-anchor", (q) => (q[k] < 0 && x(q[k]) - 56 >= m.l ? "end" : "start")).text((q) => fmtV(q[k], d) + C.unit);
     svg.append("line").attr("class", "zero").attr("x1", x(0)).attr("x2", x(0)).attr("y1", m.t - 4).attr("y2", H - m.b);
     if (v.ref != null) {
       svg.append("line").attr("x1", x(v.ref)).attr("x2", x(v.ref)).attr("y1", m.t - 4).attr("y2", H - m.b).attr("stroke", css("--ink")).attr("stroke-dasharray", "4 3");
