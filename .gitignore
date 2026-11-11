@@ -2,3 +2,4 @@ node_modules/
 .og-cache/
 .wrangler/
 *.log
+.cache/
