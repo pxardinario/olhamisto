@@ -27,7 +27,7 @@ Cada edição fecha com «A Chave do Dia»: uma lição sobre um conceito, em te
 ## Processo diário (resumo — detalhe em docs/automacao.md)
 1. Confirmar a data (Europe/Lisbon) e se é dia útil.
 2. Clonar o repositório pxardinario/olhamisto (o repositório é a fonte de verdade).
-2b. `node tools/net-check.mjs` — confirma que fontes oficiais respondem pela linha de comandos (ver docs/fontes.md); prefere APIs oficiais a cópias. Para dados do INE, encontra o código do indicador com `node tools/ine-search.mjs <termos>`.
+2b. `node tools/net-check.mjs` — confirma que fontes oficiais respondem pela linha de comandos (ver docs/fontes.md); prefere APIs oficiais a cópias. Para dados do INE, encontra o código do indicador com `node tools/ine-search.mjs <termos>`. Para dados do Banco de Portugal, encontra a série com `node tools/bpstat-search.mjs <termos>`.
 3. Ler o histórico (`site/data/index.json`), `site/data/corrections.json`, a lista de espera `editorial/candidatas.json` e o mapa `docs/fontes.md`.
 4. Começar pelas candidatas da lista de espera; completar com pesquisa nova até 12–20 candidatas; avaliar com a matriz (30/25/25/10/10); rejeitar as sem dados; respeitar a quota de variedade (docs/politica-editorial.md).
 5. Selecionar até 5; recolher dados; transformar; escrever a edição em `site/data/editions/AAAA-MM-DD.json`.
