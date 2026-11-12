@@ -1,0 +1,295 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-12",
+ "number": 8,
+ "status": "publicada",
+ "opening": "Cinco histórias para quinta-feira: a inflação em cada mandato de presidente do BCE, a França a encolher num trimestre em que Portugal cresce, os turistas norte-americanos que passaram a terceiro mercado, os bebés de mães estrangeiras e o relógio dos processadores, parado desde 2005.",
+ "lead": "bce-inflacao-mandatos-1999-2026",
+ "generatedAt": "2026-11-12T09:00:00Z",
+ "limitations": [
+  "Mistura da edição: 2 peças de atualidade (BCE e PIB) e 3 de descoberta. Peças do tipo «Portugal comparado com a Europa»: 1 (PIB do 3.º trimestre). Peça com fonte não oficial: processadores (série de Karl Rupp e da equipa de Horowitz, CC BY 4.0). Peças sem Portugal como ângulo principal: inflação nos mandatos do BCE e processadores. Tipos de gráfico: linhas (2), barras, colunas e dispersão.",
+  "Candidata rejeitada: tempestade Charles, que fechou as escolas de todo o continente a 11 de novembro. Os dados do IPMA (vento e precipitação) não estão acessíveis neste ambiente.",
+  "Candidata rejeitada: surto de ébola na República Democrática do Congo (mais de 11 mil casos, segundo o governo, citado pela imprensa). Os sítios da OMS e do CDC não responderam, e não houve fonte primária para comparar com surtos anteriores.",
+  "Candidata rejeitada: 2026 entre os anos mais quentes, segundo a Organização Meteorológica Mundial. A cópia acessível da série de temperatura global só chega a julho de 2026, e NASA, NOAA e Copernicus não responderam; o tema também esteve na edição de 9 de novembro (CO₂).",
+  "Candidata rejeitada: desemprego do 3.º trimestre de 2026 (INE, 5,5%, contra 5,3% no trimestre anterior, o mínimo da série desde 2011). Variação pequena e sem uma história clara além da manchete.",
+  "Candidatas rejeitadas: preço da gasolina nos EUA abaixo de 4 dólares (tema interno dos EUA, sem impacto evidente na Europa); mortes na guerra registadas pela estatística russa (dados divulgados por fuga, sem verificação possível); derrota do ANC nas eleições locais da África do Sul (sem fonte primária acessível).",
+  "Candidatas adiadas: castanha em Portugal, a propósito do São Martinho (seria a segunda peça agrícola em três edições, e falta confirmar a quebra de série de 2019); idade dos laureados com o Nobel (api.nobelprize.org inacessível).",
+  "Nesta execução, o grapher da Our World in Data, os sítios do IPMA, da OMS, do CDC, da NASA, da NOAA, do Copernicus, da DGPM e do Instituto Hidrográfico, e os ficheiros da Divisão dos Assuntos do Mar da ONU não responderam pela linha de comandos ou pelo WebFetch. A Chave do Dia usou a página da Comissão Europeia sobre ordenamento do espaço marítimo e fontes secundárias para a área da zona económica exclusiva."
+ ],
+ "pieces": [
+  {
+   "id": "bce-inflacao-mandatos-1999-2026",
+   "slug": "inflacao-zona-euro-mandatos-presidentes-bce-1999-2026",
+   "kind": "atualidade",
+   "theme": "economia",
+   "themeLabel": "Economia",
+   "vizType": "linha",
+   "vizLabel": "Linhas · faixas por mandato · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Lagarde sai do BCE com a inflação média mais alta dos quatro mandatos: 3,4%. Com Draghi foi 1,2%",
+   "question": "Como se saiu cada presidente do Banco Central Europeu face ao objetivo de inflação de 2%?",
+   "finding": "Entre novembro de 2019 e outubro de 2026, a inflação homóloga da zona euro teve uma média de 3,4%, com um máximo de 10,6% em outubro de 2022, e esteve acima de 2,5% em 40 dos 84 meses. No mandato de Mario Draghi (2011–2019), a média foi de 1,2%, e a inflação ficou abaixo de 1,5% em 60 dos 96 meses. Com Duisenberg e Trichet, as médias rondaram os 2%.",
+   "context": "A 29 de outubro, o BCE anunciou que Christine Lagarde deixa a presidência a 7 de fevereiro de 2027, quase nove meses antes do fim do mandato. A missão principal do banco é a estabilidade de preços: desde 2021, uma inflação de 2% no médio prazo; entre 2003 e 2021, «abaixo de, mas perto de, 2%». Quatro presidentes ocuparam o cargo desde 1999.",
+   "interpretation": "Os dois desvios tiveram origens diferentes. Com Draghi, a crise das dívidas soberanas e a procura fraca mantiveram a inflação baixa durante anos, apesar dos juros negativos e das compras de dívida. Com Lagarde, a reabertura depois da pandemia e a subida da energia com a guerra na Ucrânia levaram-na ao máximo da série. As médias medem resultados, não mérito: o BCE controla a inflação só em parte.",
+   "chart": {
+    "type": "lines",
+    "dataset": "bce-inflacao-mandatos-1999-2026"
+   },
+   "period": "Janeiro de 1999 a outubro de 2026",
+   "unit": "Taxa de variação homóloga (%)",
+   "sources": [
+    {
+     "name": "Eurostat — IHPC, ECOICOP 2, taxa de variação homóloga, zona euro (prc_hicp_minr)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_minr/default/table",
+     "accessed": "2026-11-12"
+    },
+    {
+     "name": "BCE — Comunicado de 29 de outubro de 2026: saída de Christine Lagarde a 7 de fevereiro de 2027",
+     "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+     "accessed": "2026-11-12"
+    },
+    {
+     "name": "BCE — Estratégia de política monetária (revisão de 2021: objetivo simétrico de 2%)",
+     "url": "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": [
+    "Taxa de variação homóloga do índice harmonizado de preços no consumidor (IHPC) da zona euro em composição variável: cada mês inclui os países que nesse mês usavam o euro. Desde 2026, o Eurostat publica o IHPC na classificação ECOICOP 2 (conjunto prc_hicp_minr); o valor de outubro de 2026 (4,0%) vem assinalado como estimativa.",
+    "Mandatos: Wim Duisenberg (junho de 1998 a outubro de 2003, contado a partir de janeiro de 1999, início da política monetária única), Jean-Claude Trichet (novembro de 2003 a outubro de 2011), Mario Draghi (novembro de 2011 a outubro de 2019) e Christine Lagarde (desde novembro de 2019; dados até outubro de 2026). As médias são médias simples das taxas mensais, calculadas pela Olhamisto.",
+    "A política monetária atua com desfasamentos longos e variáveis: parte da inflação de cada mandato reflete choques e decisões anteriores. O objetivo era «abaixo de 2%» de 1998 a 2003, «abaixo de, mas perto de, 2%» de 2003 a 2021 e 2% simétrico desde julho de 2021."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-12",
+    "note": "Série do Eurostat descarregada de novo (igual ao bruto); recalculadas as médias, contagens e extremos dos quatro mandatos e conferidas as 334 linhas; confirmados o comunicado do BCE de 29/10/2026 e as definições do objetivo. Corrigido «nove» para «quase nove meses»."
+   }
+  },
+  {
+   "id": "pib-t3-2026-ue",
+   "slug": "pib-terceiro-trimestre-2026-franca-portugal-zona-euro",
+   "kind": "atualidade",
+   "theme": "economia",
+   "themeLabel": "Economia",
+   "vizType": "barras",
+   "vizLabel": "Barras divergentes · dois trimestres · ordenação alternável",
+   "interactive": true,
+   "title": "A economia francesa encolheu face a 2025, pela primeira vez desde 2020. Portugal cresceu 2,4%",
+   "question": "Como cresceram as economias europeias no 3.º trimestre de 2026, face ao mesmo trimestre de 2025?",
+   "finding": "No 3.º trimestre de 2026, o PIB da França ficou 0,1% abaixo do mesmo trimestre de 2025, a primeira variação homóloga negativa desde o fim de 2020. Portugal cresceu 2,4%, contra 1,3% na zona euro, e cresce acima da média da zona euro há 22 trimestres seguidos. Entre os 15 países da UE que já publicaram estimativas, só a Irlanda, a Espanha e a Suécia cresceram mais.",
+   "context": "As primeiras estimativas do PIB do 3.º trimestre de 2026 já existem para 15 dos 27 países da UE. A zona euro cresceu 1,3% face ao mesmo período de 2025, e a Alemanha, depois de um 2023 em contração e de um 2024 quase parado, chegou a 1,2%. A França, segunda maior economia do euro, seguiu no sentido contrário.",
+   "interpretation": "A variação homóloga compara com o mesmo trimestre do ano anterior: um valor negativo significa que a atividade está abaixo do nível de há um ano. Na França, o crescimento já vinha a abrandar: 1,1% no 4.º trimestre de 2025, 0,8% e 0,5% nos dois seguintes. Em Portugal, o crescimento ficou acima de 2% nos três trimestres de 2026. São estimativas rápidas, sujeitas a revisão.",
+   "chart": {
+    "type": "bars",
+    "dataset": "pib-t3-2026-ue"
+   },
+   "period": "3.º trimestre de 2026 (e 3.º trimestre de 2025)",
+   "unit": "Variação homóloga do PIB em volume (%)",
+   "sources": [
+    {
+     "name": "Eurostat — Contas nacionais trimestrais, PIB em volume, variação homóloga, ajustado de sazonalidade (namq_10_gdp)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/namq_10_gdp/default/table",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": [
+    "PIB em volume encadeado, ajustado de sazonalidade e de dias úteis, variação em relação ao mesmo trimestre do ano anterior (unidade CLV_PCH_SM). Dados descarregados a 12 de novembro de 2026; o Eurostat tinha atualizado o conjunto a 11 de novembro.",
+    "Aparecem os 15 países da UE com estimativa do 3.º trimestre de 2026 publicada até à consulta; Bulgária, Dinamarca, Grécia, Croácia, Chipre, Letónia, Luxemburgo, Malta, Polónia, Roménia, Eslovénia e Eslováquia ainda não a tinham publicado. O valor de Portugal vem assinalado como estimativa. O valor da Irlanda é muito volátil, por causa da atividade das multinacionais.",
+    "A contagem de 22 trimestres seguidos compara Portugal com a zona euro desde o 2.º trimestre de 2021, a partir dos valores publicados nesta consulta."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-12",
+    "note": "Conferidos cerca de 25 valores contra o Eurostat (descarregado de novo), incluindo os 22 trimestres seguidos e a última variação negativa da França; corrigida a descrição do abrandamento francês (1,1% no 4.º trimestre de 2025). Valores do 3.º trimestre são estimativas rápidas."
+   }
+  },
+  {
+   "id": "turismo-dormidas-mercados-2015-2025",
+   "slug": "dormidas-turistas-estados-unidos-portugal-2015-2025",
+   "kind": "descoberta",
+   "theme": "turismo",
+   "themeLabel": "Turismo",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Em dez anos, as dormidas de norte-americanos em Portugal quintuplicaram. Os EUA já são o terceiro mercado",
+   "question": "Que mercados explicam o crescimento do turismo estrangeiro em Portugal desde 2015?",
+   "finding": "Em 2025, residentes nos Estados Unidos passaram 5,48 milhões de noites em alojamentos turísticos portugueses, 5,2 vezes mais do que em 2015 (1,06 milhões) e o dobro de 2019. Passaram de 9.º a 3.º mercado estrangeiro, à frente de Espanha e França, e de 2,9% para 9,6% das dormidas de não residentes. Só os EUA explicam 22% do aumento dessas dormidas desde 2015.",
+   "context": "O INE conta as noites passadas em hotéis, alojamento local com 10 ou mais camas e turismo no espaço rural e de habitação, segundo o país de residência dos hóspedes. Entre 2015 e 2025, as dormidas de não residentes cresceram 54%, de 36,9 para 57,0 milhões. Os dois maiores mercados cresceram menos do que a média: o Reino Unido 17% e a Alemanha 24%.",
+   "interpretation": "O salto deu-se sobretudo depois da pandemia: em 2019, os EUA eram o 6.º mercado, com 2,7 milhões de dormidas. O Canadá seguiu o mesmo caminho e quase quadruplicou. Somados ao Brasil, os três países das Américas explicam um terço do aumento. Entre os mercados europeus com mais de um milhão de dormidas, o que mais cresceu foi a Polónia, que multiplicou por 2,4.",
+   "chart": {
+    "type": "lines",
+    "dataset": "turismo-dormidas-mercados-2015-2025"
+   },
+   "period": "2015 a 2025",
+   "unit": "Dormidas (milhões)",
+   "sources": [
+    {
+     "name": "INE — Dormidas nos estabelecimentos de alojamento turístico por local de residência (país), anual (indicador 0009182)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0009182&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": [
+    "Dormidas em estabelecimentos de alojamento turístico (hotelaria, alojamento local e turismo no espaço rural e de habitação; o alojamento local só entra com 10 ou mais camas, pelo que a maior parte desta oferta fica de fora), segundo o Inquérito à permanência de hóspedes do INE. Conta-se o país de residência do hóspede, não a nacionalidade. Os valores anuais de 2025 foram atualizados pelo INE a 9 de julho de 2026.",
+    "A posição de cada mercado ordena os países de residência estrangeiros, excluindo o agregado «Outros». As quotas e as contribuições para o aumento (22% dos EUA; um terço dos EUA, Canadá e Brasil) são cálculos da Olhamisto sobre o total de dormidas de não residentes. O gráfico mostra sete mercados; os restantes estão no ficheiro bruto.",
+    "Dormidas medem noites, não pessoas nem gastos: um mercado com estadas mais longas pesa mais."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-12",
+    "note": "Conferidos cerca de 25 valores (dormidas, posições, quotas, contribuições, Polónia) contra o INE descarregado de novo; acrescentado que o alojamento local só entra com 10 ou mais camas."
+   }
+  },
+  {
+   "id": "nados-vivos-mae-estrangeira-2011-2025",
+   "slug": "nascimentos-mae-estrangeira-portugal-2011-2025",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade",
+   "vizType": "barras",
+   "vizLabel": "Colunas empilhadas · duas vistas",
+   "interactive": true,
+   "title": "Mais de um em cada quatro bebés nascidos em Portugal em 2025 tem mãe de nacionalidade estrangeira. Em 2021 era um em sete",
+   "question": "De onde vem a recuperação dos nascimentos em Portugal depois de 2021?",
+   "finding": "Em 2025 nasceram 87 764 bebés de mães residentes em Portugal, mais 8 182 do que em 2021. Os de mãe com nacionalidade estrangeira aumentaram 14 449, para 25 257 (28,8% do total); os de mãe portuguesa diminuíram 6 265, para 62 507. Em 2011, os nascimentos de mãe portuguesa tinham sido 86 853, mais 39% do que em 2025.",
+   "context": "O número de nascimentos caiu durante a crise, de 96 856 em 2011 para 82 367 em 2014, e voltou a cair com a pandemia, até ao mínimo da série: 79 582 em 2021. Desde então recuperou. As estatísticas de nados-vivos do INE registam a nacionalidade da mãe, o que permite separar dois movimentos que o total esconde.",
+   "interpretation": "A subida coincide com o crescimento da população estrangeira residente e não é igual em todo o país. Em 2025, a proporção de bebés de mãe estrangeira foi de 41,9% na Grande Lisboa, 41,4% na Península de Setúbal e 40,1% no Algarve, contra 17,6% no Norte e 5,2% nos Açores. Os números contam a nacionalidade, não a origem: mães naturalizadas contam como portuguesas.",
+   "chart": {
+    "type": "columns",
+    "dataset": "nados-vivos-mae-estrangeira-2011-2025"
+   },
+   "period": "2011 a 2025",
+   "unit": "Nados-vivos (milhares) e percentagem do total",
+   "sources": [
+    {
+     "name": "INE — Nados-vivos por local de residência da mãe (NUTS 2024) e nacionalidade da mãe, 2021–2025 (indicador 0012437)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012437&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-12"
+    },
+    {
+     "name": "INE — Nados-vivos por local de residência da mãe (NUTS 2013) e nacionalidade da mãe, 2011–2023 (indicador 0008087)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0008087&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": [
+    "Nados-vivos de mães residentes em Portugal. A série junta dois indicadores do INE: 0008087 para 2011–2020 e 0012437 para 2021–2025; nos anos em que se sobrepõem (2021–2023), os totais nacionais coincidem exatamente. Há casos raros de nacionalidade ignorada (até 20 por ano), que entram no total mas não nas duas categorias.",
+    "Nacionalidade da mãe tal como registada pelo INE. Mães nascidas no estrangeiro com nacionalidade portuguesa contam como portuguesas; por isso, estes números diferem dos que usam o país de nascimento da mãe. As proporções regionais usam as regiões NUTS II de 2024 e são cálculos da Olhamisto."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-12",
+    "note": "Conferidos todos os valores (cerca de 30), a coincidência das duas séries do INE em 2021–2023 e as percentagens regionais; título precisado («nacionalidade estrangeira»)."
+   }
+  },
+  {
+   "id": "processadores-frequencia-1971-2021",
+   "slug": "processadores-frequencia-transistores-1971-2021",
+   "kind": "descoberta",
+   "theme": "tecnologia",
+   "themeLabel": "Tecnologia",
+   "vizType": "dispersao",
+   "vizLabel": "Dispersão · escala logarítmica · quatro medidas",
+   "interactive": true,
+   "title": "Desde 2005, os processadores ganharam mais de 200 vezes mais transístores. O relógio quase não acelerou",
+   "question": "Porque é que os processadores deixaram de ficar mais rápidos da mesma maneira a partir de meados dos anos 2000?",
+   "finding": "Até 2004, a frequência máxima dos processadores da série subiu de menos de 1 MHz para 3,65 GHz. Desde então não passou de 4,66 GHz e, entre 2015 e 2021, não passou dos 4 GHz. No mesmo período, o maior número de transístores num processador passou de 274 milhões (2000–2004) para 58,2 mil milhões (213 vezes mais), e os núcleos lógicos de 2 para até 272.",
+   "context": "Durante três décadas, cada geração de chips ficava mais rápida por duas vias: mais transístores, como previa a lei de Moore, e relógios mais rápidos. A série reunida por investigadores de Stanford e atualizada pelo cientista computacional Karl Rupp junta, processador a processador, frequência, transístores, desempenho e núcleos de 1971 a 2021.",
+   "interpretation": "A explicação aceite é física: com transístores cada vez mais pequenos, deixou de ser possível baixar a tensão ao mesmo ritmo, e relógios mais rápidos passaram a gerar calor difícil de dissipar. A indústria usou os transístores extra para multiplicar núcleos. O desempenho de um só fio cresceu 253 vezes entre 1988 e 2004 e 5 vezes até 2021; o resto exige programas que trabalhem em paralelo.",
+   "chart": {
+    "type": "scatter",
+    "dataset": "processadores-frequencia-1971-2021"
+   },
+   "period": "1971 a 2021",
+   "unit": "MHz, milhares de transístores, SpecINT × 1000 e núcleos lógicos (escala logarítmica)",
+   "sources": [
+    {
+     "name": "Karl Rupp — «Microprocessor Trend Data» (dados até 2010 de M. Horowitz, F. Labonte, O. Shacham, K. Olukotun, L. Hammond e C. Batten), CC BY 4.0",
+     "url": "https://github.com/karlrupp/microprocessor-trend-data",
+     "accessed": "2026-11-12"
+    },
+    {
+     "name": "Karl Rupp — «42 Years of Microprocessor Trend Data» (nota que acompanha os dados)",
+     "url": "https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "method": [
+    "Cada ponto é um processador (de vários fabricantes e tipos, incluindo servidores), colocado no ano aproximado de lançamento. Os dados até 2010 foram extraídos de um gráfico original por digitalização (g3data), com a precisão que isso permite; os de 2010 a 2021 foram recolhidos por Karl Rupp a partir de especificações e da base SPEC. O conjunto não é atualizado desde 2022: serve como série histórica.",
+    "O desempenho de um só fio usa SpecINT (2006 até 2017; depois, SpecINT 2017 convertido por um fator de 9,0 determinado pelo autor). Máximos por período calculados pela Olhamisto sobre os pontos da série; não incluem todos os processadores do mercado.",
+    "A explicação para o teto da frequência (o fim da redução proporcional da tensão, conhecida como escala de Dennard, e o limite de dissipação de calor) é a interpretação corrente na engenharia de computadores; os dados mostram a mudança, não a causa."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-12",
+    "note": "Ficheiros iguais ao repositório original; conferidos os 12 números citados e as escalas. O fator de conversão SpecINT 2017 (9,0) vem da fonte e não foi conferido de forma independente (karlrupp.net inacessível)."
+   }
+  }
+ ],
+ "chave": {
+  "id": "zona-economica-exclusiva",
+  "axis": "portugal",
+  "axisLabel": "Portugal em foco",
+  "certainty": "Consenso, com uma ressalva",
+  "title": "A zona económica exclusiva",
+  "concept": "Faixa de mar para lá do mar territorial, até 200 milhas náuticas da costa, em que um Estado tem o exclusivo da exploração dos recursos — pesca, petróleo, gás, minerais, energia —, sem que seja território soberano: os navios e aviões de outros países podem atravessá-la livremente.",
+  "lesson": [
+   "Em terra, Portugal ocupa 92 225 km², segundo a Direção-Geral do Território. No mar, a área sob jurisdição nacional até às 200 milhas náuticas da costa soma cerca de 1,7 milhões de km², quase 19 vezes mais. A maior parte deve-se aos Açores e à Madeira: cada ilha projeta à sua volta mar com até 370 quilómetros de raio.",
+   "As regras vêm da Convenção das Nações Unidas sobre o Direito do Mar, de 1982, e funcionam por camadas a partir da costa. Até 12 milhas, mar territorial, com soberania quase plena; até 200, zona económica exclusiva, onde só o Estado costeiro pode pescar, extrair ou produzir energia, mas não pode impedir a passagem de navios estrangeiros. É mais um direito de exploração do que uma propriedade.",
+   "O fundo do mar pode ir mais longe. A plataforma continental pode estender-se além das 200 milhas, em regra até 350, quando a geologia o justifica. Portugal pediu essa extensão às Nações Unidas em 2009, para cerca de mais 2,15 milhões de km², e o pedido continua em análise. Mesmo aceite, daria direitos sobre o solo e o subsolo marinhos, não sobre a água: essa continua a ser alto mar."
+  ],
+  "diagram": {
+   "title": "As camadas do mar, a partir da costa",
+   "svg": "<svg viewBox=\"0 0 340 250\" role=\"img\" aria-label=\"Esquema das zonas marítimas definidas pela Convenção das Nações Unidas sobre o Direito do Mar, medidas a partir da linha de base da costa, em milhas náuticas. Até 12 milhas, mar territorial, com soberania do Estado costeiro. Até 24 milhas, zona contígua, com poderes de fiscalização aduaneira, fiscal, sanitária e de imigração. Até 200 milhas, zona económica exclusiva, com direitos exclusivos sobre os recursos da água, do fundo e do subsolo, mas com liberdade de navegação e sobrevoo para todos. A plataforma continental, o fundo e o subsolo, vai até 200 milhas e pode ser estendida até 350 milhas quando a geologia o justifica; aí, a água por cima continua a ser alto mar. Um quilómetro corresponde a cerca de 0,54 milhas náuticas, e 200 milhas a cerca de 370 quilómetros.\"><rect x=\"4\" y=\"34\" width=\"22\" height=\"168\" fill=\"var(--key-rule)\"/><text x=\"15\" y=\"218\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">terra</text><line x1=\"26\" y1=\"28\" x2=\"26\" y2=\"206\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\"/><text x=\"30\" y=\"20\" fill=\"var(--key-ink)\" font-size=\"10.5\">linha de base</text><rect x=\"26\" y=\"42\" width=\"10\" height=\"24\" fill=\"var(--key-acc)\"/><text x=\"42\" y=\"58\" fill=\"var(--key-ink)\" font-size=\"11\">Mar territorial · 12 milhas · soberania</text><rect x=\"26\" y=\"76\" width=\"21\" height=\"24\" fill=\"var(--key-ink-2)\"/><text x=\"53\" y=\"92\" fill=\"var(--key-ink)\" font-size=\"11\">Zona contígua · 24 milhas · fiscalização</text><rect x=\"26\" y=\"110\" width=\"171\" height=\"34\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\" stroke-width=\"1.5\"/><text x=\"32\" y=\"125\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Zona económica exclusiva</text><text x=\"32\" y=\"139\" fill=\"var(--key-ink)\" font-size=\"10.5\">200 milhas · recursos exclusivos</text><rect x=\"26\" y=\"154\" width=\"171\" height=\"24\" fill=\"none\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\"/><rect x=\"197\" y=\"154\" width=\"129\" height=\"24\" fill=\"none\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"32\" y=\"170\" fill=\"var(--key-ink)\" font-size=\"10.5\">Plataforma continental</text><text x=\"203\" y=\"170\" fill=\"var(--key-ink)\" font-size=\"10.5\">extensão até 350</text><text x=\"203\" y=\"194\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">água: alto mar</text><line x1=\"197\" y1=\"104\" x2=\"197\" y2=\"206\" stroke=\"var(--key-ink-2)\" stroke-dasharray=\"2 3\"/><line x1=\"326\" y1=\"148\" x2=\"326\" y2=\"206\" stroke=\"var(--key-ink-2)\" stroke-dasharray=\"2 3\"/><text x=\"197\" y=\"220\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"10.5\">200</text><text x=\"320\" y=\"220\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"10.5\">350</text><text x=\"170\" y=\"242\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">Distância à linha de base, em milhas náuticas (1 milha = 1 852 m)</text></svg>",
+   "caption": "Zonas marítimas da Convenção das Nações Unidas sobre o Direito do Mar (artigos 3.º, 33.º, 57.º e 76.º), desenhadas à escala da distância. Os limites são máximos: entre países vizinhos, as zonas são divididas por acordo."
+  },
+  "aside": "O pedido português de extensão da plataforma continental foi o 44.º entregue à Comissão de Limites da Plataforma Continental da ONU, a 11 de maio de 2009, e foi alterado em agosto de 2017. A subcomissão que o examina foi criada em 2017 e, em 2026, ainda não há recomendações.",
+  "application": "Aparece na negociação das quotas de pesca, que dependem de quem tem jurisdição sobre cada zona; na atribuição de áreas para parques eólicos no mar e na discussão sobre a mineração em mar profundo; nos planos de ordenamento do espaço marítimo; e nas disputas sobre pequenas ilhas, como as Selvagens, porque uma ilha gera zona económica exclusiva e um rochedo não.",
+  "motto": "No mapa de terra, Portugal é pequeno. No do mar, não.",
+  "sources": [
+   {
+    "name": "Comissão Europeia, European MSP Platform — perfil de Portugal (área marítima e pedido de extensão de 2009)",
+    "url": "https://maritime-spatial-planning.ec.europa.eu/countries/portugal",
+    "accessed": "2026-11-12"
+   },
+   {
+    "name": "INE / Direção-Geral do Território — Superfície das unidades territoriais, 2025 (indicador 0007822)",
+    "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0007822&contexto=bd&selTab=tab2",
+    "accessed": "2026-11-12"
+   },
+   {
+    "name": "Nações Unidas — Convenção das Nações Unidas sobre o Direito do Mar (1982), índice do texto",
+    "url": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/UNCLOS-TOC.htm",
+    "accessed": "2026-11-12"
+   },
+   {
+    "name": "Nações Unidas, Comissão de Limites da Plataforma Continental — resumo executivo da submissão portuguesa (2009)",
+    "url": "https://www.un.org/Depts/los/clcs_new/submissions_files/prt44_09/prt2009executivesummary.pdf",
+    "accessed": "2026-11-12"
+   },
+   {
+    "name": "Wikipédia — «Exclusive economic zone of Portugal» (secundária: área por subzona, 1 727 408 km²)",
+    "url": "https://en.wikipedia.org/wiki/Exclusive_economic_zone_of_Portugal",
+    "accessed": "2026-11-12"
+   }
+  ],
+  "notes": [
+   "Grau de certeza: consenso, com uma ressalva. As regras da Convenção são direito internacional em vigor. A ressalva é a área: os valores publicados variam ligeiramente com o método de cálculo, e a extensão da plataforma continental é um pedido, não um direito reconhecido.",
+   "A área de cerca de 1,7 milhões de km² resulta da página da Comissão Europeia (área total de 3 877 408 km² se a extensão de 2,15 milhões de km² for aceite) e coincide com o valor de 1 727 408 km² citado em fontes secundárias, das quais cerca de 1,4 milhões nos Açores e na Madeira. As páginas da DGPM, da EMEPC e do Instituto Hidrográfico não estavam acessíveis neste ambiente. Há também valores oficiais diferentes: excertos atribuídos à DGRM somam cerca de 1,66 milhões de km², o que daria uma razão próxima de 18 vezes.",
+   "Uma milha náutica tem 1 852 metros; 200 milhas são cerca de 370 quilómetros. A distinção entre ilha e rochedo vem do artigo 121.º da Convenção.",
+   "Simplificação: pelo artigo 76.º, o limite exterior da plataforma é 350 milhas ou 100 milhas além da isóbata dos 2 500 metros; nas dorsais submarinas, como as dos Açores, não pode passar das 350 milhas. A zona económica exclusiva começa, pelo artigo 55.º, para lá do mar territorial; no esquema, as faixas partem da linha de base para mostrar as distâncias."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-12",
+   "note": "Conferidos a área terrestre (INE/DGT), a área marítima (Comissão Europeia e fontes secundárias), as regras da CNUDM (art. 3.º, 33.º, 55.º, 57.º, 58.º, 76.º, 78.º e 121.º), o pedido n.º 44 de 2009 e o aditamento de 2017, e a escala do esquema; corrigida a simplificação do art. 76.º e precisado o início da zona económica exclusiva."
+  }
+ }
+}

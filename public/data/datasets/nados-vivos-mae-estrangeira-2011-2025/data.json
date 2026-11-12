@@ -1,0 +1,247 @@
+{
+ "rows": [
+  {
+   "cat": "2011",
+   "pt": 86.85,
+   "est": 10,
+   "total": 96.86,
+   "share": 10.3
+  },
+  {
+   "cat": "2012",
+   "pt": 81.08,
+   "est": 8.76,
+   "total": 89.84,
+   "share": 9.8
+  },
+  {
+   "cat": "2013",
+   "pt": 75.38,
+   "est": 7.41,
+   "total": 82.79,
+   "share": 8.9
+  },
+  {
+   "cat": "2014",
+   "pt": 75.15,
+   "est": 7.2,
+   "total": 82.37,
+   "share": 8.7
+  },
+  {
+   "cat": "2015",
+   "pt": 78.34,
+   "est": 7.16,
+   "total": 85.5,
+   "share": 8.4
+  },
+  {
+   "cat": "2016",
+   "pt": 79.42,
+   "est": 7.69,
+   "total": 87.13,
+   "share": 8.8
+  },
+  {
+   "cat": "2017",
+   "pt": 77.84,
+   "est": 8.32,
+   "total": 86.15,
+   "share": 9.7
+  },
+  {
+   "cat": "2018",
+   "pt": 77.63,
+   "est": 9.39,
+   "total": 87.02,
+   "share": 10.8
+  },
+  {
+   "cat": "2019",
+   "pt": 75.9,
+   "est": 10.68,
+   "total": 86.58,
+   "share": 12.3
+  },
+  {
+   "cat": "2020",
+   "pt": 73.18,
+   "est": 11.36,
+   "total": 84.53,
+   "share": 13.4
+  },
+  {
+   "cat": "2021",
+   "pt": 68.77,
+   "est": 10.81,
+   "total": 79.58,
+   "share": 13.6
+  },
+  {
+   "cat": "2022",
+   "pt": 69.67,
+   "est": 14,
+   "total": 83.67,
+   "share": 16.7
+  },
+  {
+   "cat": "2023",
+   "pt": 66.96,
+   "est": 18.73,
+   "total": 85.7,
+   "share": 21.9
+  },
+  {
+   "cat": "2024",
+   "pt": 62.5,
+   "est": 22.14,
+   "total": 84.64,
+   "share": 26.2
+  },
+  {
+   "cat": "2025",
+   "pt": 62.51,
+   "est": 25.26,
+   "total": 87.76,
+   "share": 28.8
+  }
+ ],
+ "views": [
+  {
+   "id": "n",
+   "label": "Nascimentos",
+   "yLabel": "Nados-vivos por nacionalidade da mãe (milhares)",
+   "unit": " mil",
+   "decimals": 2,
+   "labelEvery": 2,
+   "labelEveryNarrow": 3,
+   "series": [
+    {
+     "key": "pt",
+     "label": "Mãe portuguesa (milhares)",
+     "color": "--ink-3"
+    },
+    {
+     "key": "est",
+     "label": "Mãe estrangeira (milhares)",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "total",
+     "label": "Total (milhares)",
+     "suffix": " mil"
+    }
+   ]
+  },
+  {
+   "id": "p",
+   "label": "Percentagem",
+   "yLabel": "Nados-vivos de mãe com nacionalidade estrangeira (% do total)",
+   "unit": "%",
+   "decimals": 1,
+   "labelEvery": 2,
+   "labelEveryNarrow": 3,
+   "valueLabels": true,
+   "series": [
+    {
+     "key": "share",
+     "label": "Mãe estrangeira (% do total)",
+     "color": "--accent-2"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "y2011": {
+   "cat": "2011",
+   "pt": 86853,
+   "est": 10003,
+   "total": 96856,
+   "other": 0,
+   "share": 10.3
+  },
+  "y2021": {
+   "cat": "2021",
+   "pt": 68772,
+   "est": 10808,
+   "total": 79582,
+   "other": 2,
+   "share": 13.6
+  },
+  "y2025": {
+   "cat": "2025",
+   "pt": 62507,
+   "est": 25257,
+   "total": 87764,
+   "other": 0,
+   "share": 28.8
+  },
+  "d2021_2025": {
+   "total": 8182,
+   "est": 14449,
+   "pt": -6265
+  },
+  "minPT": [
+   "2024",
+   62498
+  ],
+  "regions": [
+   {
+    "code": "11",
+    "name": "Norte",
+    "s2021": 6.7,
+    "s2025": 17.6
+   },
+   {
+    "code": "15",
+    "name": "Algarve",
+    "s2021": 25.4,
+    "s2025": 40.1
+   },
+   {
+    "code": "19",
+    "name": "Centro",
+    "s2021": 8.6,
+    "s2025": 24.5
+   },
+   {
+    "code": "20",
+    "name": "R. A. Açores",
+    "s2021": 2.2,
+    "s2025": 5.2
+   },
+   {
+    "code": "30",
+    "name": "R. A. Madeira",
+    "s2021": 5,
+    "s2025": 12.6
+   },
+   {
+    "code": "1D",
+    "name": "Oeste e Vale do Tejo",
+    "s2021": 12.2,
+    "s2025": 29
+   },
+   {
+    "code": "1A",
+    "name": "Grande Lisboa",
+    "s2021": 23,
+    "s2025": 41.9
+   },
+   {
+    "code": "1B",
+    "name": "Península de Setúbal",
+    "s2021": 20.5,
+    "s2025": 41.4
+   },
+   {
+    "code": "1C",
+    "name": "Alentejo",
+    "s2021": 10.7,
+    "s2025": 23
+   }
+  ]
+ }
+}

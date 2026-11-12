@@ -508,7 +508,7 @@ function columns(host, data) {
 }
 
 /* lines: séries temporais com escala log ⇄ linear, cursor, rótulos diretos.
-   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], scaleToggle, dots, gaps (anos sem valor ficam em branco, sem ligar os pontos), annotations[], shade[]} */
+   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], scaleToggle, dots, gaps (anos sem valor ficam em branco, sem ligar os pontos), annotations[], shade[{from,to,label,short,exact,labelOnly,top}], refLine{value,label,short,at}} */
 function lines(host, data) {
   const C = data.config, rows = data.rows;
   let log = !!C.y.logDefault;
@@ -523,10 +523,17 @@ function lines(host, data) {
     const svg = svgIn(host.chart, W, H, C.y.label);
     const x = d3.scaleLinear().domain([C.x.min, C.x.max]).range([m.l, W - m.r]);
     const y = log ? d3.scaleLog().domain([C.y.logMin, C.y.logMax]).range([H - m.b, m.t]) : d3.scaleLinear().domain([C.y.linMin ?? 0, C.y.linMax]).range([H - m.b, m.t]);
-    if (!log && (C.y.linMin ?? 0) < 0) svg.append("line").attr("class", "zero").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y(0)).attr("y2", y(0));
     for (const sh of C.shade || []) {
-      svg.append("rect").attr("x", x(sh.from - 0.5)).attr("width", x(sh.to + 0.5) - x(sh.from - 0.5)).attr("y", m.t).attr("height", H - m.t - m.b).attr("fill", css("--paper-2")).attr("opacity", 0.9);
-      if (sh.label && !narrow) svg.append("text").attr("class", "ann-muted").attr("x", (x(sh.from) + x(sh.to)) / 2).attr("y", H - m.b - 6).attr("text-anchor", "middle").text(sh.label);
+      // exact: os limites são posições exatas no eixo (p. ex. meses em anos decimais); sem exact, cobrem anos inteiros
+      const x0 = sh.exact ? x(sh.from) : x(sh.from - 0.5), x1 = sh.exact ? x(sh.to) : x(sh.to + 0.5);
+      if (!sh.labelOnly) svg.append("rect").attr("x", x0).attr("width", x1 - x0).attr("y", m.t).attr("height", H - m.t - m.b).attr("fill", css("--paper-2")).attr("opacity", 0.9);
+      if (sh.label && (!narrow || sh.short)) halo(svg.append("text").attr("class", "ann-muted").style("font-size", narrow ? "10.5px" : null).attr("x", (x0 + x1) / 2).attr("y", sh.top ? m.t + 14 : H - m.b - 6).attr("text-anchor", "middle").text(narrow ? sh.short : sh.label));
+    }
+    if (!log && (C.y.linMin ?? 0) < 0) svg.append("line").attr("class", "zero").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y(0)).attr("y2", y(0));
+    // linha de referência horizontal (p. ex. uma meta), tracejada, com rótulo (at: posição no eixo x do rótulo)
+    if (C.refLine && !log) {
+      svg.append("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y(C.refLine.value)).attr("y2", y(C.refLine.value)).attr("stroke", css("--ink")).attr("stroke-dasharray", "4 3").attr("opacity", 0.8);
+      halo(svg.append("text").attr("class", "ann").style("font-size", "11px").attr("x", C.refLine.at != null ? x(C.refLine.at) : W - m.r - 4).attr("y", y(C.refLine.value) - 5).attr("text-anchor", C.refLine.at != null ? "middle" : "end").text(narrow && C.refLine.short ? C.refLine.short : C.refLine.label));
     }
     const yt = log ? y.ticks(10).filter((t) => [0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100, 200].some((k) => Math.abs(t - k) < 1e-9)) : y.ticks(6);
     svg.append("g").attr("class", "grid").selectAll("line").data(yt).join("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y).attr("y2", y);
@@ -671,9 +678,13 @@ function bars(host, data) {
 
 /* scatter: dispersão genérica (um ponto por observação), diagonal y = x opcional, linhas do zero, grupos por cor e filtro de destaque.
    data.rows[{x,y,group,label,facet?}], data.config{x{label,short,min,max,ticks,decimals}, y{...}, groups[{key,label,color,shape}], diagonal{label},
-   zeroLines, facets{key,options[[id,label]]}, howToRead, notes[{x,y,text,short,anchor}]} */
+   zeroLines, facets{key,options[[id,label]]}, howToRead, notes[{x,y,text,short,anchor}],
+   views[{id,label,key,y{label,short,min,max,ticks,decimals,log,tipLabel,tipDecimals},notes[]}] (opcional: alterna a variável do eixo vertical)} */
 function scatter(host, data) {
-  const C = data.config, rows = data.rows;
+  const C = data.config;
+  // views (opcional): cada vista escolhe a chave do eixo vertical e a sua escala (y.log para escala logarítmica)
+  let view = C.views ? C.views[0] : null;
+  if (C.views?.length > 1) segmented(host.controls, C.views.map((v) => [v.id, v.label]), view.id, (v) => { view = C.views.find((q) => q.id === v); r.redraw(); }, "Vista");
   let facet = C.facets ? C.facets.options[0][0] : "all";
   const tip = tooltip(host.chart);
   if (C.facets) segmented(host.controls, C.facets.options, facet, (v) => { facet = v; r.redraw(); }, "Destacar");
@@ -682,20 +693,22 @@ function scatter(host, data) {
   const gOf = (k) => C.groups.find((g) => g.key === k) || C.groups[0];
   const r = responsive(host.chart, (W) => {
     const narrow = W < 560;
+    const Y = view ? { ...C.y, ...view.y } : C.y, yk = view ? view.key : "y";
+    const rows = data.rows.filter((q) => q[yk] != null).map((q) => ({ ...q, y: q[yk] }));
     const m = { t: 30, r: 14, b: 46, l: narrow ? 44 : 52 };
     const H = Math.round(Math.min(Math.max(W * 0.78, 320), 500));
-    const svg = svgIn(host.chart, W, H, `${C.y.label} em função de ${C.x.label}`);
+    const svg = svgIn(host.chart, W, H, `${Y.label} em função de ${C.x.label}`);
     const x = d3.scaleLinear().domain([C.x.min, C.x.max]).range([m.l, W - m.r]);
-    const y = d3.scaleLinear().domain([C.y.min, C.y.max]).range([H - m.b, m.t]);
-    const xt = C.x.ticks || x.ticks(6), yt = C.y.ticks || y.ticks(6);
+    const y = (Y.log ? d3.scaleLog() : d3.scaleLinear()).domain([Y.min, Y.max]).range([H - m.b, m.t]);
+    const xt = C.x.ticks || x.ticks(6), yt = Y.ticks || y.ticks(6);
     svg.append("g").attr("class", "grid").selectAll("line").data(yt).join("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y).attr("y2", y);
     svg.append("g").attr("class", "grid").selectAll("line").data(xt).join("line").attr("y1", m.t).attr("y2", H - m.b).attr("x1", x).attr("x2", x);
     svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(narrow ? xt.filter((_, i) => i % 2 === 0) : xt).tickFormat((t) => fmtN(t, C.x.decimals ?? 1)).tickSizeOuter(0));
-    svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues(yt).tickFormat((t) => fmtN(t, C.y.decimals ?? 1)).tickSize(0)).call((g) => g.select(".domain").remove());
+    svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues(yt).tickFormat((t) => fmtN(t, Y.decimals ?? 1)).tickSize(0)).call((g) => g.select(".domain").remove());
     halo(svg.append("text").attr("class", "ann-muted").attr("x", W - m.r).attr("y", H - 8).attr("text-anchor", "end").text(narrow && C.x.short ? C.x.short : C.x.label));
-    halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 40 : 48)).attr("y", 14).text(narrow && C.y.short ? C.y.short : C.y.label));
+    halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 40 : 48)).attr("y", 14).text((narrow && Y.short ? Y.short : Y.label) + (Y.log ? " — escala log." : "")));
     if (C.zeroLines) {
-      if (C.y.min < 0) svg.append("line").attr("class", "zero").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y(0)).attr("y2", y(0));
+      if (Y.min < 0 && !Y.log) svg.append("line").attr("class", "zero").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y(0)).attr("y2", y(0));
       if (C.x.min < 0) svg.append("line").attr("class", "zero").attr("y1", m.t).attr("y2", H - m.b).attr("x1", x(0)).attr("x2", x(0));
     }
     if (C.diagonal) {
@@ -704,7 +717,7 @@ function scatter(host, data) {
       if (C.diagonal.text) halo(svg.append("text").attr("class", "ann").style("font-size", "11px").attr("x", x(b) - 4).attr("y", y(b) + 14).attr("text-anchor", "end").text(narrow && C.diagonal.short ? C.diagonal.short : C.diagonal.text));
     }
     const on = (q) => facet === "all" || q[C.facets.key] === facet;
-    const html = (q) => `<b>${q.label}</b>${q.sub ? `<br>${q.sub}` : ""}<br>${C.x.tipLabel || C.x.label}: ${fmtN(q.x, C.x.tipDecimals ?? 2)}<br>${C.y.tipLabel || C.y.label}: ${fmtN(q.y, C.y.tipDecimals ?? 2)}<br>${gOf(q.group).label}`;
+    const html = (q) => `<b>${q.label}</b>${q.sub ? `<br>${q.sub}` : ""}<br>${C.x.tipLabel || C.x.label}: ${fmtN(q.x, C.x.tipDecimals ?? 2)}<br>${Y.tipLabel || Y.label}: ${fmtN(q.y, Y.tipDecimals ?? 2)}<br>${gOf(q.group).label}`;
     const pts = svg.append("g").selectAll("circle").data([...rows].sort((a, b) => on(a) - on(b))).join("circle")
       .attr("cx", (q) => x(q.x)).attr("cy", (q) => y(q.y)).attr("r", narrow ? 4.2 : 5)
       .attr("fill", (q) => (gOf(q.group).shape === "ring" ? css("--card") : css(gOf(q.group).color)))
@@ -716,7 +729,7 @@ function scatter(host, data) {
       .on("pointerleave blur", () => tip.hide())
       .on("focus", (e, q) => tip.show(html(q), (x(q.x) / W) * host.chart.clientWidth, y(q.y)));
     pts.filter((q) => !on(q)).style("pointer-events", "none");
-    for (const n of C.notes || []) halo(svg.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", 600)
+    for (const n of (view && view.notes) || C.notes || []) halo(svg.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", 600)
       .attr("x", x(n.x)).attr("y", y(n.y)).attr("text-anchor", n.anchor || "start").text(narrow && n.short ? n.short : n.text));
   });
   return r;
@@ -738,7 +751,7 @@ export function dataTable(type, data) {
       return T(["", ...cols.map(lab)], data.rows.map((r) => [r.cat, ...cols.map((k) => (typeof r[k] === "number" ? fmtN(r[k], Number.isInteger(r[k]) ? 0 : 2) : r[k] ?? "—"))])); }
     case "lines": return T([data.config.x.tableLabel || "Ano", ...data.config.series.map((s) => s.label)], data.rows.map((r) => [r.label ?? r.x, ...data.config.series.map((s) => (r[s.key] == null ? "—" : fmtN(r[s.key], data.config.y.decimals ?? 1)))]));
     case "dumbbell": { const C = data.config; return T(["País", C.aLabel, C.bLabel, ...(C.cLabel ? [C.cLabel] : [])], [...data.rows].sort((a, b) => (b.b ?? -9) - (a.b ?? -9)).map((r) => [r.label, fmtN(r.a, C.decimals), r.b == null ? "—" : fmtN(r.b, C.decimals), ...(C.cLabel ? [r.c == null ? "" : fmtN(r.c, C.decimals)] : [])])); }
-    case "scatter": { const C = data.config; return T(["", ...(C.facets ? [C.facets.label || "Grupo"] : []), C.x.tipLabel || C.x.label, C.y.tipLabel || C.y.label, "Resultado"], data.rows.map((r) => [r.label, ...(C.facets ? [(C.facets.options.find((o) => o[0] === r[C.facets.key]) || [, r[C.facets.key]])[1]] : []), fmtN(r.x, C.x.tipDecimals ?? 2), fmtN(r.y, C.y.tipDecimals ?? 2), (C.groups.find((g) => g.key === r.group) || {}).label || ""])); }
+    case "scatter": { const C = data.config; if (C.views) return T([C.x.tipLabel || C.x.label, "", ...C.views.map((v) => v.y.tipLabel || v.y.label)], data.rows.map((r) => [fmtN(r.x, C.x.tipDecimals ?? 2), r.label, ...C.views.map((v) => (r[v.key] == null ? "—" : fmtN(r[v.key], v.y.tipDecimals ?? 2)))])); return T(["", ...(C.facets ? [C.facets.label || "Grupo"] : []), C.x.tipLabel || C.x.label, C.y.tipLabel || C.y.label, "Resultado"], data.rows.map((r) => [r.label, ...(C.facets ? [(C.facets.options.find((o) => o[0] === r[C.facets.key]) || [, r[C.facets.key]])[1]] : []), fmtN(r.x, C.x.tipDecimals ?? 2), fmtN(r.y, C.y.tipDecimals ?? 2), (C.groups.find((g) => g.key === r.group) || {}).label || ""])); }
     case "bars": { const C = data.config; return T(["", ...C.views.map((w) => w.label + (C.unit ? ` (${C.unit.trim()})` : ""))], data.rows.map((r) => [r.label, ...C.views.map((w) => fmtN(r[w.key], C.decimals ?? 1))])); }
     default: return "";
   }

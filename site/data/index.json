@@ -1,8 +1,116 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-11T07:32:06.126Z",
- "latest": "2026-11-11",
+ "updated": "2026-11-12T07:36:58.925Z",
+ "latest": "2026-11-12",
  "editions": [
+  {
+   "date": "2026-11-12",
+   "number": 8,
+   "lead": "bce-inflacao-mandatos-1999-2026",
+   "opening": "Cinco histórias para quinta-feira: a inflação em cada mandato de presidente do BCE, a França a encolher num trimestre em que Portugal cresce, os turistas norte-americanos que passaram a terceiro mercado, os bebés de mães estrangeiras e o relógio dos processadores, parado desde 2005.",
+   "pieces": [
+    {
+     "id": "bce-inflacao-mandatos-1999-2026",
+     "title": "Lagarde sai do BCE com a inflação média mais alta dos quatro mandatos: 3,4%. Com Draghi foi 1,2%",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia",
+     "vizType": "linha",
+     "vizLabel": "Linhas · faixas por mandato · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Como se saiu cada presidente do Banco Central Europeu face ao objetivo de inflação de 2%?",
+     "finding": "Entre novembro de 2019 e outubro de 2026, a inflação homóloga da zona euro teve uma média de 3,4%, com um máximo de 10,6% em outubro de 2022, e esteve acima de 2,5% em 40 dos 84 meses. No mandato de Mario Draghi (2011–2019), a média foi de 1,2%, e a inflação ficou abaixo de 1,5% em 60 dos 96 meses. Com Duisenberg e Trichet, as médias rondaram os 2%.",
+     "period": "Janeiro de 1999 a outubro de 2026",
+     "dataset": "bce-inflacao-mandatos-1999-2026",
+     "sourceNames": [
+      "Eurostat — IHPC, ECOICOP 2, taxa de variação homóloga, zona euro (prc_hicp_minr)",
+      "BCE — Comunicado de 29 de outubro de 2026: saída de Christine Lagarde a 7 de fevereiro de 2027",
+      "BCE — Estratégia de política monetária (revisão de 2021: objetivo simétrico de 2%)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "pib-t3-2026-ue",
+     "title": "A economia francesa encolheu face a 2025, pela primeira vez desde 2020. Portugal cresceu 2,4%",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia",
+     "vizType": "barras",
+     "vizLabel": "Barras divergentes · dois trimestres · ordenação alternável",
+     "interactive": true,
+     "question": "Como cresceram as economias europeias no 3.º trimestre de 2026, face ao mesmo trimestre de 2025?",
+     "finding": "No 3.º trimestre de 2026, o PIB da França ficou 0,1% abaixo do mesmo trimestre de 2025, a primeira variação homóloga negativa desde o fim de 2020. Portugal cresceu 2,4%, contra 1,3% na zona euro, e cresce acima da média da zona euro há 22 trimestres seguidos. Entre os 15 países da UE que já publicaram estimativas, só a Irlanda, a Espanha e a Suécia cresceram mais.",
+     "period": "3.º trimestre de 2026 (e 3.º trimestre de 2025)",
+     "dataset": "pib-t3-2026-ue",
+     "sourceNames": [
+      "Eurostat — Contas nacionais trimestrais, PIB em volume, variação homóloga, ajustado de sazonalidade (namq_10_gdp)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "turismo-dormidas-mercados-2015-2025",
+     "title": "Em dez anos, as dormidas de norte-americanos em Portugal quintuplicaram. Os EUA já são o terceiro mercado",
+     "kind": "descoberta",
+     "theme": "turismo",
+     "themeLabel": "Turismo",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Que mercados explicam o crescimento do turismo estrangeiro em Portugal desde 2015?",
+     "finding": "Em 2025, residentes nos Estados Unidos passaram 5,48 milhões de noites em alojamentos turísticos portugueses, 5,2 vezes mais do que em 2015 (1,06 milhões) e o dobro de 2019. Passaram de 9.º a 3.º mercado estrangeiro, à frente de Espanha e França, e de 2,9% para 9,6% das dormidas de não residentes. Só os EUA explicam 22% do aumento dessas dormidas desde 2015.",
+     "period": "2015 a 2025",
+     "dataset": "turismo-dormidas-mercados-2015-2025",
+     "sourceNames": [
+      "INE — Dormidas nos estabelecimentos de alojamento turístico por local de residência (país), anual (indicador 0009182)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "nados-vivos-mae-estrangeira-2011-2025",
+     "title": "Mais de um em cada quatro bebés nascidos em Portugal em 2025 tem mãe de nacionalidade estrangeira. Em 2021 era um em sete",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade",
+     "vizType": "barras",
+     "vizLabel": "Colunas empilhadas · duas vistas",
+     "interactive": true,
+     "question": "De onde vem a recuperação dos nascimentos em Portugal depois de 2021?",
+     "finding": "Em 2025 nasceram 87 764 bebés de mães residentes em Portugal, mais 8 182 do que em 2021. Os de mãe com nacionalidade estrangeira aumentaram 14 449, para 25 257 (28,8% do total); os de mãe portuguesa diminuíram 6 265, para 62 507. Em 2011, os nascimentos de mãe portuguesa tinham sido 86 853, mais 39% do que em 2025.",
+     "period": "2011 a 2025",
+     "dataset": "nados-vivos-mae-estrangeira-2011-2025",
+     "sourceNames": [
+      "INE — Nados-vivos por local de residência da mãe (NUTS 2024) e nacionalidade da mãe, 2021–2025 (indicador 0012437)",
+      "INE — Nados-vivos por local de residência da mãe (NUTS 2013) e nacionalidade da mãe, 2011–2023 (indicador 0008087)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "processadores-frequencia-1971-2021",
+     "title": "Desde 2005, os processadores ganharam mais de 200 vezes mais transístores. O relógio quase não acelerou",
+     "kind": "descoberta",
+     "theme": "tecnologia",
+     "themeLabel": "Tecnologia",
+     "vizType": "dispersao",
+     "vizLabel": "Dispersão · escala logarítmica · quatro medidas",
+     "interactive": true,
+     "question": "Porque é que os processadores deixaram de ficar mais rápidos da mesma maneira a partir de meados dos anos 2000?",
+     "finding": "Até 2004, a frequência máxima dos processadores da série subiu de menos de 1 MHz para 3,65 GHz. Desde então não passou de 4,66 GHz e, entre 2015 e 2021, não passou dos 4 GHz. No mesmo período, o maior número de transístores num processador passou de 274 milhões (2000–2004) para 58,2 mil milhões (213 vezes mais), e os núcleos lógicos de 2 para até 272.",
+     "period": "1971 a 2021",
+     "dataset": "processadores-frequencia-1971-2021",
+     "sourceNames": [
+      "Karl Rupp — «Microprocessor Trend Data» (dados até 2010 de M. Horowitz, F. Labonte, O. Shacham, K. Olukotun, L. Hammond e C. Batten), CC BY 4.0",
+      "Karl Rupp — «42 Years of Microprocessor Trend Data» (nota que acompanha os dados)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "zona-economica-exclusiva",
+    "title": "A zona económica exclusiva",
+    "axis": "portugal",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-11",
    "number": 7,

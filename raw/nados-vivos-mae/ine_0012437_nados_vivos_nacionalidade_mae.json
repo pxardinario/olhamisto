@@ -1,0 +1,2120 @@
+[ {
+  "IndicadorCod" : "0012437",
+  "IndicadorDsg" : "Nados-vivos (N.º) por Local de residência da mãe (NUTS - 2024) e Nacionalidade da mãe; Anual - INE, Nados-vivos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012437&lingua=PT",
+  "DataExtracao" : "2026-11-12T07:20:57.402Z",
+  "DataUltimoAtualizacao" : "2026-04-30",
+  "UltimoPref" : "2025",
+  "Dados" : {
+    "2021" : [ {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "2",
+      "valor" : "2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "2",
+      "valor" : "2"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "88",
+      "valor" : "88"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "378",
+      "valor" : "378"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "699",
+      "valor" : "699"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "935",
+      "valor" : "935"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 045",
+      "valor" : "1045"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 450",
+      "valor" : "1450"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 652",
+      "valor" : "1652"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 656",
+      "valor" : "1656"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "1 744",
+      "valor" : "1744"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 999",
+      "valor" : "1999"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "2 043",
+      "valor" : "2043"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "3 074",
+      "valor" : "3074"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "3 162",
+      "valor" : "3162"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "3 540",
+      "valor" : "3540"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "4 119",
+      "valor" : "4119"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "4 517",
+      "valor" : "4517"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "5 030",
+      "valor" : "5030"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "5 611",
+      "valor" : "5611"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "5 729",
+      "valor" : "5729"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "7 061",
+      "valor" : "7061"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "9 922",
+      "valor" : "9922"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "10 808",
+      "valor" : "10808"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "10 857",
+      "valor" : "10857"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "15 145",
+      "valor" : "15145"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "19 664",
+      "valor" : "19664"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "23 173",
+      "valor" : "23173"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "24 825",
+      "valor" : "24825"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "68 772",
+      "valor" : "68772"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "79 582",
+      "valor" : "79582"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2022" : [ {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "53",
+      "valor" : "53"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "83",
+      "valor" : "83"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "432",
+      "valor" : "432"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "959",
+      "valor" : "959"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 214",
+      "valor" : "1214"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 365",
+      "valor" : "1365"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 675",
+      "valor" : "1675"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "1 758",
+      "valor" : "1758"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 885",
+      "valor" : "1885"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "2 015",
+      "valor" : "2015"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "2 068",
+      "valor" : "2068"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "2 180",
+      "valor" : "2180"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "2 850",
+      "valor" : "2850"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "3 088",
+      "valor" : "3088"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "3 520",
+      "valor" : "3520"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "4 064",
+      "valor" : "4064"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "5 242",
+      "valor" : "5242"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "5 797",
+      "valor" : "5797"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "5 832",
+      "valor" : "5832"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "6 201",
+      "valor" : "6201"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "7 682",
+      "valor" : "7682"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "10 001",
+      "valor" : "10001"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "11 366",
+      "valor" : "11366"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "14 003",
+      "valor" : "14003"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "14 805",
+      "valor" : "14805"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "20 637",
+      "valor" : "20637"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "24 195",
+      "valor" : "24195"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "26 375",
+      "valor" : "26375"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "69 668",
+      "valor" : "69668"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "83 671",
+      "valor" : "83671"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2023" : [ {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "1",
+      "valor" : "1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "1",
+      "valor" : "1"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "123",
+      "valor" : "123"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "590",
+      "valor" : "590"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 357",
+      "valor" : "1357"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 486",
+      "valor" : "1486"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 624",
+      "valor" : "1624"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "1 747",
+      "valor" : "1747"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 946",
+      "valor" : "1946"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 994",
+      "valor" : "1994"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "2 042",
+      "valor" : "2042"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "2 597",
+      "valor" : "2597"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "2 950",
+      "valor" : "2950"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "2 960",
+      "valor" : "2960"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "3 129",
+      "valor" : "3129"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "3 550",
+      "valor" : "3550"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "4 436",
+      "valor" : "4436"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "5 045",
+      "valor" : "5045"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "5 568",
+      "valor" : "5568"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "6 402",
+      "valor" : "6402"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "7 458",
+      "valor" : "7458"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "8 165",
+      "valor" : "8165"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "9 789",
+      "valor" : "9789"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "11 735",
+      "valor" : "11735"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "13 991",
+      "valor" : "13991"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "18 734",
+      "valor" : "18734"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "21 449",
+      "valor" : "21449"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "23 043",
+      "valor" : "23043"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "26 173",
+      "valor" : "26173"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "66 964",
+      "valor" : "66964"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "85 699",
+      "valor" : "85699"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2024" : [ {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "147",
+      "valor" : "147"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "698",
+      "valor" : "698"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 646",
+      "valor" : "1646"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 678",
+      "valor" : "1678"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 702",
+      "valor" : "1702"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "1 793",
+      "valor" : "1793"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 794",
+      "valor" : "1794"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "1 871",
+      "valor" : "1871"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "2 481",
+      "valor" : "2481"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "2 645",
+      "valor" : "2645"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "2 751",
+      "valor" : "2751"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "3 148",
+      "valor" : "3148"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "3 449",
+      "valor" : "3449"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "3 692",
+      "valor" : "3692"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "4 347",
+      "valor" : "4347"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "4 786",
+      "valor" : "4786"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "5 043",
+      "valor" : "5043"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "6 464",
+      "valor" : "6464"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "8 191",
+      "valor" : "8191"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "8 521",
+      "valor" : "8521"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "9 149",
+      "valor" : "9149"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "11 630",
+      "valor" : "11630"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "13 124",
+      "valor" : "13124"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "21 560",
+      "valor" : "21560"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "21 645",
+      "valor" : "21645"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "22 144",
+      "valor" : "22144"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "25 252",
+      "valor" : "25252"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "62 498",
+      "valor" : "62498"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "84 642",
+      "valor" : "84642"
+    } ],
+    "2025" : [ {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "102",
+      "valor" : "102"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "220",
+      "valor" : "220"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "798",
+      "valor" : "798"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 525",
+      "valor" : "1525"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "1 745",
+      "valor" : "1745"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 779",
+      "valor" : "1779"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "1 866",
+      "valor" : "1866"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "1 933",
+      "valor" : "1933"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "1 968",
+      "valor" : "1968"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "2 652",
+      "valor" : "2652"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "2 677",
+      "valor" : "2677"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "2 982",
+      "valor" : "2982"
+    }, {
+      "geocod" : "1C",
+      "geodsg" : "Alentejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "3 475",
+      "valor" : "3475"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "3 558",
+      "valor" : "3558"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "4 431",
+      "valor" : "4431"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "4 700",
+      "valor" : "4700"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "4 738",
+      "valor" : "4738"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "5 042",
+      "valor" : "5042"
+    }, {
+      "geocod" : "1D",
+      "geodsg" : "Oeste e Vale do Tejo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "6 671",
+      "valor" : "6671"
+    }, {
+      "geocod" : "1B",
+      "geodsg" : "Península de Setúbal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "8 600",
+      "valor" : "8600"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "9 185",
+      "valor" : "9185"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "9 195",
+      "valor" : "9195"
+    }, {
+      "geocod" : "19",
+      "geodsg" : "Centro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "12 177",
+      "valor" : "12177"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "12 745",
+      "valor" : "12745"
+    }, {
+      "geocod" : "1A",
+      "geodsg" : "Grande Lisboa",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "21 930",
+      "valor" : "21930"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "22 067",
+      "valor" : "22067"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "25 257",
+      "valor" : "25257"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "26 767",
+      "valor" : "26767"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "62 507",
+      "valor" : "62507"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "87 764",
+      "valor" : "87764"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

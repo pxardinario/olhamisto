@@ -1,0 +1,141 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "q3_2026": 0.7,
+   "q3_2025": 1
+  },
+  {
+   "label": "Chéquia",
+   "q3_2026": 1.6,
+   "q3_2025": 2.8
+  },
+  {
+   "label": "Alemanha",
+   "q3_2026": 1.2,
+   "q3_2025": 0.3
+  },
+  {
+   "label": "Estónia",
+   "q3_2026": 2.2,
+   "q3_2025": 1.5
+  },
+  {
+   "label": "Irlanda",
+   "q3_2026": 3.6,
+   "q3_2025": 5.1
+  },
+  {
+   "label": "Espanha",
+   "q3_2026": 2.7,
+   "q3_2025": 2.4
+  },
+  {
+   "label": "França",
+   "q3_2026": -0.1,
+   "q3_2025": 0.8
+  },
+  {
+   "label": "Itália",
+   "q3_2026": 0.8,
+   "q3_2025": 0.7
+  },
+  {
+   "label": "Lituânia",
+   "q3_2026": 2.3,
+   "q3_2025": 2.7
+  },
+  {
+   "label": "Hungria",
+   "q3_2026": 1.5,
+   "q3_2025": 1.2
+  },
+  {
+   "label": "Países Baixos",
+   "q3_2026": 2.1,
+   "q3_2025": 1.3
+  },
+  {
+   "label": "Áustria",
+   "q3_2026": 0.6,
+   "q3_2025": 1
+  },
+  {
+   "label": "Portugal",
+   "q3_2026": 2.4,
+   "q3_2025": 2.1,
+   "highlight": true
+  },
+  {
+   "label": "Finlândia",
+   "q3_2026": 2.1,
+   "q3_2025": 0.3
+  },
+  {
+   "label": "Suécia",
+   "q3_2026": 2.8,
+   "q3_2025": 2.2
+  },
+  {
+   "label": "Zona euro",
+   "q3_2026": 1.3,
+   "q3_2025": 1.1
+  },
+  {
+   "label": "UE-27",
+   "q3_2026": 1.5,
+   "q3_2025": 1.4
+  }
+ ],
+ "config": {
+  "unit": "%",
+  "decimals": 1,
+  "signed": true,
+  "independentScale": false,
+  "pinned": [
+   "Zona euro",
+   "UE-27"
+  ],
+  "posLabel": "Crescimento",
+  "negLabel": "Contração",
+  "highlightLabel": "Portugal",
+  "howToRead": "Cada barra é a variação do PIB em volume face ao mesmo trimestre do ano anterior, com ajuste sazonal. Aparecem só os 15 países da UE que já publicaram a estimativa do 3.º trimestre de 2026; a segunda vista mostra o mesmo trimestre de 2025.",
+  "views": [
+   {
+    "id": "t26",
+    "key": "q3_2026",
+    "label": "3.º trim. 2026",
+    "axisLabel": "PIB em volume, variação homóloga no 3.º trimestre de 2026 (%)",
+    "axisShort": "Var. homóloga, 3.º trim. 2026 (%)"
+   },
+   {
+    "id": "t25",
+    "key": "q3_2025",
+    "label": "3.º trim. 2025",
+    "axisLabel": "PIB em volume, variação homóloga no 3.º trimestre de 2025 (%)",
+    "axisShort": "Var. homóloga, 3.º trim. 2025 (%)"
+   }
+  ],
+  "sorts": [
+   [
+    "value",
+    "Por valor"
+   ],
+   [
+    "label",
+    "Alfabética"
+   ]
+  ]
+ },
+ "summary": {
+  "pt": 2.4,
+  "ea": 1.3,
+  "eu": 1.5,
+  "fr": -0.1,
+  "de": 1.2,
+  "es": 2.7,
+  "lastNegFR": "2020-Q4",
+  "streak": 22,
+  "n": 15
+ }
+}

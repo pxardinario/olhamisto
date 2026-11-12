@@ -1,0 +1,574 @@
+[ {
+  "IndicadorCod" : "0008087",
+  "IndicadorDsg" : "Nados-vivos (N.º) por Local de residência da mãe (NUTS - 2013) e Nacionalidade da mãe; Anual - INE, Nados-vivos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0008087&lingua=PT",
+  "DataExtracao" : "2026-11-12T07:21:02.855Z",
+  "DataUltimoAtualizacao" : "2024-04-30",
+  "UltimoPref" : "2023",
+  "Dados" : {
+    "2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "10 003",
+      "valor" : "10003"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "86 853",
+      "valor" : "86853"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "96 856",
+      "valor" : "96856"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "8 761",
+      "valor" : "8761"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "81 080",
+      "valor" : "81080"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "89 841",
+      "valor" : "89841"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "7 405",
+      "valor" : "7405"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "75 382",
+      "valor" : "75382"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "82 787",
+      "valor" : "82787"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "20",
+      "valor" : "20"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "7 200",
+      "valor" : "7200"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "75 147",
+      "valor" : "75147"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "82 367",
+      "valor" : "82367"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "7 164",
+      "valor" : "7164"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "78 336",
+      "valor" : "78336"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "85 500",
+      "valor" : "85500"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "18",
+      "valor" : "18"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "7 686",
+      "valor" : "7686"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "79 422",
+      "valor" : "79422"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "87 126",
+      "valor" : "87126"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "8 316",
+      "valor" : "8316"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "77 838",
+      "valor" : "77838"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "86 154",
+      "valor" : "86154"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "9 389",
+      "valor" : "9389"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "77 631",
+      "valor" : "77631"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "87 020",
+      "valor" : "87020"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "1",
+      "valor" : "1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "10 683",
+      "valor" : "10683"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "75 895",
+      "valor" : "75895"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "86 579",
+      "valor" : "86579"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "11 355",
+      "valor" : "11355"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "73 175",
+      "valor" : "73175"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "84 530",
+      "valor" : "84530"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "2",
+      "valor" : "2"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "10 808",
+      "valor" : "10808"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "68 772",
+      "valor" : "68772"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "79 582",
+      "valor" : "79582"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "14 003",
+      "valor" : "14003"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "69 668",
+      "valor" : "69668"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "83 671",
+      "valor" : "83671"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ],
+    "2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "9",
+      "dim_3_t" : "Ignorada ",
+      "ind_string" : "1",
+      "valor" : "1"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "Estrangeira  ",
+      "ind_string" : "18 734",
+      "valor" : "18734"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Portuguesa",
+      "ind_string" : "66 964",
+      "valor" : "66964"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total ",
+      "ind_string" : "85 699",
+      "valor" : "85699"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "4",
+      "dim_3_t" : "Outra",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "3",
+      "dim_3_t" : "Apátrida",
+      "ind_string" : "0",
+      "valor" : "0"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

@@ -68,17 +68,6 @@
       "tentativas": 3
     },
     {
-      "id": "nados-vivos-mae-estrangeira-2025",
-      "tema": "sociedade",
-      "ideia": "Proporção de bebés de mães nascidas no estrangeiro, por região, 2015–2025",
-      "fonte": "INE, Estatísticas Vitais (API de indicadores)",
-      "licenca": "INE: reutilização permitida com atribuição",
-      "estado": "bloqueada",
-      "bloqueio": "2026-11-09: não foi encontrado o código (varcd) do indicador de nados-vivos por naturalidade da mãe; o tema já teve muita cobertura («um terço»). Procurar o código no portal do INE e um ângulo novo (regiões, evolução por país de origem).",
-      "registada": "2026-11-09",
-      "tentativas": 1
-    },
-    {
       "id": "idade-saida-casa-pais",
       "tema": "sociedade",
       "ideia": "Idade média de saída de casa dos pais, Portugal e UE",
@@ -96,9 +85,9 @@
       "fonte": "Fundação Nobel, API de dados (CC0)",
       "licenca": "CC0",
       "estado": "bloqueada",
-      "bloqueio": "2026-11-09: api.nobelprize.org não está na lista de domínios do ambiente; procurar uma cópia no GitHub ou pedir ao Pedro para autorizar o domínio.",
+      "bloqueio": "2026-11-09: api.nobelprize.org não está na lista de domínios do ambiente; procurar uma cópia no GitHub ou pedir ao Pedro para autorizar o domínio. 2026-11-12: api.nobelprize.org continua inacessível.",
       "registada": "2026-11-09",
-      "tentativas": 1
+      "tentativas": 2
     },
     {
       "id": "altura-europeus-ncd-risc",
@@ -118,9 +107,9 @@
       "fonte": "Eurostat apro_cpsh1 (F4400)",
       "licenca": "Eurostat: reutilização permitida com atribuição",
       "estado": "bloqueada",
-      "bloqueio": "2026-11-10: salto da área de 41 para 52 mil ha em 2019, sem salto na produção; confirmar nos metadados do INE se é quebra de método (recenseamento agrícola de 2019).",
+      "bloqueio": "2026-11-10: salto da área de 41 para 52 mil ha em 2019, sem salto na produção; confirmar nos metadados do INE se é quebra de método (recenseamento agrícola de 2019). 2026-11-12: adiada outra vez (seria a segunda peça agrícola em três edições); a quebra de 2019 continua por confirmar nos metadados do INE.",
       "registada": "2026-11-10",
-      "tentativas": 1
+      "tentativas": 2
     },
     {
       "id": "populacao-ex-urss-1991-2024",
@@ -164,6 +153,28 @@
       "estado": "bloqueada",
       "bloqueio": "2026-11-11: sem fonte primária acessível pela linha de comandos para a lista de estados aderentes; archives.gov não testado.",
       "registada": "2026-11-11",
+      "tentativas": 1
+    },
+    {
+      "id": "emprego-regional-t3-2026",
+      "tema": "portugal",
+      "ideia": "Desemprego por região NUTS II, 3.º trimestre de 2026: onde subiu e onde desceu face a 2025 (série 2021 do INE, desde 2011)",
+      "fonte": "INE, indicador 0012136 (taxa de desemprego, série 2021, trimestral, NUTS II, por sexo)",
+      "licenca": "INE: reutilização com atribuição",
+      "estado": "pronta",
+      "bloqueio": "2026-11-12: dados acessíveis; a nível nacional a variação é pequena (5,5% contra 5,3% no trimestre anterior). Só avançar se houver uma diferença regional com história (p. ex. Algarve, Grande Lisboa).",
+      "registada": "2026-11-12",
+      "tentativas": 1
+    },
+    {
+      "id": "temperatura-global-2026",
+      "tema": "ambiente",
+      "ideia": "2026 entre os quatro anos mais quentes (OMM, novembro de 2026): anomalia mensal da temperatura global",
+      "fonte": "NASA GISTEMP / NOAA / Copernicus ERA5",
+      "licenca": "Domínio público (NASA, NOAA); Copernicus com atribuição",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-12: NASA, NOAA e Copernicus inacessíveis pela linha de comandos; a cópia no GitHub (datasets/global-temp) só chega a julho de 2026. Tentar quando o ano fechar (janeiro de 2027).",
+      "registada": "2026-11-12",
       "tentativas": 1
     }
   ]
