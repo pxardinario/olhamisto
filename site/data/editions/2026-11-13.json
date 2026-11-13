@@ -1,0 +1,315 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-13",
+ "number": 9,
+ "status": "publicada",
+ "opening": "Cinco histórias para sexta-feira: as renováveis a passarem o carvão na eletricidade mundial, as casas licenciadas em véspera do dia de luta pela habitação, o corte na ajuda ao desenvolvimento, a IA generativa por idades e a semana de trabalho que perdeu dez horas em 16 anos.",
+ "lead": "eletricidade-renovaveis-carvao-1985-2025",
+ "generatedAt": "2026-11-13T09:00:00Z",
+ "limitations": [
+  "Mistura da edição: 2 peças de atualidade (eletricidade e casas licenciadas) e 3 de descoberta. Peças do tipo «Portugal comparado com a Europa ou a OCDE»: 2 (ajuda ao desenvolvimento e IA generativa). Peças com fonte não oficial: horas de trabalho (Huberman e Minns, estudo académico) e eletricidade (Ember). Peças sem Portugal como ângulo principal: eletricidade e horas de trabalho. Tipos de gráfico: linhas (2), halteres (2) e colunas.",
+  "Candidata rejeitada: emprego público, a propósito da greve da função pública de 20 de novembro. O ficheiro da DGAEP no dados.gov.pt só começa em 2019 e mostra um peso estável no emprego total (cerca de 14%), sem uma história clara; falta a série longa.",
+  "Candidata rejeitada: «Many Analysts, One Data Set» (Silberzahn e outros, 2018). Os ficheiros do projeto no OSF estão em files.osf.io, que não responde neste ambiente.",
+  "Candidatas adiadas: espectadores de tauromaquia (série do INE só de 2021 a 2025) e emigração permanente (INE), por haver muitas peças de demografia nas edições de 9 a 12 de novembro.",
+  "Nesta execução, a API do Banco Mundial, o grapher da Our World in Data, files.osf.io e os sítios da Ember, do ECO e da American Mathematical Society não abriram pela linha de comandos ou pelo WebFetch; os factos dessas fontes foram confirmados por pesquisa. O relatório da Ember dá valores ligeiramente diferentes dos da cópia da OWID usada no gráfico (ver as notas da peça)."
+ ],
+ "pieces": [
+  {
+   "id": "eletricidade-renovaveis-carvao-1985-2025",
+   "slug": "renovaveis-ultrapassam-carvao-eletricidade-mundial-2025",
+   "kind": "atualidade",
+   "theme": "ambiente",
+   "themeLabel": "Ambiente e clima",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cinco fontes · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Em 2025, as renováveis produziram mais eletricidade do que o carvão no mundo. Desde 1985, nunca tinha acontecido",
+   "question": "Que fontes estão a responder ao aumento da produção de eletricidade no mundo?",
+   "finding": "Em 2025, as fontes renováveis produziram 10 726 TWh, 33,8% da eletricidade mundial, e o carvão 10 472 TWh, 33,0%: é o primeiro ano da série, iniciada em 1985, em que as renováveis ficam à frente. A produção total aumentou 842 TWh face a 2024; a solar e a eólica acrescentaram 840 TWh, e o carvão desceu 67 TWh, depois do máximo de 2024.",
+   "context": "A COP31 decorre em Antália, na Turquia, até 20 de novembro, com o financiamento climático no centro das negociações. Na eletricidade, o carvão dominou durante décadas: em 2000 dava 38% da produção mundial, o dobro das renováveis, então sobretudo barragens. Desde esse ano, a produção mundial de eletricidade mais do que duplicou.",
+   "interpretation": "A ultrapassagem não significa que o carvão esteja a desaparecer: em 2025 produziu mais do que em qualquer ano anterior a 2024, e o gás continuou a subir. O que mudou foi a origem do crescimento. A solar, que em dez anos multiplicou a produção por 11, e a eólica cobriram quase todo o aumento de 2025, e deixaram de empurrar o carvão para cima.",
+   "chart": {
+    "type": "lines",
+    "dataset": "eletricidade-renovaveis-carvao-1985-2025"
+   },
+   "period": "1985 a 2025",
+   "unit": "Terawatts-hora (TWh) por ano",
+   "sources": [
+    {
+     "name": "Ember — Yearly Electricity Data (2026), CC BY 4.0",
+     "url": "https://ember-energy.org/data/yearly-electricity-data/",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "Ember — Global Electricity Review 2026 (21 de abril de 2026)",
+     "url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "Energy Institute — Statistical Review of World Energy (2025), para os anos anteriores a 2000",
+     "url": "https://www.energyinst.org/statistical-review/",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "Our World in Data — energy-data, owid-energy-data.csv (cópia secundária, CC BY 4.0)",
+     "url": "https://github.com/owid/energy-data",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "UNFCCC — COP31, Antália, 9 a 20 de novembro de 2026",
+     "url": "https://unfccc.int/cop31",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "method": [
+    "Produção mundial de eletricidade por fonte, em TWh, do conjunto energy-data da Our World in Data (linhas «World», transcritas sem alterações em raw/eletricidade-mundo/). A OWID combina a Ember (de 2000 em diante) com a Statistical Review of World Energy do Energy Institute (antes de 2000); a mudança de fonte pode criar pequenas descontinuidades.",
+    "«Renováveis» inclui a hídrica, a eólica, a solar, a bioenergia e outras renováveis. A linha «Solar e eólica» é a soma das duas e faz parte das renováveis. As percentagens são as publicadas pela OWID (coal_share_elec e renewables_share_elec) e coincidem com as do relatório da Ember (33,8% e 33,0%).",
+    "Os valores de 2025 vêm da edição de abril de 2026 da Ember e podem ser revistos. Os valores em TWh são os da cópia da OWID; o relatório da Ember (abril de 2026) dá 10 730 TWh para as renováveis, 10 476 TWh para o carvão, uma descida do carvão de 63 TWh e um aumento de 841 TWh da solar e da eólica. As diferenças, de poucos TWh, resultam de revisões e arredondamentos e não alteram as conclusões. A comparação mede produção, não emissões nem capacidade instalada."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-13",
+    "note": "Série da OWID descarregada de novo (igual ao bruto); conferidos os 41 anos e recalculadas quotas, variações e máximos; confirmados por pesquisa o relatório da Ember (33,8% contra 33,0%) e as datas da COP31. Acrescentada a nota sobre as pequenas diferenças face aos valores publicados pela Ember."
+   }
+  },
+  {
+   "id": "fogos-licenciados-2007-2026",
+   "slug": "fogos-licenciados-construcao-nova-habitacao-portugal-2007-2026",
+   "kind": "atualidade",
+   "theme": "portugal",
+   "themeLabel": "Portugal e habitação",
+   "vizType": "barras",
+   "vizLabel": "Colunas · 2 vistas",
+   "interactive": true,
+   "title": "Portugal licenciou 42 mil casas novas em 2025, o máximo desde 2008. Ainda não chegam a dois terços das de 2007",
+   "question": "Quantas casas novas se licenciam em Portugal, comparado com o período antes da crise?",
+   "finding": "Em 2025 foram licenciados 42 066 fogos em construções novas para habitação familiar, o número mais alto desde 2008 e seis vezes o mínimo de 2014 (6 996). De janeiro a setembro de 2026 foram 32 670, mais 5,0% do que no mesmo período de 2025 e o valor mais alto desde 2008. Ainda assim, o total de 2025 ficou em 64% do de 2007.",
+   "context": "Sábado, 14 de novembro, é o Dia Nacional de Luta pela Habitação, com protestos convocados em várias cidades. A falta de casas é um dos argumentos centrais do debate, e a construção nova é uma das respostas possíveis. O INE regista todos os meses os fogos licenciados em construções novas, o passo administrativo que antecede o início de uma obra.",
+   "interpretation": "Licença não é casa pronta: os fogos licenciados medem a intenção de construir, não as casas acabadas, que o INE estima noutra série. O que esta série mostra é a dimensão do buraco deixado pela crise financeira e pelos anos da troika: entre 2008 e 2014, o licenciamento caiu 85%, e onze anos de recuperação ainda não o devolveram ao nível de 2007.",
+   "chart": {
+    "type": "columns",
+    "dataset": "fogos-licenciados-2007-2026"
+   },
+   "period": "Janeiro de 2007 a setembro de 2026",
+   "unit": "Fogos (milhares)",
+   "sources": [
+    {
+     "name": "INE — Inquérito aos projetos de obras de edificação e de demolição de edifícios; indicador 0008066, fogos licenciados em construções novas para habitação familiar (mensal)",
+     "url": "https://www.ine.pt/xurl/indx/0008066",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "ECO — Várias greves e manifestações agendadas para novembro (31 de outubro de 2026)",
+     "url": "https://eco.sapo.pt/2026/10/31/varias-greves-e-manifestacoes-agendadas-para-novembro/",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "method": [
+    "Soma dos valores mensais do indicador 0008066 do INE para Portugal, total das tipologias (T0 a T5 ou mais), descarregados pela API do INE e transcritos sem alterações em raw/fogos-licenciados/. A vista «Janeiro a setembro» compara todos os anos no mesmo período, para incluir 2026; a vista «Ano completo» vai até 2025.",
+    "Contam apenas os fogos em construções novas para habitação familiar; ficam de fora ampliações, alterações e reconstruções. Os valores dos meses mais recentes podem ser revistos pelo INE. A série mensal começa em janeiro de 2007, por isso não é possível comparar com os anos anteriores com estes dados.",
+    "A descida de 85% compara os totais anuais de 2008 (45 981) e 2014 (6 996)."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-13",
+    "note": "Indicador do INE descarregado de novo (igual ao bruto); recalculados os totais anuais e de janeiro a setembro, o mínimo de 2014 e a queda de 85%; confirmada a data do Dia Nacional de Luta pela Habitação. Corrigido o título («não chegam a dois terços»: 64%) e a dica do gráfico para o ano sem total."
+   }
+  },
+  {
+   "id": "ajuda-desenvolvimento-cad-2024-2025",
+   "slug": "ajuda-publica-desenvolvimento-queda-2025-ocde",
+   "kind": "descoberta",
+   "theme": "geopolitica",
+   "themeLabel": "Geopolítica",
+   "vizType": "halteres",
+   "vizLabel": "Halteres · ordenação alternável",
+   "interactive": true,
+   "title": "A ajuda ao desenvolvimento dos países ricos caiu 23% em 2025. Três quartos da queda vieram dos EUA",
+   "question": "Quanto cortaram os países doadores na ajuda pública ao desenvolvimento em 2025, e onde fica Portugal?",
+   "finding": "Em 2025, a ajuda pública ao desenvolvimento dos 33 países do Comité de Ajuda ao Desenvolvimento da OCDE caiu 23,1% em termos reais, de 215,1 para 165,5 mil milhões de dólares a preços de 2024, o mínimo da série iniciada em 2018. Os EUA cortaram 57% e explicam 75% da descida. A ajuda baixou em 25 dos 33 países; só quatro cumprem a meta de 0,7% do rendimento nacional bruto.",
+   "context": "Em Antália, na COP31, discute-se quanto devem os países ricos pagar aos países em desenvolvimento. A ajuda pública ao desenvolvimento, feita de doações e empréstimos em condições favoráveis pagos pelos orçamentos dos Estados, é uma das fontes desse dinheiro. Em 1970, a Assembleia Geral da ONU fixou a meta de 0,7% do rendimento nacional bruto; em 2025, o conjunto dos doadores ficou em 0,26%.",
+   "interpretation": "Os cortes concentraram-se nos maiores doadores: além dos EUA, a Alemanha, o Reino Unido e a França baixaram a ajuda em percentagem do rendimento, e a Alemanha passou a ser o maior doador em valor, com 29,1 mil milhões de dólares a preços correntes. Portugal desceu de 0,22% para 0,19%, abaixo do conjunto do CAD e longe dos 0,7%. Os dados de 2025 são preliminares; os definitivos saem em dezembro.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "ajuda-desenvolvimento-cad-2024-2025"
+   },
+   "period": "2024 e 2025 (série desde 2018)",
+   "unit": "% do rendimento nacional bruto (RNB)",
+   "sources": [
+    {
+     "name": "OCDE — DAC1: Flows by provider (ODA+OOF+Private), APD em equivalente-subvenção e em % do RNB (dados preliminares de 2025)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.DCD.FSD,DSD_DAC1@DF_DAC1,1.8/..11010+11002....?startPeriod=2000&format=csvfilewithlabels",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "OCDE — International aid fell sharply in 2025, says OECD (comunicado, abril de 2026)",
+     "url": "https://read.oecd-ilibrary.org/en/about/news/press-releases/2026/04/international-aid-fell-sharply-in-2025-says-oecd.html",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "OCDE — The 0.7% ODA/GNI target: a history",
+     "url": "https://search.oecd.org/dac/financing-sustainable-development/development-finance-standards/the07odagnitarget-ahistory.htm",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "method": [
+    "Ajuda pública ao desenvolvimento (APD) medida em equivalente-subvenção, a métrica oficial da OCDE desde 2018 (medidas 11010 e 11002 do conjunto DAC1), transcrita sem alterações em raw/apd-ocde/. As variações em termos reais usam dólares a preços constantes de 2024; o valor a preços correntes de 2025 é de 174,3 mil milhões.",
+    "Mostram-se os 33 países membros do CAD em 2025 (os seus valores somam o total do CAD); a União Europeia, também membro, fica de fora por não ser um país. O comunicado da OCDE conta 26 de 34 membros com cortes, porque inclui as instituições da UE. A quota dos EUA na descida (75%) é calculada pela Olhamisto com os valores a preços constantes.",
+    "Os valores de 2025 são preliminares, publicados em abril de 2026; os definitivos estão previstos para dezembro de 2026. Os EUA não subscreveram a meta de 0,7%. A posição da Alemanha como maior doador vale a preços correntes (29,1 contra 29,0 mil milhões dos EUA); a preços de 2024, os EUA ficam à frente, e a OCDE avisa que as revisões podem mudar a ordem."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-13",
+    "note": "Conjunto DAC1 descarregado de novo (1 648 observações iguais ao bruto); os 33 países somam o total do CAD; recalculadas as variações reais, a quota dos EUA, as contagens e os rácios; confirmado o comunicado da OCDE. Acrescentado que o valor da Alemanha é a preços correntes."
+   }
+  },
+  {
+   "id": "ia-generativa-idade-ue-2025",
+   "slug": "ia-generativa-utilizacao-idade-portugal-ue-2025",
+   "kind": "descoberta",
+   "theme": "tecnologia",
+   "themeLabel": "Tecnologia e IA",
+   "vizType": "halteres",
+   "vizLabel": "Halteres com terceiro marcador · ordenação alternável",
+   "interactive": true,
+   "title": "Três em cada quatro jovens portugueses usam IA generativa. Entre os 65 e os 74 anos, um em cada 17",
+   "question": "Quem usa ferramentas de inteligência artificial generativa em Portugal, e quão grande é a diferença entre gerações?",
+   "finding": "Em 2025, 76,5% dos portugueses entre os 16 e os 24 anos tinham usado uma ferramenta de IA generativa nos três meses anteriores, contra 5,8% dos que tinham entre 65 e 74 anos. A diferença, de 70,8 pontos percentuais, é a quarta maior da UE, onde é de 57,3. Em toda a população dos 16 aos 74 anos, Portugal fica em 38,7%, acima dos 32,7% da UE.",
+   "context": "Em 2025, o inquérito europeu à utilização das tecnologias da informação pelas famílias passou a perguntar pelo uso de ferramentas de inteligência artificial generativa: programas que escrevem texto, criam imagens ou respondem a perguntas a partir de instruções. Conta qualquer uso nos três meses anteriores à entrevista, pessoal, profissional ou nos estudos. Os resultados por país e por idade foram publicados pelo Eurostat.",
+   "interpretation": "O fosso não é só de idade. Entre os 25 e os 64 anos, 66,1% dos portugueses com ensino superior usaram estas ferramentas, contra 11,9% dos que têm escolaridade baixa; na UE, 51,6% e 13,3%. Como a escolaridade também varia muito entre gerações, estes dados não permitem separar o efeito da idade do efeito da escolaridade, nem dizem com que frequência ou para quê se usam.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "ia-generativa-idade-ue-2025"
+   },
+   "period": "2025",
+   "unit": "% de pessoas de cada grupo etário",
+   "sources": [
+    {
+     "name": "Eurostat — Individuals - use of generative AI tools (isoc_ai_iaiu), inquérito à utilização de TIC pelas famílias, 2025",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ai_iaiu/default/table",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "method": [
+    "Percentagem de pessoas que usaram ferramentas de IA generativa nos três meses anteriores à entrevista (indicador I_IUAI, unidade PC_IND), por grupo etário, nos 27 países da UE e no agregado UE-27, descarregada pela API do Eurostat e transcrita sem alterações em raw/ia-generativa/. Valores arredondados a uma casa decimal; as diferenças e posições usam os valores com duas casas.",
+    "O conjunto só tem dados de 2025, o primeiro ano com esta pergunta. A amostra de cada grupo etário é menor do que a da população total, pelo que as diferenças pequenas entre países não são significativas. «Escolaridade baixa» corresponde, no Eurostat, a não ter concluído o ensino secundário (níveis 0 a 2 da CITE)."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-13",
+    "note": "Conjunto do Eurostat descarregado de novo (igual ao bruto); conferidos os 27 países e a UE-27 nos três grupos etários e recalculadas as diferenças e posições. Sem correções."
+   }
+  },
+  {
+   "id": "horas-trabalho-semana-1870-1990",
+   "slug": "horas-trabalho-semana-europa-1870-1990",
+   "kind": "descoberta",
+   "theme": "historia",
+   "themeLabel": "História e sociedade",
+   "vizType": "linha",
+   "vizLabel": "Linhas · faixa 1913–1929 · cursor por rato e teclado",
+   "interactive": true,
+   "title": "A semana de trabalho europeia perdeu dez horas entre 1913 e 1929. Até 1990, perdeu nove",
+   "question": "Quando e quanto encolheu a semana de trabalho na Europa e nos países de imigração europeia?",
+   "finding": "Segundo as estimativas de Huberman e Minns, quem trabalhava a tempo inteiro em 11 países europeus fazia em média 65,9 horas por semana em 1870 e 57,9 em 1913. Em 1929 eram 47,8: menos dez horas em 16 anos. Entre 1929 e 1990, a descida foi de 9,1 horas, para 38,7. Na Bélgica, em 1870, a semana chegava às 72 horas.",
+   "context": "Em 2023, 41 empresas portuguesas testaram a semana de quatro dias num projeto-piloto do Governo; segundo os coordenadores do projeto, o horário semanal médio baixou de 39,3 para 34 horas. Para pôr números destes em perspetiva, os economistas Michael Huberman e Chris Minns reuniram estimativas das horas semanais de trabalhadores a tempo inteiro em 14 países, de 1870 a 2000.",
+   "interpretation": "A grande queda coincide com o fim da Primeira Guerra Mundial: em 1919, a primeira convenção da Organização Internacional do Trabalho fixou as oito horas diárias e as 48 semanais na indústria, que em 1922 já eram a prática geral na Europa. Os dados mostram ainda uma inversão: em 1870, os europeus trabalhavam mais 7,4 horas do que norte-americanos, canadianos e australianos; em 1990 já trabalhavam ligeiramente menos.",
+   "chart": {
+    "type": "lines",
+    "dataset": "horas-trabalho-semana-1870-1990"
+   },
+   "period": "1870 a 1990 (anos de referência)",
+   "unit": "Horas por semana",
+   "sources": [
+    {
+     "name": "Michael Huberman e Chris Minns (2007), «The times they are not changin': Days and hours of work in Old and New Worlds, 1870–2000», Explorations in Economic History 44(4), pp. 538–567",
+     "url": "https://doi.org/10.1016/j.eeh.2007.03.002",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "Our World in Data — owid-datasets, «Days and hours of work in Old and New Worlds - Huberman and Minns (2007)» (cópia secundária, CC BY 4.0)",
+     "url": "https://github.com/owid/owid-datasets/tree/master/datasets/Days%20and%20hours%20of%20work%20in%20Old%20and%20New%20Worlds%20-%20Huberman%20and%20Minns%20(2007)",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "OIT — Convention No. 1: a landmark for workers' rights (Convenção sobre a Duração do Trabalho na Indústria, 1919)",
+     "url": "https://www.ilo.org/resource/article/convention-no-1-landmark-workers-rights",
+     "accessed": "2026-11-13"
+    },
+    {
+     "name": "ECO — Maioria das empresas que testaram semana de quatro dias decidiu não voltar atrás (24 de junho de 2024; relatório final do projeto-piloto)",
+     "url": "https://eco.sapo.pt/2024/06/24/maioria-das-empresas-que-testaram-semana-de-quatro-dias-decidiu-nao-voltar-atras/",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "method": [
+    "Horas semanais de trabalhadores a tempo inteiro, segundo as estimativas de Huberman e Minns (2007), na cópia da Our World in Data transcrita sem alterações em raw/horas-trabalho/. Os autores combinam estudos históricos, dados da OIT e do Eurostat; as fontes e definições variam entre países e períodos, e os valores são estimativas para anos de referência, com intervalos desiguais (1913, 1929, 1938…).",
+    "«Europa» é a média simples dos países europeus com valor em cada ano (11 na maior parte dos anos; 8 ou 9 entre 1950 e 1970), como na série «Old World» da OWID, confirmada por recálculo da Olhamisto, com diferenças até 0,15 horas. «EUA, Canadá e Austrália» é a média simples dos três («New World»). Portugal não faz parte da amostra.",
+    "Os valores de 2000 só existem para homens e ficam de fora. A escala do gráfico começa nas 30 horas. A coincidência com a convenção da OIT de 1919 não prova que tenha sido a causa: a legislação nacional e a negociação coletiva mudaram ao mesmo tempo. O artigo original não foi consultado diretamente nesta edição."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-13",
+    "note": "CSV da OWID descarregado de novo (igual ao bruto); conferidos os 12 anos e recalculadas as médias europeias; confirmados por pesquisa a Convenção n.º 1 da OIT e os números do projeto-piloto português. Assinalado no eixo que a escala começa em 30, deixado em branco o ano sem valor da Bélgica e ajustado o título."
+   }
+  }
+ ],
+ "chave": {
+  "id": "vies-do-sobrevivente",
+  "axis": "pensamento",
+  "axisLabel": "Pensamento crítico e modelos mentais",
+  "certainty": "Consenso, com uma ressalva",
+  "title": "O viés do sobrevivente",
+  "concept": "O erro de tirar conclusões apenas dos casos que passaram por um filtro — os que sobreviveram, ficaram ou tiveram êxito — esquecendo os que ficaram pelo caminho e que, por isso mesmo, deixaram de estar à vista.",
+  "lesson": [
+   "Durante a Segunda Guerra Mundial, o matemático Abraham Wald trabalhava no Statistical Research Group da Universidade de Columbia, que fazia análises para as forças armadas norte-americanas. Um dos problemas era saber que partes dos aviões convinha proteger. Os dados disponíveis eram os danos nos aviões que regressavam das missões; os que tinham sido abatidos não podiam ser examinados.",
+   "A tentação é reforçar onde há mais furos. O raciocínio de Wald foi o inverso: se os tiros atingissem os aviões mais ou menos ao acaso, as zonas com poucos furos nos que voltaram são as que, quando atingidas, os impediam de voltar. A amostra não mostra o perigo; mostra o que se aguenta. É como julgar a dureza de uma profissão ouvindo só quem nela chegou à reforma.",
+   "A versão popular, com engenheiros a querer blindar os furos e Wald a corrigi-los numa reunião, não tem confirmação nas fontes primárias e é sobretudo uma reconstrução posterior; o desenho dos pontos vermelhos que a acompanha é uma ilustração moderna. Os memorandos de Wald, de 1943, são métodos matemáticos para estimar a vulnerabilidade de cada zona a partir dos sobreviventes, e pouco se sabe sobre o modo como foram aplicados."
+  ],
+  "diagram": {
+   "title": "O que se vê e o que falta",
+   "svg": "<svg viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Esquema do viés do sobrevivente. À esquerda, todos os aviões que partiram para a missão. Uma parte é abatida e não regressa: esses aviões ficam fora da análise. Só os aviões que regressam chegam a quem conta os furos. Nos que regressam, os furos aparecem sobretudo nas asas e na fuselagem e quase nunca nos motores. A conclusão errada é reforçar onde há mais furos; o raciocínio de Wald é que os aviões atingidos nos motores são os que faltam, e por isso é aí que a proteção conta mais.\"><defs><marker id=\"chave-seta\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"var(--key-ink)\"/></marker></defs><rect x=\"6\" y=\"80\" width=\"88\" height=\"56\" rx=\"6\" fill=\"none\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\"/><text x=\"50\" y=\"104\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Todos os</text><text x=\"50\" y=\"119\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">que partem</text><line x1=\"94\" y1=\"96\" x2=\"150\" y2=\"54\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\" marker-end=\"url(#chave-seta)\"/><line x1=\"94\" y1=\"120\" x2=\"150\" y2=\"168\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" marker-end=\"url(#chave-seta)\"/><rect x=\"152\" y=\"20\" width=\"182\" height=\"64\" rx=\"6\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\" stroke-width=\"1.5\"/><text x=\"162\" y=\"40\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Regressam: são os que se veem</text><text x=\"162\" y=\"56\" fill=\"var(--key-ink)\" font-size=\"10.5\">furos nas asas e na fuselagem,</text><text x=\"162\" y=\"71\" fill=\"var(--key-ink)\" font-size=\"10.5\">quase nenhum nos motores</text><rect x=\"152\" y=\"140\" width=\"182\" height=\"64\" rx=\"6\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"162\" y=\"160\" fill=\"var(--key-ink-2)\" font-size=\"11\" font-weight=\"600\">Não regressam: não entram</text><text x=\"162\" y=\"176\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">na contagem — muitos terão</text><text x=\"162\" y=\"191\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">sido atingidos nos motores</text><line x1=\"243\" y1=\"86\" x2=\"243\" y2=\"136\" stroke=\"var(--key-rule)\" stroke-width=\"1.5\"/><text x=\"246\" y=\"108\" fill=\"var(--key-ink)\" font-size=\"10.5\">o que falta</text><text x=\"246\" y=\"122\" fill=\"var(--key-ink)\" font-size=\"10.5\">explica o visível</text><text x=\"170\" y=\"228\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">Errado: proteger onde há furos. Certo: onde faltam.</text></svg>",
+   "caption": "Esquema ilustrativo, não são dados reais. A distribuição dos furos é a da versão popular da história; os memorandos de Wald tratam o problema com modelos de probabilidade."
+  },
+  "aside": "Os memorandos de Wald, escritos em 1943 com o título «A Method of Estimating Plane Vulnerability Based on Damage of Survivors», só foram reeditados em julho de 1980 pelo Center for Naval Analyses, num volume de cerca de 100 páginas. Em 1984, Marc Mangel e Francisco Samaniego publicaram uma análise detalhada no Journal of the American Statistical Association.",
+  "application": "Aparece nas rentabilidades médias dos fundos de investimento quando os fundos encerrados desaparecem das bases de dados; nos livros sobre empresas de sucesso que estudam as que duraram sem olhar para as que faliram com práticas iguais; na ideia de que antigamente se construía melhor, tirada dos edifícios que ficaram de pé; e nos estudos que só contam quem chegou ao fim de um tratamento.",
+  "motto": "Os furos que faltam também são dados.",
+  "sources": [
+   {
+    "name": "Abraham Wald (1943; reedição de 1980), «A Reprint of “A Method of Estimating Plane Vulnerability Based on Damage of Survivors”», Center for Naval Analyses, CRC 432",
+    "url": "https://www.cna.org/analyses/1980/a-method-of-estimating-plane-vulnerability",
+    "accessed": "2026-11-13"
+   },
+   {
+    "name": "Marc Mangel e Francisco J. Samaniego (1984), «Abraham Wald's Work on Aircraft Survivability», Journal of the American Statistical Association 79(386), pp. 259–267",
+    "url": "https://doi.org/10.1080/01621459.1984.10478038",
+    "accessed": "2026-11-13"
+   },
+   {
+    "name": "Bill Casselman (2016), «The Legend of Abraham Wald», American Mathematical Society, Feature Column",
+    "url": "https://www.ams.org/samplings/feature-column/fc-2016-06",
+    "accessed": "2026-11-13"
+   },
+   {
+    "name": "Edwin J. Elton, Martin J. Gruber e Christopher R. Blake (1996), «Survivorship Bias and Mutual Fund Performance», The Review of Financial Studies 9(4), pp. 1097–1120",
+    "url": "https://doi.org/10.1093/rfs/9.4.1097",
+    "accessed": "2026-11-13"
+   }
+  ],
+  "notes": [
+   "Grau de certeza: o viés do sobrevivente é um conceito consensual em estatística (um caso de enviesamento de seleção). A ressalva é sobre a história: a anedota dos furos é uma simplificação do trabalho de Wald, cujos memorandos tratam a estimação da vulnerabilidade com modelos de probabilidade e não descrevem nenhuma reunião com engenheiros.",
+   "A ficha da reedição do CNA, a referência do artigo de Mangel e Samaniego e a coluna da American Mathematical Society foram consultadas por pesquisa; os textos integrais não foram lidos nesta edição. O exemplo dos fundos de investimento remete para o estudo de Elton, Gruber e Blake (1996)."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-13",
+   "note": "Factos confirmados por pesquisa (Statistical Research Group, memorandos de 1943, reedição do CNA de 1980, artigos de Mangel e Samaniego e de Elton, Gruber e Blake, coluna da AMS); regras do esquema SVG conferidas. Corrigido o texto do esquema, que atribuía a Wald uma recomendação de blindagem, e matizada a ressalva sobre a anedota."
+  }
+ }
+}

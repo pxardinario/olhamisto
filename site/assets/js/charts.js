@@ -464,9 +464,9 @@ function columns(host, data) {
     svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(6).tickFormat((t) => fmtN(t, Number.isInteger(t) ? 0 : 1)).tickSize(0)).call((g) => g.select(".domain").remove());
     yl.forEach((t, i) => halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 30 : 40)).attr("y", 14 + i * 14).text(t)));
     const html = (row) => `<b>${row.cat}</b>` + v.series.map((s) => `<br>${s.label}: ${fmtN(row[s.key], d)}${v.unit === "pp" ? " pp" : v.unit === "$" ? " $" : v.unit || ""}`).join("") +
-      (v.line ? `<br><b>${v.line.label}: ${fmtN(row[v.line.key], 1)}</b>` : "") + (v.tipExtra || []).map((t) => `<br>${t.label}: ${typeof row[t.key] === "number" ? fmtN(row[t.key], 1) : row[t.key]}${t.suffix}`).join("");
+      (v.line ? `<br><b>${v.line.label}: ${fmtN(row[v.line.key], 1)}</b>` : "") + (v.tipExtra || []).map((t) => `<br>${t.label}: ${row[t.key] == null ? "—" : (typeof row[t.key] === "number" ? fmtN(row[t.key], 1) : row[t.key]) + t.suffix}`).join("");
     const g = svg.append("g");
-    g.selectAll("g").data(stacks).join("g").selectAll("rect").data((st) => st).join("rect")
+    g.selectAll("g").data(stacks).join("g").selectAll("rect").data((st) => st.filter((e) => e.val != null)).join("rect")
       .attr("x", (e) => x(e.row.cat)).attr("width", x.bandwidth())
       .attr("y", (e) => y(Math.max(e.y0, e.y1))).attr("height", (e) => Math.max(0.5, Math.abs(y(e.y0) - y(e.y1))))
       .attr("fill", (e) => css(e.row.alt && e.s.altColor ? e.s.altColor : e.val < 0 && e.s.negColor ? e.s.negColor : e.s.color)).attr("opacity", (e) => (stacked && e.s.key !== v.series.at(-1).key ? 0.75 : 1));
@@ -616,7 +616,9 @@ function dumbbell(host, data) {
     g.filter((q) => q.b != null).append("circle").attr("cx", (q) => x(q.b)).attr("r", 4.6).attr("fill", (q) => (q.highlight ? css("--accent") : css("--accent-2"))).attr("stroke", css("--card")).attr("stroke-width", 1);
     g.filter((q) => q.c != null).append("circle").attr("cx", (q) => x(q.c)).attr("r", 5).attr("fill", "none").attr("stroke", css("--ink")).attr("stroke-width", 2);
     g.filter((q) => q.b == null).append("text").attr("class", "ann-muted").attr("x", (q) => x(q.a) + 8).attr("y", 4).text("2025: sem dados");
-    g.filter((q) => q.highlight && q.b != null).append("text").attr("class", "ann").style("font-size", "11px").style("font-weight", 700)
+    // rótulo do destaque: à direita ou à esquerda do haltere; se não couber em nenhum lado (ecrãs estreitos), fica só na dica
+    const fitsHl = (q) => x(Math.max(q.a, q.b)) + 84 <= W || x(Math.min(q.a, q.b)) - 92 >= m.l;
+    g.filter((q) => q.highlight && q.b != null && fitsHl(q)).append("text").attr("class", "ann").style("font-size", "11px").style("font-weight", 700)
       .attr("x", (q) => (x(Math.max(q.a, q.b)) + 84 > W ? x(Math.min(q.a, q.b)) - 8 : x(Math.max(q.a, q.b)) + 8)).attr("text-anchor", (q) => (x(Math.max(q.a, q.b)) + 84 > W ? "end" : "start"))
       .attr("y", 4).text((q) => `${fmtN(q.a, d)} → ${fmtN(q.b, d)}${C.unit}`);
   });

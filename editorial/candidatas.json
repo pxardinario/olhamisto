@@ -2,17 +2,6 @@
   "_sobre": "Lista de espera editorial. Cada edição começa por aqui (ver AGENTS.md e docs/politica-editorial.md). Estados: pronta (dados e licença confirmados, falta produzir), bloqueada (falta resolver o campo bloqueio), descartada (não insistir; motivo em bloqueio). Não é publicada no site.",
   "candidatas": [
     {
-      "id": "ia-generativa-por-pais-2025",
-      "tema": "tecnologia",
-      "ideia": "Uso de IA generativa pelas pessoas, por país da UE, em 2025: onde fica Portugal?",
-      "fonte": "Eurostat, inquérito à utilização de TIC pelas famílias (isoc_ai_iaigu ou equivalente)",
-      "licenca": "Eurostat: reutilização permitida com atribuição",
-      "estado": "bloqueada",
-      "bloqueio": "Statistics Explained só dá os extremos no texto; o valor por país está num mapa. Tentar a tabela na base de dados do Eurostat (data browser) por WebFetch, ou um conjunto derivado no OWID. 2026-11-06: WebFetch inacessível para todos os domínios fora do GitHub; não foi possível tentar. Descartada após 3 tentativas: os valores por país não chegaram em formato legível neste ambiente. 2026-11-09: com a API do Eurostat acessível pela linha de comandos, pode ser reativada (conjunto de utilização de IA pelas pessoas, a confirmar o código). 2026-11-10: adiada por proximidade temática com a peça sobre IA nas empresas (2026-11-09); falta confirmar o código do conjunto.",
-      "registada": "2026-11-05",
-      "tentativas": 3
-    },
-    {
       "id": "nudges-revistas-vs-governo",
       "tema": "comportamento",
       "ideia": "Os nudges funcionam muito menos nas unidades governamentais do que nas revistas científicas (DellaVigna e Linos, Econometrica 2022)",
@@ -156,17 +145,6 @@
       "tentativas": 1
     },
     {
-      "id": "emprego-regional-t3-2026",
-      "tema": "portugal",
-      "ideia": "Desemprego por região NUTS II, 3.º trimestre de 2026: onde subiu e onde desceu face a 2025 (série 2021 do INE, desde 2011)",
-      "fonte": "INE, indicador 0012136 (taxa de desemprego, série 2021, trimestral, NUTS II, por sexo)",
-      "licenca": "INE: reutilização com atribuição",
-      "estado": "pronta",
-      "bloqueio": "2026-11-12: dados acessíveis; a nível nacional a variação é pequena (5,5% contra 5,3% no trimestre anterior). Só avançar se houver uma diferença regional com história (p. ex. Algarve, Grande Lisboa).",
-      "registada": "2026-11-12",
-      "tentativas": 1
-    },
-    {
       "id": "temperatura-global-2026",
       "tema": "ambiente",
       "ideia": "2026 entre os quatro anos mais quentes (OMM, novembro de 2026): anomalia mensal da temperatura global",
@@ -176,6 +154,39 @@
       "bloqueio": "2026-11-12: NASA, NOAA e Copernicus inacessíveis pela linha de comandos; a cópia no GitHub (datasets/global-temp) só chega a julho de 2026. Tentar quando o ano fechar (janeiro de 2027).",
       "registada": "2026-11-12",
       "tentativas": 1
+    },
+    {
+      "id": "many-analysts-arbitros",
+      "tema": "comportamento",
+      "ideia": "29 equipas de investigadores, os mesmos dados (cartões vermelhos e cor da pele dos futebolistas), respostas diferentes: Silberzahn et al. (2018), «Many Analysts, One Data Set»",
+      "fonte": "Silberzahn et al. (2018), Advances in Methods and Practices in Psychological Science; dados no OSF (osf.io/gvm2z)",
+      "licenca": "Por confirmar no projeto OSF",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-13: osf.io responde, mas os ficheiros estão em files.osf.io e api.osf.io, que o proxy recusa (403). Procurar uma cópia no GitHub dos resultados por equipa (tabela do artigo) ou pedir ao Pedro para autorizar files.osf.io.",
+      "registada": "2026-11-13",
+      "tentativas": 1
+    },
+    {
+      "id": "emprego-publico-2019-2026",
+      "tema": "portugal",
+      "ideia": "Trabalhadores das administrações públicas contra o emprego total, a propósito da greve da função pública de 20/11 e do OE2027",
+      "fonte": "DGAEP, «Evolução do número de trabalhadores na Administração Pública» (dados.gov.pt, CC BY 4.0, trimestral desde 2019); Boletim Estatístico do Emprego Público para séries mais longas",
+      "licenca": "CC BY 4.0",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-13: o ficheiro do dados.gov.pt só começa em 2019 (690 mil → 768 mil, peso no emprego total estável em 14%); sem história clara. Precisa da série longa desde 2011 (Boletim Estatístico, xlsx no dados.gov.pt) para mostrar a troika e a recuperação.",
+      "registada": "2026-11-13",
+      "tentativas": 1
+    },
+    {
+      "id": "emigracao-permanente-1992-2025",
+      "tema": "sociedade",
+      "ideia": "Emigrantes permanentes por ano, com a revisão de 2026 do INE: o pico da troika e o regresso aos níveis anteriores",
+      "fonte": "INE, indicadores 0006050–0006052 (Estimativas anuais de emigração, até 2025, atualizado a 30-09-2026)",
+      "licenca": "INE: reutilização com atribuição",
+      "estado": "pronta",
+      "bloqueio": "2026-11-13: dados acessíveis pela API; adiada por haver muitas peças de demografia nas edições de 9 a 12 de novembro. Substitui em parte a candidata revisao-populacao-ine-2026.",
+      "registada": "2026-11-13",
+      "tentativas": 0
     }
   ]
 }

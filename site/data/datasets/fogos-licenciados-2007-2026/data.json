@@ -1,0 +1,270 @@
+{
+ "rows": [
+  {
+   "cat": "2007",
+   "ytd": 50.04,
+   "full": 65.83,
+   "ytdN": 50043,
+   "fullN": 65828,
+   "alt": false
+  },
+  {
+   "cat": "2008",
+   "ytd": 37.53,
+   "full": 45.98,
+   "ytdN": 37533,
+   "fullN": 45981,
+   "alt": false
+  },
+  {
+   "cat": "2009",
+   "ytd": 20.66,
+   "full": 27.3,
+   "ytdN": 20656,
+   "fullN": 27298,
+   "alt": false
+  },
+  {
+   "cat": "2010",
+   "ytd": 19.41,
+   "full": 25,
+   "ytdN": 19412,
+   "fullN": 25002,
+   "alt": false
+  },
+  {
+   "cat": "2011",
+   "ytd": 13.69,
+   "full": 17.61,
+   "ytdN": 13690,
+   "fullN": 17615,
+   "alt": false
+  },
+  {
+   "cat": "2012",
+   "ytd": 9.12,
+   "full": 11.51,
+   "ytdN": 9117,
+   "fullN": 11512,
+   "alt": false
+  },
+  {
+   "cat": "2013",
+   "ytd": 5.88,
+   "full": 7.49,
+   "ytdN": 5881,
+   "fullN": 7494,
+   "alt": false
+  },
+  {
+   "cat": "2014",
+   "ytd": 5.07,
+   "full": 7,
+   "ytdN": 5073,
+   "fullN": 6996,
+   "alt": false
+  },
+  {
+   "cat": "2015",
+   "ytd": 6.18,
+   "full": 8.69,
+   "ytdN": 6181,
+   "fullN": 8686,
+   "alt": false
+  },
+  {
+   "cat": "2016",
+   "ytd": 8.68,
+   "full": 11.82,
+   "ytdN": 8681,
+   "fullN": 11817,
+   "alt": false
+  },
+  {
+   "cat": "2017",
+   "ytd": 11.16,
+   "full": 14.97,
+   "ytdN": 11161,
+   "fullN": 14967,
+   "alt": false
+  },
+  {
+   "cat": "2018",
+   "ytd": 15.71,
+   "full": 21.9,
+   "ytdN": 15711,
+   "fullN": 21896,
+   "alt": false
+  },
+  {
+   "cat": "2019",
+   "ytd": 19.25,
+   "full": 25.82,
+   "ytdN": 19248,
+   "fullN": 25824,
+   "alt": false
+  },
+  {
+   "cat": "2020",
+   "ytd": 19.2,
+   "full": 26.17,
+   "ytdN": 19198,
+   "fullN": 26168,
+   "alt": false
+  },
+  {
+   "cat": "2021",
+   "ytd": 23.36,
+   "full": 30.09,
+   "ytdN": 23355,
+   "fullN": 30094,
+   "alt": false
+  },
+  {
+   "cat": "2022",
+   "ytd": 24.35,
+   "full": 32.23,
+   "ytdN": 24347,
+   "fullN": 32232,
+   "alt": false
+  },
+  {
+   "cat": "2023",
+   "ytd": 25.71,
+   "full": 33.56,
+   "ytdN": 25705,
+   "fullN": 33560,
+   "alt": false
+  },
+  {
+   "cat": "2024",
+   "ytd": 25.84,
+   "full": 35.37,
+   "ytdN": 25835,
+   "fullN": 35371,
+   "alt": false
+  },
+  {
+   "cat": "2025",
+   "ytd": 31.12,
+   "full": 42.07,
+   "ytdN": 31122,
+   "fullN": 42066,
+   "alt": false
+  },
+  {
+   "cat": "2026",
+   "ytd": 32.67,
+   "full": null,
+   "ytdN": 32670,
+   "fullN": null,
+   "alt": true
+  }
+ ],
+ "views": [
+  {
+   "id": "ytd",
+   "label": "Janeiro a setembro",
+   "yLabel": "Fogos licenciados em construções novas para habitação familiar, janeiro a setembro de cada ano (milhares)",
+   "unit": " mil",
+   "decimals": 1,
+   "labelEvery": 2,
+   "labelEveryNarrow": 3,
+   "series": [
+    {
+     "key": "ytd",
+     "label": "Janeiro a setembro (milhares)",
+     "color": "--accent-2",
+     "altColor": "--accent-3",
+     "altLabel": "2026 (janeiro a setembro, milhares)"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "full",
+     "label": "Ano completo (milhares)",
+     "suffix": " mil"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2014",
+     "text": "2014: 5,1 mil",
+     "short": "2014: 5,1 mil"
+    }
+   ]
+  },
+  {
+   "id": "full",
+   "label": "Ano completo",
+   "yLabel": "Fogos licenciados em construções novas para habitação familiar, por ano (milhares)",
+   "unit": " mil",
+   "decimals": 1,
+   "labelEvery": 2,
+   "labelEveryNarrow": 3,
+   "series": [
+    {
+     "key": "full",
+     "label": "Ano completo (milhares)",
+     "color": "--accent-2"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2014",
+     "text": "2014: 7,0 mil",
+     "short": "2014: 7,0 mil"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "full": {
+   "2007": 65828,
+   "2008": 45981,
+   "2009": 27298,
+   "2010": 25002,
+   "2011": 17615,
+   "2012": 11512,
+   "2013": 7494,
+   "2014": 6996,
+   "2015": 8686,
+   "2016": 11817,
+   "2017": 14967,
+   "2018": 21896,
+   "2019": 25824,
+   "2020": 26168,
+   "2021": 30094,
+   "2022": 32232,
+   "2023": 33560,
+   "2024": 35371,
+   "2025": 42066
+  },
+  "ytd": {
+   "2007": 50043,
+   "2008": 37533,
+   "2009": 20656,
+   "2010": 19412,
+   "2011": 13690,
+   "2012": 9117,
+   "2013": 5881,
+   "2014": 5073,
+   "2015": 6181,
+   "2016": 8681,
+   "2017": 11161,
+   "2018": 15711,
+   "2019": 19248,
+   "2020": 19198,
+   "2021": 23355,
+   "2022": 24347,
+   "2023": 25705,
+   "2024": 25835,
+   "2025": 31122,
+   "2026": 32670
+  },
+  "minYear": 2014,
+  "ratio2025_2014": 6,
+  "pct2025of2007": 64,
+  "ytdChange": 5
+ }
+}

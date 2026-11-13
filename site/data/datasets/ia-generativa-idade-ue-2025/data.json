@@ -1,0 +1,218 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "a": 11.7,
+   "b": 74.4,
+   "c": 42
+  },
+  {
+   "label": "Bulgária",
+   "a": 3.3,
+   "b": 50,
+   "c": 22.5
+  },
+  {
+   "label": "Chéquia",
+   "a": 6,
+   "b": 78.5,
+   "c": 35.4
+  },
+  {
+   "label": "Dinamarca",
+   "a": 14.8,
+   "b": 77.6,
+   "c": 48.4
+  },
+  {
+   "label": "Alemanha",
+   "a": 7.5,
+   "b": 52.7,
+   "c": 32.3
+  },
+  {
+   "label": "Estónia",
+   "a": 8,
+   "b": 82.8,
+   "c": 46.6
+  },
+  {
+   "label": "Irlanda",
+   "a": 10.8,
+   "b": 66.5,
+   "c": 44.9
+  },
+  {
+   "label": "Grécia",
+   "a": 10.6,
+   "b": 83.5,
+   "c": 44.1
+  },
+  {
+   "label": "Espanha",
+   "a": 7.3,
+   "b": 75.6,
+   "c": 37.9
+  },
+  {
+   "label": "França",
+   "a": 6.6,
+   "b": 76.5,
+   "c": 37.5
+  },
+  {
+   "label": "Croácia",
+   "a": 3.7,
+   "b": 58.2,
+   "c": 27.5
+  },
+  {
+   "label": "Itália",
+   "a": 4.6,
+   "b": 47.2,
+   "c": 19.9
+  },
+  {
+   "label": "Chipre",
+   "a": 9.3,
+   "b": 76.5,
+   "c": 44.2
+  },
+  {
+   "label": "Letónia",
+   "a": 4.6,
+   "b": 73.2,
+   "c": 33.4
+  },
+  {
+   "label": "Lituânia",
+   "a": 4.1,
+   "b": 73.7,
+   "c": 36.9
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 9.5,
+   "b": 66,
+   "c": 42.5
+  },
+  {
+   "label": "Hungria",
+   "a": 5.5,
+   "b": 62.9,
+   "c": 29.6
+  },
+  {
+   "label": "Malta",
+   "a": 9.8,
+   "b": 76.4,
+   "c": 46.5
+  },
+  {
+   "label": "Países Baixos",
+   "a": 11,
+   "b": 73.6,
+   "c": 44.7
+  },
+  {
+   "label": "Áustria",
+   "a": 8.5,
+   "b": 73.2,
+   "c": 39.4
+  },
+  {
+   "label": "Polónia",
+   "a": 2.7,
+   "b": 49.3,
+   "c": 22.7
+  },
+  {
+   "label": "Portugal",
+   "a": 5.8,
+   "b": 76.5,
+   "c": 38.7,
+   "highlight": true
+  },
+  {
+   "label": "Roménia",
+   "a": 1.7,
+   "b": 44.1,
+   "c": 17.8
+  },
+  {
+   "label": "Eslovénia",
+   "a": 9.9,
+   "b": 73,
+   "c": 37.6
+  },
+  {
+   "label": "Eslováquia",
+   "a": 5.1,
+   "b": 75.5,
+   "c": 30.8
+  },
+  {
+   "label": "Finlândia",
+   "a": 12,
+   "b": 67.1,
+   "c": 46.3
+  },
+  {
+   "label": "Suécia",
+   "a": 7.6,
+   "b": 67,
+   "c": 42
+  },
+  {
+   "label": "UE-27",
+   "a": 6.5,
+   "b": 63.8,
+   "c": 32.7
+  }
+ ],
+ "config": {
+  "aLabel": "65 a 74 anos",
+  "bLabel": "16 a 24 anos",
+  "cLabel": "16 a 74 anos (todos)",
+  "ref": 32.7,
+  "refLabel": "UE, 16 a 74 anos: 32,7%",
+  "unit": "%",
+  "decimals": 1,
+  "domain": [
+   0,
+   100
+  ],
+  "howToRead": "Cada linha é um país da UE: vai da percentagem de pessoas entre os 65 e os 74 anos que usaram uma ferramenta de IA generativa nos últimos três meses (ponto cinzento) à dos jovens dos 16 aos 24 anos (ponto azul). O anel marca o valor para toda a população dos 16 aos 74 anos. Quanto mais comprida a linha, maior a diferença entre gerações. Portugal aparece destacado a terracota.",
+  "sorts": [
+   [
+    "delta",
+    "Por diferença entre idades"
+   ],
+   [
+    "b",
+    "Por valor entre os jovens"
+   ]
+  ]
+ },
+ "summary": {
+  "pt": {
+   "label": "Portugal",
+   "a": 5.8,
+   "b": 76.5,
+   "c": 38.7,
+   "highlight": true
+  },
+  "ue": {
+   "label": "UE-27",
+   "a": 6.5,
+   "b": 63.8,
+   "c": 32.7
+  },
+  "ptGapRank": 4,
+  "ptTotRank": 13,
+  "ptYoungRank": 5,
+  "ptOldRank": 18,
+  "ptHi": 66.1,
+  "ptLo": 11.9
+ }
+}

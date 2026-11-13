@@ -1,8 +1,122 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-12T07:36:58.925Z",
- "latest": "2026-11-12",
+ "updated": "2026-11-13T07:37:48.825Z",
+ "latest": "2026-11-13",
  "editions": [
+  {
+   "date": "2026-11-13",
+   "number": 9,
+   "lead": "eletricidade-renovaveis-carvao-1985-2025",
+   "opening": "Cinco histórias para sexta-feira: as renováveis a passarem o carvão na eletricidade mundial, as casas licenciadas em véspera do dia de luta pela habitação, o corte na ajuda ao desenvolvimento, a IA generativa por idades e a semana de trabalho que perdeu dez horas em 16 anos.",
+   "pieces": [
+    {
+     "id": "eletricidade-renovaveis-carvao-1985-2025",
+     "title": "Em 2025, as renováveis produziram mais eletricidade do que o carvão no mundo. Desde 1985, nunca tinha acontecido",
+     "kind": "atualidade",
+     "theme": "ambiente",
+     "themeLabel": "Ambiente e clima",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cinco fontes · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Que fontes estão a responder ao aumento da produção de eletricidade no mundo?",
+     "finding": "Em 2025, as fontes renováveis produziram 10 726 TWh, 33,8% da eletricidade mundial, e o carvão 10 472 TWh, 33,0%: é o primeiro ano da série, iniciada em 1985, em que as renováveis ficam à frente. A produção total aumentou 842 TWh face a 2024; a solar e a eólica acrescentaram 840 TWh, e o carvão desceu 67 TWh, depois do máximo de 2024.",
+     "period": "1985 a 2025",
+     "dataset": "eletricidade-renovaveis-carvao-1985-2025",
+     "sourceNames": [
+      "Ember — Yearly Electricity Data (2026), CC BY 4.0",
+      "Ember — Global Electricity Review 2026 (21 de abril de 2026)",
+      "Energy Institute — Statistical Review of World Energy (2025), para os anos anteriores a 2000",
+      "Our World in Data — energy-data, owid-energy-data.csv (cópia secundária, CC BY 4.0)",
+      "UNFCCC — COP31, Antália, 9 a 20 de novembro de 2026"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "fogos-licenciados-2007-2026",
+     "title": "Portugal licenciou 42 mil casas novas em 2025, o máximo desde 2008. Ainda não chegam a dois terços das de 2007",
+     "kind": "atualidade",
+     "theme": "portugal",
+     "themeLabel": "Portugal e habitação",
+     "vizType": "barras",
+     "vizLabel": "Colunas · 2 vistas",
+     "interactive": true,
+     "question": "Quantas casas novas se licenciam em Portugal, comparado com o período antes da crise?",
+     "finding": "Em 2025 foram licenciados 42 066 fogos em construções novas para habitação familiar, o número mais alto desde 2008 e seis vezes o mínimo de 2014 (6 996). De janeiro a setembro de 2026 foram 32 670, mais 5,0% do que no mesmo período de 2025 e o valor mais alto desde 2008. Ainda assim, o total de 2025 ficou em 64% do de 2007.",
+     "period": "Janeiro de 2007 a setembro de 2026",
+     "dataset": "fogos-licenciados-2007-2026",
+     "sourceNames": [
+      "INE — Inquérito aos projetos de obras de edificação e de demolição de edifícios; indicador 0008066, fogos licenciados em construções novas para habitação familiar (mensal)",
+      "ECO — Várias greves e manifestações agendadas para novembro (31 de outubro de 2026)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "ajuda-desenvolvimento-cad-2024-2025",
+     "title": "A ajuda ao desenvolvimento dos países ricos caiu 23% em 2025. Três quartos da queda vieram dos EUA",
+     "kind": "descoberta",
+     "theme": "geopolitica",
+     "themeLabel": "Geopolítica",
+     "vizType": "halteres",
+     "vizLabel": "Halteres · ordenação alternável",
+     "interactive": true,
+     "question": "Quanto cortaram os países doadores na ajuda pública ao desenvolvimento em 2025, e onde fica Portugal?",
+     "finding": "Em 2025, a ajuda pública ao desenvolvimento dos 33 países do Comité de Ajuda ao Desenvolvimento da OCDE caiu 23,1% em termos reais, de 215,1 para 165,5 mil milhões de dólares a preços de 2024, o mínimo da série iniciada em 2018. Os EUA cortaram 57% e explicam 75% da descida. A ajuda baixou em 25 dos 33 países; só quatro cumprem a meta de 0,7% do rendimento nacional bruto.",
+     "period": "2024 e 2025 (série desde 2018)",
+     "dataset": "ajuda-desenvolvimento-cad-2024-2025",
+     "sourceNames": [
+      "OCDE — DAC1: Flows by provider (ODA+OOF+Private), APD em equivalente-subvenção e em % do RNB (dados preliminares de 2025)",
+      "OCDE — International aid fell sharply in 2025, says OECD (comunicado, abril de 2026)",
+      "OCDE — The 0.7% ODA/GNI target: a history"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "ia-generativa-idade-ue-2025",
+     "title": "Três em cada quatro jovens portugueses usam IA generativa. Entre os 65 e os 74 anos, um em cada 17",
+     "kind": "descoberta",
+     "theme": "tecnologia",
+     "themeLabel": "Tecnologia e IA",
+     "vizType": "halteres",
+     "vizLabel": "Halteres com terceiro marcador · ordenação alternável",
+     "interactive": true,
+     "question": "Quem usa ferramentas de inteligência artificial generativa em Portugal, e quão grande é a diferença entre gerações?",
+     "finding": "Em 2025, 76,5% dos portugueses entre os 16 e os 24 anos tinham usado uma ferramenta de IA generativa nos três meses anteriores, contra 5,8% dos que tinham entre 65 e 74 anos. A diferença, de 70,8 pontos percentuais, é a quarta maior da UE, onde é de 57,3. Em toda a população dos 16 aos 74 anos, Portugal fica em 38,7%, acima dos 32,7% da UE.",
+     "period": "2025",
+     "dataset": "ia-generativa-idade-ue-2025",
+     "sourceNames": [
+      "Eurostat — Individuals - use of generative AI tools (isoc_ai_iaiu), inquérito à utilização de TIC pelas famílias, 2025"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "horas-trabalho-semana-1870-1990",
+     "title": "A semana de trabalho europeia perdeu dez horas entre 1913 e 1929. Até 1990, perdeu nove",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História e sociedade",
+     "vizType": "linha",
+     "vizLabel": "Linhas · faixa 1913–1929 · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Quando e quanto encolheu a semana de trabalho na Europa e nos países de imigração europeia?",
+     "finding": "Segundo as estimativas de Huberman e Minns, quem trabalhava a tempo inteiro em 11 países europeus fazia em média 65,9 horas por semana em 1870 e 57,9 em 1913. Em 1929 eram 47,8: menos dez horas em 16 anos. Entre 1929 e 1990, a descida foi de 9,1 horas, para 38,7. Na Bélgica, em 1870, a semana chegava às 72 horas.",
+     "period": "1870 a 1990 (anos de referência)",
+     "dataset": "horas-trabalho-semana-1870-1990",
+     "sourceNames": [
+      "Michael Huberman e Chris Minns (2007), «The times they are not changin': Days and hours of work in Old and New Worlds, 1870–2000», Explorations in Economic History 44(4), pp. 538–567",
+      "Our World in Data — owid-datasets, «Days and hours of work in Old and New Worlds - Huberman and Minns (2007)» (cópia secundária, CC BY 4.0)",
+      "OIT — Convention No. 1: a landmark for workers' rights (Convenção sobre a Duração do Trabalho na Indústria, 1919)",
+      "ECO — Maioria das empresas que testaram semana de quatro dias decidiu não voltar atrás (24 de junho de 2024; relatório final do projeto-piloto)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "vies-do-sobrevivente",
+    "title": "O viés do sobrevivente",
+    "axis": "pensamento",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-12",
    "number": 8,

@@ -1,0 +1,225 @@
+{
+ "rows": [
+  {
+   "x": 1870,
+   "eu": 65.9,
+   "nw": 58.5,
+   "be": 72.2,
+   "uk": 56.9,
+   "us": 62
+  },
+  {
+   "x": 1880,
+   "eu": 63.8,
+   "nw": 57.8,
+   "be": 69.3,
+   "uk": 56.6,
+   "us": 61
+  },
+  {
+   "x": 1890,
+   "eu": 61.9,
+   "nw": 57.1,
+   "be": 66.5,
+   "uk": 56.3,
+   "us": 60
+  },
+  {
+   "x": 1900,
+   "eu": 60.3,
+   "nw": 56.6,
+   "be": 64.2,
+   "uk": 56,
+   "us": 59.1
+  },
+  {
+   "x": 1913,
+   "eu": 57.9,
+   "nw": 53.6,
+   "be": 59.5,
+   "uk": 56,
+   "us": 58.3
+  },
+  {
+   "x": 1929,
+   "eu": 47.8,
+   "nw": 47.5,
+   "be": 48.2,
+   "uk": 47,
+   "us": 48
+  },
+  {
+   "x": 1938,
+   "eu": 47,
+   "nw": 43.2,
+   "be": 48,
+   "uk": 48.6,
+   "us": 37.3
+  },
+  {
+   "x": 1950,
+   "eu": 46.8,
+   "nw": 41.4,
+   "be": null,
+   "uk": 45.7,
+   "us": 42.4
+  },
+  {
+   "x": 1960,
+   "eu": 44.4,
+   "nw": 40.2,
+   "be": 42.5,
+   "uk": 44.7,
+   "us": 40.2
+  },
+  {
+   "x": 1970,
+   "eu": 42.5,
+   "nw": 39.4,
+   "be": 39.9,
+   "uk": 42,
+   "us": 38.8
+  },
+  {
+   "x": 1980,
+   "eu": 40.4,
+   "nw": 38.9,
+   "be": 38.5,
+   "uk": 40,
+   "us": 39.1
+  },
+  {
+   "x": 1990,
+   "eu": 38.7,
+   "nw": 39.4,
+   "be": 36.6,
+   "uk": 42.4,
+   "us": 39.7
+  }
+ ],
+ "config": {
+  "x": {
+   "label": "Ano",
+   "tableLabel": "Ano",
+   "min": 1870,
+   "max": 1990,
+   "ticks": [
+    1870,
+    1890,
+    1913,
+    1929,
+    1950,
+    1970,
+    1990
+   ]
+  },
+  "y": {
+   "label": "Horas de trabalho por semana — eixo a partir de 30 (trabalhadores a tempo inteiro)",
+   "suffix": " h",
+   "decimals": 1,
+   "logDefault": false,
+   "linMin": 30,
+   "linMax": 75
+  },
+  "series": [
+   {
+    "key": "eu",
+    "label": "Europa (média de 11 países)",
+    "short": "Europa",
+    "color": "--accent-2",
+    "width": 2.8
+   },
+   {
+    "key": "nw",
+    "label": "EUA, Canadá e Austrália",
+    "short": "EUA/Can./Aus.",
+    "color": "--accent-3",
+    "width": 2.4
+   },
+   {
+    "key": "be",
+    "label": "Bélgica",
+    "short": "Bélgica",
+    "color": "--muted",
+    "width": 1.3
+   },
+   {
+    "key": "uk",
+    "label": "Reino Unido",
+    "short": "R. Unido",
+    "color": "--muted",
+    "width": 1.3
+   },
+   {
+    "key": "us",
+    "label": "Estados Unidos",
+    "short": "EUA",
+    "color": "--muted",
+    "width": 1.3
+   }
+  ],
+  "labelMargin": [
+   104,
+   110
+  ],
+  "shortEndLabels": true,
+  "gaps": true,
+  "scaleToggle": false,
+  "dots": true,
+  "shade": [
+   {
+    "from": 1913,
+    "to": 1929,
+    "label": "1913–1929: −10 h na Europa",
+    "short": "−10 h",
+    "exact": true,
+    "top": true
+   }
+  ],
+  "annotations": [
+   {
+    "x": 1870,
+    "key": "be",
+    "text": "Bélgica, 1870: 72,2 h",
+    "short": "72,2 h",
+    "anchor": "start",
+    "dx": 8,
+    "dy": 4
+   }
+  ],
+  "howToRead": "Cada linha liga estimativas das horas semanais de trabalho de quem trabalha a tempo inteiro, em anos de referência (os pontos), com intervalos desiguais. A escala começa nas 30 horas. As linhas cinzentas são três países mostrados em separado; a faixa marca 1913–1929."
+ },
+ "summary": {
+  "ow": {
+   "1870": 65.900002,
+   "1880": 63.799999,
+   "1890": 61.900002,
+   "1900": 60.299999,
+   "1913": 57.900002,
+   "1929": 47.799999,
+   "1938": 47,
+   "1950": 46.799999,
+   "1960": 44.400002,
+   "1970": 42.5,
+   "1980": 40.400002,
+   "1990": 38.700001
+  },
+  "nw": {
+   "1870": 58.5,
+   "1880": 57.799999,
+   "1890": 57.099998,
+   "1900": 56.599998,
+   "1913": 53.599998,
+   "1929": 47.5,
+   "1938": 43.200001,
+   "1950": 41.400002,
+   "1960": 40.200001,
+   "1970": 39.400002,
+   "1980": 38.900002,
+   "1990": 39.400002
+  },
+  "d1913_1929": 10.1,
+  "d1870_1913": 8,
+  "d1929_1990": 9.1
+ }
+}

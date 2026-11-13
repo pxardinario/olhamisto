@@ -1,0 +1,249 @@
+{
+ "rows": [
+  {
+   "label": "Austrália",
+   "a": 0.19,
+   "b": 0.18,
+   "realChange": -2.7
+  },
+  {
+   "label": "Áustria",
+   "a": 0.35,
+   "b": 0.33,
+   "realChange": -5.9
+  },
+  {
+   "label": "Bélgica",
+   "a": 0.48,
+   "b": 0.37,
+   "realChange": -21.4
+  },
+  {
+   "label": "Canadá",
+   "a": 0.33,
+   "b": 0.32,
+   "realChange": -2.3
+  },
+  {
+   "label": "Chéquia",
+   "a": 0.16,
+   "b": 0.12,
+   "realChange": -28
+  },
+  {
+   "label": "Dinamarca",
+   "a": 0.72,
+   "b": 0.72,
+   "realChange": 3
+  },
+  {
+   "label": "Estónia",
+   "a": 0.2,
+   "b": 0.19,
+   "realChange": -2
+  },
+  {
+   "label": "Finlândia",
+   "a": 0.47,
+   "b": 0.44,
+   "realChange": -5.4
+  },
+  {
+   "label": "França",
+   "a": 0.48,
+   "b": 0.42,
+   "realChange": -10.9
+  },
+  {
+   "label": "Alemanha",
+   "a": 0.68,
+   "b": 0.56,
+   "realChange": -17.4
+  },
+  {
+   "label": "Grécia",
+   "a": 0.15,
+   "b": 0.13,
+   "realChange": -10.9
+  },
+  {
+   "label": "Hungria",
+   "a": 0.09,
+   "b": 0.14,
+   "realChange": 45.7
+  },
+  {
+   "label": "Islândia",
+   "a": 0.33,
+   "b": 0.34,
+   "realChange": 3.6
+  },
+  {
+   "label": "Irlanda",
+   "a": 0.56,
+   "b": 0.42,
+   "realChange": -22.5
+  },
+  {
+   "label": "Itália",
+   "a": 0.29,
+   "b": 0.3,
+   "realChange": 0
+  },
+  {
+   "label": "Japão",
+   "a": 0.37,
+   "b": 0.35,
+   "realChange": -5.6
+  },
+  {
+   "label": "Coreia do Sul",
+   "a": 0.21,
+   "b": 0.2,
+   "realChange": -2.3
+  },
+  {
+   "label": "Letónia",
+   "a": 0.22,
+   "b": 0.18,
+   "realChange": -9
+  },
+  {
+   "label": "Lituânia",
+   "a": 0.24,
+   "b": 0.21,
+   "realChange": -9.7
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 1,
+   "b": 0.99,
+   "realChange": 8.9
+  },
+  {
+   "label": "Países Baixos",
+   "a": 0.62,
+   "b": 0.58,
+   "realChange": -4.9
+  },
+  {
+   "label": "Nova Zelândia",
+   "a": 0.32,
+   "b": 0.27,
+   "realChange": -12.8
+  },
+  {
+   "label": "Noruega",
+   "a": 1.02,
+   "b": 1.03,
+   "realChange": 1.7
+  },
+  {
+   "label": "Polónia",
+   "a": 0.21,
+   "b": 0.16,
+   "realChange": -19
+  },
+  {
+   "label": "Portugal",
+   "a": 0.22,
+   "b": 0.19,
+   "highlight": true,
+   "realChange": -14.7
+  },
+  {
+   "label": "Roménia",
+   "a": 0.16,
+   "b": 0.14,
+   "realChange": -12.4
+  },
+  {
+   "label": "Eslováquia",
+   "a": 0.14,
+   "b": 0.13,
+   "realChange": -6.4
+  },
+  {
+   "label": "Eslovénia",
+   "a": 0.23,
+   "b": 0.22,
+   "realChange": -4.2
+  },
+  {
+   "label": "Espanha",
+   "a": 0.25,
+   "b": 0.27,
+   "realChange": 10.7
+  },
+  {
+   "label": "Suécia",
+   "a": 0.79,
+   "b": 0.85,
+   "realChange": 9.6
+  },
+  {
+   "label": "Suíça",
+   "a": 0.49,
+   "b": 0.46,
+   "realChange": -7.1
+  },
+  {
+   "label": "Reino Unido",
+   "a": 0.5,
+   "b": 0.43,
+   "realChange": -10.8
+  },
+  {
+   "label": "Estados Unidos",
+   "a": 0.23,
+   "b": 0.09,
+   "realChange": -56.9
+  },
+  {
+   "label": "Total do CAD",
+   "a": 0.34,
+   "b": 0.26,
+   "realChange": -23.1
+  }
+ ],
+ "config": {
+  "aLabel": "2024",
+  "bLabel": "2025",
+  "ref": 0.7,
+  "refLabel": "Meta da ONU: 0,7% do RNB",
+  "unit": "%",
+  "decimals": 2,
+  "domain": [
+   0,
+   1.1
+  ],
+  "howToRead": "Cada linha é um país membro do Comité de Ajuda ao Desenvolvimento da OCDE: vai da ajuda pública ao desenvolvimento em percentagem do rendimento nacional bruto em 2024 (ponto cinzento) à de 2025 (ponto azul). Quando o ponto azul está à esquerda do cinzento, o país deu menos. A linha tracejada é a meta de 0,7% definida na ONU. Portugal aparece destacado a terracota.",
+  "sorts": [
+   [
+    "b",
+    "Por valor em 2025"
+   ],
+   [
+    "delta",
+    "Por variação"
+   ]
+  ]
+ },
+ "summary": {
+  "tot24": 215.1,
+  "tot25": 165.5,
+  "chg": -23.1,
+  "us": -56.9,
+  "usShare": 75,
+  "pt": -14.7,
+  "cutReal": 25,
+  "cutRatio": 26,
+  "above07": [
+   "Dinamarca",
+   "Luxemburgo",
+   "Noruega",
+   "Suécia"
+  ],
+  "ptBelow": 9
+ }
+}

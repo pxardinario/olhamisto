@@ -1,0 +1,1911 @@
+[ {
+  "IndicadorCod" : "0008066",
+  "IndicadorDsg" : "Fogos licenciados (N.º) em construções novas para habitação familiar por Localização geográfica (NUTS - 2013) e Tipologia do fogo; Mensal - INE, Inquérito aos projetos de obras de edificação e de demolição de edifícios",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0008066&lingua=PT",
+  "DataExtracao" : "2026-11-13T07:19:38.056Z",
+  "DataUltimoAtualizacao" : "2026-11-09",
+  "UltimoPref" : "Setembro de 2026",
+  "Dados" : {
+    "Janeiro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 447",
+      "valor" : "7447"
+    } ],
+    "Fevereiro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 684",
+      "valor" : "4684"
+    } ],
+    "Março de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 960",
+      "valor" : "5960"
+    } ],
+    "Abril de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 213",
+      "valor" : "4213"
+    } ],
+    "Maio de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 080",
+      "valor" : "6080"
+    } ],
+    "Junho de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 385",
+      "valor" : "5385"
+    } ],
+    "Julho de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 472",
+      "valor" : "6472"
+    } ],
+    "Agosto de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 820",
+      "valor" : "4820"
+    } ],
+    "Setembro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 982",
+      "valor" : "4982"
+    } ],
+    "Outubro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 488",
+      "valor" : "5488"
+    } ],
+    "Novembro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 969",
+      "valor" : "5969"
+    } ],
+    "Dezembro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 328",
+      "valor" : "4328"
+    } ],
+    "Janeiro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 341",
+      "valor" : "6341"
+    } ],
+    "Fevereiro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 009",
+      "valor" : "4009"
+    } ],
+    "Março de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 063",
+      "valor" : "4063"
+    } ],
+    "Abril de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 569",
+      "valor" : "4569"
+    } ],
+    "Maio de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 121",
+      "valor" : "4121"
+    } ],
+    "Junho de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 171",
+      "valor" : "4171"
+    } ],
+    "Julho de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 128",
+      "valor" : "4128"
+    } ],
+    "Agosto de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 890",
+      "valor" : "2890"
+    } ],
+    "Setembro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 241",
+      "valor" : "3241"
+    } ],
+    "Outubro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 427",
+      "valor" : "3427"
+    } ],
+    "Novembro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 665",
+      "valor" : "2665"
+    } ],
+    "Dezembro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 356",
+      "valor" : "2356"
+    } ],
+    "Janeiro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 710",
+      "valor" : "2710"
+    } ],
+    "Fevereiro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 997",
+      "valor" : "1997"
+    } ],
+    "Março de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 845",
+      "valor" : "2845"
+    } ],
+    "Abril de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 184",
+      "valor" : "2184"
+    } ],
+    "Maio de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 531",
+      "valor" : "2531"
+    } ],
+    "Junho de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 091",
+      "valor" : "2091"
+    } ],
+    "Julho de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 307",
+      "valor" : "2307"
+    } ],
+    "Agosto de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 835",
+      "valor" : "1835"
+    } ],
+    "Setembro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 156",
+      "valor" : "2156"
+    } ],
+    "Outubro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 019",
+      "valor" : "2019"
+    } ],
+    "Novembro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 146",
+      "valor" : "2146"
+    } ],
+    "Dezembro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 477",
+      "valor" : "2477"
+    } ],
+    "Janeiro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 140",
+      "valor" : "2140"
+    } ],
+    "Fevereiro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 002",
+      "valor" : "2002"
+    } ],
+    "Março de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 337",
+      "valor" : "2337"
+    } ],
+    "Abril de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 323",
+      "valor" : "2323"
+    } ],
+    "Maio de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 614",
+      "valor" : "2614"
+    } ],
+    "Junho de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 169",
+      "valor" : "2169"
+    } ],
+    "Julho de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 899",
+      "valor" : "1899"
+    } ],
+    "Agosto de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 942",
+      "valor" : "1942"
+    } ],
+    "Setembro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 986",
+      "valor" : "1986"
+    } ],
+    "Outubro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 887",
+      "valor" : "1887"
+    } ],
+    "Novembro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 893",
+      "valor" : "1893"
+    } ],
+    "Dezembro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 810",
+      "valor" : "1810"
+    } ],
+    "Janeiro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 794",
+      "valor" : "1794"
+    } ],
+    "Fevereiro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 542",
+      "valor" : "1542"
+    } ],
+    "Março de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 716",
+      "valor" : "1716"
+    } ],
+    "Abril de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 360",
+      "valor" : "1360"
+    } ],
+    "Maio de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 678",
+      "valor" : "1678"
+    } ],
+    "Junho de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 399",
+      "valor" : "1399"
+    } ],
+    "Julho de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 395",
+      "valor" : "1395"
+    } ],
+    "Agosto de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 240",
+      "valor" : "1240"
+    } ],
+    "Setembro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 566",
+      "valor" : "1566"
+    } ],
+    "Outubro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 385",
+      "valor" : "1385"
+    } ],
+    "Novembro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 166",
+      "valor" : "1166"
+    } ],
+    "Dezembro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 374",
+      "valor" : "1374"
+    } ],
+    "Janeiro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 336",
+      "valor" : "1336"
+    } ],
+    "Fevereiro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "995",
+      "valor" : "995"
+    } ],
+    "Março de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 153",
+      "valor" : "1153"
+    } ],
+    "Abril de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "871",
+      "valor" : "871"
+    } ],
+    "Maio de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 214",
+      "valor" : "1214"
+    } ],
+    "Junho de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "795",
+      "valor" : "795"
+    } ],
+    "Julho de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 037",
+      "valor" : "1037"
+    } ],
+    "Agosto de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "940",
+      "valor" : "940"
+    } ],
+    "Setembro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "776",
+      "valor" : "776"
+    } ],
+    "Outubro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "964",
+      "valor" : "964"
+    } ],
+    "Novembro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "774",
+      "valor" : "774"
+    } ],
+    "Dezembro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "657",
+      "valor" : "657"
+    } ],
+    "Janeiro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "708",
+      "valor" : "708"
+    } ],
+    "Fevereiro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "647",
+      "valor" : "647"
+    } ],
+    "Março de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "560",
+      "valor" : "560"
+    } ],
+    "Abril de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "659",
+      "valor" : "659"
+    } ],
+    "Maio de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "726",
+      "valor" : "726"
+    } ],
+    "Junho de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "576",
+      "valor" : "576"
+    } ],
+    "Julho de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "800",
+      "valor" : "800"
+    } ],
+    "Agosto de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "557",
+      "valor" : "557"
+    } ],
+    "Setembro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "648",
+      "valor" : "648"
+    } ],
+    "Outubro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "488",
+      "valor" : "488"
+    } ],
+    "Novembro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "532",
+      "valor" : "532"
+    } ],
+    "Dezembro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "593",
+      "valor" : "593"
+    } ],
+    "Janeiro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "530",
+      "valor" : "530"
+    } ],
+    "Fevereiro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "523",
+      "valor" : "523"
+    } ],
+    "Março de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "563",
+      "valor" : "563"
+    } ],
+    "Abril de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "585",
+      "valor" : "585"
+    } ],
+    "Maio de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "581",
+      "valor" : "581"
+    } ],
+    "Junho de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "499",
+      "valor" : "499"
+    } ],
+    "Julho de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "665",
+      "valor" : "665"
+    } ],
+    "Agosto de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "427",
+      "valor" : "427"
+    } ],
+    "Setembro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "700",
+      "valor" : "700"
+    } ],
+    "Outubro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "677",
+      "valor" : "677"
+    } ],
+    "Novembro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "674",
+      "valor" : "674"
+    } ],
+    "Dezembro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "572",
+      "valor" : "572"
+    } ],
+    "Janeiro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "687",
+      "valor" : "687"
+    } ],
+    "Fevereiro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "657",
+      "valor" : "657"
+    } ],
+    "Março de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "654",
+      "valor" : "654"
+    } ],
+    "Abril de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "728",
+      "valor" : "728"
+    } ],
+    "Maio de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "624",
+      "valor" : "624"
+    } ],
+    "Junho de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "721",
+      "valor" : "721"
+    } ],
+    "Julho de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "779",
+      "valor" : "779"
+    } ],
+    "Agosto de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "611",
+      "valor" : "611"
+    } ],
+    "Setembro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "720",
+      "valor" : "720"
+    } ],
+    "Outubro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "884",
+      "valor" : "884"
+    } ],
+    "Novembro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "824",
+      "valor" : "824"
+    } ],
+    "Dezembro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "797",
+      "valor" : "797"
+    } ],
+    "Janeiro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "694",
+      "valor" : "694"
+    } ],
+    "Fevereiro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "747",
+      "valor" : "747"
+    } ],
+    "Março de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "886",
+      "valor" : "886"
+    } ],
+    "Abril de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "993",
+      "valor" : "993"
+    } ],
+    "Maio de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 339",
+      "valor" : "1339"
+    } ],
+    "Junho de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 088",
+      "valor" : "1088"
+    } ],
+    "Julho de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "887",
+      "valor" : "887"
+    } ],
+    "Agosto de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "893",
+      "valor" : "893"
+    } ],
+    "Setembro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 154",
+      "valor" : "1154"
+    } ],
+    "Outubro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 035",
+      "valor" : "1035"
+    } ],
+    "Novembro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 038",
+      "valor" : "1038"
+    } ],
+    "Dezembro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 063",
+      "valor" : "1063"
+    } ],
+    "Janeiro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 295",
+      "valor" : "1295"
+    } ],
+    "Fevereiro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "984",
+      "valor" : "984"
+    } ],
+    "Março de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 349",
+      "valor" : "1349"
+    } ],
+    "Abril de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 037",
+      "valor" : "1037"
+    } ],
+    "Maio de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 579",
+      "valor" : "1579"
+    } ],
+    "Junho de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 221",
+      "valor" : "1221"
+    } ],
+    "Julho de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 185",
+      "valor" : "1185"
+    } ],
+    "Agosto de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 037",
+      "valor" : "1037"
+    } ],
+    "Setembro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 474",
+      "valor" : "1474"
+    } ],
+    "Outubro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 339",
+      "valor" : "1339"
+    } ],
+    "Novembro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 329",
+      "valor" : "1329"
+    } ],
+    "Dezembro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 138",
+      "valor" : "1138"
+    } ],
+    "Janeiro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 359",
+      "valor" : "1359"
+    } ],
+    "Fevereiro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 723",
+      "valor" : "1723"
+    } ],
+    "Março de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 873",
+      "valor" : "1873"
+    } ],
+    "Abril de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 699",
+      "valor" : "1699"
+    } ],
+    "Maio de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 960",
+      "valor" : "1960"
+    } ],
+    "Junho de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 046",
+      "valor" : "2046"
+    } ],
+    "Julho de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 793",
+      "valor" : "1793"
+    } ],
+    "Agosto de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 686",
+      "valor" : "1686"
+    } ],
+    "Setembro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 572",
+      "valor" : "1572"
+    } ],
+    "Outubro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 231",
+      "valor" : "2231"
+    } ],
+    "Novembro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 016",
+      "valor" : "2016"
+    } ],
+    "Dezembro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 938",
+      "valor" : "1938"
+    } ],
+    "Janeiro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 144",
+      "valor" : "2144"
+    } ],
+    "Fevereiro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 140",
+      "valor" : "2140"
+    } ],
+    "Março de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 203",
+      "valor" : "2203"
+    } ],
+    "Abril de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 662",
+      "valor" : "1662"
+    } ],
+    "Maio de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 464",
+      "valor" : "2464"
+    } ],
+    "Junho de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 969",
+      "valor" : "1969"
+    } ],
+    "Julho de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 426",
+      "valor" : "2426"
+    } ],
+    "Agosto de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 850",
+      "valor" : "1850"
+    } ],
+    "Setembro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 390",
+      "valor" : "2390"
+    } ],
+    "Outubro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 923",
+      "valor" : "2923"
+    } ],
+    "Novembro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 978",
+      "valor" : "1978"
+    } ],
+    "Dezembro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 675",
+      "valor" : "1675"
+    } ],
+    "Janeiro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 591",
+      "valor" : "2591"
+    } ],
+    "Fevereiro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 271",
+      "valor" : "2271"
+    } ],
+    "Março de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 789",
+      "valor" : "1789"
+    } ],
+    "Abril de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 549",
+      "valor" : "1549"
+    } ],
+    "Maio de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 437",
+      "valor" : "2437"
+    } ],
+    "Junho de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 148",
+      "valor" : "2148"
+    } ],
+    "Julho de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 521",
+      "valor" : "2521"
+    } ],
+    "Agosto de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 007",
+      "valor" : "2007"
+    } ],
+    "Setembro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 885",
+      "valor" : "1885"
+    } ],
+    "Outubro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 405",
+      "valor" : "2405"
+    } ],
+    "Novembro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 347",
+      "valor" : "2347"
+    } ],
+    "Dezembro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 218",
+      "valor" : "2218"
+    } ],
+    "Janeiro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 487",
+      "valor" : "2487"
+    } ],
+    "Fevereiro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 008",
+      "valor" : "2008"
+    } ],
+    "Março de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 254",
+      "valor" : "3254"
+    } ],
+    "Abril de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 815",
+      "valor" : "2815"
+    } ],
+    "Maio de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 837",
+      "valor" : "2837"
+    } ],
+    "Junho de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 383",
+      "valor" : "2383"
+    } ],
+    "Julho de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 946",
+      "valor" : "2946"
+    } ],
+    "Agosto de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 339",
+      "valor" : "2339"
+    } ],
+    "Setembro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 286",
+      "valor" : "2286"
+    } ],
+    "Outubro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 976",
+      "valor" : "1976"
+    } ],
+    "Novembro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 540",
+      "valor" : "2540"
+    } ],
+    "Dezembro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 223",
+      "valor" : "2223"
+    } ],
+    "Janeiro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 687",
+      "valor" : "2687"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 793",
+      "valor" : "2793"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 148",
+      "valor" : "3148"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 495",
+      "valor" : "2495"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 214",
+      "valor" : "3214"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 441",
+      "valor" : "2441"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 919",
+      "valor" : "2919"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "1 959",
+      "valor" : "1959"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 691",
+      "valor" : "2691"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 951",
+      "valor" : "2951"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 642",
+      "valor" : "2642"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 292",
+      "valor" : "2292"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 977",
+      "valor" : "2977"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 699",
+      "valor" : "2699"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 637",
+      "valor" : "3637"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 500",
+      "valor" : "2500"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 048",
+      "valor" : "3048"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 726",
+      "valor" : "2726"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 697",
+      "valor" : "2697"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 378",
+      "valor" : "2378"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 043",
+      "valor" : "3043"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 936",
+      "valor" : "2936"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 719",
+      "valor" : "2719"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 200",
+      "valor" : "2200"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 633",
+      "valor" : "2633"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 644",
+      "valor" : "2644"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 364",
+      "valor" : "2364"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 715",
+      "valor" : "2715"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 469",
+      "valor" : "3469"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 787",
+      "valor" : "2787"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 393",
+      "valor" : "3393"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 626",
+      "valor" : "2626"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 204",
+      "valor" : "3204"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 318",
+      "valor" : "3318"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 486",
+      "valor" : "3486"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 732",
+      "valor" : "2732"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 045",
+      "valor" : "4045"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 169",
+      "valor" : "3169"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 475",
+      "valor" : "3475"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 554",
+      "valor" : "3554"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 868",
+      "valor" : "3868"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 260",
+      "valor" : "3260"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 360",
+      "valor" : "3360"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 150",
+      "valor" : "3150"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 241",
+      "valor" : "3241"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 394",
+      "valor" : "4394"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 152",
+      "valor" : "4152"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 398",
+      "valor" : "2398"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 400",
+      "valor" : "3400"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 078",
+      "valor" : "3078"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 016",
+      "valor" : "4016"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 280",
+      "valor" : "4280"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 195",
+      "valor" : "4195"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 461",
+      "valor" : "3461"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 689",
+      "valor" : "3689"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 148",
+      "valor" : "3148"
+    } ],
+    "Setembro de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 403",
+      "valor" : "3403"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]
