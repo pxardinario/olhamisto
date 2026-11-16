@@ -1,0 +1,50 @@
+{
+  "schema": "olhamisto/newsletter@1",
+  "number": 2,
+  "editions": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "title": "Os bebés de mães de nacionalidade estrangeira, a distância entre comprar e arrendar e um século de horas de trabalho",
+  "subtitle": "O melhor das edições n.º 5 a 9 do Olhamisto e as cinco Chaves do Dia.",
+  "intro": [
+    "Na segunda semana, o Olhamisto publicou 25 histórias. Esta carta escolhe quatro. Três ajudam a perceber Portugal: de onde vem a recuperação dos nascimentos, quanto se afastou a compra de casa do arrendamento e o que mudou no abandono escolar. A quarta mostra quanto encolheu a semana de trabalho na Europa, onde Portugal não entra nos dados. As restantes estão listadas abaixo, com as Chaves do Dia."
+  ],
+  "highlights": [
+    {
+      "piece": "nados-vivos-mae-estrangeira-2011-2025",
+      "text": "Os nascimentos em Portugal voltaram a subir depois do mínimo de 79 582 em 2021, e a recuperação tem uma origem precisa. Entre 2021 e 2025, os bebés de mãe com nacionalidade estrangeira aumentaram 14 449, para 25 257, ou 28,8% do total; os de mãe portuguesa diminuíram 6 265. Na Grande Lisboa, a proporção chega a 41,9%; nos Açores, fica nos 5,2%."
+    },
+    {
+      "piece": "casas-rendas-ue-2015-2025",
+      "text": "Entre 2015 e 2025, o índice de preços das casas subiu 163,9% em Portugal e o das rendas pagas 36,4%. O rácio entre o preço de compra e a renda subiu 93,5%, o maior afastamento entre os 26 países da UE com dados. Parte da distância é estatística, porque o índice de rendas inclui contratos antigos, mas nenhum outro país mostra uma diferença tão grande."
+    },
+    {
+      "piece": "abandono-escolar-precoce-ue-2006-2025",
+      "text": "Em 2006, 38,5% dos portugueses de 18 a 24 anos tinham, no máximo, o ensino básico e não estudavam nem estavam em formação: a taxa mais alta da UE. Em 2025 eram 6,1%, abaixo da média europeia de 9,1%, depois da maior descida da UE, 32,4 pontos. Coincidiu com a escolaridade obrigatória até aos 18 anos e mais cursos profissionais, mas os dados não separam os efeitos."
+    },
+    {
+      "piece": "horas-trabalho-semana-1870-1990",
+      "text": "Segundo as estimativas de Huberman e Minns para 11 países europeus, quem trabalhava a tempo inteiro fazia em média 57,9 horas por semana em 1913 e 47,8 em 1929: menos dez horas em 16 anos, na época em que a OIT fixou as 48 horas semanais na indústria. Nas seis décadas seguintes, até 1990, a semana encolheu mais 9,1 horas, para 38,7."
+    }
+  ],
+  "notes": [
+    {
+      "piece": "nados-vivos-mae-estrangeira-2011-2025",
+      "text": "Em 2025, 28,8% dos bebés nascidos em Portugal tinham mãe de nacionalidade estrangeira. Em 2021 era um em sete."
+    },
+    {
+      "piece": "casas-rendas-ue-2015-2025",
+      "text": "Desde 2015, as casas subiram 164% em Portugal e as rendas 36%."
+    },
+    {
+      "piece": "abandono-escolar-precoce-ue-2006-2025",
+      "text": "Em 2006, Portugal tinha o maior abandono escolar precoce da UE. Em 2025 ficou abaixo da média."
+    }
+  ],
+  "correctionsNote": {},
+  "signoff": "Até à próxima semana. Entretanto, desconfie de médias sem dispersão."
+}
