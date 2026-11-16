@@ -1,0 +1,180 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "a": 75.2,
+   "b": 78.5
+  },
+  {
+   "label": "Bulgária",
+   "a": 33,
+   "b": 51.2
+  },
+  {
+   "label": "Chéquia",
+   "a": 75.5,
+   "b": 83.7
+  },
+  {
+   "label": "Dinamarca",
+   "a": 90.8,
+   "b": 91.2
+  },
+  {
+   "label": "Alemanha",
+   "a": 76,
+   "b": 81.4
+  },
+  {
+   "label": "Estónia",
+   "a": 70.3,
+   "b": 76.5
+  },
+  {
+   "label": "Irlanda",
+   "a": 87.4,
+   "b": 95.1
+  },
+  {
+   "label": "Grécia",
+   "a": 54.2,
+   "b": 68
+  },
+  {
+   "label": "Espanha",
+   "a": 66.6,
+   "b": 70.8
+  },
+  {
+   "label": "França",
+   "a": 75.7,
+   "b": 80.2
+  },
+  {
+   "label": "Croácia",
+   "a": 57.4,
+   "b": 61.7
+  },
+  {
+   "label": "Itália",
+   "a": 51.5,
+   "b": 56.2
+  },
+  {
+   "label": "Chipre",
+   "a": 54,
+   "b": 63.4
+  },
+  {
+   "label": "Letónia",
+   "a": 61.8,
+   "b": 69.7
+  },
+  {
+   "label": "Lituânia",
+   "a": 60,
+   "b": 64.8
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 81,
+   "b": 80.1
+  },
+  {
+   "label": "Hungria",
+   "a": 66,
+   "b": 67.7
+  },
+  {
+   "label": "Malta",
+   "a": 64.6,
+   "b": 71.4
+  },
+  {
+   "label": "Países Baixos",
+   "a": 89.5,
+   "b": 94.2
+  },
+  {
+   "label": "Áustria",
+   "a": 63.2,
+   "b": 72.7
+  },
+  {
+   "label": "Polónia",
+   "a": 61.2,
+   "b": 69.7
+  },
+  {
+   "label": "Portugal",
+   "a": 51.6,
+   "b": 60.5,
+   "highlight": true
+  },
+  {
+   "label": "Roménia",
+   "a": 38.5,
+   "b": 60.3
+  },
+  {
+   "label": "Eslovénia",
+   "a": 71.2,
+   "b": 66.9
+  },
+  {
+   "label": "Eslováquia",
+   "a": 75.3,
+   "b": 78.8
+  },
+  {
+   "label": "Finlândia",
+   "a": 78.6,
+   "b": 82
+  },
+  {
+   "label": "Suécia",
+   "a": 86.7,
+   "b": 88.8
+  },
+  {
+   "label": "UE-27",
+   "a": 67.1,
+   "b": 73.6
+  }
+ ],
+ "config": {
+  "aLabel": "2021",
+  "bLabel": "2025",
+  "ref": 73.6,
+  "refLabel": "UE em 2025: 73,6%",
+  "unit": "%",
+  "decimals": 1,
+  "domain": [
+   30,
+   100
+  ],
+  "howToRead": "Cada linha é um país da UE: vai da percentagem de pessoas dos 16 aos 74 anos que fizeram pelo menos uma compra pela internet nos 12 meses anteriores, em 2021 (ponto cinzento), à de 2025 (ponto azul). A linha tracejada é a média da UE em 2025. O eixo começa nos 30%. Portugal aparece destacado a terracota.",
+  "sorts": [
+   [
+    "b",
+    "Por valor em 2025"
+   ],
+   [
+    "delta",
+    "Por subida"
+   ]
+  ]
+ },
+ "summary": {
+  "pt": {
+   "2021": 51.6,
+   "2025": 60.5
+  },
+  "ue": {
+   "2021": 67.1,
+   "2025": 73.6
+  },
+  "rank21": 24,
+  "rank25": 24
+ }
+}

@@ -1,0 +1,328 @@
+{
+ "rows": [
+  {
+   "label": "Alto Alentejo",
+   "region": "Alentejo",
+   "a": 20.1,
+   "b": 25.6,
+   "c": 20.3
+  },
+  {
+   "label": "Alto Ave",
+   "region": "Norte",
+   "a": 1.6,
+   "b": 5.5,
+   "c": 1.7
+  },
+  {
+   "label": "Amadora / Sintra",
+   "region": "LVT",
+   "a": 20.3,
+   "b": 75.6,
+   "c": 29.3
+  },
+  {
+   "label": "Arco Ribeirinho",
+   "region": "LVT",
+   "a": 25.2,
+   "b": 85.8,
+   "c": 34.7
+  },
+  {
+   "label": "Braga",
+   "region": "Norte",
+   "a": 1.3,
+   "b": 19.6,
+   "c": 3
+  },
+  {
+   "label": "Castelo Branco",
+   "region": "Centro",
+   "a": 10.2,
+   "b": 23.1,
+   "c": 11.2
+  },
+  {
+   "label": "Cova da Beira",
+   "region": "Centro",
+   "a": 9.4,
+   "b": 18.5,
+   "c": 10.2
+  },
+  {
+   "label": "Estuário do Tejo",
+   "region": "LVT",
+   "a": 39.9,
+   "b": 75.2,
+   "c": 43.9
+  },
+  {
+   "label": "Guarda",
+   "region": "Centro",
+   "a": 4.8,
+   "b": 29,
+   "c": 5.8
+  },
+  {
+   "label": "Póvoa Varzim / Vila Conde",
+   "region": "Norte",
+   "a": 0.2,
+   "b": 7.1,
+   "c": 0.7,
+   "short": "Póvoa/Vila Conde"
+  },
+  {
+   "label": "Santa Maria",
+   "region": "LVT",
+   "a": 25.7,
+   "b": 65.5,
+   "c": 30.8
+  },
+  {
+   "label": "Santo António",
+   "region": "Norte",
+   "a": 1.1,
+   "b": 5.3,
+   "c": 1.4
+  },
+  {
+   "label": "São José",
+   "region": "LVT",
+   "a": 13.7,
+   "b": 41.6,
+   "c": 19.5
+  },
+  {
+   "label": "Algarve",
+   "region": "Algarve",
+   "a": 10.7,
+   "b": 50.9,
+   "c": 19.7
+  },
+  {
+   "label": "Almada / Seixal",
+   "region": "LVT",
+   "a": 7.8,
+   "b": 60,
+   "c": 14.7
+  },
+  {
+   "label": "Baixo Alentejo",
+   "region": "Alentejo",
+   "a": 15.8,
+   "b": 53.5,
+   "c": 18.1
+  },
+  {
+   "label": "Baixo Mondego",
+   "region": "Centro",
+   "a": 0.1,
+   "b": 2.1,
+   "c": 0.2
+  },
+  {
+   "label": "Entre Douro e Vouga",
+   "region": "Norte",
+   "a": 1.3,
+   "b": 3.3,
+   "c": 1.4,
+   "short": "Entre Douro/Vouga"
+  },
+  {
+   "label": "Matosinhos",
+   "region": "Norte",
+   "a": 2.3,
+   "b": 15.6,
+   "c": 3.1
+  },
+  {
+   "label": "Oeste",
+   "region": "LVT",
+   "a": 37.8,
+   "b": 82.7,
+   "c": 42.9
+  },
+  {
+   "label": "Região de Leiria",
+   "region": "Centro",
+   "a": 9,
+   "b": 24.9,
+   "c": 10.8
+  },
+  {
+   "label": "Viseu Dão-Lafões",
+   "region": "Centro",
+   "a": 1.2,
+   "b": 13.7,
+   "c": 2
+  },
+  {
+   "label": "Alto Minho",
+   "region": "Norte",
+   "a": 0.2,
+   "b": 6.4,
+   "c": 0.7
+  },
+  {
+   "label": "Arrábida",
+   "region": "LVT",
+   "a": 34.3,
+   "b": 82.2,
+   "c": 40
+  },
+  {
+   "label": "Coimbra",
+   "region": "Centro",
+   "a": 0.9,
+   "b": 17.4,
+   "c": 2.2
+  },
+  {
+   "label": "Lezíria",
+   "region": "LVT",
+   "a": 11.2,
+   "b": 54.4,
+   "c": 14.9
+  },
+  {
+   "label": "Loures / Odivelas",
+   "region": "LVT",
+   "a": 24.4,
+   "b": 82.2,
+   "c": 32.9
+  },
+  {
+   "label": "Médio Ave",
+   "region": "Norte",
+   "a": 0,
+   "b": 0,
+   "c": 0
+  },
+  {
+   "label": "Médio Tejo",
+   "region": "LVT",
+   "a": 28.2,
+   "b": 60.4,
+   "c": 30.8
+  },
+  {
+   "label": "Nordeste",
+   "region": "Norte",
+   "a": 0,
+   "b": 0,
+   "c": 0
+  },
+  {
+   "label": "Região de Aveiro",
+   "region": "Centro",
+   "a": 1.2,
+   "b": 19.1,
+   "c": 2.9
+  },
+  {
+   "label": "São João",
+   "region": "Norte",
+   "a": 0.9,
+   "b": 30,
+   "c": 3.5
+  },
+  {
+   "label": "Trás-os-Montes Alto Douro",
+   "region": "Norte",
+   "a": 2.8,
+   "b": 2.8,
+   "c": 2.8,
+   "short": "Trás-os-Montes AD"
+  },
+  {
+   "label": "Alentejo Central",
+   "region": "Alentejo",
+   "a": 6.1,
+   "b": 9.3,
+   "c": 6.3
+  },
+  {
+   "label": "Gaia / Espinho",
+   "region": "Norte",
+   "a": 1.1,
+   "b": 8.1,
+   "c": 1.6
+  },
+  {
+   "label": "Litoral Alentejano",
+   "region": "Alentejo",
+   "a": 22.1,
+   "b": 76,
+   "c": 32.2
+  },
+  {
+   "label": "Tâmega e Sousa",
+   "region": "Norte",
+   "a": 0,
+   "b": 0,
+   "c": 0
+  },
+  {
+   "label": "Barcelos / Esposende",
+   "region": "Norte",
+   "a": 0,
+   "b": 0.1,
+   "c": 0,
+   "short": "Barcelos/Espos."
+  },
+  {
+   "label": "Lisboa Ocidental",
+   "region": "LVT",
+   "a": 2.2,
+   "b": 43.5,
+   "c": 8.4
+  },
+  {
+   "label": "Total (Continente)",
+   "region": "Continente",
+   "a": 9.3,
+   "b": 44.9,
+   "c": 12.9,
+   "highlight": true
+  }
+ ],
+ "config": {
+  "aLabel": "Nacionalidade portuguesa",
+  "bLabel": "Nacionalidade estrangeira",
+  "cLabel": "Todos os inscritos",
+  "ref": 12.9,
+  "refLabel": "Total: 12,9%",
+  "itemLabel": "ULS",
+  "unit": "%",
+  "decimals": 1,
+  "domain": [
+   0,
+   100
+  ],
+  "howToRead": "Cada linha é uma Unidade Local de Saúde (ULS) do continente: vai da percentagem de utentes de nacionalidade portuguesa sem médico de família (ponto cinzento) à dos utentes de nacionalidade estrangeira (ponto azul). O anel marca o valor para todos os inscritos da ULS. Quanto mais comprida a linha, maior a diferença. Contam só os utentes elegíveis para médico de família, e não quem ficou sem médico por opção. A linha destacada a terracota é o total do continente.",
+  "sorts": [
+   [
+    "b",
+    "Por valor entre estrangeiros"
+   ],
+   [
+    "delta",
+    "Por diferença"
+   ]
+  ]
+ },
+ "summary": {
+  "sep2026": {
+   "estrangeira": 44.9,
+   "portuguesa": 9.3,
+   "total": 12.9,
+   "semT": 1373189,
+   "semE": 485626,
+   "insT": 10794761,
+   "insE": 1102040
+  },
+  "ulsMaisAlta": 37,
+  "lvt": 26.7,
+  "norte": 1.5
+ }
+}

@@ -1,0 +1,2368 @@
+[ {
+  "IndicadorCod" : "0008345",
+  "IndicadorDsg" : "Espetadores de cinema (Metodologia 2006 - N.º) por Localização geográfica (NUTS - 2013); Anual - Instituto do Cinema e Audiovisual",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0008345&lingua=PT",
+  "DataExtracao" : "2026-11-16T07:18:42.640Z",
+  "DataUltimoAtualizacao" : "2024-05-31",
+  "UltimoPref" : "2023",
+  "Dados" : {
+    "2011" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "436",
+      "valor" : "436"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "3 264",
+      "valor" : "3264"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "10 365",
+      "valor" : "10365"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "17 247",
+      "valor" : "17247"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "27 929",
+      "valor" : "27929"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "29 862",
+      "valor" : "29862"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "84 383",
+      "valor" : "84383"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "115 079",
+      "valor" : "115079"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "124 813",
+      "valor" : "124813"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "125 345",
+      "valor" : "125345"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "125 345",
+      "valor" : "125345"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "125 345",
+      "valor" : "125345"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "132 008",
+      "valor" : "132008"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "137 935",
+      "valor" : "137935"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "149 022",
+      "valor" : "149022"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "167 909",
+      "valor" : "167909"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "185 551",
+      "valor" : "185551"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "242 584",
+      "valor" : "242584"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "283 452",
+      "valor" : "283452"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "325 979",
+      "valor" : "325979"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "335 383",
+      "valor" : "335383"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "335 383",
+      "valor" : "335383"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "335 383",
+      "valor" : "335383"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "338 909",
+      "valor" : "338909"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "346 957",
+      "valor" : "346957"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "565 966",
+      "valor" : "565966"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "566 291",
+      "valor" : "566291"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "937 827",
+      "valor" : "937827"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "937 827",
+      "valor" : "937827"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 152 190",
+      "valor" : "2152190"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "3 347 009",
+      "valor" : "3347009"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 679 658",
+      "valor" : "4679658"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "7 285 695",
+      "valor" : "7285695"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "7 285 695",
+      "valor" : "7285695"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "15 240 921",
+      "valor" : "15240921"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "15 701 649",
+      "valor" : "15701649"
+    } ],
+    "2012" : [ {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "890",
+      "valor" : "890"
+    }, {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "1 959",
+      "valor" : "1959"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "7 116",
+      "valor" : "7116"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "7 499",
+      "valor" : "7499"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "15 279",
+      "valor" : "15279"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "33 788",
+      "valor" : "33788"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "71 386",
+      "valor" : "71386"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "88 329",
+      "valor" : "88329"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "105 808",
+      "valor" : "105808"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "105 808",
+      "valor" : "105808"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "105 808",
+      "valor" : "105808"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "109 357",
+      "valor" : "109357"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "119 943",
+      "valor" : "119943"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "130 857",
+      "valor" : "130857"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "137 213",
+      "valor" : "137213"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "150 640",
+      "valor" : "150640"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "166 813",
+      "valor" : "166813"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "213 309",
+      "valor" : "213309"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "261 316",
+      "valor" : "261316"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "274 660",
+      "valor" : "274660"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "274 660",
+      "valor" : "274660"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "274 660",
+      "valor" : "274660"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "279 940",
+      "valor" : "279940"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "281 135",
+      "valor" : "281135"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "303 970",
+      "valor" : "303970"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "503 224",
+      "valor" : "503224"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "523 079",
+      "valor" : "523079"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "791 657",
+      "valor" : "791657"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "791 657",
+      "valor" : "791657"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "1 861 236",
+      "valor" : "1861236"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "3 037 053",
+      "valor" : "3037053"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 249 233",
+      "valor" : "4249233"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 361 165",
+      "valor" : "6361165"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 361 165",
+      "valor" : "6361165"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "13 430 104",
+      "valor" : "13430104"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "13 810 572",
+      "valor" : "13810572"
+    } ],
+    "2013" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "1 231",
+      "valor" : "1231"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "1 373",
+      "valor" : "1373"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "4 923",
+      "valor" : "4923"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "5 596",
+      "valor" : "5596"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "13 070",
+      "valor" : "13070"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "14 174",
+      "valor" : "14174"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "35 896",
+      "valor" : "35896"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "35 896",
+      "valor" : "35896"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "35 896",
+      "valor" : "35896"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "37 820",
+      "valor" : "37820"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "37 976",
+      "valor" : "37976"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "79 719",
+      "valor" : "79719"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "86 440",
+      "valor" : "86440"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "89 524",
+      "valor" : "89524"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "122 436",
+      "valor" : "122436"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "147 539",
+      "valor" : "147539"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "153 728",
+      "valor" : "153728"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "196 419",
+      "valor" : "196419"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "196 419",
+      "valor" : "196419"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "196 419",
+      "valor" : "196419"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "216 228",
+      "valor" : "216228"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "220 998",
+      "valor" : "220998"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "238 089",
+      "valor" : "238089"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "285 443",
+      "valor" : "285443"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "305 332",
+      "valor" : "305332"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "524 271",
+      "valor" : "524271"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "536 385",
+      "valor" : "536385"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "580 487",
+      "valor" : "580487"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "580 487",
+      "valor" : "580487"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "1 754 466",
+      "valor" : "1754466"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "2 798 401",
+      "valor" : "2798401"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "3 871 152",
+      "valor" : "3871152"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "5 960 786",
+      "valor" : "5960786"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "5 960 786",
+      "valor" : "5960786"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "12 314 430",
+      "valor" : "12314430"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "12 546 745",
+      "valor" : "12546745"
+    } ],
+    "2014" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "95",
+      "valor" : "95"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "814",
+      "valor" : "814"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "3 246",
+      "valor" : "3246"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "6 052",
+      "valor" : "6052"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "7 942",
+      "valor" : "7942"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "18 419",
+      "valor" : "18419"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "33 616",
+      "valor" : "33616"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "74 403",
+      "valor" : "74403"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "83 248",
+      "valor" : "83248"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "88 772",
+      "valor" : "88772"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "88 772",
+      "valor" : "88772"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "88 772",
+      "valor" : "88772"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "98 342",
+      "valor" : "98342"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "109 609",
+      "valor" : "109609"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "111 565",
+      "valor" : "111565"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "141 414",
+      "valor" : "141414"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "144 039",
+      "valor" : "144039"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "194 763",
+      "valor" : "194763"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "203 600",
+      "valor" : "203600"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "216 680",
+      "valor" : "216680"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "216 680",
+      "valor" : "216680"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "216 680",
+      "valor" : "216680"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "245 505",
+      "valor" : "245505"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "252 058",
+      "valor" : "252058"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "273 152",
+      "valor" : "273152"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "472 011",
+      "valor" : "472011"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "497 251",
+      "valor" : "497251"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "646 784",
+      "valor" : "646784"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "646 784",
+      "valor" : "646784"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "1 627 553",
+      "valor" : "1627553"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "2 620 208",
+      "valor" : "2620208"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "3 675 721",
+      "valor" : "3675721"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "5 691 118",
+      "valor" : "5691118"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "5 691 118",
+      "valor" : "5691118"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "11 785 215",
+      "valor" : "11785215"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "12 090 667",
+      "valor" : "12090667"
+    } ],
+    "2015" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "18",
+      "valor" : "18"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "3 980",
+      "valor" : "3980"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "6 851",
+      "valor" : "6851"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "9 257",
+      "valor" : "9257"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "25 248",
+      "valor" : "25248"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "28 042",
+      "valor" : "28042"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "55 512",
+      "valor" : "55512"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "99 279",
+      "valor" : "99279"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "113 444",
+      "valor" : "113444"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "113 444",
+      "valor" : "113444"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "113 444",
+      "valor" : "113444"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "121 953",
+      "valor" : "121953"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "141 307",
+      "valor" : "141307"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "149 309",
+      "valor" : "149309"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "168 305",
+      "valor" : "168305"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "192 820",
+      "valor" : "192820"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "218 821",
+      "valor" : "218821"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "256 552",
+      "valor" : "256552"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "263 892",
+      "valor" : "263892"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "263 892",
+      "valor" : "263892"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "263 892",
+      "valor" : "263892"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "281 814",
+      "valor" : "281814"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "306 674",
+      "valor" : "306674"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "328 084",
+      "valor" : "328084"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "362 795",
+      "valor" : "362795"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "582 340",
+      "valor" : "582340"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "612 605",
+      "valor" : "612605"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "843 211",
+      "valor" : "843211"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "843 211",
+      "valor" : "843211"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 105 073",
+      "valor" : "2105073"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "3 100 777",
+      "valor" : "3100777"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 509 628",
+      "valor" : "4509628"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 511 997",
+      "valor" : "6511997"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 511 997",
+      "valor" : "6511997"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "14 188 730",
+      "valor" : "14188730"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "14 566 066",
+      "valor" : "14566066"
+    } ],
+    "2016" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "3 677",
+      "valor" : "3677"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "8 877",
+      "valor" : "8877"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "12 174",
+      "valor" : "12174"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "16 995",
+      "valor" : "16995"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "21 312",
+      "valor" : "21312"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "47 542",
+      "valor" : "47542"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "80 272",
+      "valor" : "80272"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "96 858",
+      "valor" : "96858"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "114 408",
+      "valor" : "114408"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "114 408",
+      "valor" : "114408"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "114 408",
+      "valor" : "114408"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "115 755",
+      "valor" : "115755"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "122 984",
+      "valor" : "122984"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "137 946",
+      "valor" : "137946"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "166 739",
+      "valor" : "166739"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "191 857",
+      "valor" : "191857"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "212 889",
+      "valor" : "212889"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "252 363",
+      "valor" : "252363"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "264 408",
+      "valor" : "264408"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "275 049",
+      "valor" : "275049"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "275 049",
+      "valor" : "275049"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "275 049",
+      "valor" : "275049"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "294 543",
+      "valor" : "294543"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "328 476",
+      "valor" : "328476"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "363 267",
+      "valor" : "363267"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "584 173",
+      "valor" : "584173"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "646 741",
+      "valor" : "646741"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "884 979",
+      "valor" : "884979"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "884 979",
+      "valor" : "884979"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 115 707",
+      "valor" : "2115707"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "3 076 881",
+      "valor" : "3076881"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 505 244",
+      "valor" : "4505244"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 815 990",
+      "valor" : "6815990"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 815 990",
+      "valor" : "6815990"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "14 534 809",
+      "valor" : "14534809"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "14 924 266",
+      "valor" : "14924266"
+    } ],
+    "2017" : [ {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "6 880",
+      "valor" : "6880"
+    }, {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "7 228",
+      "valor" : "7228"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "14 173",
+      "valor" : "14173"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "14 870",
+      "valor" : "14870"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "39 449",
+      "valor" : "39449"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "44 900",
+      "valor" : "44900"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "72 442",
+      "valor" : "72442"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "96 877",
+      "valor" : "96877"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "125 260",
+      "valor" : "125260"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "129 132",
+      "valor" : "129132"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "153 259",
+      "valor" : "153259"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "162 455",
+      "valor" : "162455"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "162 455",
+      "valor" : "162455"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "162 455",
+      "valor" : "162455"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "204 954",
+      "valor" : "204954"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "218 556",
+      "valor" : "218556"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "230 662",
+      "valor" : "230662"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "282 699",
+      "valor" : "282699"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "291 980",
+      "valor" : "291980"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "291 980",
+      "valor" : "291980"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "291 980",
+      "valor" : "291980"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "295 363",
+      "valor" : "295363"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "321 375",
+      "valor" : "321375"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "344 176",
+      "valor" : "344176"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "391 064",
+      "valor" : "391064"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "600 709",
+      "valor" : "600709"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "763 126",
+      "valor" : "763126"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "917 111",
+      "valor" : "917111"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "917 111",
+      "valor" : "917111"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 238 474",
+      "valor" : "2238474"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "3 216 487",
+      "valor" : "3216487"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 873 843",
+      "valor" : "4873843"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 895 109",
+      "valor" : "6895109"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 895 109",
+      "valor" : "6895109"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "15 155 199",
+      "valor" : "15155199"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "15 609 634",
+      "valor" : "15609634"
+    } ],
+    "2018" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "6 256",
+      "valor" : "6256"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "9 290",
+      "valor" : "9290"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "12 993",
+      "valor" : "12993"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "13 577",
+      "valor" : "13577"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "42 100",
+      "valor" : "42100"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "70 755",
+      "valor" : "70755"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "91 460",
+      "valor" : "91460"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "112 129",
+      "valor" : "112129"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "119 870",
+      "valor" : "119870"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "136 988",
+      "valor" : "136988"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "138 905",
+      "valor" : "138905"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "138 905",
+      "valor" : "138905"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "138 905",
+      "valor" : "138905"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "197 060",
+      "valor" : "197060"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "198 541",
+      "valor" : "198541"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "203 436",
+      "valor" : "203436"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "259 183",
+      "valor" : "259183"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "265 300",
+      "valor" : "265300"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "265 300",
+      "valor" : "265300"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "265 300",
+      "valor" : "265300"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "273 557",
+      "valor" : "273557"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "287 848",
+      "valor" : "287848"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "301 576",
+      "valor" : "301576"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "325 730",
+      "valor" : "325730"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "374 156",
+      "valor" : "374156"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "564 675",
+      "valor" : "564675"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "744 583",
+      "valor" : "744583"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "920 495",
+      "valor" : "920495"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "920 495",
+      "valor" : "920495"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 021 097",
+      "valor" : "2021097"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "3 048 226",
+      "valor" : "3048226"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 624 580",
+      "valor" : "4624580"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 432 093",
+      "valor" : "6432093"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 432 093",
+      "valor" : "6432093"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "14 372 421",
+      "valor" : "14372421"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "14 776 626",
+      "valor" : "14776626"
+    } ],
+    "2019" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "6 216",
+      "valor" : "6216"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "11 903",
+      "valor" : "11903"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "13 950",
+      "valor" : "13950"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "15 589",
+      "valor" : "15589"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "58 477",
+      "valor" : "58477"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "70 806",
+      "valor" : "70806"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "101 881",
+      "valor" : "101881"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "120 872",
+      "valor" : "120872"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "127 910",
+      "valor" : "127910"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "146 257",
+      "valor" : "146257"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "153 448",
+      "valor" : "153448"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "153 448",
+      "valor" : "153448"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "153 448",
+      "valor" : "153448"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "180 346",
+      "valor" : "180346"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "204 457",
+      "valor" : "204457"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "214 098",
+      "valor" : "214098"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "271 661",
+      "valor" : "271661"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "279 140",
+      "valor" : "279140"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "279 140",
+      "valor" : "279140"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "279 140",
+      "valor" : "279140"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "285 567",
+      "valor" : "285567"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "312 887",
+      "valor" : "312887"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "319 340",
+      "valor" : "319340"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "327 696",
+      "valor" : "327696"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "387 187",
+      "valor" : "387187"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "564 060",
+      "valor" : "564060"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "760 726",
+      "valor" : "760726"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "949 259",
+      "valor" : "949259"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "949 259",
+      "valor" : "949259"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 096 241",
+      "valor" : "2096241"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "3 182 599",
+      "valor" : "3182599"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 813 870",
+      "valor" : "4813870"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 861 597",
+      "valor" : "6861597"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "6 861 597",
+      "valor" : "6861597"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "15 108 154",
+      "valor" : "15108154"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "15 540 742",
+      "valor" : "15540742"
+    } ],
+    "2020" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "993",
+      "valor" : "993"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "1 020",
+      "valor" : "1020"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "2 149",
+      "valor" : "2149"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "4 320",
+      "valor" : "4320"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "10 589",
+      "valor" : "10589"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "15 722",
+      "valor" : "15722"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "26 506",
+      "valor" : "26506"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "26 684",
+      "valor" : "26684"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "30 032",
+      "valor" : "30032"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "31 480",
+      "valor" : "31480"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "32 003",
+      "valor" : "32003"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "32 003",
+      "valor" : "32003"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "32 003",
+      "valor" : "32003"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "41 012",
+      "valor" : "41012"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "48 134",
+      "valor" : "48134"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "48 389",
+      "valor" : "48389"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "60 445",
+      "valor" : "60445"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "64 889",
+      "valor" : "64889"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "67 041",
+      "valor" : "67041"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "67 449",
+      "valor" : "67449"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "70 556",
+      "valor" : "70556"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "70 556",
+      "valor" : "70556"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "70 556",
+      "valor" : "70556"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "75 798",
+      "valor" : "75798"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "88 421",
+      "valor" : "88421"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "152 493",
+      "valor" : "152493"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "182 125",
+      "valor" : "182125"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "223 223",
+      "valor" : "223223"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "223 223",
+      "valor" : "223223"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "489 986",
+      "valor" : "489986"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "839 136",
+      "valor" : "839136"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "1 217 999",
+      "valor" : "1217999"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "1 680 473",
+      "valor" : "1680473"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "1 680 473",
+      "valor" : "1680473"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "3 700 102",
+      "valor" : "3700102"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "3 802 661",
+      "valor" : "3802661"
+    } ],
+    "2021" : [ {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "1 256",
+      "valor" : "1256"
+    }, {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "1 993",
+      "valor" : "1993"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "2 566",
+      "valor" : "2566"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "5 397",
+      "valor" : "5397"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "9 829",
+      "valor" : "9829"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "11 565",
+      "valor" : "11565"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "24 527",
+      "valor" : "24527"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "45 343",
+      "valor" : "45343"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "46 306",
+      "valor" : "46306"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "46 306",
+      "valor" : "46306"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "46 306",
+      "valor" : "46306"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "47 313",
+      "valor" : "47313"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "47 782",
+      "valor" : "47782"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "50 170",
+      "valor" : "50170"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "64 927",
+      "valor" : "64927"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "79 065",
+      "valor" : "79065"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "86 990",
+      "valor" : "86990"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "99 252",
+      "valor" : "99252"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "99 252",
+      "valor" : "99252"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "99 252",
+      "valor" : "99252"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "104 368",
+      "valor" : "104368"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "109 930",
+      "valor" : "109930"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "112 650",
+      "valor" : "112650"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "113 316",
+      "valor" : "113316"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "130 458",
+      "valor" : "130458"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "233 423",
+      "valor" : "233423"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "261 058",
+      "valor" : "261058"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "328 159",
+      "valor" : "328159"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "328 159",
+      "valor" : "328159"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "691 238",
+      "valor" : "691238"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "1 220 378",
+      "valor" : "1220378"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "1 812 150",
+      "valor" : "1812150"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "2 372 845",
+      "valor" : "2372845"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "2 372 845",
+      "valor" : "2372845"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "5 334 850",
+      "valor" : "5334850"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "5 480 408",
+      "valor" : "5480408"
+    } ],
+    "2022" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "3 596",
+      "valor" : "3596"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "4 674",
+      "valor" : "4674"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "6 337",
+      "valor" : "6337"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "6 602",
+      "valor" : "6602"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "26 952",
+      "valor" : "26952"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "38 594",
+      "valor" : "38594"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "72 936",
+      "valor" : "72936"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "76 493",
+      "valor" : "76493"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "76 647",
+      "valor" : "76647"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "83 862",
+      "valor" : "83862"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "86 518",
+      "valor" : "86518"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "86 518",
+      "valor" : "86518"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "86 518",
+      "valor" : "86518"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "100 405",
+      "valor" : "100405"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "123 024",
+      "valor" : "123024"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "152 229",
+      "valor" : "152229"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "157 061",
+      "valor" : "157061"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "157 061",
+      "valor" : "157061"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "157 061",
+      "valor" : "157061"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "172 486",
+      "valor" : "172486"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "174 649",
+      "valor" : "174649"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "177 514",
+      "valor" : "177514"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "189 237",
+      "valor" : "189237"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "197 199",
+      "valor" : "197199"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "215 280",
+      "valor" : "215280"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "366 437",
+      "valor" : "366437"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "477 391",
+      "valor" : "477391"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "557 779",
+      "valor" : "557779"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "557 779",
+      "valor" : "557779"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "1 293 059",
+      "valor" : "1293059"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "2 093 147",
+      "valor" : "2093147"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "3 112 072",
+      "valor" : "3112072"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "4 192 125",
+      "valor" : "4192125"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "4 192 125",
+      "valor" : "4192125"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "9 370 315",
+      "valor" : "9370315"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "9 613 894",
+      "valor" : "9613894"
+    } ],
+    "2023" : [ {
+      "geocod" : "11B",
+      "geodsg" : "Alto Tâmega",
+      "ind_string" : "5 263",
+      "valor" : "5263"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "6 777",
+      "valor" : "6777"
+    }, {
+      "geocod" : "11E",
+      "geodsg" : "Terras de Trás-os-Montes",
+      "ind_string" : "6 985",
+      "valor" : "6985"
+    }, {
+      "geocod" : "186",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "10 033",
+      "valor" : "10033"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "38 627",
+      "valor" : "38627"
+    }, {
+      "geocod" : "16H",
+      "geodsg" : "Beira Baixa",
+      "ind_string" : "50 721",
+      "valor" : "50721"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "95 888",
+      "valor" : "95888"
+    }, {
+      "geocod" : "16I",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "98 766",
+      "valor" : "98766"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Alto Minho",
+      "ind_string" : "99 925",
+      "valor" : "99925"
+    }, {
+      "geocod" : "16J",
+      "geodsg" : "Beiras e Serra da Estrela",
+      "ind_string" : "99 925",
+      "valor" : "99925"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "118 638",
+      "valor" : "118638"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "118 638",
+      "valor" : "118638"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "118 638",
+      "valor" : "118638"
+    }, {
+      "geocod" : "187",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "125 225",
+      "valor" : "125225"
+    }, {
+      "geocod" : "11D",
+      "geodsg" : "Douro",
+      "ind_string" : "163 567",
+      "valor" : "163567"
+    }, {
+      "geocod" : "11C",
+      "geodsg" : "Tâmega e Sousa",
+      "ind_string" : "170 053",
+      "valor" : "170053"
+    }, {
+      "geocod" : "119",
+      "geodsg" : "Ave",
+      "ind_string" : "210 324",
+      "valor" : "210324"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "215 431",
+      "valor" : "215431"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "215 431",
+      "valor" : "215431"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "215 431",
+      "valor" : "215431"
+    }, {
+      "geocod" : "16G",
+      "geodsg" : "Viseu Dão Lafões",
+      "ind_string" : "231 453",
+      "valor" : "231453"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "236 981",
+      "valor" : "236981"
+    }, {
+      "geocod" : "16F",
+      "geodsg" : "Região de Leiria",
+      "ind_string" : "260 684",
+      "valor" : "260684"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "276 550",
+      "valor" : "276550"
+    }, {
+      "geocod" : "16D",
+      "geodsg" : "Região de Aveiro",
+      "ind_string" : "321 241",
+      "valor" : "321241"
+    }, {
+      "geocod" : "16E",
+      "geodsg" : "Região de Coimbra",
+      "ind_string" : "457 458",
+      "valor" : "457458"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "607 364",
+      "valor" : "607364"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "701 723",
+      "valor" : "701723"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "701 723",
+      "valor" : "701723"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "1 757 229",
+      "valor" : "1757229"
+    }, {
+      "geocod" : "11A",
+      "geodsg" : "Área Metropolitana do Porto",
+      "ind_string" : "2 630 576",
+      "valor" : "2630576"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "3 894 057",
+      "valor" : "3894057"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "5 342 093",
+      "valor" : "5342093"
+    }, {
+      "geocod" : "170",
+      "geodsg" : "Área Metropolitana de Lisboa",
+      "ind_string" : "5 342 093",
+      "valor" : "5342093"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "11 971 652",
+      "valor" : "11971652"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "12 305 721",
+      "valor" : "12305721"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

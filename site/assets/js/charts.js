@@ -579,7 +579,7 @@ function lines(host, data) {
 }
 
 /* dumbbell: dois valores por categoria (a → b), terceiro marcador opcional (c), linha de referência e faixa; ordenação alternável.
-   data.rows[{label,a,b,c,highlight}], data.config{aLabel,bLabel,cLabel,ref,refLabel,band,bandLabel,unit,decimals,domain,sorts} */
+   data.rows[{label,short (rótulo opcional para ecrãs estreitos),a,b,c,highlight}], data.config{aLabel,bLabel,cLabel,ref,refLabel,band,bandLabel,unit,decimals,domain,sorts} */
 function dumbbell(host, data) {
   const C = data.config; const d = C.decimals ?? 1;
   let sortKey = C.sorts?.[0]?.[0] || "b";
@@ -593,7 +593,7 @@ function dumbbell(host, data) {
     const rows = [...data.rows].sort((p, q) => key(q) - key(p) || q.a - p.a);
     const rowH = narrow ? 17 : 18, m = { t: 44, r: narrow ? 30 : 60, b: 30, l: narrow ? 104 : 140 };
     const H = m.t + m.b + rows.length * rowH;
-    const svg = svgIn(host.chart, W, H, `Gráfico de halteres: ${C.aLabel} e ${C.bLabel} por país`);
+    const svg = svgIn(host.chart, W, H, `Gráfico de halteres: ${C.aLabel} e ${C.bLabel} por ${C.itemLabel || "país"}`);
     const x = d3.scaleLinear().domain(C.domain).range([m.l, W - m.r]);
     const y = (i) => m.t + i * rowH + rowH / 2;
     if (C.band) svg.append("rect").attr("x", x(C.band[0])).attr("width", Math.max(2, x(C.band[1]) - x(C.band[0]))).attr("y", m.t - 4).attr("height", rows.length * rowH + 8).attr("fill", css("--accent-2")).attr("opacity", 0.16);
@@ -610,7 +610,7 @@ function dumbbell(host, data) {
       .on("focus", function (e, q) { const i = rows.indexOf(q); tip.show(html(q), (x(q.b ?? q.a) / W) * host.chart.clientWidth, y(i)); });
     g.append("rect").attr("x", 0).attr("width", W).attr("y", -rowH / 2).attr("height", rowH).attr("fill", (q) => (q.highlight ? css("--paper-2") : "transparent")).attr("opacity", 0.9);
     g.append("text").attr("x", m.l - 8).attr("y", 4).attr("text-anchor", "end").attr("class", "ann").style("font-size", narrow ? "11px" : "12px").style("font-weight", (q) => (q.highlight ? 700 : 400))
-      .style("fill", (q) => (q.highlight ? css("--accent") : null)).text((q) => (narrow && q.label.length > 14 ? q.label.replace("Macedónia do Norte", "Maced. do Norte") : q.label));
+      .style("fill", (q) => (q.highlight ? css("--accent") : null)).text((q) => (narrow && q.short ? q.short : narrow && q.label.length > 14 ? q.label.replace("Macedónia do Norte", "Maced. do Norte") : q.label));
     g.filter((q) => q.b != null).append("line").attr("x1", (q) => x(q.a)).attr("x2", (q) => x(q.b)).attr("stroke", css("--ink-3")).attr("stroke-width", 1.4).attr("opacity", 0.7);
     g.append("circle").attr("cx", (q) => x(q.a)).attr("r", 3.6).attr("fill", css("--ink-3"));
     g.filter((q) => q.b != null).append("circle").attr("cx", (q) => x(q.b)).attr("r", 4.6).attr("fill", (q) => (q.highlight ? css("--accent") : css("--accent-2"))).attr("stroke", css("--card")).attr("stroke-width", 1);

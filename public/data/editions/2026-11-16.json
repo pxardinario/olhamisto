@@ -1,0 +1,313 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-16",
+ "number": 10,
+ "status": "publicada",
+ "opening": "Cinco histórias para segunda-feira: quem fica sem médico de família no SNS, os juros que Portugal já paga abaixo da França, o mundo com mais autocracias do que democracias, os cinemas que não recuperaram da pandemia e as compras pela internet antes da Black Friday.",
+ "lead": "medico-familia-nacionalidade-uls-2026",
+ "generatedAt": "2026-11-16T09:00:00Z",
+ "limitations": [
+  "Mistura da edição: 2 peças de atualidade (médico de família e juros) e 3 de descoberta. Peças do tipo «Portugal comparado com a Europa»: 2 (juros e compras pela internet). Peça com fonte não oficial: democracias e autocracias (V-Dem, projeto académico). Peça sem Portugal como ângulo principal: democracias e autocracias. Tipos de gráfico: halteres (2), linhas (2) e colunas.",
+  "Candidata rejeitada: emigrantes permanentes, 2008–2025 (INE, indicadores 0006050–0006052). A série salta de 25 886 em 2020 para 120 806 em 2021, o que sugere uma mudança de método na revisão de 2026 que não foi possível confirmar nos metadados a tempo.",
+  "Candidata rejeitada: compras a vendedores de fora da UE (Eurostat isoc_ec_ibos), a propósito das plataformas asiáticas de comércio eletrónico; o conjunto só vai até 2023.",
+  "Candidata rejeitada: capacidade de computação dos modelos de IA (Epoch AI); epoch.ai não responde neste ambiente.",
+  "Nesta execução, a API do Banco Mundial e o grapher da Our World in Data não responderam pela linha de comandos, e o WebFetch não abriu ned.org nem contemporarythinkers.org (textos de Huntington); os factos da Chave do Dia foram confirmados por pesquisa."
+ ],
+ "pieces": [
+  {
+   "id": "medico-familia-nacionalidade-uls-2026",
+   "slug": "medico-familia-utentes-estrangeiros-portugueses-sns-2026",
+   "kind": "atualidade",
+   "theme": "saude",
+   "themeLabel": "Saúde",
+   "vizType": "halteres",
+   "vizLabel": "Halteres com terceiro marcador · 39 ULS · ordenação alternável",
+   "interactive": true,
+   "title": "Quase metade dos utentes estrangeiros do SNS não tem médico de família. Entre os portugueses, menos de um em dez",
+   "question": "Quem fica sem médico de família no SNS, e a diferença é só uma questão de geografia?",
+   "finding": "Em setembro de 2026, 44,9% dos utentes de nacionalidade estrangeira elegíveis para médico de família não o tinham atribuído, contra 9,3% dos de nacionalidade portuguesa. Os estrangeiros são 10,2% dos inscritos nos centros de saúde do continente, mas 35% dos 1,37 milhões de utentes sem médico. A taxa é mais alta entre estrangeiros em 37 das 39 Unidades Locais de Saúde.",
+   "context": "Desde os dados de julho, o Portal da Transparência do SNS publica os utentes inscritos por nacionalidade. Só contam como elegíveis para médico de família os residentes que tiveram contacto com o SNS nos últimos cinco anos. Em setembro, havia 10,8 milhões de inscritos no continente, 1,1 milhões estrangeiros. A falta de médicos concentra-se em Lisboa e Vale do Tejo, onde 26,7% dos elegíveis não têm médico.",
+   "interpretation": "A geografia explica só uma parte. Os estrangeiros vivem mais nas regiões onde faltam médicos, mas a diferença repete-se dentro de quase todas as ULS: na de Lisboa Ocidental, estão sem médico 2,2% dos portugueses e 43,5% dos estrangeiros; na do Algarve, 10,7% e 50,9%. Os dados não dizem porquê: não mostram há quanto tempo cada pessoa está inscrita nem a ordem das listas de espera.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "medico-familia-nacionalidade-uls-2026"
+   },
+   "period": "Setembro de 2026",
+   "unit": "% dos utentes elegíveis sem médico de família atribuído",
+   "sources": [
+    {
+     "name": "SNS — Portal da Transparência (ACSS, Registo Nacional de Utentes), «Inscritos em Cuidados de Saúde Primários» (inscritoscuidadosdesaudeprimarios), julho a setembro de 2026",
+     "url": "https://transparencia.sns.gov.pt/explore/dataset/inscritoscuidadosdesaudeprimarios/",
+     "accessed": "2026-11-16"
+    },
+    {
+     "name": "ACSS — descrição das variáveis do conjunto no dados.gov.pt",
+     "url": "https://dados.gov.pt/pt/datasets/inscritos-em-cuidados-de-saude-primarios/",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "method": [
+    "Utentes inscritos nos cuidados de saúde primários em setembro de 2026, por Unidade Local de Saúde (39, todas no continente) e nacionalidade (portuguesa ou estrangeira, como registada no Registo Nacional de Utentes), descarregados pela API do portal e transcritos sem alterações em raw/sns-medico-familia/. Taxa sem médico de família = elegíveis sem médico ÷ (elegíveis com médico + elegíveis sem médico), a fórmula do portal, que exclui quem está sem médico por opção; a taxa recalculada coincide com a publicada em todas as linhas.",
+    "São elegíveis os utentes com registo atualizado e contacto com o SNS nos últimos cinco anos; os não utilizadores e os não residentes ficam de fora. Este conjunto substitui, a partir de julho de 2026, a série anterior de utentes inscritos (2016 a junho de 2026), que não aplicava este critério: os valores das duas séries não são comparáveis. Entre julho e setembro, as taxas quase não mudaram.",
+    "Em quatro ULS do Norte (Médio Ave, Nordeste, Tâmega e Sousa e Barcelos/Esposende), as taxas são próximas de zero nos dois grupos; em Médio Ave e no Nordeste, a dos estrangeiros é ligeiramente mais baixa. O conjunto não inclui as regiões autónomas. Licença: o portal não indica licença; usa-se ao abrigo dos termos do dados.gov.pt (CC BY 4.0 para dados de organismos do Estado sem licença indicada)."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-16",
+    "note": "CSV do portal descarregado de novo (234 linhas, igual ao bruto); definições conferidas nos metadados do dados.gov.pt; recalculadas à mão as taxas, totais, quotas e o «37 das 39». Corrigidos o «como ler» (posição da linha do total), a nota sobre as ULS com taxas próximas de zero (quatro, não duas) e a data de início do conjunto."
+   }
+  },
+  {
+   "id": "juros-dividas-10-anos-2007-2026",
+   "slug": "juros-obrigacoes-tesouro-10-anos-portugal-franca-italia-espanha-alemanha",
+   "kind": "atualidade",
+   "theme": "economia",
+   "themeLabel": "Economia",
+   "vizType": "linha",
+   "vizLabel": "Linhas mensais · cinco países · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Portugal paga menos juros a dez anos do que a França, a Itália e a Espanha. Em 2012 pagava mais 12 pontos do que a Alemanha",
+   "question": "Como mudou o preço a que os investidores emprestam a Portugal, comparado com as maiores economias do euro?",
+   "finding": "Em outubro de 2026, a taxa das obrigações do Tesouro português a dez anos foi, em média, de 3,92%, contra 4,89% na França, 4,68% na Itália, 4,07% na Espanha e 3,42% na Alemanha. Portugal paga menos do que a Espanha todos os meses desde janeiro de 2023 e menos do que a França desde julho de 2024, o que não acontecera em nenhum mês desde 2007. Em janeiro de 2012, a taxa portuguesa chegou a 13,85%, mais 12,03 pontos do que a alemã.",
+   "context": "A taxa de juro das obrigações a dez anos mede quanto um Estado paga para se financiar a longo prazo e serve de termómetro da confiança dos investidores. Em 2026, as taxas subiram nos cinco países do gráfico: em Portugal, de 3,13% em fevereiro para 3,92% em outubro; em França, 1,49 pontos no mesmo período, numa economia cujo PIB do 3.º trimestre ficou abaixo do de um ano antes.",
+   "interpretation": "A diferença face à Alemanha, a referência de menor risco no euro, caiu de 12 pontos em 2012 para 0,50 em outubro. Os investidores passaram a exigir menos a Portugal do que à França ou à Itália, o que coincide com a descida do rácio da dívida pública portuguesa. Pagar menos do que os vizinhos não protege das subidas: quando os juros sobem na zona euro, sobem em Portugal.",
+   "chart": {
+    "type": "lines",
+    "dataset": "juros-dividas-10-anos-2007-2026"
+   },
+   "period": "Janeiro de 2007 a outubro de 2026",
+   "unit": "% (média mensal)",
+   "sources": [
+    {
+     "name": "BCE — Taxas de juro de longo prazo para efeitos de convergência, obrigações do Tesouro a 10 anos (IRS.M.<país>.L.L40.CI.0000.EUR.N.Z)",
+     "url": "https://data.ecb.europa.eu/data/datasets/IRS",
+     "accessed": "2026-11-16"
+    },
+    {
+     "name": "Eurostat — PIB em volume, variação homóloga, 3.º trimestre de 2026 (namq_10_gdp)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/namq_10_gdp/default/table",
+     "accessed": "2026-11-16"
+    },
+    {
+     "name": "Eurostat — Dívida pública em % do PIB (gov_10dd_edpt1)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "method": [
+    "Médias mensais da taxa de rendibilidade das obrigações do Tesouro a 10 anos usada no critério de convergência de Maastricht, publicadas pelo BCE a partir dos dados dos bancos centrais nacionais, para Portugal, França, Itália, Espanha e Alemanha, de janeiro de 2007 a outubro de 2026, descarregadas pela API e transcritas sem alterações em raw/juros-10-anos/. Diferenças em pontos percentuais calculadas com os valores publicados (três casas decimais).",
+    "A Grécia ficou fora do gráfico: a taxa grega chegou a cerca de 29% em 2012, o que esmagaria a escala, e falta o valor de julho de 2015. Em outubro de 2026 foi de 4,41%, também acima da portuguesa. A taxa é uma média mensal de rendibilidades no mercado secundário, não o custo médio da dívida já emitida, que depende das emissões passadas."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-16",
+    "note": "Séries do BCE descarregadas de novo (1 190 observações, iguais aos brutos, e Grécia); conferidos valores de outubro, diferenciais, meses abaixo da França e da Espanha e o máximo de janeiro de 2012; PIB francês confirmado no Eurostat. Precisado o alcance da subida das taxas e acrescentada a fonte do rácio da dívida."
+   }
+  },
+  {
+   "id": "democracias-autocracias-mundo-1900-2025",
+   "slug": "democracias-autocracias-mundo-v-dem-1900-2025",
+   "kind": "descoberta",
+   "theme": "geopolitica",
+   "themeLabel": "Geopolítica e defesa",
+   "vizType": "linha",
+   "vizLabel": "Linhas · quatro contagens · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Pelo segundo ano seguido, há mais autocracias do que democracias no mundo. Entre 2003 e 2023 foi ao contrário",
+   "question": "A democracia está a recuar no mundo e, se sim, desde quando?",
+   "finding": "Em 2025, o projeto V-Dem classificou 92 países como autocracias e 87 como democracias; em 2024 eram 93 e 86. Entre 2003 e 2023, as democracias foram sempre mais, o que nunca tinha acontecido antes, desde 1900. As democracias liberais, a categoria mais exigente, desceram de 45 em 2009 para 30 em 2024 e 31 em 2025, níveis que não se viam desde 1992, e as autocracias fechadas subiram para 35, o máximo desde 2001.",
+   "context": "O V-Dem, um projeto sediado na Universidade de Gotemburgo, classifica todos os anos o regime político de 179 países com base em avaliações de milhares de especialistas. Há quatro categorias: autocracia fechada, sem eleições multipartidárias; autocracia eleitoral, com eleições que não são livres ou justas; democracia eleitoral; e democracia liberal, que exige também tribunais independentes e limites ao poder executivo. A versão de 2026 cobre até 2025.",
+   "interpretation": "Em 1974, quando o 25 de Abril abriu o ciclo de transições a que Samuel Huntington chamaria «terceira vaga», havia 36 democracias; em 2003, 95. O recuo recente é feito sobretudo de deslizes graduais: em 2025, os Estados Unidos passaram de democracia liberal a democracia eleitoral. Contar países não pesa a população: a Índia, classificada como autocracia eleitoral, conta tanto como o Luxemburgo.",
+   "chart": {
+    "type": "lines",
+    "dataset": "democracias-autocracias-mundo-1900-2025"
+   },
+   "period": "1900 a 2025",
+   "unit": "Número de países",
+   "sources": [
+    {
+     "name": "V-Dem — Country-Year Dataset v16 (2026), variável v2x_regime (Regimes of the World), CC BY-SA 4.0",
+     "url": "https://v-dem.net/data/the-v-dem-dataset/",
+     "accessed": "2026-11-16"
+    },
+    {
+     "name": "V-Dem — pacote vdemdata 16.0 (ficheiro vdem.RData, cópia oficial no GitHub)",
+     "url": "https://github.com/vdeminstitute/vdemdata",
+     "accessed": "2026-11-16"
+    },
+    {
+     "name": "V-Dem Institute — Democracy Report 2026",
+     "url": "https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf",
+     "accessed": "2026-11-16"
+    },
+    {
+     "name": "Lührmann, Tannenberg e Lindberg (2018), «Regimes of the World (RoW)», Politics and Governance 6(1)",
+     "url": "https://doi.org/10.17645/pag.v6i1.1214",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "method": [
+    "Número de países em cada categoria da classificação «Regimes of the World» (variável v2x_regime do V-Dem v16), por ano, de 1900 a 2025, contado a partir do ficheiro oficial do pacote vdemdata 16.0 (colunas extraídas sem alterar valores para raw/vdem/). Democracias = eleitorais + liberais; autocracias = eleitorais + fechadas. As contagens de 2025 coincidem com as do Democracy Report 2026 (92 e 87). Para 2024, a v16, revista, dá 93 e 86; o relatório indica 91 e 88, valores da versão anterior.",
+    "O número de unidades varia ao longo do tempo (120 em 1900, 179 em 2025): o V-Dem inclui alguns territórios não soberanos e colónias, e os países novos entram quando passam a existir. Há 97 registos sem classificação entre 1900 e 2025, que ficam de fora. A classificação resulta de índices construídos a partir de avaliações de especialistas, com margem de incerteza; os casos perto da fronteira entre categorias podem mudar entre versões.",
+    "Os dados derivados publicados ficam sob a mesma licença CC BY-SA 4.0."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-16",
+    "note": "Contagens recalculadas a partir do bruto (2025, 2024, 1974, 2003, 2009, sequência 2003–2023, autocracias fechadas, EUA, Índia, Luxemburgo); contagens de 2025, mudança dos EUA e licença CC BY-SA 4.0 confirmadas por pesquisa. Corrigida a afirmação sobre as democracias liberais (30 em 2024) e a nota sobre a revisão de 2024 face ao relatório."
+   }
+  },
+  {
+   "id": "cinema-espetadores-portugal-2006-2025",
+   "slug": "espetadores-cinema-portugal-2006-2025",
+   "kind": "descoberta",
+   "theme": "cultura",
+   "themeLabel": "Cultura e história",
+   "vizType": "barras",
+   "vizLabel": "Colunas · 20 anos",
+   "interactive": true,
+   "title": "Os cinemas portugueses venderam 11 milhões de bilhetes em 2025, menos 30% do que antes da pandemia",
+   "question": "Os portugueses voltaram às salas de cinema depois da pandemia?",
+   "finding": "Em 2025, houve 10,96 milhões de espetadores de cinema em Portugal, menos 7,7% do que em 2024 e menos 30% do que em 2019, o último ano antes da pandemia. Excluídos os anos de 2020 a 2022, foi o valor mais baixo da série iniciada em 2006. Em 2026, a tendência inverteu-se: de janeiro a setembro, houve 9,25 milhões de espetadores, mais 9,7% do que no mesmo período de 2025.",
+   "context": "As salas fecharam em março de 2020 e reabriram com limites de lotação; nesse ano venderam-se 3,8 milhões de bilhetes. A recuperação parou a meio: depois de 12,3 milhões em 2023, vieram duas descidas seguidas. Antes da pandemia, o mínimo tinha sido 2014, no fim da crise, com 12,1 milhões. Os números são do Instituto do Cinema e Audiovisual, que recolhe os dados de bilheteira junto dos exibidores.",
+   "interpretation": "O total depende muito de poucos filmes: em 2025, os norte-americanos venderam 48,4% dos bilhetes, e os portugueses 1,8%, menos de 200 mil. Uma boa época de estreias pode mudar o ano, como parece acontecer em 2026, em que agosto foi o mês com mais espetadores desde o início de 2023. Estes dados contam bilhetes, não pessoas, e não incluem o que se vê em casa, nas plataformas.",
+   "chart": {
+    "type": "columns",
+    "dataset": "cinema-espetadores-portugal-2006-2025"
+   },
+   "period": "2006 a 2025 (e janeiro a setembro de 2026)",
+   "unit": "Milhões de espetadores por ano",
+   "sources": [
+    {
+     "name": "ICA — Instituto do Cinema e Audiovisual, espetadores de cinema (metodologia de 2006), via INE, indicadores 0004095, 0008345, 0010724 e 0012252",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0010724",
+     "accessed": "2026-11-16"
+    },
+    {
+     "name": "ICA — Estatísticas do cinema",
+     "url": "https://www.ica-ip.pt/pt/downloads/estatisticas/",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "method": [
+    "Espetadores de cinema em Portugal (metodologia de 2006), anuais: 2006–2010 do indicador 0004095, 2011–2023 do 0008345 e 2024–2025 do 0010724 do INE, cuja fonte é o ICA, descarregados pela API do INE e transcritos sem alterações em raw/cinema-pt/. Nos anos em que as séries se sobrepõem, os valores coincidem (em 2011 diferem em 30 espetadores; usa-se o indicador mais recente). Os anos anteriores a 2006 seguem outra metodologia e ficam de fora.",
+    "Janeiro a setembro: soma dos valores mensais do indicador 0012252 (desde janeiro de 2023); a soma mensal de 2024 e 2025 coincide com o total anual. A origem dos filmes (EUA, Portugal) vem do indicador 0010724; as coproduções contam à parte. Espetadores são bilhetes vendidos, não pessoas diferentes."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-16",
+    "note": "Quatro indicadores do INE descarregados de novo e iguais aos brutos em 2006–2025; recalculadas variações, mínimos, soma de janeiro a setembro, máximo mensal e quotas por origem. Precisada a referência à crise em 2014."
+   }
+  },
+  {
+   "id": "compras-online-ue-2021-2025",
+   "slug": "compras-pela-internet-portugal-ue-2021-2025",
+   "kind": "descoberta",
+   "theme": "marketing",
+   "themeLabel": "Marketing",
+   "vizType": "halteres",
+   "vizLabel": "Halteres · 27 países · ordenação alternável",
+   "interactive": true,
+   "title": "Quatro em cada dez portugueses não fizeram uma única compra pela internet num ano. Só três países da UE ficam abaixo",
+   "question": "Quantos portugueses compram pela internet, a poucos dias da Black Friday, e como se comparam com os europeus?",
+   "finding": "Em 2025, 60,5% dos portugueses entre os 16 e os 74 anos fizeram pelo menos uma compra pela internet nos 12 meses anteriores, contra 73,6% na UE. Portugal subiu 8,9 pontos desde 2021, mais do que a média europeia (6,5), mas continua em 24.º lugar entre 27, à frente apenas da Roménia, da Itália e da Bulgária, e abaixo do nível que a UE já tinha em 2021 (67,1%).",
+   "context": "A Black Friday calha este ano a 27 de novembro. O Eurostat mede a adesão ao comércio eletrónico com o inquérito anual à utilização das tecnologias da informação pelas famílias: conta quem fez pelo menos uma encomenda de bens ou serviços pela internet, para uso privado, nos 12 meses anteriores à entrevista. Nos três meses anteriores, a percentagem portuguesa é de 49,6%, contra 62,4% na UE.",
+   "interpretation": "A distância para a média europeia encurtou pouco: 15,5 pontos em 2021, 13,1 em 2025. A Roménia, que partiu de 38,5%, chegou a 60,3%, quase ao nível português. No topo, na Irlanda e nos Países Baixos, mais de 94% compram online. Os dados medem quantas pessoas compram, não quanto gastam nem a quem, e a base inclui quem não usa a internet.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "compras-online-ue-2021-2025"
+   },
+   "period": "2021 e 2025",
+   "unit": "% das pessoas dos 16 aos 74 anos",
+   "sources": [
+    {
+     "name": "Eurostat — Internet purchases by individuals (2020 onwards), isoc_ec_ib20, inquérito à utilização de TIC pelas famílias",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ec_ib20/default/table",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "method": [
+    "Percentagem de pessoas dos 16 aos 74 anos cuja última compra pela internet foi nos 12 meses anteriores à entrevista (indicador I_BLT12, unidade PC_IND) e nos 3 meses anteriores (I_BUY3), nos 27 países da UE e no agregado UE-27, descarregada pela API do Eurostat e transcrita sem alterações em raw/compras-online/. Valores arredondados a uma casa decimal; posições e diferenças calculadas com os valores publicados.",
+    "A comparação começa em 2021 e não em 2020, o primeiro ano deste conjunto, porque a França não tem valor em 2020 e o agregado da UE tem uma quebra de série em 2021 (tal como a Alemanha e a Irlanda). O eixo do gráfico começa nos 30%."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-16",
+    "note": "Conjunto do Eurostat descarregado de novo; conferidos os 27 países e a UE em 2021 e 2025, posições, diferenças, valores a 3 meses, quebras de série e a data da Black Friday. Sem correções."
+   }
+  }
+ ],
+ "chave": {
+  "id": "vagas-de-democratizacao",
+  "axis": "geopolitica",
+  "axisLabel": "Geopolítica e história",
+  "certainty": "Tese debatida",
+  "title": "As vagas de democratização",
+  "concept": "A ideia de que as transições para a democracia não chegam uma a uma, ao acaso, mas em vagas: períodos em que muitos países mudam no mesmo sentido, seguidos de refluxos em que parte deles volta atrás.",
+  "lesson": [
+   "Samuel Huntington começou o livro «The Third Wave», de 1991, em Lisboa, pouco depois da meia-noite de 25 de Abril de 1974, quando a Rádio Renascença transmitiu «Grândola, Vila Morena», a senha para as tropas avançarem. Para o politólogo norte-americano, foi o início de uma vaga: seguiram-se a Grécia e a Espanha, depois a América Latina, partes da Ásia e, a partir de 1989, o Leste europeu.",
+   "Huntington chamou vaga a um período em que as transições para a democracia superam claramente as que vão no sentido contrário. Contou três: de 1828 a 1926, de 1943 a 1962 e a que começou em 1974; as duas primeiras foram seguidas de vagas inversas. Entre as causas, apontou o efeito de bola de neve: cada transição bem-sucedida torna a seguinte mais imaginável, como uma fila de dominós.",
+   "As vagas dependem de como se conta. Renske Doorenspleet, com outros critérios, não encontrou a segunda vaga inversa, e Charles Kurzman mostrou que a periodização muda conforme a forma de medir. Desde 2019, investigadores do V-Dem descrevem uma «terceira vaga de autocratização», feita sobretudo de governos eleitos que desgastam as instituições por dentro. É uma forma de descrever o passado, não uma lei que preveja o futuro."
+  ],
+  "diagram": {
+   "title": "Três vagas e duas vagas inversas",
+   "svg": "<svg viewBox=\"0 0 340 250\" role=\"img\" aria-label=\"Esquema das vagas de democratização segundo Samuel Huntington. Uma linha do tempo horizontal vai de 1820 a 2030. Acima da linha, três ondas representam as vagas de democratização: a primeira, longa, de 1828 a 1926; a segunda, curta, de 1943 a 1962; a terceira a partir de 1974, iniciada em Portugal. Abaixo da linha, duas ondas invertidas representam as vagas inversas, de 1922 a 1942 e de 1958 a 1975. Cada vaga inversa começa antes de a vaga anterior acabar. A altura das ondas é ilustrativa.\"><line x1=\"14\" y1=\"130\" x2=\"330\" y2=\"130\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\"/><path d=\"M31.7,130 C67.4,60 138.8,60 174.5,130\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\" stroke-width=\"1.5\"/><path d=\"M199.2,130 C206.125,75 219.975,75 226.9,130\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\" stroke-width=\"1.5\"/><path d=\"M244.4,130 C274.4,40 306.0,40 326.0,50\" fill=\"none\" stroke=\"var(--key-acc)\" stroke-width=\"1.5\"/><path d=\"M168.6,130 C175.9,175 190.5,175 197.8,130\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><path d=\"M221.1,130 C227.3,170 239.7,170 245.9,130\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"103.1\" y=\"62\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">1.ª vaga</text><text x=\"103.1\" y=\"76\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"10.5\" font-weight=\"400\">1828–1926</text><text x=\"213.1\" y=\"84\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">2.ª vaga</text><text x=\"213.1\" y=\"98\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"10.5\" font-weight=\"400\">1943–62</text><text x=\"288.1\" y=\"30\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">3.ª vaga</text><text x=\"288.1\" y=\"44\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"10.5\" font-weight=\"400\">desde 1974</text><text x=\"195.2\" y=\"190\" text-anchor=\"end\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">1.ª inversa</text><text x=\"195.2\" y=\"204\" text-anchor=\"end\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">1922–42</text><text x=\"219.5\" y=\"184\" text-anchor=\"start\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">2.ª inversa</text><text x=\"219.5\" y=\"198\" text-anchor=\"start\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">1958–75</text><circle cx=\"244.4\" cy=\"130\" r=\"4\" fill=\"var(--key-acc)\"/><text x=\"250.4\" y=\"148\" text-anchor=\"start\" fill=\"var(--key-ink)\" font-size=\"10.5\" font-weight=\"600\">Lisboa, 1974</text><line x1=\"63.7\" y1=\"127\" x2=\"63.7\" y2=\"133\" stroke=\"var(--key-rule)\" stroke-width=\"1\"/><text x=\"63.7\" y=\"226\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">1850</text><line x1=\"136.6\" y1=\"127\" x2=\"136.6\" y2=\"133\" stroke=\"var(--key-rule)\" stroke-width=\"1\"/><text x=\"136.6\" y=\"226\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">1900</text><line x1=\"209.4\" y1=\"127\" x2=\"209.4\" y2=\"133\" stroke=\"var(--key-rule)\" stroke-width=\"1\"/><text x=\"209.4\" y=\"226\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">1950</text><line x1=\"282.3\" y1=\"127\" x2=\"282.3\" y2=\"133\" stroke=\"var(--key-rule)\" stroke-width=\"1\"/><text x=\"282.3\" y=\"226\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">2000</text><text x=\"20\" y=\"244\" text-anchor=\"start\" fill=\"var(--key-ink-2)\" font-size=\"10.5\" font-weight=\"400\">Acima: vagas de democratização. Abaixo: vagas inversas.</text></svg>",
+   "caption": "Esquema ilustrativo, não são dados reais: as datas são as de Huntington (1991); a altura das ondas não representa o número de democracias."
+  },
+  "aside": "Na noite do 25 de Abril houve duas senhas. A primeira foi «E Depois do Adeus», de Paulo de Carvalho, transmitida às 22h55 de 24 de abril pelos Emissores Associados de Lisboa; a segunda, «Grândola, Vila Morena», de José Afonso, passou na Rádio Renascença pouco depois da meia-noite. A hora exata da segunda varia entre as fontes: a mais citada é 0h20; Huntington escreveu 0h25.",
+  "application": "Aparece nas análises da Primavera Árabe, em que a queda do presidente da Tunísia, em janeiro de 2011, foi seguida de protestos em vários países da região; nas transições em cadeia da Europa de Leste em 1989; e nos relatórios anuais sobre o estado da democracia no mundo, que medem se as mudanças num sentido superam as do sentido contrário.",
+  "motto": "As democracias raramente mudam sozinhas.",
+  "sources": [
+   {
+    "name": "Samuel P. Huntington (1991), «Democracy's Third Wave», Journal of Democracy 2(2), pp. 12–34",
+    "url": "https://ned.org/journal-of-democracy-classics-democracys-third-wave-by-samuel-p-huntington",
+    "accessed": "2026-11-16"
+   },
+   {
+    "name": "Samuel P. Huntington (1991), «The Third Wave: Democratization in the Late Twentieth Century», University of Oklahoma Press",
+    "url": "https://openlibrary.org/isbn/0806125160",
+    "accessed": "2026-11-16"
+   },
+   {
+    "name": "Renske Doorenspleet (2000), «Reassessing the Three Waves of Democratization», World Politics 52(3), pp. 384–406",
+    "url": "https://doi.org/10.1017/S0043887100016580",
+    "accessed": "2026-11-16"
+   },
+   {
+    "name": "Charles Kurzman (1998), «Waves of Democratization», Studies in Comparative International Development 33(1), pp. 42–64",
+    "url": "https://doi.org/10.1007/BF02788194",
+    "accessed": "2026-11-16"
+   },
+   {
+    "name": "Anna Lührmann e Staffan I. Lindberg (2019), «A third wave of autocratization is here: what is new about it?», Democratization 26(7), pp. 1095–1113",
+    "url": "https://doi.org/10.1080/13510347.2019.1582029",
+    "accessed": "2026-11-16"
+   },
+   {
+    "name": "Rádio Renascença (2023), «Grândola, Vila Morena: a senha da revolução escolhida debaixo do Elevador de Santa Justa»",
+    "url": "https://rr.pt/noticia/pais/2023/11/29/grandola-vila-morena-a-senha-da-revolucao-escolhida-debaixo-do-elevador-de-santa-justa/357262/",
+    "accessed": "2026-11-16"
+   },
+   {
+    "name": "Diário de Notícias, «“E depois do adeus” e “Waterloo”: os fins de guerra em duas canções»",
+    "url": "https://www.dn.pt/cultura/e-depois-do-adeus-e-waterloo-os-fins-de-guerra-em-duas-cancoes",
+    "accessed": "2026-11-16"
+   }
+  ],
+  "notes": [
+   "Grau de certeza: tese debatida. A periodização de Huntington é muito usada como descrição, mas a existência e as datas das vagas, sobretudo da segunda vaga inversa, dependem das definições de democracia e das bases de dados (Doorenspleet, 2000; Kurzman, 1998). A «terceira vaga de autocratização» é uma proposta de investigadores do V-Dem (Lührmann e Lindberg, 2019), também discutida.",
+   "Datas das vagas segundo Huntington (1991): primeira vaga, 1828–1926; primeira vaga inversa, 1922–1942; segunda vaga, 1943–1962; segunda vaga inversa, 1958–1975; terceira vaga, desde 1974. Os textos de Huntington, Doorenspleet e Kurzman foram consultados por resumos e citações em pesquisa; os textos integrais não foram lidos nesta edição. A hora da transmissão de «Grândola» difere entre fontes (0h20 e 0h25)."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-16",
+   "note": "Datas das vagas de Huntington, abertura do livro em Lisboa, efeito bola de neve, críticas de Doorenspleet e Kurzman, Lührmann e Lindberg, exemplos de aplicação e as duas senhas do 25 de Abril confirmados por pesquisa; esquema SVG conferido no navegador. Reformulada a frase sobre Kurzman, acrescentada fonte para a primeira senha e substituído o endereço do artigo de Doorenspleet pelo DOI."
+  }
+ }
+}

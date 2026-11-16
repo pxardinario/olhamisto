@@ -183,10 +183,43 @@
       "ideia": "Emigrantes permanentes por ano, com a revisão de 2026 do INE: o pico da troika e o regresso aos níveis anteriores",
       "fonte": "INE, indicadores 0006050–0006052 (Estimativas anuais de emigração, até 2025, atualizado a 30-09-2026)",
       "licenca": "INE: reutilização com atribuição",
-      "estado": "pronta",
-      "bloqueio": "2026-11-13: dados acessíveis pela API; adiada por haver muitas peças de demografia nas edições de 9 a 12 de novembro. Substitui em parte a candidata revisao-populacao-ine-2026.",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-13: dados acessíveis pela API; adiada por haver muitas peças de demografia nas edições de 9 a 12 de novembro. Substitui em parte a candidata revisao-populacao-ine-2026. 2026-11-16: a série 0006050 vai de 2008 a 2025 e salta de 25 886 (2020) para 120 806 (2021); provável mudança de método na revisão de 2026 (inclui estrangeiros?). Confirmar nos metadados do INE (MetaInfUrl) e separar por nacionalidade (0006052) antes de publicar.",
       "registada": "2026-11-13",
+      "tentativas": 1
+    },
+    {
+      "id": "utentes-sem-medico-familia-2016-2026",
+      "tema": "saude",
+      "ideia": "Utentes sem médico de família, mensal, 2016–junho de 2026 (série antiga do SNS): mínimo de 0,64 milhões em 2019, máximo de 1,76 milhões em maio de 2023, 1,67 milhões em junho de 2026; Lisboa e Vale do Tejo com 30%",
+      "fonte": "SNS — Portal da Transparência, conjunto utentes-inscritos-em-cuidados-de-saude-primarios (ACSS)",
+      "licenca": "CC BY 4.0 por defeito (dados.gov.pt); uso autorizado pelo Pedro em 2026-11-11",
+      "estado": "pronta",
+      "bloqueio": "2026-11-16: dados acessíveis; adiada porque a peça do dia usou o conjunto novo (por nacionalidade, desde julho de 2026). A série antiga termina em junho de 2026 e não é comparável com a nova (critério de elegibilidade); a peça teria de o dizer.",
+      "registada": "2026-11-16",
       "tentativas": 0
+    },
+    {
+      "id": "compras-vendedores-fora-ue",
+      "tema": "marketing",
+      "ideia": "Compras online a vendedores de fora da UE (plataformas asiáticas) e a taxa sobre pequenas encomendas",
+      "fonte": "Eurostat isoc_ec_ibos",
+      "licenca": "Eurostat, CC BY 4.0",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-16: o conjunto só vai de 2020 a 2023; procurar um conjunto do Eurostat com 2024–2025 ou dados aduaneiros de pequenas encomendas.",
+      "registada": "2026-11-16",
+      "tentativas": 1
+    },
+    {
+      "id": "ia-computacao-modelos-epoch",
+      "tema": "tecnologia",
+      "ideia": "Computação usada para treinar os modelos de IA notáveis, 1950–2026 (crescimento de ~4–5 vezes por ano)",
+      "fonte": "Epoch AI, Notable AI Models (CC BY 4.0)",
+      "licenca": "CC BY 4.0",
+      "estado": "bloqueada",
+      "bloqueio": "2026-11-16: epoch.ai não responde neste ambiente; procurar cópia no GitHub ou pedir ao Pedro para autorizar o domínio.",
+      "registada": "2026-11-16",
+      "tentativas": 1
     }
   ]
 }

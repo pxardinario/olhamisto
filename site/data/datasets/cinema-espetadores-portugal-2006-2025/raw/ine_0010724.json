@@ -1,0 +1,735 @@
+[ {
+  "IndicadorCod" : "0010724",
+  "IndicadorDsg" : "Espetadores de cinema (Metodologia 2006 - N.º) por Origem dos filmes exibidos (Países - 2020); Anual - Instituto do Cinema e Audiovisual",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0010724&lingua=PT",
+  "DataExtracao" : "2026-11-16T07:18:23.956Z",
+  "DataUltimoAtualizacao" : "2026-05-29",
+  "UltimoPref" : "2025",
+  "Dados" : {
+    "2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1OP",
+      "dim_3_t" : "Outros países - Europa",
+      "ind_string" : "89 545",
+      "valor" : "89545"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "União Europeia (EU-27)",
+      "ind_string" : "283 533",
+      "valor" : "283533"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "GB",
+      "dim_3_t" : "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+      "ind_string" : "59 193",
+      "valor" : "59193"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "ES",
+      "dim_3_t" : "Espanha",
+      "ind_string" : "2 706",
+      "valor" : "2706"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "FR",
+      "dim_3_t" : "França",
+      "ind_string" : "90 719",
+      "valor" : "90719"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "IT",
+      "dim_3_t" : "Itália",
+      "ind_string" : "5 929",
+      "valor" : "5929"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "PT",
+      "dim_3_t" : "Portugal",
+      "ind_string" : "127 502",
+      "valor" : "127502"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C1",
+      "dim_3_t" : "Coproduções de países europeus",
+      "ind_string" : "188 346",
+      "valor" : "188346"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C2",
+      "dim_3_t" : "Coproduções de países europeus/EUA",
+      "ind_string" : "554 742",
+      "valor" : "554742"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C3",
+      "dim_3_t" : "Outras coproduções",
+      "ind_string" : "1 037 111",
+      "valor" : "1037111"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Europa",
+      "ind_string" : "373 078",
+      "valor" : "373078"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C",
+      "dim_3_t" : "Coproduções",
+      "ind_string" : "1 780 199",
+      "valor" : "1780199"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "156 061",
+      "valor" : "156061"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "1 493 323",
+      "valor" : "1493323"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP1",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "156 061",
+      "valor" : "156061"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US1",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "1 493 323",
+      "valor" : "1493323"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 802 661",
+      "valor" : "3802661"
+    } ],
+    "2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1OP",
+      "dim_3_t" : "Outros países - Europa",
+      "ind_string" : "24 923",
+      "valor" : "24923"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "União Europeia (EU-27)",
+      "ind_string" : "385 212",
+      "valor" : "385212"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "GB",
+      "dim_3_t" : "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+      "ind_string" : "21 423",
+      "valor" : "21423"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "ES",
+      "dim_3_t" : "Espanha",
+      "ind_string" : "167 670",
+      "valor" : "167670"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "FR",
+      "dim_3_t" : "França",
+      "ind_string" : "25 175",
+      "valor" : "25175"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "IT",
+      "dim_3_t" : "Itália",
+      "ind_string" : "6 399",
+      "valor" : "6399"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "PT",
+      "dim_3_t" : "Portugal",
+      "ind_string" : "161 169",
+      "valor" : "161169"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C1",
+      "dim_3_t" : "Coproduções de países europeus",
+      "ind_string" : "261 176",
+      "valor" : "261176"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C2",
+      "dim_3_t" : "Coproduções de países europeus/EUA",
+      "ind_string" : "1 410 294",
+      "valor" : "1410294"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C3",
+      "dim_3_t" : "Outras coproduções",
+      "ind_string" : "1 542 007",
+      "valor" : "1542007"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Europa",
+      "ind_string" : "410 135",
+      "valor" : "410135"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C",
+      "dim_3_t" : "Coproduções",
+      "ind_string" : "3 213 477",
+      "valor" : "3213477"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "48 214",
+      "valor" : "48214"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "1 808 582",
+      "valor" : "1808582"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP1",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "48 214",
+      "valor" : "48214"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US1",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "1 808 582",
+      "valor" : "1808582"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 480 408",
+      "valor" : "5480408"
+    } ],
+    "2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1OP",
+      "dim_3_t" : "Outros países - Europa",
+      "ind_string" : "102 738",
+      "valor" : "102738"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "União Europeia (EU-27)",
+      "ind_string" : "781 921",
+      "valor" : "781921"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "GB",
+      "dim_3_t" : "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+      "ind_string" : "78 261",
+      "valor" : "78261"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "ES",
+      "dim_3_t" : "Espanha",
+      "ind_string" : "81 974",
+      "valor" : "81974"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "FR",
+      "dim_3_t" : "França",
+      "ind_string" : "177 636",
+      "valor" : "177636"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "IT",
+      "dim_3_t" : "Itália",
+      "ind_string" : "10 272",
+      "valor" : "10272"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "PT",
+      "dim_3_t" : "Portugal",
+      "ind_string" : "500 323",
+      "valor" : "500323"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C1",
+      "dim_3_t" : "Coproduções de países europeus",
+      "ind_string" : "277 103",
+      "valor" : "277103"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C2",
+      "dim_3_t" : "Coproduções de países europeus/EUA",
+      "ind_string" : "1 018 331",
+      "valor" : "1018331"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C3",
+      "dim_3_t" : "Outras coproduções",
+      "ind_string" : "1 374 445",
+      "valor" : "1374445"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Europa",
+      "ind_string" : "884 659",
+      "valor" : "884659"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C",
+      "dim_3_t" : "Coproduções",
+      "ind_string" : "2 669 879",
+      "valor" : "2669879"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "179 225",
+      "valor" : "179225"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "5 880 131",
+      "valor" : "5880131"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP1",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "179 225",
+      "valor" : "179225"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US1",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "5 880 131",
+      "valor" : "5880131"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 613 894",
+      "valor" : "9613894"
+    } ],
+    "2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1OP",
+      "dim_3_t" : "Outros países - Europa",
+      "ind_string" : "63 634",
+      "valor" : "63634"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "União Europeia (EU-27)",
+      "ind_string" : "567 591",
+      "valor" : "567591"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "GB",
+      "dim_3_t" : "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+      "ind_string" : "26 691",
+      "valor" : "26691"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "ES",
+      "dim_3_t" : "Espanha",
+      "ind_string" : "32 133",
+      "valor" : "32133"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "FR",
+      "dim_3_t" : "França",
+      "ind_string" : "206 790",
+      "valor" : "206790"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "IT",
+      "dim_3_t" : "Itália",
+      "ind_string" : "19 194",
+      "valor" : "19194"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "PT",
+      "dim_3_t" : "Portugal",
+      "ind_string" : "261 017",
+      "valor" : "261017"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C1",
+      "dim_3_t" : "Coproduções de países europeus",
+      "ind_string" : "307 930",
+      "valor" : "307930"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C2",
+      "dim_3_t" : "Coproduções de países europeus/EUA",
+      "ind_string" : "2 635 340",
+      "valor" : "2635340"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C3",
+      "dim_3_t" : "Outras coproduções",
+      "ind_string" : "1 894 604",
+      "valor" : "1894604"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Europa",
+      "ind_string" : "631 225",
+      "valor" : "631225"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C",
+      "dim_3_t" : "Coproduções",
+      "ind_string" : "4 837 874",
+      "valor" : "4837874"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "190 873",
+      "valor" : "190873"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "6 645 749",
+      "valor" : "6645749"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP1",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "190 873",
+      "valor" : "190873"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US1",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "6 645 749",
+      "valor" : "6645749"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 305 721",
+      "valor" : "12305721"
+    } ],
+    "2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1OP",
+      "dim_3_t" : "Outros países - Europa",
+      "ind_string" : "140 430",
+      "valor" : "140430"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "União Europeia (EU-27)",
+      "ind_string" : "714 688",
+      "valor" : "714688"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "GB",
+      "dim_3_t" : "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+      "ind_string" : "68 387",
+      "valor" : "68387"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "ES",
+      "dim_3_t" : "Espanha",
+      "ind_string" : "20 440",
+      "valor" : "20440"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "FR",
+      "dim_3_t" : "França",
+      "ind_string" : "113 579",
+      "valor" : "113579"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "IT",
+      "dim_3_t" : "Itália",
+      "ind_string" : "16 050",
+      "valor" : "16050"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "PT",
+      "dim_3_t" : "Portugal",
+      "ind_string" : "506 389",
+      "valor" : "506389"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C1",
+      "dim_3_t" : "Coproduções de países europeus",
+      "ind_string" : "497 828",
+      "valor" : "497828"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C2",
+      "dim_3_t" : "Coproduções de países europeus/EUA",
+      "ind_string" : "1 510 940",
+      "valor" : "1510940"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C3",
+      "dim_3_t" : "Outras coproduções",
+      "ind_string" : "4 062 485",
+      "valor" : "4062485"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Europa",
+      "ind_string" : "855 118",
+      "valor" : "855118"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C",
+      "dim_3_t" : "Coproduções",
+      "ind_string" : "6 071 253",
+      "valor" : "6071253"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "185 877",
+      "valor" : "185877"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "4 751 942",
+      "valor" : "4751942"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP1",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "185 877",
+      "valor" : "185877"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US1",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "4 751 942",
+      "valor" : "4751942"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 864 190",
+      "valor" : "11864190"
+    } ],
+    "2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1OP",
+      "dim_3_t" : "Outros países - Europa",
+      "ind_string" : "99 032",
+      "valor" : "99032"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "2",
+      "dim_3_t" : "União Europeia (EU-27)",
+      "ind_string" : "336 777",
+      "valor" : "336777"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "GB",
+      "dim_3_t" : "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+      "ind_string" : "73 989",
+      "valor" : "73989"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "ES",
+      "dim_3_t" : "Espanha",
+      "ind_string" : "20 928",
+      "valor" : "20928"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "FR",
+      "dim_3_t" : "França",
+      "ind_string" : "91 448",
+      "valor" : "91448"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "IT",
+      "dim_3_t" : "Itália",
+      "ind_string" : "17 733",
+      "valor" : "17733"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "PT",
+      "dim_3_t" : "Portugal",
+      "ind_string" : "193 733",
+      "valor" : "193733"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C1",
+      "dim_3_t" : "Coproduções de países europeus",
+      "ind_string" : "407 814",
+      "valor" : "407814"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C2",
+      "dim_3_t" : "Coproduções de países europeus/EUA",
+      "ind_string" : "2 103 705",
+      "valor" : "2103705"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C3",
+      "dim_3_t" : "Outras coproduções",
+      "ind_string" : "2 531 870",
+      "valor" : "2531870"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "1",
+      "dim_3_t" : "Europa",
+      "ind_string" : "435 809",
+      "valor" : "435809"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "C",
+      "dim_3_t" : "Coproduções",
+      "ind_string" : "5 043 389",
+      "valor" : "5043389"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "169 175",
+      "valor" : "169175"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "5 306 753",
+      "valor" : "5306753"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "TOP1",
+      "dim_3_t" : "Outros países",
+      "ind_string" : "169 175",
+      "valor" : "169175"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "US1",
+      "dim_3_t" : "Estados Unidos da América",
+      "ind_string" : "5 306 753",
+      "valor" : "5306753"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 955 126",
+      "valor" : "10955126"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

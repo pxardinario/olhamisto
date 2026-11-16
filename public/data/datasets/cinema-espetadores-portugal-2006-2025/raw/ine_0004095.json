@@ -1,0 +1,1663 @@
+[ {
+  "IndicadorCod" : "0004095",
+  "IndicadorDsg" : "Espectadores de cinema (Metodologia 2006 - N.º) por Localização geográfica (NUTS - 2002); Anual - Instituto do Cinema e Audiovisual",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0004095&lingua=PT",
+  "DataExtracao" : "2026-11-16T07:18:44.768Z",
+  "DataUltimoAtualizacao" : "2015-07-02",
+  "UltimoPref" : "2013",
+  "Dados" : {
+    "2006" : [ {
+      "geocod" : "164",
+      "geodsg" : "Pinhal Interior Norte",
+      "ind_string" : "2 384",
+      "valor" : "2384"
+    }, {
+      "geocod" : "166",
+      "geodsg" : "Pinhal Interior Sul",
+      "ind_string" : "4 459",
+      "valor" : "4459"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "5 753",
+      "valor" : "5753"
+    }, {
+      "geocod" : "168",
+      "geodsg" : "Beira Interior Norte",
+      "ind_string" : "6 363",
+      "valor" : "6363"
+    }, {
+      "geocod" : "167",
+      "geodsg" : "Serra da Estrela",
+      "ind_string" : "11 444",
+      "valor" : "11444"
+    }, {
+      "geocod" : "182",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "12 574",
+      "valor" : "12574"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "14 623",
+      "valor" : "14623"
+    }, {
+      "geocod" : "116",
+      "geodsg" : "Entre Douro e Vouga",
+      "ind_string" : "22 971",
+      "valor" : "22971"
+    }, {
+      "geocod" : "169",
+      "geodsg" : "Beira Interior Sul",
+      "ind_string" : "28 342",
+      "valor" : "28342"
+    }, {
+      "geocod" : "118",
+      "geodsg" : "Alto Trás-os-Montes",
+      "ind_string" : "47 356",
+      "valor" : "47356"
+    }, {
+      "geocod" : "183",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "66 637",
+      "valor" : "66637"
+    }, {
+      "geocod" : "115",
+      "geodsg" : "Tâmega",
+      "ind_string" : "82 534",
+      "valor" : "82534"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "86 711",
+      "valor" : "86711"
+    }, {
+      "geocod" : "16A",
+      "geodsg" : "Cova da Beira",
+      "ind_string" : "119 829",
+      "valor" : "119829"
+    }, {
+      "geocod" : "163",
+      "geodsg" : "Pinhal Litoral",
+      "ind_string" : "131 556",
+      "valor" : "131556"
+    }, {
+      "geocod" : "16C",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "135 772",
+      "valor" : "135772"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "159 845",
+      "valor" : "159845"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "159 845",
+      "valor" : "159845"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "159 845",
+      "valor" : "159845"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "172 215",
+      "valor" : "172215"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Minho-Lima",
+      "ind_string" : "183 773",
+      "valor" : "183773"
+    }, {
+      "geocod" : "117",
+      "geodsg" : "Douro",
+      "ind_string" : "189 713",
+      "valor" : "189713"
+    }, {
+      "geocod" : "165",
+      "geodsg" : "Dão-Lafões",
+      "ind_string" : "212 539",
+      "valor" : "212539"
+    }, {
+      "geocod" : "113",
+      "geodsg" : "Ave",
+      "ind_string" : "243 753",
+      "valor" : "243753"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "271 802",
+      "valor" : "271802"
+    }, {
+      "geocod" : "161",
+      "geodsg" : "Baixo Vouga",
+      "ind_string" : "386 045",
+      "valor" : "386045"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "461 574",
+      "valor" : "461574"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "461 574",
+      "valor" : "461574"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "461 574",
+      "valor" : "461574"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "553 752",
+      "valor" : "553752"
+    }, {
+      "geocod" : "162",
+      "geodsg" : "Baixo Mondego",
+      "ind_string" : "641 062",
+      "valor" : "641062"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "1 073 952",
+      "valor" : "1073952"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "1 073 952",
+      "valor" : "1073952"
+    }, {
+      "geocod" : "172",
+      "geodsg" : "Península de Setúbal",
+      "ind_string" : "1 539 777",
+      "valor" : "1539777"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "1 766 506",
+      "valor" : "1766506"
+    }, {
+      "geocod" : "114",
+      "geodsg" : "Grande Porto",
+      "ind_string" : "3 477 636",
+      "valor" : "3477636"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 801 488",
+      "valor" : "4801488"
+    }, {
+      "geocod" : "171",
+      "geodsg" : "Grande Lisboa",
+      "ind_string" : "6 292 485",
+      "valor" : "6292485"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Lisboa",
+      "ind_string" : "7 832 262",
+      "valor" : "7832262"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "15 746 010",
+      "valor" : "15746010"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "16 367 429",
+      "valor" : "16367429"
+    } ],
+    "2007" : [ {
+      "geocod" : "166",
+      "geodsg" : "Pinhal Interior Sul",
+      "ind_string" : "4 709",
+      "valor" : "4709"
+    }, {
+      "geocod" : "182",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "9 833",
+      "valor" : "9833"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "11 915",
+      "valor" : "11915"
+    }, {
+      "geocod" : "164",
+      "geodsg" : "Pinhal Interior Norte",
+      "ind_string" : "12 938",
+      "valor" : "12938"
+    }, {
+      "geocod" : "167",
+      "geodsg" : "Serra da Estrela",
+      "ind_string" : "14 049",
+      "valor" : "14049"
+    }, {
+      "geocod" : "168",
+      "geodsg" : "Beira Interior Norte",
+      "ind_string" : "17 638",
+      "valor" : "17638"
+    }, {
+      "geocod" : "169",
+      "geodsg" : "Beira Interior Sul",
+      "ind_string" : "22 315",
+      "valor" : "22315"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "26 826",
+      "valor" : "26826"
+    }, {
+      "geocod" : "118",
+      "geodsg" : "Alto Trás-os-Montes",
+      "ind_string" : "58 701",
+      "valor" : "58701"
+    }, {
+      "geocod" : "116",
+      "geodsg" : "Entre Douro e Vouga",
+      "ind_string" : "78 952",
+      "valor" : "78952"
+    }, {
+      "geocod" : "183",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "81 488",
+      "valor" : "81488"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "128 968",
+      "valor" : "128968"
+    }, {
+      "geocod" : "16A",
+      "geodsg" : "Cova da Beira",
+      "ind_string" : "142 143",
+      "valor" : "142143"
+    }, {
+      "geocod" : "16C",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "153 886",
+      "valor" : "153886"
+    }, {
+      "geocod" : "115",
+      "geodsg" : "Tâmega",
+      "ind_string" : "156 652",
+      "valor" : "156652"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "157 425",
+      "valor" : "157425"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "157 425",
+      "valor" : "157425"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "157 425",
+      "valor" : "157425"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "176 408",
+      "valor" : "176408"
+    }, {
+      "geocod" : "117",
+      "geodsg" : "Douro",
+      "ind_string" : "191 618",
+      "valor" : "191618"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Minho-Lima",
+      "ind_string" : "203 270",
+      "valor" : "203270"
+    }, {
+      "geocod" : "165",
+      "geodsg" : "Dão-Lafões",
+      "ind_string" : "224 061",
+      "valor" : "224061"
+    }, {
+      "geocod" : "163",
+      "geodsg" : "Pinhal Litoral",
+      "ind_string" : "257 868",
+      "valor" : "257868"
+    }, {
+      "geocod" : "113",
+      "geodsg" : "Ave",
+      "ind_string" : "287 213",
+      "valor" : "287213"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "306 470",
+      "valor" : "306470"
+    }, {
+      "geocod" : "161",
+      "geodsg" : "Baixo Vouga",
+      "ind_string" : "413 475",
+      "valor" : "413475"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "437 249",
+      "valor" : "437249"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "437 249",
+      "valor" : "437249"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "437 249",
+      "valor" : "437249"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "475 346",
+      "valor" : "475346"
+    }, {
+      "geocod" : "162",
+      "geodsg" : "Baixo Mondego",
+      "ind_string" : "630 095",
+      "valor" : "630095"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "1 053 031",
+      "valor" : "1053031"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "1 053 031",
+      "valor" : "1053031"
+    }, {
+      "geocod" : "172",
+      "geodsg" : "Península de Setúbal",
+      "ind_string" : "1 585 947",
+      "valor" : "1585947"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 022 145",
+      "valor" : "2022145"
+    }, {
+      "geocod" : "114",
+      "geodsg" : "Grande Porto",
+      "ind_string" : "3 341 634",
+      "valor" : "3341634"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 793 386",
+      "valor" : "4793386"
+    }, {
+      "geocod" : "171",
+      "geodsg" : "Grande Lisboa",
+      "ind_string" : "5 962 682",
+      "valor" : "5962682"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Lisboa",
+      "ind_string" : "7 548 629",
+      "valor" : "7548629"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "15 723 661",
+      "valor" : "15723661"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "16 318 335",
+      "valor" : "16318335"
+    } ],
+    "2008" : [ {
+      "geocod" : "166",
+      "geodsg" : "Pinhal Interior Sul",
+      "ind_string" : "3 910",
+      "valor" : "3910"
+    }, {
+      "geocod" : "167",
+      "geodsg" : "Serra da Estrela",
+      "ind_string" : "10 694",
+      "valor" : "10694"
+    }, {
+      "geocod" : "182",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "11 180",
+      "valor" : "11180"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "11 521",
+      "valor" : "11521"
+    }, {
+      "geocod" : "164",
+      "geodsg" : "Pinhal Interior Norte",
+      "ind_string" : "14 869",
+      "valor" : "14869"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "19 595",
+      "valor" : "19595"
+    }, {
+      "geocod" : "168",
+      "geodsg" : "Beira Interior Norte",
+      "ind_string" : "25 194",
+      "valor" : "25194"
+    }, {
+      "geocod" : "118",
+      "geodsg" : "Alto Trás-os-Montes",
+      "ind_string" : "46 306",
+      "valor" : "46306"
+    }, {
+      "geocod" : "183",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "64 109",
+      "valor" : "64109"
+    }, {
+      "geocod" : "169",
+      "geodsg" : "Beira Interior Sul",
+      "ind_string" : "87 168",
+      "valor" : "87168"
+    }, {
+      "geocod" : "16A",
+      "geodsg" : "Cova da Beira",
+      "ind_string" : "102 667",
+      "valor" : "102667"
+    }, {
+      "geocod" : "16C",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "133 504",
+      "valor" : "133504"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "138 674",
+      "valor" : "138674"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "138 674",
+      "valor" : "138674"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "138 674",
+      "valor" : "138674"
+    }, {
+      "geocod" : "115",
+      "geodsg" : "Tâmega",
+      "ind_string" : "146 756",
+      "valor" : "146756"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "162 168",
+      "valor" : "162168"
+    }, {
+      "geocod" : "116",
+      "geodsg" : "Entre Douro e Vouga",
+      "ind_string" : "163 605",
+      "valor" : "163605"
+    }, {
+      "geocod" : "117",
+      "geodsg" : "Douro",
+      "ind_string" : "164 785",
+      "valor" : "164785"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Minho-Lima",
+      "ind_string" : "183 862",
+      "valor" : "183862"
+    }, {
+      "geocod" : "165",
+      "geodsg" : "Dão-Lafões",
+      "ind_string" : "234 109",
+      "valor" : "234109"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "261 831",
+      "valor" : "261831"
+    }, {
+      "geocod" : "113",
+      "geodsg" : "Ave",
+      "ind_string" : "264 535",
+      "valor" : "264535"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "268 573",
+      "valor" : "268573"
+    }, {
+      "geocod" : "163",
+      "geodsg" : "Pinhal Litoral",
+      "ind_string" : "273 557",
+      "valor" : "273557"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "374 767",
+      "valor" : "374767"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "374 767",
+      "valor" : "374767"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "374 767",
+      "valor" : "374767"
+    }, {
+      "geocod" : "161",
+      "geodsg" : "Baixo Vouga",
+      "ind_string" : "378 832",
+      "valor" : "378832"
+    }, {
+      "geocod" : "162",
+      "geodsg" : "Baixo Mondego",
+      "ind_string" : "580 672",
+      "valor" : "580672"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "603 586",
+      "valor" : "603586"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "1 002 094",
+      "valor" : "1002094"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "1 002 094",
+      "valor" : "1002094"
+    }, {
+      "geocod" : "172",
+      "geodsg" : "Península de Setúbal",
+      "ind_string" : "1 558 105",
+      "valor" : "1558105"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 107 007",
+      "valor" : "2107007"
+    }, {
+      "geocod" : "114",
+      "geodsg" : "Grande Porto",
+      "ind_string" : "3 176 239",
+      "valor" : "3176239"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 749 674",
+      "valor" : "4749674"
+    }, {
+      "geocod" : "171",
+      "geodsg" : "Grande Lisboa",
+      "ind_string" : "5 780 346",
+      "valor" : "5780346"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Lisboa",
+      "ind_string" : "7 338 451",
+      "valor" : "7338451"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "15 465 799",
+      "valor" : "15465799"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "15 979 240",
+      "valor" : "15979240"
+    } ],
+    "2009" : [ {
+      "geocod" : "166",
+      "geodsg" : "Pinhal Interior Sul",
+      "ind_string" : "4 112",
+      "valor" : "4112"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "6 156",
+      "valor" : "6156"
+    }, {
+      "geocod" : "182",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "6 638",
+      "valor" : "6638"
+    }, {
+      "geocod" : "167",
+      "geodsg" : "Serra da Estrela",
+      "ind_string" : "7 956",
+      "valor" : "7956"
+    }, {
+      "geocod" : "164",
+      "geodsg" : "Pinhal Interior Norte",
+      "ind_string" : "11 569",
+      "valor" : "11569"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "18 802",
+      "valor" : "18802"
+    }, {
+      "geocod" : "183",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "22 972",
+      "valor" : "22972"
+    }, {
+      "geocod" : "118",
+      "geodsg" : "Alto Trás-os-Montes",
+      "ind_string" : "40 438",
+      "valor" : "40438"
+    }, {
+      "geocod" : "168",
+      "geodsg" : "Beira Interior Norte",
+      "ind_string" : "57 406",
+      "valor" : "57406"
+    }, {
+      "geocod" : "16A",
+      "geodsg" : "Cova da Beira",
+      "ind_string" : "80 829",
+      "valor" : "80829"
+    }, {
+      "geocod" : "169",
+      "geodsg" : "Beira Interior Sul",
+      "ind_string" : "82 988",
+      "valor" : "82988"
+    }, {
+      "geocod" : "16C",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "129 686",
+      "valor" : "129686"
+    }, {
+      "geocod" : "115",
+      "geodsg" : "Tâmega",
+      "ind_string" : "133 831",
+      "valor" : "133831"
+    }, {
+      "geocod" : "116",
+      "geodsg" : "Entre Douro e Vouga",
+      "ind_string" : "138 602",
+      "valor" : "138602"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "142 593",
+      "valor" : "142593"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "142 593",
+      "valor" : "142593"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "142 593",
+      "valor" : "142593"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "144 799",
+      "valor" : "144799"
+    }, {
+      "geocod" : "117",
+      "geodsg" : "Douro",
+      "ind_string" : "156 545",
+      "valor" : "156545"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Minho-Lima",
+      "ind_string" : "167 333",
+      "valor" : "167333"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "199 367",
+      "valor" : "199367"
+    }, {
+      "geocod" : "165",
+      "geodsg" : "Dão-Lafões",
+      "ind_string" : "235 940",
+      "valor" : "235940"
+    }, {
+      "geocod" : "113",
+      "geodsg" : "Ave",
+      "ind_string" : "246 796",
+      "valor" : "246796"
+    }, {
+      "geocod" : "163",
+      "geodsg" : "Pinhal Litoral",
+      "ind_string" : "264 485",
+      "valor" : "264485"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "324 864",
+      "valor" : "324864"
+    }, {
+      "geocod" : "161",
+      "geodsg" : "Baixo Vouga",
+      "ind_string" : "352 302",
+      "valor" : "352302"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "371 122",
+      "valor" : "371122"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "371 122",
+      "valor" : "371122"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "371 122",
+      "valor" : "371122"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "561 495",
+      "valor" : "561495"
+    }, {
+      "geocod" : "162",
+      "geodsg" : "Baixo Mondego",
+      "ind_string" : "563 135",
+      "valor" : "563135"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "983 116",
+      "valor" : "983116"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "983 116",
+      "valor" : "983116"
+    }, {
+      "geocod" : "172",
+      "geodsg" : "Península de Setúbal",
+      "ind_string" : "1 565 561",
+      "valor" : "1565561"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 115 272",
+      "valor" : "2115272"
+    }, {
+      "geocod" : "114",
+      "geodsg" : "Grande Porto",
+      "ind_string" : "3 184 574",
+      "valor" : "3184574"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 629 614",
+      "valor" : "4629614"
+    }, {
+      "geocod" : "171",
+      "geodsg" : "Grande Lisboa",
+      "ind_string" : "5 698 045",
+      "valor" : "5698045"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Lisboa",
+      "ind_string" : "7 263 606",
+      "valor" : "7263606"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "15 190 975",
+      "valor" : "15190975"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "15 704 690",
+      "valor" : "15704690"
+    } ],
+    "2010" : [ {
+      "geocod" : "166",
+      "geodsg" : "Pinhal Interior Sul",
+      "ind_string" : "4 501",
+      "valor" : "4501"
+    }, {
+      "geocod" : "182",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "6 255",
+      "valor" : "6255"
+    }, {
+      "geocod" : "167",
+      "geodsg" : "Serra da Estrela",
+      "ind_string" : "10 487",
+      "valor" : "10487"
+    }, {
+      "geocod" : "164",
+      "geodsg" : "Pinhal Interior Norte",
+      "ind_string" : "11 208",
+      "valor" : "11208"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "11 489",
+      "valor" : "11489"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "13 743",
+      "valor" : "13743"
+    }, {
+      "geocod" : "183",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "18 095",
+      "valor" : "18095"
+    }, {
+      "geocod" : "118",
+      "geodsg" : "Alto Trás-os-Montes",
+      "ind_string" : "36 061",
+      "valor" : "36061"
+    }, {
+      "geocod" : "168",
+      "geodsg" : "Beira Interior Norte",
+      "ind_string" : "56 246",
+      "valor" : "56246"
+    }, {
+      "geocod" : "16A",
+      "geodsg" : "Cova da Beira",
+      "ind_string" : "85 037",
+      "valor" : "85037"
+    }, {
+      "geocod" : "169",
+      "geodsg" : "Beira Interior Sul",
+      "ind_string" : "86 570",
+      "valor" : "86570"
+    }, {
+      "geocod" : "16C",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "123 195",
+      "valor" : "123195"
+    }, {
+      "geocod" : "116",
+      "geodsg" : "Entre Douro e Vouga",
+      "ind_string" : "125 879",
+      "valor" : "125879"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "135 016",
+      "valor" : "135016"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "140 177",
+      "valor" : "140177"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "140 177",
+      "valor" : "140177"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "140 177",
+      "valor" : "140177"
+    }, {
+      "geocod" : "115",
+      "geodsg" : "Tâmega",
+      "ind_string" : "142 370",
+      "valor" : "142370"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Minho-Lima",
+      "ind_string" : "162 318",
+      "valor" : "162318"
+    }, {
+      "geocod" : "117",
+      "geodsg" : "Douro",
+      "ind_string" : "168 887",
+      "valor" : "168887"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "184 598",
+      "valor" : "184598"
+    }, {
+      "geocod" : "165",
+      "geodsg" : "Dão-Lafões",
+      "ind_string" : "238 415",
+      "valor" : "238415"
+    }, {
+      "geocod" : "113",
+      "geodsg" : "Ave",
+      "ind_string" : "283 617",
+      "valor" : "283617"
+    }, {
+      "geocod" : "163",
+      "geodsg" : "Pinhal Litoral",
+      "ind_string" : "310 145",
+      "valor" : "310145"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "355 139",
+      "valor" : "355139"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "367 474",
+      "valor" : "367474"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "367 474",
+      "valor" : "367474"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "367 474",
+      "valor" : "367474"
+    }, {
+      "geocod" : "161",
+      "geodsg" : "Baixo Vouga",
+      "ind_string" : "377 981",
+      "valor" : "377981"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "588 884",
+      "valor" : "588884"
+    }, {
+      "geocod" : "162",
+      "geodsg" : "Baixo Mondego",
+      "ind_string" : "594 299",
+      "valor" : "594299"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "1 023 904",
+      "valor" : "1023904"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "1 023 904",
+      "valor" : "1023904"
+    }, {
+      "geocod" : "172",
+      "geodsg" : "Península de Setúbal",
+      "ind_string" : "1 655 470",
+      "valor" : "1655470"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 253 223",
+      "valor" : "2253223"
+    }, {
+      "geocod" : "114",
+      "geodsg" : "Grande Porto",
+      "ind_string" : "3 347 188",
+      "valor" : "3347188"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 855 204",
+      "valor" : "4855204"
+    }, {
+      "geocod" : "171",
+      "geodsg" : "Grande Lisboa",
+      "ind_string" : "6 079 681",
+      "valor" : "6079681"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Lisboa",
+      "ind_string" : "7 735 151",
+      "valor" : "7735151"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "16 052 080",
+      "valor" : "16052080"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "16 559 731",
+      "valor" : "16559731"
+    } ],
+    "2011" : [ {
+      "geocod" : "166",
+      "geodsg" : "Pinhal Interior Sul",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "164",
+      "geodsg" : "Pinhal Interior Norte",
+      "ind_string" : "1 615",
+      "valor" : "1615"
+    }, {
+      "geocod" : "182",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "3 264",
+      "valor" : "3264"
+    }, {
+      "geocod" : "167",
+      "geodsg" : "Serra da Estrela",
+      "ind_string" : "3 682",
+      "valor" : "3682"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "10 365",
+      "valor" : "10365"
+    }, {
+      "geocod" : "183",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "17 247",
+      "valor" : "17247"
+    }, {
+      "geocod" : "118",
+      "geodsg" : "Alto Trás-os-Montes",
+      "ind_string" : "28 365",
+      "valor" : "28365"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "29 862",
+      "valor" : "29862"
+    }, {
+      "geocod" : "168",
+      "geodsg" : "Beira Interior Norte",
+      "ind_string" : "57 998",
+      "valor" : "57998"
+    }, {
+      "geocod" : "16A",
+      "geodsg" : "Cova da Beira",
+      "ind_string" : "73 962",
+      "valor" : "73962"
+    }, {
+      "geocod" : "169",
+      "geodsg" : "Beira Interior Sul",
+      "ind_string" : "84 383",
+      "valor" : "84383"
+    }, {
+      "geocod" : "16C",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "115 079",
+      "valor" : "115079"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "124 813",
+      "valor" : "124813"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "125 345",
+      "valor" : "125345"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "125 345",
+      "valor" : "125345"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "125 345",
+      "valor" : "125345"
+    }, {
+      "geocod" : "116",
+      "geodsg" : "Entre Douro e Vouga",
+      "ind_string" : "131 593",
+      "valor" : "131593"
+    }, {
+      "geocod" : "115",
+      "geodsg" : "Tâmega",
+      "ind_string" : "137 935",
+      "valor" : "137935"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Minho-Lima",
+      "ind_string" : "149 022",
+      "valor" : "149022"
+    }, {
+      "geocod" : "117",
+      "geodsg" : "Douro",
+      "ind_string" : "167 909",
+      "valor" : "167909"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "185 551",
+      "valor" : "185551"
+    }, {
+      "geocod" : "165",
+      "geodsg" : "Dão-Lafões",
+      "ind_string" : "242 584",
+      "valor" : "242584"
+    }, {
+      "geocod" : "113",
+      "geodsg" : "Ave",
+      "ind_string" : "283 452",
+      "valor" : "283452"
+    }, {
+      "geocod" : "163",
+      "geodsg" : "Pinhal Litoral",
+      "ind_string" : "322 345",
+      "valor" : "322345"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "335 383",
+      "valor" : "335383"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "335 383",
+      "valor" : "335383"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "335 383",
+      "valor" : "335383"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "338 909",
+      "valor" : "338909"
+    }, {
+      "geocod" : "161",
+      "geodsg" : "Baixo Vouga",
+      "ind_string" : "346 957",
+      "valor" : "346957"
+    }, {
+      "geocod" : "162",
+      "geodsg" : "Baixo Mondego",
+      "ind_string" : "564 676",
+      "valor" : "564676"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "565 966",
+      "valor" : "565966"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "937 827",
+      "valor" : "937827"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "937 827",
+      "valor" : "937827"
+    }, {
+      "geocod" : "172",
+      "geodsg" : "Península de Setúbal",
+      "ind_string" : "1 540 401",
+      "valor" : "1540401"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "2 152 190",
+      "valor" : "2152190"
+    }, {
+      "geocod" : "114",
+      "geodsg" : "Grande Porto",
+      "ind_string" : "3 215 416",
+      "valor" : "3215416"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 679 658",
+      "valor" : "4679658"
+    }, {
+      "geocod" : "171",
+      "geodsg" : "Grande Lisboa",
+      "ind_string" : "5 745 294",
+      "valor" : "5745294"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Lisboa",
+      "ind_string" : "7 285 695",
+      "valor" : "7285695"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "15 240 951",
+      "valor" : "15240951"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "15 701 679",
+      "valor" : "15701679"
+    } ],
+    "2012" : [ {
+      "geocod" : "166",
+      "geodsg" : "Pinhal Interior Sul",
+      "ind_string" : "0",
+      "valor" : "0"
+    }, {
+      "geocod" : "182",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "890",
+      "valor" : "890"
+    }, {
+      "geocod" : "164",
+      "geodsg" : "Pinhal Interior Norte",
+      "ind_string" : "1 010",
+      "valor" : "1010"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "7 499",
+      "valor" : "7499"
+    }, {
+      "geocod" : "167",
+      "geodsg" : "Serra da Estrela",
+      "ind_string" : "8 199",
+      "valor" : "8199"
+    }, {
+      "geocod" : "118",
+      "geodsg" : "Alto Trás-os-Montes",
+      "ind_string" : "9 075",
+      "valor" : "9075"
+    }, {
+      "geocod" : "183",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "15 279",
+      "valor" : "15279"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "33 788",
+      "valor" : "33788"
+    }, {
+      "geocod" : "168",
+      "geodsg" : "Beira Interior Norte",
+      "ind_string" : "52 669",
+      "valor" : "52669"
+    }, {
+      "geocod" : "16A",
+      "geodsg" : "Cova da Beira",
+      "ind_string" : "61 743",
+      "valor" : "61743"
+    }, {
+      "geocod" : "169",
+      "geodsg" : "Beira Interior Sul",
+      "ind_string" : "71 386",
+      "valor" : "71386"
+    }, {
+      "geocod" : "16C",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "88 329",
+      "valor" : "88329"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "105 808",
+      "valor" : "105808"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "105 808",
+      "valor" : "105808"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "105 808",
+      "valor" : "105808"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "109 357",
+      "valor" : "109357"
+    }, {
+      "geocod" : "116",
+      "geodsg" : "Entre Douro e Vouga",
+      "ind_string" : "119 144",
+      "valor" : "119144"
+    }, {
+      "geocod" : "115",
+      "geodsg" : "Tâmega",
+      "ind_string" : "130 857",
+      "valor" : "130857"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Minho-Lima",
+      "ind_string" : "137 213",
+      "valor" : "137213"
+    }, {
+      "geocod" : "117",
+      "geodsg" : "Douro",
+      "ind_string" : "150 640",
+      "valor" : "150640"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "166 813",
+      "valor" : "166813"
+    }, {
+      "geocod" : "165",
+      "geodsg" : "Dão-Lafões",
+      "ind_string" : "213 309",
+      "valor" : "213309"
+    }, {
+      "geocod" : "113",
+      "geodsg" : "Ave",
+      "ind_string" : "261 316",
+      "valor" : "261316"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "274 660",
+      "valor" : "274660"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "274 660",
+      "valor" : "274660"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "274 660",
+      "valor" : "274660"
+    }, {
+      "geocod" : "163",
+      "geodsg" : "Pinhal Litoral",
+      "ind_string" : "277 272",
+      "valor" : "277272"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "281 135",
+      "valor" : "281135"
+    }, {
+      "geocod" : "161",
+      "geodsg" : "Baixo Vouga",
+      "ind_string" : "303 970",
+      "valor" : "303970"
+    }, {
+      "geocod" : "162",
+      "geodsg" : "Baixo Mondego",
+      "ind_string" : "502 214",
+      "valor" : "502214"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "523 079",
+      "valor" : "523079"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "791 657",
+      "valor" : "791657"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "791 657",
+      "valor" : "791657"
+    }, {
+      "geocod" : "172",
+      "geodsg" : "Península de Setúbal",
+      "ind_string" : "1 273 905",
+      "valor" : "1273905"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "1 861 236",
+      "valor" : "1861236"
+    }, {
+      "geocod" : "114",
+      "geodsg" : "Grande Porto",
+      "ind_string" : "2 917 909",
+      "valor" : "2917909"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "4 249 233",
+      "valor" : "4249233"
+    }, {
+      "geocod" : "171",
+      "geodsg" : "Grande Lisboa",
+      "ind_string" : "5 087 260",
+      "valor" : "5087260"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Lisboa",
+      "ind_string" : "6 361 165",
+      "valor" : "6361165"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "13 430 104",
+      "valor" : "13430104"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "13 810 572",
+      "valor" : "13810572"
+    } ],
+    "2013" : [ {
+      "geocod" : "182",
+      "geodsg" : "Alto Alentejo",
+      "ind_string" : "1 373",
+      "valor" : "1373"
+    }, {
+      "geocod" : "166",
+      "geodsg" : "Pinhal Interior Sul",
+      "ind_string" : "2 269",
+      "valor" : "2269"
+    }, {
+      "geocod" : "167",
+      "geodsg" : "Serra da Estrela",
+      "ind_string" : "5 401",
+      "valor" : "5401"
+    }, {
+      "geocod" : "184",
+      "geodsg" : "Baixo Alentejo",
+      "ind_string" : "5 596",
+      "valor" : "5596"
+    }, {
+      "geocod" : "118",
+      "geodsg" : "Alto Trás-os-Montes",
+      "ind_string" : "6 154",
+      "valor" : "6154"
+    }, {
+      "geocod" : "164",
+      "geodsg" : "Pinhal Interior Norte",
+      "ind_string" : "7 515",
+      "valor" : "7515"
+    }, {
+      "geocod" : "169",
+      "geodsg" : "Beira Interior Sul",
+      "ind_string" : "11 905",
+      "valor" : "11905"
+    }, {
+      "geocod" : "183",
+      "geodsg" : "Alentejo Central",
+      "ind_string" : "13 070",
+      "valor" : "13070"
+    }, {
+      "geocod" : "16A",
+      "geodsg" : "Cova da Beira",
+      "ind_string" : "23 612",
+      "valor" : "23612"
+    }, {
+      "geocod" : "116",
+      "geodsg" : "Entre Douro e Vouga",
+      "ind_string" : "34 815",
+      "valor" : "34815"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "35 896",
+      "valor" : "35896"
+    }, {
+      "geocod" : "20",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "35 896",
+      "valor" : "35896"
+    }, {
+      "geocod" : "200",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "35 896",
+      "valor" : "35896"
+    }, {
+      "geocod" : "111",
+      "geodsg" : "Minho-Lima",
+      "ind_string" : "37 820",
+      "valor" : "37820"
+    }, {
+      "geocod" : "181",
+      "geodsg" : "Alentejo Litoral",
+      "ind_string" : "37 976",
+      "valor" : "37976"
+    }, {
+      "geocod" : "168",
+      "geodsg" : "Beira Interior Norte",
+      "ind_string" : "57 427",
+      "valor" : "57427"
+    }, {
+      "geocod" : "16C",
+      "geodsg" : "Médio Tejo",
+      "ind_string" : "79 719",
+      "valor" : "79719"
+    }, {
+      "geocod" : "185",
+      "geodsg" : "Lezíria do Tejo",
+      "ind_string" : "89 524",
+      "valor" : "89524"
+    }, {
+      "geocod" : "115",
+      "geodsg" : "Tâmega",
+      "ind_string" : "122 436",
+      "valor" : "122436"
+    }, {
+      "geocod" : "18",
+      "geodsg" : "Alentejo",
+      "ind_string" : "147 539",
+      "valor" : "147539"
+    }, {
+      "geocod" : "117",
+      "geodsg" : "Douro",
+      "ind_string" : "153 728",
+      "valor" : "153728"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "196 419",
+      "valor" : "196419"
+    }, {
+      "geocod" : "30",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "196 419",
+      "valor" : "196419"
+    }, {
+      "geocod" : "300",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "196 419",
+      "valor" : "196419"
+    }, {
+      "geocod" : "113",
+      "geodsg" : "Ave",
+      "ind_string" : "216 228",
+      "valor" : "216228"
+    }, {
+      "geocod" : "165",
+      "geodsg" : "Dão-Lafões",
+      "ind_string" : "220 998",
+      "valor" : "220998"
+    }, {
+      "geocod" : "163",
+      "geodsg" : "Pinhal Litoral",
+      "ind_string" : "236 429",
+      "valor" : "236429"
+    }, {
+      "geocod" : "16B",
+      "geodsg" : "Oeste",
+      "ind_string" : "285 443",
+      "valor" : "285443"
+    }, {
+      "geocod" : "161",
+      "geodsg" : "Baixo Vouga",
+      "ind_string" : "305 332",
+      "valor" : "305332"
+    }, {
+      "geocod" : "162",
+      "geodsg" : "Baixo Mondego",
+      "ind_string" : "518 416",
+      "valor" : "518416"
+    }, {
+      "geocod" : "112",
+      "geodsg" : "Cávado",
+      "ind_string" : "536 385",
+      "valor" : "536385"
+    }, {
+      "geocod" : "15",
+      "geodsg" : "Algarve",
+      "ind_string" : "580 487",
+      "valor" : "580487"
+    }, {
+      "geocod" : "150",
+      "geodsg" : "Algarve",
+      "ind_string" : "580 487",
+      "valor" : "580487"
+    }, {
+      "geocod" : "172",
+      "geodsg" : "Península de Setúbal",
+      "ind_string" : "1 133 191",
+      "valor" : "1133191"
+    }, {
+      "geocod" : "16",
+      "geodsg" : "Centro",
+      "ind_string" : "1 754 466",
+      "valor" : "1754466"
+    }, {
+      "geocod" : "114",
+      "geodsg" : "Grande Porto",
+      "ind_string" : "2 763 586",
+      "valor" : "2763586"
+    }, {
+      "geocod" : "11",
+      "geodsg" : "Norte",
+      "ind_string" : "3 871 152",
+      "valor" : "3871152"
+    }, {
+      "geocod" : "171",
+      "geodsg" : "Grande Lisboa",
+      "ind_string" : "4 827 595",
+      "valor" : "4827595"
+    }, {
+      "geocod" : "17",
+      "geodsg" : "Lisboa",
+      "ind_string" : "5 960 786",
+      "valor" : "5960786"
+    }, {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "12 314 430",
+      "valor" : "12314430"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "12 546 745",
+      "valor" : "12546745"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

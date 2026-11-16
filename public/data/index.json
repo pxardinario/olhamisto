@@ -1,8 +1,119 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-13T07:37:48.825Z",
- "latest": "2026-11-13",
+ "updated": "2026-11-16T07:49:39.142Z",
+ "latest": "2026-11-16",
  "editions": [
+  {
+   "date": "2026-11-16",
+   "number": 10,
+   "lead": "medico-familia-nacionalidade-uls-2026",
+   "opening": "Cinco histórias para segunda-feira: quem fica sem médico de família no SNS, os juros que Portugal já paga abaixo da França, o mundo com mais autocracias do que democracias, os cinemas que não recuperaram da pandemia e as compras pela internet antes da Black Friday.",
+   "pieces": [
+    {
+     "id": "medico-familia-nacionalidade-uls-2026",
+     "title": "Quase metade dos utentes estrangeiros do SNS não tem médico de família. Entre os portugueses, menos de um em dez",
+     "kind": "atualidade",
+     "theme": "saude",
+     "themeLabel": "Saúde",
+     "vizType": "halteres",
+     "vizLabel": "Halteres com terceiro marcador · 39 ULS · ordenação alternável",
+     "interactive": true,
+     "question": "Quem fica sem médico de família no SNS, e a diferença é só uma questão de geografia?",
+     "finding": "Em setembro de 2026, 44,9% dos utentes de nacionalidade estrangeira elegíveis para médico de família não o tinham atribuído, contra 9,3% dos de nacionalidade portuguesa. Os estrangeiros são 10,2% dos inscritos nos centros de saúde do continente, mas 35% dos 1,37 milhões de utentes sem médico. A taxa é mais alta entre estrangeiros em 37 das 39 Unidades Locais de Saúde.",
+     "period": "Setembro de 2026",
+     "dataset": "medico-familia-nacionalidade-uls-2026",
+     "sourceNames": [
+      "SNS — Portal da Transparência (ACSS, Registo Nacional de Utentes), «Inscritos em Cuidados de Saúde Primários» (inscritoscuidadosdesaudeprimarios), julho a setembro de 2026",
+      "ACSS — descrição das variáveis do conjunto no dados.gov.pt"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "juros-dividas-10-anos-2007-2026",
+     "title": "Portugal paga menos juros a dez anos do que a França, a Itália e a Espanha. Em 2012 pagava mais 12 pontos do que a Alemanha",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia",
+     "vizType": "linha",
+     "vizLabel": "Linhas mensais · cinco países · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Como mudou o preço a que os investidores emprestam a Portugal, comparado com as maiores economias do euro?",
+     "finding": "Em outubro de 2026, a taxa das obrigações do Tesouro português a dez anos foi, em média, de 3,92%, contra 4,89% na França, 4,68% na Itália, 4,07% na Espanha e 3,42% na Alemanha. Portugal paga menos do que a Espanha todos os meses desde janeiro de 2023 e menos do que a França desde julho de 2024, o que não acontecera em nenhum mês desde 2007. Em janeiro de 2012, a taxa portuguesa chegou a 13,85%, mais 12,03 pontos do que a alemã.",
+     "period": "Janeiro de 2007 a outubro de 2026",
+     "dataset": "juros-dividas-10-anos-2007-2026",
+     "sourceNames": [
+      "BCE — Taxas de juro de longo prazo para efeitos de convergência, obrigações do Tesouro a 10 anos (IRS.M.<país>.L.L40.CI.0000.EUR.N.Z)",
+      "Eurostat — PIB em volume, variação homóloga, 3.º trimestre de 2026 (namq_10_gdp)",
+      "Eurostat — Dívida pública em % do PIB (gov_10dd_edpt1)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "democracias-autocracias-mundo-1900-2025",
+     "title": "Pelo segundo ano seguido, há mais autocracias do que democracias no mundo. Entre 2003 e 2023 foi ao contrário",
+     "kind": "descoberta",
+     "theme": "geopolitica",
+     "themeLabel": "Geopolítica e defesa",
+     "vizType": "linha",
+     "vizLabel": "Linhas · quatro contagens · cursor por rato e teclado",
+     "interactive": true,
+     "question": "A democracia está a recuar no mundo e, se sim, desde quando?",
+     "finding": "Em 2025, o projeto V-Dem classificou 92 países como autocracias e 87 como democracias; em 2024 eram 93 e 86. Entre 2003 e 2023, as democracias foram sempre mais, o que nunca tinha acontecido antes, desde 1900. As democracias liberais, a categoria mais exigente, desceram de 45 em 2009 para 30 em 2024 e 31 em 2025, níveis que não se viam desde 1992, e as autocracias fechadas subiram para 35, o máximo desde 2001.",
+     "period": "1900 a 2025",
+     "dataset": "democracias-autocracias-mundo-1900-2025",
+     "sourceNames": [
+      "V-Dem — Country-Year Dataset v16 (2026), variável v2x_regime (Regimes of the World), CC BY-SA 4.0",
+      "V-Dem — pacote vdemdata 16.0 (ficheiro vdem.RData, cópia oficial no GitHub)",
+      "V-Dem Institute — Democracy Report 2026",
+      "Lührmann, Tannenberg e Lindberg (2018), «Regimes of the World (RoW)», Politics and Governance 6(1)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "cinema-espetadores-portugal-2006-2025",
+     "title": "Os cinemas portugueses venderam 11 milhões de bilhetes em 2025, menos 30% do que antes da pandemia",
+     "kind": "descoberta",
+     "theme": "cultura",
+     "themeLabel": "Cultura e história",
+     "vizType": "barras",
+     "vizLabel": "Colunas · 20 anos",
+     "interactive": true,
+     "question": "Os portugueses voltaram às salas de cinema depois da pandemia?",
+     "finding": "Em 2025, houve 10,96 milhões de espetadores de cinema em Portugal, menos 7,7% do que em 2024 e menos 30% do que em 2019, o último ano antes da pandemia. Excluídos os anos de 2020 a 2022, foi o valor mais baixo da série iniciada em 2006. Em 2026, a tendência inverteu-se: de janeiro a setembro, houve 9,25 milhões de espetadores, mais 9,7% do que no mesmo período de 2025.",
+     "period": "2006 a 2025 (e janeiro a setembro de 2026)",
+     "dataset": "cinema-espetadores-portugal-2006-2025",
+     "sourceNames": [
+      "ICA — Instituto do Cinema e Audiovisual, espetadores de cinema (metodologia de 2006), via INE, indicadores 0004095, 0008345, 0010724 e 0012252",
+      "ICA — Estatísticas do cinema"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "compras-online-ue-2021-2025",
+     "title": "Quatro em cada dez portugueses não fizeram uma única compra pela internet num ano. Só três países da UE ficam abaixo",
+     "kind": "descoberta",
+     "theme": "marketing",
+     "themeLabel": "Marketing",
+     "vizType": "halteres",
+     "vizLabel": "Halteres · 27 países · ordenação alternável",
+     "interactive": true,
+     "question": "Quantos portugueses compram pela internet, a poucos dias da Black Friday, e como se comparam com os europeus?",
+     "finding": "Em 2025, 60,5% dos portugueses entre os 16 e os 74 anos fizeram pelo menos uma compra pela internet nos 12 meses anteriores, contra 73,6% na UE. Portugal subiu 8,9 pontos desde 2021, mais do que a média europeia (6,5), mas continua em 24.º lugar entre 27, à frente apenas da Roménia, da Itália e da Bulgária, e abaixo do nível que a UE já tinha em 2021 (67,1%).",
+     "period": "2021 e 2025",
+     "dataset": "compras-online-ue-2021-2025",
+     "sourceNames": [
+      "Eurostat — Internet purchases by individuals (2020 onwards), isoc_ec_ib20, inquérito à utilização de TIC pelas famílias"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "vagas-de-democratizacao",
+    "title": "As vagas de democratização",
+    "axis": "geopolitica",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-13",
    "number": 9,
