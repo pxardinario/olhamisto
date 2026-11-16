@@ -84,24 +84,24 @@ assert.equal(F.empresas.filter((f) => f.coletiva).length, 2);
 const tiles = [
   { lab: "Dormidas", per: "ago. 2026", val: num(T.dormidas), chip: `${sgn(T.var_dormidas)} %`, state: "bad", note: `Portugal: ${sgn(T.var_portugal)} %`, sp: spark(T.serie) },
   { lab: "Estada média", per: "ago. 2026", val: `${num(T.estada, 2)} noites`, chip: `era ${num(T.estada_ano_anterior, 2)}`, state: "bad", note: `Hóspedes: ${sgn(T.var_hospedes)} %`, sp: "" },
-  { lab: "Desemprego registado", per: "set. 2026", val: num(U.valor), chip: `${sgn(U.var)} %`, state: "good", note: `Região Centro: ${sgn(U.var_centro)} %`, sp: spark(U.serie) },
+  { lab: "Desemprego registado", per: "set. 2026", val: num(U.valor), chip: `${sgn(U.var)} %`, state: "good", note: `IEFP Centro: ${sgn(U.var_centro)} %`, sp: spark(U.serie) },
   { lab: "Eletricidade · média e alta tensão", per: "jul. 2026", val: `${num(E.mat, 1)} GWh`, chip: `${sgn(E.var_mat)} %`, state: "alert", note: `Portugal: ${sgn(E.var_pais_mat)} %`, sp: spark(E.serie_mat, { tone: "alert" }) },
   { lab: "Eletricidade · baixa tensão", per: "jul. 2026", val: `${num(E.bt, 1)} GWh`, chip: `${sgn(E.var_bt)} %`, state: "flat", note: "Sem alteração relevante", sp: spark(E.serie_bt, { tone: "flat" }) },
-  { lab: "Juro do crédito novo às PME", per: "set. 2026", val: `${num(C.valor, 2)} %`, chip: `+${num(C.var_pp, 2)} p.p.`, state: "bad", note: `${C.subidas_consecutivas} subidas seguidas · média nacional`, sp: spark(C.serie) },
+  { lab: "Juro · empréstimos novos até 1 M€", per: "set. 2026", val: `${num(C.valor, 2)} %`, chip: `+${num(C.var_pp, 2)} p.p.`, state: "bad", note: `${C.subidas_consecutivas} subidas seguidas · média nacional`, sp: spark(C.serie) },
 ];
 
 const tres = [
   {
-    big: `${num(E.var_mat, 0)} %`, unit: "eletricidade da indústria, jul. 2026 face a jul. 2025",
+    big: `${num(E.var_mat, 1)} %`, unit: "eletricidade da indústria, jul. 2026 face a jul. 2025",
     h: "O consumo elétrico em média e alta tensão caiu para metade em julho",
-    what: `A energia faturada nestes níveis de tensão desceu de ${num(E.mat_ano_anterior, 1)} GWh (julho de 2025) para ${num(E.mat, 1)} GWh. Quase toda a quebra vem da freguesia de Lavos: ${num(E.lavos_mes_anterior, 1)} GWh em junho, ${num(E.lavos, 1)} GWh em julho. No país, o mesmo consumo variou ${sgn(E.var_pais_mat)} %.`,
-    why: `Lavos pesa ${E.peso_lavos_junho} % deste consumo no concelho. A queda pode refletir uma paragem de produção, autoprodução de energia ou um acerto de faturação. Os dados públicos não distinguem estas hipóteses.`,
+    what: `A energia faturada nestes níveis de tensão desceu de ${num(E.mat_ano_anterior, 1)} GWh (julho de 2025) para ${num(E.mat, 1)} GWh. A quebra vem toda da freguesia de Lavos (${num(E.lavos_ano_anterior, 1)} GWh em julho de 2025, ${num(E.lavos, 1)} GWh em julho de 2026); as restantes freguesias, no conjunto, subiram. No país, o mesmo consumo variou ${sgn(E.var_pais_mat)} %.`,
+    why: `Em junho, Lavos pesava ${E.peso_lavos_junho} % deste consumo no concelho. A queda pode refletir uma paragem de produção, autoprodução de energia ou um acerto de faturação. Os dados públicos não distinguem estas hipóteses.`,
     act: "Confirmar a causa junto das empresas antes de saírem os dados de agosto. Se for uma paragem, os fornecedores locais serão os primeiros a senti-la.",
   },
   {
-    big: `${num(C.valor, 2)} %`, unit: "juro médio do crédito novo às PME, set. 2026",
-    h: "O crédito às pequenas e médias empresas encarece há seis meses",
-    what: `A taxa média dos novos empréstimos até 1 milhão de euros às empresas era ${num(C.ano_anterior, 2)} % em setembro de 2025. Desde março de 2026 (${num(C.minimo_recente, 2)} %), subiu todos os meses.`,
+    big: `${num(C.valor, 2)} %`, unit: "juro médio dos novos empréstimos até 1 M€ às empresas, set. 2026",
+    h: "O crédito novo às empresas encarece há seis meses",
+    what: `A taxa média dos novos empréstimos até 1 milhão de euros às empresas, o escalão que mais se aproxima do crédito às PME, era ${num(C.ano_anterior, 2)} % em setembro de 2025. Desde março de 2026 (${num(C.minimo_recente, 2)} %), subiu todos os meses.`,
     why: `Cada 100${NB}000 € de crédito novo custa cerca de ${num(C.var_pp * 1000)} € a mais de juros no primeiro ano do que há um ano (cálculo simples sobre o capital inicial). É uma média nacional; as condições de cada empresa variam.`,
     act: "Quem tem investimento planeado deve comparar o custo do crédito com os apoios europeus abertos, listados mais abaixo.",
   },
@@ -243,7 +243,7 @@ ${tiles.map((t) => `   <div class="tile" data-s="${t.state}"><span class="lab">$
   <div class="fig">
     <h3>Em julho, o consumo elétrico em média e alta tensão da Figueira caiu para metade</h3>
     ${chartMAT()}
-    <p class="note">Energia ativa faturada pela E-REDES. A média e alta tensão abastece sobretudo a indústria e os grandes consumidores. Em Lavos, a descida foi de ${num(E.lavos_mes_anterior, 1)} GWh (junho) para ${num(E.lavos, 1)} GWh (julho); nos concelhos de Coimbra, Leiria e Ílhavo, o consumo de julho manteve-se em linha com junho. Por serem dados de faturação, um mês pode ainda ser corrigido.</p>
+    <p class="note">Energia ativa faturada pela E-REDES. A E-REDES agrega a muito alta, a alta e a média tensão, que abastecem sobretudo a indústria e os grandes consumidores. Em Lavos, a descida foi de ${num(E.lavos_mes_anterior, 1)} GWh (junho) para ${num(E.lavos, 1)} GWh (julho); nos concelhos de Coimbra, Leiria e Ílhavo, o consumo de julho subiu entre 3 % e 7 % face a junho. Por serem dados de faturação, um mês pode ainda ser corrigido.</p>
   </div>
 </section>
 
@@ -253,7 +253,7 @@ ${tiles.map((t) => `   <div class="tile" data-s="${t.state}"><span class="lab">$
     ${bars(T.pares, "var_agosto", { title: "Dormidas, agosto de 2026 face a agosto de 2025", goodIsDown: false })}
     ${bars(U.pares, "var", { title: "Desemprego registado, setembro de 2026 face a setembro de 2025", goodIsDown: true })}
   </div>
-  <p class="note">A Figueira a azul. Verde: evolução favorável; vermelho: desfavorável. O desemprego desceu em todos os concelhos comparados; a Figueira (${sgn(U.var)} %) acompanhou a região Centro (${sgn(U.var_centro)} %).</p>
+  <p class="note">A Figueira a azul. Verde: evolução favorável; vermelho: desfavorável. O desemprego desceu em todos os concelhos comparados; na Figueira (${sgn(U.var)} %), desceu mais do que no conjunto da delegação regional do Centro do IEFP (${sgn(U.var_centro)} %). Cada gráfico tem a sua escala.</p>
 </section>
 
 <section aria-labelledby="s5">
@@ -264,8 +264,8 @@ ${tiles.map((t) => `   <div class="tile" data-s="${t.state}"><span class="lab">$
     <tbody>
 ${concRows}
     </tbody></table></div>
-  <p class="callout">Em 2026, metade dos ${num(K.n_anuncios_2026)} concursos lançados pelas entidades acompanhadas deu ${K.prazo_mediano_dias} dias ou menos para apresentar propostas, e ${K.pct_ate_10_dias} % deram 10 dias ou menos. Um boletim mensal chega tarde para a maioria: esta secção deve funcionar como alerta semanal, filtrado pelo setor de cada associado.</p>
-  <p class="note">Entidades acompanhadas: Município da Figueira da Foz e juntas de freguesia do concelho, Águas da Figueira, APFF (Porto da Figueira da Foz), ULS do Baixo Mondego, CIM Região de Coimbra, ABMG e municípios de Montemor-o-Velho, Cantanhede e Soure. Anúncios publicados até 13 de novembro de 2026.</p>
+  <p class="callout">Em 2026, ${K.pct_ate_12_dias} % dos ${num(K.n_anuncios_2026)} concursos lançados pelas entidades acompanhadas deram 12 dias ou menos para apresentar propostas, e ${K.pct_ate_10_dias} % deram 10 dias ou menos. Um boletim mensal chega tarde para a maioria: esta secção deve funcionar como alerta semanal, filtrado pelo setor de cada associado.</p>
+  <p class="note">Entidades acompanhadas: Município da Figueira da Foz, Junta de Freguesia do Paião, Águas da Figueira, APFF (Porto da Figueira da Foz), ULS do Baixo Mondego, CIM Região de Coimbra, ABMG e municípios de Montemor-o-Velho, Cantanhede e Soure. Anúncios publicados até 13 de novembro de 2026.</p>
 
   <h3>Apoios europeus abertos a empresas (Portugal 2030, região Centro)</h3>
   <div class="tbl"><table>
@@ -281,9 +281,9 @@ ${fundRows}
   <p><strong>Fontes:</strong></p>
   <ul>
     <li>INE, Inquérito à permanência de hóspedes (dormidas e hóspedes, mensal por município; agosto de 2026 preliminar).</li>
-    <li>IEFP, Desemprego registado por concelhos (setembro de 2026).</li>
+    <li>IEFP, Desemprego registado por concelhos (setembro de 2026). «Centro» é a delegação regional do IEFP, que não inclui a Nazaré nem Peniche.</li>
     <li>E-REDES, Dados abertos, consumos faturados por município (CC BY 4.0; julho de 2026).</li>
-    <li>Banco de Portugal, BPstat, série 12533747 (setembro de 2026).</li>
+    <li>Banco de Portugal, BPstat, série 12533747: taxa de juro de novas operações de empréstimos até 1 M€ às empresas não financeiras, incluindo renegociações (setembro de 2026).</li>
     <li>IMPIC, Portal BASE, anúncios de 2026 (dados.gov.pt, atualizado a 15 de novembro de 2026) e Diário da República.</li>
     <li>Portugal 2030, avisos dos programas Centro 2030 e COMPETE 2030.</li>
   </ul>

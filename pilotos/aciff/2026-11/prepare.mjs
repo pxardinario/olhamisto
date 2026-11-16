@@ -36,6 +36,8 @@ const get = (s, p) => { const x = s.find((r) => r.periodo === p); assert.ok(x, `
 const ytd = (s, ano, ate) => s.filter((r) => r.periodo >= `${ano}-01` && r.periodo <= `${ano}-${ate}`).reduce((a, r) => a + r.valor, 0);
 
 const FF = "1920605";
+const metaINE = rd("ine_meta_0012088.json")[0].Dimensoes.Descricao_Dim[0].nota_dsg;
+assert.ok(/Agosto 2026 - dados preliminares/.test(metaINE));
 const ultimoTur = dorm[FF].at(-1).periodo;
 assert.equal(ultimoTur, "2026-08");
 const turismo = {
@@ -146,6 +148,8 @@ assert.equal(eletricidade.lavos_mes_anterior, 48.3);
 assert.equal(eletricidade.lavos_ano_anterior, 48.6);
 assert.equal(eletricidade.var_mat, -48.2);
 assert.equal(eletricidade.peso_lavos_junho, 55);
+const quebraTotal = get(mat, "2026-07") - get(mat, "2025-07"), quebraLavos = lavos("2026-07") - lavos("2025-07");
+assert.ok(quebraLavos < quebraTotal, "Lavos explica toda a quebra homóloga");
 assert.equal(eletricidade.var_pais_mat, -1.4);
 assert.equal(eletricidade.var_bt, 3.1);
 // concelhos de comparação: consumo MAT de julho em linha com junho (±10 %)
@@ -153,7 +157,7 @@ const paresEl = rd("eredes/pares_jun-jul_2026.json").results.filter((r) => r.niv
 for (const c of ["0603", "1009", "0110"]) {
   const jun = paresEl.find((r) => r.coddistritoconcelho === c && r.data.startsWith("2026-06")).kwh;
   const jul = paresEl.find((r) => r.coddistritoconcelho === c && r.data.startsWith("2026-07")).kwh;
-  assert.ok(Math.abs(jul / jun - 1) < 0.1, `par ${c} fora de ±10 %`);
+  assert.ok(jul / jun - 1 > 0.025 && jul / jun - 1 < 0.075, `par ${c} fora de +3 % a +7 %`);
 }
 const antes = mat.filter((r) => r.periodo >= "2024-01" && r.periodo <= "2026-06").map((r) => r.valor);
 assert.equal(Math.floor(Math.min(...antes)), 69);
@@ -181,11 +185,16 @@ assert.equal(credito.var_pp, 0.61);
 assert.equal(credito.subidas_consecutivas, 6);
 
 // ---------- 5. Concursos públicos (IMPIC/BASE) ----------
-const an = rd("base/anuncios2026_regiao.json");
+// O ficheiro regional foi filtrado por NIF e por nome de freguesia; o filtro por nome apanhou
+// juntas homónimas de outros concelhos (São Pedro, Vila Verde). Ficam só as entidades confirmadas.
+const NIF_REGIAO = new Set(["501305580", "506361527", "508805910", "504450875", "508354617", "515620491", "501272976", "506087000", "507103742"]);
+const an = rd("base/anuncios2026_regiao.json").filter((x) => NIF_REGIAO.has(x.nifEntidade) || /pai[aã]o/i.test(x.designacaoEntidade));
+assert.ok(!an.some((x) => ["510840590", "510837913", "510840647", "510836690"].includes(x.nifEntidade)));
 const procs = an.filter((x) => x.tipoActo !== "Anúncio de Alteração" && x.PrazoPropostas > 0);
 const prazos = procs.map((x) => x.PrazoPropostas).sort((a, b) => a - b);
 const mediana = prazos.length % 2 ? prazos[(prazos.length - 1) / 2] : (prazos[prazos.length / 2 - 1] + prazos[prazos.length / 2]) / 2;
 const ate10 = prazos.filter((p) => p <= 10).length;
+const ate12 = prazos.filter((p) => p <= 12).length;
 // abertos: prazo depois da data da edição; para procedimentos alterados, vale o anúncio mais recente
 const ultimoPorProc = new Map();
 for (const x of an) {
@@ -202,12 +211,13 @@ const abertos = [...ultimoPorProc.values()].filter((x) => (x.DataLimitePropostas
   }));
 const concursos = {
   ate: "2026-11-13", n_anuncios_2026: procs.length, prazo_mediano_dias: mediana, ate_10_dias: ate10,
-  pct_ate_10_dias: Math.round((ate10 / procs.length) * 100), abertos,
+  pct_ate_10_dias: Math.round((ate10 / procs.length) * 100), pct_ate_12_dias: Math.round((ate12 / procs.length) * 100), abertos,
 };
 assert.equal(abertos.length, 5);
-assert.equal(concursos.prazo_mediano_dias, 12);
+assert.equal(concursos.prazo_mediano_dias, 11.5);
+assert.equal(concursos.pct_ate_12_dias, 51);
 assert.equal(concursos.pct_ate_10_dias, 48);
-assert.equal(concursos.n_anuncios_2026, 229);
+assert.equal(concursos.n_anuncios_2026, 220);
 assert.ok(abertos.every((a) => a.prazo >= EDICAO));
 
 // ---------- 6. Fundos europeus (Portugal 2030) ----------

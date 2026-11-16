@@ -1,6 +1,6 @@
 {
  "edicao": "2026-11-17",
- "gerado": "2026-11-16T17:20:29.313Z",
+ "gerado": "2026-11-16T17:24:55.296Z",
  "turismo": {
   "periodo": "2026-08",
   "estado": "agosto de 2026: dados preliminares; janeiro a julho de 2026: provisórios (INE)",
@@ -684,10 +684,11 @@
  },
  "concursos": {
   "ate": "2026-11-13",
-  "n_anuncios_2026": 229,
-  "prazo_mediano_dias": 12,
-  "ate_10_dias": 110,
+  "n_anuncios_2026": 220,
+  "prazo_mediano_dias": 11.5,
+  "ate_10_dias": 106,
   "pct_ate_10_dias": 48,
+  "pct_ate_12_dias": 51,
   "abertos": [
    {
     "prazo": "2026-11-18",
