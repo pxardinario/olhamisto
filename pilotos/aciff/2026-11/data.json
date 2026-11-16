@@ -1,6 +1,6 @@
 {
  "edicao": "2026-11-17",
- "gerado": "2026-11-16T17:24:55.296Z",
+ "gerado": "2026-11-16T17:49:25.121Z",
  "turismo": {
   "periodo": "2026-08",
   "estado": "agosto de 2026: dados preliminares; janeiro a julho de 2026: provisórios (INE)",
@@ -749,92 +749,607 @@
     "nome": "Ações Coletivas – Internacionalização – Plano de Promoção Externa",
     "fim": "2026-12-03",
     "dotacao_meur": 5.5,
-    "coletiva": true
+    "coletiva": true,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F9%2F018e76c8-6b33-4320-bcbe-6cd038d4f7e5%2F7d8ef5f9-c18c-4d7e-aac1-0a21191c8a08&filename=Aviso_convite_SIAC_COMPETE-2026-13_AICEP_20260929.pdf",
+    "so_aicep": true,
+    "associacoes": false
    },
    {
     "codigo": "MPr-2026-7",
     "nome": "SIID – I&D Empresarial - Projetos Demonstradores Individuais e em Copromoção",
     "fim": "2026-12-29",
     "dotacao_meur": 12.5,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F8%2F87f0adcc-a404-4a72-940b-6b883dd86036%2Fd2916c74-4784-46b6-9997-8dcddf718887&filename=MPR-2026-7_SIID++Demonstradores+Individuais+e+Copromo%C3%A7%C3%A3o_18+agosto26_republica%C3%A7%C3%A3o.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "MPr-2026-4",
     "nome": "SIID – Internacionalização de I&D – Operações de I&D industrial à escala europeia",
     "fim": "2026-12-29",
     "dotacao_meur": 10,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F7%2F120229d9-5778-4540-961a-f054fa31822c%2F23566147-a4fc-4b44-aa64-9dd91301a4a1&filename=MPr-2026-04+_republica%C3%A7%C3%A3o_22julho.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "MPr-2026-8",
     "nome": "SICE - Inovação Produtiva (Rede de Fornecedores Inovadores)",
     "fim": "2026-12-30",
     "dotacao_meur": 29.3,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F9%2F0a7e94fe-b45d-4bac-ba3b-39e1126c5016%2Fa9122643-1a3a-4138-adc2-77ac31d57aad&filename=Aviso+MPR_2026_8++Inova%C3%A7%C3%A3o+Produtiva_Rede+de+Fornecedores+Inovadores_30_09_2026.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "MPr-2026-11",
     "nome": "SIID – I&D Empresarial - Operações Individuais e em Copromoção",
     "fim": "2026-12-30",
     "dotacao_meur": 4.6,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F10%2F4a8f9fae-6c8e-40e2-96c8-b45d7471bec4%2Ffeba4eef-01a1-4fd7-94cc-45267a050ca0&filename=MPR-2026-11_SIID+ID_Final_30_10_2026.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "MPr-2026-1",
     "nome": "SITCE – Eficiência energética e Descarbonização– Regime Geral e Regime Contratual de Investimento",
     "fim": "2026-12-30",
     "dotacao_meur": 165,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F2%2F22da8d1a-6774-4748-ab3a-1ccb2de9f8c0%2F31e27f60-47cf-40a6-ae41-03e5d6fd2d80&filename=Aviso+MPR-2026-01+-+Apoios+%C3%A0+Efici%C3%AAncia+energ%C3%A9tica+e+Descarboniza%C3%A7%C3%A3o+-+Empresas+-+09_02_2026_Republicado.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "MPr-2026-9",
     "nome": "STEP - I&D&I Empresarial - Digital e Biotecnologia",
     "fim": "2027-01-04",
     "dotacao_meur": 76,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F9%2Ff0281e57-09aa-4e97-86d4-5626c4dbb3c1%2Fbb4eec38-48d6-4731-9714-486f9026b275&filename=AAC+MPr-2026-9_IDI_STEP_Digital_Biotecnologia.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "COMPETE2030-2026-11",
     "nome": "STEP - I&D&I Empresarial - Energia",
     "fim": "2027-01-04",
     "dotacao_meur": 75,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F10%2Fc98a42e6-b992-4031-9dc0-8393e808efe0%2F98a238e4-c7fa-4ea9-97ee-0bdc2cc6eece&filename=AAC_COMPETE2030-2026-11_IDI_STEP_Energia_Republica%C3%A7%C3%A3o_16out26.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "MPr-2026-10",
     "nome": "STEP – Inovação Produtiva – Digital e Biotecnologia",
     "fim": "2027-01-04",
     "dotacao_meur": 108,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F9%2F28d0a71e-7ac5-44a4-a18f-76d130e8ef04%2F6d698a51-df8c-4804-8a21-3ebe26639d19&filename=Aviso_MPR_2026_10_TD%2BBIO+30.09.2026+v+publica%C3%A7%C3%A3o.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "COMPETE2030-2026-12",
     "nome": "STEP – Inovação Produtiva – Energia",
     "fim": "2027-01-04",
     "dotacao_meur": 100,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F9%2F4230cb6d-4269-490d-8d9c-53cb44c74cb6%2F54505bd5-2f03-42e8-b9c3-1118e497cb0c&filename=Aviso+COMPETE_2026_12++Inova%C3%A7%C3%A3oProdutiva_STEP+Energia+30Set2026+vpublica%C3%A7%C3%A3o.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "COMPETE2030-2026-15",
     "nome": "Ações Coletivas – Descarbonização nas empresas",
     "fim": "2027-01-08",
     "dotacao_meur": 25,
-    "coletiva": true
+    "coletiva": true,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F10%2F33e13948-d488-42e7-aa74-01b655e536cd%2F3b06e74a-a3a8-44e2-996a-70fec9c43f8a&filename=AAC_SIAC_DESCARBONIZA%C3%87%C3%83O-2026-15_VF_20261030.pdf",
+    "so_aicep": false,
+    "associacoes": true
    },
    {
     "codigo": "CENTRO2030-2026-13",
     "nome": "Contratação de Recursos Humanos Altamente Qualificados por empresas (micro, pequenas e médias) – Territórios de Baixa Densidade",
     "fim": "2027-02-26",
     "dotacao_meur": 4,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F5%2F84c893ce-b5e7-4025-a589-783c70382b9e%2F0ae22976-4be7-4867-a39c-7c84827960fc&filename=CENTRO2030-2026+-13.pdf",
+    "so_aicep": false,
+    "associacoes": false
    },
    {
     "codigo": "CENTRO2030-2026-14",
     "nome": "Contratação de Recursos Humanos Altamente Qualificados por empresas (micro, pequenas e médias) – Territórios não classificados como de Baixa Densidade",
     "fim": "2027-02-26",
     "dotacao_meur": 6,
-    "coletiva": false
+    "coletiva": false,
+    "url": "https://centro2030.pt/wp-json/avisos/download?container=siag-prod-container&path=avisos%2F2026%2F5%2F2fce5351-86ba-4f73-902c-e51a9411c7e5%2Fbd1c5476-4ad0-48fa-8c25-00830bc7382d&filename=CENTRO2030-2026+-+14.pdf",
+    "so_aicep": false,
+    "associacoes": false
    }
   ]
+ },
+ "setor": {
+  "nome": "Comércio e restauração",
+  "ipc": {
+   "periodo": "2026-10",
+   "total": 3.8,
+   "restauracao": 6.11,
+   "alimentares": 2.45,
+   "vestuario": -3.18,
+   "total_ano_anterior": 2.34,
+   "meses_restauracao_acima": 46,
+   "total_maximo_desde": "2023-05",
+   "serie_total": [
+    {
+     "periodo": "2024-11",
+     "valor": 2.47
+    },
+    {
+     "periodo": "2024-12",
+     "valor": 3.01
+    },
+    {
+     "periodo": "2025-01",
+     "valor": 2.54
+    },
+    {
+     "periodo": "2025-02",
+     "valor": 2.39
+    },
+    {
+     "periodo": "2025-03",
+     "valor": 1.85
+    },
+    {
+     "periodo": "2025-04",
+     "valor": 2.1
+    },
+    {
+     "periodo": "2025-05",
+     "valor": 2.26
+    },
+    {
+     "periodo": "2025-06",
+     "valor": 2.37
+    },
+    {
+     "periodo": "2025-07",
+     "valor": 2.64
+    },
+    {
+     "periodo": "2025-08",
+     "valor": 2.76
+    },
+    {
+     "periodo": "2025-09",
+     "valor": 2.4
+    },
+    {
+     "periodo": "2025-10",
+     "valor": 2.34
+    },
+    {
+     "periodo": "2025-11",
+     "valor": 2.21
+    },
+    {
+     "periodo": "2025-12",
+     "valor": 2.19
+    },
+    {
+     "periodo": "2026-01",
+     "valor": 1.92
+    },
+    {
+     "periodo": "2026-02",
+     "valor": 2.1
+    },
+    {
+     "periodo": "2026-03",
+     "valor": 2.71
+    },
+    {
+     "periodo": "2026-04",
+     "valor": 3.35
+    },
+    {
+     "periodo": "2026-05",
+     "valor": 3.27
+    },
+    {
+     "periodo": "2026-06",
+     "valor": 3.22
+    },
+    {
+     "periodo": "2026-07",
+     "valor": 3.04
+    },
+    {
+     "periodo": "2026-08",
+     "valor": 3.3
+    },
+    {
+     "periodo": "2026-09",
+     "valor": 3.61
+    },
+    {
+     "periodo": "2026-10",
+     "valor": 3.8
+    }
+   ],
+   "serie_rest": [
+    {
+     "periodo": "2024-11",
+     "valor": 5.18
+    },
+    {
+     "periodo": "2024-12",
+     "valor": 5.31
+    },
+    {
+     "periodo": "2025-01",
+     "valor": 5.36
+    },
+    {
+     "periodo": "2025-02",
+     "valor": 5.51
+    },
+    {
+     "periodo": "2025-03",
+     "valor": 5.55
+    },
+    {
+     "periodo": "2025-04",
+     "valor": 5.4
+    },
+    {
+     "periodo": "2025-05",
+     "valor": 5.73
+    },
+    {
+     "periodo": "2025-06",
+     "valor": 5.71
+    },
+    {
+     "periodo": "2025-07",
+     "valor": 5.92
+    },
+    {
+     "periodo": "2025-08",
+     "valor": 5.88
+    },
+    {
+     "periodo": "2025-09",
+     "valor": 5.96
+    },
+    {
+     "periodo": "2025-10",
+     "valor": 6.07
+    },
+    {
+     "periodo": "2025-11",
+     "valor": 6.39
+    },
+    {
+     "periodo": "2025-12",
+     "valor": 6.26
+    },
+    {
+     "periodo": "2026-01",
+     "valor": 6.19
+    },
+    {
+     "periodo": "2026-02",
+     "valor": 6.16
+    },
+    {
+     "periodo": "2026-03",
+     "valor": 6.21
+    },
+    {
+     "periodo": "2026-04",
+     "valor": 6.27
+    },
+    {
+     "periodo": "2026-05",
+     "valor": 6.07
+    },
+    {
+     "periodo": "2026-06",
+     "valor": 6.2
+    },
+    {
+     "periodo": "2026-07",
+     "valor": 6.29
+    },
+    {
+     "periodo": "2026-08",
+     "valor": 6.29
+    },
+    {
+     "periodo": "2026-09",
+     "valor": 6.38
+    },
+    {
+     "periodo": "2026-10",
+     "valor": 6.11
+    }
+   ],
+   "restauracao_acima_desde": "2023-01"
+  },
+  "retalho": {
+   "periodo": "2026-09",
+   "total": -0.2,
+   "alimentar": 1.2,
+   "nao_alimentar": -0.6,
+   "negativo_anterior": "2023-10",
+   "serie": [
+    {
+     "periodo": "2024-10",
+     "valor": 5.3
+    },
+    {
+     "periodo": "2024-11",
+     "valor": 5.2
+    },
+    {
+     "periodo": "2024-12",
+     "valor": 5.1
+    },
+    {
+     "periodo": "2025-01",
+     "valor": 5.5
+    },
+    {
+     "periodo": "2025-02",
+     "valor": 5
+    },
+    {
+     "periodo": "2025-03",
+     "valor": 4.2
+    },
+    {
+     "periodo": "2025-04",
+     "valor": 2.9
+    },
+    {
+     "periodo": "2025-05",
+     "valor": 5.5
+    },
+    {
+     "periodo": "2025-06",
+     "valor": 6.8
+    },
+    {
+     "periodo": "2025-07",
+     "valor": 6.7
+    },
+    {
+     "periodo": "2025-08",
+     "valor": 4.6
+    },
+    {
+     "periodo": "2025-09",
+     "valor": 6.4
+    },
+    {
+     "periodo": "2025-10",
+     "valor": 4.9
+    },
+    {
+     "periodo": "2025-11",
+     "valor": 7.1
+    },
+    {
+     "periodo": "2025-12",
+     "valor": 3.9
+    },
+    {
+     "periodo": "2026-01",
+     "valor": 4.1
+    },
+    {
+     "periodo": "2026-02",
+     "valor": 2.6
+    },
+    {
+     "periodo": "2026-03",
+     "valor": 6.2
+    },
+    {
+     "periodo": "2026-04",
+     "valor": 5.2
+    },
+    {
+     "periodo": "2026-05",
+     "valor": 2.7
+    },
+    {
+     "periodo": "2026-06",
+     "valor": 2.4
+    },
+    {
+     "periodo": "2026-07",
+     "valor": 2.5
+    },
+    {
+     "periodo": "2026-08",
+     "valor": 1.8
+    },
+    {
+     "periodo": "2026-09",
+     "valor": -0.2
+    }
+   ]
+  },
+  "confianca": {
+   "periodo": "2026-10",
+   "consumidores": -26.9,
+   "consumidores_mes_anterior": -22.3,
+   "consumidores_ano_anterior": -13.2,
+   "consumidores_minimo_desde": "2026-04",
+   "retalho": 3.3,
+   "retalho_max_recente": 8.8,
+   "serie_cons": [
+    {
+     "periodo": "2024-11",
+     "valor": -14.5
+    },
+    {
+     "periodo": "2024-12",
+     "valor": -15.7
+    },
+    {
+     "periodo": "2025-01",
+     "valor": -15.2
+    },
+    {
+     "periodo": "2025-02",
+     "valor": -15
+    },
+    {
+     "periodo": "2025-03",
+     "valor": -18
+    },
+    {
+     "periodo": "2025-04",
+     "valor": -20.6
+    },
+    {
+     "periodo": "2025-05",
+     "valor": -16
+    },
+    {
+     "periodo": "2025-06",
+     "valor": -16
+    },
+    {
+     "periodo": "2025-07",
+     "valor": -15.1
+    },
+    {
+     "periodo": "2025-08",
+     "valor": -17.5
+    },
+    {
+     "periodo": "2025-09",
+     "valor": -17.1
+    },
+    {
+     "periodo": "2025-10",
+     "valor": -13.2
+    },
+    {
+     "periodo": "2025-11",
+     "valor": -15.2
+    },
+    {
+     "periodo": "2025-12",
+     "valor": -15.1
+    },
+    {
+     "periodo": "2026-01",
+     "valor": -13.7
+    },
+    {
+     "periodo": "2026-02",
+     "valor": -17
+    },
+    {
+     "periodo": "2026-03",
+     "valor": -25.4
+    },
+    {
+     "periodo": "2026-04",
+     "valor": -29.4
+    },
+    {
+     "periodo": "2026-05",
+     "valor": -26.4
+    },
+    {
+     "periodo": "2026-06",
+     "valor": -21.8
+    },
+    {
+     "periodo": "2026-07",
+     "valor": -19.5
+    },
+    {
+     "periodo": "2026-08",
+     "valor": -20.1
+    },
+    {
+     "periodo": "2026-09",
+     "valor": -22.3
+    },
+    {
+     "periodo": "2026-10",
+     "valor": -26.9
+    }
+   ]
+  },
+  "concursos": {
+   "n": 6,
+   "soma_preco_base": 633825.24,
+   "lista": [
+    {
+     "data": "2026-06-30",
+     "entidade": "Município de Montemor-o-Velho",
+     "objeto": "Aquisição de serviços de fornecimento de Refeições Escolares, por lotes, (almoços e lanches) na Escola Básica de Carapinheira e no Jardim de Infância de Carapinheira (Lote 1), e na Escola Básica de Meãs do Campo, e no Jardim de Infância de Meãs do Campo (Lote 2) para Ano Letivo 2026/2027",
+     "preco_base": 194321.1,
+     "cpv": "Serviços de fornecimento de refeições (catering) a escolas",
+     "url": "https://files.diariodarepublica.pt/cp_hora/2026/06/124/419965758.pdf"
+    },
+    {
+     "data": "2026-07-06",
+     "entidade": "Município da Figueira da Foz",
+     "objeto": "CP 21/2026 - Fornecimento e entrega de leite escolar e variantes sem lactose nos estabelecimentos de educação pré-escolar e do 1.º ciclo do ensino básico (CEB), da rede pública do Município.",
+     "preco_base": 91466.8,
+     "cpv": "Leite",
+     "url": "https://files.diariodarepublica.pt/cp_hora/2026/07/128/419966337.pdf"
+    },
+    {
+     "data": "2026-08-04",
+     "entidade": "Município de Montemor-o-Velho",
+     "objeto": "Aquisição de Leite Escolar para distribuição pelos alunos da Educação Pré-Escolar e 1.º Ciclo | Ano Letivo de 2026/2027",
+     "preco_base": 46731,
+     "cpv": "Leite",
+     "url": "https://files.diariodarepublica.pt/cp_hora/2026/08/149/419969392.pdf"
+    },
+    {
+     "data": "2026-08-11",
+     "entidade": "APFF - Administração do Porto da Figueira da Foz, SA",
+     "objeto": "Concurso Público para a Concessão de um Edifício destinado a Estabelecimento de Restauração e Bebidas",
+     "preco_base": null,
+     "cpv": "Serviços de mesa e de restauração",
+     "url": "https://files.diariodarepublica.pt/cp_hora/2026/08/154/419970001.pdf"
+    },
+    {
+     "data": "2026-08-11",
+     "entidade": "Município da Figueira da Foz",
+     "objeto": "CP 40/2026 - Fornecimento e entrega de leite escolar e variantes sem lactose nos estabelecimentos de educação pré-escolar e do 1.º ciclo do ensino básico (CEB)",
+     "preco_base": 99388.8,
+     "cpv": "Leite",
+     "url": "https://files.diariodarepublica.pt/cp_hora/2026/08/154/419969970.pdf"
+    },
+    {
+     "data": "2026-08-12",
+     "entidade": "Junta de Freguesia de Paião",
+     "objeto": "Contratação de serviços para fornecimento e transporte de refeições escolares, por lotes, para os estabelecimentos escolares do 1º ciclo do ensino básico, circunscritos à área territorial da Freguesia do Paião",
+     "preco_base": 201917.54,
+     "cpv": "Serviços de cantinas escolares",
+     "url": "https://files.diariodarepublica.pt/cp_hora/2026/08/155/419970114.pdf"
+    }
+   ]
+  }
  }
 }

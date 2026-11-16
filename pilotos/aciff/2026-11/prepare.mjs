@@ -222,7 +222,7 @@ assert.ok(abertos.every((a) => a.prazo >= EDICAO));
 
 // ---------- 6. Fundos europeus (Portugal 2030) ----------
 const avisos = new Map();
-for (const f of fs.readdirSync(path.join(RAW, "fundos"))) for (const x of rd(`fundos/${f}`).avisos || []) avisos.set(x.aviso.codigoAviso, x);
+for (const f of fs.readdirSync(path.join(RAW, "fundos")).filter((n) => /^avisos_.*\.json$/.test(n))) for (const x of rd(`fundos/${f}`).avisos || []) avisos.set(x.aviso.codigoAviso, x);
 const empresas = [...avisos.values()].filter((x) => {
   const tip = x.estrutura.map((e) => e.tipologiaOperacaoDesignacao || "").join(" ");
   return x.calendario.dataFimAtual.slice(0, 10) >= EDICAO && (/\(SI\)/.test(tip) || /Ações coletivas/i.test(tip));
@@ -233,7 +233,93 @@ const empresas = [...avisos.values()].filter((x) => {
 })).sort((a, b) => a.fim.localeCompare(b.fim) || a.nome.localeCompare(b.nome));
 assert.equal(empresas.length, 13);
 
-const data = { edicao: EDICAO, gerado: new Date().toISOString(), turismo, desemprego, eletricidade, credito, concursos, fundos: { empresas } };
+// ---------- 7. Setor do mês: comércio e restauração (INE, Portugal) ----------
+function ineNacional(f) {
+  const j = rd(`ine_conj/${f}`)[0];
+  return Object.entries(j.Dados).map(([mes, arr]) => {
+    const [nome, ano] = mes.split(" de ");
+    const m = MESES.indexOf(nome.toLowerCase());
+    assert.ok(m >= 0 && arr.length === 1, `${f} ${mes}`);
+    return { periodo: `${ano}-${String(m + 1).padStart(2, "0")}`, valor: Number(arr[0].valor) };
+  }).sort((a, b) => a.periodo.localeCompare(b.periodo));
+}
+const desde = (s, p, cond) => { // último período anterior a p em que cond(valor) foi verdadeira
+  for (let i = s.findIndex((r) => r.periodo === p) - 1; i >= 0; i--) if (cond(s[i].valor)) return s[i].periodo;
+  return null;
+};
+const ipcT = ineNacional("ipc_T.json"), ipcRest = ineNacional("ipc_111.json"), ipcAlim = ineNacional("ipc_01.json"), ipcVest = ineNacional("ipc_03.json");
+const ret = ineNacional("retalho_47.json"), retAlim = ineNacional("retalho_CR2.json"), retNAlim = ineNacional("retalho_CR4.json");
+const confCons = ineNacional("conf_consumidores.json"), confRet = ineNacional("conf_retalho.json");
+const IPC = "2026-10", RET = "2026-09", CONF = "2026-10";
+let mesesAcima = 0;
+for (let i = ipcRest.length - 1; i >= 0 && ipcRest[i].valor > get(ipcT, ipcRest[i].periodo); i--) mesesAcima++;
+const setor = {
+  nome: "Comércio e restauração",
+  ipc: { periodo: IPC, total: get(ipcT, IPC), restauracao: get(ipcRest, IPC), alimentares: get(ipcAlim, IPC), vestuario: get(ipcVest, IPC),
+    total_ano_anterior: get(ipcT, "2025-10"), meses_restauracao_acima: mesesAcima, total_maximo_desde: desde(ipcT, IPC, (v) => v >= get(ipcT, IPC)),
+    serie_total: ipcT.filter((r) => r.periodo >= "2024-11"), serie_rest: ipcRest.filter((r) => r.periodo >= "2024-11") },
+  retalho: { periodo: RET, total: get(ret, RET), alimentar: get(retAlim, RET), nao_alimentar: get(retNAlim, RET),
+    negativo_anterior: desde(ret, RET, (v) => v < 0), serie: ret.filter((r) => r.periodo >= "2024-10") },
+  confianca: { periodo: CONF, consumidores: get(confCons, CONF), consumidores_mes_anterior: get(confCons, "2026-09"), consumidores_ano_anterior: get(confCons, "2025-10"),
+    consumidores_minimo_desde: desde(confCons, CONF, (v) => v <= get(confCons, CONF)), retalho: get(confRet, CONF), retalho_max_recente: get(confRet, "2026-06"),
+    serie_cons: confCons.filter((r) => r.periodo >= "2024-11") },
+};
+assert.equal(setor.ipc.total, 3.8);
+assert.equal(setor.ipc.restauracao, 6.11);
+assert.equal(setor.ipc.alimentares, 2.45);
+assert.equal(setor.ipc.vestuario, -3.18);
+assert.equal(setor.ipc.total_ano_anterior, 2.34);
+assert.equal(setor.retalho.total, -0.2);
+assert.equal(setor.retalho.alimentar, 1.2);
+assert.equal(setor.retalho.nao_alimentar, -0.6);
+assert.equal(setor.confianca.consumidores, -26.9);
+assert.equal(setor.confianca.consumidores_mes_anterior, -22.3);
+assert.equal(setor.confianca.retalho, 3.3);
+assert.equal(setor.confianca.retalho_max_recente, 8.8);
+setor.ipc.restauracao_acima_desde = ipcRest[ipcRest.length - mesesAcima].periodo;
+assert.equal(mesesAcima, 46);
+assert.equal(setor.ipc.restauracao_acima_desde, "2023-01");
+assert.equal(setor.ipc.total_maximo_desde, "2023-05");
+assert.equal(setor.retalho.negativo_anterior, "2023-10");
+assert.equal(setor.confianca.consumidores_minimo_desde, "2026-04");
+console.error("setor (conferir):", { acima: mesesAcima, ipcMax: setor.ipc.total_maximo_desde, retNeg: setor.retalho.negativo_anterior, consMin: setor.confianca.consumidores_minimo_desde });
+
+// concursos de refeições, alimentos e restauração lançados pelas entidades acompanhadas em 2026
+const restConc = an.filter((x) => x.tipoActo !== "Anúncio de Alteração" && (x.CPVs || []).some((c) => /^(55|15)/.test(c)))
+  .map((x) => ({ data: x.dataPublicacao, entidade: x.designacaoEntidade, objeto: x.descricaoAnuncio.trim(), preco_base: x.PrecoBase === "Inexistente" ? null : Number(x.PrecoBase), cpv: x.CPVs[0].replace(/^[\d-]+ - /, ""), url: x.url }))
+  .sort((a, b) => a.data.localeCompare(b.data));
+setor.concursos = { n: restConc.length, soma_preco_base: r2(restConc.reduce((a, x) => a + (x.preco_base || 0), 0)), lista: restConc };
+assert.equal(setor.concursos.n, 6);
+assert.equal(setor.concursos.soma_preco_base, 633825.24);
+
+// ---------- 8. Fundos: ligação ao aviso e verificação dos factos usados nas descrições ----------
+const pdfTxt = (c) => fs.readFileSync(path.join(RAW, "fundos/pdf", `${c}.txt`), "utf8").replace(/\s+/g, " ");
+const FACTOS = {
+  "COMPETE2030-2026-13": [/cabe à entidade convidada – AICEP/],
+  "COMPETE2030-2026-15": [/Associações empresariais, câmaras de comércio e indústria e agências de promoção turística/, /em particular das PME/],
+  "MPr-2026-8": [/PME\) integrantes da Rede de Fornecedores da The Navigator Company/],
+  "MPr-2026-1": [/Fase 3: 30\/12\/2026 \(18h00\), exclusivamente para as candidaturas ao RCI/, /podem candidatar-se as Grandes Empresas/],
+  "MPr-2026-4": [/projetos europeus de I&D/, /Fase 3: 30\/09\/2026 a 29\/12\/2026/],
+  "MPr-2026-7": [/Projetos Demonstradores/, /linhas-piloto/],
+  "MPr-2026-11": [/investigação industrial e\/ou de desenvolvimento experimental/],
+  "MPr-2026-9": [/Digital e Biotecnologia – Operações em Copromoção/, /Empresas de qualquer dimensão/],
+  "COMPETE2030-2026-11": [/Energia – Operações em Copromoção/, /Empresas de qualquer dimensão/],
+  "MPr-2026-10": [/tecnologias digitais e inovação de tecnologia profunda, e das biotecnologias/, /Empresas de qualquer dimensão/],
+  "COMPETE2030-2026-12": [/tecnologias limpas e eficientes na utilização de recursos/, /Empresas de qualquer dimensão/],
+  "CENTRO2030-2026-13": [/territórios classificados como de Baixa Densidade/, /Fase 3: 18:00h do dia 21\/12\/2026/, /grau académico com nível de qualificação igual ou superior a 6/],
+  "CENTRO2030-2026-14": [/territórios não classificados como de Baixa Densidade/, /Fase 3: 18:00h do dia 21\/12\/2026/],
+};
+const urls = Object.fromEntries(fs.readFileSync(path.join(RAW, "fundos/avisos_urls.tsv"), "utf8").trim().split("\n").map((l) => l.split("\t")));
+for (const f of empresas) {
+  assert.ok(FACTOS[f.codigo], `sem factos para ${f.codigo}`);
+  for (const re of FACTOS[f.codigo]) assert.match(pdfTxt(f.codigo), re, `${f.codigo}: ${re}`);
+  assert.ok(urls[f.codigo], `sem ligação para ${f.codigo}`);
+  f.url = urls[f.codigo];
+  f.so_aicep = f.codigo === "COMPETE2030-2026-13";
+  f.associacoes = f.codigo === "COMPETE2030-2026-15";
+}
+
+const data = { edicao: EDICAO, gerado: new Date().toISOString(), turismo, desemprego, eletricidade, credito, concursos, fundos: { empresas }, setor };
 fs.writeFileSync(path.join(DIR, "data.json"), JSON.stringify(data, null, 1));
 console.log("OK — data.json escrito.");
 console.log(JSON.stringify({ turismo: { ...turismo, serie: undefined }, desemprego: { ...desemprego, serie: undefined }, eletricidade: { ...eletricidade, serie_mat: undefined }, credito: { ...credito, serie: undefined }, concursos, fundos: empresas }, null, 1));

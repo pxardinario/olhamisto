@@ -6,7 +6,7 @@ import assert from "node:assert/strict";
 
 const DIR = path.dirname(new URL(import.meta.url).pathname);
 const D = JSON.parse(fs.readFileSync(path.join(DIR, "data.json"), "utf8"));
-const { turismo: T, desemprego: U, eletricidade: E, credito: C, concursos: K, fundos: F } = D;
+const { turismo: T, desemprego: U, eletricidade: E, credito: C, concursos: K, fundos: F, setor: S } = D;
 
 // ---------- formatação à portuguesa ----------
 const NB = " "; // espaço fino inquebrável nos milhares
@@ -60,6 +60,25 @@ function chartMAT() {
   return `<svg viewBox="0 0 ${W} ${H}" class="chart" role="img" aria-label="Consumo mensal de eletricidade em média e alta tensão na Figueira da Foz, de janeiro de 2024 a julho de 2026. Oscila entre 69 e 100 GWh até junho de 2026 e cai para 45,1 GWh em julho de 2026.">${g}</svg>`;
 }
 
+function lines2(a, b, { la, lb, title }) {
+  const W = 640, H = 230, L = 34, R = 150, Tp = 30, B = 28;
+  const all = [...a, ...b].map((r) => r.valor);
+  const lo = 0, hi = Math.ceil(Math.max(...all) + 0.5);
+  assert.ok(Math.min(...all) >= lo);
+  const x = (i) => L + (i * (W - L - R)) / (a.length - 1);
+  const y = (v) => Tp + (1 - (v - lo) / (hi - lo)) * (H - Tp - B);
+  let g = "";
+  for (let t = 0; t <= hi; t += 2) g += `<line x1="${L}" x2="${W - R}" y1="${y(t)}" y2="${y(t)}" class="grid"/><text x="${L - 6}" y="${y(t) + 4}" class="tick" text-anchor="end">${t}</text>`;
+  a.forEach((r, i) => { if (r.periodo.endsWith("-01")) g += `<text x="${x(i)}" y="${H - 8}" class="tick" text-anchor="middle">jan. ${r.periodo.slice(0, 4)}</text>`; });
+  const path = (s) => s.map((r, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(r.valor).toFixed(1)}`).join(" ");
+  g += `<path d="${path(b)}" class="ln-b" fill="none"/><path d="${path(a)}" class="ln-a" fill="none"/>`;
+  const n = a.length - 1;
+  g += `<circle cx="${x(n)}" cy="${y(a[n].valor)}" r="3.5" class="dot-a"/><circle cx="${x(n)}" cy="${y(b[n].valor)}" r="3.5" class="dot-b"/>`;
+  g += `<text x="${x(n) + 8}" y="${y(a[n].valor) + 4}" class="lab-a">${la} ${num(a[n].valor, 1)} %</text><text x="${x(n) + 8}" y="${y(b[n].valor) + 4}" class="lab-b">${lb} ${num(b[n].valor, 1)} %</text>`;
+  g += `<text x="${L}" y="14" class="axis-title">Variação homóloga dos preços, % · Portugal</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}" class="chart" role="img" aria-label="${esc(title)}">${g}</svg>`;
+}
+
 function bars(rows, key, { title, goodIsDown }) {
   const W = 300, rowH = 24, L = 104, R = 46, Tp = 8;
   const H = Tp + rows.length * rowH + 6;
@@ -80,6 +99,23 @@ function bars(rows, key, { title, goodIsDown }) {
 }
 
 // ---------- conteúdo ----------
+// O que é e para quem, escrito a partir do texto de cada aviso (factos conferidos em prepare.mjs)
+const AVISO = {
+  "COMPETE2030-2026-13": ["Promoção externa da oferta portuguesa e captação de investimento.", "Aviso-convite: só a AICEP pode candidatar-se. As empresas não se candidatam diretamente."],
+  "MPr-2026-7": ["Projetos que demonstram em situação real uma tecnologia saída de I&D já concluída, incluindo linhas-piloto.", "PME e empresas de pequena-média capitalização, sozinhas ou com universidades e centros de I&D."],
+  "MPr-2026-4": ["Cofinanciamento nacional para empresas portuguesas que participam em projetos europeus de I&D.", "PME e empresas de pequena-média capitalização. A fase atual fecha a 29 de dezembro."],
+  "MPr-2026-8": ["Investimento produtivo inovador: nova unidade, mais capacidade ou novos produtos.", "Só PME que integram a rede de fornecedores da The Navigator Company aprovada neste programa."],
+  "MPr-2026-11": ["Investigação industrial e desenvolvimento experimental para criar ou melhorar produtos, processos ou serviços.", "PME e empresas de pequena-média capitalização, sozinhas ou com entidades de I&D."],
+  "MPr-2026-1": ["Descarbonização e eficiência energética de projetos de interesse estratégico, em regime contratual.", "Só grandes empresas. As fases para empresas de qualquer dimensão fecharam em fevereiro e maio de 2026."],
+  "MPr-2026-9": ["I&D e inovação em tecnologias digitais e biotecnologia consideradas críticas pela União Europeia (STEP).", "Empresas de qualquer dimensão, em copromoção com outras empresas ou entidades de I&D."],
+  "COMPETE2030-2026-11": ["I&D e inovação em tecnologias de energia consideradas críticas pela União Europeia (STEP).", "Empresas de qualquer dimensão, em copromoção com outras empresas ou entidades de I&D."],
+  "MPr-2026-10": ["Investimento para fabricar tecnologias digitais ou biotecnológicas críticas, ou os seus componentes (STEP).", "Empresas de qualquer dimensão."],
+  "COMPETE2030-2026-12": ["Investimento para fabricar tecnologias limpas, incluindo tecnologias neutras em carbono, ou os seus componentes (STEP).", "Empresas de qualquer dimensão."],
+  "COMPETE2030-2026-15": ["Projetos coletivos para acelerar a descarbonização das empresas, em particular das PME.", "Associações empresariais, câmaras de comércio e indústria, agências de promoção turística e entidades de I&D. A ACIFF é elegível pelo tipo de entidade."],
+  "CENTRO2030-2026-13": ["Apoio à contratação de licenciados, mestres e doutorados para reforçar a inovação.", "PME em territórios de baixa densidade da região Centro. A próxima fase fecha a 21 de dezembro."],
+  "CENTRO2030-2026-14": ["Apoio à contratação de licenciados, mestres e doutorados para reforçar a inovação.", "PME nos restantes territórios da região Centro. A próxima fase fecha a 21 de dezembro."],
+};
+for (const f of F.empresas) assert.ok(AVISO[f.codigo], f.codigo);
 assert.equal(F.empresas.filter((f) => f.coletiva).length, 2);
 const tiles = [
   { lab: "Dormidas", per: "ago. 2026", val: num(T.dormidas), chip: `${sgn(T.var_dormidas)} %`, state: "bad", note: `Portugal: ${sgn(T.var_portugal)} %`, sp: spark(T.serie) },
@@ -120,7 +156,21 @@ const concRows = K.abertos.map((a) => {
   return `<tr><td class="dt">${data(a.prazo)}</td><td><span class="obj">${esc(objeto)}</span><span class="ent">${esc(a.entidade)}${a.alteracao ? " · prazo alterado" : ""}</span></td><td class="num">${eur(a.preco_base)}</td><td><a href="${esc(a.url)}">anúncio</a></td></tr>`;
 }).join("\n");
 
-const fundRows = F.empresas.map((f) => `<tr${f.coletiva ? ' class="hl"' : ""}><td class="dt">${data(f.fim)}</td><td><span class="obj">${esc(f.nome)}</span><span class="ent">${esc(f.codigo)}${f.coletiva ? " · para associações e outras entidades coletivas" : ""}</span></td><td class="num">${num(f.dotacao_meur, 1)} M€</td></tr>`).join("\n");
+const fundRows = F.empresas.map((f) => {
+  const cls = f.associacoes || f.codigo === "MPr-2026-8" ? ' class="hl"' : f.so_aicep ? ' class="dim"' : "";
+  const [oque, quem] = AVISO[f.codigo];
+  return `<tr${cls}><td class="dt">${data(f.fim)}</td><td><span class="obj">${esc(f.nome)}</span><span class="desc">${esc(oque)} <strong>Para quem:</strong> ${esc(quem)}</span><span class="ent">${esc(f.codigo)} · <a href="${esc(f.url)}">ler o aviso (PDF)</a></span></td><td class="num">${num(f.dotacao_meur, 1)} M€</td></tr>`;
+}).join("\n");
+
+const SI = S.ipc, SR = S.retalho, SC = S.confianca;
+const setorTiles = [
+  { lab: "Preços · serviços de restauração", per: "out. 2026", val: `${sgn(SI.restauracao, 1)} %`, chip: `inflação ${num(SI.total, 1)} %`, state: "info", note: `Acima da inflação total há ${SI.meses_restauracao_acima} meses` },
+  { lab: "Inflação total", per: "out. 2026", val: `${num(SI.total, 1)} %`, chip: `era ${num(SI.total_ano_anterior, 1)} %`, state: "bad", note: `A mais alta desde ${mesAno(SI.total_maximo_desde)}` },
+  { lab: "Vendas no comércio a retalho (volume)", per: "set. 2026", val: `${sgn(SR.total, 1)} %`, chip: `alimentar ${sgn(SR.alimentar, 1)} %`, state: "bad", note: `Não alimentar ${sgn(SR.nao_alimentar, 1)} % · primeira descida desde ${mesAno(SR.negativo_anterior)}` },
+  { lab: "Confiança dos consumidores", per: "out. 2026", val: num(SC.consumidores, 1), chip: `set.: ${num(SC.consumidores_mes_anterior, 1)}`, state: "bad", note: `O valor mais baixo desde ${mesAno(SC.consumidores_minimo_desde)}` },
+  { lab: "Confiança do comércio a retalho", per: "out. 2026", val: num(SC.retalho, 1), chip: `jun.: ${num(SC.retalho_max_recente, 1)}`, state: "bad", note: "Saldo de respostas; positivo, mas a descer desde junho" },
+];
+const setorConc = S.concursos.lista.map((c) => `<li><span class="dt">${data(c.data)}</span> ${esc(c.objeto.replace(/\s+/g, " ").slice(0, 110))}${c.objeto.length > 110 ? "…" : ""} <span class="ent">${esc(c.entidade)} · ${eur(c.preco_base)} · <a href="${esc(c.url)}">anúncio</a></span></li>`).join("\n");
 
 const html = `<title>Barómetro Figueira</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -203,6 +253,17 @@ tr.hl td { background: var(--accent-soft) }
 .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums }
 .obj { display: block } .ent { display: block; font-size: 0.82rem; color: var(--muted) }
 .callout { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; max-width: 62ch }
+.tile[data-s="info"] { --st: var(--accent); --st-soft: var(--accent-soft) }
+.desc { display: block; font-size: 0.88rem; margin: 3px 0 2px; max-width: 60ch }
+tr.dim td { color: var(--muted) }
+.sector { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 20px; display: grid; gap: 16px; min-width: 0 }
+.sector .tiles { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)) }
+.sector .tile { background: var(--bg) }
+.reading { display: grid; gap: 10px; max-width: 64ch }
+.conc { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 0.93rem }
+.ln-a { stroke: var(--accent); stroke-width: 2.4 } .ln-b { stroke: var(--flat); stroke-width: 2 }
+.dot-a { fill: var(--accent) } .dot-b { fill: var(--flat) }
+.lab-a { font: 600 12.5px var(--f-body); fill: var(--accent) } .lab-b { font: 12.5px var(--f-body); fill: var(--muted) }
 footer { border-top: 1px solid var(--line); padding-top: 18px; display: grid; gap: 12px; font-size: 0.88rem; color: var(--muted) }
 footer ul { margin: 0; padding-left: 18px; display: grid; gap: 4px }
 @media (max-width: 560px) { .item { grid-template-columns: 1fr } .big { font-size: 1.9rem } }
@@ -257,7 +318,32 @@ ${tiles.map((t) => `   <div class="tile" data-s="${t.state}"><span class="lab">$
 </section>
 
 <section aria-labelledby="s5">
-  <h2 id="s5"><span class="sec-n">5</span>Oportunidades</h2>
+  <h2 id="s5"><span class="sec-n">5</span>Setor do mês: ${S.nome.toLowerCase()}</h2>
+  <div class="sector">
+    <h3>Os preços nos restaurantes sobem ${num(SI.restauracao, 1)} % ao ano, e o consumidor está mais pessimista</h3>
+    <p class="note">Não há dados mensais por concelho para estes setores. Os indicadores abaixo são nacionais (INE) e servem de enquadramento para a Figueira.</p>
+    <div class="tiles">
+${setorTiles.map((t) => `     <div class="tile" data-s="${t.state}"><span class="lab">${t.lab} · ${t.per}</span><div class="row"><span class="v">${t.val}</span><span class="chip">${t.chip}</span></div><span class="n">${t.note}</span></div>`).join("\n")}
+    </div>
+    ${lines2(SI.serie_rest, SI.serie_total, { la: "Restauração", lb: "Inflação total", title: `Variação homóloga dos preços dos serviços de restauração e da inflação total em Portugal, de novembro de 2024 a outubro de 2026. A restauração varia entre ${num(Math.min(...SI.serie_rest.map((r) => r.valor)), 1)} % e ${num(Math.max(...SI.serie_rest.map((r) => r.valor)), 1)} %; a inflação total entre ${num(Math.min(...SI.serie_total.map((r) => r.valor)), 1)} % e ${num(Math.max(...SI.serie_total.map((r) => r.valor)), 1)} %.` })}
+    <div class="reading">
+      <p><strong>Restauração.</strong> Os preços dos serviços de restauração sobem mais do que a inflação total desde ${mesAno(SI.restauracao_acima_desde)}. Os produtos alimentares, a principal matéria-prima, sobem ${num(SI.alimentares, 1)} %, menos de metade. A diferença pode refletir outros custos, como pessoal e energia, que estes dados não isolam. Na Figueira, agosto trouxe estadias mais curtas (${num(T.estada, 2)} noites), ou seja, cada visitante passou menos dias no concelho.</p>
+      <p><strong>Comércio.</strong> O volume de vendas no retalho caiu ${num(-SR.total, 1)} % em setembro, face a um ano antes, puxado pelos produtos não alimentares (${sgn(SR.nao_alimentar, 1)} %). O vestuário e o calçado estão ${num(-SI.vestuario, 1)} % mais baratos do que há um ano. A confiança dos consumidores caiu para o valor mais baixo desde ${mesAno(SC.consumidores_minimo_desde)}: o comércio entra na época de Natal com clientes mais cautelosos.</p>
+      <p class="act"><strong>O que fazer:</strong> rever preços e promoções de Natal com base nos custos reais de cada negócio. A média nacional diz para onde o mercado se move, não o que cada loja ou restaurante deve cobrar.</p>
+    </div>
+    <div class="reading">
+      <h3>Concursos públicos para o setor na região em 2026</h3>
+      <p class="note">${S.concursos.n} concursos de refeições, alimentos ou restauração lançados pelas entidades acompanhadas, com ${num(S.concursos.soma_preco_base)} € de preço base somado. Estão todos fechados; o alerta semanal avisaria os associados no dia da publicação.</p>
+      <ul class="conc">
+${setorConc}
+      </ul>
+    </div>
+    <p class="note">Rotação proposta: comércio e restauração (novembro), indústria e energia (dezembro), construção e imobiliário (janeiro), turismo e alojamento (fevereiro).</p>
+  </div>
+</section>
+
+<section aria-labelledby="s6">
+  <h2 id="s6"><span class="sec-n">6</span>Oportunidades</h2>
   <h3>Concursos públicos da região com propostas ainda abertas</h3>
   <div class="tbl"><table>
     <thead><tr><th>Prazo</th><th>Objeto e entidade</th><th class="num">Preço base</th><th>Fonte</th></tr></thead>
@@ -273,7 +359,7 @@ ${concRows}
     <tbody>
 ${fundRows}
     </tbody></table></div>
-  <p class="callout">Os dois avisos destacados (ações coletivas) destinam-se a entidades que atuam em nome de um conjunto de empresas, como as associações empresariais. A elegibilidade da ACIFF tem de ser confirmada no texto de cada aviso.</p>
+  <p class="callout">Destaques: as ações coletivas para a descarbonização admitem associações empresariais, por isso a ACIFF pode candidatar-se até 8 de janeiro. A rede de fornecedores da The Navigator Company abrange só as PME que integram essa rede; confirme junto da empresa se é o seu caso.</p>
   <p class="note">Dotação total de cada aviso, que pode abranger várias regiões. Inclui os avisos dos sistemas de incentivos às empresas e de ações coletivas com candidaturas abertas a 17 de novembro de 2026.</p>
 </section>
 
@@ -285,9 +371,11 @@ ${fundRows}
     <li>E-REDES, Dados abertos, consumos faturados por município (CC BY 4.0; julho de 2026).</li>
     <li>Banco de Portugal, BPstat, série 12533747: taxa de juro de novas operações de empréstimos até 1 M€ às empresas não financeiras, incluindo renegociações (setembro de 2026).</li>
     <li>IMPIC, Portal BASE, anúncios de 2026 (dados.gov.pt, atualizado a 15 de novembro de 2026) e Diário da República.</li>
-    <li>Portugal 2030, avisos dos programas Centro 2030 e COMPETE 2030.</li>
+    <li>Portugal 2030, avisos dos programas Centro 2030 e COMPETE 2030 (lista de avisos abertos e texto integral de cada aviso).</li>
+    <li>INE, Índice de preços no consumidor (base 2025, outubro de 2026), Índice de volume de negócios no comércio (setembro de 2026) e inquéritos de conjuntura aos consumidores e ao comércio (outubro de 2026).</li>
   </ul>
-  <p><strong>Ainda não incluído nesta versão-piloto:</strong> calendário fiscal e contributivo, movimento do Porto da Figueira da Foz e preços dos combustíveis.</p>
+  <p><strong>Ainda não incluído nesta versão-piloto:</strong> calendário fiscal e contributivo (a confirmar se a ACIFF já o divulga), movimento do Porto da Figueira da Foz e preços dos combustíveis.</p>
+  <p><strong>Correções:</strong> 17 nov. 2026 — A primeira versão indicava que o aviso «Ações Coletivas – Internacionalização» (COMPETE2030-2026-13) estava aberto a associações empresariais. O aviso é um convite dirigido apenas à AICEP.</p>
   <p><strong>Feito por IA.</strong> Textos e números gerados por agentes de IA a partir das fontes oficiais indicadas. Cada número foi conferido automaticamente com os dados de origem e por um verificador independente, sem revisão humana prévia. Não constitui aconselhamento financeiro, fiscal ou jurídico.</p>
   <p>Proposta preparada por Pedro Silva · Dados consultados a 16 de novembro de 2026.</p>
 </footer>

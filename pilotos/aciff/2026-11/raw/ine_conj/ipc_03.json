@@ -1,0 +1,7487 @@
+[ {
+  "IndicadorCod" : "0014647",
+  "IndicadorDsg" : "Índice de preços no consumidor (Taxa de variação homóloga - Base 2025 - %) por Localização geográfica e Consumo individual por objetivo; Mensal - INE, Índice de preços no consumidor",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0014647&lingua=PT",
+  "DataExtracao" : "2026-11-16T17:44:37.134Z",
+  "DataUltimoAtualizacao" : "2026-11-11",
+  "UltimoPref" : "Outubro de 2026",
+  "Dados" : {
+    "Janeiro de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,38",
+      "valor" : "-2.38"
+    } ],
+    "Fevereiro de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,38",
+      "valor" : "-2.38"
+    } ],
+    "Março de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,38",
+      "valor" : "-2.38"
+    } ],
+    "Abril de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,64",
+      "valor" : "-3.64"
+    } ],
+    "Maio de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,88",
+      "valor" : "-3.88"
+    } ],
+    "Junho de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,88",
+      "valor" : "-3.88"
+    } ],
+    "Julho de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,98",
+      "valor" : "-2.98"
+    } ],
+    "Agosto de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,27",
+      "valor" : "-4.27"
+    } ],
+    "Setembro de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,11",
+      "valor" : "-4.11"
+    } ],
+    "Outubro de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,88",
+      "valor" : "-1.88"
+    } ],
+    "Novembro de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,77",
+      "valor" : "-1.77"
+    } ],
+    "Dezembro de 1949" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,14",
+      "valor" : "-2.14"
+    } ],
+    "Janeiro de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,17",
+      "valor" : "-1.17"
+    } ],
+    "Fevereiro de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,23",
+      "valor" : "-2.23"
+    } ],
+    "Março de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,59",
+      "valor" : "-2.59"
+    } ],
+    "Abril de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,02",
+      "valor" : "-1.02"
+    } ],
+    "Maio de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,74",
+      "valor" : "-0.74"
+    } ],
+    "Junho de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,72",
+      "valor" : "-0.72"
+    } ],
+    "Julho de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,06",
+      "valor" : "-1.06"
+    } ],
+    "Agosto de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,51",
+      "valor" : "0.51"
+    } ],
+    "Setembro de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,34",
+      "valor" : "1.34"
+    } ],
+    "Outubro de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,77",
+      "valor" : "0.77"
+    } ],
+    "Novembro de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,38",
+      "valor" : "1.38"
+    } ],
+    "Dezembro de 1950" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,50",
+      "valor" : "2.5"
+    } ],
+    "Janeiro de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,21",
+      "valor" : "4.21"
+    } ],
+    "Fevereiro de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,11",
+      "valor" : "6.11"
+    } ],
+    "Março de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,13",
+      "valor" : "8.13"
+    } ],
+    "Abril de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,05",
+      "valor" : "6.05"
+    } ],
+    "Maio de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,04",
+      "valor" : "6.04"
+    } ],
+    "Junho de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,51",
+      "valor" : "6.51"
+    } ],
+    "Julho de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,63",
+      "valor" : "6.63"
+    } ],
+    "Agosto de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,59",
+      "valor" : "6.59"
+    } ],
+    "Setembro de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,51",
+      "valor" : "5.51"
+    } ],
+    "Outubro de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,83",
+      "valor" : "7.83"
+    } ],
+    "Novembro de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,93",
+      "valor" : "6.93"
+    } ],
+    "Dezembro de 1951" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,69",
+      "valor" : "5.69"
+    } ],
+    "Janeiro de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,57",
+      "valor" : "3.57"
+    } ],
+    "Fevereiro de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,59",
+      "valor" : "2.59"
+    } ],
+    "Março de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,44",
+      "valor" : "0.44"
+    } ],
+    "Abril de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,91",
+      "valor" : "0.91"
+    } ],
+    "Maio de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,77",
+      "valor" : "0.77"
+    } ],
+    "Junho de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,06",
+      "valor" : "-0.06"
+    } ],
+    "Julho de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,07",
+      "valor" : "0.07"
+    } ],
+    "Agosto de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,14",
+      "valor" : "-0.14"
+    } ],
+    "Setembro de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,22",
+      "valor" : "-0.22"
+    } ],
+    "Outubro de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,91",
+      "valor" : "-1.91"
+    } ],
+    "Novembro de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,73",
+      "valor" : "-1.73"
+    } ],
+    "Dezembro de 1952" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,25",
+      "valor" : "-1.25"
+    } ],
+    "Janeiro de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,36",
+      "valor" : "-0.36"
+    } ],
+    "Fevereiro de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,26",
+      "valor" : "-0.26"
+    } ],
+    "Março de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,21",
+      "valor" : "0.21"
+    } ],
+    "Abril de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,21",
+      "valor" : "-0.21"
+    } ],
+    "Maio de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,40",
+      "valor" : "-0.4"
+    } ],
+    "Junho de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,03",
+      "valor" : "0.03"
+    } ],
+    "Julho de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,01",
+      "valor" : "-0.01"
+    } ],
+    "Agosto de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,11",
+      "valor" : "-0.11"
+    } ],
+    "Setembro de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,11",
+      "valor" : "-0.11"
+    } ],
+    "Outubro de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,77",
+      "valor" : "0.77"
+    } ],
+    "Novembro de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,33",
+      "valor" : "0.33"
+    } ],
+    "Dezembro de 1953" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,48",
+      "valor" : "0.48"
+    } ],
+    "Janeiro de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,00",
+      "valor" : "0"
+    } ],
+    "Fevereiro de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,03",
+      "valor" : "0.03"
+    } ],
+    "Março de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,09",
+      "valor" : "0.09"
+    } ],
+    "Abril de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,20",
+      "valor" : "-1.2"
+    } ],
+    "Maio de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,41",
+      "valor" : "-1.41"
+    } ],
+    "Junho de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,63",
+      "valor" : "-1.63"
+    } ],
+    "Julho de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,56",
+      "valor" : "-1.56"
+    } ],
+    "Agosto de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,38",
+      "valor" : "-1.38"
+    } ],
+    "Setembro de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,34",
+      "valor" : "-1.34"
+    } ],
+    "Outubro de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,45",
+      "valor" : "-1.45"
+    } ],
+    "Novembro de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,04",
+      "valor" : "-1.04"
+    } ],
+    "Dezembro de 1954" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,31",
+      "valor" : "-1.31"
+    } ],
+    "Janeiro de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,77",
+      "valor" : "-0.77"
+    } ],
+    "Fevereiro de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,69",
+      "valor" : "-0.69"
+    } ],
+    "Março de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,65",
+      "valor" : "-0.65"
+    } ],
+    "Abril de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,16",
+      "valor" : "-1.16"
+    } ],
+    "Maio de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,06",
+      "valor" : "-1.06"
+    } ],
+    "Junho de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,90",
+      "valor" : "-0.9"
+    } ],
+    "Julho de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,87",
+      "valor" : "-0.87"
+    } ],
+    "Agosto de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,97",
+      "valor" : "-0.97"
+    } ],
+    "Setembro de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,69",
+      "valor" : "-0.69"
+    } ],
+    "Outubro de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,14",
+      "valor" : "0.14"
+    } ],
+    "Novembro de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,08",
+      "valor" : "0.08"
+    } ],
+    "Dezembro de 1955" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,05",
+      "valor" : "0.05"
+    } ],
+    "Janeiro de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,39",
+      "valor" : "-0.39"
+    } ],
+    "Fevereiro de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,23",
+      "valor" : "-0.23"
+    } ],
+    "Março de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,29",
+      "valor" : "-0.29"
+    } ],
+    "Abril de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,81",
+      "valor" : "-0.81"
+    } ],
+    "Maio de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,61",
+      "valor" : "-0.61"
+    } ],
+    "Junho de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,63",
+      "valor" : "-0.63"
+    } ],
+    "Julho de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,63",
+      "valor" : "-0.63"
+    } ],
+    "Agosto de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,57",
+      "valor" : "-0.57"
+    } ],
+    "Setembro de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,72",
+      "valor" : "-0.72"
+    } ],
+    "Outubro de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,13",
+      "valor" : "-0.13"
+    } ],
+    "Novembro de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,07",
+      "valor" : "-0.07"
+    } ],
+    "Dezembro de 1956" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,07",
+      "valor" : "0.07"
+    } ],
+    "Janeiro de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,24",
+      "valor" : "0.24"
+    } ],
+    "Fevereiro de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,05",
+      "valor" : "0.05"
+    } ],
+    "Março de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,05",
+      "valor" : "0.05"
+    } ],
+    "Abril de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,16",
+      "valor" : "-0.16"
+    } ],
+    "Maio de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,22",
+      "valor" : "-0.22"
+    } ],
+    "Junho de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,23",
+      "valor" : "-0.23"
+    } ],
+    "Julho de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,01",
+      "valor" : "-0.01"
+    } ],
+    "Agosto de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,29",
+      "valor" : "0.29"
+    } ],
+    "Setembro de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,66",
+      "valor" : "0.66"
+    } ],
+    "Outubro de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,48",
+      "valor" : "1.48"
+    } ],
+    "Novembro de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,59",
+      "valor" : "1.59"
+    } ],
+    "Dezembro de 1957" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,69",
+      "valor" : "1.69"
+    } ],
+    "Janeiro de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,62",
+      "valor" : "1.62"
+    } ],
+    "Fevereiro de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,60",
+      "valor" : "1.6"
+    } ],
+    "Março de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,81",
+      "valor" : "1.81"
+    } ],
+    "Abril de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,14",
+      "valor" : "1.14"
+    } ],
+    "Maio de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,19",
+      "valor" : "1.19"
+    } ],
+    "Junho de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,16",
+      "valor" : "1.16"
+    } ],
+    "Julho de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,85",
+      "valor" : "0.85"
+    } ],
+    "Agosto de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,48",
+      "valor" : "0.48"
+    } ],
+    "Setembro de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,01",
+      "valor" : "-0.01"
+    } ],
+    "Outubro de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,85",
+      "valor" : "-0.85"
+    } ],
+    "Novembro de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,54",
+      "valor" : "-1.54"
+    } ],
+    "Dezembro de 1958" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,99",
+      "valor" : "-1.99"
+    } ],
+    "Janeiro de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,59",
+      "valor" : "-2.59"
+    } ],
+    "Fevereiro de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,75",
+      "valor" : "-2.75"
+    } ],
+    "Março de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,00",
+      "valor" : "-3"
+    } ],
+    "Abril de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,39",
+      "valor" : "-2.39"
+    } ],
+    "Maio de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,18",
+      "valor" : "-3.18"
+    } ],
+    "Junho de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,16",
+      "valor" : "-3.16"
+    } ],
+    "Julho de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,02",
+      "valor" : "-3.02"
+    } ],
+    "Agosto de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,12",
+      "valor" : "-3.12"
+    } ],
+    "Setembro de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,11",
+      "valor" : "-3.11"
+    } ],
+    "Outubro de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,52",
+      "valor" : "-1.52"
+    } ],
+    "Novembro de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,82",
+      "valor" : "-0.82"
+    } ],
+    "Dezembro de 1959" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,48",
+      "valor" : "-0.48"
+    } ],
+    "Janeiro de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,20",
+      "valor" : "0.2"
+    } ],
+    "Fevereiro de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,88",
+      "valor" : "0.88"
+    } ],
+    "Março de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,32",
+      "valor" : "1.32"
+    } ],
+    "Abril de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,99",
+      "valor" : "0.99"
+    } ],
+    "Maio de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,89",
+      "valor" : "1.89"
+    } ],
+    "Junho de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,94",
+      "valor" : "1.94"
+    } ],
+    "Julho de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,09",
+      "valor" : "2.09"
+    } ],
+    "Agosto de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,25",
+      "valor" : "2.25"
+    } ],
+    "Setembro de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,34",
+      "valor" : "2.34"
+    } ],
+    "Outubro de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,41",
+      "valor" : "1.41"
+    } ],
+    "Novembro de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,12",
+      "valor" : "1.12"
+    } ],
+    "Dezembro de 1960" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,11",
+      "valor" : "1.11"
+    } ],
+    "Janeiro de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,19",
+      "valor" : "1.19"
+    } ],
+    "Fevereiro de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,71",
+      "valor" : "0.71"
+    } ],
+    "Março de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,55",
+      "valor" : "0.55"
+    } ],
+    "Abril de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,09",
+      "valor" : "3.09"
+    } ],
+    "Maio de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,69",
+      "valor" : "2.69"
+    } ],
+    "Junho de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,67",
+      "valor" : "2.67"
+    } ],
+    "Julho de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,39",
+      "valor" : "2.39"
+    } ],
+    "Agosto de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,36",
+      "valor" : "2.36"
+    } ],
+    "Setembro de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,25",
+      "valor" : "2.25"
+    } ],
+    "Outubro de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,70",
+      "valor" : "-1.7"
+    } ],
+    "Novembro de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,50",
+      "valor" : "-1.5"
+    } ],
+    "Dezembro de 1961" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,56",
+      "valor" : "-1.56"
+    } ],
+    "Janeiro de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,68",
+      "valor" : "-1.68"
+    } ],
+    "Fevereiro de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,72",
+      "valor" : "-1.72"
+    } ],
+    "Março de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,00",
+      "valor" : "-2"
+    } ],
+    "Abril de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,95",
+      "valor" : "-0.95"
+    } ],
+    "Maio de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,67",
+      "valor" : "-0.67"
+    } ],
+    "Junho de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,14",
+      "valor" : "0.14"
+    } ],
+    "Julho de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,06",
+      "valor" : "-0.06"
+    } ],
+    "Agosto de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,12",
+      "valor" : "-0.12"
+    } ],
+    "Setembro de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,15",
+      "valor" : "-0.15"
+    } ],
+    "Outubro de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,22",
+      "valor" : "-0.22"
+    } ],
+    "Novembro de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,29",
+      "valor" : "-0.29"
+    } ],
+    "Dezembro de 1962" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,29",
+      "valor" : "-0.29"
+    } ],
+    "Janeiro de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,41",
+      "valor" : "-0.41"
+    } ],
+    "Fevereiro de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,37",
+      "valor" : "-0.37"
+    } ],
+    "Março de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,05",
+      "valor" : "-0.05"
+    } ],
+    "Abril de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,00",
+      "valor" : "0"
+    } ],
+    "Maio de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,00",
+      "valor" : "0"
+    } ],
+    "Junho de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,80",
+      "valor" : "-0.8"
+    } ],
+    "Julho de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,52",
+      "valor" : "-0.52"
+    } ],
+    "Agosto de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,49",
+      "valor" : "-0.49"
+    } ],
+    "Setembro de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,45",
+      "valor" : "-0.45"
+    } ],
+    "Outubro de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,01",
+      "valor" : "-0.01"
+    } ],
+    "Novembro de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,03",
+      "valor" : "0.03"
+    } ],
+    "Dezembro de 1963" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,04",
+      "valor" : "0.04"
+    } ],
+    "Janeiro de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,40",
+      "valor" : "0.4"
+    } ],
+    "Fevereiro de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,51",
+      "valor" : "0.51"
+    } ],
+    "Março de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,36",
+      "valor" : "0.36"
+    } ],
+    "Abril de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,28",
+      "valor" : "0.28"
+    } ],
+    "Maio de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,48",
+      "valor" : "0.48"
+    } ],
+    "Junho de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,36",
+      "valor" : "0.36"
+    } ],
+    "Julho de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,33",
+      "valor" : "0.33"
+    } ],
+    "Agosto de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,56",
+      "valor" : "0.56"
+    } ],
+    "Setembro de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,68",
+      "valor" : "0.68"
+    } ],
+    "Outubro de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,52",
+      "valor" : "0.52"
+    } ],
+    "Novembro de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,56",
+      "valor" : "0.56"
+    } ],
+    "Dezembro de 1964" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,70",
+      "valor" : "0.7"
+    } ],
+    "Janeiro de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,43",
+      "valor" : "0.43"
+    } ],
+    "Fevereiro de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,39",
+      "valor" : "0.39"
+    } ],
+    "Março de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,66",
+      "valor" : "0.66"
+    } ],
+    "Abril de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,76",
+      "valor" : "0.76"
+    } ],
+    "Maio de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,62",
+      "valor" : "0.62"
+    } ],
+    "Junho de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,76",
+      "valor" : "0.76"
+    } ],
+    "Julho de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,79",
+      "valor" : "0.79"
+    } ],
+    "Agosto de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,58",
+      "valor" : "0.58"
+    } ],
+    "Setembro de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,59",
+      "valor" : "0.59"
+    } ],
+    "Outubro de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,65",
+      "valor" : "0.65"
+    } ],
+    "Novembro de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,60",
+      "valor" : "0.6"
+    } ],
+    "Dezembro de 1965" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,49",
+      "valor" : "0.49"
+    } ],
+    "Janeiro de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,54",
+      "valor" : "0.54"
+    } ],
+    "Fevereiro de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,56",
+      "valor" : "0.56"
+    } ],
+    "Março de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,45",
+      "valor" : "0.45"
+    } ],
+    "Abril de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,50",
+      "valor" : "0.5"
+    } ],
+    "Maio de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,51",
+      "valor" : "0.51"
+    } ],
+    "Junho de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,48",
+      "valor" : "0.48"
+    } ],
+    "Julho de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,69",
+      "valor" : "0.69"
+    } ],
+    "Agosto de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,68",
+      "valor" : "0.68"
+    } ],
+    "Setembro de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,79",
+      "valor" : "2.79"
+    } ],
+    "Outubro de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,78",
+      "valor" : "3.78"
+    } ],
+    "Novembro de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,25",
+      "valor" : "4.25"
+    } ],
+    "Dezembro de 1966" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,80",
+      "valor" : "5.8"
+    } ],
+    "Janeiro de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,74",
+      "valor" : "5.74"
+    } ],
+    "Fevereiro de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,95",
+      "valor" : "5.95"
+    } ],
+    "Março de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,55",
+      "valor" : "7.55"
+    } ],
+    "Abril de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,44",
+      "valor" : "7.44"
+    } ],
+    "Maio de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,45",
+      "valor" : "7.45"
+    } ],
+    "Junho de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,68",
+      "valor" : "7.68"
+    } ],
+    "Julho de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,46",
+      "valor" : "7.46"
+    } ],
+    "Agosto de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,63",
+      "valor" : "7.63"
+    } ],
+    "Setembro de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,45",
+      "valor" : "5.45"
+    } ],
+    "Outubro de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,45",
+      "valor" : "4.45"
+    } ],
+    "Novembro de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,97",
+      "valor" : "3.97"
+    } ],
+    "Dezembro de 1967" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,45",
+      "valor" : "2.45"
+    } ],
+    "Janeiro de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,67",
+      "valor" : "2.67"
+    } ],
+    "Fevereiro de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,71",
+      "valor" : "2.71"
+    } ],
+    "Março de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,78",
+      "valor" : "1.78"
+    } ],
+    "Abril de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,08",
+      "valor" : "2.08"
+    } ],
+    "Maio de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,02",
+      "valor" : "2.02"
+    } ],
+    "Junho de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,90",
+      "valor" : "1.9"
+    } ],
+    "Julho de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,14",
+      "valor" : "2.14"
+    } ],
+    "Agosto de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,06",
+      "valor" : "2.06"
+    } ],
+    "Setembro de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,97",
+      "valor" : "1.97"
+    } ],
+    "Outubro de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,64",
+      "valor" : "1.64"
+    } ],
+    "Novembro de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,64",
+      "valor" : "1.64"
+    } ],
+    "Dezembro de 1968" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,66",
+      "valor" : "1.66"
+    } ],
+    "Janeiro de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,44",
+      "valor" : "1.44"
+    } ],
+    "Fevereiro de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,41",
+      "valor" : "1.41"
+    } ],
+    "Março de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,97",
+      "valor" : "0.97"
+    } ],
+    "Abril de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,80",
+      "valor" : "0.8"
+    } ],
+    "Maio de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,80",
+      "valor" : "0.8"
+    } ],
+    "Junho de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,95",
+      "valor" : "0.95"
+    } ],
+    "Julho de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,50",
+      "valor" : "1.5"
+    } ],
+    "Agosto de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,48",
+      "valor" : "2.48"
+    } ],
+    "Setembro de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,01",
+      "valor" : "3.01"
+    } ],
+    "Outubro de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,07",
+      "valor" : "3.07"
+    } ],
+    "Novembro de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,20",
+      "valor" : "3.2"
+    } ],
+    "Dezembro de 1969" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,20",
+      "valor" : "3.2"
+    } ],
+    "Janeiro de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,25",
+      "valor" : "3.25"
+    } ],
+    "Fevereiro de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,08",
+      "valor" : "3.08"
+    } ],
+    "Março de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,93",
+      "valor" : "2.93"
+    } ],
+    "Abril de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,98",
+      "valor" : "2.98"
+    } ],
+    "Maio de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,45",
+      "valor" : "3.45"
+    } ],
+    "Junho de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,03",
+      "valor" : "4.03"
+    } ],
+    "Julho de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,28",
+      "valor" : "3.28"
+    } ],
+    "Agosto de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,96",
+      "valor" : "2.96"
+    } ],
+    "Setembro de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,57",
+      "valor" : "2.57"
+    } ],
+    "Outubro de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,83",
+      "valor" : "2.83"
+    } ],
+    "Novembro de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,81",
+      "valor" : "2.81"
+    } ],
+    "Dezembro de 1970" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,85",
+      "valor" : "2.85"
+    } ],
+    "Janeiro de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,26",
+      "valor" : "3.26"
+    } ],
+    "Fevereiro de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,15",
+      "valor" : "4.15"
+    } ],
+    "Março de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,53",
+      "valor" : "4.53"
+    } ],
+    "Abril de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,65",
+      "valor" : "4.65"
+    } ],
+    "Maio de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,82",
+      "valor" : "4.82"
+    } ],
+    "Junho de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,72",
+      "valor" : "6.72"
+    } ],
+    "Julho de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,65",
+      "valor" : "6.65"
+    } ],
+    "Agosto de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,12",
+      "valor" : "6.12"
+    } ],
+    "Setembro de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,10",
+      "valor" : "7.1"
+    } ],
+    "Outubro de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,11",
+      "valor" : "9.11"
+    } ],
+    "Novembro de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,05",
+      "valor" : "9.05"
+    } ],
+    "Dezembro de 1971" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,56",
+      "valor" : "9.56"
+    } ],
+    "Janeiro de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,41",
+      "valor" : "9.41"
+    } ],
+    "Fevereiro de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,10",
+      "valor" : "9.1"
+    } ],
+    "Março de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,85",
+      "valor" : "8.85"
+    } ],
+    "Abril de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,54",
+      "valor" : "9.54"
+    } ],
+    "Maio de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,98",
+      "valor" : "8.98"
+    } ],
+    "Junho de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,50",
+      "valor" : "6.5"
+    } ],
+    "Julho de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,97",
+      "valor" : "6.97"
+    } ],
+    "Agosto de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,14",
+      "valor" : "7.14"
+    } ],
+    "Setembro de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,23",
+      "valor" : "6.23"
+    } ],
+    "Outubro de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,09",
+      "valor" : "5.09"
+    } ],
+    "Novembro de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,70",
+      "valor" : "6.7"
+    } ],
+    "Dezembro de 1972" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,58",
+      "valor" : "8.58"
+    } ],
+    "Janeiro de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,93",
+      "valor" : "11.93"
+    } ],
+    "Fevereiro de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,20",
+      "valor" : "13.2"
+    } ],
+    "Março de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,24",
+      "valor" : "15.24"
+    } ],
+    "Abril de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,03",
+      "valor" : "15.03"
+    } ],
+    "Maio de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "16,05",
+      "valor" : "16.05"
+    } ],
+    "Junho de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,99",
+      "valor" : "15.99"
+    } ],
+    "Julho de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,55",
+      "valor" : "15.55"
+    } ],
+    "Agosto de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,67",
+      "valor" : "15.67"
+    } ],
+    "Setembro de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "16,69",
+      "valor" : "16.69"
+    } ],
+    "Outubro de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,33",
+      "valor" : "20.33"
+    } ],
+    "Novembro de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "21,01",
+      "valor" : "21.01"
+    } ],
+    "Dezembro de 1973" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "21,06",
+      "valor" : "21.06"
+    } ],
+    "Janeiro de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,98",
+      "valor" : "20.98"
+    } ],
+    "Fevereiro de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "26,65",
+      "valor" : "26.65"
+    } ],
+    "Março de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "27,31",
+      "valor" : "27.31"
+    } ],
+    "Abril de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "25,58",
+      "valor" : "25.58"
+    } ],
+    "Maio de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,50",
+      "valor" : "24.5"
+    } ],
+    "Junho de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,40",
+      "valor" : "24.4"
+    } ],
+    "Julho de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,44",
+      "valor" : "24.44"
+    } ],
+    "Agosto de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,34",
+      "valor" : "24.34"
+    } ],
+    "Setembro de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "25,03",
+      "valor" : "25.03"
+    } ],
+    "Outubro de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,98",
+      "valor" : "22.98"
+    } ],
+    "Novembro de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,11",
+      "valor" : "22.11"
+    } ],
+    "Dezembro de 1974" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,82",
+      "valor" : "19.82"
+    } ],
+    "Janeiro de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,98",
+      "valor" : "15.98"
+    } ],
+    "Fevereiro de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,42",
+      "valor" : "9.42"
+    } ],
+    "Março de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,07",
+      "valor" : "7.07"
+    } ],
+    "Abril de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,33",
+      "valor" : "8.33"
+    } ],
+    "Maio de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,38",
+      "valor" : "8.38"
+    } ],
+    "Junho de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,23",
+      "valor" : "8.23"
+    } ],
+    "Julho de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,12",
+      "valor" : "8.12"
+    } ],
+    "Agosto de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,17",
+      "valor" : "8.17"
+    } ],
+    "Setembro de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,41",
+      "valor" : "6.41"
+    } ],
+    "Outubro de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,76",
+      "valor" : "3.76"
+    } ],
+    "Novembro de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,30",
+      "valor" : "2.3"
+    } ],
+    "Dezembro de 1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,90",
+      "valor" : "1.9"
+    } ],
+    "Janeiro de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,97",
+      "valor" : "5.97"
+    } ],
+    "Fevereiro de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,35",
+      "valor" : "5.35"
+    } ],
+    "Março de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,65",
+      "valor" : "6.65"
+    } ],
+    "Abril de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,68",
+      "valor" : "7.68"
+    } ],
+    "Maio de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,48",
+      "valor" : "7.48"
+    } ],
+    "Junho de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,89",
+      "valor" : "8.89"
+    } ],
+    "Julho de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,89",
+      "valor" : "8.89"
+    } ],
+    "Agosto de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,62",
+      "valor" : "8.62"
+    } ],
+    "Setembro de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,06",
+      "valor" : "13.06"
+    } ],
+    "Outubro de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,37",
+      "valor" : "11.37"
+    } ],
+    "Novembro de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,25",
+      "valor" : "12.25"
+    } ],
+    "Dezembro de 1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,17",
+      "valor" : "13.17"
+    } ],
+    "Janeiro de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,63",
+      "valor" : "8.63"
+    } ],
+    "Fevereiro de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,85",
+      "valor" : "10.85"
+    } ],
+    "Março de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,74",
+      "valor" : "12.74"
+    } ],
+    "Abril de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,53",
+      "valor" : "11.53"
+    } ],
+    "Maio de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,53",
+      "valor" : "11.53"
+    } ],
+    "Junho de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,05",
+      "valor" : "10.05"
+    } ],
+    "Julho de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,28",
+      "valor" : "12.28"
+    } ],
+    "Agosto de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,09",
+      "valor" : "12.09"
+    } ],
+    "Setembro de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,68",
+      "valor" : "7.68"
+    } ],
+    "Outubro de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,97",
+      "valor" : "19.97"
+    } ],
+    "Novembro de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,04",
+      "valor" : "19.04"
+    } ],
+    "Dezembro de 1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,05",
+      "valor" : "18.05"
+    } ],
+    "Janeiro de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,65",
+      "valor" : "20.65"
+    } ],
+    "Fevereiro de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,27",
+      "valor" : "18.27"
+    } ],
+    "Março de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "14,35",
+      "valor" : "14.35"
+    } ],
+    "Abril de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,65",
+      "valor" : "18.65"
+    } ],
+    "Maio de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,65",
+      "valor" : "18.65"
+    } ],
+    "Junho de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,65",
+      "valor" : "18.65"
+    } ],
+    "Julho de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,18",
+      "valor" : "17.18"
+    } ],
+    "Agosto de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,11",
+      "valor" : "18.11"
+    } ],
+    "Setembro de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,43",
+      "valor" : "20.43"
+    } ],
+    "Outubro de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,85",
+      "valor" : "12.85"
+    } ],
+    "Novembro de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,95",
+      "valor" : "15.95"
+    } ],
+    "Dezembro de 1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,88",
+      "valor" : "18.88"
+    } ],
+    "Janeiro de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "16,97",
+      "valor" : "16.97"
+    } ],
+    "Fevereiro de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,25",
+      "valor" : "18.25"
+    } ],
+    "Março de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,07",
+      "valor" : "20.07"
+    } ],
+    "Abril de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,03",
+      "valor" : "19.03"
+    } ],
+    "Maio de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "21,28",
+      "valor" : "21.28"
+    } ],
+    "Junho de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,91",
+      "valor" : "22.91"
+    } ],
+    "Julho de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,96",
+      "valor" : "22.96"
+    } ],
+    "Agosto de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,24",
+      "valor" : "23.24"
+    } ],
+    "Setembro de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "26,83",
+      "valor" : "26.83"
+    } ],
+    "Outubro de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "30,30",
+      "valor" : "30.3"
+    } ],
+    "Novembro de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "31,66",
+      "valor" : "31.66"
+    } ],
+    "Dezembro de 1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "32,60",
+      "valor" : "32.6"
+    } ],
+    "Janeiro de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "33,22",
+      "valor" : "33.22"
+    } ],
+    "Fevereiro de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "34,75",
+      "valor" : "34.75"
+    } ],
+    "Março de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "34,98",
+      "valor" : "34.98"
+    } ],
+    "Abril de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "35,48",
+      "valor" : "35.48"
+    } ],
+    "Maio de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "34,98",
+      "valor" : "34.98"
+    } ],
+    "Junho de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "34,92",
+      "valor" : "34.92"
+    } ],
+    "Julho de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "36,56",
+      "valor" : "36.56"
+    } ],
+    "Agosto de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "36,96",
+      "valor" : "36.96"
+    } ],
+    "Setembro de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "30,57",
+      "valor" : "30.57"
+    } ],
+    "Outubro de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "30,09",
+      "valor" : "30.09"
+    } ],
+    "Novembro de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "29,35",
+      "valor" : "29.35"
+    } ],
+    "Dezembro de 1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "31,28",
+      "valor" : "31.28"
+    } ],
+    "Janeiro de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "30,17",
+      "valor" : "30.17"
+    } ],
+    "Fevereiro de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "28,87",
+      "valor" : "28.87"
+    } ],
+    "Março de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "27,58",
+      "valor" : "27.58"
+    } ],
+    "Abril de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,69",
+      "valor" : "24.69"
+    } ],
+    "Maio de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,38",
+      "valor" : "23.38"
+    } ],
+    "Junho de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,95",
+      "valor" : "22.95"
+    } ],
+    "Julho de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,63",
+      "valor" : "20.63"
+    } ],
+    "Agosto de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,02",
+      "valor" : "19.02"
+    } ],
+    "Setembro de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,50",
+      "valor" : "20.5"
+    } ],
+    "Outubro de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,14",
+      "valor" : "19.14"
+    } ],
+    "Novembro de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,17",
+      "valor" : "18.17"
+    } ],
+    "Dezembro de 1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,28",
+      "valor" : "15.28"
+    } ],
+    "Janeiro de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "14,73",
+      "valor" : "14.73"
+    } ],
+    "Fevereiro de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "14,64",
+      "valor" : "14.64"
+    } ],
+    "Março de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "14,80",
+      "valor" : "14.8"
+    } ],
+    "Abril de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,80",
+      "valor" : "15.8"
+    } ],
+    "Maio de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "16,39",
+      "valor" : "16.39"
+    } ],
+    "Junho de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,65",
+      "valor" : "15.65"
+    } ],
+    "Julho de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,07",
+      "valor" : "17.07"
+    } ],
+    "Agosto de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,76",
+      "valor" : "17.76"
+    } ],
+    "Setembro de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,28",
+      "valor" : "19.28"
+    } ],
+    "Outubro de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,78",
+      "valor" : "18.78"
+    } ],
+    "Novembro de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,32",
+      "valor" : "18.32"
+    } ],
+    "Dezembro de 1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,68",
+      "valor" : "17.68"
+    } ],
+    "Janeiro de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,56",
+      "valor" : "19.56"
+    } ],
+    "Fevereiro de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,98",
+      "valor" : "19.98"
+    } ],
+    "Março de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,48",
+      "valor" : "20.48"
+    } ],
+    "Abril de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,52",
+      "valor" : "19.52"
+    } ],
+    "Maio de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,41",
+      "valor" : "19.41"
+    } ],
+    "Junho de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,65",
+      "valor" : "19.65"
+    } ],
+    "Julho de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,05",
+      "valor" : "19.05"
+    } ],
+    "Agosto de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,30",
+      "valor" : "20.3"
+    } ],
+    "Setembro de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,12",
+      "valor" : "19.12"
+    } ],
+    "Outubro de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,82",
+      "valor" : "18.82"
+    } ],
+    "Novembro de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,64",
+      "valor" : "18.64"
+    } ],
+    "Dezembro de 1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,36",
+      "valor" : "19.36"
+    } ],
+    "Janeiro de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,21",
+      "valor" : "20.21"
+    } ],
+    "Fevereiro de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "20,35",
+      "valor" : "20.35"
+    } ],
+    "Março de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "21,31",
+      "valor" : "21.31"
+    } ],
+    "Abril de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,36",
+      "valor" : "22.36"
+    } ],
+    "Maio de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,61",
+      "valor" : "22.61"
+    } ],
+    "Junho de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,47",
+      "valor" : "23.47"
+    } ],
+    "Julho de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,21",
+      "valor" : "23.21"
+    } ],
+    "Agosto de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,19",
+      "valor" : "22.19"
+    } ],
+    "Setembro de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,68",
+      "valor" : "22.68"
+    } ],
+    "Outubro de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,36",
+      "valor" : "23.36"
+    } ],
+    "Novembro de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "25,92",
+      "valor" : "25.92"
+    } ],
+    "Dezembro de 1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "25,87",
+      "valor" : "25.87"
+    } ],
+    "Janeiro de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,83",
+      "valor" : "24.83"
+    } ],
+    "Fevereiro de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,42",
+      "valor" : "24.42"
+    } ],
+    "Março de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,62",
+      "valor" : "23.62"
+    } ],
+    "Abril de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,22",
+      "valor" : "23.22"
+    } ],
+    "Maio de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,79",
+      "valor" : "23.79"
+    } ],
+    "Junho de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,49",
+      "valor" : "23.49"
+    } ],
+    "Julho de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,53",
+      "valor" : "23.53"
+    } ],
+    "Agosto de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,51",
+      "valor" : "22.51"
+    } ],
+    "Setembro de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,38",
+      "valor" : "22.38"
+    } ],
+    "Outubro de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,93",
+      "valor" : "23.93"
+    } ],
+    "Novembro de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,54",
+      "valor" : "23.54"
+    } ],
+    "Dezembro de 1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,20",
+      "valor" : "24.2"
+    } ],
+    "Janeiro de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,29",
+      "valor" : "24.29"
+    } ],
+    "Fevereiro de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,89",
+      "valor" : "23.89"
+    } ],
+    "Março de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,43",
+      "valor" : "24.43"
+    } ],
+    "Abril de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,41",
+      "valor" : "24.41"
+    } ],
+    "Maio de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,63",
+      "valor" : "23.63"
+    } ],
+    "Junho de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,25",
+      "valor" : "23.25"
+    } ],
+    "Julho de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,77",
+      "valor" : "22.77"
+    } ],
+    "Agosto de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "23,03",
+      "valor" : "23.03"
+    } ],
+    "Setembro de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "24,15",
+      "valor" : "24.15"
+    } ],
+    "Outubro de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,87",
+      "valor" : "22.87"
+    } ],
+    "Novembro de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "22,30",
+      "valor" : "22.3"
+    } ],
+    "Dezembro de 1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "21,08",
+      "valor" : "21.08"
+    } ],
+    "Janeiro de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,98",
+      "valor" : "18.98"
+    } ],
+    "Fevereiro de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "19,41",
+      "valor" : "19.41"
+    } ],
+    "Março de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "18,39",
+      "valor" : "18.39"
+    } ],
+    "Abril de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,99",
+      "valor" : "17.99"
+    } ],
+    "Maio de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,94",
+      "valor" : "17.94"
+    } ],
+    "Junho de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,65",
+      "valor" : "17.65"
+    } ],
+    "Julho de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,82",
+      "valor" : "17.82"
+    } ],
+    "Agosto de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "17,90",
+      "valor" : "17.9"
+    } ],
+    "Setembro de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "16,01",
+      "valor" : "16.01"
+    } ],
+    "Outubro de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "14,32",
+      "valor" : "14.32"
+    } ],
+    "Novembro de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,82",
+      "valor" : "13.82"
+    } ],
+    "Dezembro de 1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "14,15",
+      "valor" : "14.15"
+    } ],
+    "Janeiro de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "15,42",
+      "valor" : "15.42"
+    } ],
+    "Fevereiro de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "14,63",
+      "valor" : "14.63"
+    } ],
+    "Março de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "14,10",
+      "valor" : "14.1"
+    } ],
+    "Abril de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,98",
+      "valor" : "13.98"
+    } ],
+    "Maio de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,67",
+      "valor" : "13.67"
+    } ],
+    "Junho de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,52",
+      "valor" : "13.52"
+    } ],
+    "Julho de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,24",
+      "valor" : "13.24"
+    } ],
+    "Agosto de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,28",
+      "valor" : "13.28"
+    } ],
+    "Setembro de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,05",
+      "valor" : "13.05"
+    } ],
+    "Outubro de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "13,14",
+      "valor" : "13.14"
+    } ],
+    "Novembro de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,94",
+      "valor" : "12.94"
+    } ],
+    "Dezembro de 1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,77",
+      "valor" : "11.77"
+    } ],
+    "Janeiro de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,85",
+      "valor" : "11.85"
+    } ],
+    "Fevereiro de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,83",
+      "valor" : "11.83"
+    } ],
+    "Março de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,02",
+      "valor" : "11.02"
+    } ],
+    "Abril de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,21",
+      "valor" : "10.21"
+    } ],
+    "Maio de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,31",
+      "valor" : "10.31"
+    } ],
+    "Junho de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,77",
+      "valor" : "10.77"
+    } ],
+    "Julho de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,94",
+      "valor" : "10.94"
+    } ],
+    "Agosto de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,68",
+      "valor" : "10.68"
+    } ],
+    "Setembro de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,47",
+      "valor" : "10.47"
+    } ],
+    "Outubro de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,75",
+      "valor" : "9.75"
+    } ],
+    "Novembro de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,27",
+      "valor" : "9.27"
+    } ],
+    "Dezembro de 1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,31",
+      "valor" : "9.31"
+    } ],
+    "Janeiro de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,40",
+      "valor" : "9.4"
+    } ],
+    "Fevereiro de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,06",
+      "valor" : "9.06"
+    } ],
+    "Março de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,27",
+      "valor" : "9.27"
+    } ],
+    "Abril de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,48",
+      "valor" : "9.48"
+    } ],
+    "Maio de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,45",
+      "valor" : "9.45"
+    } ],
+    "Junho de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,05",
+      "valor" : "9.05"
+    } ],
+    "Julho de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,84",
+      "valor" : "8.84"
+    } ],
+    "Agosto de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,27",
+      "valor" : "9.27"
+    } ],
+    "Setembro de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,25",
+      "valor" : "9.25"
+    } ],
+    "Outubro de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,80",
+      "valor" : "9.8"
+    } ],
+    "Novembro de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,22",
+      "valor" : "11.22"
+    } ],
+    "Dezembro de 1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,80",
+      "valor" : "10.8"
+    } ],
+    "Janeiro de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,63",
+      "valor" : "10.63"
+    } ],
+    "Fevereiro de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,66",
+      "valor" : "10.66"
+    } ],
+    "Março de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,68",
+      "valor" : "11.68"
+    } ],
+    "Abril de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,63",
+      "valor" : "11.63"
+    } ],
+    "Maio de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,88",
+      "valor" : "11.88"
+    } ],
+    "Junho de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,11",
+      "valor" : "12.11"
+    } ],
+    "Julho de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,59",
+      "valor" : "12.59"
+    } ],
+    "Agosto de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,41",
+      "valor" : "12.41"
+    } ],
+    "Setembro de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,55",
+      "valor" : "12.55"
+    } ],
+    "Outubro de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,64",
+      "valor" : "12.64"
+    } ],
+    "Novembro de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,89",
+      "valor" : "11.89"
+    } ],
+    "Dezembro de 1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,33",
+      "valor" : "12.33"
+    } ],
+    "Janeiro de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,18",
+      "valor" : "12.18"
+    } ],
+    "Fevereiro de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,78",
+      "valor" : "12.78"
+    } ],
+    "Março de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,43",
+      "valor" : "12.43"
+    } ],
+    "Abril de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,20",
+      "valor" : "12.2"
+    } ],
+    "Maio de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,60",
+      "valor" : "12.6"
+    } ],
+    "Junho de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,51",
+      "valor" : "12.51"
+    } ],
+    "Julho de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,35",
+      "valor" : "12.35"
+    } ],
+    "Agosto de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,33",
+      "valor" : "12.33"
+    } ],
+    "Setembro de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,90",
+      "valor" : "11.9"
+    } ],
+    "Outubro de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "11,10",
+      "valor" : "11.1"
+    } ],
+    "Novembro de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "10,15",
+      "valor" : "10.15"
+    } ],
+    "Dezembro de 1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,38",
+      "valor" : "9.38"
+    } ],
+    "Janeiro de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "9,35",
+      "valor" : "9.35"
+    } ],
+    "Fevereiro de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,67",
+      "valor" : "8.67"
+    } ],
+    "Março de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,24",
+      "valor" : "8.24"
+    } ],
+    "Abril de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,20",
+      "valor" : "8.2"
+    } ],
+    "Maio de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "7,15",
+      "valor" : "7.15"
+    } ],
+    "Junho de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,84",
+      "valor" : "6.84"
+    } ],
+    "Julho de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,59",
+      "valor" : "6.59"
+    } ],
+    "Agosto de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,34",
+      "valor" : "6.34"
+    } ],
+    "Setembro de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,51",
+      "valor" : "6.51"
+    } ],
+    "Outubro de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,67",
+      "valor" : "5.67"
+    } ],
+    "Novembro de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,09",
+      "valor" : "5.09"
+    } ],
+    "Dezembro de 1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,42",
+      "valor" : "5.42"
+    } ],
+    "Janeiro de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,41",
+      "valor" : "5.41"
+    } ],
+    "Fevereiro de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,30",
+      "valor" : "5.3"
+    } ],
+    "Março de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,18",
+      "valor" : "5.18"
+    } ],
+    "Abril de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,61",
+      "valor" : "4.61"
+    } ],
+    "Maio de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,39",
+      "valor" : "4.39"
+    } ],
+    "Junho de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,30",
+      "valor" : "4.3"
+    } ],
+    "Julho de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,33",
+      "valor" : "4.33"
+    } ],
+    "Agosto de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,35",
+      "valor" : "4.35"
+    } ],
+    "Setembro de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,96",
+      "valor" : "3.96"
+    } ],
+    "Outubro de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,69",
+      "valor" : "3.69"
+    } ],
+    "Novembro de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,83",
+      "valor" : "2.83"
+    } ],
+    "Dezembro de 1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,38",
+      "valor" : "2.38"
+    } ],
+    "Janeiro de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,29",
+      "valor" : "2.29"
+    } ],
+    "Fevereiro de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,03",
+      "valor" : "2.03"
+    } ],
+    "Março de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,04",
+      "valor" : "2.04"
+    } ],
+    "Abril de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,13",
+      "valor" : "2.13"
+    } ],
+    "Maio de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,24",
+      "valor" : "2.24"
+    } ],
+    "Junho de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,30",
+      "valor" : "2.3"
+    } ],
+    "Julho de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,28",
+      "valor" : "2.28"
+    } ],
+    "Agosto de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,05",
+      "valor" : "2.05"
+    } ],
+    "Setembro de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,18",
+      "valor" : "2.18"
+    } ],
+    "Outubro de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,64",
+      "valor" : "1.64"
+    } ],
+    "Novembro de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,70",
+      "valor" : "1.7"
+    } ],
+    "Dezembro de 1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,62",
+      "valor" : "1.62"
+    } ],
+    "Janeiro de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,58",
+      "valor" : "1.58"
+    } ],
+    "Fevereiro de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,83",
+      "valor" : "1.83"
+    } ],
+    "Março de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,73",
+      "valor" : "1.73"
+    } ],
+    "Abril de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,93",
+      "valor" : "1.93"
+    } ],
+    "Maio de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,71",
+      "valor" : "1.71"
+    } ],
+    "Junho de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,63",
+      "valor" : "1.63"
+    } ],
+    "Julho de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,57",
+      "valor" : "1.57"
+    } ],
+    "Agosto de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,75",
+      "valor" : "1.75"
+    } ],
+    "Setembro de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,71",
+      "valor" : "1.71"
+    } ],
+    "Outubro de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,00",
+      "valor" : "2"
+    } ],
+    "Novembro de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,55",
+      "valor" : "1.55"
+    } ],
+    "Dezembro de 1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,55",
+      "valor" : "1.55"
+    } ],
+    "Janeiro de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,27",
+      "valor" : "1.27"
+    } ],
+    "Fevereiro de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,88",
+      "valor" : "0.88"
+    } ],
+    "Março de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,97",
+      "valor" : "0.97"
+    } ],
+    "Abril de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,61",
+      "valor" : "0.61"
+    } ],
+    "Maio de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,73",
+      "valor" : "0.73"
+    } ],
+    "Junho de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,52",
+      "valor" : "0.52"
+    } ],
+    "Julho de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,52",
+      "valor" : "0.52"
+    } ],
+    "Agosto de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,63",
+      "valor" : "0.63"
+    } ],
+    "Setembro de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,40",
+      "valor" : "0.4"
+    } ],
+    "Outubro de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,35",
+      "valor" : "0.35"
+    } ],
+    "Novembro de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,49",
+      "valor" : "0.49"
+    } ],
+    "Dezembro de 1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,32",
+      "valor" : "0.32"
+    } ],
+    "Janeiro de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,85",
+      "valor" : "-5.85"
+    } ],
+    "Fevereiro de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-11,35",
+      "valor" : "-11.35"
+    } ],
+    "Março de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-11,08",
+      "valor" : "-11.08"
+    } ],
+    "Abril de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-6,72",
+      "valor" : "-6.72"
+    } ],
+    "Maio de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,36",
+      "valor" : "-2.36"
+    } ],
+    "Junho de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,31",
+      "valor" : "-2.31"
+    } ],
+    "Julho de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,99",
+      "valor" : "-2.99"
+    } ],
+    "Agosto de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-7,09",
+      "valor" : "-7.09"
+    } ],
+    "Setembro de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-7,75",
+      "valor" : "-7.75"
+    } ],
+    "Outubro de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,75",
+      "valor" : "-5.75"
+    } ],
+    "Novembro de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,79",
+      "valor" : "-0.79"
+    } ],
+    "Dezembro de 1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,20",
+      "valor" : "0.2"
+    } ],
+    "Janeiro de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,61",
+      "valor" : "0.61"
+    } ],
+    "Fevereiro de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,17",
+      "valor" : "1.17"
+    } ],
+    "Março de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,77",
+      "valor" : "0.77"
+    } ],
+    "Abril de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,71",
+      "valor" : "0.71"
+    } ],
+    "Maio de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,06",
+      "valor" : "-0.06"
+    } ],
+    "Junho de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,22",
+      "valor" : "0.22"
+    } ],
+    "Julho de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,18",
+      "valor" : "0.18"
+    } ],
+    "Agosto de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,05",
+      "valor" : "-0.05"
+    } ],
+    "Setembro de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,35",
+      "valor" : "-0.35"
+    } ],
+    "Outubro de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,06",
+      "valor" : "-0.06"
+    } ],
+    "Novembro de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,17",
+      "valor" : "1.17"
+    } ],
+    "Dezembro de 1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,13",
+      "valor" : "1.13"
+    } ],
+    "Janeiro de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,51",
+      "valor" : "0.51"
+    } ],
+    "Fevereiro de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,31",
+      "valor" : "-1.31"
+    } ],
+    "Março de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,07",
+      "valor" : "-1.07"
+    } ],
+    "Abril de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,04",
+      "valor" : "-0.04"
+    } ],
+    "Maio de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,38",
+      "valor" : "1.38"
+    } ],
+    "Junho de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,27",
+      "valor" : "1.27"
+    } ],
+    "Julho de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,85",
+      "valor" : "0.85"
+    } ],
+    "Agosto de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,59",
+      "valor" : "0.59"
+    } ],
+    "Setembro de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,47",
+      "valor" : "1.47"
+    } ],
+    "Outubro de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,00",
+      "valor" : "2"
+    } ],
+    "Novembro de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,13",
+      "valor" : "2.13"
+    } ],
+    "Dezembro de 2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,64",
+      "valor" : "1.64"
+    } ],
+    "Janeiro de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,75",
+      "valor" : "1.75"
+    } ],
+    "Fevereiro de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,82",
+      "valor" : "1.82"
+    } ],
+    "Março de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,23",
+      "valor" : "1.23"
+    } ],
+    "Abril de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,19",
+      "valor" : "1.19"
+    } ],
+    "Maio de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,07",
+      "valor" : "1.07"
+    } ],
+    "Junho de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,32",
+      "valor" : "1.32"
+    } ],
+    "Julho de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,62",
+      "valor" : "0.62"
+    } ],
+    "Agosto de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,93",
+      "valor" : "0.93"
+    } ],
+    "Setembro de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,55",
+      "valor" : "1.55"
+    } ],
+    "Outubro de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,36",
+      "valor" : "2.36"
+    } ],
+    "Novembro de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,41",
+      "valor" : "2.41"
+    } ],
+    "Dezembro de 2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,40",
+      "valor" : "2.4"
+    } ],
+    "Janeiro de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,29",
+      "valor" : "2.29"
+    } ],
+    "Fevereiro de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,48",
+      "valor" : "2.48"
+    } ],
+    "Março de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,94",
+      "valor" : "2.94"
+    } ],
+    "Abril de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,35",
+      "valor" : "3.35"
+    } ],
+    "Maio de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,34",
+      "valor" : "3.34"
+    } ],
+    "Junho de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,15",
+      "valor" : "3.15"
+    } ],
+    "Julho de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,47",
+      "valor" : "2.47"
+    } ],
+    "Agosto de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,93",
+      "valor" : "1.93"
+    } ],
+    "Setembro de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,76",
+      "valor" : "1.76"
+    } ],
+    "Outubro de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,82",
+      "valor" : "1.82"
+    } ],
+    "Novembro de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,78",
+      "valor" : "1.78"
+    } ],
+    "Dezembro de 2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,12",
+      "valor" : "2.12"
+    } ],
+    "Janeiro de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,61",
+      "valor" : "1.61"
+    } ],
+    "Fevereiro de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,90",
+      "valor" : "0.9"
+    } ],
+    "Março de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,39",
+      "valor" : "0.39"
+    } ],
+    "Abril de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,41",
+      "valor" : "1.41"
+    } ],
+    "Maio de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,44",
+      "valor" : "1.44"
+    } ],
+    "Junho de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,39",
+      "valor" : "1.39"
+    } ],
+    "Julho de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,65",
+      "valor" : "0.65"
+    } ],
+    "Agosto de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,34",
+      "valor" : "1.34"
+    } ],
+    "Setembro de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,89",
+      "valor" : "0.89"
+    } ],
+    "Outubro de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,42",
+      "valor" : "1.42"
+    } ],
+    "Novembro de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,37",
+      "valor" : "1.37"
+    } ],
+    "Dezembro de 2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,26",
+      "valor" : "1.26"
+    } ],
+    "Janeiro de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,77",
+      "valor" : "0.77"
+    } ],
+    "Fevereiro de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,82",
+      "valor" : "0.82"
+    } ],
+    "Março de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,85",
+      "valor" : "0.85"
+    } ],
+    "Abril de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,77",
+      "valor" : "0.77"
+    } ],
+    "Maio de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,02",
+      "valor" : "1.02"
+    } ],
+    "Junho de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,72",
+      "valor" : "0.72"
+    } ],
+    "Julho de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,13",
+      "valor" : "-1.13"
+    } ],
+    "Agosto de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,01",
+      "valor" : "-4.01"
+    } ],
+    "Setembro de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,68",
+      "valor" : "-4.68"
+    } ],
+    "Outubro de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,55",
+      "valor" : "-3.55"
+    } ],
+    "Novembro de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,44",
+      "valor" : "-2.44"
+    } ],
+    "Dezembro de 2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,23",
+      "valor" : "-2.23"
+    } ],
+    "Janeiro de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,86",
+      "valor" : "-1.86"
+    } ],
+    "Fevereiro de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,37",
+      "valor" : "-1.37"
+    } ],
+    "Março de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,37",
+      "valor" : "-1.37"
+    } ],
+    "Abril de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,30",
+      "valor" : "-1.3"
+    } ],
+    "Maio de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,10",
+      "valor" : "-2.1"
+    } ],
+    "Junho de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,93",
+      "valor" : "-1.93"
+    } ],
+    "Julho de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,68",
+      "valor" : "-1.68"
+    } ],
+    "Agosto de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,47",
+      "valor" : "-0.47"
+    } ],
+    "Setembro de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,45",
+      "valor" : "0.45"
+    } ],
+    "Outubro de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,03",
+      "valor" : "0.03"
+    } ],
+    "Novembro de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,53",
+      "valor" : "-0.53"
+    } ],
+    "Dezembro de 2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,27",
+      "valor" : "-1.27"
+    } ],
+    "Janeiro de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-11,58",
+      "valor" : "-11.58"
+    } ],
+    "Fevereiro de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-6,47",
+      "valor" : "-6.47"
+    } ],
+    "Março de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "12,11",
+      "valor" : "12.11"
+    } ],
+    "Abril de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "5,45",
+      "valor" : "5.45"
+    } ],
+    "Maio de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,82",
+      "valor" : "0.82"
+    } ],
+    "Junho de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,86",
+      "valor" : "-0.86"
+    } ],
+    "Julho de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,68",
+      "valor" : "-2.68"
+    } ],
+    "Agosto de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,08",
+      "valor" : "-3.08"
+    } ],
+    "Setembro de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "8,92",
+      "valor" : "8.92"
+    } ],
+    "Outubro de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "6,42",
+      "valor" : "6.42"
+    } ],
+    "Novembro de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,61",
+      "valor" : "-0.61"
+    } ],
+    "Dezembro de 2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,98",
+      "valor" : "-0.98"
+    } ],
+    "Janeiro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,97",
+      "valor" : "1.97"
+    } ],
+    "Fevereiro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,65",
+      "valor" : "0.65"
+    } ],
+    "Março de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,97",
+      "valor" : "0.97"
+    } ],
+    "Abril de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,41",
+      "valor" : "1.41"
+    } ],
+    "Maio de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,55",
+      "valor" : "1.55"
+    } ],
+    "Junho de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,89",
+      "valor" : "2.89"
+    } ],
+    "Julho de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,72",
+      "valor" : "4.72"
+    } ],
+    "Agosto de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,76",
+      "valor" : "2.76"
+    } ],
+    "Setembro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,58",
+      "valor" : "0.58"
+    } ],
+    "Outubro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,79",
+      "valor" : "2.79"
+    } ],
+    "Novembro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,96",
+      "valor" : "2.96"
+    } ],
+    "Dezembro de 2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,20",
+      "valor" : "3.2"
+    } ],
+    "Janeiro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,03",
+      "valor" : "3.03"
+    } ],
+    "Fevereiro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,06",
+      "valor" : "3.06"
+    } ],
+    "Março de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,30",
+      "valor" : "2.3"
+    } ],
+    "Abril de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,96",
+      "valor" : "1.96"
+    } ],
+    "Maio de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,69",
+      "valor" : "1.69"
+    } ],
+    "Junho de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,50",
+      "valor" : "1.5"
+    } ],
+    "Julho de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,06",
+      "valor" : "-2.06"
+    } ],
+    "Agosto de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,58",
+      "valor" : "1.58"
+    } ],
+    "Setembro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "4,12",
+      "valor" : "4.12"
+    } ],
+    "Outubro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,27",
+      "valor" : "1.27"
+    } ],
+    "Novembro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,13",
+      "valor" : "1.13"
+    } ],
+    "Dezembro de 2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,17",
+      "valor" : "0.17"
+    } ],
+    "Janeiro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,37",
+      "valor" : "-1.37"
+    } ],
+    "Fevereiro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,46",
+      "valor" : "-1.46"
+    } ],
+    "Março de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,52",
+      "valor" : "-0.52"
+    } ],
+    "Abril de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,80",
+      "valor" : "-0.8"
+    } ],
+    "Maio de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,85",
+      "valor" : "-0.85"
+    } ],
+    "Junho de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,02",
+      "valor" : "-1.02"
+    } ],
+    "Julho de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,44",
+      "valor" : "-0.44"
+    } ],
+    "Agosto de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,38",
+      "valor" : "-2.38"
+    } ],
+    "Setembro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,43",
+      "valor" : "-3.43"
+    } ],
+    "Outubro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,80",
+      "valor" : "-2.8"
+    } ],
+    "Novembro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,47",
+      "valor" : "-2.47"
+    } ],
+    "Dezembro de 2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,27",
+      "valor" : "-2.27"
+    } ],
+    "Janeiro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,48",
+      "valor" : "-1.48"
+    } ],
+    "Fevereiro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,25",
+      "valor" : "-2.25"
+    } ],
+    "Março de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,91",
+      "valor" : "-1.91"
+    } ],
+    "Abril de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,63",
+      "valor" : "-1.63"
+    } ],
+    "Maio de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,49",
+      "valor" : "-1.49"
+    } ],
+    "Junho de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,68",
+      "valor" : "-1.68"
+    } ],
+    "Julho de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,36",
+      "valor" : "-1.36"
+    } ],
+    "Agosto de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,73",
+      "valor" : "-1.73"
+    } ],
+    "Setembro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,87",
+      "valor" : "-1.87"
+    } ],
+    "Outubro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,12",
+      "valor" : "-1.12"
+    } ],
+    "Novembro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,64",
+      "valor" : "-1.64"
+    } ],
+    "Dezembro de 2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,81",
+      "valor" : "-1.81"
+    } ],
+    "Janeiro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-6,09",
+      "valor" : "-6.09"
+    } ],
+    "Fevereiro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-8,45",
+      "valor" : "-8.45"
+    } ],
+    "Março de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,46",
+      "valor" : "-1.46"
+    } ],
+    "Abril de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,50",
+      "valor" : "-1.5"
+    } ],
+    "Maio de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,02",
+      "valor" : "-2.02"
+    } ],
+    "Junho de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,55",
+      "valor" : "-2.55"
+    } ],
+    "Julho de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-6,93",
+      "valor" : "-6.93"
+    } ],
+    "Agosto de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-11,96",
+      "valor" : "-11.96"
+    } ],
+    "Setembro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,71",
+      "valor" : "-1.71"
+    } ],
+    "Outubro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,51",
+      "valor" : "-1.51"
+    } ],
+    "Novembro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,52",
+      "valor" : "-1.52"
+    } ],
+    "Dezembro de 2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,80",
+      "valor" : "-3.8"
+    } ],
+    "Janeiro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,59",
+      "valor" : "-3.59"
+    } ],
+    "Fevereiro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,73",
+      "valor" : "-2.73"
+    } ],
+    "Março de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,97",
+      "valor" : "-5.97"
+    } ],
+    "Abril de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,89",
+      "valor" : "-5.89"
+    } ],
+    "Maio de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,47",
+      "valor" : "-5.47"
+    } ],
+    "Junho de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,31",
+      "valor" : "-5.31"
+    } ],
+    "Julho de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,00",
+      "valor" : "-5"
+    } ],
+    "Agosto de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,29",
+      "valor" : "-4.29"
+    } ],
+    "Setembro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-7,35",
+      "valor" : "-7.35"
+    } ],
+    "Outubro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,79",
+      "valor" : "-5.79"
+    } ],
+    "Novembro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,59",
+      "valor" : "-5.59"
+    } ],
+    "Dezembro de 2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,84",
+      "valor" : "-4.84"
+    } ],
+    "Janeiro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,19",
+      "valor" : "-5.19"
+    } ],
+    "Fevereiro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,94",
+      "valor" : "-4.94"
+    } ],
+    "Março de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,53",
+      "valor" : "-4.53"
+    } ],
+    "Abril de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,63",
+      "valor" : "-3.63"
+    } ],
+    "Maio de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,55",
+      "valor" : "-3.55"
+    } ],
+    "Junho de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,40",
+      "valor" : "-3.4"
+    } ],
+    "Julho de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,23",
+      "valor" : "-1.23"
+    } ],
+    "Agosto de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,86",
+      "valor" : "-2.86"
+    } ],
+    "Setembro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,12",
+      "valor" : "-2.12"
+    } ],
+    "Outubro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,80",
+      "valor" : "-2.8"
+    } ],
+    "Novembro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,08",
+      "valor" : "-3.08"
+    } ],
+    "Dezembro de 2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,65",
+      "valor" : "-2.65"
+    } ],
+    "Janeiro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,63",
+      "valor" : "-2.63"
+    } ],
+    "Fevereiro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,26",
+      "valor" : "-2.26"
+    } ],
+    "Março de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,02",
+      "valor" : "-1.02"
+    } ],
+    "Abril de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,82",
+      "valor" : "-1.82"
+    } ],
+    "Maio de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,65",
+      "valor" : "-1.65"
+    } ],
+    "Junho de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,45",
+      "valor" : "-1.45"
+    } ],
+    "Julho de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-7,45",
+      "valor" : "-7.45"
+    } ],
+    "Agosto de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,67",
+      "valor" : "-0.67"
+    } ],
+    "Setembro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,98",
+      "valor" : "-0.98"
+    } ],
+    "Outubro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,20",
+      "valor" : "-2.2"
+    } ],
+    "Novembro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,63",
+      "valor" : "-1.63"
+    } ],
+    "Dezembro de 2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,84",
+      "valor" : "-1.84"
+    } ],
+    "Janeiro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,48",
+      "valor" : "-1.48"
+    } ],
+    "Fevereiro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,84",
+      "valor" : "-1.84"
+    } ],
+    "Março de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,99",
+      "valor" : "-1.99"
+    } ],
+    "Abril de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,44",
+      "valor" : "-2.44"
+    } ],
+    "Maio de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,54",
+      "valor" : "-2.54"
+    } ],
+    "Junho de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,44",
+      "valor" : "-3.44"
+    } ],
+    "Julho de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,86",
+      "valor" : "-2.86"
+    } ],
+    "Agosto de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,65",
+      "valor" : "-2.65"
+    } ],
+    "Setembro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,23",
+      "valor" : "-0.23"
+    } ],
+    "Outubro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,91",
+      "valor" : "-0.91"
+    } ],
+    "Novembro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,68",
+      "valor" : "-1.68"
+    } ],
+    "Dezembro de 2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,28",
+      "valor" : "-2.28"
+    } ],
+    "Janeiro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,16",
+      "valor" : "0.16"
+    } ],
+    "Fevereiro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,23",
+      "valor" : "-0.23"
+    } ],
+    "Março de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,02",
+      "valor" : "0.02"
+    } ],
+    "Abril de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,04",
+      "valor" : "0.04"
+    } ],
+    "Maio de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,76",
+      "valor" : "-0.76"
+    } ],
+    "Junho de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,86",
+      "valor" : "-0.86"
+    } ],
+    "Julho de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,32",
+      "valor" : "1.32"
+    } ],
+    "Agosto de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,79",
+      "valor" : "0.79"
+    } ],
+    "Setembro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,81",
+      "valor" : "-0.81"
+    } ],
+    "Outubro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,44",
+      "valor" : "-1.44"
+    } ],
+    "Novembro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,36",
+      "valor" : "-1.36"
+    } ],
+    "Dezembro de 2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,93",
+      "valor" : "-0.93"
+    } ],
+    "Janeiro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,69",
+      "valor" : "-0.69"
+    } ],
+    "Fevereiro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,83",
+      "valor" : "-1.83"
+    } ],
+    "Março de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,72",
+      "valor" : "-1.72"
+    } ],
+    "Abril de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,01",
+      "valor" : "-2.01"
+    } ],
+    "Maio de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,77",
+      "valor" : "-1.77"
+    } ],
+    "Junho de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,64",
+      "valor" : "-1.64"
+    } ],
+    "Julho de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,47",
+      "valor" : "-2.47"
+    } ],
+    "Agosto de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,90",
+      "valor" : "-1.9"
+    } ],
+    "Setembro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,44",
+      "valor" : "-3.44"
+    } ],
+    "Outubro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,70",
+      "valor" : "-3.7"
+    } ],
+    "Novembro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,63",
+      "valor" : "-3.63"
+    } ],
+    "Dezembro de 2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,43",
+      "valor" : "-3.43"
+    } ],
+    "Janeiro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,68",
+      "valor" : "-4.68"
+    } ],
+    "Fevereiro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,44",
+      "valor" : "-2.44"
+    } ],
+    "Março de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,43",
+      "valor" : "-4.43"
+    } ],
+    "Abril de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,67",
+      "valor" : "-3.67"
+    } ],
+    "Maio de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,26",
+      "valor" : "-3.26"
+    } ],
+    "Junho de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,74",
+      "valor" : "-2.74"
+    } ],
+    "Julho de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,81",
+      "valor" : "-2.81"
+    } ],
+    "Agosto de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,46",
+      "valor" : "-2.46"
+    } ],
+    "Setembro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,60",
+      "valor" : "-3.6"
+    } ],
+    "Outubro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,69",
+      "valor" : "-3.69"
+    } ],
+    "Novembro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,64",
+      "valor" : "-3.64"
+    } ],
+    "Dezembro de 2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,94",
+      "valor" : "-3.94"
+    } ],
+    "Janeiro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,13",
+      "valor" : "-3.13"
+    } ],
+    "Fevereiro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,29",
+      "valor" : "-3.29"
+    } ],
+    "Março de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,54",
+      "valor" : "-2.54"
+    } ],
+    "Abril de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,97",
+      "valor" : "-2.97"
+    } ],
+    "Maio de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,12",
+      "valor" : "-3.12"
+    } ],
+    "Junho de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,79",
+      "valor" : "-3.79"
+    } ],
+    "Julho de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,83",
+      "valor" : "-5.83"
+    } ],
+    "Agosto de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,05",
+      "valor" : "-5.05"
+    } ],
+    "Setembro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,52",
+      "valor" : "-1.52"
+    } ],
+    "Outubro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,83",
+      "valor" : "-1.83"
+    } ],
+    "Novembro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,58",
+      "valor" : "-1.58"
+    } ],
+    "Dezembro de 2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,03",
+      "valor" : "-2.03"
+    } ],
+    "Janeiro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,85",
+      "valor" : "-1.85"
+    } ],
+    "Fevereiro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,88",
+      "valor" : "-2.88"
+    } ],
+    "Março de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,70",
+      "valor" : "-1.7"
+    } ],
+    "Abril de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-6,99",
+      "valor" : "-6.99"
+    } ],
+    "Maio de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-7,28",
+      "valor" : "-7.28"
+    } ],
+    "Junho de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-5,39",
+      "valor" : "-5.39"
+    } ],
+    "Julho de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,20",
+      "valor" : "0.2"
+    } ],
+    "Agosto de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,28",
+      "valor" : "0.28"
+    } ],
+    "Setembro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,43",
+      "valor" : "-2.43"
+    } ],
+    "Outubro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,93",
+      "valor" : "-2.93"
+    } ],
+    "Novembro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,72",
+      "valor" : "-3.72"
+    } ],
+    "Dezembro de 2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-4,37",
+      "valor" : "-4.37"
+    } ],
+    "Janeiro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,50",
+      "valor" : "-1.5"
+    } ],
+    "Fevereiro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,44",
+      "valor" : "-2.44"
+    } ],
+    "Março de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,35",
+      "valor" : "-3.35"
+    } ],
+    "Abril de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,87",
+      "valor" : "2.87"
+    } ],
+    "Maio de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,25",
+      "valor" : "3.25"
+    } ],
+    "Junho de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,44",
+      "valor" : "2.44"
+    } ],
+    "Julho de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,64",
+      "valor" : "-0.64"
+    } ],
+    "Agosto de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,88",
+      "valor" : "-1.88"
+    } ],
+    "Setembro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,98",
+      "valor" : "-1.98"
+    } ],
+    "Outubro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,18",
+      "valor" : "-1.18"
+    } ],
+    "Novembro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,16",
+      "valor" : "-0.16"
+    } ],
+    "Dezembro de 2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,79",
+      "valor" : "1.79"
+    } ],
+    "Janeiro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,38",
+      "valor" : "2.38"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "3,24",
+      "valor" : "3.24"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,06",
+      "valor" : "0.06"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,72",
+      "valor" : "-0.72"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,05",
+      "valor" : "-0.05"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,47",
+      "valor" : "-0.47"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,05",
+      "valor" : "0.05"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,57",
+      "valor" : "-1.57"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,73",
+      "valor" : "1.73"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,94",
+      "valor" : "1.94"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,36",
+      "valor" : "1.36"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,60",
+      "valor" : "1.6"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,80",
+      "valor" : "1.8"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,46",
+      "valor" : "1.46"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,59",
+      "valor" : "1.59"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,89",
+      "valor" : "1.89"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,38",
+      "valor" : "1.38"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "1,19",
+      "valor" : "1.19"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,13",
+      "valor" : "0.13"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,09",
+      "valor" : "-0.09"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,56",
+      "valor" : "0.56"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,32",
+      "valor" : "0.32"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,05",
+      "valor" : "0.05"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,86",
+      "valor" : "-0.86"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,02",
+      "valor" : "-3.02"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,71",
+      "valor" : "-3.71"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,04",
+      "valor" : "-1.04"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,33",
+      "valor" : "-0.33"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,67",
+      "valor" : "-0.67"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,73",
+      "valor" : "-0.73"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,41",
+      "valor" : "-0.41"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,27",
+      "valor" : "0.27"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,43",
+      "valor" : "-1.43"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,88",
+      "valor" : "-1.88"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,21",
+      "valor" : "-1.21"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,73",
+      "valor" : "-0.73"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "0,55",
+      "valor" : "0.55"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "2,45",
+      "valor" : "2.45"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,06",
+      "valor" : "-1.06"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,98",
+      "valor" : "-1.98"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,73",
+      "valor" : "-1.73"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,01",
+      "valor" : "-1.01"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,01",
+      "valor" : "-2.01"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,42",
+      "valor" : "-1.42"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,42",
+      "valor" : "-1.42"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,27",
+      "valor" : "-1.27"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,76",
+      "valor" : "-1.76"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,68",
+      "valor" : "-1.68"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,76",
+      "valor" : "-1.76"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,89",
+      "valor" : "-1.89"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,98",
+      "valor" : "-1.98"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,15",
+      "valor" : "-1.15"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-0,57",
+      "valor" : "-0.57"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-2,12",
+      "valor" : "-2.12"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,20",
+      "valor" : "-1.2"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,16",
+      "valor" : "-1.16"
+    } ],
+    "Setembro de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-1,96",
+      "valor" : "-1.96"
+    } ],
+    "Outubro de 2026" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "dim_3" : "03",
+      "dim_3_t" : "Vestuário e calçado",
+      "ind_string" : "-3,18",
+      "valor" : "-3.18"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

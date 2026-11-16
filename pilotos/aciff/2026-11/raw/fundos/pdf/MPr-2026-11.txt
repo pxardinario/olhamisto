@@ -1,0 +1,1338 @@
+              Aviso para Apresentação de Candidaturas
+                                                Código do aviso:                               MPr-2026-11
+                                                Data de publicação:                            30/10/2026
+                                                Natureza do aviso:                             Concurso
+                                                Âmbito de atuação:                             Operações
+                                                Aprovado pela Deliberação CIC nº: 23/2026/PL de 10/09
+
+
+
+
+Designação do Aviso:
+SIID – I&D Empresarial - Operações Individuais e em Copromoção
+
+
+Apoio para:
+São apoiadas neste aviso operações de Investigação e Desenvolvimento (I&D), na modalidade individual ou em
+copromoção, realizadas por empresas ou entre empresas e/ou com entidades não empresariais do Sistema de
+I&I (ENESII), alinhadas com os domínios prioritários da Estratégia de Investigação e Inovação para uma
+Especialização Inteligente (RIS3), as quais compreendem investimentos em atividades de investigação industrial
+e de desenvolvimento experimental, estimulando a sua valorização económica e a promoção de inovação.
+
+
+Ações abrangidas por este aviso:
+São suscetíveis de apoio operações que integrem atividades de investigação industrial e/ou de desenvolvimento
+experimental, conducentes à criação de novos produtos, processos ou serviços ou à introdução de melhorias
+significativas em produtos, processos ou serviços existentes.
+
+
+Entidades que se podem candidatar:
+São entidades beneficiárias as Micro, Pequenas e Médias empresas (PME) e as empresas de pequena-média
+capitalização (Small Mid Cap), de qualquer natureza e sob qualquer forma jurídica, que cumpram os requisitos
+de elegibilidade previstos no artigo 14º, do Decreto-Lei nº 20-A/2023, de 22 de março, que define o regime geral
+de aplicação do Portugal 2030 e respetivos Fundos, e no artigo 46º, do Regulamento Específico Inovação e
+Transição Digital (REITD).
+
+
+
+
+1/35
+                                                                   Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Nas candidaturas em copromoção, são ainda beneficiárias, na qualidade de copromotoras, as Entidades Não
+Empresariais do Sistema de Investigação e Inovação (ENESII).
+
+
+Área geográfica abrangida:
+O presente aviso tem aplicação nas regiões NUTS II do Centro, Alentejo, Algarve e Área Metropolitana de Lisboa.
+A localização do projeto corresponde à região onde é localizado o investimento.
+
+
+Período de candidaturas:
+O período de candidaturas decorre em fase única, com início a 30/10/2026 (18 horas) e fim a 30/12/2026 (18
+horas).
+
+
+Programa financiador:
+São Programas Financiadores:
+• o Programa Regional do Centro (Centro 2030);
+• o Programa Regional de Lisboa (Lisboa 2030);
+• o Programa Regional do Alentejo (Alentejo 2030);
+• o Programa Regional do Algarve (Algarve 2030).
+
+
+Entidade gestora do apoio/Organismo Intermédio:
+Autoridades de Gestão dos Programas Financiadores
+Agência para a Investigação e Inovação, E.P.E.
+
+
+Contactos para mais informações:
+Linha dos Fundos 800 10 35 10 (09:00-18:00h - gratuito)
+Correio eletrónico: linhadosfundos@linhadosfundos.pt
+
+
+
+
+2/35
+                                                                 Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Finalidades e objetivos:
+O conhecimento e a inovação constituem fatores determinantes para o crescimento económico, contribuindo
+para a competitividade externa dos países. Para além dos efeitos diretos, desencadeiam externalidades positivas
+relacionadas com o arrastamento a outros setores e empresas, por via da difusão do conhecimento e da
+transferência de tecnologia.
+Apesar dos progressos registados, são ainda identificados alguns constrangimentos a que a I&D desenvolvida
+promova uma efetiva alteração da especialização económica, nomeadamente o perfil da estrutura produtiva
+nacional, com uma baixa representatividade de setores intensivos em tecnologia e conhecimento e uma
+predominância de micro e pequenas empresas, com dificuldades de articulação e cooperação com os atores do
+SCTN.
+Pretende-se, assim, prosseguir o esforço de alteração do perfil de especialização da economia portuguesa,
+apoiando a reorientação do tecido produtivo para modelos de produção mais inovadores, sustentáveis e
+intensivos em conhecimento e tecnologia, geradores de maior valor acrescentado, que potenciem a valorização
+económica da I&D e permitam desenvolver novos produtos, processos ou serviços, incluindo a melhoria
+significativa (processos de inovação) dos existentes.
+É fundamental, em estreito alinhamento com as prioridades das RIS3, continuar a promover o investimento em
+I&D e a estimular a sua valorização económica, promovendo a sua transferência para o tecido produtivo, através
+do reforço da articulação entre as empresas e as entidades não empresariais do sistema de investigação e
+inovação (ENESII), aspeto determinante tendo em conta a própria estrutura do tecido produtivo nacional.
+Com a mobilização desta tipologia de projetos pretende-se:
+• o reforço da intensidade de I&D&I no tecido empresarial e da sua valorização para novos processos de
+   produção, produtos e serviços ou a melhoria significativa (processos de inovação) dos existentes;
+• o incremento da colaboração entre empresas e entre estas e as ENESII.
+
+
+Dotação:
+
+ Programa                      PR Alentejo; PR Algarve; PR Centro; PR Lisboa
+ Prioridade do Programa        1A – Inovação e Competitividade
+                               RSO1.1 Desenvolver e reforçar as capacidades de investigação e inovação e a
+ Objetivo Específico
+                               adoção de tecnologias avançadas
+ Tipologia de Ação             RSO1.1-02 Investimento empresarial e valorização económica do conhecimento
+ Tipologia de Intervenção      RSO1.1-02-01 I&D Empresarial
+ Tipologia de Operação         1009 I&D empresas - projetos de I&DT (SI)
+
+
+
+3/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                                    Dotação Fundo         Dotação Fundo               Taxa                       Fonte de
+             Fundo
+                                     Individuais           Copromoção                Máxima               Financiamento Nacional
+ FEDER - PR Alentejo                  600.000 €             400.000 €                 80%*                         N.A.
+ FEDER - PR Algarve                   1.000.000 €           3.000.000 €                80%*                               N.A.
+ FEDER - PR Centro                    1.500.000 €           3.500.000 €                80%*                               N.A.
+ FEDER - PR Lisboa                    1.500.000 €           1.500.000 €                 40%                               N.A.
+ FEDER - Dotação Global               4.600.000 €           8.400.000 €
+* 85%, se ENESII, com exceção do PR LISBOA em que a taxa máxima é de 40%, nos termos e condições previstas nos números 5, 6 e 7
+    do artigo 49º do Regulamento Específico da Área Temática Inovação e Transição Digital do Portugal 2030
+
+
+
+Enquadramento em instrumentos territoriais:
+Não aplicável
+
+
+Legislação nacional:
+Tem política pública regulada ou contribui para uma Agenda ou Estratégia Nacional?
+☐          Não
+☒          Sim. Qual?         Estratégias Regionais para uma Especialização Inteligente – EREI
+
+Tem regulamento específico?
+☐          Não
+☒          Sim. Qual?        Regulamento Específico da área temática Inovação e Transição Digital (REITD), na sua
+                             redação atual
+
+
+
+Condições específicas ou normas técnicas a observar pelas operações e pelos beneficiários:
+Para serem suscetíveis de apoio, as operações devem cumprir os requisitos de elegibilidade previstos no artigo
+19º, do Decreto-Lei nº 20-A/2023, de 22 de março, e nos artigos 7º, 42.º e 47º do REITD, e satisfazer ainda as
+seguintes condições específicas de acesso:
+a) Contribuir para as finalidades e objetivos do presente Aviso;
+b) Demonstrar dispor de fontes de financiamento para assegurar a realização da operação;
+c) Enquadrar-se nas prioridades e nos domínios prioritários da RIS3 Regional aplicável, de acordo com o
+    estabelecido nos Anexo A-3 deste Aviso;
+d) Os projetos devem compreender o desenvolvimento de atividades de Investigação Industrial e/ou de
+    Desenvolvimento Experimental, conducentes à criação de novos produtos, processos ou serviços ou à
+
+
+
+4/35
+                                                                              Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+   introdução de melhorias significativas (processos de inovação) em produtos, processos ou serviços
+   existentes;
+e) Os projetos de desenvolvimento na área da saúde (medicamento, dispositivos médicos, biomateriais, etc..),
+   dado o ciclo de desenvolvimento de produto ser mais longo, devido a questões regulamentares e outras,
+   poderão não contemplar, se apropriado e justificado, atividades de Desenvolvimento Experimental. Será,
+   contudo, desejável que os projetos contemplem, pelo menos e se aplicável em termos regulamentares, a
+   fase de estudos não clínicos e pré-clínicos, em condições GxP1, envolvendo a recolha de dados paramétricos
+   e a avaliação em sistemas bem definidos;
+f) Os beneficiários, para além das condições definidas no ponto anterior “Entidades Beneficiárias”, deverão
+   apresentar uma situação económico-financeira equilibrada nos termos estabelecidos no ANEXO III do REITD,
+   sendo, para efeitos deste aviso, considerado 2025 como o ano pré-projeto. Em alternativa, pode ser
+   considerada a média aritmética simples dos dois últimos balanços ou um balanço intercalar reportado até à
+   data de candidatura, devidamente certificado por um ROC;
+g) No caso do beneficiário se encontrar integrado num grupo económico (empresa não autónoma), a validação
+   do cumprimento do rácio da autonomia financeira e dos critérios enumerados no conceito de empresa em
+   dificuldade é efetuada ao nível do grupo (internacional, se for o caso), com base nas demonstrações
+   financeiras consolidadas;
+h) Para efeitos de comprovação do estatuto PME, os beneficiários devem obter ou atualizar a correspondente
+   Certificação Eletrónica prevista no Decreto-Lei n.º 372/2007, de 6 de novembro, alterado pelo Decreto-Lei
+   n.º 143/2009, de 16 de junho, através do sítio do IAPMEI, I.P. – Agência para a Competitividade e Inovação.
+   No caso de Small Mid Cap, os beneficiários devem apresentar uma declaração de comprovação subscrita
+   pelo(s) representantes da entidade(s);
+i) As operações a apoiar no presente aviso devem prever em candidatura uma duração máxima de execução
+   de 24 ou 36 meses, consoante se tratar de projetos individuais ou de projetos em copromoção, exceto em
+   circunstâncias excecionais, devidamente justificados e aceites pela Autoridade de Gestão ou Organismo
+   Intermédio com competências delegadas;
+j) O projeto deve integrar um investimento elegível mínimo de €150.000, devendo esta condição ser verificada
+   à data candidatura, decisão e encerramento, podendo em sede de encerramento ser aceite um valor inferior,
+   desde que devidamente justificado e aceite pela Autoridade de Gestão ou Organismo Intermédio com
+   competências delegadas;
+k) São apenas elegíveis as operações que respeitem o requisito previsto na alínea a) do artigo 7.º do REITD,
+   designadamente “Demonstrar o cumprimento do efeito de incentivo, conforme previsto na alínea d) do
+
+
+5/35
+                                                                 Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+   artigo 3.º” e do Acórdão do Tribunal de Justiça Eesti Pagar AS, de 5 de março de 2019,
+   https://curia.europa.eu/juris/liste.jsf?num=C-349/17&language=PTi;
+l) O(s) local(ais) de realização do projeto correspondem ao(s) estabelecimento(s) pertencente(s) ao(s)
+   beneficiário(s) onde é(são) realizado(s) o(s) investimento(s) do projeto;
+m) Apresentar com a candidatura e em anexo ao formulário:
+   • Minuta de contrato de consórcio, quando aplicável;
+   • Anexo Técnico à candidatura, respeitando a estrutura modelo e de acordo com as regras de
+       preenchimento definidas no documento “Anexo Técnico” disponibilizado com este Aviso;
+   • Obrigatoriedade de as entidades empresariais beneficiárias disporem de contabilidade organizada.
+No âmbito do cumprimento do Princípio «Não Prejudicar Significativamente» (DNSH), previsto no artigo 8.º do
+REITD, para além do cumprimento dos requisitos estabelecidos no REITD, designadamente no âmbito das
+obrigações previstas no nº 2, do artigo 43º, os beneficiários devem assegurar, no decorrer da execução, que o
+investimento não prejudica significativamente nenhum dos objetivos ambientais estabelecidos no artigo 9º do
+Regulamento (UE) 2020/852, de 18 de junho, do Parlamento e do Conselho, nos termos do artigo 17º do mesmo
+Regulamento e respetivos atos delegados, devendo apresentar, até ao encerramento, uma autoavaliação do
+alinhamento dos investimentos a realizar com o referido Princípio.
+
+
+
+          Modalidade                      Número máximo                                       Duração
+         de candidaturas                  de candidaturas                                  das operações
+                               1 empresa apenas pode participar numa
+          Individual ou                                                               24 meses (individual)
+                            candidatura enquanto líder e outra enquanto
+           Copromoção                                                            36 meses (em copromoção)
+                              copromotor, num total de 2 candidaturas
+
+
+
+Condições de atribuição de financiamento da operação:
+Os programas financiadores do presente aviso são os Programas Regionais do Continente, em concreto, o PR
+Alentejo, o PR Algarve, o PR Centro e o PR Lisboa.
+Só são passíveis de apoio projetos de âmbito monoregional, podendo as respetivas candidaturas assumir a
+modalidade de projetos individuais ou em copromoção.
+No caso do PR Centro, as operações individuais e as operações em copromoção devem prever, em sede de
+candidatura, valores máximos de investimento total de, respetivamente, 350.000€ e 500.000€.
+
+
+
+
+6/35
+                                                                   Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Taxas de Cofinanciamento:
+A taxa máxima de financiamento das operações elegíveis é que resultar do disposto no artigo 49º, do REITD, no
+que respeita à tipologia de operação I&D Empresarial - «Projetos de ID&T», com exceção dos investimentos na
+NUTS II Área Metropolitana de Lisboa, em que a taxa máxima é 40%.
+
+
+Para as Empresas:
+
+
+    Taxa Base:
+    • Até 50 % para a investigação industrial;
+    • Até 25 % para o desenvolvimento experimental.
+    Majorações:
+    A. «Dimensão da empresa»: até 10 p.p. a atribuir a médias empresas ou 20 p.p. a atribuir a micro e pequenas
+       empresas;
+    B. «Colaboração Efetiva» e «Divulgação Ampla dos Resultados»: até 15 p.p. a atribuir quando a operação
+       verificar as condições previstas na alínea b) do nº 2 do artigo 49º;
+    C. «Localização da operação»: até 15 p.p. a atribuir às operações localizadas nas regiões Centro ou Alentejo
+       e até 5 p.p. a atribuir às operações localizadas nas zonas c) do mapa de auxílios com finalidade regional
+       2022 -2027 aprovado pela Comissão Europeia (Auxílio Estatal n.º SA 100752 e n.º SA. 106697).
+    As majorações B e C não são de aplicação cumulativa.
+    As taxas base acrescidas das majorações têm uma intensidade máxima de 80%.
+
+
+Para as ENESII:
+
+
+No caso de operações apresentadas em copromoção, as ENESII podem beneficiar de uma taxa até 85 %, quando
+a cooperação não implique auxílios de Estado indiretos às empresas beneficiárias e desde que preencham as
+condições previstas nos pontos 5, 6 e 7 do artigo 49º do REITD.
+
+
+
+Auxílios de Estado:
+☒      Aplicável?     Enquadrar:               ☒    Regulamento Geral de Isenção de Categoria
+                                               ☐ Auxílios de minimis
+                                               ☐ Notificação à Comissão Europeia
+                                               ☐ Serviço de Interesse Económico Geral
+
+7/35
+                                                                    Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Nos termos do artigo 51º, do REITD, designadamente:
+• Artigo 25.º do Regulamento (UE) n.º 651/2014, de 17 de junho, na sua redação atual.
+• O enquadramento dos auxílios estatais à investigação, desenvolvimento e inovação (Comunicação 2022/C
+     414/01) para os projetos que ultrapassem os limiares de notificação previstos no artigo 4.º do Regulamento
+     (UE) n.º 651/2014, de 17 de junho.
+
+
+Formas de apoios:
+ ☒       Subvenção
+
+          ☐    Custos reais
+
+
+         ☒     Custos Unitários   ☒    Em programa       Data da decisão PR Lisboa:               C(2022)9636, de 14/12
+                                                         Data da decisão PR Centro:               C(2022)9662, de 14/12
+                                                         Data da decisão PR Alentejo:             C(2022)9469, de 14/12
+                                                         Data da decisão PR Algarve:              C(2022)9620, de 14/12
+
+                                  ☒ Nacional             Deliberação CIC nº:                     23/2023/PRM, de 17/11
+
+
+
+Custos elegíveis:
+Os custos das operações serão exclusivamente financiados através da metodologia de custos simplificados, na
+modalidade de Custos unitários (custo unitário/mês por FTE/ETI – equivalente a tempo integral), conforme
+previsto na Deliberação nº 23/2023/PRM, de 17/11/2023, da Comissão Interministerial Permanente do Portugal
+2030 (https://portugal2030.pt/legislacao/deliberacao-n-o-22-2023-prm-2/) e no Documento Metodológico de
+aplicação de Opções de Custos simplificados (OCS) disponibilizado no Anexo A4 do presente Aviso.
+
+
+Formas de pagamento:                  ☒     Adiantamentos ☒           Reembolso
+
+Os pagamentos aos beneficiários obedecem ao disposto no artigo 28.º do Decreto-Lei n.º 20-A/2023, de 22 de
+março, no artigo 12º do REITD, e no Regulamento nº 1125/2026, de 20 de agosto, que define os procedimentos
+a observar na realização de pagamentos aos beneficiários das tipologias de intervenção dos Sistemas de
+Incentivos do Portugal 2030.
+
+Indicadores:
+
+
+
+8/35
+                                                                   Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Indicador de Realização
+
+ Programa                     PR Alentejo; PR Algarve; PR Centro; PR Lisboa
+ Tipologia de intervenção     RSO1.1-02-01 I&D Empresarial
+ Tipologia de operação        1009 I&D empresas - projetos de I&DT (SI)
+ Código do indicador          Designação do indicador                                            Unidade
+                              Grau de concretização das atividades previstas no
+ RPO035                                                                                            %
+                              projeto
+                              Este indicador pretende ilustrar o grau de concretização das atividades previstas
+ Descrição
+                              no projeto
+                              (somatório das atividades realizadas / somatório das atividades previstas no
+ Método de cálculo
+                              projeto)*100
+
+
+Indicador de Resultado nº 1
+
+ Programa                     PR Alentejo; PR Algarve; PR Centro; PR Lisboa
+ Tipologia de intervenção     RSO1.1-02-01 I&D Empresarial
+ Tipologia de operação        1009 I&D empresas - projetos de I&DT (SI)
+ Código do indicador          Designação do indicador                                        Unidade
+                              Inovações introduzidas em produtos, processos ou           Processos de
+ RPR042
+                              serviços, ou melhoria dos já existentes                      inovação
+                              Processos de inovação conducentes a novos produtos, processos ou serviços ou
+ Descrição                    à introdução de melhorias significativas em produtos, processos ou serviços
+                              existentes.
+                              Contagem do número de processos de inovação conducentes ao surgimento de
+ Método de cálculo            novos produtos, processos ou serviços ou melhoria dos já existentes em
+                              resultado dos projetos apoiados.
+
+
+Indicador de Resultado nº 2
+
+ Programa                     PR Alentejo; PR Algarve; PR Centro; PR Lisboa
+ Tipologia de intervenção     RSO1.1-02-01 I&D Empresarial
+ Tipologia de operação        1009 I&D empresas - projetos de I&DT (SI)
+ Código do indicador          Designação do indicador                                           Unidade
+                                                                                              Equivalente
+                              Empregos de investigação criados nas entidades
+ RCR102                                                                                    anual em tempo
+                              apoiadas
+                                                                                             integral (ETI)
+                              Número de postos de trabalho de investigação criados em termos de
+                              equivalentes médios anuais a tempo inteiro (ETI). O ETI anual do pessoal de I&D
+ Descrição                    é definido como o rácio das horas de trabalho efetivamente gastas em I&D
+                              durante um ano civil dividido pelo número total de horas legalmente trabalhadas
+                              no mesmo período por um indivíduo ou grupo. Uma pessoa em tempo integral
+
+9/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                              será identificada com referência ao seu estatuto no emprego, o tipo de contrato
+                              (tempo inteiro ou tempo parcial) e seu nível de envolvimento em funções de I&D.
+                              Somatório dos postos de trabalho de investigação criados como resultado do
+ Método de cálculo            apoio, medidos em termos de equivalentes anuais em tempo integral (ETI). A
+                              aferição deste indicador deverá ser efetuada no ano meta.
+
+
+Consequências do incumprimento dos indicadores:
+Consideram-se cumpridas as metas contratualizadas e constantes da Decisão de Financiamento quando a
+percentagem de cumprimento for igual ou superior a 75% do valor do(s) indicador(es) contratualmente
+estabelecido(s).
+É exigível a apresentação pelo beneficiário de uma autoavaliação qualitativa das realizações e resultados
+atingidos. Se a taxa de cumprimento global não atingir 75% é aplicada uma correção financeira a partir desse
+limiar de tolerância, sendo que, por cada ponto percentual (p.p.) abaixo desse limiar, procede-se a uma redução
+de meio p.p. sobre a taxa de cofinanciamento da operação, até ao máximo de 5 p.p.
+A taxa de cumprimento de cada indicador é determinada, nos seguintes termos:
+    •   Taxa de cumprimento IND RPO035 = (Resultado apurado em saldo / Meta contratualizada) x 100
+    •   Taxa de cumprimento IND RPR042 = (Resultado apurado em saldo / Meta contratualizada) x 100
+    •   Taxa de cumprimento IND RCR102 = (Resultado apurado em saldo / Meta contratualizada) x 100
+A taxa de cumprimento global é determinada pela média ponderada do cumprimento de cada um dos
+indicadores estabelecidos, nos seguintes termos:
+    •   Taxa de cumprimento global = 0,5 taxa de cumprimento IND RPO035 + 0,25 taxa de cumprimento IND
+        RPR042 + 0,25 taxa de cumprimento IND RCR102
+Nos termos do nº 3, do artigo 22º, do Decreto‐Lei nº 20-A/2023, de 22 de março, a Autoridade de Gestão pode
+proceder à revisão dos resultados e realizações fixadas.
+
+
+Mecanismos de bonificação (Quando aplicável):
+Não aplicável.
+
+
+Critérios de seleção aprovados em:
+31/05/2023 (PR Alentejo); 05/06/2022 (PR Algarve); 21/06/2023 (PR Centro); 20/06/2023 (PR Lisboa).
+
+
+Obrigações dos beneficiários em matéria de notoriedade, transparência e comunicação:
+
+
+
+10/35
+                                                                 Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Proceder à publicitação dos apoios, em conformidade com o disposto na legislação europeia e nacional aplicável,
+assegurando a inclusão das insígnias do programa ou dos programas financiadores do Portugal 2030 e da União
+Europeia nos estabelecimentos apoiados, no seu sítio da internet e nos materiais de divulgação e comunicação
+Guia de Regras de Comunicação para Beneficiários.
+Tratamento de Dados Pessoais:
+Os Beneficiários devem assegurar o cumprimento das regras do Regulamento Geral de Proteção de Dados,
+aprovado pelo Regulamento (UE) 2016/679 do Parlamento Europeu e do Conselho, de 27 de abril, relativamente
+a dados pessoais que disponibilizem para efeitos de candidatura e sua execução.
+
+
+Outras entidades que intervêm no processo:
+Para além das entidades identificadas no ponto “Entidade gestora do apoio/Organismo Intermédio”, do Aviso,
+está prevista a intervenção das Comissões de Coordenação e Desenvolvimento Regional do Centro, Lisboa,
+Alentejo e Algarve no que respeita à avaliação do Critério A1, do Referencial de Mérito.
+
+
+
+
+11/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Processo de admissão e seleção das candidaturas
+
+
+Como se apresentam as candidaturas:
+As candidaturas são apresentadas online no Balcão dos Fundos, em balcaofundosue.pt, através de formulário
+eletrónico disponibilizado para o efeito.
+Para apresentar a candidatura é indispensável que o(s) beneficiário(s) tenha(m) efetuado registo e autenticação
+no Balcão dos Fundos.
+Com essa autenticação é criada uma área reservada na qual o(s) beneficiário(s) poderá(ão) contar com um
+conjunto de funcionalidades, independentemente da natureza da operação, da região ou do programa a que
+pretende candidatar-se.
+Antes da submissão da candidatura, o beneficiário deve confirmar, completar e atualizar os seus dados de
+caracterização no Balcão dos Fundos, já que os mesmos serão utilizados na candidatura.
+Para se candidatar, o(s) beneficiário(s) deve(m) preencher o formulário de candidatura disponível no Balcão dos
+Fundos e fazer o upload dos documentos listados no Anexo A.1.
+
+
+
+Quais são os critérios de seleção:
+As candidaturas são avaliadas de acordo com os seguintes critérios de seleção, nos termos descritos no
+Referencial de Análise de Mérito constante do Anexo A-2 deste Aviso:
+   A. Adequação à Estratégia
+   B. Qualidade
+   C. Capacidade de Execução
+   D. Impacto
+
+
+
+Como funciona o processo de análise e decisão das candidaturas:
+
+Calendário de candidaturas:
+
+ Abertura                     30/10/2026 (18h)
+
+ Fecho                        30/12/2026 (18h)
+
+ Análise e decisão            60 dias úteis após o fecho do Aviso
+
+ Notificação da decisão       5 dias úteis após a decisão
+
+
+
+12/35
+                                                                    Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+O prazo de análise e decisão inicia-se a partir da data de fecho do Aviso.
+As Autoridades de Gestão dos programas financiadores podem suspender a receção de candidaturas no âmbito
+do presente Aviso a qualquer momento, através de comunicação prévia a publicar nos locais definidos no Ponto
+«Onde são comunicadas as decisões às entidades candidatas» com uma antecedência mínima de 3 dias úteis
+em relação à data estabelecida para a suspensão.
+
+
+
+Processo de análise e decisão:
+
+O processo de decisão das candidaturas integra quatro fases:
+1. Verificação dos requisitos de elegibilidade dos beneficiários previstas na regulamentação geral e específica
+   dos Fundos Europeus e no presente Aviso;
+2. Verificação dos requisitos de elegibilidade definidos para a operação na regulamentação geral e específica
+   dos Fundos Europeus e no presente Aviso;
+3. Avaliação do mérito do projeto, com base na metodologia e nos critérios de seleção aprovados;
+4. Decisão sobre o financiamento das operações, tendo em conta as disponibilidades financeiras.
+Atendendo à natureza concursal do presente Aviso, a avaliação do mérito das operações compreende duas
+fases:
+• Avaliação de mérito absoluto, que analisa a melhor relação possível entre o montante de apoio, as atividades
+   realizadas e os resultados a atingir, assegurando o cumprimento da estratégia e objetivos do programa
+   financiador, o âmbito de aplicação do FEDER e os princípios transversais aplicáveis;
+• Avaliação de mérito relativo, que resulta da comparação do mérito da operação com o mérito das demais
+   operações candidatas, com hierarquização final das candidaturas avaliadas e selecionadas até ao limite da
+   dotação orçamental definida nos Avisos para apresentação de candidaturas, fixando-se assim o limiar de
+   seleção do concurso. Em caso de empate, é considerado, em primeiro lugar, a pontuação obtida no Critério
+   B e, de seguida, a do critério D.
+Para efeitos de avaliação do mérito das operações e de hierarquização das candidaturas avaliadas, é utilizado o
+indicador de Mérito do Projeto (MP), calculado através da seguinte fórmula, nos termos descritos no Referencial
+de Análise de Mérito constante do Anexo A-2:
+     MP = 0,35 A + 0,25B + 0,15 C + 0,25 D
+em que:
+    A. Adequação à Estratégia
+    B. Qualidade
+    C. Capacidade de Execução
+
+13/35
+                                                                   Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+    D. Impacto
+
+
+As pontuações dos critérios são atribuídas numa escala compreendida entre 1 e 5, podendo ser aplicados
+incrementos de 0,5 pontos, sendo o resultado do MP arredondado à centésima.
+Para que possa ser elegível, a operação tem de obter uma pontuação final de MP igual ou superior a 3,00 e, com
+exceção do PR Algarve, as seguintes pontuações mínimas nos critérios de seleção:
+
+
+    •    Critério A: 3,00 pontos;
+    •    Critério B: 3,00 pontos;
+    •    Critério C: 3,00 pontos;
+    •    Critério D: 3,00 pontos.
+
+
+
+Decisão sobre as candidaturas:
+As Autoridades de Gestão ou os Organismos Intermédios analisam a informação constante do formulário de
+candidatura e os documentos anexos.
+Após a data do fecho do Aviso podem ser comunicadas decisões aos candidatos quanto à não admissibilidade
+das candidaturas, sempre que estas não cumpram as condições de elegibilidade estabelecidas no presente
+Aviso.
+A decisão fundamentada sobre as candidaturas é proferida no prazo de 60 dias úteis contados a partir da data
+de fecho do Aviso.
+São selecionadas as candidaturas que obtenham uma pontuação de MP igual ou superior a 3,50 pontos, com
+exceção do PR Algarve em que a pontuação de MP é igual ou superior a 3,00.
+O disposto no parágrafo anterior não impede as Autoridades de Gestão de encerrar o Aviso, em caso de
+esgotamento da dotação.
+O prazo de 60 dias úteis para a adoção da decisão acima referido suspende-se quando sejam solicitados ao
+candidato quaisquer esclarecimentos, informações ou documentos, o que só pode ocorrer por uma vez. A não
+apresentação pelo candidato, no prazo fixado, dos esclarecimentos, informações ou documentos solicitados
+significará que a análise da candidatura prossegue com os elementos disponíveis.
+As propostas de decisão são notificadas ao candidato no prazo máximo de 5 dias úteis a contar da data da sua
+emissão.
+Após a notificação da proposta de decisão, os candidatos são ouvidos no procedimento de audiência prévia, nos
+termos legais, sendo concedido um prazo máximo de 10 dias úteis para apresentar eventuais alegações em
+
+14/35
+                                                                 Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+contrário, contados a partir da data da notificação da proposta de decisão, designadamente quanto à eventual
+intenção de indeferimento e aos respetivos fundamentos.
+As propostas de decisão das candidaturas relativamente às quais tenham sido apresentadas alegações em
+contrário são reapreciadas a contar da data da apresentação da alegação. A referida reapreciação inclui análise,
+decisão e nova audiência prévia, se aplicável.
+As operações não apoiadas que, em resultado do processo de reapreciação referido no parágrafo anterior,
+venham a obter um MP que teria permitido a sua inclusão no conjunto das operações selecionadas, serão
+consideradas selecionadas e apoiadas no âmbito do presente concurso.
+A decisão final é notificada pelas Autoridades de Gestão ao beneficiário no prazo de 5 dias úteis, a contar da
+data da sua emissão, conjuntamente com o respetivo termo de aceitação.
+Se se verificar uma elevada procura ao presente Aviso, os prazos estabelecidos podem ser revistos e serão
+oportunamente publicitados.
+
+
+Onde são comunicadas as decisões às entidades candidatas:
+As entidades que se candidatam a apoio recebem as notificações da proposta de decisão e da decisão final:
+•   Na sua área reservada no Balcão dos Fundos;
+•   Através do serviço público de notificações eletrónicas (SPNE).
+
+
+Aceitação ou não aceitação da decisão:
+As entidades que se candidataram a apoio recebem a decisão final sobre a sua candidatura, a qual pode ser de
+aprovação (condicionada ou não condicionada), total ou parcial face ao solicitado em candidatura, ou de não
+aprovação.
+A aceitação da decisão de aprovação da candidatura é feita pelo beneficiário mediante assinatura do termo de
+aceitação, através de assinatura digital qualificada, com atributos profissionais suficientes para o ato, que
+comprove os poderes de representação do beneficiário pelo subscritor, submetida no Balcão dos Fundos, no
+prazo de 30 dias úteis.
+
+
+Onde são publicadas as listas das candidaturas aprovadas:
+As listas de candidaturas aprovadas são publicitadas nos sítios da Internet dos programas financiadores e do
+Portugal 2030, disponíveis em:
+•   PR Alentejo: Alentejo2030
+•   PR Centro: Centro 2030
+
+
+15/35
+                                                                     Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+•   PR Lisboa: Lisboa 2030
+•   Portugal 2030: Portugal 2030
+
+
+Pedidos de alteração à candidatura:
+Não aplicável.
+
+
+
+
+16/35
+                                      Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                                             Anexos:
+
+
+    Anexo A. Candidatura
+
+
+          A1.   Documentos necessários para apresentar uma candidatura
+
+          A2.   Referencial de Mérito
+
+          A3.   Domínios Prioritários das EREI2030
+
+          A4.   Regras e condições de elegibilidade das despesas
+
+
+
+    Anexo B. Legislação aplicável a este Aviso
+
+
+
+
+17/35
+                                                             Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                                    Anexo A. Candidatura
+
+
+                                                Anexo A1
+                 Documentos necessários para apresentar uma candidatura
+
+
+A candidatura deve contemplar os seguintes documentos adicionais, conforme aplicável, a anexar no formulário
+(por upload) na página “anexos”:
+• IES 2025 ou 2026 quando as contas desse ano já estiverem encerradas/submetidas. Sempre que para o efeito
+
+seja necessário a apresentação de um balanço intercalar reportado à data de candidatura (ou a uma data
+anterior, mas nunca superior a 3 meses da data de candidatura), o mesmo deve estar certificado por um ROC,
+não podendo corresponder a um exame simplificado;
+• Minuta do contrato de consórcio, no caso de operações na modalidade em copromoção;
+
+• Curricula dos RH identificados como críticos do projeto;
+
+• Diagrama de Gantt;
+
+• Anexo técnico.
+
+
+
+
+                                                Anexo A2
+                                           Referencial de Mérito
+
+
+Nos termos do estabelecido no artigo 24.º do Regime Geral dos Fundos Europeus, para efeitos de avaliação de
+mérito absoluto das operações e de hierarquização das candidaturas avaliadas, o Mérito do Projeto (MP) é
+determinado pela soma ponderada das pontuações obtidas nos critérios de 1.º nível de acordo com a seguinte
+fórmula:
+
+
+   MP = 0,35 A + 0,25B + 0,15 C + 0,25 D
+
+
+Em que são critérios de 1º nível:
+
+
+
+
+18/35
+                                                               Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+    A. ADEQUAÇÃO À ESTRATÉGIA
+    B. QUALIDADE
+    C. CAPACIDADE DE EXECUÇÃO
+    D. IMPACTO
+
+
+Salvo indicação em contrário, a pontuação de cada subcritério é atribuída numa escala compreendida entre 1 e
+5, podendo ser aplicados incrementos de 0,5 pontos, correspondendo à seguinte apreciação:
+
+
+    1. Muito Insuficiente: O critério de seleção não é abordado de forma adequada;
+    2. Insuficiente: A candidatura aborda de forma geral o critério de seleção, existindo debilidades
+        significativas;
+    3. Suficiente: A candidatura aborda o critério de seleção com qualidade, com moderadas debilidades;
+    4. Bom: A candidatura aborda o critério de seleção com elevada qualidade, com pontuais debilidades;
+    5. Muito Bom: A candidatura aborda todos os aspetos relevantes do critério de seleção, não existindo
+        debilidades de relevo a registar.
+
+
+O resultado do MP é arredondado às centésimas. Com exceção do PR Algarve, para que possa ser elegível, a
+operação tem de obter as seguintes pontuações mínimas:
+
+
+    Critério A: 3,00 pontos
+    Critério B: 3,00 pontos
+    Critério C: 3,00 pontos
+    Critério D: 3.00 pontos
+
+
+A. ADEQUAÇÃO À ESTRATÉGIA:
+
+
+Este critério avalia o grau de alinhamento da operação relativamente aos domínios definidos na Estratégia de
+I&I para uma Especialização Inteligente (RIS3 Regional), valorizando-se as operações que permitam melhorar o
+perfil de especialização da economia regional. Avalia-se igualmente a adequação da operação face às medidas
+de política pública relevantes, assim como o contributo para os indicadores definidos para o Objetivo Específico
+em apreço, tendo em conta os seguintes critérios:
+
+
+
+19/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+A1. Alinhamento às prioridades definidas na RIS3 Regional
+A2. Adequação da operação aos objetivos e medidas de política pública na área de intervenção da iniciativa
+     Em que:
+     A = 0,90 A1 + 0,10 A2
+
+
+
+A1. Alinhamento às prioridades definidas na RIS3 Regional
+Neste subcritério avalia-se o grau de alinhamento/pertinência da operação em relação aos domínios definidos
+na Estratégia Regional de Especialização Inteligente e/ou ao seu contributo para a coesão territorial, através de
+matrizes específicas para cada NUTS II, definidas pelas respetivas CCDR.
+
+
+A2. Adequação da operação aos objetivos e medidas de política pública na área de intervenção da iniciativa
+     Em que:
+     A2. = 0,50 A2.1 + 0,50 A2.2
+
+
+
+A2.1 Adequação da operação aos objetivos das políticas públicas
+Neste subcritério é avaliado o grau de alinhamento da operação nos objetivos estratégicos das políticas do Pacto
+Ecológico Europeu (Green Deal) e/ou Estratégica Industrial para a Europa (European Industrial Strategy), nos
+seus principais eixos de política.
+A pontuação atribuída a este subcritério resulta da aplicação da seguinte tabela:
+
+
+ Enquadramento nos eixos de política temática do Pacto Ecológico Europeu (Green
+    Deal) e/ ou Estratégica Industrial para a Europa (European Industrial Strategy)                         Pontuação
+          Não se enquadra                            Muito Insuficiente                                             1
+               1 a 2 Eixos                                Suficiente                                                3
+           3 ou mais Eixos                               Muito Bom                                                  5
+
+
+A2.2 Contributo da operação para os indicadores de resultado do Programa
+Neste subcritério é avaliado o contributo da operação para os indicadores de resultado do Programa.
+A pontuação atribuída a este subcritério resulta da aplicação da seguinte tabela:
+
+
+
+
+20/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Operações na modalidade Individual:
+                                                                                                   Pontuação
+
+                                                                                  PR               PR              PR             PR
+                                                                               Centro          Alentejo          Lisboa       Algarve
+                RCR 102-Empregos de investigação criados nas                    2.50              1.67            1.25           2.50
+  Contributo    entidades apoiadas
+    para os     RCR    03-Pequenas    e   médias    empresas    (PME)                             1.67            1.25           2.50
+  indicadores   introdutoras de inovação de produtos ou de processos
+        de      RCR 02- Investimentos privados combinados com apoio             2.50                              1.25
+ resultado do   público (nomeadamente subvenções, instrumentos
+   Programa     financeiros)
+                RCR 06-Pedidos de patente apresentados                                            1.67            1.25
+
+
+Operações na modalidade Copromoção:
+                                                                                                    Pontuação
+
+                                                                                  PR                PR              PR             PR
+                                                                               Centro           Alentejo          Lisboa       Algarve
+                RCR102 - Empregos de investigação criados nas                    1.67                              1.25           2.50
+  Contributo    entidades apoiadas
+    para os     RCR08 - Publicações resultantes de projetos apoiados                               1.67
+  indicadores   RCR02 - Investimentos privados combinados com apoio                                1.67            1.25
+        de      público (nomeadamente subvenções, instrumentos
+ resultado do   financeiros)
+   Programa     RCR   03-Pequenas     e   médias    empresas    (PME)            1.67                              1.25           2.50
+                introdutoras de inovação de produtos ou de processos
+                RCR06 - Pedidos de patente apresentados                          1.67              1.67            1.25
+
+
+
+B. QUALIDADE:
+
+
+Este critério pretende avaliar a qualidade do projeto, tendo em conta os seguintes subcritérios:
+B1. Ambição e grau de inovação
+B2. Coerência dos objetivos e adequação da metodologia
+    Em que:
+
+21/35
+                                                                       Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+    B = 0,6 B1 + 0,4 B2
+
+
+B1. Ambição e grau de inovação
+Neste subcritério é avaliado o grau de novidade das soluções propostas face ao estado da arte de soluções
+existentes no mercado, assim como a complexidade dos desafios técnicos propostos.
+Na avaliação deste subcritério deverão ser considerados os seguintes tópicos:
+- Novidade ou significativa melhoria do(s) produto(s), processo(s) ou sistema(s) tecnológico(s) proposto(s) face
+   a soluções existentes no mercado. Devem ser claramente evidenciadas as vantagens da(s) solução(ões)
+   prevista(s) face às soluções existentes. É privilegiado o desenvolvimento de bens/ serviços transacionáveis.
+- Clareza e coerência da fundamentação dos desafios técnicos propostos nos domínios tecnológicos abordados
+   e a necessidade de aplicar conhecimento especializado e avançado.
+
+
+B2. Coerência dos objetivos e adequação da metodologia
+Neste subcritério é avaliada a clareza e pertinência dos objetivos propostos, que deverão ser realistas,
+mensuráveis e verificáveis. É ainda avaliada a metodologia técnico-científica proposta e a sua adequação aos
+objetivos.
+Na avaliação deste subcritério deverão ser considerados os seguintes tópicos:
+- A proposta apresenta objetivos pertinentes e realistas, claramente mensuráveis e verificáveis (SMART).
+- A proposta apresenta uma metodologia (ou seja, os conceitos, modelos e pressupostos que sustentam o
+   trabalho) adequada e bem fundamentada que sustenta de forma clara a persecução dos objetivos propostos.
+- É clara a forma como os conhecimentos e métodos de diferentes áreas serão reunidos e integrados na
+   persecução dos objetivos. Caso seja justificado que não é necessária uma abordagem interdisciplinar, essa
+   justificação é credível.
+
+
+C. CAPACIDADE DE EXECUÇÃO
+
+
+Neste subcritério é avaliada a capacidade de execução do projeto nas seguintes dimensões:
+C1. Qualidade e adequação das equipas/consórcio
+C2. Qualidade e capacidade de execução do plano de trabalho
+    Em que:
+    C = 0,5 C1 + 0,5 C2
+
+
+
+22/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+C1. Qualidade e adequação das equipas/consórcio
+Neste subcritério é avaliada a adequação e competências das equipas/consórcio para realizar com sucesso todas
+as atividades a que se propõem. Quando o projeto é desenvolvido em consórcio, é também avaliada a
+complementaridade das entidades participantes, nomeadamente a das entidades empresariais (cobrindo a
+cadeia de valor, quando adequado), bem como a adequação do modelo de governação.
+Na avaliação deste subcritério deverão ser considerados os seguintes tópicos:
+- A equipa é adequada e possui as competências técnico-científicas para realizar com sucesso todas as
+   atividades a que se propõe, sendo valorizada a integração de doutorados nas equipas.
+- Os promotores complementam-se mutuamente, sendo evidente que cada um deles tem um papel válido,
+   demonstrando que o consórcio no seu conjunto reúne as competências necessárias.
+   Excecionalmente, e quando devidamente justificado, existe um plano para adquirir quaisquer competências
+   críticas externas que estejam em falta, incluindo a demonstração da capacidade de endogeneização pelo(s)
+   promotor(es) dos desenvolvimentos objeto de subcontrato.
+- A proposta demonstra um adequado balanceamento da participação dos promotores, sendo equilibrada e
+   clara a partilha dos riscos, dos custos e do saber-fazer.
+- Todos os promotores têm interesses comerciais e/ou científicos na obtenção dos resultados.
+
+
+C2. Qualidade e capacidade de execução do plano de trabalho
+Neste subcritério é avaliada a coerência e adequação do plano de trabalho aos objetivos propostos, bem como
+a análise de risco técnico-científico, incluindo planos de mitigação.
+Na avaliação deste subcritério deverão ser considerados os seguintes tópicos:
+- O plano de trabalho é adequado, com identificação clara de marcos e resultados que permitam a verificação
+   de progresso, incluindo decisões "go/no-go".
+- As atividades (pacotes de trabalho) estão logicamente definidas e bem descritas.
+- O plano do projeto inclui um calendário realista em relação às tarefas e aos objetivos.
+- Os recursos afetos à operação são adequados e em linha com o grau de intervenção de cada promotor.
+- O(s) promotor(es) tem(êm) acesso a infraestruturas críticas para a persecução das atividades da operação.
+- A estrutura de gestão da operação é adequada, inclui os mecanismos de tomada de decisão, monitorização
+   para a garantia do progresso dos trabalhos, atividades de reporte, etc.
+- É apresentada uma análise de risco objetiva, incluindo a descrição de medidas proporcionais de mitigação.
+
+
+D. IMPACTO
+
+
+23/35
+                                                                    Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Este critério pretende avaliar o impacto potencial do projeto, tendo em conta os seguintes subcritérios:
+D1. Impacto económico e/ou empresarial
+D2. Comunicação, disseminação e valorização dos resultados
+    Em que:
+    D = 0,6 D1 + 0,4 D2
+
+
+D1. Impacto económico e/ou empresarial
+Neste subcritério são aferidos os impactos do projeto no posicionamento ou ascensão dos promotores
+empresariais em cadeias de valor e/ou na exploração de mercados internacionais.
+Na avaliação deste subcritério deverão ser considerados os seguintes tópicos:
+- É corretamente apresentado e credível o contributo do projeto para o reposicionamento ou ascensão do(s)
+   promotor(es) empresarial(ais) em cadeias de valor.
+- É claramente apresentado, quantificado e realista o mercado alvo dos resultados do projeto.
+- É claramente defendido o contributo do projeto para o potencial de exportação, direta ou indireta, do(s)
+   promotor(es) empresarial(ais).
+- É clara a descrição da capacidade do(s) promotor(es) empresarial(ais) em usar canais de exportação
+   existentes para a exploração dos resultados do projeto. Se inexistentes, é corretamente defendida e realista
+   a abordagem e recursos necessários para estabelecer novos canais de exportação que permitam maximizar
+   o potencial de exploração dos resultados do projeto.
+- O projeto inclui a participação de promotor(es) empresarial(ais) na(s) fase(s) crítica(s) da cadeia de valor
+   dos produtos, processos ou serviços alvo para a exploração eficaz dos respetivos resultados.
+- Se aplicável, são identificadas potenciais barreiras no processo de exploração dos resultados (i.e. barreiras
+   regulatórias (ambientais ou outras), especificidades de determinados mercados, comportamento do
+   consumidor, etc.), e apresentadas medidas para a sua mitigação.
+- O(s) promotor(es) descrevem e evidenciam o contributo do projeto para o reforço de capacidade de I&DI,
+   nomeadamente através da contratação de recursos humanos altamente qualificados (RHAQ).
+
+
+D.2. Comunicação, disseminação e valorização dos resultados
+Este subcritério avalia a adequação e qualidade das medidas de maximização do impacto dos resultados do
+projeto, tendo em conta a estratégia de divulgação, demonstração alargada e valorização de resultados.
+Na avaliação deste subcritério deverão ser considerados os seguintes tópicos:
+
+
+24/35
+                                                                   Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+- São identificadas as medidas de valorização, comunicação e disseminação dos resultados nas diferentes
+   etapas do projeto, e é devidamente fundamentada a sua adequação de modo a maximizar o seu impacto.
+- São Identificados os grupos-alvo das ações (utilizadores finais, potenciais investidores, comunidade científica,
+   público em geral, etc.) de disseminação e comunicação de resultados.
+- A estratégia para a gestão da propriedade industrial está corretamente delineada e é adequada para apoiar
+   a exploração dos resultados.
+
+
+
+
+25/35
+                                                                   Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                                                Anexo A3.
+
+    Domínios Prioritários das Estratégias Regionais de I&I para uma Especialização
+                                                Inteligente
+
+                  ALENTEJO - A1. Nível de enquadramento na RIS3 Regional
+
+
+
+Enquadramento na EREI 2030:
+
+
+                             Enquadramento                                                          Pontos
+              Moderado                            1 Domínio                                              3
+                Alto                              > 1 domínio                                            4
+
+
+
+
+Majorações:
+
+
+Domínios Transversais (Digitalização, Circularidade)
+                                                                                                    Pontos
+ Nulo                                          Não se enquadra                                          0
+ Moderado                                         1 Domínio                                           0,25
+ Alto                                             2 Domínios                                          0,50
+
+
+Ações Transformativas de Base Regional (T-Regio)
+
+                                                                                                    Pontos
+ Nulo                                          Não se enquadra                                          0
+ Moderado                                          1 T-Regio                                          0,25
+ Alto                                             > 1 T-Regio                                         0,50
+
+
+
+
+26/35
+                                                                 Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                                                Anexo A3.
+
+    Domínios Prioritários das Estratégias Regionais de I&I para uma Especialização
+                                                Inteligente
+
+                    ALGARVE - A1. Nível de enquadramento na RIS3 Regional
+
+
+                                                                                      Grau de Alinhamento
+
+                                                                                 Moderado                              Forte
+
+   O    projeto enquadra-se em pelo menos uma ação
+   transformativa     de   uma     prioridade    transversal   ou                       4                                 5
+   complementar
+
+   O    projeto enquadra-se em pelo menos uma ação
+                                                                                        3                                 4
+   transformativa de uma prioridade consolidada
+
+   O Projeto não se enquadra na RIS3.                                                       Não admissível
+
+
+
+a) se existir enquadramento numa ação transformativa de uma prioridade
+b) se existir enquadramento em duas ou mais ações transformativas de uma prioridade
+
+
+Cabe ao beneficiário justificar, de forma inequívoca, o contributo do projeto para as prioridades RIS3 do
+Algarve (referencial EREI Algarve 2030 - Domínios de especialização.pdf (ccdr-alg.pt)
+
+
+
+
+27/35
+                                                                    Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                                                 Anexo A3.
+       Domínios Prioritários das Estratégias Regionais de I&I para uma Especialização
+                                                 Inteligente
+
+                   CENTRO - A1. Nível de enquadramento na RIS3 Regional
+
+
+Neste critério avalia-se o contributo do projeto para a especialização da região nas áreas prioritárias definidas
+na RIS3 do Centro.
+
+O grau de alinhamento dos projetos com a RIS3 é aferido tendo em conta a descrição do projeto e da estratégia
+da empresa, em função do seu contributo para a RIS 3 do Centro, segundo o seguinte referencial:
+
+
+
+  O projeto não está alinhado com nenhuma Linha de Ação                                                                    3
+
+ O projeto está alinhado com pelo menos uma Linha de Ação                                                                4,5
+
+ O projeto está alinhado com, pelo menos, uma Linha de Ação e pelo menos um domínio
+ diferenciador e cumpre uma das seguintes condições:
+ (i)    contribui de forma clara e diferenciadora para a economia regional e/ou para o ecossistema                         5
+        regional de inovação;
+ (ii) produz efeitos de arrastamento nas cadeias de valor/efeitos de disseminação na região.
+
+
+
+Cabe ao beneficiário justificar, de forma inequívoca, o contributo do projeto para as prioridades RIS3 do Centro
+2021-2027 (referencial aqui).
+
+
+
+
+28/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                                                  Anexo A3.
+    Domínios Prioritários das Estratégias Regionais de I&I para uma Especialização
+                                                  Inteligente
+                  LISBOA - A1. Nível de enquadramento na RIS3 Lisboa 2030
+
+
+Neste critério avalia-se o contributo do projeto para a especialização da região através do apuramento do grau
+de alinhamento/pertinência relativamente aos domínios definidos na RIS3 Regional de Lisboa 2030 (Domínios
+de Especialização), através da seguinte matriz:
+
+
+                                       Dimensão de análise                                                        Pontuação
+
+   O projeto não se enquadra nos Domínios de Especialização da RIS3 Lisboa                                                1
+   O projeto enquadra-se num ou mais Domínios de Especialização Temática da RIS3 Lisboa                                   3
+   O projeto enquadra-se num Domínio de Especialização Transversal da RIS3 Lisboa                                         3
+   O projeto enquadra-se num ou mais Domínios de Especialização Temática e num ou dois
+                                                                                                                          4
+   domínios de Especialização Transversal da RIS3 Lisboa
+   O projeto enquadra-se em dois Domínios de Especialização Transversal da RIS3 Lisboa                                    4
+   O projeto enquadra-se num Projeto/Programa Estruturante de um dos Domínios de
+                                                                                                                          5
+   Especialização da RIS3 Lisboa
+
+
+
+A RIS3 Lisboa 2030 possui 8 Domínios de Especialização.
+
+
+São designados como Domínios de Especialização Temática: (1) Agroalimentar; (2) Economia Azul; (3) Indústrias
+Criativas e Culturais; (4) Mobilidade e Transportes; (5) Saúde; (6) Turismo e Hospitalidade.
+São designados como Domínios de Especialização Transversal: (7) Transição Digital; (8) Ensino Superior.
+
+
+Cada um dos Domínios de Especialização tem Projetos e/ou Programas Estruturantes identificados.
+
+
+
+
+29/35
+                                                                   Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+              ínios de
+         Especialização                      Eixos Estratégicos                             Projetos e Programas Estruturantes
+              Temática
+                           Cadeia Agroalimentar sustentável do prado ao prato Consórcio AGRO-TECH
+                                                                              SHOWROOM do sector Agroalimentar Português
+                           Alimentação saudável para o futuro
+                                                                              Academia Agroalimentar
+Agroalimentar              (Eco)eficiência da indústria Agroalimentar         Rotas Agroalimentares com transportes públicos
+                                                                              Plataforma Digital para produtores locais de apoio à
+                           Centralidade do Agroalimentar com os outros
+                                                                              agricultura
+                           domínios
+                           Uso sustentável de serviços ecossistémicos         Programa de Natureza para os Estuários
+                           Alimentação Marinha do Futuro                      Projeto Descarbonização dos Estuários
+Economia Azul
+                           Tecnologia Marítima Inteligente                    Projeto Transição Digital Azul
+                           Capacitação e Investigação                         Projeto Cluster de Investigação e Inovação
+                           Produção de valor criativo e cultural              Projeto Ecossistemas das Indústrias Criativas e
+Indústrias                 Comunicação e conteúdos para a atratividade        Culturais
+Criativas e                Transição para modelos empresariais                Projeto Centro virtual (Sistema Simplex nos criativos)
+Culturais                                                                     Projeto Rede de centros empreendedores e criativos
+                           Digitalização e integração nas redes globais
+                                                                              Programa Criativos Data Science (Incubadora)
+                           Governação e Regulação                             Plataforma de Dados Abertos
+                           Serviços e soluções de mobilidade / transporte     Solução MaaS para a AML
+Mobilidade e Transportes   Veículos e Infraestruturas                         Centro de Conhecimento em Mobilidade e
+                           Temas Transversais                                 Transportes
+                                                                              Criação de Zona Livre Tecnológica, ZTL
+                           Investigação & Desenvolvimento                     Programa Medicina de Precisão
+                                                                              Programa Formação Avançada - Escolas para o
+                           Inovação & Transferência de Conhecimento
+Saúde                                                                         Mundo
+                           Sistema de Saúde & Value-Based Health Care         Programa Envelhecimento
+                                                                              Programa Diferenciação Tecnológica
+                           Novos Serviços, Produtos e Destinos                Rede Regional de Eventos e Congressos de Lisboa
+                           Transição Digital                                  Programa Capital Natural Tejo
+Turismo e
+                                                                              Partilha de Dados Abertos orientada para a adoção de
+Hospitalidade              Estabelecimento de Parcerias
+                                                                              novas tecnologias
+                           Inovação para a resiliência
+
+
+
+         Domínios de
+         Especialização                      Eixos Estratégicos                             Projetos e Programas Estruturantes
+         Transversal
+                           Business Models (Modelos de Negócio)                AML FDI Digital
+                           Enablers (Facilitadores)                            AML Digital Academy
+Transição Digital          Infrastrutures (Infraestruturas)                    AML Retrofit
+                                                                               Infrastructure and Technologies - AML Connectivity and
+                           Technologies (Tecnologias)
+                                                                               Smart Valley
+                           Atração e retenção de alunos, docentes e            Projeto para Atração de Talento e Promoção
+                           investigadores                                      Internacional do sector de IES
+                           Ligação ao tecido empresarial e ao                  Rede de Hubs de Investigação e ID&I, associados a IES
+                           empreendedorismo na transição digital               Lisbon2Global – Ensino aberto de base digital
+Ensino Superior
+                           Curadoria da experiência e aprendizagem com
+                           agregação dos stakeholders
+                           Capacitação avançada para as empresas e para o
+                           reskilling
+
+
+30/35
+                                                                               Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                                                Anexo A4.
+
+                       Regras e condições de elegibilidade das despesas
+
+
+Pessoal Técnico:
+
+Considera-se pessoal técnico do promotor a afetar a projetos de I&D:
+• Os trabalhadores em que se verifique a existência de vínculo laboral, não sendo admitidas situações de
+   prestação de serviços em regime de profissão liberal;
+• Bolseiros, exclusivamente alocados às atividades do projeto;
+• Trabalhadores em regime de cedência;
+• Cedências e ou destacamentos regulados através de acordo prévio.
+A cedência ocasional de trabalhadores consiste na disponibilização temporária e eventual do trabalhador do
+quadro de pessoal próprio de um empregador para outra entidade, a cujo poder de direção o trabalhador fica
+sujeito, sem prejuízo da manutenção do vínculo contratual inicial. A cedência ocasional de trabalhador é
+regulada nos termos do Código do Trabalho, designadamente pelos artigos 289.º a 293.º, cuja observância é
+essencial para efeitos de elegibilidade no âmbito de projeto financiado.
+As equipas afetas aos projetos devem ser constituídas maioritariamente por recursos pertencentes ao quadro
+de pessoal do beneficiário, o qual deve evidenciar condições ideais de endogeneização e internalização dos
+resultados e conhecimentos gerados, sem prejuízo de algumas competências nucleares para o projeto poderem
+advir de trabalhadores cedidos por entidades associadas ou contratados a terceiros.
+
+
+No caso de ENESII, são elegíveis os recursos humanos relativos a cedências e ou destacamentos regulados
+através de acordo prévio, nos termos do qual entidades terceiras - participadas ou participantes no capital do
+beneficiário, colocam à sua disposição um determinado número de elementos dos seus quadros de pessoal,
+para que participem nas atividades de investigação e desenvolvimento por este desenvolvidas e para que sejam
+utilizados ao critério da sua gestão. Para todos os efeitos contratuais, o beneficiário assume toda a
+responsabilidade pelo envolvimento destes recursos humanos no projeto, uma vez que são membros da sua
+equipa de investigação e todas as atividades do projeto terão lugar nas suas instalações. A equipa afeta ao
+projeto tem de ser constituída maioritariamente por recursos pertencentes ao quadro de pessoal da entidade
+beneficiária.
+
+
+
+
+31/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Metodologia de apuramento das despesas elegíveis:
+
+A elegibilidade das despesas orçamentadas em sede de candidatura é definida tendo por base uma Opção de
+Custos Simplificados (OCS), traduzida na aplicação de um custo unitário aos FTE/ETI previstos.
+Para calcular o valor dos FTE/ETI para uma função ou cargo específico, divide-se o número de horas trabalhadas
+no período medido (semana/mês/ano) pelo número de horas consideradas a tempo inteiro. Utilizando uma base
+semanal de 40 horas a tempo inteiro, 35 horas/semana vão corresponder a um FTE/ETI de 0,875 (ou seja, o
+resultado da divisão 35/40). Uma carga de tempo de afetação às tarefas/atividades de 30 horas, vai
+corresponder a um FTE/ETI de 0,75. Assim, se em determinado ano se pretender uma afetação equivalente a 2
+pessoas dedicadas a full-time (100%), considera-se 22 FTE/ETI que correspondem a 11 meses de trabalho x 2
+pessoas, ou seja 11 x 2 = 22 FTE/ETI (22 meses de trabalho). Os 22 meses de trabalho são equivalentes a 2
+pessoas afetas a 100% de dedicação às atividades da operação, durante 1 ano.
+
+
+Tipo de OCS:
+Custo unitário/mês.
+
+
+Montante (em EUR) das OCS:
+Custo unitário para a modalidade de:
+• operações/projetos em copromoção = 4.898 €
+• operações/projetos individuais = 5.735 €
+
+
+(Exemplo da aplicação da metodologia):
+Uma operação dimensionada para um total de 100 FTE/ETI, distribuídos pelos anos de execução, corresponderá
+à seguinte configuração em termos de Custo Total, consoante a modalidade da operação:
+
+
+Modalidade de operações/projetos em copromoção
+    Custo Total * = 100 FTE x 4.898 € = 489.800 €
+
+
+Modalidade de operações/projetos individuais
+    Custo Total * = 100 FTE x 5.735 € = 573.500 €
+
+
+(*) O custo total apurado incluí todos os custos diretos e indiretos que concorrem para a operação/projeto.
+
+
+
+32/35
+                                                                 Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Método para o ajustamento do valor do custo unitário:
+O custo unitário será ajustado de acordo com a taxa da inflação, considerando o índice harmonizado de preços
+do consumidor para Portugal.
+A metodologia de ajustamento pode ser aplicada todos os anos a novos avisos de abertura de candidaturas,
+uma vez publicada nova taxa pelo Eurostat.
+
+
+Link Eurostat: https://ec.europa.eu/eurostat/databrowser/view/tec00118/default/table?lang=en
+
+
+
+Tipo de Operações abrangidas:
+Operações desenvolvidas individualmente por entidades empresariais ou operações em colaboração entre
+entidades empresariais e não empresariais do SCTN (Sistema Científico e Tecnológico Nacional), cujos objetivos
+visam a criação, transferência, valorização de conhecimento e tecnologia nas empresas. O líder das operações
+são as entidades empresariais.
+As atividades a desenvolver nos projetos são de Investigação industrial, Desenvolvimento experimental,
+conforme previsto no artigo 25.º do Regulamento Geral Isenção Categorias (RGIC).
+
+
+
+Categorias de custos abrangidas pela OCS:
+Todos os custos elegíveis da operação, nomeadamente:
+i.     Custos com pessoal técnico do beneficiário dedicado a atividades de I&D e encargos salariais com
+       contratação de recursos humanos, incluindo em regime de teletrabalho;
+ii.    Matérias-primas e materiais consumíveis;
+iii.   Aquisição de serviços a terceiros, incluindo assistência técnica, científica e consultoria;
+iv.    Aquisição de instrumentos e equipamento científico e técnico;
+v.     Aquisição de software específico para o projeto;
+vi. Despesas com a promoção e divulgação dos resultados;
+vii. Viagens e estadas no estrangeiro diretamente imputáveis ao projeto;
+viii. Despesas com o processo de certificação do sistema de gestão da investigação, desenvolvimento e inovação
+       certificado;
+ix.    Despesas com a intervenção de auditor técnico-científico;
+x.     Aquisição de patentes;
+xi.    Despesas ROC/TOC;
+xii. Custos indiretos.
+
+33/35
+                                                                       Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+Indicador que desencadeia o reembolso:
+Número total de FTE afetos por mês às atividades da operação.
+
+
+
+Unidade de medida do Indicador que desencadeia o reembolso:
+FTE/mês
+
+
+
+Verificações administrativas e no local:
+Em sede de execução da operação deve-se dar particular atenção às evidências previstas no ponto 17 do
+documento metodológico (OCS).
+
+
+
+
+34/35
+                                                                Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+                     Anexo B. Legislação aplicável a este Aviso
+
+
+EUROPEIA
+
+Regulamento (UE) 2021/1060, do Parlamento Europeu e do Conselho, de 24 de junho, que estabelece
+disposições comuns relativas ao Fundo Europeu de Desenvolvimento Regional, ao Fundo Social Europeu Mais,
+ao Fundo de Coesão, ao Fundo para uma Transição Justa e ao Fundo Europeu dos Assuntos Marítimos, das
+Pescas e da Aquicultura e regras financeiras aplicáveis a esses fundos e ao Fundo para o Asilo, a Migração e a
+Integração, ao Fundo para a Segurança Interna e ao Instrumento de Apoio Financeiro à Gestão das Fronteiras e
+à Política de Vistos
+
+Regulamento (UE) 2021/1058, do Parlamento Europeu e do Conselho, de 24 de junho, relativo ao Fundo
+Europeu de Desenvolvimento Regional e ao Fundo de Coesão
+
+Regulamento (UE) 651/2014, de 17 de junho, na sua redação atual, que declara certas categorias de auxílio
+compatíveis com o mercado interno, em aplicação dos artigos 107.º e 108.º do Tratado
+
+Enquadramento dos auxílios estatais à investigação, desenvolvimento e inovação (Comunicação 2022/C
+414/01) para os projetos que ultrapassem os limiares de notificação previstos no artigo 4.º do Regulamento (UE)
+n.º 651/2014, de 17 de junho, na redação atual
+
+Regulamento (UE) 1407/2013, da Comissão, de 18 de dezembro, na sua redação atual, relativo à aplicação dos
+artigos 107.º e 108.º do Tratado sobre o Funcionamento da União Europeia aos auxílios de minimis
+
+
+
+NACIONAL
+
+Decreto-Lei nº 5/2023, de 25 de janeiro, que estabelece o modelo de governação dos fundos europeus para o
+período de programação 2021-2027
+
+Decreto-Lei nº 20-A/2023, de 22 de março, que estabelece o regime geral de aplicação dos Fundos Europeus -
+FEDER, FSE+, o FC, FEAMPA, FTJ e FAMI para o período 2021-2027
+
+Portaria nº 103-A/2023, de 12 de abril, na redação atual, que adota o Regulamento Específico da Área Temática
+Inovação e Transição Digital, no âmbito dos Sistemas de Incentivos do Portugal 2030
+
+Deliberação nº 23/2023/PRM, de 17 de novembro, para aprovação da Metodologia de Opções de Custos
+Simplificados (OCS), nos termos da alínea d) do n.º 3 do artigo 9.º do Decreto-Lei n.º 5/2023, de 25 de janeiro,
+no âmbito do Sistema de Incentivos à Investigação e Desenvolvimento Empresarial (I&D Empresarial), para a
+tipologia de operação I&D empresas - projetos de I&DT (SI)
+
+
+
+
+35/35
+                                                                  Aviso SIID – I&D Empresarial - Operações Individuais e em Copromoção
+
