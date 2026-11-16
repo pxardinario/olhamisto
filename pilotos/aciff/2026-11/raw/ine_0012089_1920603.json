@@ -1,0 +1,463 @@
+[ {
+  "IndicadorCod" : "0012089",
+  "IndicadorDsg" : "Hóspedes (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012089&lingua=PT",
+  "DataExtracao" : "2026-11-16T17:07:30.520Z",
+  "DataUltimoAtualizacao" : "2026-10-15",
+  "UltimoPref" : "Agosto de 2026",
+  "Dados" : {
+    "Janeiro de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 794",
+      "valor" : "14794"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 194",
+      "valor" : "20194"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "25 306",
+      "valor" : "25306"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "37 144",
+      "valor" : "37144"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "42 334",
+      "valor" : "42334"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "38 627",
+      "valor" : "38627"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "43 788",
+      "valor" : "43788"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "54 427",
+      "valor" : "54427"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "45 859",
+      "valor" : "45859"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "43 626",
+      "valor" : "43626"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 716",
+      "valor" : "27716"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 801",
+      "valor" : "27801"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 973",
+      "valor" : "23973"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 300",
+      "valor" : "23300"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "28 805",
+      "valor" : "28805"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "39 954",
+      "valor" : "39954"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "48 893",
+      "valor" : "48893"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "38 998",
+      "valor" : "38998"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "41 003",
+      "valor" : "41003"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "52 992",
+      "valor" : "52992"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "48 482",
+      "valor" : "48482"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "43 579",
+      "valor" : "43579"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "28 318",
+      "valor" : "28318"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "29 534",
+      "valor" : "29534"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 005",
+      "valor" : "24005"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 907",
+      "valor" : "24907"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "33 679",
+      "valor" : "33679"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "39 204",
+      "valor" : "39204"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "50 621",
+      "valor" : "50621"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "42 095",
+      "valor" : "42095"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "42 937",
+      "valor" : "42937"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "55 063",
+      "valor" : "55063"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "50 762",
+      "valor" : "50762"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "46 496",
+      "valor" : "46496"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "31 688",
+      "valor" : "31688"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "29 978",
+      "valor" : "29978"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 288",
+      "valor" : "24288"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 661",
+      "valor" : "24661"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "32 823",
+      "valor" : "32823"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "43 067",
+      "valor" : "43067"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "49 116",
+      "valor" : "49116"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "39 693",
+      "valor" : "39693"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "42 732",
+      "valor" : "42732"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "50 566",
+      "valor" : "50566"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "45 948",
+      "valor" : "45948"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "46 874",
+      "valor" : "46874"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "31 993",
+      "valor" : "31993"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "30 304",
+      "valor" : "30304"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 152",
+      "valor" : "24152"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 525",
+      "valor" : "21525"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "31 438",
+      "valor" : "31438"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "37 233",
+      "valor" : "37233"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "48 501",
+      "valor" : "48501"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "37 346",
+      "valor" : "37346"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "40 904",
+      "valor" : "40904"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "53 151",
+      "valor" : "53151"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

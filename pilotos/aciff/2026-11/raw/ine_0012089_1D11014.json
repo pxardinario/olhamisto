@@ -1,0 +1,463 @@
+[ {
+  "IndicadorCod" : "0012089",
+  "IndicadorDsg" : "Hóspedes (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012089&lingua=PT",
+  "DataExtracao" : "2026-11-16T17:07:45.790Z",
+  "DataUltimoAtualizacao" : "2026-10-15",
+  "UltimoPref" : "Agosto de 2026",
+  "Dados" : {
+    "Janeiro de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 506",
+      "valor" : "2506"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 261",
+      "valor" : "4261"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 316",
+      "valor" : "5316"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 634",
+      "valor" : "9634"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 189",
+      "valor" : "9189"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 709",
+      "valor" : "11709"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "15 998",
+      "valor" : "15998"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 893",
+      "valor" : "17893"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 514",
+      "valor" : "12514"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 036",
+      "valor" : "10036"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 481",
+      "valor" : "5481"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 272",
+      "valor" : "5272"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 963",
+      "valor" : "3963"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 977",
+      "valor" : "4977"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 189",
+      "valor" : "7189"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 363",
+      "valor" : "11363"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 136",
+      "valor" : "10136"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 803",
+      "valor" : "11803"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 075",
+      "valor" : "17075"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "19 767",
+      "valor" : "19767"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 221",
+      "valor" : "14221"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 477",
+      "valor" : "10477"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 679",
+      "valor" : "5679"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 679",
+      "valor" : "6679"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 880",
+      "valor" : "3880"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 330",
+      "valor" : "5330"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 349",
+      "valor" : "8349"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 379",
+      "valor" : "9379"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 688",
+      "valor" : "10688"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 219",
+      "valor" : "12219"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "15 330",
+      "valor" : "15330"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 876",
+      "valor" : "17876"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 233",
+      "valor" : "13233"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 790",
+      "valor" : "8790"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 021",
+      "valor" : "6021"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 478",
+      "valor" : "6478"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 299",
+      "valor" : "4299"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 679",
+      "valor" : "4679"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 042",
+      "valor" : "7042"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 200",
+      "valor" : "9200"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 146",
+      "valor" : "10146"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 828",
+      "valor" : "11828"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 447",
+      "valor" : "14447"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 323",
+      "valor" : "18323"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 748",
+      "valor" : "12748"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 199",
+      "valor" : "9199"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 338",
+      "valor" : "6338"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 108",
+      "valor" : "6108"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 460",
+      "valor" : "4460"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 667",
+      "valor" : "4667"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 381",
+      "valor" : "5381"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 029",
+      "valor" : "8029"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 609",
+      "valor" : "9609"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 755",
+      "valor" : "10755"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 211",
+      "valor" : "14211"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "1D11014",
+      "geodsg" : "Peniche",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 973",
+      "valor" : "16973"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

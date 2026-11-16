@@ -1,0 +1,463 @@
+[ {
+  "IndicadorCod" : "0012089",
+  "IndicadorDsg" : "Hóspedes (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012089&lingua=PT",
+  "DataExtracao" : "2026-11-16T17:07:25.062Z",
+  "DataUltimoAtualizacao" : "2026-10-15",
+  "UltimoPref" : "Agosto de 2026",
+  "Dados" : {
+    "Janeiro de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 335",
+      "valor" : "2335"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 471",
+      "valor" : "3471"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 759",
+      "valor" : "2759"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 021",
+      "valor" : "5021"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 549",
+      "valor" : "4549"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 965",
+      "valor" : "4965"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 050",
+      "valor" : "6050"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 826",
+      "valor" : "5826"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 768",
+      "valor" : "5768"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 897",
+      "valor" : "4897"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 138",
+      "valor" : "3138"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 599",
+      "valor" : "3599"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "2 987",
+      "valor" : "2987"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 505",
+      "valor" : "3505"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 594",
+      "valor" : "3594"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 528",
+      "valor" : "5528"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 690",
+      "valor" : "4690"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 907",
+      "valor" : "4907"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 766",
+      "valor" : "5766"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 875",
+      "valor" : "6875"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 859",
+      "valor" : "5859"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 129",
+      "valor" : "5129"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 198",
+      "valor" : "3198"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 146",
+      "valor" : "4146"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 894",
+      "valor" : "3894"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 921",
+      "valor" : "3921"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 644",
+      "valor" : "4644"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 807",
+      "valor" : "4807"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 688",
+      "valor" : "5688"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 546",
+      "valor" : "5546"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 851",
+      "valor" : "5851"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 571",
+      "valor" : "7571"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 209",
+      "valor" : "6209"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 868",
+      "valor" : "4868"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 098",
+      "valor" : "4098"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 931",
+      "valor" : "3931"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 298",
+      "valor" : "3298"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 796",
+      "valor" : "3796"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 420",
+      "valor" : "4420"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 890",
+      "valor" : "5890"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 594",
+      "valor" : "5594"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 877",
+      "valor" : "5877"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 588",
+      "valor" : "6588"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 248",
+      "valor" : "8248"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 199",
+      "valor" : "6199"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 029",
+      "valor" : "6029"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 608",
+      "valor" : "4608"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 646",
+      "valor" : "4646"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 979",
+      "valor" : "3979"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "3 747",
+      "valor" : "3747"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "4 576",
+      "valor" : "4576"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 553",
+      "valor" : "5553"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 626",
+      "valor" : "6626"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 593",
+      "valor" : "5593"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 674",
+      "valor" : "6674"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 523",
+      "valor" : "7523"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

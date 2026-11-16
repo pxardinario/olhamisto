@@ -1,0 +1,463 @@
+[ {
+  "IndicadorCod" : "0012089",
+  "IndicadorDsg" : "Hóspedes (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012089&lingua=PT",
+  "DataExtracao" : "2026-11-16T17:07:19.804Z",
+  "DataUltimoAtualizacao" : "2026-10-15",
+  "UltimoPref" : "Agosto de 2026",
+  "Dados" : {
+    "Janeiro de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 304",
+      "valor" : "7304"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 243",
+      "valor" : "11243"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 313",
+      "valor" : "12313"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 102",
+      "valor" : "20102"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "19 404",
+      "valor" : "19404"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 804",
+      "valor" : "20804"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "25 791",
+      "valor" : "25791"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "30 531",
+      "valor" : "30531"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 374",
+      "valor" : "23374"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 101",
+      "valor" : "21101"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 045",
+      "valor" : "14045"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "15 292",
+      "valor" : "15292"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 573",
+      "valor" : "11573"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 317",
+      "valor" : "13317"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 466",
+      "valor" : "17466"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 695",
+      "valor" : "24695"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 501",
+      "valor" : "23501"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 558",
+      "valor" : "21558"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "26 511",
+      "valor" : "26511"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "32 634",
+      "valor" : "32634"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "26 508",
+      "valor" : "26508"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "22 524",
+      "valor" : "22524"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 660",
+      "valor" : "14660"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 143",
+      "valor" : "17143"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 695",
+      "valor" : "11695"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 308",
+      "valor" : "14308"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "19 216",
+      "valor" : "19216"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 459",
+      "valor" : "20459"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 069",
+      "valor" : "24069"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 611",
+      "valor" : "23611"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 192",
+      "valor" : "27192"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "35 526",
+      "valor" : "35526"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "25 519",
+      "valor" : "25519"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "22 385",
+      "valor" : "22385"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 713",
+      "valor" : "17713"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 193",
+      "valor" : "17193"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 074",
+      "valor" : "12074"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 138",
+      "valor" : "11138"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 422",
+      "valor" : "17422"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "22 890",
+      "valor" : "22890"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "25 007",
+      "valor" : "25007"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 265",
+      "valor" : "23265"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 077",
+      "valor" : "27077"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "34 048",
+      "valor" : "34048"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "26 066",
+      "valor" : "26066"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 305",
+      "valor" : "23305"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 427",
+      "valor" : "17427"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 345",
+      "valor" : "17345"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 211",
+      "valor" : "13211"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 573",
+      "valor" : "11573"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 779",
+      "valor" : "16779"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 873",
+      "valor" : "21873"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 205",
+      "valor" : "23205"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 525",
+      "valor" : "21525"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 054",
+      "valor" : "27054"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "34 182",
+      "valor" : "34182"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

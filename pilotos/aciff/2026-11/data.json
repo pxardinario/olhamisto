@@ -1,0 +1,839 @@
+{
+ "edicao": "2026-11-17",
+ "gerado": "2026-11-16T17:20:29.313Z",
+ "turismo": {
+  "periodo": "2026-08",
+  "estado": "agosto de 2026: dados preliminares; janeiro a julho de 2026: provisórios (INE)",
+  "dormidas": 61496,
+  "dormidas_ano_anterior": 65300,
+  "hospedes": 26633,
+  "hospedes_ano_anterior": 27208,
+  "var_dormidas": -5.8,
+  "var_hospedes": -2.1,
+  "estada": 2.31,
+  "estada_ano_anterior": 2.4,
+  "ytd_2026": 264019,
+  "ytd_2025": 271971,
+  "var_ytd": -2.9,
+  "var_portugal": 1.7,
+  "pares": [
+   {
+    "nome": "Coimbra",
+    "var_agosto": 9.2,
+    "var_ytd": -2.4
+   },
+   {
+    "nome": "Aveiro",
+    "var_agosto": 1,
+    "var_ytd": -2.4
+   },
+   {
+    "nome": "Nazaré",
+    "var_agosto": -2.5,
+    "var_ytd": -6.5
+   },
+   {
+    "nome": "Peniche",
+    "var_agosto": -3.7,
+    "var_ytd": -4.8
+   },
+   {
+    "nome": "Figueira da Foz",
+    "var_agosto": -5.8,
+    "var_ytd": -2.9
+   },
+   {
+    "nome": "Ílhavo",
+    "var_agosto": -7.8,
+    "var_ytd": 0.4
+   },
+   {
+    "nome": "Leiria",
+    "var_agosto": -8.8,
+    "var_ytd": -7.3
+   }
+  ],
+  "serie": [
+   {
+    "periodo": "2024-01",
+    "valor": 13773
+   },
+   {
+    "periodo": "2024-02",
+    "valor": 17068
+   },
+   {
+    "periodo": "2024-03",
+    "valor": 19096
+   },
+   {
+    "periodo": "2024-04",
+    "valor": 24928
+   },
+   {
+    "periodo": "2024-05",
+    "valor": 29883
+   },
+   {
+    "periodo": "2024-06",
+    "valor": 33382
+   },
+   {
+    "periodo": "2024-07",
+    "valor": 48221
+   },
+   {
+    "periodo": "2024-08",
+    "valor": 62830
+   },
+   {
+    "periodo": "2024-09",
+    "valor": 43278
+   },
+   {
+    "periodo": "2024-10",
+    "valor": 32230
+   },
+   {
+    "periodo": "2024-11",
+    "valor": 20076
+   },
+   {
+    "periodo": "2024-12",
+    "valor": 18358
+   },
+   {
+    "periodo": "2025-01",
+    "valor": 15176
+   },
+   {
+    "periodo": "2025-02",
+    "valor": 16694
+   },
+   {
+    "periodo": "2025-03",
+    "valor": 20958
+   },
+   {
+    "periodo": "2025-04",
+    "valor": 28826
+   },
+   {
+    "periodo": "2025-05",
+    "valor": 33843
+   },
+   {
+    "periodo": "2025-06",
+    "valor": 39972
+   },
+   {
+    "periodo": "2025-07",
+    "valor": 51202
+   },
+   {
+    "periodo": "2025-08",
+    "valor": 65300
+   },
+   {
+    "periodo": "2025-09",
+    "valor": 41075
+   },
+   {
+    "periodo": "2025-10",
+    "valor": 30195
+   },
+   {
+    "periodo": "2025-11",
+    "valor": 19620
+   },
+   {
+    "periodo": "2025-12",
+    "valor": 19838
+   },
+   {
+    "periodo": "2026-01",
+    "valor": 14891
+   },
+   {
+    "periodo": "2026-02",
+    "valor": 17059
+   },
+   {
+    "periodo": "2026-03",
+    "valor": 19248
+   },
+   {
+    "periodo": "2026-04",
+    "valor": 29933
+   },
+   {
+    "periodo": "2026-05",
+    "valor": 32911
+   },
+   {
+    "periodo": "2026-06",
+    "valor": 38312
+   },
+   {
+    "periodo": "2026-07",
+    "valor": 50169
+   },
+   {
+    "periodo": "2026-08",
+    "valor": 61496
+   }
+  ]
+ },
+ "desemprego": {
+  "periodo": "2026-09",
+  "valor": 2082,
+  "ano_anterior": 2296,
+  "centro": 41529,
+  "centro_ano_anterior": 44582,
+  "var": -9.3,
+  "var_centro": -6.8,
+  "pares": [
+   {
+    "nome": "Aveiro",
+    "var": -17.5
+   },
+   {
+    "nome": "Peniche",
+    "var": -13.6
+   },
+   {
+    "nome": "Ílhavo",
+    "var": -13.4
+   },
+   {
+    "nome": "Nazaré",
+    "var": -13.2
+   },
+   {
+    "nome": "Figueira da Foz",
+    "var": -9.3
+   },
+   {
+    "nome": "Leiria",
+    "var": -8.2
+   },
+   {
+    "nome": "Coimbra",
+    "var": -4.6
+   }
+  ],
+  "serie": [
+   {
+    "periodo": "2025-01",
+    "valor": 2425
+   },
+   {
+    "periodo": "2025-02",
+    "valor": 2454
+   },
+   {
+    "periodo": "2025-03",
+    "valor": 2658
+   },
+   {
+    "periodo": "2025-04",
+    "valor": 2440
+   },
+   {
+    "periodo": "2025-05",
+    "valor": 2273
+   },
+   {
+    "periodo": "2025-06",
+    "valor": 2121
+   },
+   {
+    "periodo": "2025-07",
+    "valor": 2178
+   },
+   {
+    "periodo": "2025-08",
+    "valor": 2180
+   },
+   {
+    "periodo": "2025-09",
+    "valor": 2296
+   },
+   {
+    "periodo": "2025-10",
+    "valor": 2251
+   },
+   {
+    "periodo": "2025-11",
+    "valor": 2231
+   },
+   {
+    "periodo": "2025-12",
+    "valor": 2454
+   },
+   {
+    "periodo": "2026-01",
+    "valor": 2436
+   },
+   {
+    "periodo": "2026-02",
+    "valor": 2476
+   },
+   {
+    "periodo": "2026-03",
+    "valor": 2435
+   },
+   {
+    "periodo": "2026-04",
+    "valor": 2382
+   },
+   {
+    "periodo": "2026-05",
+    "valor": 2302
+   },
+   {
+    "periodo": "2026-06",
+    "valor": 2124
+   },
+   {
+    "periodo": "2026-07",
+    "valor": 2082
+   },
+   {
+    "periodo": "2026-08",
+    "valor": 2050
+   },
+   {
+    "periodo": "2026-09",
+    "valor": 2082
+   }
+  ]
+ },
+ "eletricidade": {
+  "periodo": "2026-07",
+  "mat": 45.1,
+  "mat_mes_anterior": 88.3,
+  "mat_ano_anterior": 87.1,
+  "lavos": 2.8,
+  "lavos_mes_anterior": 48.3,
+  "lavos_ano_anterior": 48.6,
+  "bt": 11.1,
+  "bt_ano_anterior": 10.8,
+  "var_pais_mat": -1.4,
+  "serie_mat": [
+   {
+    "periodo": "2024-01",
+    "valor": 69.4
+   },
+   {
+    "periodo": "2024-02",
+    "valor": 89.9
+   },
+   {
+    "periodo": "2024-03",
+    "valor": 97.4
+   },
+   {
+    "periodo": "2024-04",
+    "valor": 93.4
+   },
+   {
+    "periodo": "2024-05",
+    "valor": 94.6
+   },
+   {
+    "periodo": "2024-06",
+    "valor": 89.5
+   },
+   {
+    "periodo": "2024-07",
+    "valor": 95.4
+   },
+   {
+    "periodo": "2024-08",
+    "valor": 93.6
+   },
+   {
+    "periodo": "2024-09",
+    "valor": 83
+   },
+   {
+    "periodo": "2024-10",
+    "valor": 77.8
+   },
+   {
+    "periodo": "2024-11",
+    "valor": 96.3
+   },
+   {
+    "periodo": "2024-12",
+    "valor": 99.3
+   },
+   {
+    "periodo": "2025-01",
+    "valor": 94.9
+   },
+   {
+    "periodo": "2025-02",
+    "valor": 90.1
+   },
+   {
+    "periodo": "2025-03",
+    "valor": 95.9
+   },
+   {
+    "periodo": "2025-04",
+    "valor": 86.9
+   },
+   {
+    "periodo": "2025-05",
+    "valor": 88
+   },
+   {
+    "periodo": "2025-06",
+    "valor": 84.3
+   },
+   {
+    "periodo": "2025-07",
+    "valor": 87.1
+   },
+   {
+    "periodo": "2025-08",
+    "valor": 88
+   },
+   {
+    "periodo": "2025-09",
+    "valor": 88.5
+   },
+   {
+    "periodo": "2025-10",
+    "valor": 89.3
+   },
+   {
+    "periodo": "2025-11",
+    "valor": 88.6
+   },
+   {
+    "periodo": "2025-12",
+    "valor": 91.8
+   },
+   {
+    "periodo": "2026-01",
+    "valor": 86.1
+   },
+   {
+    "periodo": "2026-02",
+    "valor": 75.5
+   },
+   {
+    "periodo": "2026-03",
+    "valor": 88
+   },
+   {
+    "periodo": "2026-04",
+    "valor": 91.8
+   },
+   {
+    "periodo": "2026-05",
+    "valor": 90.8
+   },
+   {
+    "periodo": "2026-06",
+    "valor": 88.3
+   },
+   {
+    "periodo": "2026-07",
+    "valor": 45.1
+   }
+  ],
+  "serie_bt": [
+   {
+    "periodo": "2024-01",
+    "valor": 12.7
+   },
+   {
+    "periodo": "2024-02",
+    "valor": 10.8
+   },
+   {
+    "periodo": "2024-03",
+    "valor": 11
+   },
+   {
+    "periodo": "2024-04",
+    "valor": 9.7
+   },
+   {
+    "periodo": "2024-05",
+    "valor": 9.6
+   },
+   {
+    "periodo": "2024-06",
+    "valor": 9.4
+   },
+   {
+    "periodo": "2024-07",
+    "valor": 10.3
+   },
+   {
+    "periodo": "2024-08",
+    "valor": 10.6
+   },
+   {
+    "periodo": "2024-09",
+    "valor": 9.8
+   },
+   {
+    "periodo": "2024-10",
+    "valor": 10.1
+   },
+   {
+    "periodo": "2024-11",
+    "valor": 10.2
+   },
+   {
+    "periodo": "2024-12",
+    "valor": 12.4
+   },
+   {
+    "periodo": "2025-01",
+    "valor": 13.1
+   },
+   {
+    "periodo": "2025-02",
+    "valor": 11.2
+   },
+   {
+    "periodo": "2025-03",
+    "valor": 11.7
+   },
+   {
+    "periodo": "2025-04",
+    "valor": 10.1
+   },
+   {
+    "periodo": "2025-05",
+    "valor": 9.9
+   },
+   {
+    "periodo": "2025-06",
+    "valor": 9.8
+   },
+   {
+    "periodo": "2025-07",
+    "valor": 10.8
+   },
+   {
+    "periodo": "2025-08",
+    "valor": 11
+   },
+   {
+    "periodo": "2025-09",
+    "valor": 10
+   },
+   {
+    "periodo": "2025-10",
+    "valor": 10.4
+   },
+   {
+    "periodo": "2025-11",
+    "valor": 11.6
+   },
+   {
+    "periodo": "2025-12",
+    "valor": 14.3
+   },
+   {
+    "periodo": "2026-01",
+    "valor": 14.9
+   },
+   {
+    "periodo": "2026-02",
+    "valor": 12.5
+   },
+   {
+    "periodo": "2026-03",
+    "valor": 11.8
+   },
+   {
+    "periodo": "2026-04",
+    "valor": 10.1
+   },
+   {
+    "periodo": "2026-05",
+    "valor": 10.2
+   },
+   {
+    "periodo": "2026-06",
+    "valor": 10.1
+   },
+   {
+    "periodo": "2026-07",
+    "valor": 11.1
+   }
+  ],
+  "peso_lavos_junho": 55,
+  "var_mat": -48.2,
+  "var_bt": 3.1
+ },
+ "credito": {
+  "periodo": "2026-09",
+  "valor": 4.36,
+  "ano_anterior": 3.75,
+  "subidas_consecutivas": 6,
+  "minimo_recente": 3.6,
+  "serie": [
+   {
+    "periodo": "2024-10",
+    "valor": 4.86
+   },
+   {
+    "periodo": "2024-11",
+    "valor": 4.56
+   },
+   {
+    "periodo": "2024-12",
+    "valor": 4.39
+   },
+   {
+    "periodo": "2025-01",
+    "valor": 4.33
+   },
+   {
+    "periodo": "2025-02",
+    "valor": 4.35
+   },
+   {
+    "periodo": "2025-03",
+    "valor": 4.24
+   },
+   {
+    "periodo": "2025-04",
+    "valor": 4.27
+   },
+   {
+    "periodo": "2025-05",
+    "valor": 3.86
+   },
+   {
+    "periodo": "2025-06",
+    "valor": 3.8
+   },
+   {
+    "periodo": "2025-07",
+    "valor": 3.83
+   },
+   {
+    "periodo": "2025-08",
+    "valor": 3.79
+   },
+   {
+    "periodo": "2025-09",
+    "valor": 3.75
+   },
+   {
+    "periodo": "2025-10",
+    "valor": 3.74
+   },
+   {
+    "periodo": "2025-11",
+    "valor": 3.71
+   },
+   {
+    "periodo": "2025-12",
+    "valor": 3.77
+   },
+   {
+    "periodo": "2026-01",
+    "valor": 3.86
+   },
+   {
+    "periodo": "2026-02",
+    "valor": 3.88
+   },
+   {
+    "periodo": "2026-03",
+    "valor": 3.6
+   },
+   {
+    "periodo": "2026-04",
+    "valor": 3.92
+   },
+   {
+    "periodo": "2026-05",
+    "valor": 4.05
+   },
+   {
+    "periodo": "2026-06",
+    "valor": 4.14
+   },
+   {
+    "periodo": "2026-07",
+    "valor": 4.21
+   },
+   {
+    "periodo": "2026-08",
+    "valor": 4.32
+   },
+   {
+    "periodo": "2026-09",
+    "valor": 4.36
+   }
+  ],
+  "var_pp": 0.61
+ },
+ "concursos": {
+  "ate": "2026-11-13",
+  "n_anuncios_2026": 229,
+  "prazo_mediano_dias": 12,
+  "ate_10_dias": 110,
+  "pct_ate_10_dias": 48,
+  "abertos": [
+   {
+    "prazo": "2026-11-18",
+    "entidade": "Unidade Local de Saúde do Baixo Mondego",
+    "objeto": "Componentes para Osteossíntese",
+    "preco_base": 699086.51,
+    "cpv": "Material de assistência ortopédica",
+    "anuncio": "25672/2026",
+    "url": "https://files.diariodarepublica.pt/cp_hora/2026/10/204/419975734.pdf",
+    "alteracao": false
+   },
+   {
+    "prazo": "2026-11-19",
+    "entidade": "Município de Cantanhede",
+    "objeto": "Prestação de serviços de limpeza dos estabelecimentos de saúde do Concelho de Cantanhede, para o ano de 2027 - CP-CCP-ABS n.º 01/2027",
+    "preco_base": 215970,
+    "cpv": "Serviços de limpeza",
+    "anuncio": "27243/2026",
+    "url": "https://files.diariodarepublica.pt/cp_hora/2026/11/221/419977561.pdf",
+    "alteracao": false
+   },
+   {
+    "prazo": "2026-11-22",
+    "entidade": "Município da Figueira da Foz",
+    "objeto": "CONCURSO PÚBLICO PARA CONCESSÃO DE “GESTÃO, INSTALAÇÃO, EXPLORAÇÃO, MANUTENÇÃO E FISCALIZAÇÃO DE PARQUÍMETROS COLETIVOS NAS ZONAS DE ESTACIONAMENTO TAXADO E DE DURAÇÃO LIMITADA NA FREGUESIA DE S. JULI",
+    "preco_base": null,
+    "cpv": "Serviços de parques de estacionamento",
+    "anuncio": "26748/2026",
+    "url": "https://files.diariodarepublica.pt/cp_hora/2026/11/216/419976913.pdf",
+    "alteracao": true
+   },
+   {
+    "prazo": "2026-11-30",
+    "entidade": "Unidade Local de Saúde do Baixo Mondego",
+    "objeto": "Implantes e consumíveis de artroscopia",
+    "preco_base": 223910,
+    "cpv": "Material de assistência ortopédica",
+    "anuncio": "26358/2026",
+    "url": "https://files.diariodarepublica.pt/cp_hora/2026/11/212/419976509.pdf",
+    "alteracao": false
+   },
+   {
+    "prazo": "2026-11-30",
+    "entidade": "Município de Montemor-o-Velho",
+    "objeto": "Aquisição de Serviços de Vigilância de Edifícios e Eventos Municipais | 2027",
+    "preco_base": 406503.5,
+    "cpv": "Serviços de vigilância",
+    "anuncio": "26354/2026",
+    "url": "https://files.diariodarepublica.pt/cp_hora/2026/11/212/419976497.pdf",
+    "alteracao": false
+   }
+  ]
+ },
+ "fundos": {
+  "empresas": [
+   {
+    "codigo": "COMPETE2030-2026-13",
+    "nome": "Ações Coletivas – Internacionalização – Plano de Promoção Externa",
+    "fim": "2026-12-03",
+    "dotacao_meur": 5.5,
+    "coletiva": true
+   },
+   {
+    "codigo": "MPr-2026-7",
+    "nome": "SIID – I&D Empresarial - Projetos Demonstradores Individuais e em Copromoção",
+    "fim": "2026-12-29",
+    "dotacao_meur": 12.5,
+    "coletiva": false
+   },
+   {
+    "codigo": "MPr-2026-4",
+    "nome": "SIID – Internacionalização de I&D – Operações de I&D industrial à escala europeia",
+    "fim": "2026-12-29",
+    "dotacao_meur": 10,
+    "coletiva": false
+   },
+   {
+    "codigo": "MPr-2026-8",
+    "nome": "SICE - Inovação Produtiva (Rede de Fornecedores Inovadores)",
+    "fim": "2026-12-30",
+    "dotacao_meur": 29.3,
+    "coletiva": false
+   },
+   {
+    "codigo": "MPr-2026-11",
+    "nome": "SIID – I&D Empresarial - Operações Individuais e em Copromoção",
+    "fim": "2026-12-30",
+    "dotacao_meur": 4.6,
+    "coletiva": false
+   },
+   {
+    "codigo": "MPr-2026-1",
+    "nome": "SITCE – Eficiência energética e Descarbonização– Regime Geral e Regime Contratual de Investimento",
+    "fim": "2026-12-30",
+    "dotacao_meur": 165,
+    "coletiva": false
+   },
+   {
+    "codigo": "MPr-2026-9",
+    "nome": "STEP - I&D&I Empresarial - Digital e Biotecnologia",
+    "fim": "2027-01-04",
+    "dotacao_meur": 76,
+    "coletiva": false
+   },
+   {
+    "codigo": "COMPETE2030-2026-11",
+    "nome": "STEP - I&D&I Empresarial - Energia",
+    "fim": "2027-01-04",
+    "dotacao_meur": 75,
+    "coletiva": false
+   },
+   {
+    "codigo": "MPr-2026-10",
+    "nome": "STEP – Inovação Produtiva – Digital e Biotecnologia",
+    "fim": "2027-01-04",
+    "dotacao_meur": 108,
+    "coletiva": false
+   },
+   {
+    "codigo": "COMPETE2030-2026-12",
+    "nome": "STEP – Inovação Produtiva – Energia",
+    "fim": "2027-01-04",
+    "dotacao_meur": 100,
+    "coletiva": false
+   },
+   {
+    "codigo": "COMPETE2030-2026-15",
+    "nome": "Ações Coletivas – Descarbonização nas empresas",
+    "fim": "2027-01-08",
+    "dotacao_meur": 25,
+    "coletiva": true
+   },
+   {
+    "codigo": "CENTRO2030-2026-13",
+    "nome": "Contratação de Recursos Humanos Altamente Qualificados por empresas (micro, pequenas e médias) – Territórios de Baixa Densidade",
+    "fim": "2027-02-26",
+    "dotacao_meur": 4,
+    "coletiva": false
+   },
+   {
+    "codigo": "CENTRO2030-2026-14",
+    "nome": "Contratação de Recursos Humanos Altamente Qualificados por empresas (micro, pequenas e médias) – Territórios não classificados como de Baixa Densidade",
+    "fim": "2027-02-26",
+    "dotacao_meur": 6,
+    "coletiva": false
+   }
+  ]
+ }
+}

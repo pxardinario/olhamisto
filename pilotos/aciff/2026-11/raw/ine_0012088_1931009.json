@@ -1,0 +1,463 @@
+[ {
+  "IndicadorCod" : "0012088",
+  "IndicadorDsg" : "Dormidas (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012088&lingua=PT",
+  "DataExtracao" : "2026-11-16T17:06:50.522Z",
+  "DataUltimoAtualizacao" : "2026-10-15",
+  "UltimoPref" : "Agosto de 2026",
+  "Dados" : {
+    "Janeiro de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 716",
+      "valor" : "12716"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 517",
+      "valor" : "14517"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 586",
+      "valor" : "16586"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "22 654",
+      "valor" : "22654"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "28 715",
+      "valor" : "28715"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "25 285",
+      "valor" : "25285"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "33 027",
+      "valor" : "33027"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "47 833",
+      "valor" : "47833"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "30 313",
+      "valor" : "30313"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "26 182",
+      "valor" : "26182"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 200",
+      "valor" : "20200"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 918",
+      "valor" : "18918"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 112",
+      "valor" : "17112"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "15 451",
+      "valor" : "15451"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 862",
+      "valor" : "18862"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "22 708",
+      "valor" : "22708"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 080",
+      "valor" : "27080"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 426",
+      "valor" : "24426"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "34 447",
+      "valor" : "34447"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "45 888",
+      "valor" : "45888"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "31 839",
+      "valor" : "31839"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "28 047",
+      "valor" : "28047"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "19 663",
+      "valor" : "19663"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 271",
+      "valor" : "21271"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 880",
+      "valor" : "17880"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 224",
+      "valor" : "17224"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 217",
+      "valor" : "21217"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "22 803",
+      "valor" : "22803"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "31 274",
+      "valor" : "31274"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 000",
+      "valor" : "27000"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "33 744",
+      "valor" : "33744"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "50 249",
+      "valor" : "50249"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "38 761",
+      "valor" : "38761"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "29 947",
+      "valor" : "29947"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 273",
+      "valor" : "24273"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 074",
+      "valor" : "21074"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 730",
+      "valor" : "20730"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "19 374",
+      "valor" : "19374"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "22 278",
+      "valor" : "22278"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "29 103",
+      "valor" : "29103"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "33 074",
+      "valor" : "33074"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 105",
+      "valor" : "27105"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "39 814",
+      "valor" : "39814"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "53 397",
+      "valor" : "53397"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "36 925",
+      "valor" : "36925"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "33 212",
+      "valor" : "33212"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "25 398",
+      "valor" : "25398"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 031",
+      "valor" : "24031"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 835",
+      "valor" : "18835"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 081",
+      "valor" : "18081"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 811",
+      "valor" : "21811"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "24 599",
+      "valor" : "24599"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "30 969",
+      "valor" : "30969"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 040",
+      "valor" : "27040"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "36 845",
+      "valor" : "36845"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "48 717",
+      "valor" : "48717"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

@@ -1,0 +1,463 @@
+[ {
+  "IndicadorCod" : "0012089",
+  "IndicadorDsg" : "Hóspedes (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012089&lingua=PT",
+  "DataExtracao" : "2026-11-16T17:07:41.479Z",
+  "DataUltimoAtualizacao" : "2026-10-15",
+  "UltimoPref" : "Agosto de 2026",
+  "Dados" : {
+    "Janeiro de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 181",
+      "valor" : "5181"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 077",
+      "valor" : "8077"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 836",
+      "valor" : "6836"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 101",
+      "valor" : "11101"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 718",
+      "valor" : "11718"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 664",
+      "valor" : "12664"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 044",
+      "valor" : "16044"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 892",
+      "valor" : "17892"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 610",
+      "valor" : "14610"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 015",
+      "valor" : "13015"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 056",
+      "valor" : "9056"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 550",
+      "valor" : "7550"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 327",
+      "valor" : "7327"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 227",
+      "valor" : "9227"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 026",
+      "valor" : "9026"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 129",
+      "valor" : "14129"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 335",
+      "valor" : "12335"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 723",
+      "valor" : "13723"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 477",
+      "valor" : "18477"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 747",
+      "valor" : "20747"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 390",
+      "valor" : "18390"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 091",
+      "valor" : "16091"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 619",
+      "valor" : "10619"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 255",
+      "valor" : "9255"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 667",
+      "valor" : "7667"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 937",
+      "valor" : "8937"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 259",
+      "valor" : "10259"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 207",
+      "valor" : "12207"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "15 046",
+      "valor" : "15046"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 705",
+      "valor" : "13705"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 801",
+      "valor" : "17801"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 031",
+      "valor" : "21031"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 950",
+      "valor" : "16950"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "15 633",
+      "valor" : "15633"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 700",
+      "valor" : "10700"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 927",
+      "valor" : "7927"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 168",
+      "valor" : "8168"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 780",
+      "valor" : "8780"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 315",
+      "valor" : "9315"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 556",
+      "valor" : "12556"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 560",
+      "valor" : "13560"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 753",
+      "valor" : "13753"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 404",
+      "valor" : "16404"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "19 324",
+      "valor" : "19324"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "15 599",
+      "valor" : "15599"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 146",
+      "valor" : "14146"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 630",
+      "valor" : "9630"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 901",
+      "valor" : "8901"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 617",
+      "valor" : "7617"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 491",
+      "valor" : "5491"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 521",
+      "valor" : "8521"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 602",
+      "valor" : "11602"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 452",
+      "valor" : "13452"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 896",
+      "valor" : "12896"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 984",
+      "valor" : "16984"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "1D11011",
+      "geodsg" : "Nazaré",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "19 790",
+      "valor" : "19790"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

@@ -1,0 +1,463 @@
+[ {
+  "IndicadorCod" : "0012089",
+  "IndicadorDsg" : "Hóspedes (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012089&lingua=PT",
+  "DataExtracao" : "2026-11-16T17:07:14.648Z",
+  "DataUltimoAtualizacao" : "2026-10-15",
+  "UltimoPref" : "Agosto de 2026",
+  "Dados" : {
+    "Janeiro de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "5 707",
+      "valor" : "5707"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 331",
+      "valor" : "9331"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 676",
+      "valor" : "8676"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 273",
+      "valor" : "14273"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 704",
+      "valor" : "13704"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 764",
+      "valor" : "16764"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 513",
+      "valor" : "23513"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "26 899",
+      "valor" : "26899"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 720",
+      "valor" : "17720"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 611",
+      "valor" : "13611"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 625",
+      "valor" : "8625"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 470",
+      "valor" : "9470"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "7 982",
+      "valor" : "7982"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 156",
+      "valor" : "11156"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 888",
+      "valor" : "10888"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 202",
+      "valor" : "18202"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 581",
+      "valor" : "17581"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 882",
+      "valor" : "16882"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 676",
+      "valor" : "21676"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "25 786",
+      "valor" : "25786"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 443",
+      "valor" : "18443"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "14 719",
+      "valor" : "14719"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 616",
+      "valor" : "9616"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 701",
+      "valor" : "8701"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "8 304",
+      "valor" : "8304"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 803",
+      "valor" : "9803"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 669",
+      "valor" : "10669"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "13 638",
+      "valor" : "13638"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 062",
+      "valor" : "17062"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 516",
+      "valor" : "17516"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "21 761",
+      "valor" : "21761"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "26 150",
+      "valor" : "26150"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 275",
+      "valor" : "20275"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "15 333",
+      "valor" : "15333"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 310",
+      "valor" : "11310"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 512",
+      "valor" : "11512"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 740",
+      "valor" : "9740"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "10 559",
+      "valor" : "10559"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 673",
+      "valor" : "12673"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 703",
+      "valor" : "16703"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 461",
+      "valor" : "18461"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 473",
+      "valor" : "20473"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 556",
+      "valor" : "20556"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "27 208",
+      "valor" : "27208"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "20 181",
+      "valor" : "20181"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "16 817",
+      "valor" : "16817"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 147",
+      "valor" : "12147"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "12 403",
+      "valor" : "12403"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 874",
+      "valor" : "9874"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "9 795",
+      "valor" : "9795"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "11 902",
+      "valor" : "11902"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "17 318",
+      "valor" : "17318"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 956",
+      "valor" : "18956"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "18 620",
+      "valor" : "18620"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "23 310",
+      "valor" : "23310"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "1920605",
+      "geodsg" : "Figueira da Foz",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "26 633",
+      "valor" : "26633"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]
