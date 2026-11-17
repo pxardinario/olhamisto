@@ -1,0 +1,301 @@
+{
+ "rows": [
+  {
+   "label": "Áustria",
+   "a": 47,
+   "b": 38,
+   "c": 23.5,
+   "highlight": false,
+   "n19": 416,
+   "n24": 351
+  },
+  {
+   "label": "Bélgica",
+   "a": 56,
+   "b": 40,
+   "c": 28,
+   "highlight": false,
+   "n19": 646,
+   "n24": 470
+  },
+  {
+   "label": "Bulgária",
+   "a": 94,
+   "b": 74,
+   "c": 47,
+   "highlight": false,
+   "n19": 628,
+   "n24": 478
+  },
+  {
+   "label": "Croácia",
+   "a": 75,
+   "b": 62,
+   "c": 37.5,
+   "highlight": false,
+   "n19": 297,
+   "n24": 239
+  },
+  {
+   "label": "Chipre",
+   "a": 58,
+   "b": 42,
+   "c": 29,
+   "highlight": false,
+   "n19": 52,
+   "n24": 41
+  },
+  {
+   "label": "Chéquia",
+   "a": 58,
+   "b": 45,
+   "c": 29,
+   "highlight": false,
+   "n19": 618,
+   "n24": 494
+  },
+  {
+   "label": "Dinamarca",
+   "a": 34,
+   "b": 24,
+   "c": 17,
+   "highlight": false,
+   "n19": 199,
+   "n24": 145
+  },
+  {
+   "label": "Estónia",
+   "a": 39,
+   "b": 50,
+   "c": 19.5,
+   "highlight": false,
+   "n19": 52,
+   "n24": 69
+  },
+  {
+   "label": "Finlândia",
+   "a": 38,
+   "b": 32,
+   "c": 19,
+   "highlight": false,
+   "n19": 211,
+   "n24": 181
+  },
+  {
+   "label": "França",
+   "a": 48,
+   "b": 46,
+   "c": 24,
+   "highlight": false,
+   "n19": 3238,
+   "n24": 3181
+  },
+  {
+   "label": "Alemanha",
+   "a": 37,
+   "b": 33,
+   "c": 18.5,
+   "highlight": false,
+   "n19": 3046,
+   "n24": 2770
+  },
+  {
+   "label": "Grécia",
+   "a": 65,
+   "b": 64,
+   "c": 32.5,
+   "highlight": false,
+   "n19": 688,
+   "n24": 664
+  },
+  {
+   "label": "Hungria",
+   "a": 62,
+   "b": 52,
+   "c": 31,
+   "highlight": false,
+   "n19": 602,
+   "n24": 497
+  },
+  {
+   "label": "Irlanda",
+   "a": 28,
+   "b": 32,
+   "c": 14,
+   "highlight": false,
+   "n19": 140,
+   "n24": 171
+  },
+  {
+   "label": "Itália",
+   "a": 53,
+   "b": 51,
+   "c": 26.5,
+   "highlight": false,
+   "n19": 3173,
+   "n24": 3030
+  },
+  {
+   "label": "Letónia",
+   "a": 69,
+   "b": 60,
+   "c": 34.5,
+   "highlight": false,
+   "n19": 132,
+   "n24": 112
+  },
+  {
+   "label": "Lituânia",
+   "a": 66,
+   "b": 43,
+   "c": 33,
+   "highlight": false,
+   "n19": 186,
+   "n24": 124
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 36,
+   "b": 27,
+   "c": 18,
+   "highlight": false,
+   "n19": 22,
+   "n24": 18
+  },
+  {
+   "label": "Malta",
+   "a": 32,
+   "b": 21,
+   "c": 16,
+   "highlight": false,
+   "n19": 16,
+   "n24": 12
+  },
+  {
+   "label": "Países Baixos",
+   "a": 34,
+   "b": 32,
+   "c": 17,
+   "highlight": false,
+   "n19": 586,
+   "n24": 566
+  },
+  {
+   "label": "Polónia",
+   "a": 77,
+   "b": 52,
+   "c": 38.5,
+   "highlight": false,
+   "n19": 2909,
+   "n24": 1896
+  },
+  {
+   "label": "Portugal",
+   "a": 67,
+   "b": 58,
+   "c": 33.5,
+   "highlight": true,
+   "n19": 688,
+   "n24": 618
+  },
+  {
+   "label": "Roménia",
+   "a": 96,
+   "b": 78,
+   "c": 48,
+   "highlight": false,
+   "n19": 1864,
+   "n24": 1478
+  },
+  {
+   "label": "Eslováquia",
+   "a": 50,
+   "b": 48,
+   "c": 25,
+   "highlight": false,
+   "n19": 270,
+   "n24": 262
+  },
+  {
+   "label": "Eslovénia",
+   "a": 49,
+   "b": 32,
+   "c": 24.5,
+   "highlight": false,
+   "n19": 102,
+   "n24": 68
+  },
+  {
+   "label": "Espanha",
+   "a": 37,
+   "b": 37,
+   "c": 18.5,
+   "highlight": false,
+   "n19": 1755,
+   "n24": 1785
+  },
+  {
+   "label": "Suécia",
+   "a": 22,
+   "b": 20,
+   "c": 11,
+   "highlight": false,
+   "n19": 221,
+   "n24": 213
+  }
+ ],
+ "config": {
+  "aLabel": "2019",
+  "bLabel": "2024",
+  "cLabel": "Metade da taxa de 2019 (referência da meta da UE)",
+  "ref": 44,
+  "refLabel": "UE em 2024: 44",
+  "unit": "",
+  "decimals": 0,
+  "domain": [
+   0,
+   100
+  ],
+  "itemLabel": "país",
+  "sorts": [
+   [
+    "b",
+    "Por taxa em 2024"
+   ],
+   [
+    "delta",
+    "Por variação"
+   ]
+  ],
+  "howToRead": "Cada linha é um país da UE: vai do número de mortos na estrada por milhão de habitantes em 2019 (ponto cinzento) ao de 2024 (ponto azul). O anel marca metade da taxa de 2019 de cada país, uma referência para a meta europeia, que é para a UE no seu conjunto e em número de mortos. A linha tracejada é a taxa do conjunto da UE em 2024. Portugal aparece destacado a terracota."
+ },
+ "summary": {
+  "eu19": 22757,
+  "eu24": 19933,
+  "ptRank": 6,
+  "halfway": [
+   "PL",
+   "LT",
+   "SI",
+   "BE",
+   "DK",
+   "MT"
+  ],
+  "up": [
+   "ES",
+   "IE",
+   "EE"
+  ],
+  "pt": {
+   "n19": 688,
+   "n24": 618,
+   "r19": 67,
+   "r24": 58,
+   "r01": 162
+  },
+  "euRate": {
+   "2019": 51,
+   "2024": 44
+  }
+ }
+}

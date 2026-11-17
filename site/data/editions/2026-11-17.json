@@ -1,0 +1,289 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-17",
+ "number": 11,
+ "status": "publicada",
+ "opening": "Cinco histórias para terça-feira: os pedidos de asilo na UE no nível mais baixo fora da pandemia desde 2014, o novo recorde das emissões de CO₂, a meta europeia para os mortos na estrada, o ano recorde dos espetáculos ao vivo e o declínio do casamento católico.",
+ "lead": "pedidos-asilo-ue-2014-2026",
+ "generatedAt": "2026-11-17T08:00:00Z",
+ "limitations": [
+  "Mistura da edição: 3 peças de atualidade (asilo, emissões de CO₂ e mortos na estrada) e 2 de descoberta, acima da orientação de 2 + 3 porque três temas da semana tinham dados novos e verificáveis. Peças do tipo «Portugal comparado com a Europa»: 1 (mortos na estrada). Peça com fonte não oficial: emissões de CO₂ (Global Carbon Project, conjunto académico em CC BY 4.0). Peças sem Portugal como ângulo principal: asilo e emissões. Tipos de gráfico: linhas (2), barras divergentes, halteres e colunas.",
+  "Verificação independente: as cinco peças e a Chave do Dia ficaram verificadas depois de correções no contexto dos mortos na estrada (âmbito da Declaração de La Valeta), na interpretação dos espetáculos ao vivo (62% dos espetadores com bilhete oferecido; passou a usar-se o preço do bilhete vendido) e na dos casamentos católicos (Algarve e Açores já abaixo de 50% em 1995).",
+  "Candidata rejeitada: retratações de artigos científicos (base de dados da Retraction Watch, distribuída pela Crossref). Os dados descarregam-se do GitLab, mas não foi possível confirmar a licença de reutilização, e retractionwatch.com não está acessível neste ambiente.",
+  "Candidata rejeitada: «honestidade cívica» com carteiras perdidas em 40 países, incluindo Portugal (Cohn et al., Science, 2019). A única cópia acessível dos dados é uma reprodução no GitHub; o depósito original no Harvard Dataverse não responde neste ambiente e a licença não foi confirmada.",
+  "Candidata rejeitada: reservas de ouro do Banco de Portugal (BPstat, domínio 6). A série em euros está disponível, mas faltou a quantidade em toneladas e o total das reservas para separar o efeito do preço do ouro.",
+  "Nesta execução, o grapher da Our World in Data não respondeu pela linha de comandos; o WebFetch não abriu retractionwatch.com. Os factos da Chave do Dia foram confirmados por pesquisa, sem abrir diretamente as páginas das fontes."
+ ],
+ "pieces": [
+  {
+   "id": "pedidos-asilo-ue-2014-2026",
+   "slug": "pedidos-asilo-uniao-europeia-queda-siria-2026",
+   "kind": "atualidade",
+   "theme": "geopolitica",
+   "themeLabel": "Geopolítica e migrações",
+   "vizType": "linha",
+   "vizLabel": "Linhas mensais · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Os pedidos de asilo na UE caíram 45% em dois anos. Os sírios explicam quase um terço da queda",
+   "question": "Quantas pessoas pedem hoje asilo na União Europeia, e de onde vem a descida?",
+   "finding": "De janeiro a agosto de 2026, 338 390 pessoas pediram asilo pela primeira vez na UE, menos 44,8% do que no mesmo período de 2024. Os pedidos de sírios caíram de 97 640 para 12 060, o que explica 31% da descida. Em julho de 2026 houve 34 175 pedidos, o valor mensal mais baixo desde maio de 2021 e, fora dos meses da pandemia, desde abril de 2014.",
+   "context": "O Pacto em matéria de Migração e Asilo da UE começou a aplicar-se em junho de 2026, com procedimentos acelerados nas fronteiras externas. Os pedidos já vinham a descer muito antes: o pico recente foi em outubro de 2023, com 114 835 pedidos num mês, e julho de 2026 ficou 70% abaixo. Em outubro de 2015, no auge da guerra síria, tinham chegado a 162 050.",
+   "interpretation": "A queda do regime de Assad, em dezembro de 2024, fez desaparecer o principal grupo de requerentes: os sírios eram 15,9% dos pedidos entre janeiro e agosto de 2024 e 3,6% no mesmo período de 2026. Os colombianos e os turcos explicam outra parte da descida. O gráfico não permite separar o efeito das novas regras, que entraram em vigor quando a tendência já era de queda.",
+   "chart": {
+    "type": "lines",
+    "dataset": "pedidos-asilo-ue-2014-2026"
+   },
+   "period": "Janeiro de 2014 a agosto de 2026",
+   "unit": "Pessoas que pedem asilo pela primeira vez, por mês (milhares)",
+   "sources": [
+    {
+     "name": "Eurostat — Requerentes de asilo por tipo, cidadania, idade e sexo, dados mensais (migr_asyappctzm)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctzm/default/table",
+     "accessed": "2026-11-17"
+    },
+    {
+     "name": "Conselho da UE — Pacto em matéria de Migração e Asilo",
+     "url": "https://www.consilium.europa.eu/pt/policies/eu-migration-policy/eu-migration-asylum-reform-pact/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "method": [
+    "Requerentes de asilo pela primeira vez (applicant = FRST) na UE27, todas as idades e ambos os sexos, por mês, de janeiro de 2014 a agosto de 2026, descarregados da API do Eurostat e transcritos sem alterações em raw/asilo-ue/. Os 27 Estados-Membros declararam junho, julho e agosto de 2026; o total da UE ainda não tem setembro nem outubro. Valores arredondados à centena no gráfico (milhares com uma casa decimal).",
+    "As comparações entre anos usam sempre janeiro a agosto, para não misturar períodos de duração diferente. A contribuição de cada nacionalidade é a diferença do número de pedidos dessa cidadania dividida pela descida total. Os pedidos de proteção temporária dos ucranianos não entram nesta estatística. Os números contam pedidos, não decisões nem chegadas irregulares."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-17",
+    "note": "Conferidos contra a API do Eurostat (migr_asyappctzm, descarga independente) todos os totais mensais e de janeiro a agosto, os pedidos de sírios, colombianos e turcos, as quotas e os mínimos e máximos citados; Pacto (aplicável desde 12/6/2026) e queda de Assad (8/12/2024) confirmados por pesquisa."
+   }
+  },
+  {
+   "id": "emissoes-co2-fosseis-2025",
+   "slug": "emissoes-co2-fosseis-recorde-2025-eua-china",
+   "kind": "atualidade",
+   "theme": "ambiente",
+   "themeLabel": "Ambiente e clima",
+   "vizType": "barras",
+   "vizLabel": "Barras divergentes · duas vistas · ordenação alternável",
+   "interactive": true,
+   "title": "As emissões de CO₂ fóssil bateram outro recorde em 2025. Os EUA pesaram mais na subida do que a China",
+   "question": "Quem fez subir as emissões mundiais de CO₂ dos combustíveis fósseis no último ano?",
+   "finding": "Em 2025, o mundo emitiu 39,0 mil milhões de toneladas de CO₂ fóssil, mais 0,9% (347,7 milhões de toneladas) do que em 2024 e o máximo de sempre. Os EUA acrescentaram 123,8 milhões de toneladas (+2,5%), 36% da subida mundial; a China, que emite 31,8% do total, só 16,4 milhões (+0,1%). A UE baixou 0,3%.",
+   "context": "A cimeira do clima COP31 decorre em novembro de 2026 em Antália, na Turquia. Os dados do Global Carbon Project, publicados antes da cimeira, contam o CO₂ da queima de carvão, petróleo e gás e do cimento, país a país. Os valores de 2025 ainda são estimativas preliminares. A vista «2025 face a 2019» compara com o último ano antes da pandemia.",
+   "interpretation": "Num ano, a China quase estabilizou e os EUA voltaram a subir, mas a escala longa conta outra história: desde 2019, a China acrescentou 1 742,7 milhões de toneladas, enquanto os EUA baixaram 202,3 e a UE 491,8. A aviação e a navegação internacionais, fora das contas nacionais, subiram 52,8 milhões em 2025. A China e a Índia, que juntas emitem 40% do total, continuam a subir.",
+   "chart": {
+    "type": "bars",
+    "dataset": "emissoes-co2-fosseis-2025"
+   },
+   "period": "2019, 2024 e 2025",
+   "unit": "Milhões de toneladas de CO₂ (Mt)",
+   "sources": [
+    {
+     "name": "Global Carbon Project — Andrew e Peters, «The Global Carbon Project's fossil CO2 emissions dataset», versão 2026v11 (Global Carbon Budget 2026), Zenodo, CC BY 4.0",
+     "url": "https://zenodo.org/records/23667912",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "method": [
+    "Emissões de CO₂ fóssil (carvão, petróleo, gás, cimento, queima em tocha e outras) em milhões de toneladas, por país, do ficheiro GCB2026v11_MtCO2_flat.csv, transcrito sem alterações em raw/co2-gcb-2026/. A UE (27) soma os 27 Estados-Membros; «Aviação e navios int.» soma os combustíveis de bancas da aviação e da navegação internacionais, fora dos totais nacionais. «Resto do mundo» é o total mundial menos as linhas mostradas, cuja soma iguala o total.",
+    "Os valores de 2025 são estimativas preliminares, baseadas em estatísticas de energia provisórias (Energy Institute e fontes nacionais) e podem ser revistos. Não inclui as emissões das alterações do uso do solo nem outros gases com efeito de estufa. As emissões são territoriais (onde são produzidas), não de consumo."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-17",
+    "note": "Recalculados a partir do ficheiro GCB2026v11 (Zenodo 23667912, CC BY 4.0, descarga independente) o total mundial, as variações de 2024–2025 e 2019–2025 e as quotas; a soma dos países e das bancas iguala o total. COP31 (Antália, 9–20/11/2026) confirmada. Alinhado o rótulo das bancas internacionais no método."
+   }
+  },
+  {
+   "id": "mortos-estrada-ue-2019-2024",
+   "slug": "mortos-estrada-uniao-europeia-portugal-meta-2030",
+   "kind": "atualidade",
+   "theme": "portugal",
+   "themeLabel": "Portugal e políticas públicas",
+   "vizType": "halteres",
+   "vizLabel": "Halteres com terceiro marcador · ordenação alternável",
+   "interactive": true,
+   "title": "A UE queria reduzir para metade os mortos na estrada até 2030. A meio do caminho, desceu 12%; Portugal 10%",
+   "question": "A que distância está cada país da meta europeia de segurança rodoviária?",
+   "finding": "Em 2024 morreram 19 933 pessoas nas estradas da UE, menos 12,4% do que em 2019; a meta é chegar a metade em 2030. Só seis países baixaram 25% ou mais, com a Polónia à frente (−34,8%). Portugal passou de 688 para 618 mortos (−10,2%) e tem a sexta taxa mais alta da UE: 58 por milhão de habitantes, contra 44 no conjunto da UE.",
+   "context": "O Dia Mundial em Memória das Vítimas da Estrada assinalou-se a 15 de novembro. Em 2017, na Declaração de La Valeta, os ministros dos transportes da UE fixaram a meta de reduzir para metade os feridos graves entre 2020 e 2030; o quadro estratégico da Comissão para 2021–2030 estendeu-a aos mortos e mede o progresso a partir de 2019. Contam as mortes até 30 dias após o acidente.",
+   "interpretation": "Portugal fez a maior parte do caminho antes: em 2001 tinha 162 mortos por milhão, mais do que qualquer país em 2024. Desde 2019, desceu menos do que a média europeia, e a Espanha, a Irlanda e a Estónia tiveram mais mortos em 2024 do que em 2019. Para cumprir a meta, a UE terá de evitar até 2030 três vezes mais mortes do que conseguiu entre 2019 e 2024.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "mortos-estrada-ue-2019-2024"
+   },
+   "period": "2019 e 2024 (e 2001 para Portugal)",
+   "unit": "Mortos na estrada por milhão de habitantes",
+   "sources": [
+    {
+     "name": "Eurostat — Pessoas mortas em acidentes rodoviários por tipo de utente (tran_sf_roadus)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/tran_sf_roadus/default/table",
+     "accessed": "2026-11-17"
+    },
+    {
+     "name": "Comissão Europeia — Quadro estratégico da UE para a segurança rodoviária 2021–2030",
+     "url": "https://transport.ec.europa.eu/transport-themes/road-safety/eu-road-safety-policy/road-safety-policy-2021-2030_en",
+     "accessed": "2026-11-17"
+    },
+    {
+     "name": "Conselho da UE — Conclusões sobre segurança rodoviária (Declaração de La Valeta), 8 de junho de 2017 (ST 9994/17)",
+     "url": "https://data.consilium.europa.eu/doc/document/ST-9994-2017-INIT/en/pdf",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "method": [
+    "Mortos em acidentes rodoviários (todas as categorias de utente, ambos os sexos, todas as idades), em número e por milhão de habitantes, tal como publicados pelo Eurostat (tran_sf_roadus), transcritos sem alterações em raw/estrada-ue/. Definição harmonizada: morte até 30 dias após o acidente. A soma dos 27 países coincide com o total da UE publicado em 2019 e em 2024. 2024 é o ano mais recente.",
+    "O anel marca metade da taxa por milhão de 2019, uma aproximação à meta (que é em número de mortos): ignora a variação da população entre 2019 e 2030. O ritmo necessário compara a descida de 2019 a 2024 (menos 2 824 mortos) com a que falta para chegar a metade do valor de 2019 (de 19 933 para 11 379, menos 8 554). Valores arredondados à unidade, como publicados.",
+    "A Malta entra nos seis países com descida de 25% ou mais com números pequenos (de 16 para 12 mortos). A ordenação «Por variação» usa a variação da taxa por milhão; o texto usa a variação do número de mortos."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-17",
+    "note": "Conferidos contra o Eurostat (tran_sf_roadus) os números, taxas, ordenação, variações por país e o cálculo da meta; base de 2019 confirmada em documento do Conselho. Corrigido o contexto: a Declaração de La Valeta fixou a meta para os feridos graves, e a dos mortos vem do quadro estratégico da Comissão."
+   }
+  },
+  {
+   "id": "espetaculos-ao-vivo-portugal-2011-2025",
+   "slug": "espetaculos-ao-vivo-concertos-recorde-portugal-2025",
+   "kind": "descoberta",
+   "theme": "cultura",
+   "themeLabel": "Cultura",
+   "vizType": "barras",
+   "vizLabel": "Colunas empilhadas · duas vistas",
+   "interactive": true,
+   "title": "Os espetáculos ao vivo tiveram 19,7 milhões de espetadores em 2025, um recorde. Mais de metade foi para concertos",
+   "question": "O público voltou às salas de espetáculo depois da pandemia?",
+   "finding": "Em 2025, os espetáculos ao vivo em Portugal tiveram 19,7 milhões de espetadores, mais 16,3% do que em 2019 e o valor mais alto desde 2011, primeiro ano da série. A música levou 10,9 milhões (55,3%). Seis em cada dez entraram com bilhete oferecido. As receitas de bilheteira somaram 193,7 milhões de euros, mais 54,6% do que em 2019 em valores nominais.",
+   "context": "O INE conta as sessões de teatro, música, dança, ópera, circo, folclore e variedades com bilhete vendido ou oferecido. Em 2020, com salas fechadas e lotações limitadas, os espetadores caíram para 2,5 milhões. No cinema, a recuperação ficou a meio: 11,0 milhões de espetadores em 2025, contra 15,5 milhões em 2019.",
+   "interpretation": "Os bilhetes vendidos cresceram 24% face a 2019, para 7,5 milhões, e cada um custou, em média, 25,87 euros em 2025, contra 20,75 em 2019 (mais 25%, em valores nominais). As receitas recuaram em relação ao máximo de 2024 sobretudo nos concertos de pop e rock, de 88,4 para 62,6 milhões de euros, enquanto os espetadores destes concertos desceram 7,4%.",
+   "chart": {
+    "type": "columns",
+    "dataset": "espetaculos-ao-vivo-portugal-2011-2025"
+   },
+   "period": "2011 a 2025",
+   "unit": "Milhões de espetadores; milhões de euros (nominais)",
+   "sources": [
+    {
+     "name": "INE — Espetadores de espetáculos ao vivo por modalidade (indicador 0007578), Inquérito aos espetáculos ao vivo",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0007578&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-17"
+    },
+    {
+     "name": "INE — Receitas de espetáculos ao vivo por modalidade (indicador 0007579)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0007579&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-17"
+    },
+    {
+     "name": "INE — Bilhetes vendidos e bilhetes oferecidos de espetáculos ao vivo (indicadores 0007576 e 0007577)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0007576&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-17"
+    },
+    {
+     "name": "INE — Espetadores de cinema (indicadores 0008345 e 0010724), a partir do ICA",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0010724&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-16"
+    }
+   ],
+   "method": [
+    "Espetadores e receitas por modalidade, Portugal, sessões diurnas e noturnas, 2011–2025, descarregados da API do INE e transcritos sem alterações em raw/espetaculos-ao-vivo/. «Outras modalidades» é o total menos música e teatro (ópera, dança, recitais de coros, folclore, variedades, circo, multidisciplinares e outras). Controlo: as dez modalidades somam o total publicado em todos os anos.",
+    "Receitas em euros correntes, sem correção da inflação. O preço médio é a receita dividida pelos bilhetes vendidos (convites excluídos). A comparação com o cinema usa a série do INE a partir do ICA, a mesma da peça de 16 de novembro de 2026; são inquéritos diferentes. O inquérito não explica as causas da descida das receitas da pop e do rock.",
+    "Os espetadores são a soma dos bilhetes vendidos (indicador 0007576) e oferecidos (0007577), igualdade conferida em todos os anos; as receitas vêm só dos vendidos. Os bilhetes oferecidos foram 62% dos espetadores em 2025 e 64% em 2019, por isso a receita por espetador não mede o preço."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-17",
+    "note": "Recalculados a partir do INE (0007576–0007579) espetadores, receitas, variações, peso da música e pop/rock; cinema conferido em 0008345 e 0010724. Corrigido: 62% dos espetadores tinham bilhete oferecido, pelo que a interpretação passou a usar o preço médio do bilhete vendido; retirada a menção a festivais, não confirmada."
+   }
+  },
+  {
+   "id": "casamentos-catolicos-portugal-1995-2025",
+   "slug": "casamentos-catolicos-portugal-norte-algarve-1995-2025",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cinco séries · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Em 1995, sete em cada dez casamentos em Portugal eram católicos. Em 2025, menos de dois",
+   "question": "Quanto pesa hoje a Igreja Católica nos casamentos, e onde mudou mais?",
+   "finding": "A proporção de casamentos católicos desceu de 68,8% em 1995 para 18,6% em 2025. Ficou abaixo de metade pela primeira vez em 2007 (47,4%). No Norte, onde eram 82,5% em 1995, são agora 24,5%, tantos como nos Açores; no Algarve, 8,7%. Em 2020, com cerimónias adiadas pela pandemia, a proporção caiu para 12,3%.",
+   "context": "Em Portugal, o casamento católico tem efeitos civis desde que transcrito no registo civil, por força da Concordata com a Santa Sé. O INE regista cada casamento pela forma de celebração: católica, civil ou de outra religião. Os casamentos entre pessoas do mesmo sexo, legais desde 2010, não são celebrados pela Igreja Católica e não entram nesta série, que considera apenas os de pessoas de sexo oposto.",
+   "interpretation": "Em trinta anos, o casamento católico passou de regra a exceção no país e no Norte; no Algarve e nos Açores já era minoritário em 1995. A descida não foi igual: o Norte perdeu 58 pontos, e nos Açores a proporção subiu de 21,2% em 2005 para 33,5% em 2018, antes de voltar a cair. Desde 2021 desce todos os anos no país.",
+   "chart": {
+    "type": "lines",
+    "dataset": "casamentos-catolicos-portugal-1995-2025"
+   },
+   "period": "1995 a 2025",
+   "unit": "% dos casamentos entre pessoas de sexo oposto",
+   "sources": [
+    {
+     "name": "INE — Proporção de casamentos católicos por local de registo (indicadores 0000602, 0008209 e 0012705)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012705&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "method": [
+    "Proporção de casamentos católicos no total de casamentos entre pessoas de sexo oposto, por local de registo, para Portugal e quatro regiões NUTS II com limites estáveis desde 1995 (Norte, Algarve, Região Autónoma dos Açores e Região Autónoma da Madeira). A série junta três indicadores do INE que só diferem na versão das NUTS: 0000602 (1995–2010), 0008209 (2011–2020) e 0012705 (2021–2025). Nos anos sobrepostos (2011–2013 e 2021–2023), os valores coincidem.",
+    "Os dados brutos estão em raw/casamentos-catolicos/, sem alterações. As outras regiões não aparecem porque os limites mudaram com as NUTS de 2013 e de 2024 (Centro, Lisboa, Alentejo). A série mede a forma de celebração, não a religião dos noivos. A queda de 2020 reflete o adiamento de cerimónias na pandemia."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-17",
+    "note": "Recalculada a série a partir do INE (0000602, 0008209, 0012705); valores iguais nos anos sobrepostos nas cinco séries; números citados conferidos. Corrigidas a interpretação (Algarve e Açores já abaixo de 50% em 1995; trajetória dos Açores) e a frase sobre casamentos entre pessoas do mesmo sexo."
+   }
+  }
+ ],
+ "chave": {
+  "id": "entropia",
+  "axis": "ciencia",
+  "axisLabel": "Ciência e tecnologia",
+  "certainty": "Consenso",
+  "title": "A entropia",
+  "concept": "Uma medida do número de maneiras microscópicas de arranjar um sistema que, vistas de fora, parecem iguais. A segunda lei da termodinâmica diz que, num sistema isolado, a entropia não diminui: é por isso que, no conjunto do café e da cozinha, o café arrefece e o leite não se volta a separar.",
+  "lesson": [
+   "Uma gota de leite cai no café e espalha-se em segundos. Ninguém viu o contrário: o leite a juntar-se de novo numa gota. As leis da mecânica que regem cada molécula funcionam igualmente bem no sentido inverso, e no entanto o processo só corre num sentido. A explicação não está numa força escondida, mas em contar.",
+   "Numa caixa com quatro partículas e uma divisória imaginária ao meio, há 16 maneiras de as distribuir; só uma põe todas à esquerda, e seis deixam duas de cada lado. Com 100 partículas, a hipótese de estarem todas à esquerda é de uma em 2¹⁰⁰, cerca de 1,27 × 10³⁰. Para Boltzmann, a entropia cresce com o número de arranjos (é proporcional ao seu logaritmo).",
+   "A segunda lei é estatística: uma descida espontânea da entropia não é impossível, é apenas improvável a um ponto que, à escala de um copo, nunca se observa. A entropia pode também baixar num lugar, num frigorífico, num cristal ou numa célula viva, desde que aumente mais à volta. «Desordem» é uma simplificação, e a lei descreve sistemas físicos, não sociedades nem vidas."
+  ],
+  "diagram": {
+   "title": "Porque é que o leite não se volta a juntar",
+   "svg": "<svg viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Esquema de duas caixas, cada uma dividida ao meio por uma linha tracejada, com quatro partículas. Na primeira caixa, as quatro partículas estão todas na metade esquerda: há 1 arranjo assim em 16 possíveis. Na segunda, ficam duas de cada lado: há 6 arranjos assim em 16. Uma seta da primeira para a segunda diz espontâneo; uma seta tracejada no sentido inverso diz raro. Em baixo: com 100 partículas, há 1 arranjo com todas à esquerda em 2 elevado a 100, cerca de 1,27 vezes 10 elevado a 30.\"><defs><marker id=\"chave-seta\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"var(--key-ink)\"/></marker><marker id=\"chave-seta2\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"var(--key-ink-2)\"/></marker></defs><rect x=\"14\" y=\"36\" width=\"124\" height=\"84\" fill=\"none\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\"/><line x1=\"76\" y1=\"36\" x2=\"76\" y2=\"120\" stroke=\"var(--key-rule)\" stroke-dasharray=\"4 3\"/><rect x=\"15\" y=\"37\" width=\"60\" height=\"82\" fill=\"rgba(200,144,42,.16)\"/><circle cx=\"34\" cy=\"58\" r=\"6\" fill=\"var(--key-acc)\"/><circle cx=\"56\" cy=\"70\" r=\"6\" fill=\"var(--key-acc)\"/><circle cx=\"36\" cy=\"94\" r=\"6\" fill=\"var(--key-acc)\"/><circle cx=\"58\" cy=\"102\" r=\"6\" fill=\"var(--key-acc)\"/><rect x=\"202\" y=\"36\" width=\"124\" height=\"84\" fill=\"none\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\"/><line x1=\"264\" y1=\"36\" x2=\"264\" y2=\"120\" stroke=\"var(--key-rule)\" stroke-dasharray=\"4 3\"/><circle cx=\"226\" cy=\"60\" r=\"6\" fill=\"var(--key-acc)\"/><circle cx=\"244\" cy=\"98\" r=\"6\" fill=\"var(--key-acc)\"/><circle cx=\"286\" cy=\"72\" r=\"6\" fill=\"var(--key-acc)\"/><circle cx=\"306\" cy=\"104\" r=\"6\" fill=\"var(--key-acc)\"/><line x1=\"144\" y1=\"68\" x2=\"196\" y2=\"68\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\" marker-end=\"url(#chave-seta)\"/><text x=\"170\" y=\"60\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"10.5\" font-weight=\"600\">espontâneo</text><line x1=\"196\" y1=\"92\" x2=\"144\" y2=\"92\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" marker-end=\"url(#chave-seta2)\"/><text x=\"170\" y=\"108\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">raro</text><text x=\"76\" y=\"24\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Todas à esquerda</text><text x=\"264\" y=\"24\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Duas de cada lado</text><text x=\"76\" y=\"140\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">1 arranjo em 16</text><text x=\"264\" y=\"140\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">6 arranjos em 16</text><text x=\"76\" y=\"156\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">entropia baixa</text><text x=\"264\" y=\"156\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">entropia mais alta</text><line x1=\"14\" y1=\"176\" x2=\"326\" y2=\"176\" stroke=\"var(--key-rule)\" stroke-width=\"1\"/><text x=\"170\" y=\"198\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\" font-weight=\"600\">Com 100 partículas, todas à esquerda:</text><text x=\"170\" y=\"216\" text-anchor=\"middle\" fill=\"var(--key-ink)\" font-size=\"11\">1 arranjo em 2¹⁰⁰</text><text x=\"170\" y=\"234\" text-anchor=\"middle\" fill=\"var(--key-ink-2)\" font-size=\"10.5\">(2¹⁰⁰ ≈ 1,27 × 10³⁰)</text></svg>",
+   "caption": "Esquema ilustrativo, não são dados reais. As contagens são combinatória exata para partículas distinguíveis, cada uma numa de duas metades."
+  },
+  "aside": "A palavra «entropia» foi inventada por Rudolf Clausius numa comunicação lida em Zurique a 24 de abril de 1865, a partir do grego τροπή, «transformação», e escolhida de propósito parecida com «energia». A fórmula S = k log W está gravada no túmulo de Boltzmann, no Cemitério Central de Viena, mas Boltzmann nunca a escreveu nessa forma.",
+  "application": "Explica porque nenhum motor transforma todo o calor do combustível em trabalho, porque um frigorífico gasta eletricidade e aquece a cozinha pela parte de trás, porque o perfume se espalha por uma sala e não volta ao frasco, e porque o gelo derrete numa bebida à temperatura ambiente. É também a base das discussões da física sobre a «seta do tempo».",
+  "motto": "A ordem não é proibida; é apenas rara.",
+  "sources": [
+   {
+    "name": "Stanford Encyclopedia of Philosophy — «Boltzmann's Work in Statistical Physics» (revisão de outubro de 2024)",
+    "url": "https://plato.stanford.edu/ENTRIES/statphys-boltzmann/",
+    "accessed": "2026-11-17"
+   },
+   {
+    "name": "MacTutor History of Mathematics (Universidade de St Andrews) — Ludwig Boltzmann",
+    "url": "https://mathshistory.st-andrews.ac.uk/SH/boltzmann_sh.pdf",
+    "accessed": "2026-11-17"
+   },
+   {
+    "name": "Encyclopedia.com (Complete Dictionary of Scientific Biography) — Rudolf Julius Emanuel Clausius",
+    "url": "https://encyclopedia.com/people/science-and-technology/physics-biographies/rudolf-julius-emanuel-clausius",
+    "accessed": "2026-11-17"
+   }
+  ],
+  "notes": [
+   "Grau de certeza «Consenso»: a segunda lei da termodinâmica e a sua interpretação estatística por Boltzmann são física estabelecida. Os fundamentos (porque é que a entropia era tão baixa no início do universo) continuam em debate filosófico, o que não altera a lei.",
+   "As contagens do esquema são combinatória: com n partículas distinguíveis e duas metades, há 2ⁿ arranjos; 2⁴ = 16, e C(4,2) = 6 deixam duas de cada lado; 2¹⁰⁰ ≈ 1,27 × 10³⁰. Os factos sobre Clausius e o túmulo de Boltzmann foram confirmados por pesquisa; as páginas das fontes não foram abertas diretamente neste ambiente."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-17",
+   "note": "Confirmados por pesquisa os factos históricos (Clausius, Zurique, 24/4/1865, τροπή; S = k log W no túmulo de Boltzmann e a ressalva da Stanford Encyclopedia of Philosophy); combinatória recalculada; física e SVG conferidos. As páginas das fontes não foram abertas diretamente (domínios inacessíveis neste ambiente). Precisados o sistema isolado e a relação logarítmica."
+  }
+ }
+}

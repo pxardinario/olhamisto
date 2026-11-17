@@ -1,0 +1,374 @@
+{
+ "rows": [
+  {
+   "x": 1995,
+   "pt": 68.8,
+   "norte": 82.5,
+   "alg": 46.5,
+   "acores": 38.4,
+   "madeira": 56.3
+  },
+  {
+   "x": 1996,
+   "pt": 66.5,
+   "norte": 80.2,
+   "alg": 44.8,
+   "acores": 32.4,
+   "madeira": 51.3
+  },
+  {
+   "x": 1997,
+   "pt": 67.6,
+   "norte": 80.4,
+   "alg": 46.8,
+   "acores": 33.4,
+   "madeira": 50.9
+  },
+  {
+   "x": 1998,
+   "pt": 67,
+   "norte": 79.1,
+   "alg": 49.4,
+   "acores": 33.1,
+   "madeira": 46.9
+  },
+  {
+   "x": 1999,
+   "pt": 66.5,
+   "norte": 78.2,
+   "alg": 45.7,
+   "acores": 28.2,
+   "madeira": 46.3
+  },
+  {
+   "x": 2000,
+   "pt": 64.8,
+   "norte": 76.2,
+   "alg": 47.3,
+   "acores": 26.5,
+   "madeira": 45.5
+  },
+  {
+   "x": 2001,
+   "pt": 62.5,
+   "norte": 74,
+   "alg": 42.9,
+   "acores": 22.5,
+   "madeira": 43.1
+  },
+  {
+   "x": 2002,
+   "pt": 62.5,
+   "norte": 73.7,
+   "alg": 46.1,
+   "acores": 22.6,
+   "madeira": 47.2
+  },
+  {
+   "x": 2003,
+   "pt": 59.6,
+   "norte": 70.6,
+   "alg": 43.6,
+   "acores": 27.1,
+   "madeira": 43.1
+  },
+  {
+   "x": 2004,
+   "pt": 57.1,
+   "norte": 68,
+   "alg": 37.6,
+   "acores": 23.7,
+   "madeira": 38.6
+  },
+  {
+   "x": 2005,
+   "pt": 55.1,
+   "norte": 66.1,
+   "alg": 38.8,
+   "acores": 21.2,
+   "madeira": 41.9
+  },
+  {
+   "x": 2006,
+   "pt": 52.1,
+   "norte": 63.3,
+   "alg": 33.8,
+   "acores": 25.9,
+   "madeira": 42.6
+  },
+  {
+   "x": 2007,
+   "pt": 47.4,
+   "norte": 57.9,
+   "alg": 28.5,
+   "acores": 22.9,
+   "madeira": 40.7
+  },
+  {
+   "x": 2008,
+   "pt": 44.5,
+   "norte": 54.8,
+   "alg": 23.4,
+   "acores": 23,
+   "madeira": 36.9
+  },
+  {
+   "x": 2009,
+   "pt": 43.2,
+   "norte": 54.6,
+   "alg": 25.2,
+   "acores": 22.1,
+   "madeira": 38.9
+  },
+  {
+   "x": 2010,
+   "pt": 42.1,
+   "norte": 54.3,
+   "alg": 24.5,
+   "acores": 23,
+   "madeira": 37.4
+  },
+  {
+   "x": 2011,
+   "pt": 39.5,
+   "norte": 51.6,
+   "alg": 21.2,
+   "acores": 22.9,
+   "madeira": 38.5
+  },
+  {
+   "x": 2012,
+   "pt": 38,
+   "norte": 49.6,
+   "alg": 20.1,
+   "acores": 23.7,
+   "madeira": 36.5
+  },
+  {
+   "x": 2013,
+   "pt": 36.5,
+   "norte": 47.9,
+   "alg": 19.2,
+   "acores": 22.3,
+   "madeira": 35.8
+  },
+  {
+   "x": 2014,
+   "pt": 35.9,
+   "norte": 46.6,
+   "alg": 20.7,
+   "acores": 22.3,
+   "madeira": 38.5
+  },
+  {
+   "x": 2015,
+   "pt": 35.9,
+   "norte": 46.3,
+   "alg": 19.2,
+   "acores": 24.9,
+   "madeira": 35.2
+  },
+  {
+   "x": 2016,
+   "pt": 35.3,
+   "norte": 46.2,
+   "alg": 19.5,
+   "acores": 25.2,
+   "madeira": 34.4
+  },
+  {
+   "x": 2017,
+   "pt": 33.7,
+   "norte": 43.8,
+   "alg": 18.7,
+   "acores": 30.2,
+   "madeira": 33
+  },
+  {
+   "x": 2018,
+   "pt": 32.5,
+   "norte": 41.9,
+   "alg": 17,
+   "acores": 33.5,
+   "madeira": 31.8
+  },
+  {
+   "x": 2019,
+   "pt": 30.8,
+   "norte": 39.9,
+   "alg": 14.8,
+   "acores": 28.6,
+   "madeira": 32.2
+  },
+  {
+   "x": 2020,
+   "pt": 12.3,
+   "norte": 17.8,
+   "alg": 4.7,
+   "acores": 8.2,
+   "madeira": 14.2
+  },
+  {
+   "x": 2021,
+   "pt": 28.4,
+   "norte": 37,
+   "alg": 11.6,
+   "acores": 30.7,
+   "madeira": 23.2
+  },
+  {
+   "x": 2022,
+   "pt": 26.7,
+   "norte": 33.9,
+   "alg": 13.8,
+   "acores": 27.3,
+   "madeira": 28.1
+  },
+  {
+   "x": 2023,
+   "pt": 21.9,
+   "norte": 27.9,
+   "alg": 10.7,
+   "acores": 27.3,
+   "madeira": 23.3
+  },
+  {
+   "x": 2024,
+   "pt": 19.9,
+   "norte": 26.6,
+   "alg": 9.2,
+   "acores": 24.7,
+   "madeira": 22.1
+  },
+  {
+   "x": 2025,
+   "pt": 18.6,
+   "norte": 24.5,
+   "alg": 8.7,
+   "acores": 24.5,
+   "madeira": 23.1
+  }
+ ],
+ "config": {
+  "x": {
+   "label": "Ano",
+   "tableLabel": "Ano",
+   "min": 1995,
+   "max": 2025,
+   "ticks": [
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020,
+    2025
+   ]
+  },
+  "y": {
+   "label": "Casamentos católicos, em % dos casamentos entre pessoas de sexo oposto",
+   "suffix": "%",
+   "decimals": 1,
+   "logDefault": false,
+   "linMin": 0,
+   "linMax": 90
+  },
+  "series": [
+   {
+    "key": "norte",
+    "label": "Norte",
+    "short": "Norte",
+    "color": "--accent-2",
+    "width": 1.8
+   },
+   {
+    "key": "madeira",
+    "label": "R. A. da Madeira",
+    "short": "Madeira",
+    "color": "--accent-4",
+    "width": 1.6
+   },
+   {
+    "key": "acores",
+    "label": "R. A. dos Açores",
+    "short": "Açores",
+    "color": "--accent-3",
+    "width": 1.6
+   },
+   {
+    "key": "alg",
+    "label": "Algarve",
+    "short": "Algarve",
+    "color": "--ink-3",
+    "width": 1.6
+   },
+   {
+    "key": "pt",
+    "label": "Portugal",
+    "short": "Portugal",
+    "color": "--accent",
+    "width": 3
+   }
+  ],
+  "labelMargin": [
+   70,
+   112
+  ],
+  "shortEndLabels": true,
+  "scaleToggle": false,
+  "dots": false,
+  "refLine": {
+   "value": 50,
+   "label": "metade dos casamentos",
+   "short": "50%",
+   "at": 2001
+  },
+  "annotations": [
+   {
+    "x": 2007,
+    "key": "pt",
+    "text": "2007: 47,4%",
+    "short": "47%",
+    "anchor": "start",
+    "dx": 8,
+    "dy": 16
+   },
+   {
+    "x": 2020,
+    "key": "pt",
+    "text": "2020: 12,3% (pandemia)",
+    "short": "2020: 12%",
+    "anchor": "end",
+    "dx": -8,
+    "dy": 14
+   }
+  ],
+  "howToRead": "Cada linha mostra, ano a ano, a percentagem de casamentos celebrados na Igreja Católica entre todos os casamentos de pessoas de sexo oposto registados nessa região (os outros são civis ou de outras religiões). A linha grossa terracota é o total do país. A tracejada marca metade dos casamentos."
+ },
+ "summary": {
+  "pt": {
+   "1995": 68.8,
+   "2007": 47.4,
+   "2019": 30.8,
+   "2020": 12.3,
+   "2025": 18.6
+  },
+  "norte": {
+   "1995": 82.5,
+   "2025": 24.5
+  },
+  "alg": {
+   "1995": 46.5,
+   "2025": 8.7
+  },
+  "acores": {
+   "1995": 38.4,
+   "2005": 21.2,
+   "2025": 24.5
+  },
+  "madeira": {
+   "1995": 56.3,
+   "2025": 23.1
+  }
+ }
+}

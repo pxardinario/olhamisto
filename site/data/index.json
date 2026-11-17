@@ -1,8 +1,118 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-16T07:49:39.142Z",
- "latest": "2026-11-16",
+ "updated": "2026-11-17T07:40:00.718Z",
+ "latest": "2026-11-17",
  "editions": [
+  {
+   "date": "2026-11-17",
+   "number": 11,
+   "lead": "pedidos-asilo-ue-2014-2026",
+   "opening": "Cinco histórias para terça-feira: os pedidos de asilo na UE no nível mais baixo fora da pandemia desde 2014, o novo recorde das emissões de CO₂, a meta europeia para os mortos na estrada, o ano recorde dos espetáculos ao vivo e o declínio do casamento católico.",
+   "pieces": [
+    {
+     "id": "pedidos-asilo-ue-2014-2026",
+     "title": "Os pedidos de asilo na UE caíram 45% em dois anos. Os sírios explicam quase um terço da queda",
+     "kind": "atualidade",
+     "theme": "geopolitica",
+     "themeLabel": "Geopolítica e migrações",
+     "vizType": "linha",
+     "vizLabel": "Linhas mensais · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Quantas pessoas pedem hoje asilo na União Europeia, e de onde vem a descida?",
+     "finding": "De janeiro a agosto de 2026, 338 390 pessoas pediram asilo pela primeira vez na UE, menos 44,8% do que no mesmo período de 2024. Os pedidos de sírios caíram de 97 640 para 12 060, o que explica 31% da descida. Em julho de 2026 houve 34 175 pedidos, o valor mensal mais baixo desde maio de 2021 e, fora dos meses da pandemia, desde abril de 2014.",
+     "period": "Janeiro de 2014 a agosto de 2026",
+     "dataset": "pedidos-asilo-ue-2014-2026",
+     "sourceNames": [
+      "Eurostat — Requerentes de asilo por tipo, cidadania, idade e sexo, dados mensais (migr_asyappctzm)",
+      "Conselho da UE — Pacto em matéria de Migração e Asilo"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "emissoes-co2-fosseis-2025",
+     "title": "As emissões de CO₂ fóssil bateram outro recorde em 2025. Os EUA pesaram mais na subida do que a China",
+     "kind": "atualidade",
+     "theme": "ambiente",
+     "themeLabel": "Ambiente e clima",
+     "vizType": "barras",
+     "vizLabel": "Barras divergentes · duas vistas · ordenação alternável",
+     "interactive": true,
+     "question": "Quem fez subir as emissões mundiais de CO₂ dos combustíveis fósseis no último ano?",
+     "finding": "Em 2025, o mundo emitiu 39,0 mil milhões de toneladas de CO₂ fóssil, mais 0,9% (347,7 milhões de toneladas) do que em 2024 e o máximo de sempre. Os EUA acrescentaram 123,8 milhões de toneladas (+2,5%), 36% da subida mundial; a China, que emite 31,8% do total, só 16,4 milhões (+0,1%). A UE baixou 0,3%.",
+     "period": "2019, 2024 e 2025",
+     "dataset": "emissoes-co2-fosseis-2025",
+     "sourceNames": [
+      "Global Carbon Project — Andrew e Peters, «The Global Carbon Project's fossil CO2 emissions dataset», versão 2026v11 (Global Carbon Budget 2026), Zenodo, CC BY 4.0"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "mortos-estrada-ue-2019-2024",
+     "title": "A UE queria reduzir para metade os mortos na estrada até 2030. A meio do caminho, desceu 12%; Portugal 10%",
+     "kind": "atualidade",
+     "theme": "portugal",
+     "themeLabel": "Portugal e políticas públicas",
+     "vizType": "halteres",
+     "vizLabel": "Halteres com terceiro marcador · ordenação alternável",
+     "interactive": true,
+     "question": "A que distância está cada país da meta europeia de segurança rodoviária?",
+     "finding": "Em 2024 morreram 19 933 pessoas nas estradas da UE, menos 12,4% do que em 2019; a meta é chegar a metade em 2030. Só seis países baixaram 25% ou mais, com a Polónia à frente (−34,8%). Portugal passou de 688 para 618 mortos (−10,2%) e tem a sexta taxa mais alta da UE: 58 por milhão de habitantes, contra 44 no conjunto da UE.",
+     "period": "2019 e 2024 (e 2001 para Portugal)",
+     "dataset": "mortos-estrada-ue-2019-2024",
+     "sourceNames": [
+      "Eurostat — Pessoas mortas em acidentes rodoviários por tipo de utente (tran_sf_roadus)",
+      "Comissão Europeia — Quadro estratégico da UE para a segurança rodoviária 2021–2030",
+      "Conselho da UE — Conclusões sobre segurança rodoviária (Declaração de La Valeta), 8 de junho de 2017 (ST 9994/17)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "espetaculos-ao-vivo-portugal-2011-2025",
+     "title": "Os espetáculos ao vivo tiveram 19,7 milhões de espetadores em 2025, um recorde. Mais de metade foi para concertos",
+     "kind": "descoberta",
+     "theme": "cultura",
+     "themeLabel": "Cultura",
+     "vizType": "barras",
+     "vizLabel": "Colunas empilhadas · duas vistas",
+     "interactive": true,
+     "question": "O público voltou às salas de espetáculo depois da pandemia?",
+     "finding": "Em 2025, os espetáculos ao vivo em Portugal tiveram 19,7 milhões de espetadores, mais 16,3% do que em 2019 e o valor mais alto desde 2011, primeiro ano da série. A música levou 10,9 milhões (55,3%). Seis em cada dez entraram com bilhete oferecido. As receitas de bilheteira somaram 193,7 milhões de euros, mais 54,6% do que em 2019 em valores nominais.",
+     "period": "2011 a 2025",
+     "dataset": "espetaculos-ao-vivo-portugal-2011-2025",
+     "sourceNames": [
+      "INE — Espetadores de espetáculos ao vivo por modalidade (indicador 0007578), Inquérito aos espetáculos ao vivo",
+      "INE — Receitas de espetáculos ao vivo por modalidade (indicador 0007579)",
+      "INE — Bilhetes vendidos e bilhetes oferecidos de espetáculos ao vivo (indicadores 0007576 e 0007577)",
+      "INE — Espetadores de cinema (indicadores 0008345 e 0010724), a partir do ICA"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "casamentos-catolicos-portugal-1995-2025",
+     "title": "Em 1995, sete em cada dez casamentos em Portugal eram católicos. Em 2025, menos de dois",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cinco séries · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Quanto pesa hoje a Igreja Católica nos casamentos, e onde mudou mais?",
+     "finding": "A proporção de casamentos católicos desceu de 68,8% em 1995 para 18,6% em 2025. Ficou abaixo de metade pela primeira vez em 2007 (47,4%). No Norte, onde eram 82,5% em 1995, são agora 24,5%, tantos como nos Açores; no Algarve, 8,7%. Em 2020, com cerimónias adiadas pela pandemia, a proporção caiu para 12,3%.",
+     "period": "1995 a 2025",
+     "dataset": "casamentos-catolicos-portugal-1995-2025",
+     "sourceNames": [
+      "INE — Proporção de casamentos católicos por local de registo (indicadores 0000602, 0008209 e 0012705)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "entropia",
+    "title": "A entropia",
+    "axis": "ciencia",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-16",
    "number": 10,

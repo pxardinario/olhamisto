@@ -666,7 +666,9 @@ function bars(host, data) {
       .attr("fill", (q) => css(q.highlight ? "--accent" : q[k] < 0 ? "--accent-3" : "--accent-2"));
     g.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", 600).attr("y", rowH / 2 + 4)
       // negativos curtos perto da margem: o rótulo passa para a direita do zero, para não tapar o nome
-      .attr("x", (q) => (q[k] < 0 ? (x(q[k]) - 56 < m.l ? x(0) + 4 : x(q[k]) - 4) : x(q[k]) + 4)).attr("text-anchor", (q) => (q[k] < 0 && x(q[k]) - 56 >= m.l ? "end" : "start")).text((q) => fmtV(q[k], d) + C.unit);
+      .attr("x", (q) => (q[k] < 0 ? (x(q[k]) - 56 < m.l ? x(0) + 4 : x(q[k]) - 4) : x(q[k]) + 4)).attr("text-anchor", (q) => (q[k] < 0 && x(q[k]) - 56 >= m.l ? "end" : "start")).text((q) => fmtV(q[k], d) + C.unit)
+      // positivos que não cabem à direita: o rótulo passa para dentro da barra
+      .each(function (q) { if (q[k] > 0 && this.getComputedTextLength && x(q[k]) + 4 + this.getComputedTextLength() > W) d3.select(this).attr("x", x(q[k]) - 4).attr("text-anchor", "end").style("fill", css("--card")); });
     svg.append("line").attr("class", "zero").attr("x1", x(0)).attr("x2", x(0)).attr("y1", m.t - 4).attr("y2", H - m.b);
     if (v.ref != null) {
       svg.append("line").attr("x1", x(v.ref)).attr("x2", x(v.ref)).attr("y1", m.t - 4).attr("y2", H - m.b).attr("stroke", css("--ink")).attr("stroke-dasharray", "4 3");

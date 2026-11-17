@@ -1,0 +1,140 @@
+{
+ "rows": [
+  {
+   "label": "Mundo",
+   "d25": 347.7,
+   "d19": 1934.5,
+   "v25": 38995.1
+  },
+  {
+   "label": "China",
+   "d25": 16.4,
+   "d19": 1742.7,
+   "v25": 12417.5
+  },
+  {
+   "label": "EUA",
+   "d25": 123.8,
+   "d19": -202.3,
+   "v25": 5035.6
+  },
+  {
+   "label": "Índia",
+   "d25": 27.9,
+   "d19": 596,
+   "v25": 3203.4
+  },
+  {
+   "label": "UE (27)",
+   "d25": -6.9,
+   "d19": -491.8,
+   "v25": 2405.1
+  },
+  {
+   "label": "Rússia",
+   "d25": -21.8,
+   "d19": 61.2,
+   "v25": 1766.7
+  },
+  {
+   "label": "Japão",
+   "d25": -9.4,
+   "d19": -139.5,
+   "v25": 960.2
+  },
+  {
+   "label": "Indonésia",
+   "d25": 29.9,
+   "d19": 156.2,
+   "v25": 821.8
+  },
+  {
+   "label": "Irão",
+   "d25": 12.7,
+   "d19": 129.7,
+   "v25": 855.3
+  },
+  {
+   "label": "Arábia Saudita",
+   "d25": 7.5,
+   "d19": -46,
+   "v25": 638.2
+  },
+  {
+   "label": "Brasil",
+   "d25": 5.9,
+   "d19": 20,
+   "v25": 496.7
+  },
+  {
+   "label": "Aviação e navios int.",
+   "d25": 52.8,
+   "d19": 5.1,
+   "v25": 1239.5
+  },
+  {
+   "label": "Resto do mundo",
+   "d25": 108.9,
+   "d19": 103.3,
+   "v25": 9155.1
+  }
+ ],
+ "config": {
+  "unit": " Mt",
+  "decimals": 1,
+  "pinned": [
+   "Mundo"
+  ],
+  "posLabel": "Aumento",
+  "negLabel": "Diminuição",
+  "independentScale": true,
+  "views": [
+   {
+    "id": "d25",
+    "label": "2025 face a 2024",
+    "key": "d25",
+    "axisLabel": "Variação das emissões fósseis de CO₂ em 2025 face a 2024 (milhões de toneladas)",
+    "axisShort": "2025 vs. 2024 (Mt de CO₂)"
+   },
+   {
+    "id": "d19",
+    "label": "2025 face a 2019",
+    "key": "d19",
+    "axisLabel": "Variação das emissões fósseis de CO₂ entre 2019 e 2025 (milhões de toneladas)",
+    "axisShort": "2025 vs. 2019 (Mt de CO₂)"
+   }
+  ],
+  "sorts": [
+   [
+    "value",
+    "Por variação"
+   ],
+   [
+    "label",
+    "Alfabética"
+   ]
+  ],
+  "howToRead": "Cada barra é um país, um bloco ou um grupo de emissões e mostra quantos milhões de toneladas de CO₂ fóssil emitiu a mais (azul) ou a menos (ocre) do que no ano de comparação. «Aviação e navios int.» soma os combustíveis da aviação e da navegação internacionais, que não entram nas contas de nenhum país. O Mundo fica fixo no topo. Os botões mudam entre a variação de um ano e a variação desde 2019, antes da pandemia."
+ },
+ "summary": {
+  "world": {
+   "2019": 37060.6,
+   "2024": 38647.4,
+   "2025": 38995.1
+  },
+  "usShareOfRise": 36,
+  "china": {
+   "2024": 12401.1,
+   "2025": 12417.5
+  },
+  "usa": {
+   "2024": 4911.7,
+   "2025": 5035.6
+  },
+  "eu": {
+   "2019": 2896.9,
+   "2024": 2412,
+   "2025": 2405.1
+  }
+ }
+}

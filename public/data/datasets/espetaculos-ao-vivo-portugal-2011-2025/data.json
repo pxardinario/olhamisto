@@ -1,0 +1,329 @@
+{
+ "rows": [
+  {
+   "cat": "2011",
+   "alt": false,
+   "mus": 4.09,
+   "tea": 1.46,
+   "out": 2.93,
+   "tot": 8.48,
+   "rmus": 37.47,
+   "rtea": 8.24,
+   "rout": 10.01,
+   "rtot": 55.72
+  },
+  {
+   "cat": "2012",
+   "alt": false,
+   "mus": 4.52,
+   "tea": 1.51,
+   "out": 2.7,
+   "tot": 8.73,
+   "rmus": 50.2,
+   "rtea": 7.32,
+   "rout": 8.06,
+   "rtot": 65.58
+  },
+  {
+   "cat": "2013",
+   "alt": false,
+   "mus": 4.28,
+   "tea": 1.55,
+   "out": 3.05,
+   "tot": 8.88,
+   "rmus": 41.28,
+   "rtea": 8.65,
+   "rout": 10.08,
+   "rtot": 60.01
+  },
+  {
+   "cat": "2014",
+   "alt": false,
+   "mus": 5.2,
+   "tea": 1.72,
+   "out": 3.81,
+   "tot": 10.73,
+   "rmus": 43.99,
+   "rtea": 10.8,
+   "rout": 15.68,
+   "rtot": 70.47
+  },
+  {
+   "cat": "2015",
+   "alt": false,
+   "mus": 6.13,
+   "tea": 1.88,
+   "out": 4.48,
+   "tot": 12.49,
+   "rmus": 43.65,
+   "rtea": 8.94,
+   "rout": 7.01,
+   "rtot": 59.6
+  },
+  {
+   "cat": "2016",
+   "alt": false,
+   "mus": 7.33,
+   "tea": 2.5,
+   "out": 5.01,
+   "tot": 14.83,
+   "rmus": 63.15,
+   "rtea": 11.51,
+   "rout": 10.32,
+   "rtot": 84.99
+  },
+  {
+   "cat": "2017",
+   "alt": false,
+   "mus": 6.96,
+   "tea": 2.51,
+   "out": 5.93,
+   "tot": 15.41,
+   "rmus": 60.18,
+   "rtea": 13.72,
+   "rout": 9.02,
+   "rtot": 82.91
+  },
+  {
+   "cat": "2018",
+   "alt": false,
+   "mus": 7.64,
+   "tea": 2.17,
+   "out": 7.07,
+   "tot": 16.87,
+   "rmus": 76.95,
+   "rtea": 11.9,
+   "rout": 20.16,
+   "rtot": 109.01
+  },
+  {
+   "cat": "2019",
+   "alt": false,
+   "mus": 8.98,
+   "tea": 2.19,
+   "out": 5.76,
+   "tot": 16.93,
+   "rmus": 98.53,
+   "rtea": 13.46,
+   "rout": 13.33,
+   "rtot": 125.31
+  },
+  {
+   "cat": "2020",
+   "alt": true,
+   "mus": 1.22,
+   "tea": 0.67,
+   "out": 0.63,
+   "tot": 2.52,
+   "rmus": 11.36,
+   "rtea": 5.86,
+   "rout": 7.7,
+   "rtot": 24.92
+  },
+  {
+   "cat": "2021",
+   "alt": true,
+   "mus": 1.57,
+   "tea": 0.96,
+   "out": 1.03,
+   "tot": 3.57,
+   "rmus": 16.13,
+   "rtea": 8.26,
+   "rout": 3.6,
+   "rtot": 27.99
+  },
+  {
+   "cat": "2022",
+   "alt": false,
+   "mus": 8.16,
+   "tea": 2.24,
+   "out": 4.47,
+   "tot": 14.88,
+   "rmus": 108.68,
+   "rtea": 22,
+   "rout": 16.62,
+   "rtot": 147.3
+  },
+  {
+   "cat": "2023",
+   "alt": false,
+   "mus": 9.35,
+   "tea": 2.16,
+   "out": 5.58,
+   "tot": 17.1,
+   "rmus": 144.55,
+   "rtea": 17.26,
+   "rout": 27.43,
+   "rtot": 189.24
+  },
+  {
+   "cat": "2024",
+   "alt": false,
+   "mus": 10.74,
+   "tea": 2.35,
+   "out": 5.49,
+   "tot": 18.57,
+   "rmus": 163.13,
+   "rtea": 23.09,
+   "rout": 20.22,
+   "rtot": 206.44
+  },
+  {
+   "cat": "2025",
+   "alt": false,
+   "mus": 10.9,
+   "tea": 2.5,
+   "out": 6.3,
+   "tot": 19.69,
+   "rmus": 136.61,
+   "rtea": 23.22,
+   "rout": 33.9,
+   "rtot": 193.73
+  }
+ ],
+ "views": [
+  {
+   "id": "esp",
+   "label": "Espetadores",
+   "yMax": 23,
+   "yLabel": "Espetadores de espetáculos ao vivo em Portugal, por ano (milhões)",
+   "unit": " milhões",
+   "decimals": 2,
+   "labelEvery": 2,
+   "labelEveryNarrow": 4,
+   "series": [
+    {
+     "key": "out",
+     "label": "Outras modalidades (dança, circo, variedades, ópera…)",
+     "color": "--ink-3"
+    },
+    {
+     "key": "tea",
+     "label": "Teatro",
+     "color": "--accent-3"
+    },
+    {
+     "key": "mus",
+     "label": "Música",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "tot",
+     "label": "Total",
+     "suffix": " milhões"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2019",
+     "text": "2019: 16,9 milhões",
+     "short": "16,9"
+    },
+    {
+     "cat": "2025",
+     "text": "2025: 19,7",
+     "short": "19,7"
+    }
+   ]
+  },
+  {
+   "id": "rec",
+   "label": "Receitas",
+   "yMax": 235,
+   "yLabel": "Receitas de bilheteira dos espetáculos ao vivo em Portugal (milhões de euros, valores nominais)",
+   "unit": " M€",
+   "decimals": 1,
+   "labelEvery": 2,
+   "labelEveryNarrow": 4,
+   "series": [
+    {
+     "key": "rout",
+     "label": "Outras modalidades (dança, circo, variedades, ópera…)",
+     "color": "--ink-3"
+    },
+    {
+     "key": "rtea",
+     "label": "Teatro",
+     "color": "--accent-3"
+    },
+    {
+     "key": "rmus",
+     "label": "Música",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "rtot",
+     "label": "Total",
+     "suffix": " M€"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2019",
+     "text": "2019: 125 M€",
+     "short": "125"
+    },
+    {
+     "cat": "2024",
+     "text": "2024: 206 M€",
+     "short": "206"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "esp": {
+   "2011": 8484295,
+   "2012": 8731289,
+   "2013": 8880971,
+   "2014": 10729580,
+   "2015": 12486524,
+   "2016": 14832845,
+   "2017": 15407231,
+   "2018": 16873616,
+   "2019": 16926411,
+   "2020": 2517028,
+   "2021": 3568229,
+   "2022": 14878403,
+   "2023": 17098345,
+   "2024": 18574930,
+   "2025": 19688616
+  },
+  "rec": {
+   "2011": 55721268,
+   "2012": 65579424,
+   "2013": 60011339,
+   "2014": 70470309,
+   "2015": 59596129,
+   "2016": 84987511,
+   "2017": 82910907,
+   "2018": 109010598,
+   "2019": 125314014,
+   "2020": 24920054,
+   "2021": 27994277,
+   "2022": 147301506,
+   "2023": 189240346,
+   "2024": 206444501,
+   "2025": 193731136
+  },
+  "mus2025": 10895190,
+  "cinema": {
+   "2019": 15540742,
+   "2025": 10955126
+  },
+  "avg2019": 7.4,
+  "avg2025": 9.84,
+  "sold": {
+   "2019": 6037822,
+   "2024": 7591610,
+   "2025": 7489800
+  },
+  "offered2025": 12198816,
+  "price2019": 20.75,
+  "price2025": 25.87
+ }
+}
