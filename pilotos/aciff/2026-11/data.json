@@ -1,6 +1,6 @@
 {
  "edicao": "2026-11-17",
- "gerado": "2026-11-18T21:24:57.867Z",
+ "gerado": "2026-11-18T21:27:10.770Z",
  "turismo": {
   "periodo": "2026-09",
   "estado": "setembro de 2026: dados preliminares; janeiro a agosto de 2026: provisórios (INE)",
@@ -192,7 +192,8 @@
    "var": -5.7,
    "estada": 2.31
   },
-  "var_hospedes_pt": 2.5
+  "var_hospedes_pt": 2.5,
+  "coimbra_agosto_var": 3.6
  },
  "desemprego": {
   "periodo": "2026-09",

@@ -64,6 +64,8 @@ turismo.serie = dorm[FF].filter((r) => r.periodo >= "2024-01");
 // agosto (edição anterior), agora com dados provisórios
 turismo.agosto = { dormidas: get(dorm[FF], "2026-08"), var: pct(get(dorm[FF], "2026-08"), get(dorm[FF], "2025-08")), estada: r2(get(dorm[FF], "2026-08") / get(hosp[FF], "2026-08")) };
 turismo.var_hospedes_pt = pct(get(hosp.PT, TUR), get(hosp.PT, TUR_ANT));
+turismo.coimbra_agosto_var = pct(get(dorm["1920603"], "2026-08"), get(dorm["1920603"], "2025-08"));
+assert.equal(turismo.coimbra_agosto_var, 3.6);
 
 // valores publicados, conferidos contra a leitura direta
 assert.equal(turismo.dormidas, 45977);
