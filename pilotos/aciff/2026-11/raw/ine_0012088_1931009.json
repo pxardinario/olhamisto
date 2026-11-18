@@ -2,9 +2,9 @@
   "IndicadorCod" : "0012088",
   "IndicadorDsg" : "Dormidas (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
   "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012088&lingua=PT",
-  "DataExtracao" : "2026-11-16T17:06:50.522Z",
-  "DataUltimoAtualizacao" : "2026-10-15",
-  "UltimoPref" : "Agosto de 2026",
+  "DataExtracao" : "2026-11-18T21:19:29.250Z",
+  "DataUltimoAtualizacao" : "2026-11-17",
+  "UltimoPref" : "Setembro de 2026",
   "Dados" : {
     "Janeiro de 2022" : [ {
       "geocod" : "1931009",
@@ -451,8 +451,16 @@
       "geodsg" : "Leiria",
       "dim_3" : "T",
       "dim_3_t" : "Total",
-      "ind_string" : "48 717",
-      "valor" : "48717"
+      "ind_string" : "48 712",
+      "valor" : "48712"
+    } ],
+    "Setembro de 2026" : [ {
+      "geocod" : "1931009",
+      "geodsg" : "Leiria",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "33 637",
+      "valor" : "33637"
     } ]
   },
   "Sucesso" : {

@@ -3,19 +3,19 @@
   "IndicadorNome" : "Dormidas (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
   "Periodic" : "Mensal",
   "PrimeiroPeriodo" : "Janeiro de 2022",
-  "UltimoPeriodo" : "Agosto de 2026",
+  "UltimoPeriodo" : "Setembro de 2026",
   "UnidadeMedida" : "Número (N.º)",
   "Potencia10" : "0",
   "PrecisaoDecimal" : "0",
   "Lingua" : "PT",
-  "DataUltimaAtualizacao" : "2026-10-15",
-  "DataExtracao" : "2026-11-16T17:06:21.529Z",
+  "DataUltimaAtualizacao" : "2026-11-17",
+  "DataExtracao" : "2026-11-18T21:23:14.524Z",
   "Dimensoes" : {
     "Descricao_Dim" : [ {
       "dim_num" : "1",
       "abrv" : "Período de referência dos dados (Mês)",
       "versao" : "XXXXX",
-      "nota_dsg" : "Janeiro 2026 - Julho 2026 - dados provisórios; Agosto 2026 - dados preliminares."
+      "nota_dsg" : "Janeiro 2026 - Agosto 2026 - dados provisórios; Setembro 2026 - dados preliminares."
     }, {
       "dim_num" : "2",
       "abrv" : "Localização geográfica (NUTS - 2024)",
@@ -473,6 +473,14 @@
         "categ_cod" : "S3A202608",
         "categ_dsg" : "Agosto de 2026",
         "categ_ord" : "20260801",
+        "categ_nivel" : "1"
+      } ],
+      "Dim_Num1_S3A202609" : [ {
+        "dim_num" : "1",
+        "cat_id" : "S3A202609",
+        "categ_cod" : "S3A202609",
+        "categ_dsg" : "Setembro de 2026",
+        "categ_ord" : "20260901",
         "categ_nivel" : "1"
       } ],
       "Dim_Num2_PT" : [ {

@@ -2,9 +2,9 @@
   "IndicadorCod" : "0012088",
   "IndicadorDsg" : "Dormidas (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
   "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012088&lingua=PT",
-  "DataExtracao" : "2026-11-16T17:06:36.354Z",
-  "DataUltimoAtualizacao" : "2026-10-15",
-  "UltimoPref" : "Agosto de 2026",
+  "DataExtracao" : "2026-11-18T21:18:17.434Z",
+  "DataUltimoAtualizacao" : "2026-11-17",
+  "UltimoPref" : "Setembro de 2026",
   "Dados" : {
     "Janeiro de 2022" : [ {
       "geocod" : "1910105",
@@ -451,8 +451,16 @@
       "geodsg" : "Aveiro",
       "dim_3" : "T",
       "dim_3_t" : "Total",
-      "ind_string" : "62 516",
-      "valor" : "62516"
+      "ind_string" : "62 628",
+      "valor" : "62628"
+    } ],
+    "Setembro de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "43 874",
+      "valor" : "43874"
     } ]
   },
   "Sucesso" : {

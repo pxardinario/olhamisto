@@ -2,9 +2,9 @@
   "IndicadorCod" : "0012088",
   "IndicadorDsg" : "Dormidas (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
   "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012088&lingua=PT",
-  "DataExtracao" : "2026-11-16T17:06:45.215Z",
-  "DataUltimoAtualizacao" : "2026-10-15",
-  "UltimoPref" : "Agosto de 2026",
+  "DataExtracao" : "2026-11-18T21:19:10.989Z",
+  "DataUltimoAtualizacao" : "2026-11-17",
+  "UltimoPref" : "Setembro de 2026",
   "Dados" : {
     "Janeiro de 2022" : [ {
       "geocod" : "1920603",
@@ -451,8 +451,16 @@
       "geodsg" : "Coimbra",
       "dim_3" : "T",
       "dim_3_t" : "Total",
-      "ind_string" : "81 004",
-      "valor" : "81004"
+      "ind_string" : "76 815",
+      "valor" : "76815"
+    } ],
+    "Setembro de 2026" : [ {
+      "geocod" : "1920603",
+      "geodsg" : "Coimbra",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "71 685",
+      "valor" : "71685"
     } ]
   },
   "Sucesso" : {

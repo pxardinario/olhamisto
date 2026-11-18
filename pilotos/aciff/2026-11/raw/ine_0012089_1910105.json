@@ -2,9 +2,9 @@
   "IndicadorCod" : "0012089",
   "IndicadorDsg" : "Hóspedes (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
   "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012089&lingua=PT",
-  "DataExtracao" : "2026-11-16T17:07:19.804Z",
-  "DataUltimoAtualizacao" : "2026-10-15",
-  "UltimoPref" : "Agosto de 2026",
+  "DataExtracao" : "2026-11-18T21:20:41.667Z",
+  "DataUltimoAtualizacao" : "2026-11-17",
+  "UltimoPref" : "Setembro de 2026",
   "Dados" : {
     "Janeiro de 2022" : [ {
       "geocod" : "1910105",
@@ -451,8 +451,16 @@
       "geodsg" : "Aveiro",
       "dim_3" : "T",
       "dim_3_t" : "Total",
-      "ind_string" : "34 182",
-      "valor" : "34182"
+      "ind_string" : "34 270",
+      "valor" : "34270"
+    } ],
+    "Setembro de 2026" : [ {
+      "geocod" : "1910105",
+      "geodsg" : "Aveiro",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "25 194",
+      "valor" : "25194"
     } ]
   },
   "Sucesso" : {

@@ -37,40 +37,51 @@ const ytd = (s, ano, ate) => s.filter((r) => r.periodo >= `${ano}-01` && r.perio
 
 const FF = "1920605";
 const metaINE = rd("ine_meta_0012088.json")[0].Dimensoes.Descricao_Dim[0].nota_dsg;
-assert.ok(/Agosto 2026 - dados preliminares/.test(metaINE));
+assert.ok(/Setembro 2026 - dados preliminares/.test(metaINE));
 const ultimoTur = dorm[FF].at(-1).periodo;
-assert.equal(ultimoTur, "2026-08");
+const TUR = "2026-09", TUR_ANT = "2025-09", MM = "09";
+assert.equal(ultimoTur, TUR);
 const turismo = {
   periodo: ultimoTur,
-  estado: "agosto de 2026: dados preliminares; janeiro a julho de 2026: provisórios (INE)",
-  dormidas: get(dorm[FF], "2026-08"),
-  dormidas_ano_anterior: get(dorm[FF], "2025-08"),
-  hospedes: get(hosp[FF], "2026-08"),
-  hospedes_ano_anterior: get(hosp[FF], "2025-08"),
+  estado: "setembro de 2026: dados preliminares; janeiro a agosto de 2026: provisórios (INE)",
+  dormidas: get(dorm[FF], TUR),
+  dormidas_ano_anterior: get(dorm[FF], TUR_ANT),
+  hospedes: get(hosp[FF], TUR),
+  hospedes_ano_anterior: get(hosp[FF], TUR_ANT),
 };
 turismo.var_dormidas = pct(turismo.dormidas, turismo.dormidas_ano_anterior);
 turismo.var_hospedes = pct(turismo.hospedes, turismo.hospedes_ano_anterior);
 turismo.estada = r2(turismo.dormidas / turismo.hospedes);
 turismo.estada_ano_anterior = r2(turismo.dormidas_ano_anterior / turismo.hospedes_ano_anterior);
-turismo.ytd_2026 = ytd(dorm[FF], 2026, "08");
-turismo.ytd_2025 = ytd(dorm[FF], 2025, "08");
+turismo.ytd_2026 = ytd(dorm[FF], 2026, MM);
+turismo.ytd_2025 = ytd(dorm[FF], 2025, MM);
 turismo.var_ytd = pct(turismo.ytd_2026, turismo.ytd_2025);
-turismo.var_portugal = pct(get(dorm.PT, "2026-08"), get(dorm.PT, "2025-08"));
+turismo.var_portugal = pct(get(dorm.PT, TUR), get(dorm.PT, TUR_ANT));
 turismo.pares = Object.entries(PARES).filter(([g]) => g !== "PT").map(([g, nome]) => ({
-  nome, var_agosto: pct(get(dorm[g], "2026-08"), get(dorm[g], "2025-08")), var_ytd: pct(ytd(dorm[g], 2026, "08"), ytd(dorm[g], 2025, "08")),
-})).sort((a, b) => b.var_agosto - a.var_agosto);
+  nome, var_mes: pct(get(dorm[g], TUR), get(dorm[g], TUR_ANT)), var_ytd: pct(ytd(dorm[g], 2026, MM), ytd(dorm[g], 2025, MM)),
+})).sort((a, b) => b.var_mes - a.var_mes);
 turismo.serie = dorm[FF].filter((r) => r.periodo >= "2024-01");
+// agosto (edição anterior), agora com dados provisórios
+turismo.agosto = { dormidas: get(dorm[FF], "2026-08"), var: pct(get(dorm[FF], "2026-08"), get(dorm[FF], "2025-08")), estada: r2(get(dorm[FF], "2026-08") / get(hosp[FF], "2026-08")) };
+turismo.var_hospedes_pt = pct(get(hosp.PT, TUR), get(hosp.PT, TUR_ANT));
 
 // valores publicados, conferidos contra a leitura direta
-assert.equal(turismo.dormidas, 61496);
-assert.equal(turismo.dormidas_ano_anterior, 65300);
-assert.equal(turismo.var_dormidas, -5.8);
-assert.equal(turismo.hospedes, 26633);
-assert.equal(turismo.var_hospedes, -2.1);
-assert.equal(turismo.var_portugal, 1.7);
-assert.equal(turismo.estada, 2.31);
-assert.equal(turismo.estada_ano_anterior, 2.4);
-assert.equal(turismo.var_ytd, -2.9);
+assert.equal(turismo.dormidas, 45977);
+assert.equal(turismo.dormidas_ano_anterior, 41075);
+assert.equal(turismo.var_dormidas, 11.9);
+assert.equal(turismo.hospedes, 21256);
+assert.equal(turismo.var_hospedes, 5.3);
+assert.equal(turismo.var_portugal, 2);
+assert.equal(turismo.estada, 2.16);
+assert.equal(turismo.estada_ano_anterior, 2.04);
+assert.equal(turismo.var_ytd, -0.9);
+assert.equal(turismo.ytd_2026, 310104);
+assert.equal(turismo.agosto.dormidas, 61604);
+assert.equal(turismo.agosto.var, -5.7);
+assert.equal(turismo.pares[0].nome, "Figueira da Foz"); // maior subida entre os comparados
+// «quase em partes iguais»: contribuição dos hóspedes e da estada (em log) entre 40 % e 60 %
+const lnTot = Math.log(turismo.dormidas / turismo.dormidas_ano_anterior), lnHosp = Math.log(turismo.hospedes / turismo.hospedes_ano_anterior);
+assert.ok(lnHosp / lnTot > 0.4 && lnHosp / lnTot < 0.6);
 
 // ---------- 2. Desemprego registado (IEFP) ----------
 function parseCSV(txt) {

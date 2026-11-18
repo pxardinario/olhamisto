@@ -2,9 +2,9 @@
   "IndicadorCod" : "0012089",
   "IndicadorDsg" : "Hóspedes (N.º) nos estabelecimentos de alojamento turístico por Localização geográfica (NUTS - 2024) e Segmento (alojamento turístico); Mensal - INE, Inquérito à permanência de hóspedes na hotelaria e outros alojamentos",
   "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0012089&lingua=PT",
-  "DataExtracao" : "2026-11-16T17:07:25.062Z",
-  "DataUltimoAtualizacao" : "2026-10-15",
-  "UltimoPref" : "Agosto de 2026",
+  "DataExtracao" : "2026-11-18T21:21:12.766Z",
+  "DataUltimoAtualizacao" : "2026-11-17",
+  "UltimoPref" : "Setembro de 2026",
   "Dados" : {
     "Janeiro de 2022" : [ {
       "geocod" : "1910110",
@@ -451,8 +451,16 @@
       "geodsg" : "Ílhavo",
       "dim_3" : "T",
       "dim_3_t" : "Total",
-      "ind_string" : "7 523",
-      "valor" : "7523"
+      "ind_string" : "7 542",
+      "valor" : "7542"
+    } ],
+    "Setembro de 2026" : [ {
+      "geocod" : "1910110",
+      "geodsg" : "Ílhavo",
+      "dim_3" : "T",
+      "dim_3_t" : "Total",
+      "ind_string" : "6 770",
+      "valor" : "6770"
     } ]
   },
   "Sucesso" : {

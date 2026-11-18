@@ -1,6 +1,6 @@
 # Fontes do boletim-piloto ACIFF (edição de novembro de 2026)
 
-Consulta: 2026-11-16 (Europe/Lisbon). Ficheiros guardados sem alteração, salvo as exceções indicadas.
+Consulta: 2026-11-16 (Europe/Lisbon); dados do INE sobre turismo (`ine_00120*`, `ine_meta_0012088.json`) descarregados de novo a 2026-11-18, com setembro de 2026. Ficheiros guardados sem alteração, salvo as exceções indicadas.
 
 | Pasta | Fonte | URL | Licença |
 |---|---|---|---|

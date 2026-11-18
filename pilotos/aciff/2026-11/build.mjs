@@ -118,8 +118,8 @@ const AVISO = {
 for (const f of F.empresas) assert.ok(AVISO[f.codigo], f.codigo);
 assert.equal(F.empresas.filter((f) => f.coletiva).length, 2);
 const tiles = [
-  { lab: "Dormidas", per: "ago. 2026", val: num(T.dormidas), chip: `${sgn(T.var_dormidas)} %`, state: "bad", note: `Portugal: ${sgn(T.var_portugal)} %`, sp: spark(T.serie) },
-  { lab: "Estada média", per: "ago. 2026", val: `${num(T.estada, 2)} noites`, chip: `era ${num(T.estada_ano_anterior, 2)}`, state: "bad", note: `Hóspedes: ${sgn(T.var_hospedes)} %`, sp: "" },
+  { lab: "Dormidas", per: "set. 2026", val: num(T.dormidas), chip: `${sgn(T.var_dormidas)} %`, state: "good", note: `Portugal: ${sgn(T.var_portugal)} %`, sp: spark(T.serie) },
+  { lab: "Estada média", per: "set. 2026", val: `${num(T.estada, 2)} noites`, chip: `set. 2025: ${num(T.estada_ano_anterior, 2)}`, state: "good", note: `Hóspedes: ${sgn(T.var_hospedes)} %`, sp: "" },
   { lab: "Desemprego registado", per: "set. 2026", val: num(U.valor), chip: `${sgn(U.var)} %`, state: "good", note: `IEFP Centro: ${sgn(U.var_centro)} %`, sp: spark(U.serie) },
   { lab: "Eletricidade · média e alta tensão", per: "jul. 2026", val: `${num(E.mat, 1)} GWh`, chip: `${sgn(E.var_mat)} %`, state: "alert", note: `Portugal: ${sgn(E.var_pais_mat)} %`, sp: spark(E.serie_mat, { tone: "alert" }) },
   { lab: "Eletricidade · baixa tensão", per: "jul. 2026", val: `${num(E.bt, 1)} GWh`, chip: `${sgn(E.var_bt)} %`, state: "flat", note: "Sem alteração relevante", sp: spark(E.serie_bt, { tone: "flat" }) },
@@ -142,11 +142,11 @@ const tres = [
     act: "Quem tem investimento planeado deve comparar o custo do crédito com os apoios europeus abertos, listados mais abaixo.",
   },
   {
-    big: `${num(T.var_dormidas, 1)} %`, unit: "dormidas na Figueira, ago. 2026 face a ago. 2025",
-    h: "Agosto com menos dormidas na Figueira, enquanto o país cresceu",
-    what: `Houve ${num(T.dormidas)} dormidas em agosto, menos ${num(-T.var_dormidas, 1)} % do que um ano antes; em Portugal, ${sgn(T.var_portugal)} %. Os hóspedes caíram menos (${sgn(T.var_hospedes)} %): a estada média passou de ${num(T.estada_ano_anterior, 2)} para ${num(T.estada, 2)} noites.`,
-    why: `A quebra é partilhada pela costa entre Ílhavo e Peniche, como mostra a comparação abaixo. De janeiro a agosto, a Figueira soma ${num(T.ytd_2026)} dormidas, ${sgn(T.var_ytd)} % face ao mesmo período de 2025.`,
-    act: "Para hotelaria e restauração: o recuo de agosto veio mais da duração das estadias do que do número de hóspedes.",
+    big: `${sgn(T.var_dormidas, 1)} %`, unit: "dormidas na Figueira, set. 2026 face a set. 2025",
+    h: "Setembro inverte a quebra de agosto: a Figueira cresce mais do que os concelhos comparáveis",
+    what: `Houve ${num(T.dormidas)} dormidas em setembro, mais ${num(T.var_dormidas, 1)} % do que um ano antes; em Portugal, ${sgn(T.var_portugal)} %. É a maior subida entre os sete concelhos comparados. Depois de um agosto em queda (${sgn(T.agosto.var)} %), o acumulado de janeiro a setembro fica em ${sgn(T.var_ytd)} %.`,
+    why: `A subida vem quase em partes iguais de mais hóspedes (${sgn(T.var_hospedes)} %) e de estadias mais longas (${num(T.estada, 2)} noites, contra ${num(T.estada_ano_anterior, 2)}). Um mês não faz uma tendência, e os dados de setembro ainda são preliminares.`,
+    act: "Para hotelaria e restauração: setembro mostra procura para lá do pico do verão. Comparar com as próprias reservas ajuda a perceber se o efeito se repete em outubro.",
   },
 ];
 
@@ -273,7 +273,7 @@ footer ul { margin: 0; padding-left: 18px; display: grid; gap: 4px }
 <header>
   <span class="eyebrow">Boletim económico mensal · proposta-piloto para os associados da ACIFF</span>
   <h1>Barómetro Figueira</h1>
-  <div class="meta"><span>Edição de 17 de novembro de 2026</span><span>Leitura: 2 minutos</span><span class="ia">Feito por IA</span></div>
+  <div class="meta"><span>Edição de 17 de novembro de 2026 · atualizada a 18 de novembro</span><span>Leitura: 2 minutos</span><span class="ia">Feito por IA</span></div>
   <p class="lede">Os números mais recentes das fontes oficiais sobre a economia da Figueira da Foz, com o que mudou, porque importa e o que fazer. Cada fonte publica com o seu próprio atraso; o período de cada número está indicado.</p>
 </header>
 
@@ -311,7 +311,7 @@ ${tiles.map((t) => `   <div class="tile" data-s="${t.state}"><span class="lab">$
 <section aria-labelledby="s4">
   <h2 id="s4"><span class="sec-n">4</span>A Figueira e os concelhos comparáveis</h2>
   <div class="pair">
-    ${bars(T.pares, "var_agosto", { title: "Dormidas, agosto de 2026 face a agosto de 2025", goodIsDown: false })}
+    ${bars(T.pares, "var_mes", { title: "Dormidas, setembro de 2026 face a setembro de 2025", goodIsDown: false })}
     ${bars(U.pares, "var", { title: "Desemprego registado, setembro de 2026 face a setembro de 2025", goodIsDown: true })}
   </div>
   <p class="note">A Figueira a azul. Verde: evolução favorável; vermelho: desfavorável. O desemprego desceu em todos os concelhos comparados; na Figueira (${sgn(U.var)} %), desceu mais do que no conjunto da delegação regional do Centro do IEFP (${sgn(U.var_centro)} %). Cada gráfico tem a sua escala.</p>
@@ -327,7 +327,7 @@ ${setorTiles.map((t) => `     <div class="tile" data-s="${t.state}"><span class=
     </div>
     ${lines2(SI.serie_rest, SI.serie_total, { la: "Restauração", lb: "Inflação total", title: `Variação homóloga dos preços dos serviços de restauração e da inflação total em Portugal, de novembro de 2024 a outubro de 2026. A restauração varia entre ${num(Math.min(...SI.serie_rest.map((r) => r.valor)), 1)} % e ${num(Math.max(...SI.serie_rest.map((r) => r.valor)), 1)} %; a inflação total entre ${num(Math.min(...SI.serie_total.map((r) => r.valor)), 1)} % e ${num(Math.max(...SI.serie_total.map((r) => r.valor)), 1)} %.` })}
     <div class="reading">
-      <p><strong>Restauração.</strong> Os preços dos serviços de restauração sobem mais do que a inflação total desde ${mesAno(SI.restauracao_acima_desde)}. Os produtos alimentares, a principal matéria-prima, sobem ${num(SI.alimentares, 1)} %, menos de metade. A diferença pode refletir outros custos, como pessoal e energia, que estes dados não isolam. Na Figueira, a estada média de agosto foi mais curta do que um ano antes (${num(T.estada, 2)} noites, contra ${num(T.estada_ano_anterior, 2)}).</p>
+      <p><strong>Restauração.</strong> Os preços dos serviços de restauração sobem mais do que a inflação total desde ${mesAno(SI.restauracao_acima_desde)}. Os produtos alimentares, a principal matéria-prima, sobem ${num(SI.alimentares, 1)} %, menos de metade. A diferença pode refletir outros custos, como pessoal e energia, que estes dados não isolam. Na Figueira, as dormidas de setembro subiram ${num(T.var_dormidas, 1)} %, com estadias mais longas do que um ano antes (${num(T.estada, 2)} noites, contra ${num(T.estada_ano_anterior, 2)}).</p>
       <p><strong>Comércio.</strong> O volume de vendas no comércio a retalho caiu ${num(-SR.total, 1)} % em setembro, face a um ano antes. O alimentar subiu ${num(SR.alimentar, 1)} % e o não alimentar sem combustíveis desceu ${num(-SR.nao_alimentar, 1)} %. O vestuário e o calçado estão ${num(-SI.vestuario, 1)} % mais baratos do que há um ano. A confiança dos consumidores caiu para o valor mais baixo desde ${mesAno(SC.consumidores_minimo_desde)}: o comércio entra na época de Natal com clientes mais cautelosos.</p>
       <p class="act"><strong>O que fazer:</strong> rever preços e promoções de Natal com base nos custos reais de cada negócio. A média nacional diz para onde o mercado se move, não o que cada loja ou restaurante deve cobrar.</p>
     </div>
@@ -366,7 +366,7 @@ ${fundRows}
 <footer>
   <p><strong>Fontes:</strong></p>
   <ul>
-    <li>INE, Inquérito à permanência de hóspedes (dormidas e hóspedes, mensal por município; agosto de 2026 preliminar).</li>
+    <li>INE, Inquérito à permanência de hóspedes (dormidas e hóspedes, mensal por município; setembro de 2026 preliminar, publicado a 17 de novembro).</li>
     <li>IEFP, Desemprego registado por concelhos (setembro de 2026). «Centro» é a delegação regional do IEFP, que não inclui a Nazaré nem Peniche.</li>
     <li>E-REDES, Dados abertos, consumos faturados por município (CC BY 4.0; julho de 2026).</li>
     <li>Banco de Portugal, BPstat, série 12533747: taxa de juro de novas operações de empréstimos até 1 M€ às empresas não financeiras, incluindo renegociações (setembro de 2026).</li>
@@ -375,9 +375,9 @@ ${fundRows}
     <li>INE, Índice de preços no consumidor (base 2025, outubro de 2026), Índice de volume de negócios no comércio (setembro de 2026) e inquéritos de conjuntura aos consumidores e ao comércio (outubro de 2026).</li>
   </ul>
   <p><strong>Ainda não incluído nesta versão-piloto:</strong> calendário fiscal e contributivo (a confirmar se a ACIFF já o divulga), movimento do Porto da Figueira da Foz e preços dos combustíveis.</p>
-  <p><strong>Correções:</strong> 17 nov. 2026 — A primeira versão indicava que o aviso «Ações Coletivas – Internacionalização» (COMPETE2030-2026-13) estava aberto a associações empresariais. O aviso é um convite dirigido apenas à AICEP.</p>
+  <p><strong>Atualizações e correções:</strong> 18 nov. 2026 — Turismo atualizado para setembro de 2026, publicado pelo INE a 17 de novembro. O INE reviu agosto para ${num(T.agosto.dormidas)} dormidas (antes 61${NB}496), e a variação de agosto passa de −5,8 % para ${sgn(T.agosto.var)} %. Os valores de agosto dos outros concelhos também foram revistos; o maior ajuste foi o de Coimbra, de +9,2 % para +3,5 %. 17 nov. 2026 — A primeira versão indicava que o aviso «Ações Coletivas – Internacionalização» (COMPETE2030-2026-13) estava aberto a associações empresariais. O aviso é um convite dirigido apenas à AICEP.</p>
   <p><strong>Feito por IA.</strong> Textos e números gerados por agentes de IA a partir das fontes oficiais indicadas. Cada número foi conferido automaticamente com os dados de origem e por um verificador independente, sem revisão humana prévia. Não constitui aconselhamento financeiro, fiscal ou jurídico.</p>
-  <p>Proposta preparada por Pedro Silva · Dados consultados a 16 de novembro de 2026.</p>
+  <p>Proposta preparada por Pedro Silva · Dados consultados a 16 de novembro de 2026; turismo a 18 de novembro.</p>
 </footer>
 </div>
 `;

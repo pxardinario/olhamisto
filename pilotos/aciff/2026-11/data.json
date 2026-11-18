@@ -1,56 +1,56 @@
 {
  "edicao": "2026-11-17",
- "gerado": "2026-11-16T17:53:45.954Z",
+ "gerado": "2026-11-18T21:24:57.867Z",
  "turismo": {
-  "periodo": "2026-08",
-  "estado": "agosto de 2026: dados preliminares; janeiro a julho de 2026: provisórios (INE)",
-  "dormidas": 61496,
-  "dormidas_ano_anterior": 65300,
-  "hospedes": 26633,
-  "hospedes_ano_anterior": 27208,
-  "var_dormidas": -5.8,
-  "var_hospedes": -2.1,
-  "estada": 2.31,
-  "estada_ano_anterior": 2.4,
-  "ytd_2026": 264019,
-  "ytd_2025": 271971,
-  "var_ytd": -2.9,
-  "var_portugal": 1.7,
+  "periodo": "2026-09",
+  "estado": "setembro de 2026: dados preliminares; janeiro a agosto de 2026: provisórios (INE)",
+  "dormidas": 45977,
+  "dormidas_ano_anterior": 41075,
+  "hospedes": 21256,
+  "hospedes_ano_anterior": 20181,
+  "var_dormidas": 11.9,
+  "var_hospedes": 5.3,
+  "estada": 2.16,
+  "estada_ano_anterior": 2.04,
+  "ytd_2026": 310104,
+  "ytd_2025": 313046,
+  "var_ytd": -0.9,
+  "var_portugal": 2,
   "pares": [
    {
-    "nome": "Coimbra",
-    "var_agosto": 9.2,
-    "var_ytd": -2.4
-   },
-   {
-    "nome": "Aveiro",
-    "var_agosto": 1,
-    "var_ytd": -2.4
-   },
-   {
-    "nome": "Nazaré",
-    "var_agosto": -2.5,
-    "var_ytd": -6.5
-   },
-   {
-    "nome": "Peniche",
-    "var_agosto": -3.7,
-    "var_ytd": -4.8
-   },
-   {
     "nome": "Figueira da Foz",
-    "var_agosto": -5.8,
-    "var_ytd": -2.9
+    "var_mes": 11.9,
+    "var_ytd": -0.9
    },
    {
     "nome": "Ílhavo",
-    "var_agosto": -7.8,
-    "var_ytd": 0.4
+    "var_mes": 9.6,
+    "var_ytd": 1.7
+   },
+   {
+    "nome": "Nazaré",
+    "var_mes": 4.6,
+    "var_ytd": -5.1
+   },
+   {
+    "nome": "Coimbra",
+    "var_mes": 1.7,
+    "var_ytd": -2.6
+   },
+   {
+    "nome": "Aveiro",
+    "var_mes": -3,
+    "var_ytd": -2.4
+   },
+   {
+    "nome": "Peniche",
+    "var_mes": -4.3,
+    "var_ytd": -5.1
    },
    {
     "nome": "Leiria",
-    "var_agosto": -8.8,
-    "var_ytd": -7.3
+    "var_mes": -8.9,
+    "var_ytd": -7.5
    }
   ],
   "serie": [
@@ -180,9 +180,19 @@
    },
    {
     "periodo": "2026-08",
-    "valor": 61496
+    "valor": 61604
+   },
+   {
+    "periodo": "2026-09",
+    "valor": 45977
    }
-  ]
+  ],
+  "agosto": {
+   "dormidas": 61604,
+   "var": -5.7,
+   "estada": 2.31
+  },
+  "var_hospedes_pt": 2.5
  },
  "desemprego": {
   "periodo": "2026-09",
