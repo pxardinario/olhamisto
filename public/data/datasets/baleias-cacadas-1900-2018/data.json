@@ -1,0 +1,1324 @@
+{
+ "rows": [
+  {
+   "cat": "1900",
+   "blue": 381,
+   "fin": 502,
+   "sperm": 0,
+   "sei": 40,
+   "minke": 0,
+   "other": 736,
+   "tot": 1659
+  },
+  {
+   "cat": "1901",
+   "blue": 299,
+   "fin": 570,
+   "sperm": 8,
+   "sei": 29,
+   "minke": 0,
+   "other": 1345,
+   "tot": 2251
+  },
+  {
+   "cat": "1902",
+   "blue": 142,
+   "fin": 673,
+   "sperm": 2,
+   "sei": 58,
+   "minke": 0,
+   "other": 2076,
+   "tot": 2951
+  },
+  {
+   "cat": "1903",
+   "blue": 492,
+   "fin": 988,
+   "sperm": 152,
+   "sei": 106,
+   "minke": 0,
+   "other": 1699,
+   "tot": 3437
+  },
+  {
+   "cat": "1904",
+   "blue": 873,
+   "fin": 1949,
+   "sperm": 13,
+   "sei": 176,
+   "minke": 0,
+   "other": 1538,
+   "tot": 4549
+  },
+  {
+   "cat": "1905",
+   "blue": 1053,
+   "fin": 1986,
+   "sperm": 14,
+   "sei": 233,
+   "minke": 0,
+   "other": 1535,
+   "tot": 4821
+  },
+  {
+   "cat": "1906",
+   "blue": 545,
+   "fin": 1272,
+   "sperm": 11,
+   "sei": 473,
+   "minke": 0,
+   "other": 2320,
+   "tot": 4621
+  },
+  {
+   "cat": "1907",
+   "blue": 497,
+   "fin": 1487,
+   "sperm": 16,
+   "sei": 476,
+   "minke": 0,
+   "other": 4470,
+   "tot": 6946
+  },
+  {
+   "cat": "1908",
+   "blue": 722,
+   "fin": 1886,
+   "sperm": 14,
+   "sei": 864,
+   "minke": 0,
+   "other": 5552,
+   "tot": 9038
+  },
+  {
+   "cat": "1909",
+   "blue": 584,
+   "fin": 2327,
+   "sperm": 75,
+   "sei": 1109,
+   "minke": 0,
+   "other": 7742,
+   "tot": 11837
+  },
+  {
+   "cat": "1910",
+   "blue": 701,
+   "fin": 2452,
+   "sperm": 78,
+   "sei": 728,
+   "minke": 0,
+   "other": 13245,
+   "tot": 17204
+  },
+  {
+   "cat": "1911",
+   "blue": 1869,
+   "fin": 4739,
+   "sperm": 258,
+   "sei": 619,
+   "minke": 0,
+   "other": 14903,
+   "tot": 22388
+  },
+  {
+   "cat": "1912",
+   "blue": 3195,
+   "fin": 7244,
+   "sperm": 658,
+   "sei": 565,
+   "minke": 0,
+   "other": 13474,
+   "tot": 25136
+  },
+  {
+   "cat": "1913",
+   "blue": 3360,
+   "fin": 7612,
+   "sperm": 729,
+   "sei": 1622,
+   "minke": 0,
+   "other": 11953,
+   "tot": 25276
+  },
+  {
+   "cat": "1914",
+   "blue": 5776,
+   "fin": 7558,
+   "sperm": 1061,
+   "sei": 952,
+   "minke": 1,
+   "other": 8988,
+   "tot": 24336
+  },
+  {
+   "cat": "1915",
+   "blue": 5876,
+   "fin": 7885,
+   "sperm": 1078,
+   "sei": 829,
+   "minke": 11,
+   "other": 4901,
+   "tot": 20580
+  },
+  {
+   "cat": "1916",
+   "blue": 4605,
+   "fin": 4400,
+   "sperm": 1122,
+   "sei": 560,
+   "minke": 0,
+   "other": 1863,
+   "tot": 12550
+  },
+  {
+   "cat": "1917",
+   "blue": 3394,
+   "fin": 3310,
+   "sperm": 469,
+   "sei": 837,
+   "minke": 11,
+   "other": 797,
+   "tot": 8818
+  },
+  {
+   "cat": "1918",
+   "blue": 2359,
+   "fin": 4927,
+   "sperm": 953,
+   "sei": 1132,
+   "minke": 7,
+   "other": 907,
+   "tot": 10285
+  },
+  {
+   "cat": "1919",
+   "blue": 2168,
+   "fin": 5174,
+   "sperm": 1165,
+   "sei": 1165,
+   "minke": 14,
+   "other": 1298,
+   "tot": 10984
+  },
+  {
+   "cat": "1920",
+   "blue": 3265,
+   "fin": 7577,
+   "sperm": 833,
+   "sei": 1188,
+   "minke": 6,
+   "other": 1547,
+   "tot": 14416
+  },
+  {
+   "cat": "1921",
+   "blue": 4697,
+   "fin": 3806,
+   "sperm": 809,
+   "sei": 715,
+   "minke": 21,
+   "other": 844,
+   "tot": 10892
+  },
+  {
+   "cat": "1922",
+   "blue": 6950,
+   "fin": 6203,
+   "sperm": 1090,
+   "sei": 695,
+   "minke": 20,
+   "other": 2777,
+   "tot": 17735
+  },
+  {
+   "cat": "1923",
+   "blue": 5100,
+   "fin": 6520,
+   "sperm": 1011,
+   "sei": 1191,
+   "minke": 20,
+   "other": 2589,
+   "tot": 16431
+  },
+  {
+   "cat": "1924",
+   "blue": 6975,
+   "fin": 8547,
+   "sperm": 1077,
+   "sei": 1633,
+   "minke": 20,
+   "other": 2168,
+   "tot": 20420
+  },
+  {
+   "cat": "1925",
+   "blue": 6517,
+   "fin": 13906,
+   "sperm": 1587,
+   "sei": 1348,
+   "minke": 20,
+   "other": 4015,
+   "tot": 27393
+  },
+  {
+   "cat": "1926",
+   "blue": 9014,
+   "fin": 10657,
+   "sperm": 1680,
+   "sei": 2113,
+   "minke": 13,
+   "other": 3198,
+   "tot": 26675
+  },
+  {
+   "cat": "1927",
+   "blue": 10535,
+   "fin": 8417,
+   "sperm": 1591,
+   "sei": 2133,
+   "minke": 13,
+   "other": 2912,
+   "tot": 25601
+  },
+  {
+   "cat": "1928",
+   "blue": 14833,
+   "fin": 9778,
+   "sperm": 2108,
+   "sei": 1985,
+   "minke": 9,
+   "other": 2060,
+   "tot": 30773
+  },
+  {
+   "cat": "1929",
+   "blue": 19171,
+   "fin": 14650,
+   "sperm": 2335,
+   "sei": 1049,
+   "minke": 15,
+   "other": 1544,
+   "tot": 38764
+  },
+  {
+   "cat": "1930",
+   "blue": 30727,
+   "fin": 12900,
+   "sperm": 1677,
+   "sei": 929,
+   "minke": 60,
+   "other": 2122,
+   "tot": 48415
+  },
+  {
+   "cat": "1931",
+   "blue": 6732,
+   "fin": 4215,
+   "sperm": 565,
+   "sei": 522,
+   "minke": 194,
+   "other": 549,
+   "tot": 12777
+  },
+  {
+   "cat": "1932",
+   "blue": 19180,
+   "fin": 6550,
+   "sperm": 924,
+   "sei": 490,
+   "minke": 369,
+   "other": 795,
+   "tot": 28308
+  },
+  {
+   "cat": "1933",
+   "blue": 17542,
+   "fin": 9197,
+   "sperm": 1987,
+   "sei": 447,
+   "minke": 546,
+   "other": 1520,
+   "tot": 31239
+  },
+  {
+   "cat": "1934",
+   "blue": 16719,
+   "fin": 14395,
+   "sperm": 2207,
+   "sei": 812,
+   "minke": 731,
+   "other": 4452,
+   "tot": 39316
+  },
+  {
+   "cat": "1935",
+   "blue": 18064,
+   "fin": 11275,
+   "sperm": 2323,
+   "sei": 698,
+   "minke": 908,
+   "other": 6115,
+   "tot": 39383
+  },
+  {
+   "cat": "1936",
+   "blue": 14755,
+   "fin": 16983,
+   "sperm": 5715,
+   "sei": 1309,
+   "minke": 1078,
+   "other": 9889,
+   "tot": 49729
+  },
+  {
+   "cat": "1937",
+   "blue": 15297,
+   "fin": 31451,
+   "sperm": 7486,
+   "sei": 907,
+   "minke": 1283,
+   "other": 7534,
+   "tot": 63958
+  },
+  {
+   "cat": "1938",
+   "blue": 14231,
+   "fin": 22556,
+   "sperm": 5583,
+   "sei": 791,
+   "minke": 1422,
+   "other": 4212,
+   "tot": 48795
+  },
+  {
+   "cat": "1939",
+   "blue": 11566,
+   "fin": 20567,
+   "sperm": 4867,
+   "sei": 874,
+   "minke": 987,
+   "other": 2503,
+   "tot": 41364
+  },
+  {
+   "cat": "1940",
+   "blue": 5028,
+   "fin": 9035,
+   "sperm": 3744,
+   "sei": 571,
+   "minke": 727,
+   "other": 3308,
+   "tot": 22413
+  },
+  {
+   "cat": "1941",
+   "blue": 144,
+   "fin": 2516,
+   "sperm": 4951,
+   "sei": 749,
+   "minke": 2365,
+   "other": 324,
+   "tot": 11049
+  },
+  {
+   "cat": "1942",
+   "blue": 147,
+   "fin": 1747,
+   "sperm": 4868,
+   "sei": 394,
+   "minke": 2459,
+   "other": 406,
+   "tot": 10021
+  },
+  {
+   "cat": "1943",
+   "blue": 365,
+   "fin": 2193,
+   "sperm": 5576,
+   "sei": 630,
+   "minke": 1911,
+   "other": 403,
+   "tot": 11078
+  },
+  {
+   "cat": "1944",
+   "blue": 1057,
+   "fin": 2851,
+   "sperm": 2608,
+   "sei": 891,
+   "minke": 1610,
+   "other": 347,
+   "tot": 9364
+  },
+  {
+   "cat": "1945",
+   "blue": 3674,
+   "fin": 10276,
+   "sperm": 2112,
+   "sei": 227,
+   "minke": 1878,
+   "other": 576,
+   "tot": 18743
+  },
+  {
+   "cat": "1946",
+   "blue": 9283,
+   "fin": 16389,
+   "sperm": 4618,
+   "sei": 1025,
+   "minke": 2013,
+   "other": 368,
+   "tot": 33696
+  },
+  {
+   "cat": "1947",
+   "blue": 7034,
+   "fin": 23225,
+   "sperm": 9208,
+   "sei": 1215,
+   "minke": 2716,
+   "other": 547,
+   "tot": 43945
+  },
+  {
+   "cat": "1948",
+   "blue": 7873,
+   "fin": 21999,
+   "sperm": 11225,
+   "sei": 1431,
+   "minke": 3893,
+   "other": 1002,
+   "tot": 47423
+  },
+  {
+   "cat": "1949",
+   "blue": 6338,
+   "fin": 22405,
+   "sperm": 7644,
+   "sei": 2427,
+   "minke": 4181,
+   "other": 6257,
+   "tot": 49252
+  },
+  {
+   "cat": "1950",
+   "blue": 7180,
+   "fin": 22152,
+   "sperm": 10391,
+   "sei": 1577,
+   "minke": 2275,
+   "other": 6117,
+   "tot": 49692
+  },
+  {
+   "cat": "1951",
+   "blue": 5327,
+   "fin": 25973,
+   "sperm": 20795,
+   "sei": 2401,
+   "minke": 3199,
+   "other": 5218,
+   "tot": 62913
+  },
+  {
+   "cat": "1952",
+   "blue": 4152,
+   "fin": 25831,
+   "sperm": 8572,
+   "sei": 2812,
+   "minke": 3904,
+   "other": 4092,
+   "tot": 49363
+  },
+  {
+   "cat": "1953",
+   "blue": 3045,
+   "fin": 30404,
+   "sperm": 10058,
+   "sei": 2551,
+   "minke": 2943,
+   "other": 3137,
+   "tot": 52138
+  },
+  {
+   "cat": "1954",
+   "blue": 2758,
+   "fin": 31530,
+   "sperm": 17936,
+   "sei": 2007,
+   "minke": 3952,
+   "other": 4469,
+   "tot": 62652
+  },
+  {
+   "cat": "1955",
+   "blue": 1894,
+   "fin": 30452,
+   "sperm": 16665,
+   "sei": 1868,
+   "minke": 4876,
+   "other": 6480,
+   "tot": 62235
+  },
+  {
+   "cat": "1956",
+   "blue": 1876,
+   "fin": 31093,
+   "sperm": 16055,
+   "sei": 3109,
+   "minke": 4383,
+   "other": 3398,
+   "tot": 59914
+  },
+  {
+   "cat": "1957",
+   "blue": 1923,
+   "fin": 30901,
+   "sperm": 20911,
+   "sei": 4584,
+   "minke": 4457,
+   "other": 5180,
+   "tot": 67956
+  },
+  {
+   "cat": "1958",
+   "blue": 1383,
+   "fin": 30693,
+   "sperm": 20549,
+   "sei": 4727,
+   "minke": 5276,
+   "other": 8600,
+   "tot": 71228
+  },
+  {
+   "cat": "1959",
+   "blue": 1094,
+   "fin": 28512,
+   "sperm": 19157,
+   "sei": 6607,
+   "minke": 3843,
+   "other": 16378,
+   "tot": 75591
+  },
+  {
+   "cat": "1960",
+   "blue": 1829,
+   "fin": 30245,
+   "sperm": 20468,
+   "sei": 7703,
+   "minke": 3994,
+   "other": 15225,
+   "tot": 79464
+  },
+  {
+   "cat": "1961",
+   "blue": 1237,
+   "fin": 29506,
+   "sperm": 22688,
+   "sei": 8220,
+   "minke": 3859,
+   "other": 9129,
+   "tot": 74639
+  },
+  {
+   "cat": "1962",
+   "blue": 1898,
+   "fin": 20561,
+   "sperm": 24465,
+   "sei": 9178,
+   "minke": 4006,
+   "other": 6667,
+   "tot": 66775
+  },
+  {
+   "cat": "1963",
+   "blue": 2113,
+   "fin": 17943,
+   "sperm": 34985,
+   "sei": 13583,
+   "minke": 4203,
+   "other": 4084,
+   "tot": 76911
+  },
+  {
+   "cat": "1964",
+   "blue": 3603,
+   "fin": 12773,
+   "sperm": 33703,
+   "sei": 25753,
+   "minke": 3859,
+   "other": 2503,
+   "tot": 82194
+  },
+  {
+   "cat": "1965",
+   "blue": 1756,
+   "fin": 7411,
+   "sperm": 31036,
+   "sei": 24589,
+   "minke": 3472,
+   "other": 3516,
+   "tot": 71780
+  },
+  {
+   "cat": "1966",
+   "blue": 726,
+   "fin": 7077,
+   "sperm": 36090,
+   "sei": 21435,
+   "minke": 3621,
+   "other": 1552,
+   "tot": 70501
+  },
+  {
+   "cat": "1967",
+   "blue": 558,
+   "fin": 5643,
+   "sperm": 30801,
+   "sei": 21620,
+   "minke": 4384,
+   "other": 1233,
+   "tot": 64239
+  },
+  {
+   "cat": "1968",
+   "blue": 730,
+   "fin": 6257,
+   "sperm": 28290,
+   "sei": 16752,
+   "minke": 4425,
+   "other": 298,
+   "tot": 56752
+  },
+  {
+   "cat": "1969",
+   "blue": 977,
+   "fin": 5184,
+   "sperm": 32421,
+   "sei": 16144,
+   "minke": 4302,
+   "other": 287,
+   "tot": 59315
+  },
+  {
+   "cat": "1970",
+   "blue": 855,
+   "fin": 5261,
+   "sperm": 28763,
+   "sei": 13397,
+   "minke": 4727,
+   "other": 123,
+   "tot": 53126
+  },
+  {
+   "cat": "1971",
+   "blue": 552,
+   "fin": 3748,
+   "sperm": 29047,
+   "sei": 10687,
+   "minke": 7926,
+   "other": 793,
+   "tot": 52753
+  },
+  {
+   "cat": "1972",
+   "blue": 7,
+   "fin": 3286,
+   "sperm": 20288,
+   "sei": 7011,
+   "minke": 11080,
+   "other": 144,
+   "tot": 41816
+  },
+  {
+   "cat": "1973",
+   "blue": 2,
+   "fin": 2163,
+   "sperm": 19744,
+   "sei": 6930,
+   "minke": 12471,
+   "other": 396,
+   "tot": 41706
+  },
+  {
+   "cat": "1974",
+   "blue": 0,
+   "fin": 1901,
+   "sperm": 22843,
+   "sei": 5742,
+   "minke": 11562,
+   "other": 1187,
+   "tot": 43235
+  },
+  {
+   "cat": "1975",
+   "blue": 0,
+   "fin": 791,
+   "sperm": 19305,
+   "sei": 2971,
+   "minke": 10728,
+   "other": 1246,
+   "tot": 35041
+  },
+  {
+   "cat": "1976",
+   "blue": 1,
+   "fin": 569,
+   "sperm": 14464,
+   "sei": 1911,
+   "minke": 12731,
+   "other": 1600,
+   "tot": 31276
+  },
+  {
+   "cat": "1977",
+   "blue": 2,
+   "fin": 432,
+   "sperm": 12722,
+   "sei": 729,
+   "minke": 9612,
+   "other": 1232,
+   "tot": 24729
+  },
+  {
+   "cat": "1978",
+   "blue": 3,
+   "fin": 945,
+   "sperm": 10542,
+   "sei": 240,
+   "minke": 9444,
+   "other": 812,
+   "tot": 21986
+  },
+  {
+   "cat": "1979",
+   "blue": 0,
+   "fin": 851,
+   "sperm": 4446,
+   "sei": 163,
+   "minke": 11421,
+   "other": 1101,
+   "tot": 17982
+  },
+  {
+   "cat": "1980",
+   "blue": 0,
+   "fin": 459,
+   "sperm": 2091,
+   "sei": 103,
+   "minke": 10699,
+   "other": 969,
+   "tot": 14321
+  },
+  {
+   "cat": "1981",
+   "blue": 0,
+   "fin": 404,
+   "sperm": 1452,
+   "sei": 100,
+   "minke": 11115,
+   "other": 651,
+   "tot": 13722
+  },
+  {
+   "cat": "1982",
+   "blue": 0,
+   "fin": 347,
+   "sperm": 621,
+   "sei": 71,
+   "minke": 10692,
+   "other": 805,
+   "tot": 12536
+  },
+  {
+   "cat": "1983",
+   "blue": 0,
+   "fin": 270,
+   "sperm": 414,
+   "sei": 100,
+   "minke": 9528,
+   "other": 881,
+   "tot": 11193
+  },
+  {
+   "cat": "1984",
+   "blue": 0,
+   "fin": 271,
+   "sperm": 454,
+   "sei": 95,
+   "minke": 7321,
+   "other": 528,
+   "tot": 8669
+  },
+  {
+   "cat": "1985",
+   "blue": 0,
+   "fin": 210,
+   "sperm": 400,
+   "sei": 38,
+   "minke": 6932,
+   "other": 357,
+   "tot": 7937
+  },
+  {
+   "cat": "1986",
+   "blue": 0,
+   "fin": 76,
+   "sperm": 200,
+   "sei": 40,
+   "minke": 5728,
+   "other": 317,
+   "tot": 6361
+  },
+  {
+   "cat": "1987",
+   "blue": 0,
+   "fin": 80,
+   "sperm": 191,
+   "sei": 20,
+   "minke": 946,
+   "other": 317,
+   "tot": 1554
+  },
+  {
+   "cat": "1988",
+   "blue": 0,
+   "fin": 68,
+   "sperm": 0,
+   "sei": 10,
+   "minke": 270,
+   "other": 0,
+   "tot": 348
+  },
+  {
+   "cat": "1989",
+   "blue": 0,
+   "fin": 68,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 349,
+   "other": 26,
+   "tot": 443
+  },
+  {
+   "cat": "1990",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 327,
+   "other": 44,
+   "tot": 371
+  },
+  {
+   "cat": "1991",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 289,
+   "other": 48,
+   "tot": 337
+  },
+  {
+   "cat": "1992",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 425,
+   "other": 50,
+   "tot": 475
+  },
+  {
+   "cat": "1993",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 556,
+   "other": 52,
+   "tot": 608
+  },
+  {
+   "cat": "1994",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 610,
+   "other": 47,
+   "tot": 657
+  },
+  {
+   "cat": "1995",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 758,
+   "other": 57,
+   "tot": 815
+  },
+  {
+   "cat": "1996",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 905,
+   "other": 45,
+   "tot": 950
+  },
+  {
+   "cat": "1997",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 1055,
+   "other": 66,
+   "tot": 1121
+  },
+  {
+   "cat": "1998",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 1114,
+   "other": 56,
+   "tot": 1170
+  },
+  {
+   "cat": "1999",
+   "blue": 0,
+   "fin": 0,
+   "sperm": 0,
+   "sei": 0,
+   "minke": 1130,
+   "other": 48,
+   "tot": 1178
+  },
+  {
+   "cat": "2000",
+   "blue": 0,
+   "fin": 7,
+   "sperm": 5,
+   "sei": 0,
+   "minke": 1128,
+   "other": 210,
+   "tot": 1350
+  },
+  {
+   "cat": "2001",
+   "blue": 0,
+   "fin": 8,
+   "sperm": 8,
+   "sei": 1,
+   "minke": 1261,
+   "other": 242,
+   "tot": 1520
+  },
+  {
+   "cat": "2002",
+   "blue": 0,
+   "fin": 13,
+   "sperm": 5,
+   "sei": 40,
+   "minke": 1377,
+   "other": 239,
+   "tot": 1674
+  },
+  {
+   "cat": "2003",
+   "blue": 0,
+   "fin": 9,
+   "sperm": 10,
+   "sei": 50,
+   "minke": 1482,
+   "other": 224,
+   "tot": 1775
+  },
+  {
+   "cat": "2004",
+   "blue": 0,
+   "fin": 13,
+   "sperm": 3,
+   "sei": 100,
+   "minke": 1368,
+   "other": 208,
+   "tot": 1692
+  },
+  {
+   "cat": "2005",
+   "blue": 0,
+   "fin": 23,
+   "sperm": 5,
+   "sei": 100,
+   "minke": 1939,
+   "other": 247,
+   "tot": 2314
+  },
+  {
+   "cat": "2006",
+   "blue": 0,
+   "fin": 21,
+   "sperm": 6,
+   "sei": 102,
+   "minke": 1497,
+   "other": 229,
+   "tot": 1855
+  },
+  {
+   "cat": "2007",
+   "blue": 0,
+   "fin": 12,
+   "sperm": 3,
+   "sei": 100,
+   "minke": 1592,
+   "other": 246,
+   "tot": 1953
+  },
+  {
+   "cat": "2008",
+   "blue": 0,
+   "fin": 15,
+   "sperm": 2,
+   "sei": 100,
+   "minke": 1585,
+   "other": 238,
+   "tot": 1940
+  },
+  {
+   "cat": "2009",
+   "blue": 0,
+   "fin": 136,
+   "sperm": 1,
+   "sei": 101,
+   "minke": 1421,
+   "other": 212,
+   "tot": 1871
+  },
+  {
+   "cat": "2010",
+   "blue": 0,
+   "fin": 156,
+   "sperm": 23,
+   "sei": 100,
+   "minke": 1025,
+   "other": 261,
+   "tot": 1565
+  },
+  {
+   "cat": "2011",
+   "blue": 0,
+   "fin": 6,
+   "sperm": 21,
+   "sei": 96,
+   "minke": 1193,
+   "other": 243,
+   "tot": 1559
+  },
+  {
+   "cat": "2012",
+   "blue": 0,
+   "fin": 5,
+   "sperm": 23,
+   "sei": 100,
+   "minke": 959,
+   "other": 261,
+   "tot": 1348
+  },
+  {
+   "cat": "2013",
+   "blue": 0,
+   "fin": 143,
+   "sperm": 21,
+   "sei": 100,
+   "minke": 1169,
+   "other": 228,
+   "tot": 1661
+  },
+  {
+   "cat": "2014",
+   "blue": 0,
+   "fin": 149,
+   "sperm": 20,
+   "sei": 90,
+   "minke": 1009,
+   "other": 213,
+   "tot": 1481
+  },
+  {
+   "cat": "2015",
+   "blue": 0,
+   "fin": 168,
+   "sperm": 20,
+   "sei": 90,
+   "minke": 1247,
+   "other": 209,
+   "tot": 1734
+  },
+  {
+   "cat": "2016",
+   "blue": 0,
+   "fin": 9,
+   "sperm": 20,
+   "sei": 90,
+   "minke": 1174,
+   "other": 215,
+   "tot": 1508
+  },
+  {
+   "cat": "2017",
+   "blue": 0,
+   "fin": 8,
+   "sperm": 20,
+   "sei": 134,
+   "minke": 1056,
+   "other": 182,
+   "tot": 1400
+  },
+  {
+   "cat": "2018",
+   "blue": 0,
+   "fin": 153,
+   "sperm": 20,
+   "sei": 135,
+   "minke": 1083,
+   "other": 185,
+   "tot": 1576
+  }
+ ],
+ "views": [
+  {
+   "id": "esp",
+   "label": "Por espécie",
+   "yLabel": "Grandes baleias mortas por ano no mundo, por espécie",
+   "unit": " baleias",
+   "decimals": 0,
+   "labelEvery": 10,
+   "labelEveryNarrow": 20,
+   "yMax": 90000,
+   "marginLeft": [
+    46,
+    54
+   ],
+   "series": [
+    {
+     "key": "other",
+     "label": "Outras (bossa, Bryde, cinzenta, franca, gronelândia, não identificadas)",
+     "color": "--muted"
+    },
+    {
+     "key": "minke",
+     "label": "Baleia-anã",
+     "color": "--accent-4"
+    },
+    {
+     "key": "sei",
+     "label": "Baleia-sardinheira",
+     "color": "--accent-3"
+    },
+    {
+     "key": "sperm",
+     "label": "Cachalote",
+     "color": "--ink-3"
+    },
+    {
+     "key": "fin",
+     "label": "Baleia-comum",
+     "color": "--ink-2"
+    },
+    {
+     "key": "blue",
+     "label": "Baleia-azul",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "tot",
+     "label": "Total",
+     "suffix": ""
+    }
+   ],
+   "notes": [
+    {
+     "cat": "1930",
+     "text": "1930: 30 727 baleias-azuis",
+     "short": "1930"
+    },
+    {
+     "cat": "1964",
+     "text": "1964: 82 194 baleias",
+     "short": "1964"
+    },
+    {
+     "cat": "1986",
+     "text": "1986: moratória comercial",
+     "short": "1986"
+    }
+   ]
+  },
+  {
+   "id": "azul",
+   "label": "Só a baleia-azul",
+   "yLabel": "Baleias-azuis mortas por ano no mundo",
+   "unit": " baleias",
+   "decimals": 0,
+   "labelEvery": 10,
+   "labelEveryNarrow": 20,
+   "marginLeft": [
+    46,
+    54
+   ],
+   "series": [
+    {
+     "key": "blue",
+     "label": "Baleia-azul",
+     "color": "--accent-2"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "1930",
+     "text": "1930: 30 727",
+     "short": "1930"
+    },
+    {
+     "cat": "1966",
+     "text": "1966: proteção pela CBI",
+     "short": "1966"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "sumW20": 2883703,
+  "sumH": 2883164,
+  "sumS": 2053940,
+  "peak": "1964",
+  "peakV": 82194,
+  "bluePeak": "1930",
+  "bluePeakV": 30727,
+  "d1950": 613682,
+  "d1960": 702570,
+  "blue20": 379185,
+  "fin20": 874068,
+  "sperm20": 755908,
+  "max2000": 2314,
+  "max2000y": "2005",
+  "v2018": 1576,
+  "blue1965": 1756,
+  "after1987": true,
+  "decSp": {
+   "blue": 1930,
+   "fin": 1950,
+   "sperm": 1960,
+   "sei": 1960,
+   "minke": 1970
+  }
+ }
+}

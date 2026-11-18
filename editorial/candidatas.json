@@ -253,6 +253,39 @@
    "bloqueio": "2026-11-17: falta a quantidade em toneladas ou onças (a série 12469165 só cobre contas de ouro não afetado) e o total das reservas (12469147 veio vazia) para separar preço e quantidade e calcular o peso do ouro.",
    "registada": "2026-11-17",
    "tentativas": 1
+  },
+  {
+   "id": "antibioticos-consumo-ue-2025",
+   "tema": "saude",
+   "ideia": "Consumo de antibióticos na UE e em Portugal face à meta de reduzir 20% até 2030 (Dia Europeu dos Antibióticos, 18 de novembro)",
+   "fonte": "ECDC, ESAC-Net (relatório epidemiológico anual sobre consumo de antimicrobianos)",
+   "licenca": "ECDC: reutilização com citação (confirmar)",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-18: os dados por país só aparecem no atlas interativo do ECDC; não se encontrou ficheiro descarregável. Procurar o CSV do ESAC-Net ou a tabela do relatório anual em ecdc.europa.eu (domínio *.europa.eu acessível).",
+   "registada": "2026-11-18",
+   "tentativas": 1
+  },
+  {
+   "id": "salarios-reais-portugal-2014-2026",
+   "tema": "economia",
+   "ideia": "Remuneração bruta mensal média por trabalhador deflacionada pelo IPC desde 2014 (o choque de 2022 e a recuperação)",
+   "fonte": "INE 0011130 (DMR da Segurança Social e CGA, trimestral desde 2014) e IPC 0014640",
+   "licenca": "CC BY 4.0",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-18: dados acessíveis; o salário real regular subiu 14% entre o 3.º trimestre de 2014 e o de 2026, com queda de 5% em 2022, mas a média é afetada pela composição do emprego (2020) e não houve uma descoberta forte. Tentar com a mediana ou por setor (0011130 por atividade).",
+   "registada": "2026-11-18",
+   "tentativas": 1
+  },
+  {
+   "id": "fogos-concluidos-1975-2025",
+   "tema": "portugal",
+   "ideia": "Fogos concluídos em construções novas para habitação desde 1975, comparados com as licenças",
+   "fonte": "INE 0011725 (série longa, atualizada a 18-11-2026) e 0011727",
+   "licenca": "CC BY 4.0",
+   "estado": "pronta",
+   "bloqueio": "2026-11-18: adiada por repetir o tema da habitação publicado a 13 de novembro (licenças de 2025). Usar só se a série de conclusões acrescentar algo (desfasamento licença–conclusão).",
+   "registada": "2026-11-18",
+   "tentativas": 0
   }
  ]
 }

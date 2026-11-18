@@ -1,0 +1,285 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-18",
+ "number": 12,
+ "status": "publicada",
+ "opening": "Cinco histórias para quarta-feira: o salto dos comboios com o passe de 20 euros, o recuo do dinheiro vivo, a caça à baleia no século XX, a década perdida no PISA e o comércio europeu com a China no ano das tarifas.",
+ "lead": "comboios-passe-ferroviario-2004-2026",
+ "generatedAt": "2026-11-18T08:00:00Z",
+ "limitations": [
+  "Mistura da edição: 2 peças de atualidade (pagamentos Multibanco e comércio UE–China) e 3 de descoberta. Peças do tipo «Portugal comparado com a Europa»: 1 (PISA). Peça com fonte não oficial: baleias (Rocha, Clapham e Ivashchenko, 2014, compilação da Our World in Data). Peças sem Portugal como ângulo principal: baleias e comércio. Tipos de gráfico: linhas (2), colunas (2) e barras divergentes.",
+  "Verificação independente: as cinco peças e a Chave do Dia ficaram verificadas depois de correções (antecessor do passe ferroviário e data do alargamento, base das compras online, proteção da baleia-azul, unidade no PISA, cor de destaque da China, data do estudo do efeito holofote). Na Chave, os valores de 46% e 23% vêm de fontes secundárias; o artigo original não abriu neste ambiente.",
+  "Candidatas rejeitadas: salários reais desde 2014 (INE; sem descoberta forte e com efeitos de composição), preços da eletricidade para as famílias no 1.º semestre de 2026 (Eurostat; variações pequenas, sem história), consumo de antibióticos na UE no Dia Europeu dos Antibióticos (ECDC; dados só no atlas interativo), construção de centros de dados nos EUA (sem série na FRED), avaliação do mercado bolsista dos EUA (CAPE de Shiller; a cópia disponível termina em 2023) e desemprego regional no 3.º trimestre (sem descoberta clara).",
+  "Nesta execução, o Banco Mundial e o grapher da Our World in Data não responderam pela linha de comandos; a API do BCE recusou pedidos com curingas; o WebFetch não abriu cornellalumnimagazine.com nem psychologyib.com."
+ ],
+ "pieces": [
+  {
+   "id": "comboios-passe-ferroviario-2004-2026",
+   "slug": "comboios-passe-ferroviario-verde-passageiros-2004-2026",
+   "kind": "descoberta",
+   "theme": "portugal",
+   "themeLabel": "Portugal e políticas públicas",
+   "vizType": "linha",
+   "vizLabel": "Linhas · soma de 12 meses · escala log ⇄ linear",
+   "interactive": true,
+   "title": "No primeiro ano do passe ferroviário de 20 euros, as viagens de comboio fora dos suburbanos quase duplicaram",
+   "question": "O passe ferroviário de 20 euros mudou a forma como se viaja de comboio em Portugal?",
+   "finding": "O tráfego ferroviário nacional, que exclui os suburbanos, passou de 20,9 milhões de passageiros em 2024 para 39,4 milhões em 2025 (+88,3%). Entre 2004 e 2024 nunca tinha chegado a 21 milhões num ano. Em novembro de 2024, primeiro mês completo do passe, viajaram 2,40 milhões, mais 68,9% do que um ano antes. De janeiro a agosto de 2026 houve mais 11,2% do que no mesmo período de 2025.",
+   "context": "O Passe Ferroviário Verde começou a valer a 21 de outubro de 2024: por 20 euros por mês, dá acesso aos regionais, inter-regionais e à segunda classe dos Intercidades, com reserva, mas não ao Alfa Pendular. Substituiu o Passe Ferroviário Nacional, de 49 euros, criado em agosto de 2023 só para os regionais. O INE separa o tráfego suburbano do nacional, que junta os restantes serviços.",
+   "interpretation": "A subida concentra-se no tráfego abrangido pelo passe e acelera a partir de novembro de 2024, primeiro mês completo do passe; já crescia desde 2023, com o passe de 49 euros. Isso aponta o preço como explicação principal, embora estes dados não separem outros fatores, como o turismo ou a oferta de lugares. Lembra 2019, quando os passes metropolitanos baixaram e o suburbano cresceu 23,1%.",
+   "chart": {
+    "type": "lines",
+    "dataset": "comboios-passe-ferroviario-2004-2026"
+   },
+   "period": "Janeiro de 2004 a agosto de 2026 (somas de 12 meses desde dezembro de 2004)",
+   "unit": "milhões de passageiros em 12 meses",
+   "sources": [
+    {
+     "name": "INE — Passageiros transportados pelas empresas exploradoras de sistema ferroviário pesado, por tipo de tráfego, mensal (indicador 0000901)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0000901&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-18"
+    },
+    {
+     "name": "Diário da República — Decreto-Lei n.º 73/2024, que cria o Passe Ferroviário Verde",
+     "url": "https://files.diariodarepublica.pt/1s/2024/10/20300/0000600008.pdf",
+     "accessed": "2026-11-18"
+    },
+    {
+     "name": "ECO — «Saiba como vai funcionar o passe ferroviário verde» (secundária)",
+     "url": "https://eco.sapo.pt/2024/10/18/saiba-como-vai-funcionar-o-passe-ferroviario-verde/",
+     "accessed": "2026-11-18"
+    }
+   ],
+   "method": [
+    "Passageiros transportados por mês pelas empresas de caminho de ferro pesado, em milhares, por tipo de tráfego (suburbano, nacional, internacional), segundo o Inquérito ao tráfego por caminho de ferro do INE. Para tirar a sazonalidade, cada ponto é a soma dos 12 meses que terminam nesse mês; o primeiro ponto é dezembro de 2004. Os totais anuais citados somam os 12 meses de cada ano civil.",
+    "Os dados brutos estão em raw/comboios-passe/, sem alterações. Em abril, maio e junho de 2021, a soma dos três tipos de tráfego excede o total publicado pelo INE em 188 a 228 mil passageiros; o gráfico usa os tipos de tráfego, não o total. Em setembro de 2026, depois do último mês com dados, o passe foi alargado aos comboios urbanos de Lisboa e do Porto, que contam como tráfego suburbano. O inquérito conta passageiros, não pessoas: cada viagem conta uma vez."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-18",
+    "note": "Recalculados os 1 088 valores mensais e as 261 somas de 12 meses; números do texto e amostra contra a API do INE conferidos. Corrigidos o sentido da incoerência de abril–junho de 2021, o antecessor (passe de 49 euros desde agosto de 2023), o arranque do salto (novembro de 2024) e a data do alargamento aos urbanos (setembro de 2026)."
+   }
+  },
+  {
+   "id": "multibanco-levantamentos-compras-2020-2026",
+   "slug": "multibanco-levantamentos-compras-cartao-2020-2026",
+   "kind": "atualidade",
+   "theme": "marketing",
+   "themeLabel": "Consumo e pagamentos",
+   "vizType": "barras",
+   "vizLabel": "Colunas · três vistas",
+   "interactive": true,
+   "title": "Por cada levantamento no Multibanco, há quase nove compras com cartão. Em 2022 havia quatro e meia",
+   "question": "Quanto recuou o dinheiro vivo nos pagamentos do dia a dia?",
+   "finding": "De janeiro a outubro de 2026, a rede Multibanco registou 275,3 milhões de levantamentos, o número mais baixo da série, que começa em 2020, e 2 415,7 milhões de compras em terminais de pagamento: 8,77 compras por levantamento, contra 4,50 no mesmo período de 2022. O rácio subiu todos os anos. O valor médio de cada compra desceu de 35,96 para 31,31 euros, e as compras online passaram de 3,5% para 7,5% do total.",
+   "context": "A SIBS, que gere a rede Multibanco, envia ao INE o número e o valor das operações de cada mês: levantamentos nas caixas automáticas e compras nos terminais de pagamento automático, presenciais ou online, com cartões portugueses e estrangeiros. Os dados mais recentes, de outubro, saíram a 16 de novembro. Para comparar com 2026, somam-se em cada ano só os meses de janeiro a outubro.",
+   "interpretation": "O número de compras cresceu 67,2% desde 2022 e o valor gasto 45,6%: cada compra é, em média, mais pequena, o que é compatível com a passagem de pagamentos pequenos, antes feitos em dinheiro, para o cartão e o telemóvel. Os levantamentos descem desde 2023, também em euros (de 25,20 para 22,59 mil milhões nos dez meses), apesar da subida dos preços.",
+   "chart": {
+    "type": "columns",
+    "dataset": "multibanco-levantamentos-compras-2020-2026"
+   },
+   "period": "Janeiro a outubro de cada ano, 2020 a 2026",
+   "unit": "compras por levantamento; milhões de operações",
+   "sources": [
+    {
+     "name": "SIBS, via INE — Levantamentos em caixas automáticas Multibanco, número e valor, mensal (indicadores 0012845 e 0012846)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012845&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-18"
+    },
+    {
+     "name": "SIBS, via INE — Compras através de terminais de pagamento automático, número por forma de compra e valor, mensal (indicadores 0012847 e 0012103)",
+     "url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012847&contexto=bd&selTab=tab2",
+     "accessed": "2026-11-18"
+    }
+   ],
+   "method": [
+    "Somas de janeiro a outubro de cada ano, para Portugal, de quatro indicadores mensais do INE com origem na SIBS: número e valor dos levantamentos em caixas automáticas Multibanco e número e valor das compras em terminais de pagamento automático (TPA), com cartões nacionais e estrangeiros. O rácio divide o número de compras pelo de levantamentos; o valor médio por compra divide o valor total das compras pelo número.",
+    "Os dados brutos estão em raw/multibanco-cartoes/, sem alterações. A série mensal só começa em janeiro de 2020; 2020 e 2021 aparecem a cinzento por causa da pandemia. Os números cobrem apenas operações processadas na rede Multibanco: pagamentos tratados por outras redes e transferências entre pessoas ficam de fora. Os valores estão em euros correntes, sem correção da inflação."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-18",
+    "note": "Conferidos os quatro indicadores (82 meses) e todos os valores do data.json; amostra contra a API do INE. Corrigida a base da percentagem de compras online (3,5% em 2022) e suavizada a interpretação sobre a substituição do dinheiro."
+   }
+  },
+  {
+   "id": "baleias-cacadas-1900-2018",
+   "slug": "baleias-cacadas-seculo-xx-1900-2018",
+   "kind": "descoberta",
+   "theme": "historia",
+   "themeLabel": "História e ambiente",
+   "vizType": "barras",
+   "vizLabel": "Colunas empilhadas · duas vistas",
+   "interactive": true,
+   "title": "No século XX, a caça industrial matou quase 2,9 milhões de grandes baleias. Quase metade em duas décadas",
+   "question": "Quantas baleias foram mortas no século XX, e quando?",
+   "finding": "Entre 1900 e 1999 foram mortas cerca de 2,9 milhões de grandes baleias, 71,2% no hemisfério Sul. As décadas de 1950 e 1960 somam 45,6% do total, e o pico foi em 1964, com 82 194. A baleia-azul, a maior, teve o máximo em 1930, com 30 727; em 1965, véspera da proteção total, foram 1 756. Desde 2000, o máximo num ano foi 2 314, em 2005.",
+   "context": "Os números de 1900 a 1999 vêm de Rocha, Clapham e Ivashchenko (2014), a partir dos registos da Comissão Baleeira Internacional (CBI). Desde 1986 vigora uma moratória à caça comercial, mas continuaram as capturas de países que formularam objeção, como a Noruega e a Islândia, as feitas com licença científica e a caça de subsistência de povos indígenas; desde 2000, os valores vêm da CBI.",
+   "interpretation": "A caça passou de espécie em espécie: a década de mais capturas foi a de 1930 para a azul, a de 1950 para a comum, a de 1960 para o cachalote e a sardinheira e a de 1970 para a anã. Protegida pela CBI em 1966, a baleia-azul já só tinha dado 1 756 capturas no ano anterior; a caça continuou, em menor número, até ao início dos anos 1970.",
+   "chart": {
+    "type": "columns",
+    "dataset": "baleias-cacadas-1900-2018"
+   },
+   "period": "1900 a 2018",
+   "unit": "baleias mortas por ano",
+   "sources": [
+    {
+     "name": "Rocha et al. (2014) — Rocha, Clapham e Ivashchenko, «Emptying the oceans: a summary of industrial whaling catches in the 20th century», Marine Fisheries Review 76(4), NOAA",
+     "url": "https://spo.nmfs.noaa.gov/content/mfr/emptying-oceans-summary-industrial-whaling-catches-20th-century",
+     "accessed": "2026-11-18"
+    },
+    {
+     "name": "Comissão Baleeira Internacional (CBI) — capturas totais desde 1986",
+     "url": "https://web.archive.org/web/20220613153315/https://iwc.int/public/downloads/8sXJb/Total_catches_since_1986.pdf",
+     "accessed": "2026-11-18"
+    },
+    {
+     "name": "Our World in Data, «Whale catch (Rocha et al.; IWC)», owid-datasets (cópia secundária)",
+     "url": "https://github.com/owid/owid-datasets/tree/master/datasets/Whale%20catch%20(Rocha%20et%20al.%3B%20IWC)",
+     "accessed": "2026-11-18"
+    }
+   ],
+   "method": [
+    "Série mundial de capturas anuais de grandes baleias por espécie, compilada pela Our World in Data (CC BY 4.0): de 1900 a 1999, Rocha, Clapham e Ivashchenko (2014); de 2000 a 2018 (e a baleia-da-gronelândia desde 1989), a Comissão Baleeira Internacional. O total do século soma os dois hemisférios (2 883 164); a série mundial dá 2 883 703; a diferença deve-se à inclusão da baleia-da-gronelândia desde 1989. As décadas e o máximo usam a série mundial.",
+    "Os dados brutos estão em raw/baleias-seculo-xx/, sem alterações. «Outras» junta a baleia-de-bossa, a de Bryde, a cinzenta, a franca, a da Gronelândia (desde 1989) e as capturas sem espécie identificada. Os valores antes de 2000 incluem capturas comerciais, científicas e de subsistência; depois de 2000 vêm de outra fonte, pelo que a comparação é aproximada. Os dados terminam em 2018 e não incluem a caça comercial retomada pelo Japão em 2019."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-18",
+    "note": "Conferidas as 119 linhas contra o CSV, somas por hemisfério, décadas e máximos. Corrigidos o rótulo do eixo, a frase sobre a proteção da baleia-azul em 1966 (a caça continuou até ao início dos anos 1970) e a explicação da diferença entre séries. A data de 1966 e a moratória de 1986 foram aceites como factos assentes, sem abrir uma fonte primária da CBI."
+   }
+  },
+  {
+   "id": "pisa-alunos-abaixo-minimo-2000-2025",
+   "slug": "pisa-alunos-portugueses-abaixo-nivel-minimo-2000-2025",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Educação",
+   "vizType": "linha",
+   "vizLabel": "Linhas · quatro séries · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Mais de um em cada três alunos portugueses de 15 anos não atinge o mínimo a matemática. Em 2015 era menos de um em quatro",
+   "question": "Quantos alunos portugueses ficam abaixo do nível mínimo no PISA, e como mudou em dez anos?",
+   "finding": "No PISA 2025, 35,2% dos alunos portugueses de 15 anos ficaram abaixo do nível 2 a matemática, o valor mais alto desde que há comparação (2003); em 2015 eram 23,8%. Em leitura, 28,4%, o máximo de uma série que começa em 2000; em 2015 eram 17,2%. Na média da UE, as percentagens são 33,9% e 31,3%.",
+   "context": "O PISA, da OCDE, testa de três em três anos alunos de 15 anos em leitura, matemática e ciências; o ciclo de 2021 passou para 2022 por causa da pandemia, e os resultados de 2025 saíram em setembro de 2026. O Eurostat publica a percentagem de alunos abaixo do nível 2, o patamar mínimo que a UE usa como meta: menos de 15% até 2030.",
+   "interpretation": "Portugal melhorou de 2000 a 2015 e perdeu esse avanço na década seguinte, quase ao mesmo ritmo da média europeia (mais 11 pontos percentuais em leitura e em matemática). A inversão não é só portuguesa: a percentagem também subiu na UE, e em 12 países a subida a matemática foi maior. Em leitura e matemática, o país está pior do que no início do século e longe da meta.",
+   "chart": {
+    "type": "lines",
+    "dataset": "pisa-alunos-abaixo-minimo-2000-2025"
+   },
+   "period": "2000 a 2025 (ciclos do PISA)",
+   "unit": "% de alunos de 15 anos abaixo do nível 2",
+   "sources": [
+    {
+     "name": "Eurostat — Alunos de 15 anos com baixo desempenho em leitura, matemática e ciências (educ_outc_pisa), a partir do PISA da OCDE",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_outc_pisa/default/table",
+     "accessed": "2026-11-18"
+    },
+    {
+     "name": "OCDE — PISA (Programme for International Student Assessment)",
+     "url": "https://www.oecd.org/en/about/programmes/pisa.html",
+     "accessed": "2026-11-18"
+    }
+   ],
+   "method": [
+    "Percentagem de alunos de 15 anos com desempenho abaixo do nível 2 da escala PISA, por domínio, segundo o Eurostat (educ_outc_pisa). A série de leitura começa em 2000, a de matemática em 2003 (primeiro ano com escala comparável) e a média da UE a 27 em 2006. As ciências (Portugal: 17,4% em 2015, 24,4% em 2025) não aparecem no gráfico para não o sobrecarregar.",
+    "Os dados brutos estão em raw/pisa-abaixo-minimo/, sem alterações. O Eurostat assinala quebras de série quando um domínio passa a ser o principal do ciclo (matemática em 2012 e 2022, leitura em 2009 e 2018); a OCDE mantém as escalas ligadas para comparar tendências. As percentagens são estimativas por amostragem, com margem de erro; diferenças de um ou dois pontos podem não ser significativas. A posição de Portugal (19.º valor mais baixo entre os 27 a matemática) foi calculada sobre os valores do Eurostat."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-18",
+    "note": "Conferidas todas as séries de Portugal e da UE, as quebras de série, a posição entre os 27 e as variações de todos os países; amostra contra a API do Eurostat; datas do PISA 2025 e meta de 2030 confirmadas por pesquisa. Corrigidas a unidade (pontos percentuais) e a anotação do mínimo (leitura)."
+   }
+  },
+  {
+   "id": "comercio-ue-china-2025",
+   "slug": "comercio-ue-china-parceiros-2025",
+   "kind": "atualidade",
+   "theme": "geopolitica",
+   "themeLabel": "Geopolítica e comércio",
+   "vizType": "barras",
+   "vizLabel": "Barras divergentes · duas vistas · ordenação alternável",
+   "interactive": true,
+   "title": "No ano das tarifas dos EUA, a UE comprou à China mais 43 mil milhões de euros e vendeu-lhe menos 14 mil milhões",
+   "question": "Como mudou o comércio da UE com os principais parceiros em 2025?",
+   "finding": "Em 2025, as importações da UE vindas da China subiram 8,1%, para 574,4 mil milhões de euros, e as exportações para a China caíram 6,6%, para 199,5 mil milhões, o valor mais baixo desde 2019 e o terceiro ano seguido de queda. A China explica 53,1% do aumento das importações de fora da UE. O défice com a China chegou a 375,0 mil milhões, abaixo do máximo de 2022 (397,8).",
+   "context": "Em 2025, os EUA subiram as tarifas sobre as importações, com taxas mais altas para a China do que para a UE, e na Europa discutiu-se o risco de os produtos chineses que deixassem de entrar nos EUA serem vendidos no mercado europeu. O Eurostat atualizou em novembro os valores anuais do comércio de bens da UE com cada parceiro.",
+   "interpretation": "A UE comprou à China 2,9 euros por cada euro que lhe vendeu. Os números anuais não provam desvio de comércio, o que exigiria olhar produto a produto, mas a direção coincide: mais compras à China e ao Vietname, menos exportações para a China. As vendas para os EUA ainda cresceram 19,0 mil milhões, e as compras à Rússia continuaram a cair.",
+   "chart": {
+    "type": "bars",
+    "dataset": "comercio-ue-china-2025"
+   },
+   "period": "2024 e 2025",
+   "unit": "mil milhões de euros (variação anual)",
+   "sources": [
+    {
+     "name": "Eurostat — Comércio extra-UE por parceiro (ext_lt_maineu)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/ext_lt_maineu/default/table",
+     "accessed": "2026-11-18"
+    }
+   ],
+   "method": [
+    "Variação entre 2024 e 2025 das importações e exportações de bens da UE a 27 com cada parceiro, em milhões de euros correntes convertidos em mil milhões (mM€), segundo o Eurostat (ext_lt_maineu, total de produtos). «China» exclui Hong Kong. Os parceiros mostrados são uma seleção dos maiores e dos que mais mudaram (ficam de fora, por exemplo, Arábia Saudita, Canadá, Emirados e Taiwan); o total fora da UE inclui todos os outros.",
+    "Os dados brutos estão em raw/comercio-ue-china/, sem alterações. Os valores estão em euros correntes, sem correção dos preços nem das taxas de câmbio, que também influenciam as variações. Os dados anuais mostram fluxos totais, não a origem nem o destino final das mercadorias."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-18",
+    "note": "Conferidos os 14 parceiros e a série da China contra a API do Eurostat. Corrigidos a cor de destaque da China (o terracota é reservado a Portugal), a descrição da seleção de parceiros e a frase sobre valores «definitivos»."
+   }
+  }
+ ],
+ "chave": {
+  "id": "efeito-holofote",
+  "axis": "sabedoria",
+  "axisLabel": "Produtividade e sabedoria prática",
+  "certainty": "Consenso, com uma ressalva",
+  "title": "O efeito holofote",
+  "concept": "A tendência para sobrestimar quanto os outros reparam em nós: na roupa, num erro, num deslize. Cada pessoa vive no centro da sua própria experiência e tende a supor que também está no centro da atenção dos outros.",
+  "lesson": [
+   "Num estudo publicado em 2000, na Universidade de Cornell, estudantes vestiram uma t-shirt com a cara do cantor Barry Manilow, escolhida por ser embaraçosa para a idade deles, e entraram numa sala onde outros estudantes preenchiam questionários. Depois, estimaram quantos colegas tinham reparado na t-shirt. Em média, disseram 46%. Perguntados, só cerca de 23% dos presentes sabiam quem estava estampado.",
+   "Thomas Gilovich, Victoria Medvec e Kenneth Savitsky chamaram-lhe efeito holofote. A explicação proposta é a ancoragem: cada um parte da sua própria experiência, vívida e cheia de pormenores, e ajusta pouco quando imagina a dos outros. É como estar num palco com um foco apontado: quem lá está só vê a luz, enquanto a plateia pensa na sua própria vida.",
+   "Os estudos originais usaram grupos pequenos de estudantes universitários norte-americanos, e o tamanho do efeito varia com a situação: entre pessoas que se conhecem bem, ou perante algo verdadeiramente invulgar, a atenção é real. O efeito não diz que ninguém repara. Diz que, em média, os outros reparam menos do que cada um imagina."
+  ],
+  "diagram": {
+   "title": "O foco que só quem está no palco vê",
+   "svg": "<svg viewBox=\"0 0 340 230\" role=\"img\" aria-label=\"Esquema em duas metades. À esquerda, «O que se imagina»: uma pessoa num palco iluminada por um foco largo, e por baixo a legenda: cerca de metade repara (46%). À direita, «O que acontece»: uma sala com doze pessoas representadas por círculos, das quais três estão destacadas, e a legenda: cerca de um quarto repara (23%). Valores médios do primeiro estudo de Gilovich, Medvec e Savitsky (2000).\"><text x=\"85\" y=\"18\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">O que se imagina</text><text x=\"255\" y=\"18\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">O que acontece</text><line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"200\" stroke=\"var(--key-rule)\" stroke-dasharray=\"4 3\"/><path d=\"M85,32 L30,150 L140,150 Z\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\" stroke-width=\"1\"/><circle cx=\"85\" cy=\"112\" r=\"9\" fill=\"var(--key-acc)\"/><rect x=\"77\" y=\"123\" width=\"16\" height=\"24\" rx=\"4\" fill=\"var(--key-acc)\"/><line x1=\"20\" y1=\"150\" x2=\"150\" y2=\"150\" stroke=\"var(--key-ink)\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"58\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"94\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"130\" r=\"10\" fill=\"var(--key-acc)\" stroke=\"var(--key-acc)\" stroke-width=\"1.5\"/><circle cx=\"238\" cy=\"58\" r=\"10\" fill=\"var(--key-acc)\" stroke=\"var(--key-acc)\" stroke-width=\"1.5\"/><circle cx=\"238\" cy=\"94\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"238\" cy=\"130\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"271\" cy=\"58\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"271\" cy=\"94\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"271\" cy=\"130\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"304\" cy=\"58\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"304\" cy=\"94\" r=\"10\" fill=\"var(--key-acc)\" stroke=\"var(--key-acc)\" stroke-width=\"1.5\"/><circle cx=\"304\" cy=\"130\" r=\"10\" fill=\"none\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><text x=\"85\" y=\"176\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"var(--key-ink)\">Cerca de metade repara</text><text x=\"85\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" fill=\"var(--key-ink-2)\">estimativa média: 46%</text><text x=\"255\" y=\"176\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"var(--key-ink)\">Cerca de um quarto repara</text><text x=\"255\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" fill=\"var(--key-ink-2)\">valor observado: 23%</text><text x=\"170\" y=\"220\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">T-shirt embaraçosa, Cornell (estudo publicado em 2000)</text></svg>",
+   "caption": "Os valores são as médias do primeiro estudo de Gilovich, Medvec e Savitsky (2000); os círculos são ilustrativos."
+  },
+  "aside": "Dois anos antes, Gilovich, Savitsky e Medvec tinham descrito um efeito aparentado, a «ilusão de transparência»: quem está nervoso ou mente tende a julgar que isso se nota muito mais do que se nota. Os dois artigos saíram no Journal of Personality and Social Psychology, em 1998 e em 2000.",
+  "application": "Aparece em quem não faz uma pergunta numa reunião por receio de parecer ignorante, no embaraço com uma nódoa na camisa ou um tropeção na rua, no nervosismo antes de falar em público e em muitas formas de ansiedade social. Ajuda a perceber porque um erro numa apresentação pesa mais na memória de quem o cometeu do que na de quem assistiu.",
+  "motto": "A plateia está quase sempre ocupada com o seu próprio palco.",
+  "sources": [
+   {
+    "name": "Gilovich, Medvec e Savitsky (2000), «The spotlight effect in social judgment», Journal of Personality and Social Psychology 78(2): 211–222",
+    "url": "https://doi.org/10.1037/0022-3514.78.2.211",
+    "accessed": "2026-11-18"
+   },
+   {
+    "name": "Gilovich, Savitsky e Medvec (1998), «The illusion of transparency», Journal of Personality and Social Psychology 75(2): 332–346",
+    "url": "https://doi.org/10.1037/0022-3514.75.2.332",
+    "accessed": "2026-11-18"
+   },
+   {
+    "name": "Simply Psychology — «The Spotlight Effect» (secundária)",
+    "url": "https://www.simplypsychology.com/articles/spotlight-effect-psychology",
+    "accessed": "2026-11-18"
+   }
+  ],
+  "notes": [
+   "Grau de certeza «Consenso, com uma ressalva»: o efeito holofote é um resultado clássico da psicologia social, citado em manuais e retomado noutros estudos; a ressalva é que as experiências originais usaram amostras pequenas de estudantes e o tamanho do efeito varia com o contexto.",
+   "Os valores de 46% (estimativa) e cerca de 23% (observado) são os do primeiro estudo, tal como reproduzidos em várias fontes secundárias; o artigo original não pôde ser aberto diretamente neste ambiente. O esquema arredonda-os para «cerca de metade» e «cerca de um quarto»."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-18",
+   "note": "Estrutura, SVG, rotação de eixos e voz conferidos; referências e DOIs coerentes com a pesquisa. Corrigida a data (estudo publicado em 2000, não necessariamente realizado nesse ano). Os valores de 46% e cerca de 23% não foram confirmados no artigo original, que não abriu neste ambiente; a nota da Chave declara-o."
+  }
+ }
+}

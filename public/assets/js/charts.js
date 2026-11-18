@@ -433,7 +433,7 @@ const fmtN = (x, d = 1) => (x == null || Number.isNaN(x) ? "—" : x.toLocaleStr
 const fmtS = (x, d = 1) => (x > 0 ? "+" : "") + fmtN(x, d);
 
 /* columns: colunas (simples ou empilhadas, com valores negativos) + linha opcional do total; várias vistas alternáveis.
-   data.rows[{cat,...}], data.views[{id,label,yLabel,unit,decimals,series[{key,label,color,negColor,altColor,altLabel (cor alternativa nas linhas com alt: true)}],line{key,label},valueLabels,tipExtra[],notes[{cat,text}]}] */
+   data.rows[{cat,...}], data.views[{id,label,yLabel,unit,decimals,marginLeft[estreito,largo] (margem esquerda para números longos no eixo),series[{key,label,color,negColor,altColor,altLabel (cor alternativa nas linhas com alt: true)}],line{key,label},valueLabels,tipExtra[],notes[{cat,text}]}] */
 function columns(host, data) {
   const rows = data.rows, views = data.views;
   let view = views[0];
@@ -451,7 +451,7 @@ function columns(host, data) {
     const narrow = W < 560, v = view, d = v.decimals ?? 1;
     const wrapW = narrow ? Math.floor((W - 10) / 6.4) : 200, words = v.yLabel.split(" "), yl = [""];
     for (const w of words) { if ((yl.at(-1) + " " + w).trim().length > wrapW) yl.push(w); else yl[yl.length - 1] = (yl.at(-1) + " " + w).trim(); }
-    const H = (narrow ? 340 : 380) + (yl.length - 1) * 14, m = { t: 26 + yl.length * 14, r: 10, b: 34, l: narrow ? 34 : 44 };
+    const H = (narrow ? 340 : 380) + (yl.length - 1) * 14, m = { t: 26 + yl.length * 14, r: 10, b: 34, l: narrow ? (v.marginLeft?.[0] ?? 34) : (v.marginLeft?.[1] ?? 44) };
     const stacked = v.series.length > 1;
     const svg = svgIn(host.chart, W, H, v.yLabel);
     const x = d3.scaleBand().domain(rows.map((r) => r.cat)).range([m.l, W - m.r]).padding(narrow ? 0.18 : 0.26);
@@ -627,7 +627,7 @@ function dumbbell(host, data) {
 
 
 /* bars: barras horizontais divergentes (valores positivos e negativos), várias vistas (uma chave por vista), linha de referência opcional, ordenação alternável.
-   data.rows[{label,highlight,total?,...keys}], data.config{views[{id,label,key,axisLabel,ref,refLabel}],unit,decimals,signed (false = sem sinal +),independentScale (escala própria em cada vista, para vistas com unidades diferentes),howToRead,sorts[[id,label]],pinned:[labels fixos no topo]} */
+   data.rows[{label,highlight,total?,...keys}], data.config{views[{id,label,key,axisLabel,ref,refLabel}],unit,decimals,highlightColor (cor do destaque; por omissão o terracota, reservado a Portugal),signed (false = sem sinal +),independentScale (escala própria em cada vista, para vistas com unidades diferentes),howToRead,sorts[[id,label]],pinned:[labels fixos no topo]} */
 function bars(host, data) {
   const C = data.config, d = C.decimals ?? 1, views = C.views;
   const fmtV = (t, dd) => (C.signed === false ? fmtN(t, dd) : fmtS(t, dd));
@@ -636,7 +636,7 @@ function bars(host, data) {
   if (views.length > 1) segmented(host.controls, views.map((v) => [v.id, v.label]), view.id, (v) => { view = views.find((q) => q.id === v); r.redraw(); }, "Vista");
   if (C.sorts?.length > 1) segmented(host.controls, C.sorts, sortKey, (v) => { sortKey = v; r.redraw(); }, "Ordenação");
   if (C.howToRead) { const p = document.createElement("p"); p.className = "how-to-read"; p.textContent = C.howToRead; host.legend.appendChild(p); }
-  legend(host.legend, [{ color: css("--accent-2"), label: C.posLabel || "Subida" }, ...(data.rows.some((q) => views.some((w) => q[w.key] < 0)) ? [{ color: css("--accent-3"), label: C.negLabel || "Descida" }] : []), ...(C.highlightLabel ? [{ color: css("--accent"), label: C.highlightLabel }] : [])]);
+  legend(host.legend, [{ color: css("--accent-2"), label: C.posLabel || "Subida" }, ...(data.rows.some((q) => views.some((w) => q[w.key] < 0)) ? [{ color: css("--accent-3"), label: C.negLabel || "Descida" }] : []), ...(C.highlightLabel ? [{ color: css(C.highlightColor || "--accent"), label: C.highlightLabel }] : [])]);
   const r = responsive(host.chart, (W) => {
     const narrow = W < 560, v = view, k = v.key;
     const pinned = rowsOf().filter((q) => (C.pinned || []).includes(q.label));
@@ -663,7 +663,7 @@ function bars(host, data) {
       .style("font-weight", (q) => (q.highlight || (C.pinned || []).includes(q.label) ? 700 : 400)).text((q) => (narrow && q.short ? q.short : q.label));
     const bh = rowH - 10;
     g.append("rect").attr("x", (q) => x(Math.min(0, q[k]))).attr("width", (q) => Math.max(1, Math.abs(x(q[k]) - x(0)))).attr("y", 5).attr("height", bh)
-      .attr("fill", (q) => css(q.highlight ? "--accent" : q[k] < 0 ? "--accent-3" : "--accent-2"));
+      .attr("fill", (q) => css(q.highlight ? C.highlightColor || "--accent" : q[k] < 0 ? "--accent-3" : "--accent-2"));
     g.append("text").attr("class", "ann").style("font-size", narrow ? "10.5px" : "11.5px").style("font-weight", 600).attr("y", rowH / 2 + 4)
       // negativos curtos perto da margem: o rótulo passa para a direita do zero, para não tapar o nome
       .attr("x", (q) => (q[k] < 0 ? (x(q[k]) - 56 < m.l ? x(0) + 4 : x(q[k]) - 4) : x(q[k]) + 4)).attr("text-anchor", (q) => (q[k] < 0 && x(q[k]) - 56 >= m.l ? "end" : "start")).text((q) => fmtV(q[k], d) + C.unit)

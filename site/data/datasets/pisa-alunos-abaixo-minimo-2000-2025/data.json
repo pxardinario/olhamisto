@@ -1,0 +1,244 @@
+{
+ "rows": [
+  {
+   "x": 2000,
+   "label": "2000",
+   "ptMat": null,
+   "ptRead": 26.3,
+   "euMat": null,
+   "euRead": null,
+   "ptSci": null
+  },
+  {
+   "x": 2003,
+   "label": "2003",
+   "ptMat": 30.1,
+   "ptRead": 21.9,
+   "euMat": null,
+   "euRead": null,
+   "ptSci": null
+  },
+  {
+   "x": 2006,
+   "label": "2006",
+   "ptMat": 30.9,
+   "ptRead": 24.9,
+   "euMat": 24.7,
+   "euRead": 23.7,
+   "ptSci": 24.5
+  },
+  {
+   "x": 2009,
+   "label": "2009",
+   "ptMat": 23.8,
+   "ptRead": 17.6,
+   "euMat": 22.7,
+   "euRead": 19.7,
+   "ptSci": 16.5
+  },
+  {
+   "x": 2012,
+   "label": "2012",
+   "ptMat": 24.9,
+   "ptRead": 18.8,
+   "euMat": 22.1,
+   "euRead": 18,
+   "ptSci": 19
+  },
+  {
+   "x": 2015,
+   "label": "2015",
+   "ptMat": 23.8,
+   "ptRead": 17.2,
+   "euMat": 22.2,
+   "euRead": 20,
+   "ptSci": 17.4
+  },
+  {
+   "x": 2018,
+   "label": "2018",
+   "ptMat": 23.3,
+   "ptRead": 20.2,
+   "euMat": 22.9,
+   "euRead": 22.5,
+   "ptSci": 19.6
+  },
+  {
+   "x": 2022,
+   "label": "2022",
+   "ptMat": 29.7,
+   "ptRead": 23.1,
+   "euMat": 29.5,
+   "euRead": 26.2,
+   "ptSci": 21.8
+  },
+  {
+   "x": 2025,
+   "label": "2025",
+   "ptMat": 35.2,
+   "ptRead": 28.4,
+   "euMat": 33.9,
+   "euRead": 31.3,
+   "ptSci": 24.4
+  }
+ ],
+ "config": {
+  "x": {
+   "min": 1999.5,
+   "max": 2025.5,
+   "ticks": [
+    2000,
+    2003,
+    2006,
+    2009,
+    2012,
+    2015,
+    2018,
+    2022,
+    2025
+   ],
+   "tableLabel": "Ciclo do PISA"
+  },
+  "y": {
+   "label": "Alunos de 15 anos abaixo do nível mínimo (%)",
+   "suffix": "%",
+   "decimals": 1,
+   "linMin": 0,
+   "linMax": 40
+  },
+  "dots": true,
+  "series": [
+   {
+    "key": "euRead",
+    "label": "UE · leitura",
+    "short": "UE lei.",
+    "color": "--accent-4",
+    "width": 1.4
+   },
+   {
+    "key": "euMat",
+    "label": "UE · matemática",
+    "short": "UE mat.",
+    "color": "--accent-2",
+    "width": 1.4
+   },
+   {
+    "key": "ptRead",
+    "label": "Portugal · leitura",
+    "short": "PT lei.",
+    "color": "--accent-3",
+    "width": 2.2
+   },
+   {
+    "key": "ptMat",
+    "label": "Portugal · matemática",
+    "short": "PT mat.",
+    "color": "--accent",
+    "width": 2.8
+   }
+  ],
+  "labelMargin": [
+   80,
+   150
+  ],
+  "shortEndLabels": false,
+  "annotations": [
+   {
+    "x": 2015,
+    "key": "ptRead",
+    "text": "2015: mínimo em leitura",
+    "short": "2015",
+    "dx": 0,
+    "dy": 18,
+    "anchor": "middle"
+   }
+  ],
+  "howToRead": "Cada ponto é um ciclo do PISA (de três em três anos; o de 2021 passou para 2022 por causa da pandemia). A linha mostra a percentagem de alunos de 15 anos que ficam abaixo do nível 2, o mínimo que a OCDE considera necessário para participar plenamente na sociedade. Quanto mais alta a linha, pior."
+ },
+ "summary": {
+  "rows": {
+   "2000": {
+    "x": 2000,
+    "label": "2000",
+    "ptMat": null,
+    "ptRead": 26.3,
+    "euMat": null,
+    "euRead": null,
+    "ptSci": null
+   },
+   "2003": {
+    "x": 2003,
+    "label": "2003",
+    "ptMat": 30.1,
+    "ptRead": 21.9,
+    "euMat": null,
+    "euRead": null,
+    "ptSci": null
+   },
+   "2006": {
+    "x": 2006,
+    "label": "2006",
+    "ptMat": 30.9,
+    "ptRead": 24.9,
+    "euMat": 24.7,
+    "euRead": 23.7,
+    "ptSci": 24.5
+   },
+   "2009": {
+    "x": 2009,
+    "label": "2009",
+    "ptMat": 23.8,
+    "ptRead": 17.6,
+    "euMat": 22.7,
+    "euRead": 19.7,
+    "ptSci": 16.5
+   },
+   "2012": {
+    "x": 2012,
+    "label": "2012",
+    "ptMat": 24.9,
+    "ptRead": 18.8,
+    "euMat": 22.1,
+    "euRead": 18,
+    "ptSci": 19
+   },
+   "2015": {
+    "x": 2015,
+    "label": "2015",
+    "ptMat": 23.8,
+    "ptRead": 17.2,
+    "euMat": 22.2,
+    "euRead": 20,
+    "ptSci": 17.4
+   },
+   "2018": {
+    "x": 2018,
+    "label": "2018",
+    "ptMat": 23.3,
+    "ptRead": 20.2,
+    "euMat": 22.9,
+    "euRead": 22.5,
+    "ptSci": 19.6
+   },
+   "2022": {
+    "x": 2022,
+    "label": "2022",
+    "ptMat": 29.7,
+    "ptRead": 23.1,
+    "euMat": 29.5,
+    "euRead": 26.2,
+    "ptSci": 21.8
+   },
+   "2025": {
+    "x": 2025,
+    "label": "2025",
+    "ptMat": 35.2,
+    "ptRead": 28.4,
+    "euMat": 33.9,
+    "euRead": 31.3,
+    "ptSci": 24.4
+   }
+  },
+  "eu25Rank": 19
+ }
+}

@@ -1,0 +1,1673 @@
+{
+ "rows": [
+  {
+   "x": 2004.96,
+   "label": "12 meses até dez. 2004",
+   "nac": 16.67,
+   "sub": 135.68
+  },
+  {
+   "x": 2005.04,
+   "label": "12 meses até jan. 2005",
+   "nac": 16.75,
+   "sub": 135.77
+  },
+  {
+   "x": 2005.13,
+   "label": "12 meses até fev. 2005",
+   "nac": 16.62,
+   "sub": 135.63
+  },
+  {
+   "x": 2005.21,
+   "label": "12 meses até mar. 2005",
+   "nac": 16.6,
+   "sub": 135.19
+  },
+  {
+   "x": 2005.29,
+   "label": "12 meses até abr. 2005",
+   "nac": 16.6,
+   "sub": 135.24
+  },
+  {
+   "x": 2005.38,
+   "label": "12 meses até mai. 2005",
+   "nac": 16.6,
+   "sub": 135.26
+  },
+  {
+   "x": 2005.46,
+   "label": "12 meses até jun. 2005",
+   "nac": 16.52,
+   "sub": 134.85
+  },
+  {
+   "x": 2005.54,
+   "label": "12 meses até jul. 2005",
+   "nac": 16.48,
+   "sub": 134.37
+  },
+  {
+   "x": 2005.63,
+   "label": "12 meses até ago. 2005",
+   "nac": 16.44,
+   "sub": 134.36
+  },
+  {
+   "x": 2005.71,
+   "label": "12 meses até set. 2005",
+   "nac": 16.3,
+   "sub": 134.4
+  },
+  {
+   "x": 2005.79,
+   "label": "12 meses até out. 2005",
+   "nac": 16.34,
+   "sub": 134.53
+  },
+  {
+   "x": 2005.88,
+   "label": "12 meses até nov. 2005",
+   "nac": 16.29,
+   "sub": 134.54
+  },
+  {
+   "x": 2005.96,
+   "label": "12 meses até dez. 2005",
+   "nac": 16.32,
+   "sub": 134.65
+  },
+  {
+   "x": 2006.04,
+   "label": "12 meses até jan. 2006",
+   "nac": 16.33,
+   "sub": 135.14
+  },
+  {
+   "x": 2006.13,
+   "label": "12 meses até fev. 2006",
+   "nac": 16.28,
+   "sub": 135.32
+  },
+  {
+   "x": 2006.21,
+   "label": "12 meses até mar. 2006",
+   "nac": 16.31,
+   "sub": 135.92
+  },
+  {
+   "x": 2006.29,
+   "label": "12 meses até abr. 2006",
+   "nac": 16.34,
+   "sub": 135.49
+  },
+  {
+   "x": 2006.38,
+   "label": "12 meses até mai. 2006",
+   "nac": 16.39,
+   "sub": 136.28
+  },
+  {
+   "x": 2006.46,
+   "label": "12 meses até jun. 2006",
+   "nac": 16.42,
+   "sub": 136.44
+  },
+  {
+   "x": 2006.54,
+   "label": "12 meses até jul. 2006",
+   "nac": 16.51,
+   "sub": 136.94
+  },
+  {
+   "x": 2006.63,
+   "label": "12 meses até ago. 2006",
+   "nac": 16.57,
+   "sub": 136.99
+  },
+  {
+   "x": 2006.71,
+   "label": "12 meses até set. 2006",
+   "nac": 16.69,
+   "sub": 137.26
+  },
+  {
+   "x": 2006.79,
+   "label": "12 meses até out. 2006",
+   "nac": 16.71,
+   "sub": 137.73
+  },
+  {
+   "x": 2006.88,
+   "label": "12 meses até nov. 2006",
+   "nac": 16.72,
+   "sub": 138.04
+  },
+  {
+   "x": 2006.96,
+   "label": "12 meses até dez. 2006",
+   "nac": 16.71,
+   "sub": 137.72
+  },
+  {
+   "x": 2007.04,
+   "label": "12 meses até jan. 2007",
+   "nac": 16.78,
+   "sub": 137.89
+  },
+  {
+   "x": 2007.13,
+   "label": "12 meses até fev. 2007",
+   "nac": 16.88,
+   "sub": 138.02
+  },
+  {
+   "x": 2007.21,
+   "label": "12 meses até mar. 2007",
+   "nac": 16.89,
+   "sub": 138.01
+  },
+  {
+   "x": 2007.29,
+   "label": "12 meses até abr. 2007",
+   "nac": 16.96,
+   "sub": 138.32
+  },
+  {
+   "x": 2007.38,
+   "label": "12 meses até mai. 2007",
+   "nac": 16.91,
+   "sub": 138
+  },
+  {
+   "x": 2007.46,
+   "label": "12 meses até jun. 2007",
+   "nac": 16.94,
+   "sub": 137.75
+  },
+  {
+   "x": 2007.54,
+   "label": "12 meses até jul. 2007",
+   "nac": 17.02,
+   "sub": 138
+  },
+  {
+   "x": 2007.63,
+   "label": "12 meses até ago. 2007",
+   "nac": 17.02,
+   "sub": 138.09
+  },
+  {
+   "x": 2007.71,
+   "label": "12 meses até set. 2007",
+   "nac": 17.11,
+   "sub": 138.04
+  },
+  {
+   "x": 2007.79,
+   "label": "12 meses até out. 2007",
+   "nac": 17.2,
+   "sub": 138.57
+  },
+  {
+   "x": 2007.88,
+   "label": "12 meses até nov. 2007",
+   "nac": 17.33,
+   "sub": 138.67
+  },
+  {
+   "x": 2007.96,
+   "label": "12 meses até dez. 2007",
+   "nac": 17.38,
+   "sub": 139.13
+  },
+  {
+   "x": 2008.04,
+   "label": "12 meses até jan. 2008",
+   "nac": 17.4,
+   "sub": 139.14
+  },
+  {
+   "x": 2008.13,
+   "label": "12 meses até fev. 2008",
+   "nac": 17.48,
+   "sub": 139.5
+  },
+  {
+   "x": 2008.21,
+   "label": "12 meses até mar. 2008",
+   "nac": 17.67,
+   "sub": 139.03
+  },
+  {
+   "x": 2008.29,
+   "label": "12 meses até abr. 2008",
+   "nac": 17.63,
+   "sub": 139.66
+  },
+  {
+   "x": 2008.38,
+   "label": "12 meses até mai. 2008",
+   "nac": 17.64,
+   "sub": 139.62
+  },
+  {
+   "x": 2008.46,
+   "label": "12 meses até jun. 2008",
+   "nac": 17.73,
+   "sub": 140.2
+  },
+  {
+   "x": 2008.54,
+   "label": "12 meses até jul. 2008",
+   "nac": 17.76,
+   "sub": 140.29
+  },
+  {
+   "x": 2008.63,
+   "label": "12 meses até ago. 2008",
+   "nac": 17.83,
+   "sub": 140.52
+  },
+  {
+   "x": 2008.71,
+   "label": "12 meses até set. 2008",
+   "nac": 17.87,
+   "sub": 141.26
+  },
+  {
+   "x": 2008.79,
+   "label": "12 meses até out. 2008",
+   "nac": 17.88,
+   "sub": 141.36
+  },
+  {
+   "x": 2008.88,
+   "label": "12 meses até nov. 2008",
+   "nac": 17.85,
+   "sub": 140.93
+  },
+  {
+   "x": 2008.96,
+   "label": "12 meses até dez. 2008",
+   "nac": 17.85,
+   "sub": 140.46
+  },
+  {
+   "x": 2009.04,
+   "label": "12 meses até jan. 2009",
+   "nac": 17.74,
+   "sub": 139.69
+  },
+  {
+   "x": 2009.13,
+   "label": "12 meses até fev. 2009",
+   "nac": 17.7,
+   "sub": 139.27
+  },
+  {
+   "x": 2009.21,
+   "label": "12 meses até mar. 2009",
+   "nac": 17.62,
+   "sub": 139.62
+  },
+  {
+   "x": 2009.29,
+   "label": "12 meses até abr. 2009",
+   "nac": 17.62,
+   "sub": 139.45
+  },
+  {
+   "x": 2009.38,
+   "label": "12 meses até mai. 2009",
+   "nac": 17.61,
+   "sub": 138.8
+  },
+  {
+   "x": 2009.46,
+   "label": "12 meses até jun. 2009",
+   "nac": 17.59,
+   "sub": 138.35
+  },
+  {
+   "x": 2009.54,
+   "label": "12 meses até jul. 2009",
+   "nac": 17.54,
+   "sub": 138.24
+  },
+  {
+   "x": 2009.63,
+   "label": "12 meses até ago. 2009",
+   "nac": 17.51,
+   "sub": 137.88
+  },
+  {
+   "x": 2009.71,
+   "label": "12 meses até set. 2009",
+   "nac": 17.46,
+   "sub": 137.42
+  },
+  {
+   "x": 2009.79,
+   "label": "12 meses até out. 2009",
+   "nac": 17.43,
+   "sub": 136.75
+  },
+  {
+   "x": 2009.88,
+   "label": "12 meses até nov. 2009",
+   "nac": 17.45,
+   "sub": 136.76
+  },
+  {
+   "x": 2009.96,
+   "label": "12 meses até dez. 2009",
+   "nac": 17.4,
+   "sub": 136.32
+  },
+  {
+   "x": 2010.04,
+   "label": "12 meses até jan. 2010",
+   "nac": 17.43,
+   "sub": 136.14
+  },
+  {
+   "x": 2010.13,
+   "label": "12 meses até fev. 2010",
+   "nac": 17.42,
+   "sub": 135.96
+  },
+  {
+   "x": 2010.21,
+   "label": "12 meses até mar. 2010",
+   "nac": 17.31,
+   "sub": 135.86
+  },
+  {
+   "x": 2010.29,
+   "label": "12 meses até abr. 2010",
+   "nac": 17.23,
+   "sub": 135.63
+  },
+  {
+   "x": 2010.38,
+   "label": "12 meses até mai. 2010",
+   "nac": 17.25,
+   "sub": 135.97
+  },
+  {
+   "x": 2010.46,
+   "label": "12 meses até jun. 2010",
+   "nac": 17.12,
+   "sub": 135.73
+  },
+  {
+   "x": 2010.54,
+   "label": "12 meses até jul. 2010",
+   "nac": 17.03,
+   "sub": 135.06
+  },
+  {
+   "x": 2010.63,
+   "label": "12 meses até ago. 2010",
+   "nac": 17,
+   "sub": 135.13
+  },
+  {
+   "x": 2010.71,
+   "label": "12 meses até set. 2010",
+   "nac": 16.97,
+   "sub": 135.6
+  },
+  {
+   "x": 2010.79,
+   "label": "12 meses até out. 2010",
+   "nac": 16.9,
+   "sub": 135.18
+  },
+  {
+   "x": 2010.88,
+   "label": "12 meses até nov. 2010",
+   "nac": 16.8,
+   "sub": 135.42
+  },
+  {
+   "x": 2010.96,
+   "label": "12 meses até dez. 2010",
+   "nac": 16.81,
+   "sub": 136.06
+  },
+  {
+   "x": 2011.04,
+   "label": "12 meses até jan. 2011",
+   "nac": 16.78,
+   "sub": 136.78
+  },
+  {
+   "x": 2011.13,
+   "label": "12 meses até fev. 2011",
+   "nac": 16.64,
+   "sub": 137.19
+  },
+  {
+   "x": 2011.21,
+   "label": "12 meses até mar. 2011",
+   "nac": 16.6,
+   "sub": 137.01
+  },
+  {
+   "x": 2011.29,
+   "label": "12 meses até abr. 2011",
+   "nac": 16.54,
+   "sub": 136.07
+  },
+  {
+   "x": 2011.38,
+   "label": "12 meses até mai. 2011",
+   "nac": 16.41,
+   "sub": 136.52
+  },
+  {
+   "x": 2011.46,
+   "label": "12 meses até jun. 2011",
+   "nac": 16.34,
+   "sub": 136.5
+  },
+  {
+   "x": 2011.54,
+   "label": "12 meses até jul. 2011",
+   "nac": 16.38,
+   "sub": 136.55
+  },
+  {
+   "x": 2011.63,
+   "label": "12 meses até ago. 2011",
+   "nac": 16.29,
+   "sub": 136.14
+  },
+  {
+   "x": 2011.71,
+   "label": "12 meses até set. 2011",
+   "nac": 16.18,
+   "sub": 135.45
+  },
+  {
+   "x": 2011.79,
+   "label": "12 meses até out. 2011",
+   "nac": 16.19,
+   "sub": 135.38
+  },
+  {
+   "x": 2011.88,
+   "label": "12 meses até nov. 2011",
+   "nac": 16,
+   "sub": 134.34
+  },
+  {
+   "x": 2011.96,
+   "label": "12 meses até dez. 2011",
+   "nac": 15.84,
+   "sub": 133.29
+  },
+  {
+   "x": 2012.04,
+   "label": "12 meses até jan. 2012",
+   "nac": 15.76,
+   "sub": 133.22
+  },
+  {
+   "x": 2012.13,
+   "label": "12 meses até fev. 2012",
+   "nac": 15.73,
+   "sub": 131.89
+  },
+  {
+   "x": 2012.21,
+   "label": "12 meses até mar. 2012",
+   "nac": 15.46,
+   "sub": 130.23
+  },
+  {
+   "x": 2012.29,
+   "label": "12 meses até abr. 2012",
+   "nac": 15.48,
+   "sub": 129.06
+  },
+  {
+   "x": 2012.38,
+   "label": "12 meses até mai. 2012",
+   "nac": 15.21,
+   "sub": 124.75
+  },
+  {
+   "x": 2012.46,
+   "label": "12 meses até jun. 2012",
+   "nac": 15.22,
+   "sub": 123.75
+  },
+  {
+   "x": 2012.54,
+   "label": "12 meses até jul. 2012",
+   "nac": 15.04,
+   "sub": 122.33
+  },
+  {
+   "x": 2012.63,
+   "label": "12 meses até ago. 2012",
+   "nac": 14.83,
+   "sub": 121.03
+  },
+  {
+   "x": 2012.71,
+   "label": "12 meses até set. 2012",
+   "nac": 14.67,
+   "sub": 119.54
+  },
+  {
+   "x": 2012.79,
+   "label": "12 meses até out. 2012",
+   "nac": 14.37,
+   "sub": 118.3
+  },
+  {
+   "x": 2012.88,
+   "label": "12 meses até nov. 2012",
+   "nac": 14.29,
+   "sub": 117.26
+  },
+  {
+   "x": 2012.96,
+   "label": "12 meses até dez. 2012",
+   "nac": 14.13,
+   "sub": 115.66
+  },
+  {
+   "x": 2013.04,
+   "label": "12 meses até jan. 2013",
+   "nac": 13.94,
+   "sub": 113.54
+  },
+  {
+   "x": 2013.13,
+   "label": "12 meses até fev. 2013",
+   "nac": 13.85,
+   "sub": 112.74
+  },
+  {
+   "x": 2013.21,
+   "label": "12 meses até mar. 2013",
+   "nac": 13.77,
+   "sub": 111.3
+  },
+  {
+   "x": 2013.29,
+   "label": "12 meses até abr. 2013",
+   "nac": 13.69,
+   "sub": 111.83
+  },
+  {
+   "x": 2013.38,
+   "label": "12 meses até mai. 2013",
+   "nac": 13.78,
+   "sub": 113.77
+  },
+  {
+   "x": 2013.46,
+   "label": "12 meses até jun. 2013",
+   "nac": 13.64,
+   "sub": 112.64
+  },
+  {
+   "x": 2013.54,
+   "label": "12 meses até jul. 2013",
+   "nac": 13.61,
+   "sub": 112.32
+  },
+  {
+   "x": 2013.63,
+   "label": "12 meses até ago. 2013",
+   "nac": 13.66,
+   "sub": 111.82
+  },
+  {
+   "x": 2013.71,
+   "label": "12 meses até set. 2013",
+   "nac": 13.72,
+   "sub": 111.94
+  },
+  {
+   "x": 2013.79,
+   "label": "12 meses até out. 2013",
+   "nac": 13.83,
+   "sub": 112.29
+  },
+  {
+   "x": 2013.88,
+   "label": "12 meses até nov. 2013",
+   "nac": 13.83,
+   "sub": 111.85
+  },
+  {
+   "x": 2013.96,
+   "label": "12 meses até dez. 2013",
+   "nac": 13.91,
+   "sub": 112.1
+  },
+  {
+   "x": 2014.04,
+   "label": "12 meses até jan. 2014",
+   "nac": 13.94,
+   "sub": 111.73
+  },
+  {
+   "x": 2014.13,
+   "label": "12 meses até fev. 2014",
+   "nac": 13.99,
+   "sub": 111.81
+  },
+  {
+   "x": 2014.21,
+   "label": "12 meses até mar. 2014",
+   "nac": 14.19,
+   "sub": 112.71
+  },
+  {
+   "x": 2014.29,
+   "label": "12 meses até abr. 2014",
+   "nac": 14.18,
+   "sub": 112.11
+  },
+  {
+   "x": 2014.38,
+   "label": "12 meses até mai. 2014",
+   "nac": 14.22,
+   "sub": 112.04
+  },
+  {
+   "x": 2014.46,
+   "label": "12 meses até jun. 2014",
+   "nac": 14.33,
+   "sub": 112.32
+  },
+  {
+   "x": 2014.54,
+   "label": "12 meses até jul. 2014",
+   "nac": 14.37,
+   "sub": 112.56
+  },
+  {
+   "x": 2014.63,
+   "label": "12 meses até ago. 2014",
+   "nac": 14.44,
+   "sub": 112.72
+  },
+  {
+   "x": 2014.71,
+   "label": "12 meses até set. 2014",
+   "nac": 14.47,
+   "sub": 113.29
+  },
+  {
+   "x": 2014.79,
+   "label": "12 meses até out. 2014",
+   "nac": 14.51,
+   "sub": 113.38
+  },
+  {
+   "x": 2014.88,
+   "label": "12 meses até nov. 2014",
+   "nac": 14.55,
+   "sub": 113.45
+  },
+  {
+   "x": 2014.96,
+   "label": "12 meses até dez. 2014",
+   "nac": 14.61,
+   "sub": 113.47
+  },
+  {
+   "x": 2015.04,
+   "label": "12 meses até jan. 2015",
+   "nac": 14.63,
+   "sub": 113.55
+  },
+  {
+   "x": 2015.13,
+   "label": "12 meses até fev. 2015",
+   "nac": 14.63,
+   "sub": 113.64
+  },
+  {
+   "x": 2015.21,
+   "label": "12 meses até mar. 2015",
+   "nac": 14.66,
+   "sub": 114
+  },
+  {
+   "x": 2015.29,
+   "label": "12 meses até abr. 2015",
+   "nac": 14.6,
+   "sub": 114.13
+  },
+  {
+   "x": 2015.38,
+   "label": "12 meses até mai. 2015",
+   "nac": 14.64,
+   "sub": 114.09
+  },
+  {
+   "x": 2015.46,
+   "label": "12 meses até jun. 2015",
+   "nac": 14.7,
+   "sub": 114.56
+  },
+  {
+   "x": 2015.54,
+   "label": "12 meses até jul. 2015",
+   "nac": 14.77,
+   "sub": 114.66
+  },
+  {
+   "x": 2015.63,
+   "label": "12 meses até ago. 2015",
+   "nac": 14.85,
+   "sub": 115.11
+  },
+  {
+   "x": 2015.71,
+   "label": "12 meses até set. 2015",
+   "nac": 14.9,
+   "sub": 114.81
+  },
+  {
+   "x": 2015.79,
+   "label": "12 meses até out. 2015",
+   "nac": 14.89,
+   "sub": 114.37
+  },
+  {
+   "x": 2015.88,
+   "label": "12 meses até nov. 2015",
+   "nac": 15.01,
+   "sub": 115.08
+  },
+  {
+   "x": 2015.96,
+   "label": "12 meses até dez. 2015",
+   "nac": 14.96,
+   "sub": 115.24
+  },
+  {
+   "x": 2016.04,
+   "label": "12 meses até jan. 2016",
+   "nac": 14.97,
+   "sub": 115.17
+  },
+  {
+   "x": 2016.13,
+   "label": "12 meses até fev. 2016",
+   "nac": 15.02,
+   "sub": 115.67
+  },
+  {
+   "x": 2016.21,
+   "label": "12 meses até mar. 2016",
+   "nac": 14.99,
+   "sub": 115.43
+  },
+  {
+   "x": 2016.29,
+   "label": "12 meses até abr. 2016",
+   "nac": 15.11,
+   "sub": 115.64
+  },
+  {
+   "x": 2016.38,
+   "label": "12 meses até mai. 2016",
+   "nac": 15.19,
+   "sub": 115.99
+  },
+  {
+   "x": 2016.46,
+   "label": "12 meses até jun. 2016",
+   "nac": 15.21,
+   "sub": 116.07
+  },
+  {
+   "x": 2016.54,
+   "label": "12 meses até jul. 2016",
+   "nac": 15.24,
+   "sub": 116.06
+  },
+  {
+   "x": 2016.63,
+   "label": "12 meses até ago. 2016",
+   "nac": 15.3,
+   "sub": 116.62
+  },
+  {
+   "x": 2016.71,
+   "label": "12 meses até set. 2016",
+   "nac": 15.33,
+   "sub": 116.98
+  },
+  {
+   "x": 2016.79,
+   "label": "12 meses até out. 2016",
+   "nac": 15.39,
+   "sub": 117.21
+  },
+  {
+   "x": 2016.88,
+   "label": "12 meses até nov. 2016",
+   "nac": 15.48,
+   "sub": 117.54
+  },
+  {
+   "x": 2016.96,
+   "label": "12 meses até dez. 2016",
+   "nac": 15.58,
+   "sub": 118.08
+  },
+  {
+   "x": 2017.04,
+   "label": "12 meses até jan. 2017",
+   "nac": 15.68,
+   "sub": 119.1
+  },
+  {
+   "x": 2017.13,
+   "label": "12 meses até fev. 2017",
+   "nac": 15.66,
+   "sub": 118.88
+  },
+  {
+   "x": 2017.21,
+   "label": "12 meses até mar. 2017",
+   "nac": 15.76,
+   "sub": 119.88
+  },
+  {
+   "x": 2017.29,
+   "label": "12 meses até abr. 2017",
+   "nac": 15.86,
+   "sub": 120.34
+  },
+  {
+   "x": 2017.38,
+   "label": "12 meses até mai. 2017",
+   "nac": 15.94,
+   "sub": 121.37
+  },
+  {
+   "x": 2017.46,
+   "label": "12 meses até jun. 2017",
+   "nac": 15.99,
+   "sub": 121.87
+  },
+  {
+   "x": 2017.54,
+   "label": "12 meses até jul. 2017",
+   "nac": 16.1,
+   "sub": 122.52
+  },
+  {
+   "x": 2017.63,
+   "label": "12 meses até ago. 2017",
+   "nac": 16.16,
+   "sub": 123.26
+  },
+  {
+   "x": 2017.71,
+   "label": "12 meses até set. 2017",
+   "nac": 16.23,
+   "sub": 123.72
+  },
+  {
+   "x": 2017.79,
+   "label": "12 meses até out. 2017",
+   "nac": 16.33,
+   "sub": 124.76
+  },
+  {
+   "x": 2017.88,
+   "label": "12 meses até nov. 2017",
+   "nac": 16.29,
+   "sub": 124.58
+  },
+  {
+   "x": 2017.96,
+   "label": "12 meses até dez. 2017",
+   "nac": 16.31,
+   "sub": 125.19
+  },
+  {
+   "x": 2018.04,
+   "label": "12 meses até jan. 2018",
+   "nac": 16.36,
+   "sub": 125.74
+  },
+  {
+   "x": 2018.13,
+   "label": "12 meses até fev. 2018",
+   "nac": 16.44,
+   "sub": 126.53
+  },
+  {
+   "x": 2018.21,
+   "label": "12 meses até mar. 2018",
+   "nac": 16.36,
+   "sub": 126.26
+  },
+  {
+   "x": 2018.29,
+   "label": "12 meses até abr. 2018",
+   "nac": 16.36,
+   "sub": 127.14
+  },
+  {
+   "x": 2018.38,
+   "label": "12 meses até mai. 2018",
+   "nac": 16.33,
+   "sub": 127.41
+  },
+  {
+   "x": 2018.46,
+   "label": "12 meses até jun. 2018",
+   "nac": 16.27,
+   "sub": 127.87
+  },
+  {
+   "x": 2018.54,
+   "label": "12 meses até jul. 2018",
+   "nac": 16.3,
+   "sub": 128.75
+  },
+  {
+   "x": 2018.63,
+   "label": "12 meses até ago. 2018",
+   "nac": 16.25,
+   "sub": 128.89
+  },
+  {
+   "x": 2018.71,
+   "label": "12 meses até set. 2018",
+   "nac": 16.25,
+   "sub": 129.19
+  },
+  {
+   "x": 2018.79,
+   "label": "12 meses até out. 2018",
+   "nac": 16.09,
+   "sub": 129.59
+  },
+  {
+   "x": 2018.88,
+   "label": "12 meses até nov. 2018",
+   "nac": 16.06,
+   "sub": 130.6
+  },
+  {
+   "x": 2018.96,
+   "label": "12 meses até dez. 2018",
+   "nac": 15.97,
+   "sub": 131.28
+  },
+  {
+   "x": 2019.04,
+   "label": "12 meses até jan. 2019",
+   "nac": 15.91,
+   "sub": 131.94
+  },
+  {
+   "x": 2019.13,
+   "label": "12 meses até fev. 2019",
+   "nac": 15.92,
+   "sub": 132.76
+  },
+  {
+   "x": 2019.21,
+   "label": "12 meses até mar. 2019",
+   "nac": 16.02,
+   "sub": 133.09
+  },
+  {
+   "x": 2019.29,
+   "label": "12 meses até abr. 2019",
+   "nac": 16.02,
+   "sub": 135.04
+  },
+  {
+   "x": 2019.38,
+   "label": "12 meses até mai. 2019",
+   "nac": 16.06,
+   "sub": 137.37
+  },
+  {
+   "x": 2019.46,
+   "label": "12 meses até jun. 2019",
+   "nac": 16.19,
+   "sub": 139.23
+  },
+  {
+   "x": 2019.54,
+   "label": "12 meses até jul. 2019",
+   "nac": 16.23,
+   "sub": 142.57
+  },
+  {
+   "x": 2019.63,
+   "label": "12 meses até ago. 2019",
+   "nac": 16.34,
+   "sub": 146.04
+  },
+  {
+   "x": 2019.71,
+   "label": "12 meses até set. 2019",
+   "nac": 16.43,
+   "sub": 149.74
+  },
+  {
+   "x": 2019.79,
+   "label": "12 meses até out. 2019",
+   "nac": 16.6,
+   "sub": 154.75
+  },
+  {
+   "x": 2019.88,
+   "label": "12 meses até nov. 2019",
+   "nac": 16.67,
+   "sub": 158.02
+  },
+  {
+   "x": 2019.96,
+   "label": "12 meses até dez. 2019",
+   "nac": 16.81,
+   "sub": 161.65
+  },
+  {
+   "x": 2020.04,
+   "label": "12 meses até jan. 2020",
+   "nac": 16.89,
+   "sub": 164.48
+  },
+  {
+   "x": 2020.13,
+   "label": "12 meses até fev. 2020",
+   "nac": 16.99,
+   "sub": 167.28
+  },
+  {
+   "x": 2020.21,
+   "label": "12 meses até mar. 2020",
+   "nac": 16.25,
+   "sub": 163.87
+  },
+  {
+   "x": 2020.29,
+   "label": "12 meses até abr. 2020",
+   "nac": 14.97,
+   "sub": 152.16
+  },
+  {
+   "x": 2020.38,
+   "label": "12 meses até mai. 2020",
+   "nac": 13.81,
+   "sub": 142.5
+  },
+  {
+   "x": 2020.46,
+   "label": "12 meses até jun. 2020",
+   "nac": 12.96,
+   "sub": 136.08
+  },
+  {
+   "x": 2020.54,
+   "label": "12 meses até jul. 2020",
+   "nac": 12.05,
+   "sub": 130.01
+  },
+  {
+   "x": 2020.63,
+   "label": "12 meses até ago. 2020",
+   "nac": 11.36,
+   "sub": 124.48
+  },
+  {
+   "x": 2020.71,
+   "label": "12 meses até set. 2020",
+   "nac": 10.65,
+   "sub": 118.51
+  },
+  {
+   "x": 2020.79,
+   "label": "12 meses até out. 2020",
+   "nac": 10.01,
+   "sub": 111.05
+  },
+  {
+   "x": 2020.88,
+   "label": "12 meses até nov. 2020",
+   "nac": 9.34,
+   "sub": 104.95
+  },
+  {
+   "x": 2020.96,
+   "label": "12 meses até dez. 2020",
+   "nac": 8.73,
+   "sub": 98.56
+  },
+  {
+   "x": 2021.04,
+   "label": "12 meses até jan. 2021",
+   "nac": 7.97,
+   "sub": 91.69
+  },
+  {
+   "x": 2021.13,
+   "label": "12 meses até fev. 2021",
+   "nac": 7.01,
+   "sub": 82.63
+  },
+  {
+   "x": 2021.21,
+   "label": "12 meses até mar. 2021",
+   "nac": 6.89,
+   "sub": 80.95
+  },
+  {
+   "x": 2021.29,
+   "label": "12 meses até abr. 2021",
+   "nac": 7.54,
+   "sub": 87.47
+  },
+  {
+   "x": 2021.38,
+   "label": "12 meses até mai. 2021",
+   "nac": 8.14,
+   "sub": 92.59
+  },
+  {
+   "x": 2021.46,
+   "label": "12 meses até jun. 2021",
+   "nac": 8.37,
+   "sub": 95.55
+  },
+  {
+   "x": 2021.54,
+   "label": "12 meses até jul. 2021",
+   "nac": 8.6,
+   "sub": 96.88
+  },
+  {
+   "x": 2021.63,
+   "label": "12 meses até ago. 2021",
+   "nac": 8.83,
+   "sub": 98.42
+  },
+  {
+   "x": 2021.71,
+   "label": "12 meses até set. 2021",
+   "nac": 9.07,
+   "sub": 100.12
+  },
+  {
+   "x": 2021.79,
+   "label": "12 meses até out. 2021",
+   "nac": 9.41,
+   "sub": 102.68
+  },
+  {
+   "x": 2021.88,
+   "label": "12 meses até nov. 2021",
+   "nac": 9.94,
+   "sub": 106.86
+  },
+  {
+   "x": 2021.96,
+   "label": "12 meses até dez. 2021",
+   "nac": 10.22,
+   "sub": 110.45
+  },
+  {
+   "x": 2022.04,
+   "label": "12 meses até jan. 2022",
+   "nac": 10.68,
+   "sub": 113.37
+  },
+  {
+   "x": 2022.13,
+   "label": "12 meses até fev. 2022",
+   "nac": 11.35,
+   "sub": 119.59
+  },
+  {
+   "x": 2022.21,
+   "label": "12 meses até mar. 2022",
+   "nac": 12.22,
+   "sub": 126.68
+  },
+  {
+   "x": 2022.29,
+   "label": "12 meses até abr. 2022",
+   "nac": 12.89,
+   "sub": 131.45
+  },
+  {
+   "x": 2022.38,
+   "label": "12 meses até mai. 2022",
+   "nac": 13.44,
+   "sub": 135.88
+  },
+  {
+   "x": 2022.46,
+   "label": "12 meses até jun. 2022",
+   "nac": 13.96,
+   "sub": 139.58
+  },
+  {
+   "x": 2022.54,
+   "label": "12 meses até jul. 2022",
+   "nac": 14.54,
+   "sub": 143.39
+  },
+  {
+   "x": 2022.63,
+   "label": "12 meses até ago. 2022",
+   "nac": 15.02,
+   "sub": 146.77
+  },
+  {
+   "x": 2022.71,
+   "label": "12 meses até set. 2022",
+   "nac": 15.45,
+   "sub": 149.87
+  },
+  {
+   "x": 2022.79,
+   "label": "12 meses até out. 2022",
+   "nac": 15.89,
+   "sub": 152.02
+  },
+  {
+   "x": 2022.88,
+   "label": "12 meses até nov. 2022",
+   "nac": 16.07,
+   "sub": 153.56
+  },
+  {
+   "x": 2022.96,
+   "label": "12 meses até dez. 2022",
+   "nac": 16.39,
+   "sub": 155.07
+  },
+  {
+   "x": 2023.04,
+   "label": "12 meses até jan. 2023",
+   "nac": 16.69,
+   "sub": 158.58
+  },
+  {
+   "x": 2023.13,
+   "label": "12 meses até fev. 2023",
+   "nac": 16.65,
+   "sub": 159.95
+  },
+  {
+   "x": 2023.21,
+   "label": "12 meses até mar. 2023",
+   "nac": 16.54,
+   "sub": 161.67
+  },
+  {
+   "x": 2023.29,
+   "label": "12 meses até abr. 2023",
+   "nac": 16.29,
+   "sub": 162.15
+  },
+  {
+   "x": 2023.38,
+   "label": "12 meses até mai. 2023",
+   "nac": 16.32,
+   "sub": 164.78
+  },
+  {
+   "x": 2023.46,
+   "label": "12 meses até jun. 2023",
+   "nac": 16.15,
+   "sub": 167.64
+  },
+  {
+   "x": 2023.54,
+   "label": "12 meses até jul. 2023",
+   "nac": 15.97,
+   "sub": 169.8
+  },
+  {
+   "x": 2023.63,
+   "label": "12 meses até ago. 2023",
+   "nac": 15.92,
+   "sub": 173.82
+  },
+  {
+   "x": 2023.71,
+   "label": "12 meses até set. 2023",
+   "nac": 15.95,
+   "sub": 176.38
+  },
+  {
+   "x": 2023.79,
+   "label": "12 meses até out. 2023",
+   "nac": 15.94,
+   "sub": 179.26
+  },
+  {
+   "x": 2023.88,
+   "label": "12 meses até nov. 2023",
+   "nac": 16,
+   "sub": 181.68
+  },
+  {
+   "x": 2023.96,
+   "label": "12 meses até dez. 2023",
+   "nac": 16.05,
+   "sub": 184.03
+  },
+  {
+   "x": 2024.04,
+   "label": "12 meses até jan. 2024",
+   "nac": 16.14,
+   "sub": 186
+  },
+  {
+   "x": 2024.13,
+   "label": "12 meses até fev. 2024",
+   "nac": 16.62,
+   "sub": 189.26
+  },
+  {
+   "x": 2024.21,
+   "label": "12 meses até mar. 2024",
+   "nac": 16.84,
+   "sub": 190.75
+  },
+  {
+   "x": 2024.29,
+   "label": "12 meses até abr. 2024",
+   "nac": 17.44,
+   "sub": 194.4
+  },
+  {
+   "x": 2024.38,
+   "label": "12 meses até mai. 2024",
+   "nac": 17.64,
+   "sub": 195.27
+  },
+  {
+   "x": 2024.46,
+   "label": "12 meses até jun. 2024",
+   "nac": 17.99,
+   "sub": 195.62
+  },
+  {
+   "x": 2024.54,
+   "label": "12 meses até jul. 2024",
+   "nac": 18.31,
+   "sub": 197.23
+  },
+  {
+   "x": 2024.63,
+   "label": "12 meses até ago. 2024",
+   "nac": 18.36,
+   "sub": 196.04
+  },
+  {
+   "x": 2024.71,
+   "label": "12 meses até set. 2024",
+   "nac": 18.64,
+   "sub": 196.46
+  },
+  {
+   "x": 2024.79,
+   "label": "12 meses até out. 2024",
+   "nac": 19,
+   "sub": 197.29
+  },
+  {
+   "x": 2024.88,
+   "label": "12 meses até nov. 2024",
+   "nac": 19.98,
+   "sub": 197.14
+  },
+  {
+   "x": 2024.96,
+   "label": "12 meses até dez. 2024",
+   "nac": 20.93,
+   "sub": 197.86
+  },
+  {
+   "x": 2025.04,
+   "label": "12 meses até jan. 2025",
+   "nac": 22.3,
+   "sub": 198.09
+  },
+  {
+   "x": 2025.13,
+   "label": "12 meses até fev. 2025",
+   "nac": 23.71,
+   "sub": 198.02
+  },
+  {
+   "x": 2025.21,
+   "label": "12 meses até mar. 2025",
+   "nac": 25.59,
+   "sub": 198.48
+  },
+  {
+   "x": 2025.29,
+   "label": "12 meses até abr. 2025",
+   "nac": 27.16,
+   "sub": 198.09
+  },
+  {
+   "x": 2025.38,
+   "label": "12 meses até mai. 2025",
+   "nac": 28.64,
+   "sub": 197.46
+  },
+  {
+   "x": 2025.46,
+   "label": "12 meses até jun. 2025",
+   "nac": 30.44,
+   "sub": 197.77
+  },
+  {
+   "x": 2025.54,
+   "label": "12 meses até jul. 2025",
+   "nac": 32.15,
+   "sub": 198.74
+  },
+  {
+   "x": 2025.63,
+   "label": "12 meses até ago. 2025",
+   "nac": 33.93,
+   "sub": 199.23
+  },
+  {
+   "x": 2025.71,
+   "label": "12 meses até set. 2025",
+   "nac": 35.54,
+   "sub": 200.5
+  },
+  {
+   "x": 2025.79,
+   "label": "12 meses até out. 2025",
+   "nac": 37.46,
+   "sub": 200.95
+  },
+  {
+   "x": 2025.88,
+   "label": "12 meses até nov. 2025",
+   "nac": 38.5,
+   "sub": 200.83
+  },
+  {
+   "x": 2025.96,
+   "label": "12 meses até dez. 2025",
+   "nac": 39.4,
+   "sub": 200.48
+  },
+  {
+   "x": 2026.04,
+   "label": "12 meses até jan. 2026",
+   "nac": 39.93,
+   "sub": 200.14
+  },
+  {
+   "x": 2026.13,
+   "label": "12 meses até fev. 2026",
+   "nac": 39.81,
+   "sub": 199.33
+  },
+  {
+   "x": 2026.21,
+   "label": "12 meses até mar. 2026",
+   "nac": 40.02,
+   "sub": 200.33
+  },
+  {
+   "x": 2026.29,
+   "label": "12 meses até abr. 2026",
+   "nac": 40.59,
+   "sub": 201.43
+  },
+  {
+   "x": 2026.38,
+   "label": "12 meses até mai. 2026",
+   "nac": 41.26,
+   "sub": 202.2
+  },
+  {
+   "x": 2026.46,
+   "label": "12 meses até jun. 2026",
+   "nac": 41.55,
+   "sub": 202.49
+  },
+  {
+   "x": 2026.54,
+   "label": "12 meses até jul. 2026",
+   "nac": 41.89,
+   "sub": 202.34
+  },
+  {
+   "x": 2026.63,
+   "label": "12 meses até ago. 2026",
+   "nac": 42.26,
+   "sub": 202.6
+  }
+ ],
+ "config": {
+  "x": {
+   "min": 2004.9,
+   "max": 2026.75,
+   "ticks": [
+    2005,
+    2008,
+    2011,
+    2014,
+    2017,
+    2020,
+    2023,
+    2026
+   ],
+   "tableLabel": "Período"
+  },
+  "y": {
+   "label": "Passageiros em 12 meses (milhões)",
+   "suffix": " milhões",
+   "decimals": 1,
+   "linMin": 0,
+   "linMax": 220,
+   "logDefault": false,
+   "logMin": 5,
+   "logMax": 250
+  },
+  "scaleToggle": true,
+  "series": [
+   {
+    "key": "sub",
+    "label": "Tráfego suburbano",
+    "short": "Suburb.",
+    "color": "--ink-3",
+    "width": 1.6
+   },
+   {
+    "key": "nac",
+    "label": "Tráfego nacional (fora dos suburbanos)",
+    "short": "Nac.",
+    "color": "--accent-2",
+    "width": 2.6
+   }
+  ],
+  "labelMargin": [
+   74,
+   92
+  ],
+  "shortEndLabels": true,
+  "shade": [
+   {
+    "from": 2020.17,
+    "to": 2022.25,
+    "exact": true,
+    "label": "Pandemia",
+    "short": "Pandemia",
+    "top": true
+   }
+  ],
+  "annotations": [
+   {
+    "x": 2019.29,
+    "key": "sub",
+    "text": "Abr. 2019: passes metropolitanos mais baratos",
+    "short": "Passes 2019",
+    "dx": -6,
+    "dy": -12,
+    "anchor": "end",
+    "linOnly": true
+   },
+   {
+    "x": 2024.79,
+    "key": "nac",
+    "text": "Out. 2024: Passe Ferroviário Verde (20 €)",
+    "short": "Passe 20 €",
+    "dx": -6,
+    "dy": -14,
+    "anchor": "end",
+    "strong": true
+   }
+  ],
+  "howToRead": "Cada ponto soma os passageiros dos 12 meses anteriores, para tirar o efeito das estações do ano. Os botões alternam entre a escala linear e a logarítmica; na logarítmica, a mesma distância vertical corresponde à mesma variação percentual, o que permite comparar as duas linhas apesar da diferença de tamanho."
+ },
+ "summary": {
+  "nac2019": 16808,
+  "nac2023": 16049,
+  "nac2024": 20927,
+  "nac2025": 39402,
+  "nac8_2024": 12431,
+  "nac8_2025": 25434,
+  "nac8_2026": 28292,
+  "sub2018": 131277,
+  "sub2019": 161645,
+  "sub2025": 200480,
+  "tot2019": 178686,
+  "tot2025": 239982,
+  "nacSep24": 1853,
+  "nacOct24": 1986,
+  "nacNov24": 2402,
+  "nacOct23": 1621,
+  "nacNov23": 1422,
+  "rollLast": 42.26,
+  "rollSep24": 18.64
+ }
+}

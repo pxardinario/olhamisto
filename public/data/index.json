@@ -1,8 +1,118 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-17T07:40:00.718Z",
- "latest": "2026-11-17",
+ "updated": "2026-11-18T07:39:37.673Z",
+ "latest": "2026-11-18",
  "editions": [
+  {
+   "date": "2026-11-18",
+   "number": 12,
+   "lead": "comboios-passe-ferroviario-2004-2026",
+   "opening": "Cinco histórias para quarta-feira: o salto dos comboios com o passe de 20 euros, o recuo do dinheiro vivo, a caça à baleia no século XX, a década perdida no PISA e o comércio europeu com a China no ano das tarifas.",
+   "pieces": [
+    {
+     "id": "comboios-passe-ferroviario-2004-2026",
+     "title": "No primeiro ano do passe ferroviário de 20 euros, as viagens de comboio fora dos suburbanos quase duplicaram",
+     "kind": "descoberta",
+     "theme": "portugal",
+     "themeLabel": "Portugal e políticas públicas",
+     "vizType": "linha",
+     "vizLabel": "Linhas · soma de 12 meses · escala log ⇄ linear",
+     "interactive": true,
+     "question": "O passe ferroviário de 20 euros mudou a forma como se viaja de comboio em Portugal?",
+     "finding": "O tráfego ferroviário nacional, que exclui os suburbanos, passou de 20,9 milhões de passageiros em 2024 para 39,4 milhões em 2025 (+88,3%). Entre 2004 e 2024 nunca tinha chegado a 21 milhões num ano. Em novembro de 2024, primeiro mês completo do passe, viajaram 2,40 milhões, mais 68,9% do que um ano antes. De janeiro a agosto de 2026 houve mais 11,2% do que no mesmo período de 2025.",
+     "period": "Janeiro de 2004 a agosto de 2026 (somas de 12 meses desde dezembro de 2004)",
+     "dataset": "comboios-passe-ferroviario-2004-2026",
+     "sourceNames": [
+      "INE — Passageiros transportados pelas empresas exploradoras de sistema ferroviário pesado, por tipo de tráfego, mensal (indicador 0000901)",
+      "Diário da República — Decreto-Lei n.º 73/2024, que cria o Passe Ferroviário Verde",
+      "ECO — «Saiba como vai funcionar o passe ferroviário verde» (secundária)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "multibanco-levantamentos-compras-2020-2026",
+     "title": "Por cada levantamento no Multibanco, há quase nove compras com cartão. Em 2022 havia quatro e meia",
+     "kind": "atualidade",
+     "theme": "marketing",
+     "themeLabel": "Consumo e pagamentos",
+     "vizType": "barras",
+     "vizLabel": "Colunas · três vistas",
+     "interactive": true,
+     "question": "Quanto recuou o dinheiro vivo nos pagamentos do dia a dia?",
+     "finding": "De janeiro a outubro de 2026, a rede Multibanco registou 275,3 milhões de levantamentos, o número mais baixo da série, que começa em 2020, e 2 415,7 milhões de compras em terminais de pagamento: 8,77 compras por levantamento, contra 4,50 no mesmo período de 2022. O rácio subiu todos os anos. O valor médio de cada compra desceu de 35,96 para 31,31 euros, e as compras online passaram de 3,5% para 7,5% do total.",
+     "period": "Janeiro a outubro de cada ano, 2020 a 2026",
+     "dataset": "multibanco-levantamentos-compras-2020-2026",
+     "sourceNames": [
+      "SIBS, via INE — Levantamentos em caixas automáticas Multibanco, número e valor, mensal (indicadores 0012845 e 0012846)",
+      "SIBS, via INE — Compras através de terminais de pagamento automático, número por forma de compra e valor, mensal (indicadores 0012847 e 0012103)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "baleias-cacadas-1900-2018",
+     "title": "No século XX, a caça industrial matou quase 2,9 milhões de grandes baleias. Quase metade em duas décadas",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História e ambiente",
+     "vizType": "barras",
+     "vizLabel": "Colunas empilhadas · duas vistas",
+     "interactive": true,
+     "question": "Quantas baleias foram mortas no século XX, e quando?",
+     "finding": "Entre 1900 e 1999 foram mortas cerca de 2,9 milhões de grandes baleias, 71,2% no hemisfério Sul. As décadas de 1950 e 1960 somam 45,6% do total, e o pico foi em 1964, com 82 194. A baleia-azul, a maior, teve o máximo em 1930, com 30 727; em 1965, véspera da proteção total, foram 1 756. Desde 2000, o máximo num ano foi 2 314, em 2005.",
+     "period": "1900 a 2018",
+     "dataset": "baleias-cacadas-1900-2018",
+     "sourceNames": [
+      "Rocha et al. (2014) — Rocha, Clapham e Ivashchenko, «Emptying the oceans: a summary of industrial whaling catches in the 20th century», Marine Fisheries Review 76(4), NOAA",
+      "Comissão Baleeira Internacional (CBI) — capturas totais desde 1986",
+      "Our World in Data, «Whale catch (Rocha et al.; IWC)», owid-datasets (cópia secundária)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "pisa-alunos-abaixo-minimo-2000-2025",
+     "title": "Mais de um em cada três alunos portugueses de 15 anos não atinge o mínimo a matemática. Em 2015 era menos de um em quatro",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Educação",
+     "vizType": "linha",
+     "vizLabel": "Linhas · quatro séries · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Quantos alunos portugueses ficam abaixo do nível mínimo no PISA, e como mudou em dez anos?",
+     "finding": "No PISA 2025, 35,2% dos alunos portugueses de 15 anos ficaram abaixo do nível 2 a matemática, o valor mais alto desde que há comparação (2003); em 2015 eram 23,8%. Em leitura, 28,4%, o máximo de uma série que começa em 2000; em 2015 eram 17,2%. Na média da UE, as percentagens são 33,9% e 31,3%.",
+     "period": "2000 a 2025 (ciclos do PISA)",
+     "dataset": "pisa-alunos-abaixo-minimo-2000-2025",
+     "sourceNames": [
+      "Eurostat — Alunos de 15 anos com baixo desempenho em leitura, matemática e ciências (educ_outc_pisa), a partir do PISA da OCDE",
+      "OCDE — PISA (Programme for International Student Assessment)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "comercio-ue-china-2025",
+     "title": "No ano das tarifas dos EUA, a UE comprou à China mais 43 mil milhões de euros e vendeu-lhe menos 14 mil milhões",
+     "kind": "atualidade",
+     "theme": "geopolitica",
+     "themeLabel": "Geopolítica e comércio",
+     "vizType": "barras",
+     "vizLabel": "Barras divergentes · duas vistas · ordenação alternável",
+     "interactive": true,
+     "question": "Como mudou o comércio da UE com os principais parceiros em 2025?",
+     "finding": "Em 2025, as importações da UE vindas da China subiram 8,1%, para 574,4 mil milhões de euros, e as exportações para a China caíram 6,6%, para 199,5 mil milhões, o valor mais baixo desde 2019 e o terceiro ano seguido de queda. A China explica 53,1% do aumento das importações de fora da UE. O défice com a China chegou a 375,0 mil milhões, abaixo do máximo de 2022 (397,8).",
+     "period": "2024 e 2025",
+     "dataset": "comercio-ue-china-2025",
+     "sourceNames": [
+      "Eurostat — Comércio extra-UE por parceiro (ext_lt_maineu)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "efeito-holofote",
+    "title": "O efeito holofote",
+    "axis": "sabedoria",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-17",
    "number": 11,

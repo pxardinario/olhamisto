@@ -1,0 +1,168 @@
+{
+ "rows": [
+  {
+   "label": "Total fora da UE",
+   "highlight": false,
+   "dImp": 81,
+   "dExp": 54.4,
+   "imp25": 2541.7,
+   "exp25": 2647.9
+  },
+  {
+   "label": "EUA",
+   "highlight": false,
+   "dImp": 20.3,
+   "dExp": 19,
+   "imp25": 357.7,
+   "exp25": 554.6
+  },
+  {
+   "label": "China",
+   "highlight": true,
+   "dImp": 43,
+   "dExp": -14,
+   "imp25": 574.4,
+   "exp25": 199.5
+  },
+  {
+   "label": "Reino Unido",
+   "highlight": false,
+   "dImp": -4.5,
+   "dExp": 1.9,
+   "imp25": 160.3,
+   "exp25": 345.4
+  },
+  {
+   "label": "Suíça",
+   "highlight": false,
+   "dImp": 8.6,
+   "dExp": 27.8,
+   "imp25": 143.4,
+   "exp25": 220.8
+  },
+  {
+   "label": "Turquia",
+   "highlight": false,
+   "dImp": 5.6,
+   "dExp": 1.1,
+   "imp25": 103.6,
+   "exp25": 114.3
+  },
+  {
+   "label": "Japão",
+   "highlight": false,
+   "dImp": -0.6,
+   "dExp": -1.8,
+   "imp25": 63.6,
+   "exp25": 65.7
+  },
+  {
+   "label": "Coreia do Sul",
+   "highlight": false,
+   "dImp": 1.3,
+   "dExp": -1.2,
+   "imp25": 69.9,
+   "exp25": 54.6
+  },
+  {
+   "label": "Índia",
+   "highlight": false,
+   "dImp": -1.6,
+   "dExp": 0.1,
+   "imp25": 69.9,
+   "exp25": 48.9
+  },
+  {
+   "label": "Noruega",
+   "highlight": false,
+   "dImp": -1.1,
+   "dExp": 0.9,
+   "imp25": 95.6,
+   "exp25": 63.7
+  },
+  {
+   "label": "Rússia",
+   "highlight": false,
+   "dImp": -8.2,
+   "dExp": -1.7,
+   "imp25": 28.1,
+   "exp25": 30.3
+  },
+  {
+   "label": "Brasil",
+   "highlight": false,
+   "dImp": -1.6,
+   "dExp": -1,
+   "imp25": 44.5,
+   "exp25": 42.8
+  },
+  {
+   "label": "México",
+   "highlight": false,
+   "dImp": 3.6,
+   "dExp": -0.3,
+   "imp25": 32.8,
+   "exp25": 52.8
+  },
+  {
+   "label": "Vietname",
+   "highlight": false,
+   "dImp": 9,
+   "dExp": -0.1,
+   "imp25": 64.5,
+   "exp25": 12.2
+  }
+ ],
+ "config": {
+  "unit": "",
+  "decimals": 1,
+  "pinned": [
+   "Total fora da UE"
+  ],
+  "posLabel": "Aumento",
+  "negLabel": "Diminuição",
+  "highlightLabel": "China",
+  "highlightColor": "--ink",
+  "views": [
+   {
+    "id": "imp",
+    "label": "Importações",
+    "key": "dImp",
+    "axisLabel": "Variação das importações da UE em 2025 face a 2024 (mil milhões de euros)",
+    "axisShort": "Importações, 2025 vs. 2024 (mil milhões de €)"
+   },
+   {
+    "id": "exp",
+    "label": "Exportações",
+    "key": "dExp",
+    "axisLabel": "Variação das exportações da UE em 2025 face a 2024 (mil milhões de euros)",
+    "axisShort": "Exportações, 2025 vs. 2024 (mil milhões de €)"
+   }
+  ],
+  "sorts": [
+   [
+    "value",
+    "Por variação"
+   ],
+   [
+    "label",
+    "Alfabética"
+   ]
+  ],
+  "howToRead": "Cada barra é um parceiro comercial e mostra quanto a UE comprou (importações) ou vendeu (exportações) a mais ou a menos do que no ano anterior, em mil milhões de euros. A China está destacada; o total fora da UE fica fixo no topo. Os botões alternam entre importações e exportações."
+ },
+ "summary": {
+  "imp24": 531448.2,
+  "imp25": 574446.3,
+  "exp24": 213502.6,
+  "exp25": 199485.7,
+  "imp22": 628824.8,
+  "exp22": 231034.1,
+  "bal25": -374960.5,
+  "bal24": -317945.7,
+  "bal22": -397790.7,
+  "lastExpBelow": "2019",
+  "extImp": 81,
+  "extExp": 54.4
+ }
+}

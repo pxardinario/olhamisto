@@ -1,0 +1,215 @@
+{
+ "rows": [
+  {
+   "cat": "2020",
+   "alt": true,
+   "ratio": 3.24,
+   "lev": 289.2,
+   "comp": 936.8,
+   "online": 1.5,
+   "levEur": 21.54,
+   "compEur": 34.88,
+   "ticket": 37.23
+  },
+  {
+   "cat": "2021",
+   "alt": true,
+   "ratio": 3.72,
+   "lev": 289.2,
+   "comp": 1077,
+   "online": 3.1,
+   "levEur": 22.56,
+   "compEur": 40.06,
+   "ticket": 37.2
+  },
+  {
+   "cat": "2022",
+   "alt": false,
+   "ratio": 4.5,
+   "lev": 321,
+   "comp": 1445.1,
+   "online": 3.5,
+   "levEur": 24.85,
+   "compEur": 51.96,
+   "ticket": 35.96
+  },
+  {
+   "cat": "2023",
+   "alt": false,
+   "ratio": 5.33,
+   "lev": 323.8,
+   "comp": 1724.8,
+   "online": 4.5,
+   "levEur": 25.2,
+   "compEur": 58.5,
+   "ticket": 33.92
+  },
+  {
+   "cat": "2024",
+   "alt": false,
+   "ratio": 6.29,
+   "lev": 312.9,
+   "comp": 1967.6,
+   "online": 5.9,
+   "levEur": 24.83,
+   "compEur": 64.57,
+   "ticket": 32.82
+  },
+  {
+   "cat": "2025",
+   "alt": false,
+   "ratio": 7.45,
+   "lev": 295.9,
+   "comp": 2205.1,
+   "online": 7,
+   "levEur": 23.81,
+   "compEur": 70.23,
+   "ticket": 31.85
+  },
+  {
+   "cat": "2026",
+   "alt": false,
+   "ratio": 8.77,
+   "lev": 275.3,
+   "comp": 2415.7,
+   "online": 7.5,
+   "levEur": 22.59,
+   "compEur": 75.63,
+   "ticket": 31.31
+  }
+ ],
+ "views": [
+  {
+   "id": "ratio",
+   "label": "Compras por levantamento",
+   "yLabel": "Compras em terminais de pagamento por cada levantamento no Multibanco, janeiro a outubro de cada ano",
+   "unit": "",
+   "decimals": 2,
+   "valueLabels": true,
+   "series": [
+    {
+     "key": "ratio",
+     "label": "Compras por levantamento",
+     "color": "--accent-2",
+     "altColor": "--muted",
+     "altLabel": "Anos de pandemia (2020 e 2021)"
+    }
+   ]
+  },
+  {
+   "id": "lev",
+   "label": "Levantamentos",
+   "yLabel": "Levantamentos no Multibanco, janeiro a outubro de cada ano (milhões)",
+   "unit": " milhões",
+   "decimals": 1,
+   "valueLabels": true,
+   "series": [
+    {
+     "key": "lev",
+     "label": "Levantamentos (milhões)",
+     "color": "--accent-3",
+     "altColor": "--muted",
+     "altLabel": "Anos de pandemia (2020 e 2021)"
+    }
+   ]
+  },
+  {
+   "id": "comp",
+   "label": "Compras com cartão",
+   "yLabel": "Compras em terminais de pagamento automático, janeiro a outubro de cada ano (milhões)",
+   "unit": " milhões",
+   "decimals": 1,
+   "valueLabels": true,
+   "series": [
+    {
+     "key": "comp",
+     "label": "Compras (milhões)",
+     "color": "--accent-2",
+     "altColor": "--muted",
+     "altLabel": "Anos de pandemia (2020 e 2021)"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "rows": {
+   "2020": {
+    "cat": "2020",
+    "alt": true,
+    "ratio": 3.24,
+    "lev": 289.2,
+    "comp": 936.8,
+    "online": 1.5,
+    "levEur": 21.54,
+    "compEur": 34.88,
+    "ticket": 37.23
+   },
+   "2021": {
+    "cat": "2021",
+    "alt": true,
+    "ratio": 3.72,
+    "lev": 289.2,
+    "comp": 1077,
+    "online": 3.1,
+    "levEur": 22.56,
+    "compEur": 40.06,
+    "ticket": 37.2
+   },
+   "2022": {
+    "cat": "2022",
+    "alt": false,
+    "ratio": 4.5,
+    "lev": 321,
+    "comp": 1445.1,
+    "online": 3.5,
+    "levEur": 24.85,
+    "compEur": 51.96,
+    "ticket": 35.96
+   },
+   "2023": {
+    "cat": "2023",
+    "alt": false,
+    "ratio": 5.33,
+    "lev": 323.8,
+    "comp": 1724.8,
+    "online": 4.5,
+    "levEur": 25.2,
+    "compEur": 58.5,
+    "ticket": 33.92
+   },
+   "2024": {
+    "cat": "2024",
+    "alt": false,
+    "ratio": 6.29,
+    "lev": 312.9,
+    "comp": 1967.6,
+    "online": 5.9,
+    "levEur": 24.83,
+    "compEur": 64.57,
+    "ticket": 32.82
+   },
+   "2025": {
+    "cat": "2025",
+    "alt": false,
+    "ratio": 7.45,
+    "lev": 295.9,
+    "comp": 2205.1,
+    "online": 7,
+    "levEur": 23.81,
+    "compEur": 70.23,
+    "ticket": 31.85
+   },
+   "2026": {
+    "cat": "2026",
+    "alt": false,
+    "ratio": 8.77,
+    "lev": 275.3,
+    "comp": 2415.7,
+    "online": 7.5,
+    "levEur": 22.59,
+    "compEur": 75.63,
+    "ticket": 31.31
+   }
+  }
+ }
+}

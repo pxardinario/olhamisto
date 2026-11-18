@@ -1,5 +1,5 @@
 // Olhamisto — aplicação (sem compilação; módulos ES nativos).
-import { CHARTS, dataTable, toCSV } from "./charts.js?v=9aa9f93d37";
+import { CHARTS, dataTable, toCSV } from "./charts.js?v=6fe57c6e6d";
 import { chaveHTML } from "./chave.js?v=98a2bedc36";
 
 const $ = (s, el = document) => el.querySelector(s);
