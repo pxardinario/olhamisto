@@ -1,8 +1,103 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-18T07:39:37.673Z",
- "latest": "2026-11-18",
+ "updated": "2026-11-19T07:41:00.756Z",
+ "latest": "2026-11-19",
  "editions": [
+  {
+   "date": "2026-11-19",
+   "number": 13,
+   "lead": "funcao-publica-salario-real-2011-2026",
+   "opening": "Quatro histórias para quinta-feira: o salário real da função pública na véspera da greve, os aeroportos fora de Lisboa a crescer mais depressa, as casas que de facto se acabam de construir e sete séculos do preço da luz.",
+   "pieces": [
+    {
+     "id": "funcao-publica-salario-real-2011-2026",
+     "title": "Em 2022, a inflação tirou 7,4% ao salário base real da função pública. Só em 2024 foi recuperado",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia e trabalho",
+     "vizType": "linha",
+     "vizLabel": "Linhas · nominal e real · cursor por rato e teclado",
+     "interactive": true,
+     "question": "Na véspera da greve da função pública, os salários do Estado acompanharam a inflação?",
+     "finding": "Em outubro de 2022, a remuneração base média nas administrações públicas era de 1 571,1 euros, mais 2,0% do que um ano antes, com os preços a subir 10,1%: em termos reais, menos 7,4%. O poder de compra de outubro de 2021 foi ultrapassado em janeiro de 2024 e, de forma continuada, a partir de julho de 2024. Em abril de 2026, com 1 967,4 euros, estava 5,8% acima desse nível e 9,2% acima do de outubro de 2011.",
+     "period": "Outubro de 2011 a abril de 2026, trimestral",
+     "dataset": "funcao-publica-salario-real-2011-2026",
+     "sourceNames": [
+      "DGAEP — Evolução das remunerações base e ganho médio nas administrações públicas (dados.gov.pt)",
+      "DGAEP — Evolução do número de trabalhadores na Administração Pública (dados.gov.pt)",
+      "INE — Índice de preços no consumidor, base 2025 (indicador 0014639)",
+      "RTP — «Frente Comum convoca greve da administração pública para 20 de novembro» (secundária)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "aeroportos-passageiros-2019-2025",
+     "title": "Desde 2019, Lisboa foi o aeroporto que menos cresceu. A Madeira ganhou 68,5% de passageiros",
+     "kind": "atualidade",
+     "theme": "turismo",
+     "themeLabel": "Turismo e transportes",
+     "vizType": "barras",
+     "vizLabel": "Colunas · três vistas",
+     "interactive": true,
+     "question": "Onde cresceu o tráfego aéreo em Portugal depois da pandemia?",
+     "finding": "Em 2025 embarcaram 35,7 milhões de passageiros nos cinco aeroportos discriminados pelo INE, mais 22,7% do que em 2019. Lisboa cresceu 15,7%, menos do que qualquer outro, embora quase empatada com Faro (16,0%): o Porto cresceu 30,5%, Ponta Delgada 37,8% e a Madeira 68,5%. Lisboa, que tinha 53,4% dos passageiros em 2019, explicou 36,9% do aumento e ficou com 50,3% em 2025.",
+     "period": "2019, 2024 e 2025",
+     "dataset": "aeroportos-passageiros-2019-2025",
+     "sourceNames": [
+      "INE — Passageiros embarcados nos aeroportos, por aeroporto e nacionalidade da transportadora, anual (indicador 0003864)",
+      "ECO — «Governo assume o aeroporto único como solução» (secundária)",
+      "Governo de Portugal — Comunicado do Conselho de Ministros de 14 de maio de 2024"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "fogos-concluidos-1975-2025",
+     "title": "Portugal acabou 27 mil casas novas em 2025, o máximo desde 2010. Em 2002 foram 126 mil",
+     "kind": "descoberta",
+     "theme": "portugal",
+     "themeLabel": "Portugal e políticas públicas",
+     "vizType": "barras",
+     "vizLabel": "Colunas · 51 anos",
+     "interactive": true,
+     "question": "Quantas casas novas ficam de facto prontas em Portugal, comparado com o passado?",
+     "finding": "Em 2025 foram concluídos 27 301 fogos em construções novas para habitação familiar, mais 10,7% do que em 2024 e o valor mais alto desde 2010. É 3,8 vezes o mínimo de 2015 (7 148), mas apenas 21,7% do máximo de 2002 (125 708). Entre 2002 e 2007 concluíram-se 504 827 fogos, mais do dobro dos 246 248 dos quinze anos de 2011 a 2025.",
+     "period": "1975 a 2025",
+     "dataset": "fogos-concluidos-1975-2025",
+     "sourceNames": [
+      "INE — Fogos concluídos em construções novas para habitação familiar, série longa desde 1975 (indicador 0011725)",
+      "INE — Fogos licenciados em construções novas para habitação familiar (indicador 0008066), via peça do Olhamisto de 13/11/2026"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "preco-luz-reino-unido-1301-2006",
+     "title": "Em cinco séculos, a luz ficou três vezes e meia mais barata. Nos dois seguintes, 3 600 vezes",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História e tecnologia",
+     "vizType": "linha",
+     "vizLabel": "Linha · escala log ⇄ linear",
+     "interactive": true,
+     "question": "Quanto custou, ao longo dos séculos, iluminar uma casa?",
+     "finding": "No Reino Unido, um milhão de lúmenes-hora custava 33 043 libras em 1301 e 9 540 libras em 1800, a preços de 2000: caiu 3,5 vezes em cinco séculos. Em 2000 custava 2,62 libras, 3 641 vezes menos do que em 1800. Em 1500 e em 1700 o preço era quase o mesmo (14 472 e 14 102 libras), com oscilações pelo meio; em 1900 já era 40 vezes mais baixo do que em 1800.",
+     "period": "1301 a 2006, anual",
+     "dataset": "preco-luz-reino-unido-1301-2006",
+     "sourceNames": [
+      "Fouquet e Pearson (2012), «The long run demand for lighting: elasticities and rebound effects in different phases of economic development», Economics of Energy and Environmental Policy 1: 83–100",
+      "Fouquet e Pearson (2006), «Seven Centuries of Energy Services: The Price and Use of Light in the United Kingdom (1300-2000)», The Energy Journal 27(1)",
+      "Our World in Data — owid-datasets, «Price for Light – Fouquet» (cópia secundária no GitHub)",
+      "Our World in Data — «The price for lighting in the United Kingdom» (unidade da série; secundária)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "paradoxo-de-jevons",
+    "title": "O paradoxo de Jevons",
+    "axis": "economia",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-18",
    "number": 12,

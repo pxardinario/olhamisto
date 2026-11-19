@@ -508,7 +508,7 @@ function columns(host, data) {
 }
 
 /* lines: séries temporais com escala log ⇄ linear, cursor, rótulos diretos.
-   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], scaleToggle, dots, gaps (anos sem valor ficam em branco, sem ligar os pontos), annotations[], shade[{from,to,label,short,exact,labelOnly,top}], refLine{value,label,short,at}} */
+   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], y.logTicks/y.linTicks (marcas explícitas), scaleToggle, dots, gaps (anos sem valor ficam em branco, sem ligar os pontos), annotations[], shade[{from,to,label,short,exact,labelOnly,top}], refLine{value,label,short,at}} */
 function lines(host, data) {
   const C = data.config, rows = data.rows;
   let log = !!C.y.logDefault;
@@ -535,7 +535,8 @@ function lines(host, data) {
       svg.append("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y(C.refLine.value)).attr("y2", y(C.refLine.value)).attr("stroke", css("--ink")).attr("stroke-dasharray", "4 3").attr("opacity", 0.8);
       halo(svg.append("text").attr("class", "ann").style("font-size", "11px").attr("x", C.refLine.at != null ? x(C.refLine.at) : W - m.r - 4).attr("y", y(C.refLine.value) - 5).attr("text-anchor", C.refLine.at != null ? "middle" : "end").text(narrow && C.refLine.short ? C.refLine.short : C.refLine.label));
     }
-    const yt = log ? y.ticks(10).filter((t) => [0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100, 200].some((k) => Math.abs(t - k) < 1e-9)) : y.ticks(6);
+    // logTicks / linTicks: marcas explícitas no eixo vertical (opcional)
+    const yt = log ? (C.y.logTicks || y.ticks(10).filter((t) => [0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100, 200].some((k) => Math.abs(t - k) < 1e-9))) : (C.y.linTicks || y.ticks(6));
     svg.append("g").attr("class", "grid").selectAll("line").data(yt).join("line").attr("x1", m.l).attr("x2", W - m.r).attr("y1", y).attr("y2", y);
     svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues(yt).tickFormat((t) => fmtN(t, t > 0 && t < 1 ? 1 : 0)).tickSize(0)).call((g) => g.select(".domain").remove());
     svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(narrow ? C.x.ticks.filter((_, i) => i % 2 === 0 || i === C.x.ticks.length - 1) : C.x.ticks).tickFormat(d3.format("d")).tickSizeOuter(0));

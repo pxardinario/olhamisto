@@ -1,0 +1,461 @@
+{
+ "rows": [
+  {
+   "x": 2011.79,
+   "label": "out. 2011",
+   "nom": 1384.7,
+   "real": 1801.8
+  },
+  {
+   "x": 2012.04,
+   "label": "jan. 2012",
+   "nom": 1382.2,
+   "real": 1791.7
+  },
+  {
+   "x": 2012.29,
+   "label": "abr. 2012",
+   "nom": 1378.7,
+   "real": 1760.2
+  },
+  {
+   "x": 2012.54,
+   "label": "jul. 2012",
+   "nom": 1383.6,
+   "real": 1776.8
+  },
+  {
+   "x": 2012.79,
+   "label": "out. 2012",
+   "nom": 1385.1,
+   "real": 1764.7
+  },
+  {
+   "x": 2013.04,
+   "label": "jan. 2013",
+   "nom": 1384.6,
+   "real": 1791.7
+  },
+  {
+   "x": 2013.29,
+   "label": "abr. 2013",
+   "nom": 1385.2,
+   "real": 1765.2
+  },
+  {
+   "x": 2013.54,
+   "label": "jul. 2013",
+   "nom": 1384.5,
+   "real": 1764.6
+  },
+  {
+   "x": 2013.79,
+   "label": "out. 2013",
+   "nom": 1380.7,
+   "real": 1763.4
+  },
+  {
+   "x": 2014.04,
+   "label": "jan. 2014",
+   "nom": 1311.2,
+   "real": 1695.7
+  },
+  {
+   "x": 2014.29,
+   "label": "abr. 2014",
+   "nom": 1313.6,
+   "real": 1676.4
+  },
+  {
+   "x": 2014.54,
+   "label": "jul. 2014",
+   "nom": 1444.6,
+   "real": 1857.4
+  },
+  {
+   "x": 2014.79,
+   "label": "out. 2014",
+   "nom": 1390.4,
+   "real": 1775.7
+  },
+  {
+   "x": 2015.04,
+   "label": "jan. 2015",
+   "nom": 1405.6,
+   "real": 1825
+  },
+  {
+   "x": 2015.29,
+   "label": "abr. 2015",
+   "nom": 1402.2,
+   "real": 1782.3
+  },
+  {
+   "x": 2015.54,
+   "label": "jul. 2015",
+   "nom": 1404.5,
+   "real": 1792.1
+  },
+  {
+   "x": 2015.79,
+   "label": "out. 2015",
+   "nom": 1402.5,
+   "real": 1779.9
+  },
+  {
+   "x": 2016.04,
+   "label": "jan. 2016",
+   "nom": 1416.1,
+   "real": 1824.4
+  },
+  {
+   "x": 2016.29,
+   "label": "abr. 2016",
+   "nom": 1433.1,
+   "real": 1813
+  },
+  {
+   "x": 2016.54,
+   "label": "jul. 2016",
+   "nom": 1440.8,
+   "real": 1827.2
+  },
+  {
+   "x": 2016.79,
+   "label": "out. 2016",
+   "nom": 1450.6,
+   "real": 1824.8
+  },
+  {
+   "x": 2017.04,
+   "label": "jan. 2017",
+   "nom": 1456.8,
+   "real": 1852.1
+  },
+  {
+   "x": 2017.29,
+   "label": "abr. 2017",
+   "nom": 1460.5,
+   "real": 1811.8
+  },
+  {
+   "x": 2017.54,
+   "label": "jul. 2017",
+   "nom": 1458.6,
+   "real": 1833.3
+  },
+  {
+   "x": 2017.79,
+   "label": "out. 2017",
+   "nom": 1460.7,
+   "real": 1812.3
+  },
+  {
+   "x": 2018.04,
+   "label": "jan. 2018",
+   "nom": 1466.6,
+   "real": 1845.5
+  },
+  {
+   "x": 2018.29,
+   "label": "abr. 2018",
+   "nom": 1464.8,
+   "real": 1810
+  },
+  {
+   "x": 2018.54,
+   "label": "jul. 2018",
+   "nom": 1460.7,
+   "real": 1807.4
+  },
+  {
+   "x": 2018.79,
+   "label": "out. 2018",
+   "nom": 1468.9,
+   "real": 1805.2
+  },
+  {
+   "x": 2019.04,
+   "label": "jan. 2019",
+   "nom": 1478.3,
+   "real": 1851.5
+  },
+  {
+   "x": 2019.29,
+   "label": "abr. 2019",
+   "nom": 1483.4,
+   "real": 1818.9
+  },
+  {
+   "x": 2019.54,
+   "label": "jul. 2019",
+   "nom": 1492,
+   "real": 1852
+  },
+  {
+   "x": 2019.79,
+   "label": "out. 2019",
+   "nom": 1505.6,
+   "real": 1850
+  },
+  {
+   "x": 2020.04,
+   "label": "jan. 2020",
+   "nom": 1518.2,
+   "real": 1886.3
+  },
+  {
+   "x": 2020.29,
+   "label": "abr. 2020",
+   "nom": 1532.2,
+   "real": 1882.9
+  },
+  {
+   "x": 2020.54,
+   "label": "jul. 2020",
+   "nom": 1534,
+   "real": 1901.4
+  },
+  {
+   "x": 2020.79,
+   "label": "out. 2020",
+   "nom": 1532.2,
+   "real": 1884
+  },
+  {
+   "x": 2021.04,
+   "label": "jan. 2021",
+   "nom": 1528.6,
+   "real": 1893.6
+  },
+  {
+   "x": 2021.29,
+   "label": "abr. 2021",
+   "nom": 1536.3,
+   "real": 1877.5
+  },
+  {
+   "x": 2021.54,
+   "label": "jul. 2021",
+   "nom": 1534.6,
+   "real": 1874.7
+  },
+  {
+   "x": 2021.79,
+   "label": "out. 2021",
+   "nom": 1540,
+   "real": 1859.6
+  },
+  {
+   "x": 2022.04,
+   "label": "jan. 2022",
+   "nom": 1549.1,
+   "real": 1856.9
+  },
+  {
+   "x": 2022.29,
+   "label": "abr. 2022",
+   "nom": 1558.7,
+   "real": 1776.9
+  },
+  {
+   "x": 2022.54,
+   "label": "jul. 2022",
+   "nom": 1560.6,
+   "real": 1748.1
+  },
+  {
+   "x": 2022.79,
+   "label": "out. 2022",
+   "nom": 1571.1,
+   "real": 1722.5
+  },
+  {
+   "x": 2023.04,
+   "label": "jan. 2023",
+   "nom": 1625.2,
+   "real": 1797.8
+  },
+  {
+   "x": 2023.29,
+   "label": "abr. 2023",
+   "nom": 1638.1,
+   "real": 1766.5
+  },
+  {
+   "x": 2023.54,
+   "label": "jul. 2023",
+   "nom": 1650.1,
+   "real": 1793.3
+  },
+  {
+   "x": 2023.79,
+   "label": "out. 2023",
+   "nom": 1658.9,
+   "real": 1781
+  },
+  {
+   "x": 2024.04,
+   "label": "jan. 2024",
+   "nom": 1723.3,
+   "real": 1863.4
+  },
+  {
+   "x": 2024.29,
+   "label": "abr. 2024",
+   "nom": 1751.8,
+   "real": 1848.4
+  },
+  {
+   "x": 2024.54,
+   "label": "jul. 2024",
+   "nom": 1765.4,
+   "real": 1871.2
+  },
+  {
+   "x": 2024.79,
+   "label": "out. 2024",
+   "nom": 1780.2,
+   "real": 1867.9
+  },
+  {
+   "x": 2025.04,
+   "label": "jan. 2025",
+   "nom": 1810,
+   "real": 1908.8
+  },
+  {
+   "x": 2025.29,
+   "label": "abr. 2025",
+   "nom": 1863.4,
+   "real": 1925.8
+  },
+  {
+   "x": 2025.54,
+   "label": "jul. 2025",
+   "nom": 1875.4,
+   "real": 1936.6
+  },
+  {
+   "x": 2025.79,
+   "label": "out. 2025",
+   "nom": 1885.2,
+   "real": 1932.8
+  },
+  {
+   "x": 2026.04,
+   "label": "jan. 2026",
+   "nom": 1911.9,
+   "real": 1978.3
+  },
+  {
+   "x": 2026.29,
+   "label": "abr. 2026",
+   "nom": 1967.4,
+   "real": 1967.4
+  }
+ ],
+ "config": {
+  "x": {
+   "min": 2011.75,
+   "max": 2026.4,
+   "ticks": [
+    2012,
+    2014,
+    2016,
+    2018,
+    2020,
+    2022,
+    2024,
+    2026
+   ],
+   "tableLabel": "Mês de referência"
+  },
+  "y": {
+   "label": "Euros por mês, eixo a partir de 1 200",
+   "suffix": " €",
+   "decimals": 1,
+   "linMin": 1200,
+   "linMax": 2100,
+   "logDefault": false
+  },
+  "series": [
+   {
+    "key": "real",
+    "label": "A preços de abril de 2026 (descontada a inflação)",
+    "short": "Real",
+    "color": "--accent-2",
+    "width": 2.6
+   },
+   {
+    "key": "nom",
+    "label": "Em euros correntes (nominal)",
+    "short": "Nominal",
+    "color": "--ink-3",
+    "width": 1.6
+   }
+  ],
+  "labelMargin": [
+   88,
+   96
+  ],
+  "shortEndLabels": true,
+  "refLine": {
+   "value": 1859.6,
+   "label": "Nível real de outubro de 2021",
+   "short": "Out. 2021",
+   "at": 2014.5
+  },
+  "shade": [
+   {
+    "from": 2021.75,
+    "to": 2022.84,
+    "exact": true,
+    "label": "Out. 2021–out. 2022",
+    "short": "2022",
+    "top": true
+   }
+  ],
+  "annotations": [
+   {
+    "x": 2022.79,
+    "key": "real",
+    "text": "Out. 2022: −7,4% em termos reais",
+    "short": "−7,4%",
+    "dx": 6,
+    "dy": 18,
+    "anchor": "start",
+    "strong": true
+   }
+  ],
+  "howToRead": "A linha cinzenta mostra a remuneração base média em euros correntes, no primeiro mês de cada trimestre. A azul mostra o mesmo valor convertido em euros de abril de 2026 com o índice de preços no consumidor: quando desce, os aumentos ficaram atrás da inflação. A linha tracejada marca o poder de compra de outubro de 2021."
+ },
+ "summary": {
+  "nom2011": 1384.7,
+  "nom2021": 1540,
+  "nom2022": 1571.1,
+  "nom2026": 1967.4,
+  "real2011": 1801.8,
+  "real2020": 1884,
+  "real2021": 1859.6,
+  "real2022": 1722.5,
+  "real2026": 1967.4,
+  "cpi2122": 10.1,
+  "nom2122": 2,
+  "real2122": -7.4,
+  "realJan24": 0.2,
+  "realApr24": -0.6,
+  "realJul24": 0.6,
+  "nom1126": 42.1,
+  "cpi1126": 30.1,
+  "real1126": 9.2,
+  "real2126": 5.8,
+  "jan2014": 1311.2,
+  "apr2014": 1313.6,
+  "jul2014": 1444.6,
+  "oct2014": 1390.4,
+  "recover": "jan. 2024",
+  "durable": "jul. 2024",
+  "trab2026": 768378
+ }
+}

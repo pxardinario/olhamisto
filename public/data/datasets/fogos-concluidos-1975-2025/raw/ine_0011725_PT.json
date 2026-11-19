@@ -1,0 +1,321 @@
+[ {
+  "IndicadorCod" : "0011725",
+  "IndicadorDsg" : "Fogos concluídos em construções novas para habitação familiar (Série longa, início 1975 - N.º); Anual - INE, Inquérito aos projetos de obras de edificação e de demolição de edifícios",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0011725&lingua=PT",
+  "DataExtracao" : "2026-11-19T07:23:58.322Z",
+  "DataUltimoAtualizacao" : "2026-11-18",
+  "UltimoPref" : "2025",
+  "Dados" : {
+    "1975" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "31 967",
+      "valor" : "31967"
+    } ],
+    "1976" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "30 028",
+      "valor" : "30028"
+    } ],
+    "1977" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "34 893",
+      "valor" : "34893"
+    } ],
+    "1978" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "34 379",
+      "valor" : "34379"
+    } ],
+    "1979" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "36 430",
+      "valor" : "36430"
+    } ],
+    "1980" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "38 231",
+      "valor" : "38231"
+    } ],
+    "1981" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "38 589",
+      "valor" : "38589"
+    } ],
+    "1982" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "39 791",
+      "valor" : "39791"
+    } ],
+    "1983" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "38 127",
+      "valor" : "38127"
+    } ],
+    "1984" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "41 250",
+      "valor" : "41250"
+    } ],
+    "1985" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "35 475",
+      "valor" : "35475"
+    } ],
+    "1986" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "37 274",
+      "valor" : "37274"
+    } ],
+    "1987" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "38 833",
+      "valor" : "38833"
+    } ],
+    "1988" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45 974",
+      "valor" : "45974"
+    } ],
+    "1989" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "58 152",
+      "valor" : "58152"
+    } ],
+    "1990" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "62 081",
+      "valor" : "62081"
+    } ],
+    "1991" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "63 229",
+      "valor" : "63229"
+    } ],
+    "1992" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "52 185",
+      "valor" : "52185"
+    } ],
+    "1993" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "63 199",
+      "valor" : "63199"
+    } ],
+    "1994" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "59 550",
+      "valor" : "59550"
+    } ],
+    "1995" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "68 825",
+      "valor" : "68825"
+    } ],
+    "1996" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "69 718",
+      "valor" : "69718"
+    } ],
+    "1997" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "74 221",
+      "valor" : "74221"
+    } ],
+    "1998" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "90 946",
+      "valor" : "90946"
+    } ],
+    "1999" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "108 198",
+      "valor" : "108198"
+    } ],
+    "2000" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "112 612",
+      "valor" : "112612"
+    } ],
+    "2001" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "115 154",
+      "valor" : "115154"
+    } ],
+    "2002" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "125 708",
+      "valor" : "125708"
+    } ],
+    "2003" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "92 508",
+      "valor" : "92508"
+    } ],
+    "2004" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "74 261",
+      "valor" : "74261"
+    } ],
+    "2005" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "76 123",
+      "valor" : "76123"
+    } ],
+    "2006" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "68 764",
+      "valor" : "68764"
+    } ],
+    "2007" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "67 463",
+      "valor" : "67463"
+    } ],
+    "2008" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "59 256",
+      "valor" : "59256"
+    } ],
+    "2009" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "47 915",
+      "valor" : "47915"
+    } ],
+    "2010" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "35 442",
+      "valor" : "35442"
+    } ],
+    "2011" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "26 382",
+      "valor" : "26382"
+    } ],
+    "2012" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "19 684",
+      "valor" : "19684"
+    } ],
+    "2013" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "12 751",
+      "valor" : "12751"
+    } ],
+    "2014" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "8 313",
+      "valor" : "8313"
+    } ],
+    "2015" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "7 148",
+      "valor" : "7148"
+    } ],
+    "2016" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "7 909",
+      "valor" : "7909"
+    } ],
+    "2017" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "8 213",
+      "valor" : "8213"
+    } ],
+    "2018" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "10 751",
+      "valor" : "10751"
+    } ],
+    "2019" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "12 954",
+      "valor" : "12954"
+    } ],
+    "2020" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "16 923",
+      "valor" : "16923"
+    } ],
+    "2021" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "19 926",
+      "valor" : "19926"
+    } ],
+    "2022" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "21 047",
+      "valor" : "21047"
+    } ],
+    "2023" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "22 280",
+      "valor" : "22280"
+    } ],
+    "2024" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "24 666",
+      "valor" : "24666"
+    } ],
+    "2025" : [ {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "27 301",
+      "valor" : "27301"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

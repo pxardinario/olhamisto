@@ -1,0 +1,273 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-19",
+ "number": 13,
+ "status": "publicada",
+ "opening": "Quatro histórias para quinta-feira: o salário real da função pública na véspera da greve, os aeroportos fora de Lisboa a crescer mais depressa, as casas que de facto se acabam de construir e sete séculos do preço da luz.",
+ "lead": "funcao-publica-salario-real-2011-2026",
+ "generatedAt": "2026-11-19T08:00:00Z",
+ "limitations": [
+  "Publicam-se quatro peças, não cinco: as outras candidatas com dados verificáveis não passaram o teste editorial (ver candidatas rejeitadas), e preferiu-se não publicar uma quinta só para completar a edição.",
+  "Mistura da edição: 2 peças de atualidade (salário real na função pública, na véspera da greve de 20 de novembro; aeroportos, com dados do INE de 18 de novembro) e 2 de descoberta. Peças do tipo «Portugal comparado com a Europa»: 0. Peça com fonte não oficial e sem Portugal como ângulo principal: preço da luz (Fouquet e Pearson, cópia da Our World in Data). Tipos de gráfico: linhas (2) e colunas (2).",
+  "Verificação independente: as quatro peças e a Chave do Dia ficaram verificadas depois de correções. A mais importante foi na peça da função pública: a remuneração da DGAEP refere-se ao primeiro mês de cada trimestre, o que alterou a deflação e as datas (a perda real de 2022 é de 7,4%). O mês de referência e as fontes da Chave foram confirmados por excertos de pesquisa, porque dgaep.gov.pt, econlib.org, api.parliament.uk e os sítios das revistas não abriram neste ambiente.",
+  "Candidatas rejeitadas: rendimento disponível ajustado das famílias por habitante na UE (Eurostat tec00113; Portugal de 80% para 86% da média, sem descoberta forte), salário mínimo real e relativo na OCDE (Portugal a meio da tabela), desvio da temperatura de 2025 face à normal (INE/IPMA, só 2023–2025), testes nucleares (arquivo de 2020, sem atualidade nova confirmada), preço dos pregos desde 1695 (Sichel; adiada para não repetir o tema do preço da luz) e utentes sem médico de família 2016–2026 (repetiria o tema de 16 de novembro).",
+  "Nesta execução, a PORDATA e o grapher da Our World in Data não responderam pela linha de comandos; o WebFetch não abriu dgaep.gov.pt, cccep.ac.uk, econlib.org nem wikipedia.org."
+ ],
+ "pieces": [
+  {
+   "id": "funcao-publica-salario-real-2011-2026",
+   "slug": "funcao-publica-remuneracao-base-real-inflacao-2011-2026",
+   "kind": "atualidade",
+   "theme": "economia",
+   "themeLabel": "Economia e trabalho",
+   "vizType": "linha",
+   "vizLabel": "Linhas · nominal e real · cursor por rato e teclado",
+   "interactive": true,
+   "title": "Em 2022, a inflação tirou 7,4% ao salário base real da função pública. Só em 2024 foi recuperado",
+   "question": "Na véspera da greve da função pública, os salários do Estado acompanharam a inflação?",
+   "finding": "Em outubro de 2022, a remuneração base média nas administrações públicas era de 1 571,1 euros, mais 2,0% do que um ano antes, com os preços a subir 10,1%: em termos reais, menos 7,4%. O poder de compra de outubro de 2021 foi ultrapassado em janeiro de 2024 e, de forma continuada, a partir de julho de 2024. Em abril de 2026, com 1 967,4 euros, estava 5,8% acima desse nível e 9,2% acima do de outubro de 2011.",
+   "context": "A Frente Comum de sindicatos da administração pública convocou uma greve nacional para 20 de novembro, antes da votação final do Orçamento do Estado para 2027. A Direção-Geral da Administração e do Emprego Público publica todos os trimestres a remuneração base média mensal dos trabalhadores a tempo completo das administrações públicas. Em junho de 2026, contava 768 mil trabalhadores nas administrações públicas, segundo dados provisórios.",
+   "interpretation": "Os aumentos de 2023 e 2024, acima da inflação, repuseram o que 2022 tinha levado, e desde então, no conjunto, a remuneração base cresceu mais do que os preços. Mas é uma média: muda também com quem entra e quem sai, como reformas de funcionários antigos ou contratações em carreiras mais bem pagas, e não mostra o que aconteceu a cada trabalhador nem a cada carreira.",
+   "chart": {
+    "type": "lines",
+    "dataset": "funcao-publica-salario-real-2011-2026"
+   },
+   "period": "Outubro de 2011 a abril de 2026, trimestral",
+   "unit": "euros por mês (correntes e a preços de abril de 2026)",
+   "sources": [
+    {
+     "name": "DGAEP — Evolução das remunerações base e ganho médio nas administrações públicas (dados.gov.pt)",
+     "url": "https://dados.gov.pt/pt/datasets/evolucao-das-remuneracoes-base-e-ganho-medio-nas-administracoes-publicas/",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "DGAEP — Evolução do número de trabalhadores na Administração Pública (dados.gov.pt)",
+     "url": "https://dados.gov.pt/pt/datasets/evolucao-do-numero-de-trabalhadores-na-administracao-publica/",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "INE — Índice de preços no consumidor, base 2025 (indicador 0014639)",
+     "url": "https://www.ine.pt/xurl/indx/0014639",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "RTP — «Frente Comum convoca greve da administração pública para 20 de novembro» (secundária)",
+     "url": "https://www.rtp.pt/noticias/economia/frente-comum-convoca-greve-da-administracao-publica-para-20-de-novembro_n1774689",
+     "accessed": "2026-11-19"
+    }
+   ],
+   "method": [
+    "Remuneração base média mensal dos trabalhadores a tempo completo das administrações públicas, em euros, segundo a DGAEP (Sistema de Informação da Organização do Estado). A data de referência do ficheiro é o fim do trimestre (a do emprego), mas a remuneração refere-se ao primeiro mês do trimestre: o valor da linha de 30/06/2026 é o de abril de 2026, como no destaque da DGAEP. Não inclui suplementos nem horas extraordinárias, contados à parte no ganho médio mensal. O número de trabalhadores de junho de 2026 é provisório. Os dados brutos estão em raw/funcao-publica-salarios/, sem alterações (o CSV é a exportação da folha original).",
+    "Valores reais: remuneração nominal multiplicada pelo rácio entre o IPC de abril de 2026 e o IPC do mês da remuneração (INE, base 2025, Portugal, total). A série começa em outubro de 2011 e não permite comparar com anos anteriores. Em 2014 oscila (1 311,2 euros em janeiro, 1 313,6 em abril, 1 444,6 em julho, 1 390,4 em outubro), ano de alterações às reduções remuneratórias; o gráfico mostra os valores publicados. O valor real de outubro de 2020 (1 884 euros) era superior ao de outubro de 2021: a perda começou em 2021 e agravou-se em 2022. É uma média: reflete também mudanças na composição do emprego público."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-19",
+    "note": "Conferidos os 59 trimestres da DGAEP (xlsx com sha256 idêntico) e 64 meses do IPC contra a API do INE; recalculados todos os números. Corrigido depois da primeira verificação: a remuneração refere-se ao primeiro mês de cada trimestre (abril de 2026, não junho), o que mudou a deflação (−7,4% em vez de −6,9%), a data de recuperação e as variações; separados os 768 mil trabalhadores dos de tempo completo. O mês de referência foi confirmado por excertos dos destaques da DGAEP (o sítio dgaep.gov.pt não abre neste ambiente)."
+   }
+  },
+  {
+   "id": "aeroportos-passageiros-2019-2025",
+   "slug": "aeroportos-passageiros-embarcados-lisboa-porto-faro-madeira-2019-2025",
+   "kind": "atualidade",
+   "theme": "turismo",
+   "themeLabel": "Turismo e transportes",
+   "vizType": "barras",
+   "vizLabel": "Colunas · três vistas",
+   "interactive": true,
+   "title": "Desde 2019, Lisboa foi o aeroporto que menos cresceu. A Madeira ganhou 68,5% de passageiros",
+   "question": "Onde cresceu o tráfego aéreo em Portugal depois da pandemia?",
+   "finding": "Em 2025 embarcaram 35,7 milhões de passageiros nos cinco aeroportos discriminados pelo INE, mais 22,7% do que em 2019. Lisboa cresceu 15,7%, menos do que qualquer outro, embora quase empatada com Faro (16,0%): o Porto cresceu 30,5%, Ponta Delgada 37,8% e a Madeira 68,5%. Lisboa, que tinha 53,4% dos passageiros em 2019, explicou 36,9% do aumento e ficou com 50,3% em 2025.",
+   "context": "O INE publicou a 18 de novembro os dados anuais dos aeroportos portugueses em 2025. Em maio de 2024, o Governo decidiu construir o novo aeroporto de Lisboa no Campo de Tiro de Alcochete, para substituir o Humberto Delgado, e apostar entretanto na expansão do aeroporto atual. Os números contam passageiros embarcados, sem os desembarcados nem os que seguem em trânsito direto.",
+   "interpretation": "Lisboa continua a ter metade dos passageiros, mas o crescimento passou a vir sobretudo de fora da capital: entre 2024 e 2025, Lisboa ganhou 3,0%, contra 6,4% no Porto e 12,4% na Madeira. Os dados mostram a divergência, não a causa: a capacidade do Humberto Delgado, a procura turística nas ilhas e a oferta das companhias aéreas são explicações possíveis que estes números não separam.",
+   "chart": {
+    "type": "columns",
+    "dataset": "aeroportos-passageiros-2019-2025"
+   },
+   "period": "2019, 2024 e 2025",
+   "unit": "% e milhões de passageiros embarcados",
+   "sources": [
+    {
+     "name": "INE — Passageiros embarcados nos aeroportos, por aeroporto e nacionalidade da transportadora, anual (indicador 0003864)",
+     "url": "https://www.ine.pt/xurl/indx/0003864",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "ECO — «Governo assume o aeroporto único como solução» (secundária)",
+     "url": "https://eco.sapo.pt/2024/05/14/governo-assume-o-aeroporto-unico-como-solucao-vai-chamar-se-luis-de-camoes/",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "Governo de Portugal — Comunicado do Conselho de Ministros de 14 de maio de 2024",
+     "url": "https://www.portugal.gov.pt/pt/gc24/governo/comunicado-do-conselho-de-ministros?i=612",
+     "accessed": "2026-11-19"
+    }
+   ],
+   "method": [
+    "Passageiros embarcados por ano em cada aeroporto, todas as nacionalidades de transportadora, segundo o Inquérito aos aeroportos e aeródromos do INE. O total é a soma dos cinco aeroportos que o indicador discrimina (Lisboa, Porto, Faro, Madeira e Ponta Delgada); outros aeroportos e aeródromos ficam de fora. Variações calculadas sobre os números exatos; o ficheiro de dados inclui a série anual de 2004 a 2025.",
+    "Os dados brutos estão em raw/aeroportos-passageiros/, sem alterações. Em 2012, os valores de quatro aeroportos repetem exatamente os de 2013 e falta o do Porto; esse ano fica de fora. O peso de Lisboa no aumento entre 2019 e 2025 é o aumento de Lisboa (2,44 milhões) dividido pelo aumento total (6,61 milhões). «Madeira» é o aeroporto Cristiano Ronaldo, que o INE designa como Aeroporto da Madeira."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-19",
+    "note": "Conferidos os 1 188 valores do indicador 0003864 contra a API do INE e recalculadas as variações e os pesos. Confirmadas a anomalia de 2012 e a decisão do Conselho de Ministros de 14/05/2024. Trocada uma fonte secundária pelo comunicado oficial e assinalado o quase empate entre Lisboa e Faro."
+   }
+  },
+  {
+   "id": "fogos-concluidos-1975-2025",
+   "slug": "fogos-concluidos-construcoes-novas-habitacao-1975-2025",
+   "kind": "descoberta",
+   "theme": "portugal",
+   "themeLabel": "Portugal e políticas públicas",
+   "vizType": "barras",
+   "vizLabel": "Colunas · 51 anos",
+   "interactive": true,
+   "title": "Portugal acabou 27 mil casas novas em 2025, o máximo desde 2010. Em 2002 foram 126 mil",
+   "question": "Quantas casas novas ficam de facto prontas em Portugal, comparado com o passado?",
+   "finding": "Em 2025 foram concluídos 27 301 fogos em construções novas para habitação familiar, mais 10,7% do que em 2024 e o valor mais alto desde 2010. É 3,8 vezes o mínimo de 2015 (7 148), mas apenas 21,7% do máximo de 2002 (125 708). Entre 2002 e 2007 concluíram-se 504 827 fogos, mais do dobro dos 246 248 dos quinze anos de 2011 a 2025.",
+   "context": "A 13 de novembro, o Olhamisto mostrou que os fogos licenciados em construções novas chegaram em 2025 aos 42 066, o máximo desde 2008. Uma licença ainda não é uma casa: entre a aprovação e a entrega passa o tempo da obra, e nem todas chegam ao fim. A série longa do INE, atualizada a 18 de novembro, conta os fogos efetivamente concluídos desde 1975.",
+   "interpretation": "A subida dura há dez anos seguidos, mas parte de muito baixo: depois do pico do início do século, a construção nova encolheu durante mais de uma década. Em 2025, as conclusões ficaram em 64,9% das licenças do mesmo ano; se as obras licenciadas avançarem, o número de casas acabadas poderá continuar a subir, ainda longe dos níveis de 1990 a 2008.",
+   "chart": {
+    "type": "columns",
+    "dataset": "fogos-concluidos-1975-2025"
+   },
+   "period": "1975 a 2025",
+   "unit": "milhares de fogos concluídos por ano",
+   "sources": [
+    {
+     "name": "INE — Fogos concluídos em construções novas para habitação familiar, série longa desde 1975 (indicador 0011725)",
+     "url": "https://www.ine.pt/xurl/indx/0011725",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "INE — Fogos licenciados em construções novas para habitação familiar (indicador 0008066), via peça do Olhamisto de 13/11/2026",
+     "url": "https://www.ine.pt/xurl/indx/0008066",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "method": [
+    "Número de fogos (habitações) concluídos em construções novas para habitação familiar, em Portugal, por ano, segundo o Inquérito aos projetos de obras de edificação e de demolição de edifícios do INE (série longa). Não inclui ampliações, alterações nem reconstruções. Os dados brutos estão em raw/fogos-concluidos/, sem alterações.",
+    "A comparação com as licenças usa o total anual de 2025 do indicador 0008066 (42 066 fogos licenciados em construções novas para habitação familiar), calculado na peça de 13 de novembro. Licenças e conclusões do mesmo ano não se referem às mesmas obras: o rácio de 64,9% indica a ordem de grandeza, não uma taxa de conclusão."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-19",
+    "note": "Conferidos os 51 valores do indicador 0011725 e os 42 066 fogos licenciados em 2025 (indicador 0008066) contra a API do INE; recalculados todos os rácios e somas. Suavizada uma previsão («poderá»)."
+   }
+  },
+  {
+   "id": "preco-luz-reino-unido-1301-2006",
+   "slug": "preco-da-luz-reino-unido-sete-seculos-1301-2006",
+   "kind": "descoberta",
+   "theme": "historia",
+   "themeLabel": "História e tecnologia",
+   "vizType": "linha",
+   "vizLabel": "Linha · escala log ⇄ linear",
+   "interactive": true,
+   "title": "Em cinco séculos, a luz ficou três vezes e meia mais barata. Nos dois seguintes, 3 600 vezes",
+   "question": "Quanto custou, ao longo dos séculos, iluminar uma casa?",
+   "finding": "No Reino Unido, um milhão de lúmenes-hora custava 33 043 libras em 1301 e 9 540 libras em 1800, a preços de 2000: caiu 3,5 vezes em cinco séculos. Em 2000 custava 2,62 libras, 3 641 vezes menos do que em 1800. Em 1500 e em 1700 o preço era quase o mesmo (14 472 e 14 102 libras), com oscilações pelo meio; em 1900 já era 40 vezes mais baixo do que em 1800.",
+   "context": "Os economistas Roger Fouquet e Peter Pearson reconstruíram o preço da iluminação no Reino Unido desde 1300, juntando preços de velas, óleos, gás, querosene e eletricidade com a quantidade de luz que cada fonte produz. O resultado é medido por milhão de lúmenes-hora, a preços constantes de 2000, o que permite comparar uma vela de sebo medieval com uma lâmpada moderna.",
+   "interpretation": "Depois de cair nos séculos XIV e XV, o preço oscilou sem tendência entre cerca de 1500 e meados do século XVIII. A grande queda veio nos séculos XIX e XX, com novas fontes de energia e lâmpadas mais eficientes. Fouquet e Pearson estudaram também o reverso: com a luz cada vez mais barata, o consumo multiplicou-se, um caso clássico do efeito ricochete de que trata a Chave do Dia.",
+   "chart": {
+    "type": "lines",
+    "dataset": "preco-luz-reino-unido-1301-2006"
+   },
+   "period": "1301 a 2006, anual",
+   "unit": "libras esterlinas de 2000 por milhão de lúmenes-hora",
+   "sources": [
+    {
+     "name": "Fouquet e Pearson (2012), «The long run demand for lighting: elasticities and rebound effects in different phases of economic development», Economics of Energy and Environmental Policy 1: 83–100",
+     "url": "https://www.researchgate.net/profile/Roger_Fouquet/publication/241752411_The_Long_Run_Demand_for_Lighting_Elasticities_and_Rebound_Effects_in_Different_Phases_of_Economic_Development/links/0a85e52fb80f72624c000000.pdf",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "Fouquet e Pearson (2006), «Seven Centuries of Energy Services: The Price and Use of Light in the United Kingdom (1300-2000)», The Energy Journal 27(1)",
+     "url": "http://eprints.lse.ac.uk/50460/",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "Our World in Data — owid-datasets, «Price for Light – Fouquet» (cópia secundária no GitHub)",
+     "url": "https://github.com/owid/owid-datasets/tree/master/datasets/Price%20for%20Light%20%E2%80%93%20Fouquet",
+     "accessed": "2026-11-19"
+    },
+    {
+     "name": "Our World in Data — «The price for lighting in the United Kingdom» (unidade da série; secundária)",
+     "url": "https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound",
+     "accessed": "2026-11-19"
+    }
+   ],
+   "method": [
+    "Preço real de um milhão de lúmenes-hora no Reino Unido, em libras esterlinas a preços constantes de 2000, segundo Fouquet e Pearson, numa cópia da Our World in Data (owid-datasets) descarregada sem alterações para raw/preco-luz/. A unidade não está no ficheiro da cópia; foi confirmada na página da OWID sobre o mesmo indicador. A série anual vai de 1301 a 2006; a OWID publica hoje uma versão revista e suavizada, até 2023, que não é a usada aqui.",
+    "Um lúmen-hora é a luz de uma fonte de um lúmen durante uma hora. Os valores medievais e modernos dependem de estimativas sobre preços, salários e eficiência das fontes de luz, com incerteza maior nos séculos mais antigos. O mínimo da série é 2002 (2,38 libras); entre 2002 e 2006 o preço subiu para 2,89 libras."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-19",
+    "note": "Conferidos os 706 valores da cópia da OWID (sha256 idêntico) e a unidade (libras de 2000 por milhão de lúmenes-hora) no arquivo da OWID. Corrigida a interpretação: o preço caiu nos séculos XIV e XV e só oscilou sem tendência entre cerca de 1500 e meados do século XVIII. O artigo original não abriu neste ambiente."
+   }
+  }
+ ],
+ "chave": {
+  "id": "paradoxo-de-jevons",
+  "axis": "economia",
+  "axisLabel": "Economia e finanças",
+  "certainty": "Tese debatida",
+  "title": "O paradoxo de Jevons",
+  "concept": "A ideia de que tornar o uso de um recurso mais eficiente pode aumentar, e não diminuir, o consumo total desse recurso: ao ficar mais barato de usar, passa a ser usado em mais sítios e por mais gente.",
+  "lesson": [
+   "Em 1865, o economista inglês William Stanley Jevons publicou «The Coal Question», sobre o futuro do carvão britânico. Era natural supor que máquinas a vapor mais eficientes fariam o país poupar carvão. Jevons defendeu o contrário: «É uma completa confusão de ideias supor que o uso económico do combustível equivale a um consumo menor. A verdade é exatamente a oposta.»",
+   "O mecanismo é o preço. Quando uma máquina gasta menos carvão por unidade de trabalho, esse trabalho fica mais barato e passa a compensar usá-lo em mais fábricas, mais minas e mais transportes. Os economistas chamam-lhe efeito ricochete: parte da poupança é anulada pelo aumento do uso. Funciona como uma estrada alargada para acabar com o trânsito, que acaba por atrair mais carros.",
+   "O efeito ricochete está bem documentado; o paradoxo, em que o consumo total sobe, não é regra. As revisões de Steve Sorrell (2009) e de David Stern (2020) consideram inconclusivas as provas de um ricochete superior a 100% na economia inteira, embora admitam que pode ser maior do que se julgava. É mais plausível quando a eficiência barateia algo com muita procura por satisfazer, como a luz."
+  ],
+  "diagram": {
+   "title": "Da eficiência ao consumo: dois desfechos possíveis",
+   "svg": "<svg viewBox=\"0 0 340 250\" role=\"img\" aria-label=\"Esquema do paradoxo de Jevons em cadeia, de cima para baixo. Primeira caixa: a máquina fica mais eficiente e gasta menos carvão por unidade de trabalho. Segunda: o trabalho feito com carvão fica mais barato. Terceira: aparecem mais usos e mais utilizadores. Daí saem dois desfechos. À esquerda, ricochete parcial: o uso cresce menos do que a poupança e o consumo total de carvão desce. À direita, paradoxo de Jevons: o uso cresce mais do que a poupança e o consumo total sobe. Esquema ilustrativo, sem dados reais.\"><defs><marker id=\"chave-seta\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"var(--key-ink-2)\"/></marker></defs><rect x=\"60\" y=\"6\" width=\"220\" height=\"36\" rx=\"6\" fill=\"none\" stroke=\"var(--key-ink-2)\"/><text x=\"170\" y=\"21\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"700\" fill=\"var(--key-ink)\">Máquina mais eficiente</text><text x=\"170\" y=\"35\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">menos carvão por unidade de trabalho</text><line x1=\"170\" y1=\"42\" x2=\"170\" y2=\"58\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta)\"/><rect x=\"60\" y=\"60\" width=\"220\" height=\"30\" rx=\"6\" fill=\"none\" stroke=\"var(--key-ink-2)\"/><text x=\"170\" y=\"79\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"var(--key-ink)\">O trabalho fica mais barato</text><line x1=\"170\" y1=\"90\" x2=\"170\" y2=\"106\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta)\"/><rect x=\"60\" y=\"108\" width=\"220\" height=\"30\" rx=\"6\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\"/><text x=\"170\" y=\"127\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"700\" fill=\"var(--key-ink)\">Mais usos, mais utilizadores</text><line x1=\"140\" y1=\"138\" x2=\"88\" y2=\"160\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta)\"/><line x1=\"200\" y1=\"138\" x2=\"252\" y2=\"160\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta)\"/><rect x=\"8\" y=\"162\" width=\"156\" height=\"58\" rx=\"6\" fill=\"none\" stroke=\"var(--key-rule)\"/><text x=\"86\" y=\"179\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"700\" fill=\"var(--key-ink)\">Ricochete parcial</text><text x=\"86\" y=\"195\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">o uso cresce menos</text><text x=\"86\" y=\"210\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">consumo total desce</text><rect x=\"176\" y=\"162\" width=\"156\" height=\"58\" rx=\"6\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\"/><text x=\"254\" y=\"179\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"700\" fill=\"var(--key-ink)\">Paradoxo de Jevons</text><text x=\"254\" y=\"195\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">o uso cresce mais</text><text x=\"254\" y=\"210\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">consumo total sobe</text><text x=\"170\" y=\"242\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">Esquema ilustrativo, não são dados reais</text></svg>",
+   "caption": "Esquema ilustrativo, não são dados reais. O paradoxo corresponde ao desfecho da direita, em que o aumento do uso supera a poupança por unidade."
+  },
+  "aside": "Jevons temia que o carvão britânico se esgotasse e, com ele, a prosperidade do país. A produção continuou a subir durante quase meio século depois do livro: em 1913 chegou a cerca de 287 milhões de toneladas inglesas, o valor mais alto da série histórica do NBER entre 1854 e 1921, número também apresentado no Parlamento britânico em 1925.",
+  "application": "Aparece nos debates sobre o consumo de energia dos centros de dados, quando modelos de inteligência artificial mais eficientes tornam a computação mais barata; nos motores de automóvel mais económicos, que podem levar a percorrer mais quilómetros; na iluminação LED; e na avaliação de políticas de eficiência energética, em que as poupanças esperadas são corrigidas pelo ricochete.",
+  "motto": "O que fica mais barato de usar tende a ser mais usado.",
+  "sources": [
+   {
+    "name": "Jevons (1865), «The Coal Question», capítulo VII, «Of the Economy of Fuel» (cópia do Yale Energy History)",
+    "url": "https://energyhistory.yale.edu/files/2023/06/Jevons-The-Coal-Question.pdf",
+    "accessed": "2026-11-19"
+   },
+   {
+    "name": "Sorrell (2009), «Jevons' Paradox revisited: The evidence for backfire from improved energy efficiency», Energy Policy 37(4): 1456–1469",
+    "url": "https://ideas.repec.org/a/eee/enepol/v37y2009i4p1456-1469.html",
+    "accessed": "2026-11-19"
+   },
+   {
+    "name": "Stern (2020), «How large is the economy-wide rebound effect?», Energy Policy 147: 111870 (versão de trabalho, Universidade Nacional da Austrália)",
+    "url": "https://crawford.anu.edu.au/sites/default/files/2025-01/70_2020_stern.pdf",
+    "accessed": "2026-11-19"
+   },
+   {
+    "name": "NBER Macrohistory Database — produção de carvão do Reino Unido, 1854–1921, em milhões de toneladas inglesas (série A01211GBA418NNBR, via FRED)",
+    "url": "https://fred.stlouisfed.org/series/A01211GBA418NNBR",
+    "accessed": "2026-11-19"
+   },
+   {
+    "name": "Parlamento britânico, Hansard — resposta escrita de 10/03/1925 sobre a produção de carvão («Output, disposal and employment»)",
+    "url": "https://api.parliament.uk/historic-hansard/written-answers/1925/mar/10/output-disposal-and-employment",
+    "accessed": "2026-11-19"
+   }
+  ],
+  "notes": [
+   "Grau de certeza «Tese debatida»: o efeito ricochete (parte da poupança de eficiência é anulada por mais uso) é consenso na economia da energia; o paradoxo de Jevons em sentido estrito, ricochete acima de 100% na economia inteira, continua debatido, e as revisões de Sorrell (2009) e Stern (2020) consideram as provas insuficientes para o tomar como regra.",
+   "A citação de Jevons foi traduzida do original inglês («It is wholly a confusion of ideas to suppose that the economical use of fuel is equivalent to a diminished consumption. The very contrary is the truth»). A analogia da estrada serve para explicar, não para provar. A produção de 1913 está em toneladas inglesas (long tons, cerca de 1 016 kg), a unidade da fonte."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-19",
+   "note": "Estrutura, SVG, rotação de eixos (economia não saiu nas últimas 4 edições) e voz conferidos. Citação de Jevons, referências de Sorrell (2009) e Stern (2020) e produção de carvão de 1913 confirmadas por resultados de pesquisa e pela série do NBER no FRED; os PDF originais não abriram neste ambiente. Corrigidos: frase sobre Watt retirada, ressalva de Sorrell e Stern completada, referência de Stern com volume e número."
+  }
+ }
+}

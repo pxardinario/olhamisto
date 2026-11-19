@@ -173,7 +173,7 @@
    "fonte": "DGAEP, «Evolução do número de trabalhadores na Administração Pública» (dados.gov.pt, CC BY 4.0, trimestral desde 2019); Boletim Estatístico do Emprego Público para séries mais longas",
    "licenca": "CC BY 4.0",
    "estado": "bloqueada",
-   "bloqueio": "2026-11-13: o ficheiro do dados.gov.pt só começa em 2019 (690 mil → 768 mil, peso no emprego total estável em 14%); sem história clara. Precisa da série longa desde 2011 (Boletim Estatístico, xlsx no dados.gov.pt) para mostrar a troika e a recuperação.",
+   "bloqueio": "2026-11-13: o ficheiro do dados.gov.pt só começa em 2019 (690 mil → 768 mil, peso no emprego total estável em 14%); sem história clara. Precisa da série longa desde 2011 (Boletim Estatístico, xlsx no dados.gov.pt) para mostrar a troika e a recuperação. 2026-11-19: a peça de hoje usou a remuneração base média da DGAEP (dados.gov.pt, trimestral desde dez. 2011). O BOEP n.º 28 (xlsx no dados.gov.pt) tem o emprego por subsetor e ministério desde dez. 2011 (quadros Q.1.1.x a Q.1.4.x), o que resolve a série longa; falta uma história própria.",
    "registada": "2026-11-13",
    "tentativas": 1
   },
@@ -277,15 +277,48 @@
    "tentativas": 1
   },
   {
-   "id": "fogos-concluidos-1975-2025",
-   "tema": "portugal",
-   "ideia": "Fogos concluídos em construções novas para habitação desde 1975, comparados com as licenças",
-   "fonte": "INE 0011725 (série longa, atualizada a 18-11-2026) e 0011727",
+   "id": "rendimento-disponivel-ajustado-ue-2025",
+   "tema": "economia",
+   "ideia": "Rendimento disponível bruto ajustado das famílias por habitante, em PPC, 2014–2025: Portugal passou de 80% para 86% da média da UE; Polónia e Lituânia quase alcançaram",
+   "fonte": "Eurostat tec00113",
+   "licenca": "Eurostat: reutilização com atribuição",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-19: dados acessíveis (atualizados a 16/11/2026), mas sem descoberta forte e seria mais uma comparação Portugal–UE. Usar só com um ângulo novo (p. ex. regiões ou contraste com o PIB por habitante).",
+   "registada": "2026-11-19",
+   "tentativas": 1
+  },
+  {
+   "id": "salario-minimo-ocde",
+   "tema": "economia",
+   "ideia": "Salário mínimo real e em relação ao mediano, OCDE, 2000–2025",
+   "fonte": "OCDE, DSD_EARNINGS@RMW e @MIN2AVE (SDMX)",
    "licenca": "CC BY 4.0",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-19: Portugal fica a meio da tabela (salário mínimo real +44,7% de 2014 a 2025 em dólares PPC; 58,9% do salário mediano em 2025); sem surpresa. Pode servir quando for fixado o salário mínimo de 2027.",
+   "registada": "2026-11-19",
+   "tentativas": 1
+  },
+  {
+   "id": "preco-pregos-sichel",
+   "tema": "historia",
+   "ideia": "O preço real dos pregos desde 1695 (Sichel, 2017): até um produto simples ficou dez vezes mais barato, e depois voltou a encarecer",
+   "fonte": "Sichel (2017), NBER; cópia em owid-datasets («Price of nails since 1695 (Daniel Sichels (2017))»)",
+   "licenca": "CC BY 4.0 (OWID); confirmar a do artigo",
    "estado": "pronta",
-   "bloqueio": "2026-11-18: adiada por repetir o tema da habitação publicado a 13 de novembro (licenças de 2025). Usar só se a série de conclusões acrescentar algo (desfasamento licença–conclusão).",
-   "registada": "2026-11-18",
+   "bloqueio": "2026-11-19: dados descarregáveis do GitHub; adiada para não repetir logo a seguir à peça do preço da luz. Confirmar no README a mistura de fontes (Reino Unido até 1784, EUA depois) e os anos interpolados.",
+   "registada": "2026-11-19",
    "tentativas": 0
+  },
+  {
+   "id": "temperatura-estacoes-2025",
+   "tema": "ambiente",
+   "ideia": "Desvio da temperatura média de 2025 face à normal 1981–2010, por estação meteorológica",
+   "fonte": "INE 0014122 (dados do IPMA)",
+   "licenca": "INE, CC BY 4.0",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-19: o indicador só tem 2023–2025; sem série longa. O IPMA continua fora do alcance.",
+   "registada": "2026-11-19",
+   "tentativas": 1
   }
  ]
 }
