@@ -55,7 +55,7 @@ function chartMAT() {
     if (r.periodo.endsWith("-01")) g += `<text x="${(L + i * bw).toFixed(1)}" y="${H - 10}" class="tick">${r.periodo.slice(0, 4)}</text>`;
   });
   const xl = L + (s.length - 1) * bw + bw / 2;
-  g += `<text x="${xl - 8}" y="${y(E.mat) - 8}" class="ann" text-anchor="end">jul. 2026: ${num(E.mat, 1)} GWh</text>`;
+  g += `<text x="${W - R}" y="14" class="ann" text-anchor="end">jul. 2026: ${num(E.mat, 1)} GWh ↓</text>`;
   g += `<text x="${L}" y="14" class="axis-title">GWh por mês · média e alta tensão · Figueira da Foz</text>`;
   return `<svg viewBox="0 0 ${W} ${H}" class="chart" role="img" aria-label="Consumo mensal de eletricidade em média e alta tensão na Figueira da Foz, de janeiro de 2024 a julho de 2026. Oscila entre 69 e 100 GWh até junho de 2026 e cai para 45,1 GWh em julho de 2026.">${g}</svg>`;
 }
@@ -267,6 +267,24 @@ tr.dim td { color: var(--muted) }
 footer { border-top: 1px solid var(--line); padding-top: 18px; display: grid; gap: 12px; font-size: 0.88rem; color: var(--muted) }
 footer ul { margin: 0; padding-left: 18px; display: grid; gap: 4px }
 @media (max-width: 560px) { .item { grid-template-columns: 1fr } .big { font-size: 1.9rem } }
+@media print {
+  @page { size: A4; margin: 14mm 12mm 16mm }
+  body { font-size: 10pt; background: #fff }
+  .wrap { max-width: none; padding: 0; gap: 22px }
+  .item, .tile, .fig, .mini, tr, .callout, .reading p, .conc li, .act, footer p, .sector .tiles { break-inside: avoid }
+  h2, h3 { break-after: avoid }
+  .sector { padding: 14px }
+  .item { padding: 12px 14px }
+  .tiles { gap: 8px }
+  .tbl { overflow: visible }
+  .wrap, section, .sector, .reading, .three, footer, .item-body dl, .conc { display: block }
+  .wrap > * + *, section > * + *, .sector > * + *, .reading > * + *, .three > * + *, footer > * + *, .conc > * + *, .item-body dl > * + * { margin-top: 10px }
+  .wrap > * + * { margin-top: 22px }
+  section[aria-labelledby="s5"], section[aria-labelledby="s6"] { break-before: page }
+  .sector { border: 0; padding: 0; background: none }
+  thead { display: table-header-group }
+  a { color: var(--accent); text-decoration: underline }
+}
 </style>
 
 <div class="wrap">
