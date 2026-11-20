@@ -1,8 +1,99 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-19T07:41:00.756Z",
- "latest": "2026-11-19",
+ "updated": "2026-11-20T07:33:17.564Z",
+ "latest": "2026-11-20",
  "editions": [
+  {
+   "date": "2026-11-20",
+   "number": 14,
+   "lead": "investimento-estrangeiro-portugal-2025",
+   "opening": "Quatro histórias para sexta-feira: a parte do investimento estrangeiro que afinal é portuguesa, os estudantes que chegam de fora ao ensino superior, as falências na Europa e oitenta anos de testes nucleares.",
+   "pieces": [
+    {
+     "id": "investimento-estrangeiro-portugal-2025",
+     "title": "Um em cada oito euros de investimento estrangeiro em Portugal é, no fim da cadeia, português",
+     "kind": "descoberta",
+     "theme": "economia",
+     "themeLabel": "Economia",
+     "vizType": "halteres",
+     "vizLabel": "Halteres · ordenação alternável",
+     "interactive": true,
+     "question": "Quem controla, de facto, o investimento estrangeiro em Portugal?",
+     "finding": "No fim de 2025, o investimento direto estrangeiro em Portugal somava 217,4 mil milhões de euros. Pelo país de quem o controla no fim da cadeia, 28,5 mil milhões (13,1%) pertencem a investidores portugueses, o segundo maior grupo depois de Espanha. O Luxemburgo e os Países Baixos descem de 35,2% para 13,2% do total; os EUA pesam 3,4 vezes mais e a China 4,1 vezes mais do que parece.",
+     "period": "Posição no fim de 2025 (série 2013–2025 nas notas)",
+     "dataset": "investimento-estrangeiro-portugal-2025",
+     "sourceNames": [
+      "Eurostat — Posições de investimento direto da UE por país, contraparte imediata e final e atividade (BPM6) (bop_fdi6_pos), dados do Banco de Portugal"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "estudantes-estrangeiros-ensino-superior-2013-2024",
+     "title": "12,9% dos estudantes do ensino superior vieram de outro país. Desde 2022, mais de África do que da América Latina",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Educação",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cursor",
+     "interactive": true,
+     "question": "De onde vêm os estudantes estrangeiros do ensino superior português?",
+     "finding": "Em 2024 havia 55 330 estudantes no ensino superior em Portugal vindos de outro país: 3,8 vezes mais do que em 2013 e 12,9% de todos os inscritos (4,0% em 2013). Desde 2022, os vindos de África (22 720 em 2024) são mais do que os da América Latina (17 145). Os da Guiné-Bissau passaram de 134 para 6 276; os do Brasil, ainda os mais numerosos, estão abaixo do máximo de 2020 (18 081).",
+     "period": "2013–2024",
+     "dataset": "estudantes-estrangeiros-ensino-superior-2013-2024",
+     "sourceNames": [
+      "Eurostat — Estudantes em mobilidade vindos do estrangeiro, por nível de ensino, sexo e país de origem (educ_uoe_mobs02)",
+      "Eurostat — Peso dos estudantes em mobilidade vindos do estrangeiro no total de inscritos (educ_uoe_mobs03)",
+      "Eurostat — Estudantes inscritos no ensino superior (educ_uoe_enrt01)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "falencias-empresas-ue-2015-2026",
+     "title": "As falências de empresas na UE estão no máximo desde 2015. Em Portugal, abaixo do nível de 2019",
+     "kind": "atualidade",
+     "theme": "empreendedorismo",
+     "themeLabel": "Empreendedorismo",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cursor",
+     "interactive": true,
+     "question": "As empresas europeias estão a falir mais do que antes da pandemia? E as portuguesas?",
+     "finding": "No 2.º trimestre de 2026, o índice de declarações de falência de empresas na UE chegou ao valor mais alto da série, que começa em 2015: 41,4% acima da média de 2019 (40,4% no 3.º trimestre). França (+41,1%) e Alemanha (+36,5% no 2.º trimestre) seguem a mesma linha. Portugal está 9,4% abaixo de 2019 e não chega a esse nível desde o 3.º trimestre de 2020; a Itália também está abaixo (−4,6%).",
+     "period": "1.º trimestre de 2015 – 3.º trimestre de 2026",
+     "dataset": "falencias-empresas-ue-2015-2026",
+     "sourceNames": [
+      "Eurostat — Índice de registos e de declarações de falência de empresas, por atividade, trimestral (sts_rb_q)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "testes-nucleares-1945-2019",
+     "title": "Em 1962 houve 178 testes nucleares. O tratado de 1963 tirou-os do ar, mas não os travou",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História e geopolítica",
+     "vizType": "barras",
+     "vizLabel": "Colunas empilhadas · duas vistas",
+     "interactive": true,
+     "question": "Os tratados acabaram com os testes nucleares?",
+     "finding": "Desde 1945 houve 2 056 testes de armas nucleares, metade dos Estados Unidos. O máximo foi em 1962: 178, quase todos americanos e soviéticos. Depois do tratado de 1963, que proibiu aos signatários os testes na atmosfera, no espaço e debaixo de água, a média de 1964 a 1989 foi de 53,6 por ano, pouco abaixo dos 60,0 de 1955–1962. A queda veio com o fim da Guerra Fria; o último foi em 2017.",
+     "period": "1945–2019",
+     "dataset": "testes-nucleares-1945-2019",
+     "sourceNames": [
+      "Arms Control Association — «The Nuclear Testing Tally»",
+      "Our World in Data — «Nuclear weapons tests – Arms Control Association (2020)», owid-datasets (cópia)",
+      "Congressional Research Service — «U.S. Nuclear Weapons Tests» (IF11662, dezembro de 2025; cópia EveryCRSReport)",
+      "American Institute of Physics, FYI — «Trump order to start nuclear testing raises questions for DOE» (secundária)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "vantagem-comparativa-ricardo",
+    "title": "A vantagem comparativa",
+    "axis": "portugal",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-19",
    "number": 13,

@@ -305,7 +305,7 @@
    "fonte": "Sichel (2017), NBER; cópia em owid-datasets («Price of nails since 1695 (Daniel Sichels (2017))»)",
    "licenca": "CC BY 4.0 (OWID); confirmar a do artigo",
    "estado": "pronta",
-   "bloqueio": "2026-11-19: dados descarregáveis do GitHub; adiada para não repetir logo a seguir à peça do preço da luz. Confirmar no README a mistura de fontes (Reino Unido até 1784, EUA depois) e os anos interpolados.",
+   "bloqueio": "2026-11-19: dados descarregáveis do GitHub; adiada para não repetir logo a seguir à peça do preço da luz. Confirmar no README a mistura de fontes (Reino Unido até 1784, EUA depois) e os anos interpolados. 2026-11-20: adiada outra vez (um dia depois da peça do preço da luz).",
    "registada": "2026-11-19",
    "tentativas": 0
   },
@@ -318,6 +318,28 @@
    "estado": "bloqueada",
    "bloqueio": "2026-11-19: o indicador só tem 2023–2025; sem série longa. O IPMA continua fora do alcance.",
    "registada": "2026-11-19",
+   "tentativas": 1
+  },
+  {
+   "id": "gas-importacoes-ue-russia-2026",
+   "tema": "geopolitica",
+   "ideia": "Peso da Rússia nas importações de gás da UE e corte das importações do Catar a partir de abril de 2026 (Ormuz)",
+   "fonte": "Eurostat nrg_ti_gasm (importações mensais de gás natural por parceiro, até agosto de 2026)",
+   "licenca": "Eurostat: reutilização com atribuição",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-20: o total inclui comércio intra-UE e a soma dos parceiros extra-UE não fecha (em 2021 a Rússia aparece com 23% do extra-UE calculado, longe dos ~40% habituais; trânsito por Ucrânia/Bielorrússia e «não especificado» pesam). Usar nrg_ti_gas anual ou a série de origem do gás e confirmar a metodologia de parceiro antes de publicar.",
+   "registada": "2026-11-20",
+   "tentativas": 1
+  },
+  {
+   "id": "dracunculose-erradicacao",
+   "tema": "saude",
+   "ideia": "Doença do verme-da-guiné: de quase 900 mil casos em 1989 para algumas dezenas, a caminho da segunda erradicação humana",
+   "fonte": "Carter Center (cópia owid-datasets «Guinea Worm Cases - The Carter Center (2022)», 1989–2021)",
+   "licenca": "Por confirmar: licença dos dados do Carter Center não indicada",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-20: a cópia da OWID termina em 2021 e a licença da fonte primária não está clara; procurar os números anuais da OMS (Weekly Epidemiological Record) até 2025.",
+   "registada": "2026-11-20",
    "tentativas": 1
   }
  ]

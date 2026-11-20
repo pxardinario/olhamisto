@@ -1,0 +1,41 @@
+{
+  "name": "Nuclear weapons tests – Arms Control Association (2020)",
+  "title": "Nuclear weapons tests – Arms Control Association (2020)",
+  "id": 5534,
+  "description": "This datasets provides the number of nuclear weapons tests by country using data from the Arms Control Association (2020).\n\nYou can download the code and complete dataset, including supplementary variables, from GitHub: https://github.com/owid/notebooks/tree/main/BastianHerre/nuclear_weapons",
+  "sources": [
+    {
+      "name": "Nuclear Weapons Tests – Arms Control Association (2020)",
+      "link": "https://www.armscontrol.org/factsheets/nucleartesttally",
+      "retrievedDate": "February 24, 2022",
+      "additionalInfo": "This datasets provides the number of nuclear weapons tests by country using data from the Arms Control Association (2020).\n\nYou can download the code and complete dataset, including supplementary variables, from GitHub: https://github.com/owid/notebooks/tree/main/BastianHerre/nuclear_weapons",
+      "dataPublishedBy": "Arms Control Association"
+    }
+  ],
+  "owidTags": [
+    "Nuclear Weapons"
+  ],
+  "resources": [
+    {
+      "path": "Nuclear weapons tests – Arms Control Association (2020).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "nuclear_weapons_tests",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          }
+        ]
+      }
+    }
+  ]
+}

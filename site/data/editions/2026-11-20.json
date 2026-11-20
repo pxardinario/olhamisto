@@ -1,0 +1,258 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-20",
+ "number": 14,
+ "status": "publicada",
+ "opening": "Quatro histórias para sexta-feira: a parte do investimento estrangeiro que afinal é portuguesa, os estudantes que chegam de fora ao ensino superior, as falências na Europa e oitenta anos de testes nucleares.",
+ "lead": "investimento-estrangeiro-portugal-2025",
+ "generatedAt": "2026-11-20T08:00:00Z",
+ "limitations": [
+  "Publicam-se quatro peças, não cinco: as outras candidatas com dados não passaram o teste editorial ou de qualidade dos dados (ver candidatas rejeitadas), e preferiu-se não completar a edição com uma peça fraca.",
+  "Mistura da edição: 1 peça de atualidade (falências na UE, dados do Eurostat de 16 de novembro) e 3 de descoberta; a peça dos estudantes passou de atualidade a descoberta depois da verificação. Peças do tipo «Portugal comparado com a Europa»: 1 (falências). Peça com fonte não oficial e sem Portugal como ângulo principal: testes nucleares (Arms Control Association, cópia da Our World in Data). Tipos de gráfico: linhas (2), halteres (1), colunas (1).",
+  "Verificação independente: as quatro peças e a Chave do Dia ficaram verificadas depois de correções (evolução dos estudantes brasileiros, data dos dados de Portugal no Eurostat, último trimestre de Portugal acima do nível de 2019, início dos testes chineses). armscontrol.org, reason.com e o PDF de Ricardo não abriram neste ambiente; esses factos foram confirmados por excertos de pesquisa.",
+  "Candidatas rejeitadas: importações de gás da UE por origem (Eurostat nrg_ti_gasm; a repartição dos parceiros extra-UE não fecha), doença do verme-da-guiné (cópia da OWID até 2021, licença do Carter Center por confirmar), inflação de outubro (repetiria a peça de 4 de novembro), livros editados (BNP/INE, sem descoberta), emprego no 3.º trimestre (INE, dados de 4 de novembro, sem ângulo novo), preço dos pregos (adiada para não repetir o tema do preço da luz).",
+  "Nesta execução, o grapher da Our World in Data não respondeu pela linha de comandos."
+ ],
+ "pieces": [
+  {
+   "id": "investimento-estrangeiro-portugal-2025",
+   "slug": "investimento-direto-estrangeiro-portugal-investidor-final-2025",
+   "kind": "descoberta",
+   "theme": "economia",
+   "themeLabel": "Economia",
+   "vizType": "halteres",
+   "vizLabel": "Halteres · ordenação alternável",
+   "interactive": true,
+   "title": "Um em cada oito euros de investimento estrangeiro em Portugal é, no fim da cadeia, português",
+   "question": "Quem controla, de facto, o investimento estrangeiro em Portugal?",
+   "finding": "No fim de 2025, o investimento direto estrangeiro em Portugal somava 217,4 mil milhões de euros. Pelo país de quem o controla no fim da cadeia, 28,5 mil milhões (13,1%) pertencem a investidores portugueses, o segundo maior grupo depois de Espanha. O Luxemburgo e os Países Baixos descem de 35,2% para 13,2% do total; os EUA pesam 3,4 vezes mais e a China 4,1 vezes mais do que parece.",
+   "context": "As estatísticas de investimento direto atribuem cada investimento ao país da empresa que o detém diretamente. Muitas vezes é uma sociedade intermédia no Luxemburgo ou nos Países Baixos, escolhida por razões fiscais ou jurídicas. O Banco de Portugal também o reparte pelo país do investidor final, quem controla a cadeia. O Eurostat atualizou estes dados, com 2025, a 18 de novembro.",
+   "interpretation": "A parte portuguesa é o chamado investimento de ida e volta: capital de residentes em Portugal que sai para uma empresa no estrangeiro e regressa como investimento estrangeiro. Pesava 29,9% em 2013 e 17,6% em 2019. Os números não dizem porque se faz este percurso; vantagens fiscais, proteção jurídica e financiamento são as razões habitualmente apontadas, e estes dados não as separam.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "investimento-estrangeiro-portugal-2025"
+   },
+   "period": "Posição no fim de 2025 (série 2013–2025 nas notas)",
+   "unit": "mil milhões de euros",
+   "sources": [
+    {
+     "name": "Eurostat — Posições de investimento direto da UE por país, contraparte imediata e final e atividade (BPM6) (bop_fdi6_pos), dados do Banco de Portugal",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/bop_fdi6_pos/default/table?lang=en",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "method": [
+    "Posição de investimento direto em Portugal (passivo líquido, todas as atividades, entidades com e sem fins especiais) no fim de 2025, em milhões de euros, convertidos em mil milhões com uma casa decimal no gráfico. «País do investidor imediato»: país da contraparte que detém diretamente o investimento. «País do investidor final»: país da entidade que o controla no topo da cadeia de participações. China exclui Hong Kong, que aparece à parte.",
+    "Na repartição pelo investidor final, o total do Eurostat sem Portugal (188,9 mil milhões) mais Portugal (28,5) iguala o total da contraparte imediata (217,4) em todos os anos de 2013 a 2025, o que confirma a leitura. Alguns países têm valores confidenciais, por isso as parcelas não somam o total. Os dados de 2025 podem ser revistos. Brutos em raw/ide-portugal/, sem alterações."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-20",
+    "note": "Conferidos contra a API do Eurostat (descarga independente) o total, os 15 países nas duas contrapartes e a identidade investidor final sem Portugal + Portugal = total imediato em todos os anos de 2013 a 2025; data de atualização confirmada no índice do Eurostat. Sem correções obrigatórias."
+   }
+  },
+  {
+   "id": "estudantes-estrangeiros-ensino-superior-2013-2024",
+   "slug": "estudantes-estrangeiros-ensino-superior-portugal-africa-brasil-2013-2024",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Educação",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cursor",
+   "interactive": true,
+   "title": "12,9% dos estudantes do ensino superior vieram de outro país. Desde 2022, mais de África do que da América Latina",
+   "question": "De onde vêm os estudantes estrangeiros do ensino superior português?",
+   "finding": "Em 2024 havia 55 330 estudantes no ensino superior em Portugal vindos de outro país: 3,8 vezes mais do que em 2013 e 12,9% de todos os inscritos (4,0% em 2013). Desde 2022, os vindos de África (22 720 em 2024) são mais do que os da América Latina (17 145). Os da Guiné-Bissau passaram de 134 para 6 276; os do Brasil, ainda os mais numerosos, estão abaixo do máximo de 2020 (18 081).",
+   "context": "O Eurostat atualizou a 18 de novembro os dados sobre estudantes em mobilidade de grau; os mais recentes de Portugal são de 2024. São os que se inscrevem num curso superior num país diferente daquele onde fizeram os estudos anteriores. Ficam de fora os de intercâmbio, como os do Erasmus. A série de Portugal começa em 2013.",
+   "interpretation": "O crescimento foi sobretudo lusófono: Brasil, Guiné-Bissau, Angola e Cabo Verde somam 58,8% dos estudantes vindos de fora. Em 2024, o total desceu 2,5%, a primeira descida da série, com menos brasileiros, cabo-verdianos e guineenses. Os números não explicam a viragem: regras de vistos, propinas e custo do alojamento são hipóteses possíveis que estes dados não permitem separar.",
+   "chart": {
+    "type": "lines",
+    "dataset": "estudantes-estrangeiros-ensino-superior-2013-2024"
+   },
+   "period": "2013–2024",
+   "unit": "número de estudantes",
+   "sources": [
+    {
+     "name": "Eurostat — Estudantes em mobilidade vindos do estrangeiro, por nível de ensino, sexo e país de origem (educ_uoe_mobs02)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_mobs02/default/table?lang=en",
+     "accessed": "2026-11-20"
+    },
+    {
+     "name": "Eurostat — Peso dos estudantes em mobilidade vindos do estrangeiro no total de inscritos (educ_uoe_mobs03)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_mobs03/default/table?lang=en",
+     "accessed": "2026-11-20"
+    },
+    {
+     "name": "Eurostat — Estudantes inscritos no ensino superior (educ_uoe_enrt01)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt01/default/table?lang=en",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "method": [
+    "Estudantes inscritos no ensino superior em Portugal (níveis 5 a 8 da CITE: cursos técnicos superiores, licenciaturas, mestrados e doutoramentos) que vieram de outro país para estudar, segundo a recolha conjunta UNESCO-OCDE-Eurostat. O país de origem é, em regra, o dos estudos anteriores. Regiões de origem do Eurostat; a América Latina inclui as Caraíbas. A soma das seis regiões é igual ao total em todos os anos.",
+    "O peso no total (12,9% em 2024) é o publicado pelo Eurostat e foi recalculado: 55 330 em 430 226 inscritos. Para Portugal, 2012 e 2025 não têm valores. Ásia, América do Norte e Oceânia somam pouco e só a Ásia aparece no gráfico; a tabela e o CSV incluem o Brasil, a Guiné-Bissau, Angola e Cabo Verde. Brutos em raw/estudantes-estrangeiros/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-20",
+    "note": "Recalculados contra a API do Eurostat os 12 anos, o peso no total de inscritos, as regiões e os países citados; definição de mobilidade de grau confirmada nos metadados (ESMS). Corrigidos: a descrição da evolução dos estudantes brasileiros (não caíram todos os anos desde 2020) e a frase sobre a publicação de 18 de novembro (os dados de Portugal de 2024 já existiam antes); a peça passou a descoberta."
+   }
+  },
+  {
+   "id": "falencias-empresas-ue-2015-2026",
+   "slug": "falencias-empresas-uniao-europeia-portugal-2015-2026",
+   "kind": "atualidade",
+   "theme": "empreendedorismo",
+   "themeLabel": "Empreendedorismo",
+   "vizType": "linha",
+   "vizLabel": "Linhas · cursor",
+   "interactive": true,
+   "title": "As falências de empresas na UE estão no máximo desde 2015. Em Portugal, abaixo do nível de 2019",
+   "question": "As empresas europeias estão a falir mais do que antes da pandemia? E as portuguesas?",
+   "finding": "No 2.º trimestre de 2026, o índice de declarações de falência de empresas na UE chegou ao valor mais alto da série, que começa em 2015: 41,4% acima da média de 2019 (40,4% no 3.º trimestre). França (+41,1%) e Alemanha (+36,5% no 2.º trimestre) seguem a mesma linha. Portugal está 9,4% abaixo de 2019 e não chega a esse nível desde o 3.º trimestre de 2020; a Itália também está abaixo (−4,6%).",
+   "context": "O Eurostat atualizou a 16 de novembro o índice trimestral de registos e de declarações de falência de empresas, com dados até setembro de 2026. Em 2020 e 2021, durante a pandemia, houve moratórias de crédito e apoios públicos às empresas, e as falências caíram para mínimos. A partir de julho de 2022, o Banco Central Europeu subiu as taxas de juro.",
+   "interpretation": "A subida europeia já não é só a recuperação das falências adiadas na pandemia: o índice da UE passou o nível de 2015, quando várias economias ainda saíam da crise das dívidas. Portugal seguiu outro caminho: em 2015, as falências eram quase o dobro das de 2019. O índice mede a evolução em cada país, não quantas empresas vão à falência, e as definições legais diferem.",
+   "chart": {
+    "type": "lines",
+    "dataset": "falencias-empresas-ue-2015-2026"
+   },
+   "period": "1.º trimestre de 2015 – 3.º trimestre de 2026",
+   "unit": "índice, média de 2019 = 100",
+   "sources": [
+    {
+     "name": "Eurostat — Índice de registos e de declarações de falência de empresas, por atividade, trimestral (sts_rb_q)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_rb_q/default/table?lang=en",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "method": [
+    "Índice trimestral de declarações de falência de empresas da indústria, construção e serviços mercantis (NACE B–S, sem administração pública, defesa e organizações associativas), corrigido de sazonalidade e de efeitos de calendário. O Eurostat publica-o com base 2021 = 100; aqui foi rebaseado à média dos quatro trimestres de 2019 de cada país, para comparar com o período antes da pandemia.",
+    "A Alemanha ainda não tem o 3.º trimestre de 2026. A Espanha fica fora do gráfico: o seu índice chegou a 287,9 (2019 = 100) no 3.º trimestre de 2026 e tornaria ilegíveis as outras séries; está nos dados brutos. O agregado da UE é calculado pelo Eurostat; os últimos trimestres de alguns países são provisórios. Os níveis não são comparáveis entre países. Brutos em raw/falencias-ue/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-20",
+    "note": "Recalculado o rebase à média de 2019 para os 47 trimestres e as cinco séries contra a API do Eurostat; máximo da UE e datas confirmados. Corrigido: Portugal não chega ao nível de 2019 desde o 3.º trimestre de 2020 (e não desde 2022)."
+   }
+  },
+  {
+   "id": "testes-nucleares-1945-2019",
+   "slug": "testes-armas-nucleares-por-ano-pais-1945-2019",
+   "kind": "descoberta",
+   "theme": "historia",
+   "themeLabel": "História e geopolítica",
+   "vizType": "barras",
+   "vizLabel": "Colunas empilhadas · duas vistas",
+   "interactive": true,
+   "title": "Em 1962 houve 178 testes nucleares. O tratado de 1963 tirou-os do ar, mas não os travou",
+   "question": "Os tratados acabaram com os testes nucleares?",
+   "finding": "Desde 1945 houve 2 056 testes de armas nucleares, metade dos Estados Unidos. O máximo foi em 1962: 178, quase todos americanos e soviéticos. Depois do tratado de 1963, que proibiu aos signatários os testes na atmosfera, no espaço e debaixo de água, a média de 1964 a 1989 foi de 53,6 por ano, pouco abaixo dos 60,0 de 1955–1962. A queda veio com o fim da Guerra Fria; o último foi em 2017.",
+   "context": "No fim de outubro de 2025, o presidente dos EUA, Donald Trump, mandou o Pentágono começar a testar armas nucleares, o que o país não faz desde 1992; o secretário da Energia disse depois que seriam testes sem explosão nuclear. A Arms Control Association conta todas as explosões de teste conhecidas, desde a primeira, no Novo México, em julho de 1945.",
+   "interpretation": "O tratado de 1963 mudou o lugar dos testes mais do que o ritmo: americanos, soviéticos e britânicos passaram a fazê-los debaixo de terra, e a França e a China, que não o assinaram, fizeram testes na atmosfera até 1974 e 1980. O número só caiu depois de 1988, com o fim da Guerra Fria, antes do Tratado de Proibição Total de 1996, que ainda não entrou em vigor.",
+   "chart": {
+    "type": "columns",
+    "dataset": "testes-nucleares-1945-2019"
+   },
+   "period": "1945–2019",
+   "unit": "testes por ano",
+   "sources": [
+    {
+     "name": "Arms Control Association — «The Nuclear Testing Tally»",
+     "url": "https://www.armscontrol.org/factsheets/nucleartesttally",
+     "accessed": "2026-11-20"
+    },
+    {
+     "name": "Our World in Data — «Nuclear weapons tests – Arms Control Association (2020)», owid-datasets (cópia)",
+     "url": "https://github.com/owid/owid-datasets/tree/master/datasets/Nuclear%20weapons%20tests%20%E2%80%93%20Arms%20Control%20Association%20(2020)",
+     "accessed": "2026-11-20"
+    },
+    {
+     "name": "Congressional Research Service — «U.S. Nuclear Weapons Tests» (IF11662, dezembro de 2025; cópia EveryCRSReport)",
+     "url": "https://www.everycrsreport.com/files/2025-12-16_IF11662_8bdc835a5adcc1e7cb39b100ef46e82890298bb5.html",
+     "accessed": "2026-11-20"
+    },
+    {
+     "name": "American Institute of Physics, FYI — «Trump order to start nuclear testing raises questions for DOE» (secundária)",
+     "url": "https://www.aip.org/fyi/trump-order-to-start-nuclear-testing-raises-questions-for-doe",
+     "accessed": "2026-11-20"
+    }
+   ],
+   "method": [
+    "Número de testes de armas nucleares por país e ano, segundo a contagem da Arms Control Association (versão de 2020) compilada pela Our World in Data. Explosões simultâneas contam como um teste. Inclui os testes para fins pacíficos da URSS e dos EUA. Os anos sem testes valem zero porque a contagem é exaustiva (a média de 1955–1962 inclui a moratória de 1959–1960, sem testes); a contagem oficial dos EUA é de 1 054 testes, por diferença de critério; o ficheiro termina em 2019 e a ACA não regista testes depois de 2017.",
+    "A cópia da OWID atribui à Coreia do Norte três testes em 2010 que a contagem da ACA não inclui (seis testes norte-coreanos, 2 056 no total); foram excluídos. URSS inclui a Rússia depois de 1991 (sem testes desde 1990). Os dados não separam testes atmosféricos e subterrâneos; essa distinção vem da ACA e dos textos dos tratados. Brutos em raw/testes-nucleares/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-20",
+    "note": "Ficheiro da OWID idêntico ao descarregado de novo; contagens por país conferidas com valores da Arms Control Association citados em resultados de pesquisa (armscontrol.org não abriu neste ambiente); exclusão dos três testes norte-coreanos de 2010 confirmada. Corrigido: a China só testou a partir de 1964 (testes atmosféricos da França até 1974 e da China até 1980). Factos sobre a ordem de Trump e o CRS confirmados por pesquisa."
+   }
+  }
+ ],
+ "chave": {
+  "id": "vantagem-comparativa-ricardo",
+  "axis": "portugal",
+  "axisLabel": "Portugal em foco",
+  "certainty": "Consenso, com uma ressalva",
+  "title": "A vantagem comparativa",
+  "concept": "A ideia de que dois países ganham em trocar mesmo quando um deles produz tudo com menos esforço: basta que cada um se dedique àquilo que, comparado com o resto do que faz, lhe sai mais barato.",
+  "lesson": [
+   "Em 1817, o economista inglês David Ricardo escolheu Portugal para explicar por que razão compensa trocar. No seu exemplo, Portugal produz o vinho com o trabalho de 80 homens durante um ano e o pano com 90; a Inglaterra precisa de 120 e de 100. Ainda assim, escreveu Ricardo, Portugal ganharia em importar o pano, mesmo podendo fazê-lo com menos trabalho do que os ingleses.",
+   "O que decide não é quem faz melhor, mas quanto custa cada coisa face à outra em cada país. Em Portugal, o vinho exige menos trabalho do que o pano; em Inglaterra, é o contrário. Se cada um se dedicar ao que lhe custa relativamente menos e trocar, ambos ficam com mais. É a advogada que escreve mais depressa do que o secretário e não ganha em escrever as cartas.",
+   "É dos princípios mais aceites da economia, mas assenta num modelo: supõe que os trabalhadores mudam de setor sem custo e que o capital fica no país. Ganhar no conjunto não quer dizer que todos ganhem. E a história real é discutida: desde o Tratado de Methuen, de 1703, há quem culpe a troca de vinho por lanifícios pelo atraso da indústria portuguesa."
+  ],
+  "diagram": {
+   "title": "Os quatro números de Ricardo",
+   "svg": "<svg viewBox=\"0 0 340 236\" role=\"img\" aria-label=\"Quadro com os quatro números do exemplo de David Ricardo, de 1817: o trabalho de homens durante um ano para produzir o vinho e o pano trocados. Portugal: 80 para o vinho e 90 para o pano. Inglaterra: 120 para o vinho e 100 para o pano. Estão realçados o vinho português e o pano inglês, aquilo em que cada país se especializa. Por baixo: Portugal vende vinho e compra pano; a Inglaterra vende pano e compra vinho. Cada país faz o que lhe custa relativamente menos, mesmo que Portugal precise de menos trabalho nas duas coisas.\"><defs><marker id=\"chave-seta\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"var(--key-ink-2)\"/></marker></defs><text x=\"170\" y=\"14\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">Homens a trabalhar um ano, no exemplo de Ricardo</text><text x=\"180\" y=\"38\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"700\" fill=\"var(--key-ink)\">Vinho</text><text x=\"282\" y=\"38\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"700\" fill=\"var(--key-ink)\">Pano</text><text x=\"10\" y=\"76\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">Portugal</text><rect x=\"132\" y=\"48\" width=\"96\" height=\"46\" rx=\"6\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\"/><text x=\"180\" y=\"74\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"700\" fill=\"var(--key-ink)\">80</text><text x=\"180\" y=\"88\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">especializa-se</text><rect x=\"234\" y=\"48\" width=\"96\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"var(--key-rule)\"/><text x=\"282\" y=\"77\" text-anchor=\"middle\" font-size=\"18\" fill=\"var(--key-ink)\">90</text><text x=\"10\" y=\"128\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">Inglaterra</text><rect x=\"132\" y=\"100\" width=\"96\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"var(--key-rule)\"/><text x=\"180\" y=\"129\" text-anchor=\"middle\" font-size=\"18\" fill=\"var(--key-ink)\">120</text><rect x=\"234\" y=\"100\" width=\"96\" height=\"46\" rx=\"6\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\"/><text x=\"282\" y=\"126\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"700\" fill=\"var(--key-ink)\">100</text><text x=\"282\" y=\"140\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">especializa-se</text><line x1=\"40\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta)\"/><text x=\"170\" y=\"164\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">Portugal vende vinho à Inglaterra</text><line x1=\"300\" y1=\"192\" x2=\"40\" y2=\"192\" stroke=\"var(--key-ink-2)\" marker-end=\"url(#chave-seta)\"/><text x=\"170\" y=\"206\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">a Inglaterra vende pano a Portugal</text><text x=\"170\" y=\"228\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"700\" fill=\"var(--key-ink)\">Cada um faz o que lhe custa relativamente menos</text></svg>",
+   "caption": "Números do exemplo hipotético de Ricardo (1817), não são dados reais de produção: o trabalho, em homens durante um ano, para produzir o vinho e o pano trocados. A leitura destes quatro números é debatida pelos historiadores do pensamento económico."
+  },
+  "aside": "O matemático Stanislaw Ulam desafiou um dia o economista Paul Samuelson a citar uma proposição das ciências sociais que fosse ao mesmo tempo verdadeira e não trivial. Samuelson contou em 1969 que só cerca de trinta anos depois encontrou a resposta: a vantagem comparativa. Que é logicamente verdadeira, escreveu, não precisa de ser demonstrado a um matemático; que não é trivial, provam-no os milhares de homens importantes e inteligentes que nunca a conseguiram perceber.",
+  "application": "Aparece nos debates sobre tarifas e acordos comerciais, como os que se seguiram às tarifas norte-americanas de 2025; na divisão de tarefas numa empresa, numa equipa ou numa casa; na especialização de regiões portuguesas em produtos como a cortiça ou o vinho do Porto; e na discussão sobre se um país deve produzir tudo o que consome.",
+  "motto": "Ser melhor em tudo não obriga a fazer tudo.",
+  "sources": [
+   {
+    "name": "Ricardo (1817), «On the Principles of Political Economy and Taxation», capítulo VII, «On Foreign Trade» (edição Dent; cópia da Universidade de Zurique)",
+    "url": "https://ivr.uzh.ch/dam/jcr:1eed2023-77c9-4934-8d5d-321558c995e0/Text_2_Ricardo.pdf",
+    "accessed": "2026-11-20"
+   },
+   {
+    "name": "Boudreaux, «Comparative Advantage», The Concise Encyclopedia of Economics (Econlib)",
+    "url": "https://www.econlib.org/library/Enc/ComparativeAdvantage.html",
+    "accessed": "2026-11-20"
+   },
+   {
+    "name": "Reason — «A True but Nonobvious Proposition?» (2018), com a citação de Samuelson (1969) (secundária)",
+    "url": "https://reason.com/2018/04/03/a-true-but-nonobvious-proposit/printer/",
+    "accessed": "2026-11-20"
+   },
+   {
+    "name": "Morales Meoqui (2023), «The Demystification of David Ricardo's Famous Four Numbers», Journal of the History of Economic Thought 45(3): 447–466",
+    "url": "https://cambridge.org/core/journals/journal-of-the-history-of-economic-thought/article/demystification-of-david-ricardos-famous-four-numbers/F792792BA5F4759D3882F73E6422265D",
+    "accessed": "2026-11-20"
+   },
+   {
+    "name": "Encyclopaedia Britannica — «Methuen Treaty»",
+    "url": "https://www.britannica.com/topic/Methuen-Treaty",
+    "accessed": "2026-11-20"
+   },
+   {
+    "name": "London School of Economics, LSE Research Online — «England and Portugal, cloth and wine: evidence for comparative advantage or infant industry?»",
+    "url": "https://researchonline.lse.ac.uk/id/eprint/125859",
+    "accessed": "2026-11-20"
+   }
+  ],
+  "notes": [
+   "Grau de certeza «Consenso, com uma ressalva»: o princípio da vantagem comparativa é aceite pela generalidade dos economistas como resultado lógico do modelo; a ressalva está nos pressupostos (mobilidade dos trabalhadores entre setores, capital que não sai do país) e na distribuição dos ganhos, que o princípio não garante.",
+   "Os números de Ricardo são hipotéticos. A leitura dos manuais, em que são custos de trabalho por unidade e mostram os ganhos da troca, é contestada: Morales Meoqui (2023) defende que Ricardo os usou para mostrar que os preços internacionais não seguem as quantidades de trabalho. O efeito do Tratado de Methuen na indústria portuguesa continua debatido. A analogia da advogada serve para explicar, não para provar."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-20",
+   "note": "Rotação de eixos (portugal não saiu nas últimas 4 edições), estrutura, SVG e voz conferidos. Números e frase de Ricardo, anedota Ulam–Samuelson, Tratado de Methuen e referência de Morales Meoqui confirmados por excertos de pesquisa e pelo RePEc; o PDF de Ricardo e reason.com não abriram neste ambiente. Corrigido: «logicamente verdadeira», como no original."
+  }
+ }
+}

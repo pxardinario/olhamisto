@@ -1,0 +1,197 @@
+{
+ "rows": [
+  {
+   "label": "Espanha",
+   "a": 43.9,
+   "b": 31,
+   "highlight": false,
+   "imm": 43904.5,
+   "ult": 30969.8
+  },
+  {
+   "label": "Portugal",
+   "a": 0,
+   "b": 28.5,
+   "highlight": true,
+   "imm": 0,
+   "ult": 28536.2
+  },
+  {
+   "label": "França",
+   "a": 17.2,
+   "b": 18.5,
+   "highlight": false,
+   "imm": 17168.1,
+   "ult": 18547.4
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 42,
+   "b": 18.2,
+   "highlight": false,
+   "imm": 41966.8,
+   "ult": 18208
+  },
+  {
+   "label": "Estados Unidos",
+   "short": "EUA",
+   "a": 5,
+   "b": 17,
+   "highlight": false,
+   "imm": 5004.3,
+   "ult": 16990.9
+  },
+  {
+   "label": "Reino Unido",
+   "a": 14.4,
+   "b": 15.7,
+   "highlight": false,
+   "imm": 14356.1,
+   "ult": 15733
+  },
+  {
+   "label": "China (sem Hong Kong)",
+   "short": "China",
+   "a": 3.6,
+   "b": 14.9,
+   "highlight": false,
+   "imm": 3600.5,
+   "ult": 14852.7
+  },
+  {
+   "label": "Alemanha",
+   "a": 7.9,
+   "b": 11.3,
+   "highlight": false,
+   "imm": 7892.5,
+   "ult": 11333.2
+  },
+  {
+   "label": "Países Baixos",
+   "a": 34.6,
+   "b": 10.5,
+   "highlight": false,
+   "imm": 34588.7,
+   "ult": 10532.3
+  },
+  {
+   "label": "Angola",
+   "a": 4.4,
+   "b": 5,
+   "highlight": false,
+   "imm": 4398.4,
+   "ult": 5035.1
+  },
+  {
+   "label": "Brasil",
+   "a": 4.4,
+   "b": 5,
+   "highlight": false,
+   "imm": 4404.9,
+   "ult": 5004.8
+  },
+  {
+   "label": "Itália",
+   "a": 3,
+   "b": 4.3,
+   "highlight": false,
+   "imm": 3017.6,
+   "ult": 4287.8
+  },
+  {
+   "label": "Suíça",
+   "a": 4.7,
+   "b": 4,
+   "highlight": false,
+   "imm": 4702.4,
+   "ult": 4044.3
+  },
+  {
+   "label": "Bélgica",
+   "a": 4.1,
+   "b": 3.3,
+   "highlight": false,
+   "imm": 4120.8,
+   "ult": 3262.7
+  },
+  {
+   "label": "Hong Kong",
+   "a": 3.6,
+   "b": 0.9,
+   "highlight": false,
+   "imm": 3558.8,
+   "ult": 908.3
+  }
+ ],
+ "config": {
+  "aLabel": "Pelo país do investidor imediato",
+  "bLabel": "Pelo país do investidor final",
+  "ref": 0,
+  "refLabel": "",
+  "unit": "",
+  "decimals": 1,
+  "domain": [
+   0,
+   45
+  ],
+  "itemLabel": "país",
+  "sorts": [
+   [
+    "b",
+    "Pelo investidor final"
+   ],
+   [
+    "delta",
+    "Pela diferença"
+   ]
+  ],
+  "howToRead": "Cada linha é um país. O ponto cinzento mostra o investimento direto em Portugal (posição no fim de 2025, em mil milhões de euros) atribuído ao país da empresa que detém diretamente o investimento; o ponto azul, ao país de quem o controla no fim da cadeia. Portugal, a terracota, só aparece do lado do investidor final: é capital português que volta através de empresas no estrangeiro."
+ },
+ "summary": {
+  "total": 217446.3,
+  "totalBn": 217.4,
+  "ptUlt": 28536.2,
+  "ptShare": 13.1,
+  "ptImm": 0,
+  "es": [
+   43904.5,
+   30969.8
+  ],
+  "lu": [
+   41966.8,
+   18208
+  ],
+  "nl": [
+   34588.7,
+   10532.3
+  ],
+  "us": [
+   5004.3,
+   16990.9
+  ],
+  "cn": [
+   3600.5,
+   14852.7
+  ],
+  "luNlImmShare": 35.2,
+  "luNlUltShare": 13.2,
+  "usMult": 3.4,
+  "cnMult": 4.1,
+  "ptShare2013": 29.9,
+  "ptShare2019": 17.6,
+  "total2013": 108453,
+  "ultRank": [
+   "ES",
+   "PT",
+   "FR",
+   "LU",
+   "US",
+   "UK"
+  ],
+  "immRank": [
+   "ES",
+   "LU",
+   "NL"
+  ]
+ }
+}

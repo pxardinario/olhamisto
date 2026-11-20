@@ -1,0 +1,310 @@
+{
+ "rows": [
+  {
+   "x": 2013,
+   "label": "2013",
+   "afr": 4230,
+   "lat": 5235,
+   "eur": 3613,
+   "asi": 1083,
+   "tot": 14541,
+   "br": 4769,
+   "gw": 134,
+   "ao": 1584,
+   "cv": 1548,
+   "share": 4
+  },
+  {
+   "x": 2014,
+   "label": "2014",
+   "afr": 5246,
+   "lat": 5604,
+   "eur": 2732,
+   "asi": 1069,
+   "tot": 14883,
+   "br": 5218,
+   "gw": 199,
+   "ao": 2121,
+   "cv": 1832,
+   "share": 4.2
+  },
+  {
+   "x": 2015,
+   "label": "2015",
+   "afr": 5752,
+   "lat": 5958,
+   "eur": 3476,
+   "asi": 1423,
+   "tot": 16888,
+   "br": 5438,
+   "gw": 180,
+   "ao": 2364,
+   "cv": 1899,
+   "share": 5
+  },
+  {
+   "x": 2016,
+   "label": "2016",
+   "afr": 6874,
+   "lat": 6958,
+   "eur": 3859,
+   "asi": 1827,
+   "tot": 19815,
+   "br": 6372,
+   "gw": 321,
+   "ao": 2761,
+   "cv": 2190,
+   "share": 5.8
+  },
+  {
+   "x": 2017,
+   "label": "2017",
+   "afr": 7447,
+   "lat": 8486,
+   "eur": 3967,
+   "asi": 1975,
+   "tot": 22194,
+   "br": 7764,
+   "gw": 384,
+   "ao": 2916,
+   "cv": 2267,
+   "share": 6.4
+  },
+  {
+   "x": 2018,
+   "label": "2018",
+   "afr": 8773,
+   "lat": 11900,
+   "eur": 4969,
+   "asi": 2155,
+   "tot": 28122,
+   "br": 10965,
+   "gw": 613,
+   "ao": 3210,
+   "cv": 2608,
+   "share": 7.9
+  },
+  {
+   "x": 2019,
+   "label": "2019",
+   "afr": 10683,
+   "lat": 16502,
+   "eur": 5807,
+   "asi": 2438,
+   "tot": 35755,
+   "br": 15373,
+   "gw": 1484,
+   "ao": 3246,
+   "cv": 3338,
+   "share": 9.7
+  },
+  {
+   "x": 2020,
+   "label": "2020",
+   "afr": 15221,
+   "lat": 19327,
+   "eur": 6518,
+   "asi": 2557,
+   "tot": 44005,
+   "br": 18081,
+   "gw": 3751,
+   "ao": 3600,
+   "cv": 4635,
+   "share": 11.6
+  },
+  {
+   "x": 2021,
+   "label": "2021",
+   "afr": 17271,
+   "lat": 19016,
+   "eur": 7568,
+   "asi": 2770,
+   "tot": 47072,
+   "br": 17629,
+   "gw": 4730,
+   "ao": 3552,
+   "cv": 5349,
+   "share": 11.7
+  },
+  {
+   "x": 2022,
+   "label": "2022",
+   "afr": 19867,
+   "lat": 17908,
+   "eur": 8494,
+   "asi": 3206,
+   "tot": 49916,
+   "br": 16377,
+   "gw": 6185,
+   "ao": 4115,
+   "cv": 5335,
+   "share": 12
+  },
+  {
+   "x": 2023,
+   "label": "2023",
+   "afr": 23912,
+   "lat": 18743,
+   "eur": 10054,
+   "asi": 3634,
+   "tot": 56775,
+   "br": 17028,
+   "gw": 6910,
+   "ao": 5292,
+   "cv": 6449,
+   "share": 13.3
+  },
+  {
+   "x": 2024,
+   "label": "2024",
+   "afr": 22720,
+   "lat": 17145,
+   "eur": 10689,
+   "asi": 4296,
+   "tot": 55330,
+   "br": 15234,
+   "gw": 6276,
+   "ao": 5856,
+   "cv": 5144,
+   "share": 12.9
+  }
+ ],
+ "config": {
+  "x": {
+   "min": 2013,
+   "max": 2024,
+   "ticks": [
+    2013,
+    2015,
+    2017,
+    2019,
+    2021,
+    2023,
+    2024
+   ],
+   "tableLabel": "Ano"
+  },
+  "y": {
+   "label": "Estudantes vindos do estrangeiro (número)",
+   "suffix": "",
+   "decimals": 0,
+   "linMin": 0,
+   "linMax": 25000,
+   "logDefault": false,
+   "linTicks": [
+    0,
+    5000,
+    10000,
+    15000,
+    20000,
+    25000
+   ]
+  },
+  "series": [
+   {
+    "key": "afr",
+    "label": "África",
+    "short": "África",
+    "color": "--accent-2",
+    "width": 2.8
+   },
+   {
+    "key": "lat",
+    "label": "América Latina e Caraíbas",
+    "short": "Am. Lat.",
+    "color": "--accent-3",
+    "width": 2.4
+   },
+   {
+    "key": "eur",
+    "label": "Europa",
+    "short": "Europa",
+    "color": "--accent-4",
+    "width": 1.8
+   },
+   {
+    "key": "asi",
+    "label": "Ásia",
+    "short": "Ásia",
+    "color": "--ink-3",
+    "width": 1.6
+   }
+  ],
+  "labelMargin": [
+   70,
+   92
+  ],
+  "shortEndLabels": true,
+  "dots": true,
+  "annotations": [
+   {
+    "x": 2022,
+    "key": "afr",
+    "text": "2022: África passa à frente",
+    "short": "2022",
+    "dx": -8,
+    "dy": -12,
+    "anchor": "end"
+   }
+  ],
+  "howToRead": "Cada linha conta os estudantes inscritos no ensino superior em Portugal que vieram de outro país para estudar, agrupados pela região de origem. O ponto assinala o ano em que a linha de África passou a da América Latina, onde quase nove em cada dez são brasileiros."
+ },
+ "summary": {
+  "tot2013": 14541,
+  "tot2023": 56775,
+  "tot2024": 55330,
+  "mult1324": 3.8,
+  "chg2324": -2.5,
+  "share2013": 4,
+  "share2023": 13.3,
+  "share2024": 12.9,
+  "enr2024": 430226,
+  "shareCalc2024": 12.9,
+  "afr2013": 4230,
+  "afr2024": 22720,
+  "lat2013": 5235,
+  "lat2024": 17145,
+  "eur2024": 10689,
+  "asi2024": 4296,
+  "afrShare2024": 41.1,
+  "latShare2024": 31,
+  "br2013": 4769,
+  "br2020": 18081,
+  "br2024": 15234,
+  "gw2013": 134,
+  "gw2024": 6276,
+  "ao2024": 5856,
+  "cv2024": 5144,
+  "fr2024": 3625,
+  "gwMult": 46.8,
+  "afrOverLatFrom": 2022,
+  "brPeak": 2020,
+  "firstFall": 2024,
+  "topCountries2024": [
+   [
+    "BR",
+    15234
+   ],
+   [
+    "GW",
+    6276
+   ],
+   [
+    "AO",
+    5856
+   ],
+   [
+    "CV",
+    5144
+   ],
+   [
+    "FR",
+    3625
+   ]
+  ],
+  "luso4Share2024": 58.8,
+  "cv2023": 6449,
+  "br2023": 17028,
+  "brOfLat2024": 88.9
+ }
+}
