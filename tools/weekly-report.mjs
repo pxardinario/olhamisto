@@ -24,6 +24,13 @@ const PT = /Portugal|portugu[eê]s|portuguesa/i;
 const isOfficial = (p) => p.sources.some((s) => OFFICIAL.test(s.name));
 const PT_SRC = /\b(INE|PORDATA|Banco de Portugal|BPstat|DGEG|Diário da República|Portaria|Segurança Social)\b/i;
 const isPT = (p) => [p.title, p.question, p.finding].some((t) => PT.test(t || "")) || p.sources.some((s) => PT_SRC.test(s.name));
+// «Tabela oficial de Portugal comparado com a Europa ou a OCDE»: fonte oficial + Portugal no título/pergunta
+// + termo de comparação internacional no título/pergunta/conclusão. Séries só nacionais (INE, SNS, DGAEP) não contam.
+// Nomes de países só contam no título/pergunta (na conclusão podem ser, p. ex., países investidores).
+const CMP = /\b(UE|União Europeia|europe(u|us|ia|ias)|Europa|zona euro|OCDE|OECD|outros países|países da)\b/i;
+const CMP_COUNTRY = /\b(Espanha|França|Itália|Alemanha|Grécia|Irlanda|Países Baixos|Bélgica|Polónia|Suécia)\b/;
+const isPTvsEU = (p) => isOfficial(p) && [p.title, p.question].some((t) => PT.test(t || ""))
+  && ([p.title, p.question, p.finding].some((t) => CMP.test(t || "")) || [p.title, p.question].some((t) => CMP_COUNTRY.test(t || "")));
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return "?"; } };
 const count = (arr) => Object.entries(arr.reduce((m, k) => ((m[k] = (m[k] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
 const fmt = (pairs) => pairs.map(([k, n]) => `${k} ${n}`).join(", ") || "—";
@@ -45,16 +52,17 @@ if (!week.length) {
   lines.push("");
   lines.push("Quota de variedade (heurística por edição):");
   for (const e of week) {
-    const ofPT = e.pieces.filter((p) => isOfficial(p) && isPT(p)).length;
+    const cmp = e.pieces.filter(isPTvsEU);
+    const ofPT = cmp.length;
     const nonOff = e.pieces.filter((p) => !isOfficial(p)).length;
     const noPT = e.pieces.filter((p) => !isPT(p)).length;
     const types = count(e.pieces.map((p) => p.chart.type));
     const issues = [];
-    if (ofPT > 2) issues.push(`${ofPT} peças oficiais com Portugal (máx. 2)`);
+    if (ofPT > 2) issues.push(`${ofPT} peças oficiais Portugal vs Europa/OCDE (máx. 2): ${cmp.map((p) => p.id).join(", ")}`);
     if (nonOff < 1) issues.push("nenhuma fonte não oficial");
     if (noPT < 1) issues.push("todas com Portugal como ângulo");
     if (types[0] && types[0][1] > 2) issues.push(`${types[0][1]}× ${types[0][0]}`);
-    lines.push(`  ${e.date} n.º ${e.number}: ${issues.length ? "ATENÇÃO — " + issues.join("; ") : "ok"}`);
+    lines.push(`  ${e.date} n.º ${e.number}: ${issues.length ? "ATENÇÃO — " + issues.join("; ") : `ok (PT vs Europa/OCDE: ${ofPT})`}`);
   }
   const lim = week.flatMap((e) => (e.limitations || []).map((l) => `${e.date.slice(5)}: ${l}`));
   const rej = lim.filter((l) => /rejeitad/i.test(l)).length;
