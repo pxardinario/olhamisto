@@ -1,0 +1,50 @@
+{
+  "schema": "olhamisto/newsletter@1",
+  "number": 3,
+  "editions": [
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "title": "O casamento católico em minoria, os comboios com o passe de 20 euros e sete séculos do preço da luz",
+  "subtitle": "O melhor das edições n.º 10 a 14 do Olhamisto e as cinco Chaves do Dia.",
+  "intro": [
+    "Na terceira semana, o Olhamisto publicou 23 histórias em cinco edições. Esta carta escolhe quatro. Três ajudam a perceber Portugal: o declínio do casamento católico, o que mudou nos comboios com o passe ferroviário de 20 euros e quem controla, no fim da cadeia, o investimento estrangeiro. A quarta segue sete séculos do preço da luz no Reino Unido. As restantes estão listadas abaixo, com as Chaves do Dia."
+  ],
+  "highlights": [
+    {
+      "piece": "casamentos-catolicos-portugal-1995-2025",
+      "text": "Em 1995, 68,8% dos casamentos em Portugal eram católicos; em 2025, 18,6%. A proporção ficou abaixo de metade pela primeira vez em 2007. No Norte, onde eram 82,5% em 1995, são agora 24,5%, tantos como nos Açores; no Algarve, 8,7%. A série do INE mede a forma de celebração, não a religião dos noivos, e só inclui casamentos entre pessoas de sexo oposto."
+    },
+    {
+      "piece": "comboios-passe-ferroviario-2004-2026",
+      "text": "No primeiro ano do passe ferroviário de 20 euros, o tráfego nacional, que exclui os suburbanos, passou de 20,9 milhões de passageiros em 2024 para 39,4 milhões em 2025, mais 88,3%. Entre 2004 e 2024, nunca tinha chegado a 21 milhões. A subida acelera com o passe, o que aponta o preço como explicação principal, mas os dados não separam fatores como o turismo ou a oferta de lugares."
+    },
+    {
+      "piece": "preco-luz-reino-unido-1301-2006",
+      "text": "No Reino Unido, um milhão de lúmenes-hora custava 33 043 libras em 1301 e 9 540 libras em 1800, a preços de 2000: caiu 3,5 vezes em cinco séculos. Em 2000 custava 2,62 libras, 3 641 vezes menos do que em 1800. Os economistas Roger Fouquet e Peter Pearson juntaram preços de velas, óleos, gás, querosene e eletricidade; nos séculos mais antigos, as estimativas são mais incertas."
+    },
+    {
+      "piece": "investimento-estrangeiro-portugal-2025",
+      "text": "No fim de 2025, o investimento direto estrangeiro em Portugal somava 217,4 mil milhões de euros. Pelo país de quem o controla no fim da cadeia, 28,5 mil milhões (13,1%) pertencem a investidores portugueses: capital que sai para uma empresa no estrangeiro e regressa. O Luxemburgo e os Países Baixos, sede de muitas sociedades intermédias, descem de 35,2% para 13,2%. Os dados não dizem porque se faz este percurso."
+    }
+  ],
+  "notes": [
+    {
+      "piece": "casamentos-catolicos-portugal-1995-2025",
+      "text": "Em 1995, 68,8% dos casamentos em Portugal eram católicos. Em 2025, 18,6%."
+    },
+    {
+      "piece": "pisa-alunos-abaixo-minimo-2000-2025",
+      "text": "No PISA 2025, 35,2% dos alunos portugueses de 15 anos ficaram abaixo do nível mínimo a matemática. Em 2015, 23,8%."
+    },
+    {
+      "piece": "preco-luz-reino-unido-1301-2006",
+      "text": "No Reino Unido, a luz ficou 3 641 vezes mais barata entre 1800 e 2000, a preços constantes."
+    }
+  ],
+  "correctionsNote": {},
+  "signoff": "Até à próxima semana. Entretanto, quando alguém disser «os números falam por si», pergunte quem os pôs a falar."
+}
