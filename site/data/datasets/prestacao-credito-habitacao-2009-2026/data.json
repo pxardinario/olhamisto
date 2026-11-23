@@ -1,0 +1,260 @@
+{
+ "rows": [
+  {
+   "cat": "2009",
+   "juros": 102,
+   "capital": 156,
+   "prestacao": 258,
+   "taxa": 2.233,
+   "divida": 55358
+  },
+  {
+   "cat": "2010",
+   "juros": 91,
+   "capital": 163,
+   "prestacao": 254,
+   "taxa": 1.956,
+   "divida": 55994
+  },
+  {
+   "cat": "2011",
+   "juros": 124,
+   "capital": 154,
+   "prestacao": 278,
+   "taxa": 2.686,
+   "divida": 55868
+  },
+  {
+   "cat": "2012",
+   "juros": 84,
+   "capital": 173,
+   "prestacao": 257,
+   "taxa": 1.838,
+   "divida": 55326
+  },
+  {
+   "cat": "2013",
+   "juros": 64,
+   "capital": 179,
+   "prestacao": 243,
+   "taxa": 1.422,
+   "divida": 54342
+  },
+  {
+   "cat": "2014",
+   "juros": 64,
+   "capital": 180,
+   "prestacao": 244,
+   "taxa": 1.448,
+   "divida": 53292
+  },
+  {
+   "cat": "2015",
+   "juros": 53,
+   "capital": 186,
+   "prestacao": 239,
+   "taxa": 1.225,
+   "divida": 52248
+  },
+  {
+   "cat": "2016",
+   "juros": 45,
+   "capital": 192,
+   "prestacao": 237,
+   "taxa": 1.038,
+   "divida": 51638
+  },
+  {
+   "cat": "2017",
+   "juros": 44,
+   "capital": 196,
+   "prestacao": 240,
+   "taxa": 1.016,
+   "divida": 51571
+  },
+  {
+   "cat": "2018",
+   "juros": 46,
+   "capital": 198,
+   "prestacao": 243,
+   "taxa": 1.051,
+   "divida": 52160
+  },
+  {
+   "cat": "2019",
+   "juros": 46,
+   "capital": 200,
+   "prestacao": 246,
+   "taxa": 1.038,
+   "divida": 53231
+  },
+  {
+   "cat": "2020",
+   "juros": 43,
+   "capital": 184,
+   "prestacao": 227,
+   "taxa": 0.935,
+   "divida": 54357
+  },
+  {
+   "cat": "2021",
+   "juros": 40,
+   "capital": 211,
+   "prestacao": 251,
+   "taxa": 0.81,
+   "divida": 57190
+  },
+  {
+   "cat": "2022",
+   "juros": 69,
+   "capital": 211,
+   "prestacao": 279,
+   "taxa": 1.328,
+   "divida": 61513
+  },
+  {
+   "cat": "2023",
+   "juros": 234,
+   "capital": 158,
+   "prestacao": 392,
+   "taxa": 4.433,
+   "divida": 64186
+  },
+  {
+   "cat": "2024",
+   "juros": 237,
+   "capital": 167,
+   "prestacao": 404,
+   "taxa": 4.277,
+   "divida": 67692
+  },
+  {
+   "cat": "2025",
+   "juros": 194,
+   "capital": 200,
+   "prestacao": 394,
+   "taxa": 3.18,
+   "divida": 74180
+  },
+  {
+   "cat": "2026",
+   "juros": 217,
+   "capital": 210,
+   "prestacao": 427,
+   "taxa": 3.231,
+   "divida": 81471
+  }
+ ],
+ "views": [
+  {
+   "id": "prestacao",
+   "label": "Prestação",
+   "yLabel": "Prestação média mensal em outubro de cada ano (euros)",
+   "unit": " €",
+   "decimals": 0,
+   "marginLeft": [
+    34,
+    44
+   ],
+   "series": [
+    {
+     "key": "capital",
+     "label": "Capital amortizado",
+     "color": "--accent-2"
+    },
+    {
+     "key": "juros",
+     "label": "Juros",
+     "color": "--accent-3"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "prestacao",
+     "label": "Prestação média",
+     "suffix": " €"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2026",
+     "text": "427 €: máximo desde 2009",
+     "short": "427 €"
+    }
+   ]
+  },
+  {
+   "id": "taxa",
+   "label": "Taxa de juro",
+   "yLabel": "Taxa de juro implícita em outubro de cada ano (%)",
+   "unit": "%",
+   "decimals": 2,
+   "valueLabels": true,
+   "marginLeft": [
+    30,
+    36
+   ],
+   "series": [
+    {
+     "key": "taxa",
+     "label": "Taxa de juro implícita",
+     "color": "--accent-3"
+    }
+   ]
+  },
+  {
+   "id": "divida",
+   "label": "Capital em dívida",
+   "yLabel": "Capital médio em dívida por contrato em outubro de cada ano (euros)",
+   "unit": " €",
+   "decimals": 0,
+   "marginLeft": [
+    46,
+    54
+   ],
+   "series": [
+    {
+     "key": "divida",
+     "label": "Capital médio em dívida",
+     "color": "--accent-2"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "pr": 427,
+  "ju": 217,
+  "am": 210,
+  "tx": 3.231,
+  "cap": 81471,
+  "prevMax": 423,
+  "prevMaxK": "Setembro de 2026",
+  "txMax": 5.798,
+  "txMaxK": "Janeiro de 2009",
+  "txMin": 0.788,
+  "txMinK": "Setembro de 2021",
+  "prJan24": 404,
+  "juJan24": 248,
+  "amJan24": 156,
+  "txJan24": 4.657,
+  "capJan24": 64790,
+  "prOct21": 251,
+  "txOct21": 0.81,
+  "capOct21": 57190,
+  "amOct21": 211,
+  "prMinPost": 393,
+  "prMinPostK": "Setembro de 2025",
+  "firstRecordK": "Junho de 2026",
+  "capChg2426": 25.7,
+  "amChg2426": 34.6,
+  "prJan20": 247,
+  "prJul20": 226,
+  "amShare": 49.2,
+  "amShareJan24": 38.6,
+  "txPeak": 4.657,
+  "txPeakK": "Janeiro de 2024",
+  "txDropPts": 1.43,
+  "txMin26": 3.065,
+  "txMin26K": "Maio de 2026"
+ }
+}

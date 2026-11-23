@@ -1,0 +1,223 @@
+{
+ "rows": [
+  {
+   "label": "Gálio (refinação) — China",
+   "short": "Gálio — China",
+   "mineral": "Gálio (refinação)",
+   "leader": "China",
+   "top": 100,
+   "ch": 100,
+   "world": 900,
+   "highlight": true,
+   "note": "Produção mundial estimada: 900 t"
+  },
+  {
+   "label": "Magnésio (metal) — China",
+   "short": "Magnésio — China",
+   "mineral": "Magnésio (metal)",
+   "leader": "China",
+   "top": 86.4,
+   "ch": 86.4,
+   "world": 1100000,
+   "highlight": true,
+   "note": "Produção mundial estimada: 1 100 000 t"
+  },
+  {
+   "label": "Tungsténio — China",
+   "short": "Tungsténio — China",
+   "mineral": "Tungsténio",
+   "leader": "China",
+   "top": 78.8,
+   "ch": 78.8,
+   "world": 85000,
+   "highlight": true,
+   "note": "Produção mundial estimada: 85 000 t"
+  },
+  {
+   "label": "Grafite natural — China",
+   "short": "Grafite — China",
+   "mineral": "Grafite natural",
+   "leader": "China",
+   "top": 77.8,
+   "ch": 77.8,
+   "world": 1800000,
+   "highlight": true,
+   "note": "Produção mundial estimada: 1 800 000 t"
+  },
+  {
+   "label": "Vanádio — China",
+   "short": "Vanádio — China",
+   "mineral": "Vanádio",
+   "leader": "China",
+   "top": 74.5,
+   "ch": 74.5,
+   "world": 110000,
+   "highlight": true,
+   "note": "Produção mundial estimada: 110 000 t"
+  },
+  {
+   "label": "Terras raras — China",
+   "short": "Terras raras — China",
+   "mineral": "Terras raras",
+   "leader": "China",
+   "top": 69.2,
+   "ch": 69.2,
+   "world": 390000,
+   "highlight": true,
+   "note": "Produção mundial estimada: 390 000 t"
+  },
+  {
+   "label": "Bismuto (refinação) — China",
+   "short": "Bismuto — China",
+   "mineral": "Bismuto (refinação)",
+   "leader": "China",
+   "top": 87.5,
+   "ch": 87.5,
+   "world": 16000,
+   "highlight": true,
+   "note": "Produção mundial estimada: 16 000 t"
+  },
+  {
+   "label": "Fluorite — China",
+   "short": "Fluorite — China",
+   "mineral": "Fluorite",
+   "leader": "China",
+   "top": 60,
+   "ch": 60,
+   "world": 10000000,
+   "highlight": true,
+   "note": "Produção mundial estimada: 10 000 000 t"
+  },
+  {
+   "label": "Antimónio — China",
+   "short": "Antimónio — China",
+   "mineral": "Antimónio",
+   "leader": "China",
+   "top": 36.4,
+   "ch": 36.4,
+   "world": 110000,
+   "highlight": true,
+   "note": "Produção mundial estimada: 110 000 t"
+  },
+  {
+   "label": "Nióbio — Brasil",
+   "short": "Nióbio — Brasil",
+   "mineral": "Nióbio",
+   "leader": "Brasil",
+   "top": 92.9,
+   "ch": 0,
+   "world": 112000,
+   "highlight": false,
+   "note": "Produção mundial estimada: 112 000 t"
+  },
+  {
+   "label": "Cobalto — RD Congo",
+   "short": "Cobalto — RD Congo",
+   "mineral": "Cobalto",
+   "leader": "RD Congo",
+   "top": 74.2,
+   "ch": 0.6,
+   "world": 310000,
+   "highlight": false,
+   "note": "Produção mundial estimada: 310 000 t"
+  },
+  {
+   "label": "Platina — África do Sul",
+   "short": "Platina — África do Sul",
+   "mineral": "Platina",
+   "leader": "África do Sul",
+   "top": 70.6,
+   "ch": 0,
+   "world": 170,
+   "highlight": false,
+   "note": "Produção mundial estimada: 170 t"
+  },
+  {
+   "label": "Níquel — Indonésia",
+   "short": "Níquel — Indonésia",
+   "mineral": "Níquel",
+   "leader": "Indonésia",
+   "top": 66.7,
+   "ch": 3.1,
+   "world": 3900000,
+   "highlight": false,
+   "note": "Produção mundial estimada: 3 900 000 t"
+  },
+  {
+   "label": "Lítio — Austrália",
+   "short": "Lítio — Austrália",
+   "mineral": "Lítio",
+   "leader": "Austrália",
+   "top": 31.7,
+   "ch": 21.4,
+   "world": 290000,
+   "highlight": false,
+   "note": "Produção mundial estimada: 290 000 t"
+  },
+  {
+   "label": "Cobre — Chile",
+   "short": "Cobre — Chile",
+   "mineral": "Cobre",
+   "leader": "Chile",
+   "top": 23,
+   "ch": 7.8,
+   "world": 23000000,
+   "highlight": false,
+   "note": "Produção mundial estimada: 23 000 000 t"
+  }
+ ],
+ "config": {
+  "views": [
+   {
+    "id": "top",
+    "label": "Maior produtor",
+    "key": "top",
+    "axisLabel": "Quota do maior produtor na produção mundial de 2025 (%)",
+    "axisShort": "Quota do maior produtor (%)"
+   },
+   {
+    "id": "ch",
+    "label": "China",
+    "key": "ch",
+    "axisLabel": "Quota da China na produção mundial de 2025 (%)",
+    "axisShort": "Quota da China (%)"
+   }
+  ],
+  "unit": "%",
+  "decimals": 1,
+  "signed": false,
+  "posLabel": "Outro país é o maior produtor",
+  "highlightColor": "--accent-3",
+  "highlightLabel": "A China é o maior produtor",
+  "howToRead": "Cada barra é um mineral, com o país que mais produz a seguir ao nome. Na vista «Maior produtor», a barra mede a parte desse país na produção mundial; na vista «China», a parte da China, seja ela a líder ou não. Mineração, salvo indicação de refinação ou fundição."
+ },
+ "summary": {
+  "nChinaLeads": 9,
+  "n": 15,
+  "chinaOver75": [
+   "Gálio (refinação)",
+   "Magnésio (metal)",
+   "Tungsténio",
+   "Grafite natural",
+   "Bismuto (refinação)"
+  ],
+  "gallium": 100,
+  "magnesium": 86.4,
+  "tungsten": 78.8,
+  "graphite": 77.8,
+  "rare": 69.2,
+  "vanadium": 74.5,
+  "cobalt": 74.2,
+  "niobium": 92.9,
+  "platinum": 70.6,
+  "nickel": 66.7,
+  "lithium": 31.7,
+  "copper": 23,
+  "lithiumChina": 21.4,
+  "ptTungsten": 700,
+  "worldTungsten": 85000,
+  "ptTungstenShare": 0.8,
+  "ptLithium": 380,
+  "ptLithiumShare": 0.1
+ }
+}

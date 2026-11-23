@@ -1,0 +1,7 @@
+year,country,conflict_type,number_deaths_ongoing_conflicts,number_deaths_ongoing_conflicts_high,number_deaths_ongoing_conflicts_low,number_deaths_ongoing_conflicts_civilians,number_deaths_ongoing_conflicts_unknown,number_deaths_ongoing_conflicts_combatants,number_ongoing_conflicts,number_new_conflicts,number_ongoing_conflicts_per_country,number_ongoing_conflicts_per_country_pair,number_new_conflicts_per_country,number_new_conflicts_per_country_pair,number_deaths_ongoing_conflicts_per_capita,number_deaths_ongoing_conflicts_high_per_capita,number_deaths_ongoing_conflicts_low_per_capita
+2025,Sudan,all,75164,90827,20880,65911,5121,4132,6,,,,,,145.49142,175.80957,40.41644
+2025,Sudan,one-sided violence,62775,78046,9042,62775,0,0,4,,,,,,121.51063,151.06998,17.502176
+2025,Sudan,state-based,12269,12661,11718,3136,5001,4132,1,,,,,,23.748528,24.507303,22.681984
+2025,Ukraine,all,90345,137336,83725,2635,49,87661,2,,,,,,231.77045,352.32083,214.78754
+2025,Ukraine,one-sided violence,22,22,8,22,0,0,1,,,,,,0.05643865,0.05643865,0.020523146
+2025,Ukraine,state-based,90323,137314,83717,2613,49,87661,1,,,,,,231.714,352.2644,214.76701

@@ -1,0 +1,5 @@
+# Fonte — computação usada para treinar modelos de IA notáveis, 1950–2026
+
+- Epoch AI, «Parameter, Compute and Data Trends in Machine Learning» (base de dados de modelos notáveis, https://epoch.ai/data/notable-ai-models; descarga original https://epoch.ai/data/epochdb/notable_ai_models.csv). Licença: CC BY 4.0.
+- Cópia usada (o domínio epoch.ai não está acessível neste ambiente): catálogo de dados da Our World in Data, tabela `garden/artificial_intelligence/2025-03-12/epoch/epoch` (https://catalog.ourworldindata.org/garden/artificial_intelligence/2025-03-12/epoch/epoch.feather), que a OWID atualiza mensalmente; segundo os metadados, a OWID recolheu os dados da Epoch a 2026-09-04 (publicação da Epoch de 2026-04-10). Descarregado em 2026-11-23 e convertido de feather para CSV sem alterar valores (`owid_catalog_epoch_2025-03-12.csv`); metadados em `owid_catalog_epoch_2025-03-12.meta.json`.
+- Unidade de `training_computation_petaflop`: petaFLOP (10^15 operações de vírgula flutuante) de computação total de treino.

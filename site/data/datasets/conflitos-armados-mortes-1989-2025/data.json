@@ -1,0 +1,614 @@
+{
+ "rows": [
+  {
+   "cat": "1989",
+   "afr": 41611,
+   "ame": 9414,
+   "asi": 14570,
+   "eur": 625,
+   "mo": 1725,
+   "total": 67945,
+   "est": 41,
+   "nest": 19,
+   "uni": 26,
+   "nconf": 86
+  },
+  {
+   "cat": "1990",
+   "afr": 72786,
+   "ame": 3587,
+   "asi": 14603,
+   "eur": 434,
+   "mo": 3995,
+   "total": 95405,
+   "est": 49,
+   "nest": 19,
+   "uni": 38,
+   "nconf": 106
+  },
+  {
+   "cat": "1991",
+   "afr": 33941,
+   "ame": 2986,
+   "asi": 17651,
+   "eur": 3792,
+   "mo": 25591,
+   "total": 83961,
+   "est": 53,
+   "nest": 22,
+   "uni": 36,
+   "nconf": 111
+  },
+  {
+   "cat": "1992",
+   "afr": 18434,
+   "ame": 3276,
+   "asi": 19495,
+   "eur": 31456,
+   "mo": 2910,
+   "total": 75571,
+   "est": 51,
+   "nest": 32,
+   "uni": 35,
+   "nconf": 118
+  },
+  {
+   "cat": "1993",
+   "afr": 40899,
+   "ame": 1424,
+   "asi": 10482,
+   "eur": 17404,
+   "mo": 3576,
+   "total": 73785,
+   "est": 44,
+   "nest": 34,
+   "uni": 47,
+   "nconf": 125
+  },
+  {
+   "cat": "1994",
+   "afr": 791653,
+   "ame": 2243,
+   "asi": 13306,
+   "eur": 9284,
+   "mo": 7021,
+   "total": 823507,
+   "est": 50,
+   "nest": 28,
+   "uni": 36,
+   "nconf": 114
+  },
+  {
+   "cat": "1995",
+   "afr": 20653,
+   "ame": 1413,
+   "asi": 14510,
+   "eur": 20202,
+   "mo": 5531,
+   "total": 62309,
+   "est": 41,
+   "nest": 27,
+   "uni": 39,
+   "nconf": 107
+  },
+  {
+   "cat": "1996",
+   "afr": 64378,
+   "ame": 1550,
+   "asi": 13572,
+   "eur": 2763,
+   "mo": 5127,
+   "total": 87390,
+   "est": 41,
+   "nest": 24,
+   "uni": 38,
+   "nconf": 103
+  },
+  {
+   "cat": "1997",
+   "afr": 47092,
+   "ame": 1065,
+   "asi": 13188,
+   "eur": 55,
+   "mo": 4499,
+   "total": 65899,
+   "est": 39,
+   "nest": 29,
+   "uni": 31,
+   "nconf": 99
+  },
+  {
+   "cat": "1998",
+   "afr": 35912,
+   "ame": 1688,
+   "asi": 19693,
+   "eur": 1547,
+   "mo": 2254,
+   "total": 61094,
+   "est": 40,
+   "nest": 38,
+   "uni": 43,
+   "nconf": 121
+  },
+  {
+   "cat": "1999",
+   "afr": 75075,
+   "ame": 4296,
+   "asi": 12859,
+   "eur": 8382,
+   "mo": 1538,
+   "total": 102150,
+   "est": 40,
+   "nest": 36,
+   "uni": 42,
+   "nconf": 118
+  },
+  {
+   "cat": "2000",
+   "afr": 68848,
+   "ame": 4524,
+   "asi": 16386,
+   "eur": 4318,
+   "mo": 540,
+   "total": 94616,
+   "est": 40,
+   "nest": 51,
+   "uni": 41,
+   "nconf": 132
+  },
+  {
+   "cat": "2001",
+   "afr": 16664,
+   "ame": 7829,
+   "asi": 11490,
+   "eur": 1051,
+   "mo": 642,
+   "total": 37676,
+   "est": 38,
+   "nest": 39,
+   "uni": 35,
+   "nconf": 112
+  },
+  {
+   "cat": "2002",
+   "afr": 22179,
+   "ame": 6054,
+   "asi": 10611,
+   "eur": 1493,
+   "mo": 1059,
+   "total": 41396,
+   "est": 33,
+   "nest": 41,
+   "uni": 49,
+   "nconf": 123
+  },
+  {
+   "cat": "2003",
+   "afr": 18798,
+   "ame": 4769,
+   "asi": 7613,
+   "eur": 548,
+   "mo": 8653,
+   "total": 40381,
+   "est": 33,
+   "nest": 41,
+   "uni": 49,
+   "nconf": 123
+  },
+  {
+   "cat": "2004",
+   "afr": 17257,
+   "ame": 3934,
+   "asi": 8219,
+   "eur": 1518,
+   "mo": 5235,
+   "total": 36163,
+   "est": 33,
+   "nest": 34,
+   "uni": 46,
+   "nconf": 113
+  },
+  {
+   "cat": "2005",
+   "afr": 5222,
+   "ame": 3219,
+   "asi": 6880,
+   "eur": 759,
+   "mo": 4365,
+   "total": 20445,
+   "est": 33,
+   "nest": 30,
+   "uni": 37,
+   "nconf": 100
+  },
+  {
+   "cat": "2006",
+   "afr": 7604,
+   "ame": 1629,
+   "asi": 11669,
+   "eur": 259,
+   "mo": 6675,
+   "total": 27836,
+   "est": 33,
+   "nest": 29,
+   "uni": 31,
+   "nconf": 93
+  },
+  {
+   "cat": "2007",
+   "afr": 5749,
+   "ame": 2683,
+   "asi": 14248,
+   "eur": 176,
+   "mo": 5747,
+   "total": 28603,
+   "est": 35,
+   "nest": 26,
+   "uni": 32,
+   "nconf": 93
+  },
+  {
+   "cat": "2008",
+   "afr": 8155,
+   "ame": 4575,
+   "asi": 21497,
+   "eur": 1055,
+   "mo": 4262,
+   "total": 39544,
+   "est": 39,
+   "nest": 37,
+   "uni": 35,
+   "nconf": 111
+  },
+  {
+   "cat": "2009",
+   "afr": 12617,
+   "ame": 6413,
+   "asi": 27556,
+   "eur": 697,
+   "mo": 4271,
+   "total": 51554,
+   "est": 37,
+   "nest": 32,
+   "uni": 27,
+   "nconf": 96
+  },
+  {
+   "cat": "2010",
+   "afr": 7227,
+   "ame": 6777,
+   "asi": 16800,
+   "eur": 476,
+   "mo": 2926,
+   "total": 34206,
+   "est": 31,
+   "nest": 32,
+   "uni": 24,
+   "nconf": 87
+  },
+  {
+   "cat": "2011",
+   "afr": 14071,
+   "ame": 5180,
+   "asi": 13192,
+   "eur": 396,
+   "mo": 9086,
+   "total": 41925,
+   "est": 37,
+   "nest": 46,
+   "uni": 26,
+   "nconf": 109
+  },
+  {
+   "cat": "2012",
+   "afr": 10810,
+   "ame": 6571,
+   "asi": 13543,
+   "eur": 541,
+   "mo": 59227,
+   "total": 90692,
+   "est": 33,
+   "nest": 55,
+   "uni": 28,
+   "nconf": 116
+  },
+  {
+   "cat": "2013",
+   "afr": 15242,
+   "ame": 4590,
+   "asi": 12768,
+   "eur": 361,
+   "mo": 81816,
+   "total": 114777,
+   "est": 39,
+   "nest": 59,
+   "uni": 33,
+   "nconf": 131
+  },
+  {
+   "cat": "2014",
+   "afr": 24357,
+   "ame": 3498,
+   "asi": 17585,
+   "eur": 5163,
+   "mo": 100280,
+   "total": 150883,
+   "est": 46,
+   "nest": 81,
+   "uni": 31,
+   "nconf": 158
+  },
+  {
+   "cat": "2015",
+   "afr": 20482,
+   "ame": 4822,
+   "asi": 22310,
+   "eur": 2185,
+   "mo": 81372,
+   "total": 131171,
+   "est": 54,
+   "nest": 77,
+   "uni": 31,
+   "nconf": 162
+  },
+  {
+   "cat": "2016",
+   "afr": 16350,
+   "ame": 4542,
+   "asi": 21692,
+   "eur": 1041,
+   "mo": 72194,
+   "total": 115819,
+   "est": 54,
+   "nest": 74,
+   "uni": 31,
+   "nconf": 159
+  },
+  {
+   "cat": "2017",
+   "afr": 18005,
+   "ame": 13018,
+   "asi": 25682,
+   "eur": 559,
+   "mo": 55273,
+   "total": 112537,
+   "est": 54,
+   "nest": 93,
+   "uni": 38,
+   "nconf": 185
+  },
+  {
+   "cat": "2018",
+   "afr": 15184,
+   "ame": 14375,
+   "asi": 28911,
+   "eur": 296,
+   "mo": 29459,
+   "total": 88225,
+   "est": 52,
+   "nest": 84,
+   "uni": 41,
+   "nconf": 177
+  },
+  {
+   "cat": "2019",
+   "afr": 15354,
+   "ame": 12350,
+   "asi": 32742,
+   "eur": 340,
+   "mo": 16458,
+   "total": 77244,
+   "est": 57,
+   "nest": 74,
+   "uni": 33,
+   "nconf": 164
+  },
+  {
+   "cat": "2020",
+   "afr": 41913,
+   "ame": 16219,
+   "asi": 22521,
+   "eur": 7770,
+   "mo": 14340,
+   "total": 102763,
+   "est": 57,
+   "nest": 78,
+   "uni": 45,
+   "nconf": 180
+  },
+  {
+   "cat": "2021",
+   "afr": 148794,
+   "ame": 18289,
+   "asi": 39462,
+   "eur": 248,
+   "mo": 26961,
+   "total": 233754,
+   "est": 54,
+   "nest": 79,
+   "uni": 46,
+   "nconf": 179
+  },
+  {
+   "cat": "2022",
+   "afr": 188333,
+   "ame": 15106,
+   "asi": 5983,
+   "eur": 100970,
+   "mo": 6503,
+   "total": 316895,
+   "est": 56,
+   "nest": 86,
+   "uni": 52,
+   "nconf": 194
+  },
+  {
+   "cat": "2023",
+   "afr": 40653,
+   "ame": 14827,
+   "asi": 5357,
+   "eur": 77179,
+   "mo": 31384,
+   "total": 169400,
+   "est": 59,
+   "nest": 81,
+   "uni": 47,
+   "nconf": 187
+  },
+  {
+   "cat": "2024",
+   "afr": 31995,
+   "ame": 14970,
+   "asi": 6454,
+   "eur": 102367,
+   "mo": 31237,
+   "total": 187023,
+   "est": 59,
+   "nest": 79,
+   "uni": 54,
+   "nconf": 192
+  },
+  {
+   "cat": "2025",
+   "afr": 108907,
+   "ame": 12346,
+   "asi": 7123,
+   "eur": 94765,
+   "mo": 21438,
+   "total": 244579,
+   "est": 65,
+   "nest": 75,
+   "uni": 55,
+   "nconf": 195
+  }
+ ],
+ "views": [
+  {
+   "id": "mortes",
+   "label": "Mortes",
+   "yLabel": "Mortes em conflitos armados por ano, por região (melhor estimativa)",
+   "unit": "",
+   "decimals": 0,
+   "marginLeft": [
+    50,
+    60
+   ],
+   "labelEvery": 4,
+   "labelEveryNarrow": 8,
+   "series": [
+    {
+     "key": "mo",
+     "label": "Médio Oriente",
+     "color": "--accent-4"
+    },
+    {
+     "key": "asi",
+     "label": "Ásia e Oceânia",
+     "color": "--ink-3"
+    },
+    {
+     "key": "ame",
+     "label": "Américas",
+     "color": "--muted"
+    },
+    {
+     "key": "eur",
+     "label": "Europa",
+     "color": "--accent-3"
+    },
+    {
+     "key": "afr",
+     "label": "África",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "total",
+     "label": "Total",
+     "suffix": ""
+    }
+   ],
+   "notes": [
+    {
+     "cat": "1994",
+     "text": "1994: genocídio no Ruanda",
+     "short": "Ruanda"
+    }
+   ]
+  },
+  {
+   "id": "conflitos",
+   "label": "Conflitos",
+   "yLabel": "Conflitos ativos por ano, por tipo",
+   "unit": "",
+   "decimals": 0,
+   "marginLeft": [
+    34,
+    40
+   ],
+   "labelEvery": 4,
+   "labelEveryNarrow": 8,
+   "series": [
+    {
+     "key": "uni",
+     "label": "Violência unilateral contra civis",
+     "color": "--accent-3"
+    },
+    {
+     "key": "nest",
+     "label": "Entre grupos armados, sem Estado",
+     "color": "--ink-3"
+    },
+    {
+     "key": "est",
+     "label": "Com um Estado envolvido",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "nconf",
+     "label": "Total",
+     "suffix": ""
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "w2025": 244579,
+  "w2024": 187023,
+  "w2022": 316895,
+  "w1994": 823507,
+  "w2021": 233754,
+  "w2019": 77244,
+  "w2005": 20445,
+  "lo2025": 170016,
+  "hi2025": 350592,
+  "rank3": [
+   1994,
+   2022,
+   2025,
+   2021
+  ],
+  "minYear": 2005,
+  "n2025": 195,
+  "nMaxYear": 2025,
+  "n1989": 86,
+  "n2010": 87,
+  "afr2025": 108907,
+  "eur2025": 94765,
+  "mo2025": 21438,
+  "afr1994": 791653,
+  "uni2025": 76453,
+  "uni2024": 14260,
+  "est2025": 65,
+  "chg2425": 30.8,
+  "mult0525": 12,
+  "avg0510": 33698,
+  "afrEurShare2025": 83.3,
+  "sudanUni2025": 62775,
+  "sudan2025": 75164,
+  "ukraine2025": 90345
+ }
+}

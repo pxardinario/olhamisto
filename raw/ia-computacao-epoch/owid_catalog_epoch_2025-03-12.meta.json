@@ -1,0 +1,263 @@
+{
+  "short_name": "epoch",
+  "title": "Parameter, Compute and Data Trends in Machine Learning",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "artificial_intelligence",
+    "short_name": "epoch",
+    "title": "Parameter, Compute and Data Trends in Machine Learning",
+    "is_public": true,
+    "version": "2025-03-12",
+    "update_period_days": 31,
+    "non_redistributable": false,
+    "dataset_page": false,
+    "owners": [
+      "Lucas Rod\u00e9s-Guirao",
+      "Edouard Mathieu"
+    ],
+    "source_checksum": "9ee3f2c20f9cdfe68336dec10beef27a"
+  },
+  "primary_key": [
+    "days_since_1949",
+    "model"
+  ],
+  "dimensions": [
+    {
+      "name": "Model",
+      "slug": "days_since_1949"
+    },
+    {
+      "name": "Model",
+      "slug": "model"
+    }
+  ],
+  "fields": {
+    "days_since_1949": {},
+    "model": {
+      "title": "Model",
+      "origins": [
+        {
+          "producer": "Epoch AI",
+          "title": "Parameter, Compute and Data Trends in Machine Learning",
+          "description_snapshot": "We update this chart with the latest available data from our source every month.\n\nThe authors selected the AI systems for inclusion based on the following necessary criteria:\n\u2014 Have an explicit learning component\n\u2014 Showcase experimental results\n\u2014 Advance the state of the art\n\nIn addition, the systems had to meet at least one of the following notability criteria:\n\u2014 Paper has more than 1000 citations\n\u2014 Historical importance\n\u2014 Important state-of-the-art advance\n\u2014 Deployed in a notable context\n\nThe authors note that: \"For new models (from 2020 onward) it is harder to assess these criteria, so we fall back to a subjective selection. We refer to models meeting our selection criteria as 'milestone models.\"\n",
+          "citation_full": "Epoch AI, \u2018Parameter, Compute and Data Trends in Machine Learning\u2019. Published online at epochai.org. Retrieved from: \u2018https://epoch.ai/data/epochdb/visualization\u2019 [online resource]",
+          "url_main": "https://epoch.ai/mlinputs/visualization",
+          "url_download": "https://epoch.ai/data/epochdb/notable_ai_models.csv",
+          "date_accessed": "2026-09-04",
+          "date_published": "2026-04-10",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ]
+    },
+    "publication_date": {
+      "title": "Publication date",
+      "description_short": "Date when the AI model was first published.",
+      "description_from_producer": "The publication, announcement, or release date of the model, in YYYY-MM-DD format. If the year and month are known but the day is unknown, the day is filled in as YYYY-MM-15. If the year is known but the month and day are unknown, the month and day are filled in as YYYY-07-01.",
+      "origins": [
+        {
+          "producer": "Epoch AI",
+          "title": "Parameter, Compute and Data Trends in Machine Learning",
+          "description_snapshot": "We update this chart with the latest available data from our source every month.\n\nThe authors selected the AI systems for inclusion based on the following necessary criteria:\n\u2014 Have an explicit learning component\n\u2014 Showcase experimental results\n\u2014 Advance the state of the art\n\nIn addition, the systems had to meet at least one of the following notability criteria:\n\u2014 Paper has more than 1000 citations\n\u2014 Historical importance\n\u2014 Important state-of-the-art advance\n\u2014 Deployed in a notable context\n\nThe authors note that: \"For new models (from 2020 onward) it is harder to assess these criteria, so we fall back to a subjective selection. We refer to models meeting our selection criteria as 'milestone models.\"\n",
+          "citation_full": "Epoch AI, \u2018Parameter, Compute and Data Trends in Machine Learning\u2019. Published online at epochai.org. Retrieved from: \u2018https://epoch.ai/data/epochdb/visualization\u2019 [online resource]",
+          "url_main": "https://epoch.ai/mlinputs/visualization",
+          "url_download": "https://epoch.ai/data/epochdb/notable_ai_models.csv",
+          "date_accessed": "2026-09-04",
+          "date_published": "2026-04-10",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ],
+      "unit": "",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      }
+    },
+    "domain": {
+      "title": "Domain",
+      "description_short": "Refers to the specific area, application, or field in which an AI model is designed to operate.",
+      "origins": [
+        {
+          "producer": "Epoch AI",
+          "title": "Parameter, Compute and Data Trends in Machine Learning",
+          "description_snapshot": "We update this chart with the latest available data from our source every month.\n\nThe authors selected the AI systems for inclusion based on the following necessary criteria:\n\u2014 Have an explicit learning component\n\u2014 Showcase experimental results\n\u2014 Advance the state of the art\n\nIn addition, the systems had to meet at least one of the following notability criteria:\n\u2014 Paper has more than 1000 citations\n\u2014 Historical importance\n\u2014 Important state-of-the-art advance\n\u2014 Deployed in a notable context\n\nThe authors note that: \"For new models (from 2020 onward) it is harder to assess these criteria, so we fall back to a subjective selection. We refer to models meeting our selection criteria as 'milestone models.\"\n",
+          "citation_full": "Epoch AI, \u2018Parameter, Compute and Data Trends in Machine Learning\u2019. Published online at epochai.org. Retrieved from: \u2018https://epoch.ai/data/epochdb/visualization\u2019 [online resource]",
+          "url_main": "https://epoch.ai/mlinputs/visualization",
+          "url_download": "https://epoch.ai/data/epochdb/notable_ai_models.csv",
+          "date_accessed": "2026-09-04",
+          "date_published": "2026-04-10",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ],
+      "unit": "",
+      "short_unit": "",
+      "display": {
+        "zeroDay": "1949-01-01",
+        "timeInterval": "day"
+      },
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      },
+      "description_processing": "In cases where multiple domains were associated with a model, we consolidated these entries under the label \"Multiple domains\". We also identified domains associated with fewer than 20 notable systems and grouped these under the category 'Other'."
+    },
+    "organization_categorization": {
+      "title": "Researcher affiliation",
+      "description_short": "Describes the sector where the authors of an AI model have their primary affiliations.",
+      "description_from_producer": "Systems are categorized as \u201cIndustry\u201d if their authors are affiliated with private sector organizations, \u201cAcademia\u201d if the authors are affiliated with universities or academic institutions, or \u201cIndustry - Academia Collaboration\u201d when at least 30% of the authors are from each.",
+      "origins": [
+        {
+          "producer": "Epoch AI",
+          "title": "Parameter, Compute and Data Trends in Machine Learning",
+          "description_snapshot": "We update this chart with the latest available data from our source every month.\n\nThe authors selected the AI systems for inclusion based on the following necessary criteria:\n\u2014 Have an explicit learning component\n\u2014 Showcase experimental results\n\u2014 Advance the state of the art\n\nIn addition, the systems had to meet at least one of the following notability criteria:\n\u2014 Paper has more than 1000 citations\n\u2014 Historical importance\n\u2014 Important state-of-the-art advance\n\u2014 Deployed in a notable context\n\nThe authors note that: \"For new models (from 2020 onward) it is harder to assess these criteria, so we fall back to a subjective selection. We refer to models meeting our selection criteria as 'milestone models.\"\n",
+          "citation_full": "Epoch AI, \u2018Parameter, Compute and Data Trends in Machine Learning\u2019. Published online at epochai.org. Retrieved from: \u2018https://epoch.ai/data/epochdb/visualization\u2019 [online resource]",
+          "url_main": "https://epoch.ai/mlinputs/visualization",
+          "url_download": "https://epoch.ai/data/epochdb/notable_ai_models.csv",
+          "date_accessed": "2026-09-04",
+          "date_published": "2026-04-10",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ],
+      "unit": "",
+      "short_unit": "",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      }
+    },
+    "parameters": {
+      "title": "Number of parameters",
+      "description_short": "Total number of learnable variables or weights that the model contains. Parameters are adjusted during the training process to optimize the model's performance.",
+      "description_key": [
+        "Parameters are internal variables that machine learning models adjust during their training process to improve their ability to make accurate predictions. They act as the model's \"knobs\" that are fine-tuned based on the provided data. In deep learning, a subset of artificial intelligence (AI), parameters primarily consist of the weights assigned to the connections between the small processing units called neurons. Picture a vast network of interconnected neurons where the strength of each connection represents a parameter.",
+        "The total number of parameters in a model is influenced by various factors. The model's structure and the number of \u201clayers\u201d of neurons play a significant role. Generally, more complex models with additional layers tend to have a higher number of parameters. Special components of specific deep learning architectures can further contribute to the overall parameter count.",
+        "Understanding the number of parameters in a model is crucial to design effective models. More parameters can help the model understand complex data patterns, potentially leading to higher accuracy. However, there's a fine balance to strike. If a model has too many parameters, it risks memorizing the specific examples in its training data rather than learning their underlying patterns. Consequently, it may perform poorly when presented with new, unseen data. Achieving the right balance of parameters is a critical consideration in model development.",
+        "In recent times, the AI community has witnessed the emergence of what are often referred to as \"giant models.\" These models boast an astounding number of parameters, reaching into the billions or even trillions. While these huge models have achieved remarkable performance, they have a significant computational cost. Effectively managing and training such large-scale models has become a prominent and active area of research and discussion within the AI field."
+      ],
+      "origins": [
+        {
+          "producer": "Epoch AI",
+          "title": "Parameter, Compute and Data Trends in Machine Learning",
+          "description_snapshot": "We update this chart with the latest available data from our source every month.\n\nThe authors selected the AI systems for inclusion based on the following necessary criteria:\n\u2014 Have an explicit learning component\n\u2014 Showcase experimental results\n\u2014 Advance the state of the art\n\nIn addition, the systems had to meet at least one of the following notability criteria:\n\u2014 Paper has more than 1000 citations\n\u2014 Historical importance\n\u2014 Important state-of-the-art advance\n\u2014 Deployed in a notable context\n\nThe authors note that: \"For new models (from 2020 onward) it is harder to assess these criteria, so we fall back to a subjective selection. We refer to models meeting our selection criteria as 'milestone models.\"\n",
+          "citation_full": "Epoch AI, \u2018Parameter, Compute and Data Trends in Machine Learning\u2019. Published online at epochai.org. Retrieved from: \u2018https://epoch.ai/data/epochdb/visualization\u2019 [online resource]",
+          "url_main": "https://epoch.ai/mlinputs/visualization",
+          "url_download": "https://epoch.ai/data/epochdb/notable_ai_models.csv",
+          "date_accessed": "2026-09-04",
+          "date_published": "2026-04-10",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ],
+      "unit": "",
+      "display": {
+        "numDecimalPlaces": 0,
+        "zeroDay": "1949-01-01",
+        "timeInterval": "day"
+      },
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      }
+    },
+    "training_dataset_size__total": {
+      "title": "Training dataset size",
+      "description_short": "Number of unique data points used to train the model. Each domain has a specific data point unit; for example, for vision it is images, for language it is words, and for games it is timesteps. This means systems can only be compared directly within the same domain.",
+      "description_key": [
+        "Training data size measures the volume of unique examples used to train an AI model during its learning phase. It represents the total number of distinct data points the model learns from, counted only once regardless of how many times they're seen during training.",
+        "To understand this concept, imagine teaching someone to identify different bird species. Each unique bird photo you show them is one piece of training data. If you show 100 different photos, your training data size is 100, even if you review those same photos multiple times.",
+        "Since datasets vary by domain, there's no universal unit for measuring size. Text models might count tokens, image models count pictures, and video models count clips. Epoch AI typically uses the smallest unit that triggers a model update during training. For language models that predict the next word, this would be individual tokens.",
+        "Training data size directly impacts model performance. Larger datasets enable deeper learning and more nuanced pattern recognition, allowing models to identify subtle distinctions and handle diverse real-world scenarios more effectively."
+      ],
+      "origins": [
+        {
+          "producer": "Epoch AI",
+          "title": "Parameter, Compute and Data Trends in Machine Learning",
+          "description_snapshot": "We update this chart with the latest available data from our source every month.\n\nThe authors selected the AI systems for inclusion based on the following necessary criteria:\n\u2014 Have an explicit learning component\n\u2014 Showcase experimental results\n\u2014 Advance the state of the art\n\nIn addition, the systems had to meet at least one of the following notability criteria:\n\u2014 Paper has more than 1000 citations\n\u2014 Historical importance\n\u2014 Important state-of-the-art advance\n\u2014 Deployed in a notable context\n\nThe authors note that: \"For new models (from 2020 onward) it is harder to assess these criteria, so we fall back to a subjective selection. We refer to models meeting our selection criteria as 'milestone models.\"\n",
+          "citation_full": "Epoch AI, \u2018Parameter, Compute and Data Trends in Machine Learning\u2019. Published online at epochai.org. Retrieved from: \u2018https://epoch.ai/data/epochdb/visualization\u2019 [online resource]",
+          "url_main": "https://epoch.ai/mlinputs/visualization",
+          "url_download": "https://epoch.ai/data/epochdb/notable_ai_models.csv",
+          "date_accessed": "2026-09-04",
+          "date_published": "2026-04-10",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ],
+      "unit": "unique datapoints",
+      "display": {
+        "numDecimalPlaces": 0,
+        "zeroDay": "1949-01-01",
+        "timeInterval": "day"
+      },
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      }
+    },
+    "training_computation_petaflop": {
+      "title": "Training computation (petaFLOP)",
+      "description_short": "Computation is measured in total petaFLOP, which is 10\u00b9\u2075 [floating-point operations](#dod:flop) estimated from AI literature, albeit with some uncertainty.",
+      "description_key": [
+        "In the context of artificial intelligence (AI), training computation is predominantly measured using floating-point operations or \u201cFLOP\u201d. One FLOP represents a single arithmetic operation involving floating-point numbers, such as addition, subtraction, multiplication, or division. To adapt to the vast computational demands of AI systems, the measurement unit of petaFLOP is commonly used. One petaFLOP stands as a staggering one quadrillion FLOPs, underscoring the magnitude of computational operations within AI.",
+        "Modern AI systems are rooted in machine learning and deep learning techniques. These methodologies are notorious for their computational intensity, involving complex mathematical processes and algorithms. During the training phase, AI models process large volumes of data, while continuously adapting and refining their parameters to optimize performance, rendering the training process computationally intensive.",
+        "Many factors influence the magnitude of training computation within AI systems. Notably, the size of the dataset employed for training significantly impacts the computational load. Larger datasets necessitate more processing power. The complexity of the model's architecture also plays a pivotal role; more intricate models lead to more computations. Parallel processing, involving the simultaneous use of multiple processors, also has a substantial effect. Beyond these factors, specific design choices and other variables further contribute to the complexity and scale of training computation within AI."
+      ],
+      "origins": [
+        {
+          "producer": "Epoch AI",
+          "title": "Parameter, Compute and Data Trends in Machine Learning",
+          "description_snapshot": "We update this chart with the latest available data from our source every month.\n\nThe authors selected the AI systems for inclusion based on the following necessary criteria:\n\u2014 Have an explicit learning component\n\u2014 Showcase experimental results\n\u2014 Advance the state of the art\n\nIn addition, the systems had to meet at least one of the following notability criteria:\n\u2014 Paper has more than 1000 citations\n\u2014 Historical importance\n\u2014 Important state-of-the-art advance\n\u2014 Deployed in a notable context\n\nThe authors note that: \"For new models (from 2020 onward) it is harder to assess these criteria, so we fall back to a subjective selection. We refer to models meeting our selection criteria as 'milestone models.\"\n",
+          "citation_full": "Epoch AI, \u2018Parameter, Compute and Data Trends in Machine Learning\u2019. Published online at epochai.org. Retrieved from: \u2018https://epoch.ai/data/epochdb/visualization\u2019 [online resource]",
+          "url_main": "https://epoch.ai/mlinputs/visualization",
+          "url_download": "https://epoch.ai/data/epochdb/notable_ai_models.csv",
+          "date_accessed": "2026-09-04",
+          "date_published": "2026-04-10",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ],
+      "unit": "petaFLOP",
+      "display": {
+        "numDecimalPlaces": 0,
+        "zeroDay": "1949-01-01",
+        "timeInterval": "day"
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "title": "Training computation"
+        },
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      },
+      "description_processing": "Training computation was converted from its original measurement in FLOPs (floating-point operations) to a more manageable unit known as petaFLOPs. This conversion is performed by dividing the original training compute value by 1e15, which represents one quadrillion (10^15). The purpose of this conversion is to provide a more human-readable and practical representation of the immense computational efforts involved in training AI systems. By expressing the training computation in petaFLOPs, it becomes easier to grasp the scale and magnitude of the computational resources required for training these systems, especially when dealing with large datasets and complex architectures."
+    }
+  }
+}

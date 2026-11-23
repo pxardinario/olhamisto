@@ -1,0 +1,6 @@
+# Fonte — mortes em conflitos armados e número de conflitos, 1989–2025
+
+- Uppsala Conflict Data Program (UCDP): Georeferenced Event Dataset v26.1, UCDP/PRIO Armed Conflict Dataset v26.1 e Battle-Related Deaths v26.1 (1989–2025), com dados preliminares de 2026 do Candidate Events Dataset (não usados). Davies, Pettersson e Öberg (2026), «Organized violence 1989–2025, and violent political protests», Journal of Peace Research. Licença: CC BY 4.0. https://ucdp.uu.se/downloads/
+- Cópia usada (ucdp.uu.se não está acessível neste ambiente): catálogo da Our World in Data, `garden/war/latest/ucdp_preview/ucdp_preview` (https://catalog.ourworldindata.org/garden/war/latest/ucdp_preview/ucdp_preview.feather), que agrega os eventos por ano, região e tipo de violência. Descarregado em 2026-11-23; guardadas, sem alterar valores, as linhas do mundo e das cinco regiões do UCDP (`owid_catalog_ucdp_preview_regioes.csv`) e os metadados.
+- Mortes = melhor estimativa do UCDP de mortes de combatentes e civis em conflitos estatais, conflitos não estatais e violência unilateral (contra civis) com pelo menos 25 mortes no ano.
+- `owid_catalog_ucdp_preview_sudao_ucrania_2025.csv`: linhas de 2025 do Sudão e da Ucrânia (todos os tipos, conflitos estatais e violência unilateral), da mesma tabela, sem alterações; a OWID atribui os eventos a países com as fronteiras geoBoundaries.

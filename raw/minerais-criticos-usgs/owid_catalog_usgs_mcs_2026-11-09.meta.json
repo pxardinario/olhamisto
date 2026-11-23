@@ -1,0 +1,327 @@
+{
+  "short_name": "mineral_commodity_summaries",
+  "title": "Mineral Commodity Summaries",
+  "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "usgs",
+    "short_name": "mineral_commodity_summaries",
+    "title": "Mineral Commodity Summaries",
+    "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+    "is_public": true,
+    "version": "2026-11-09",
+    "update_period_days": 365,
+    "non_redistributable": false,
+    "jsonld": false,
+    "owners": [
+      "Pablo Rosado"
+    ],
+    "source_checksum": "45c319177447279f98bcd194c85cc71d"
+  },
+  "primary_key": [
+    "country",
+    "year",
+    "commodity",
+    "sub_commodity"
+  ],
+  "dimensions": [
+    {
+      "name": "country",
+      "slug": "country"
+    },
+    {
+      "name": "year",
+      "slug": "year"
+    },
+    {
+      "name": "commodity",
+      "slug": "commodity"
+    },
+    {
+      "name": "sub_commodity",
+      "slug": "sub_commodity"
+    }
+  ],
+  "fields": {
+    "country": {
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ]
+    },
+    "year": {
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ]
+    },
+    "commodity": {
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ]
+    },
+    "sub_commodity": {
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ]
+    },
+    "reserves": {
+      "title": "Reserves of commodities",
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ],
+      "unit": "tonnes",
+      "short_unit": "t",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Energy"
+        ]
+      }
+    },
+    "notes_reserves": {
+      "title": "Technical notes on reserves data",
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ],
+      "unit": "",
+      "short_unit": "",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Energy"
+        ]
+      }
+    },
+    "notes_production": {
+      "title": "Technical notes on production data",
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ],
+      "unit": "",
+      "short_unit": "",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Energy"
+        ]
+      }
+    },
+    "production": {
+      "title": "Production of commodities",
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ],
+      "unit": "tonnes",
+      "short_unit": "t",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Energy"
+        ]
+      }
+    },
+    "unit": {
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ],
+      "unit": "tonnes",
+      "short_unit": "t",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Energy"
+        ]
+      }
+    },
+    "unit_production": {
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ],
+      "unit": "tonnes",
+      "short_unit": "t",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Energy"
+        ]
+      }
+    },
+    "unit_reserves": {
+      "origins": [
+        {
+          "producer": "United States Geological Survey",
+          "title": "Mineral Commodity Summaries",
+          "description": "This database contains the United States salient statistics and world production statistics for over 90 nonfuel mineral commodities.",
+          "title_snapshot": "Mineral Commodity Summaries 2026",
+          "citation_full": "National Minerals Information Center, 2026, U.S. Geological Survey Mineral Commodity Summaries 2026 Data Release: U.S. Geological Survey data release. https://doi.org/10.5066/P1WKQ63T",
+          "attribution": "USGS \u2013 Mineral Commodity Summaries (2026)",
+          "attribution_short": "USGS",
+          "url_main": "https://doi.org/10.5066/P1WKQ63T",
+          "date_accessed": "2026-11-09",
+          "date_published": "2026-02-06",
+          "license": {
+            "name": "CC0 1.0",
+            "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release"
+          }
+        }
+      ],
+      "unit": "tonnes",
+      "short_unit": "t",
+      "processing_level": "major",
+      "presentation": {
+        "topic_tags": [
+          "Energy"
+        ]
+      }
+    }
+  }
+}

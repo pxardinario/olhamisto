@@ -1,0 +1,4509 @@
+[ {
+  "IndicadorCod" : "0008870",
+  "IndicadorDsg" : "Juros totais (Série 2012 - €) nos contratos de crédito à habitação por Localização geográfica (NUTS I); Mensal - INE, Indicador de taxas de juro implícitas no crédito à habitação",
+  "MetaInfUrl" : "https://www.ine.pt/bddXplorer/htdocs/minfo.jsp?var_cd=0008870&lingua=PT",
+  "DataExtracao" : "2026-11-23T07:22:32.636Z",
+  "DataUltimoAtualizacao" : "2026-11-19",
+  "UltimoPref" : "Outubro de 2026",
+  "Dados" : {
+    "Janeiro de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "236",
+      "valor" : "236"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "225",
+      "valor" : "225"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "299",
+      "valor" : "299"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "258",
+      "valor" : "258"
+    } ],
+    "Fevereiro de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "236",
+      "valor" : "236"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "225",
+      "valor" : "225"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "299",
+      "valor" : "299"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "237",
+      "valor" : "237"
+    } ],
+    "Março de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "212",
+      "valor" : "212"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "202",
+      "valor" : "202"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "267",
+      "valor" : "267"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "212",
+      "valor" : "212"
+    } ],
+    "Abril de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "182",
+      "valor" : "182"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "174",
+      "valor" : "174"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "228",
+      "valor" : "228"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "183",
+      "valor" : "183"
+    } ],
+    "Maio de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "160",
+      "valor" : "160"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "151",
+      "valor" : "151"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "201",
+      "valor" : "201"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "161",
+      "valor" : "161"
+    } ],
+    "Junho de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "142",
+      "valor" : "142"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "129",
+      "valor" : "129"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "177",
+      "valor" : "177"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "142",
+      "valor" : "142"
+    } ],
+    "Julho de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "126",
+      "valor" : "126"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "118",
+      "valor" : "118"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "156",
+      "valor" : "156"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "126",
+      "valor" : "126"
+    } ],
+    "Agosto de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "116",
+      "valor" : "116"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "108",
+      "valor" : "108"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "144",
+      "valor" : "144"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "116",
+      "valor" : "116"
+    } ],
+    "Setembro de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "108",
+      "valor" : "108"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "101",
+      "valor" : "101"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "135",
+      "valor" : "135"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "109",
+      "valor" : "109"
+    } ],
+    "Outubro de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "102",
+      "valor" : "102"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "96",
+      "valor" : "96"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "126",
+      "valor" : "126"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "102",
+      "valor" : "102"
+    } ],
+    "Novembro de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "96",
+      "valor" : "96"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "89",
+      "valor" : "89"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "119",
+      "valor" : "119"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "96",
+      "valor" : "96"
+    } ],
+    "Dezembro de 2009" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "92",
+      "valor" : "92"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "87",
+      "valor" : "87"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "114",
+      "valor" : "114"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "92",
+      "valor" : "92"
+    } ],
+    "Janeiro de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "88",
+      "valor" : "88"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "83",
+      "valor" : "83"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "111",
+      "valor" : "111"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "89",
+      "valor" : "89"
+    } ],
+    "Fevereiro de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "86",
+      "valor" : "86"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "81",
+      "valor" : "81"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "108",
+      "valor" : "108"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "87",
+      "valor" : "87"
+    } ],
+    "Março de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "86",
+      "valor" : "86"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "81",
+      "valor" : "81"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "108",
+      "valor" : "108"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "87",
+      "valor" : "87"
+    } ],
+    "Abril de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "85",
+      "valor" : "85"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "80",
+      "valor" : "80"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "106",
+      "valor" : "106"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "85",
+      "valor" : "85"
+    } ],
+    "Maio de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "84",
+      "valor" : "84"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "79",
+      "valor" : "79"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "105",
+      "valor" : "105"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "84",
+      "valor" : "84"
+    } ],
+    "Junho de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "84",
+      "valor" : "84"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "79",
+      "valor" : "79"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "104",
+      "valor" : "104"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "84",
+      "valor" : "84"
+    } ],
+    "Julho de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "84",
+      "valor" : "84"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "80",
+      "valor" : "80"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "105",
+      "valor" : "105"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "85",
+      "valor" : "85"
+    } ],
+    "Agosto de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "86",
+      "valor" : "86"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "81",
+      "valor" : "81"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "106",
+      "valor" : "106"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "86",
+      "valor" : "86"
+    } ],
+    "Setembro de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "88",
+      "valor" : "88"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "83",
+      "valor" : "83"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "110",
+      "valor" : "110"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "88",
+      "valor" : "88"
+    } ],
+    "Outubro de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "90",
+      "valor" : "90"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "86",
+      "valor" : "86"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "112",
+      "valor" : "112"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "91",
+      "valor" : "91"
+    } ],
+    "Novembro de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "93",
+      "valor" : "93"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "88",
+      "valor" : "88"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "116",
+      "valor" : "116"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "93",
+      "valor" : "93"
+    } ],
+    "Dezembro de 2010" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "95",
+      "valor" : "95"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "91",
+      "valor" : "91"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "119",
+      "valor" : "119"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "96",
+      "valor" : "96"
+    } ],
+    "Janeiro de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "97",
+      "valor" : "97"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "93",
+      "valor" : "93"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "121",
+      "valor" : "121"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "98",
+      "valor" : "98"
+    } ],
+    "Fevereiro de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "99",
+      "valor" : "99"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "96",
+      "valor" : "96"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "124",
+      "valor" : "124"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "100",
+      "valor" : "100"
+    } ],
+    "Março de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "101",
+      "valor" : "101"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "97",
+      "valor" : "97"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "125",
+      "valor" : "125"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "101",
+      "valor" : "101"
+    } ],
+    "Abril de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "101",
+      "valor" : "101"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "98",
+      "valor" : "98"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "127",
+      "valor" : "127"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "102",
+      "valor" : "102"
+    } ],
+    "Maio de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "105",
+      "valor" : "105"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "102",
+      "valor" : "102"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "130",
+      "valor" : "130"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "105",
+      "valor" : "105"
+    } ],
+    "Junho de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "108",
+      "valor" : "108"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "106",
+      "valor" : "106"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "134",
+      "valor" : "134"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "109",
+      "valor" : "109"
+    } ],
+    "Julho de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "112",
+      "valor" : "112"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "110",
+      "valor" : "110"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "139",
+      "valor" : "139"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "113",
+      "valor" : "113"
+    } ],
+    "Agosto de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "117",
+      "valor" : "117"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "114",
+      "valor" : "114"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "145",
+      "valor" : "145"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "118",
+      "valor" : "118"
+    } ],
+    "Setembro de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "121",
+      "valor" : "121"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "119",
+      "valor" : "119"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "149",
+      "valor" : "149"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "121",
+      "valor" : "121"
+    } ],
+    "Outubro de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "123",
+      "valor" : "123"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "121",
+      "valor" : "121"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "152",
+      "valor" : "152"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "124",
+      "valor" : "124"
+    } ],
+    "Novembro de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "125",
+      "valor" : "125"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "123",
+      "valor" : "123"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "154",
+      "valor" : "154"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "125",
+      "valor" : "125"
+    } ],
+    "Dezembro de 2011" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "125",
+      "valor" : "125"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "123",
+      "valor" : "123"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "154",
+      "valor" : "154"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "126",
+      "valor" : "126"
+    } ],
+    "Janeiro de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "125",
+      "valor" : "125"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "123",
+      "valor" : "123"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "153",
+      "valor" : "153"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "125",
+      "valor" : "125"
+    } ],
+    "Fevereiro de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "124",
+      "valor" : "124"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "122",
+      "valor" : "122"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "152",
+      "valor" : "152"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "124",
+      "valor" : "124"
+    } ],
+    "Março de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "120",
+      "valor" : "120"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "119",
+      "valor" : "119"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "147",
+      "valor" : "147"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "121",
+      "valor" : "121"
+    } ],
+    "Abril de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "115",
+      "valor" : "115"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "114",
+      "valor" : "114"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "141",
+      "valor" : "141"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "116",
+      "valor" : "116"
+    } ],
+    "Maio de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "109",
+      "valor" : "109"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "108",
+      "valor" : "108"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "133",
+      "valor" : "133"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "110",
+      "valor" : "110"
+    } ],
+    "Junho de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "103",
+      "valor" : "103"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "102",
+      "valor" : "102"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "125",
+      "valor" : "125"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "103",
+      "valor" : "103"
+    } ],
+    "Julho de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "98",
+      "valor" : "98"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "97",
+      "valor" : "97"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "118",
+      "valor" : "118"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "98",
+      "valor" : "98"
+    } ],
+    "Agosto de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "93",
+      "valor" : "93"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "93",
+      "valor" : "93"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "113",
+      "valor" : "113"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "94",
+      "valor" : "94"
+    } ],
+    "Setembro de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "89",
+      "valor" : "89"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "89",
+      "valor" : "89"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "108",
+      "valor" : "108"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "89",
+      "valor" : "89"
+    } ],
+    "Outubro de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "84",
+      "valor" : "84"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "83",
+      "valor" : "83"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "101",
+      "valor" : "101"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "84",
+      "valor" : "84"
+    } ],
+    "Novembro de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "78",
+      "valor" : "78"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "94",
+      "valor" : "94"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "78",
+      "valor" : "78"
+    } ],
+    "Dezembro de 2012" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "74",
+      "valor" : "74"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "73",
+      "valor" : "73"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "89",
+      "valor" : "89"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "74",
+      "valor" : "74"
+    } ],
+    "Janeiro de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "70",
+      "valor" : "70"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "70",
+      "valor" : "70"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "84",
+      "valor" : "84"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "71",
+      "valor" : "71"
+    } ],
+    "Fevereiro de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "68",
+      "valor" : "68"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "67",
+      "valor" : "67"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "82",
+      "valor" : "82"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "68",
+      "valor" : "68"
+    } ],
+    "Março de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "80",
+      "valor" : "80"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "67",
+      "valor" : "67"
+    } ],
+    "Abril de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "65",
+      "valor" : "65"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "79",
+      "valor" : "79"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "66",
+      "valor" : "66"
+    } ],
+    "Maio de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "65",
+      "valor" : "65"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "65",
+      "valor" : "65"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "78",
+      "valor" : "78"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "66",
+      "valor" : "66"
+    } ],
+    "Junho de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "65",
+      "valor" : "65"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "78",
+      "valor" : "78"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "65",
+      "valor" : "65"
+    } ],
+    "Julho de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "65",
+      "valor" : "65"
+    } ],
+    "Agosto de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "64",
+      "valor" : "64"
+    } ],
+    "Setembro de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "63",
+      "valor" : "63"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "76",
+      "valor" : "76"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "64",
+      "valor" : "64"
+    } ],
+    "Outubro de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "76",
+      "valor" : "76"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "64",
+      "valor" : "64"
+    } ],
+    "Novembro de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "76",
+      "valor" : "76"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "64",
+      "valor" : "64"
+    } ],
+    "Dezembro de 2013" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "64",
+      "valor" : "64"
+    } ],
+    "Janeiro de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "64",
+      "valor" : "64"
+    } ],
+    "Fevereiro de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "65",
+      "valor" : "65"
+    } ],
+    "Março de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "65",
+      "valor" : "65"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "65",
+      "valor" : "65"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "65",
+      "valor" : "65"
+    } ],
+    "Abril de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "79",
+      "valor" : "79"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "66",
+      "valor" : "66"
+    } ],
+    "Maio de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "78",
+      "valor" : "78"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "66",
+      "valor" : "66"
+    } ],
+    "Junho de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "67",
+      "valor" : "67"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "67",
+      "valor" : "67"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "79",
+      "valor" : "79"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "67",
+      "valor" : "67"
+    } ],
+    "Julho de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "67",
+      "valor" : "67"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "67",
+      "valor" : "67"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "80",
+      "valor" : "80"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "67",
+      "valor" : "67"
+    } ],
+    "Agosto de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "67",
+      "valor" : "67"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "79",
+      "valor" : "79"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "67",
+      "valor" : "67"
+    } ],
+    "Setembro de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "65",
+      "valor" : "65"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "77",
+      "valor" : "77"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "66",
+      "valor" : "66"
+    } ],
+    "Outubro de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "75",
+      "valor" : "75"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "64",
+      "valor" : "64"
+    } ],
+    "Novembro de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "62",
+      "valor" : "62"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "62",
+      "valor" : "62"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "74",
+      "valor" : "74"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "62",
+      "valor" : "62"
+    } ],
+    "Dezembro de 2014" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "61",
+      "valor" : "61"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "60",
+      "valor" : "60"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "71",
+      "valor" : "71"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "61",
+      "valor" : "61"
+    } ],
+    "Janeiro de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "59",
+      "valor" : "59"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "59",
+      "valor" : "59"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "69",
+      "valor" : "69"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "60",
+      "valor" : "60"
+    } ],
+    "Fevereiro de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "58",
+      "valor" : "58"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "58",
+      "valor" : "58"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "68",
+      "valor" : "68"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "58",
+      "valor" : "58"
+    } ],
+    "Março de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "58",
+      "valor" : "58"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "57",
+      "valor" : "57"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "67",
+      "valor" : "67"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "58",
+      "valor" : "58"
+    } ],
+    "Abril de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "57",
+      "valor" : "57"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "57",
+      "valor" : "57"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "57",
+      "valor" : "57"
+    } ],
+    "Maio de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "56",
+      "valor" : "56"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "56",
+      "valor" : "56"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "65",
+      "valor" : "65"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "56",
+      "valor" : "56"
+    } ],
+    "Junho de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "56",
+      "valor" : "56"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "55",
+      "valor" : "55"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "64",
+      "valor" : "64"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "56",
+      "valor" : "56"
+    } ],
+    "Julho de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "55",
+      "valor" : "55"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "55",
+      "valor" : "55"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "63",
+      "valor" : "63"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "56",
+      "valor" : "56"
+    } ],
+    "Agosto de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "54",
+      "valor" : "54"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "54",
+      "valor" : "54"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "62",
+      "valor" : "62"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "54",
+      "valor" : "54"
+    } ],
+    "Setembro de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "53",
+      "valor" : "53"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "53",
+      "valor" : "53"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "61",
+      "valor" : "61"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "53",
+      "valor" : "53"
+    } ],
+    "Outubro de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "53",
+      "valor" : "53"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "53",
+      "valor" : "53"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "61",
+      "valor" : "61"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "53",
+      "valor" : "53"
+    } ],
+    "Novembro de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "53",
+      "valor" : "53"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "52",
+      "valor" : "52"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "61",
+      "valor" : "61"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "53",
+      "valor" : "53"
+    } ],
+    "Dezembro de 2015" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "53",
+      "valor" : "53"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "52",
+      "valor" : "52"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "61",
+      "valor" : "61"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "53",
+      "valor" : "53"
+    } ],
+    "Janeiro de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "52",
+      "valor" : "52"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "52",
+      "valor" : "52"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "60",
+      "valor" : "60"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "52",
+      "valor" : "52"
+    } ],
+    "Fevereiro de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "51",
+      "valor" : "51"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "51",
+      "valor" : "51"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "59",
+      "valor" : "59"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "51",
+      "valor" : "51"
+    } ],
+    "Março de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "57",
+      "valor" : "57"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "50",
+      "valor" : "50"
+    } ],
+    "Abril de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "56",
+      "valor" : "56"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "49",
+      "valor" : "49"
+    } ],
+    "Maio de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "47",
+      "valor" : "47"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "54",
+      "valor" : "54"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "48",
+      "valor" : "48"
+    } ],
+    "Junho de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "47",
+      "valor" : "47"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "53",
+      "valor" : "53"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "47",
+      "valor" : "47"
+    } ],
+    "Julho de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "52",
+      "valor" : "52"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Agosto de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "51",
+      "valor" : "51"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Setembro de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Outubro de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Novembro de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Dezembro de 2016" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Janeiro de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Fevereiro de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Março de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Abril de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Maio de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "43",
+      "valor" : "43"
+    } ],
+    "Junho de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "43",
+      "valor" : "43"
+    } ],
+    "Julho de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "43",
+      "valor" : "43"
+    } ],
+    "Agosto de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Setembro de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Outubro de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Novembro de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Dezembro de 2017" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Janeiro de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Fevereiro de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Março de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Abril de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Maio de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Junho de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Julho de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Agosto de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Setembro de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Outubro de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Novembro de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Dezembro de 2018" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Janeiro de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Fevereiro de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Março de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "47",
+      "valor" : "47"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "47",
+      "valor" : "47"
+    } ],
+    "Abril de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "47",
+      "valor" : "47"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "47",
+      "valor" : "47"
+    } ],
+    "Maio de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "47",
+      "valor" : "47"
+    } ],
+    "Junho de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "48",
+      "valor" : "48"
+    } ],
+    "Julho de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "49",
+      "valor" : "49"
+    } ],
+    "Agosto de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "50",
+      "valor" : "50"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "48",
+      "valor" : "48"
+    } ],
+    "Setembro de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "47",
+      "valor" : "47"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "47",
+      "valor" : "47"
+    } ],
+    "Outubro de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "48",
+      "valor" : "48"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Novembro de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "47",
+      "valor" : "47"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Dezembro de 2019" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Janeiro de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Fevereiro de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "37",
+      "valor" : "37"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Março de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "45",
+      "valor" : "45"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Abril de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "37",
+      "valor" : "37"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Maio de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "35",
+      "valor" : "35"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "42",
+      "valor" : "42"
+    } ],
+    "Junho de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "36",
+      "valor" : "36"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "43",
+      "valor" : "43"
+    } ],
+    "Julho de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "37",
+      "valor" : "37"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "44",
+      "valor" : "44"
+    } ],
+    "Agosto de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "37",
+      "valor" : "37"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Setembro de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "36",
+      "valor" : "36"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "45",
+      "valor" : "45"
+    } ],
+    "Outubro de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "35",
+      "valor" : "35"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "43",
+      "valor" : "43"
+    } ],
+    "Novembro de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "42",
+      "valor" : "42"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "34",
+      "valor" : "34"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "43",
+      "valor" : "43"
+    } ],
+    "Dezembro de 2020" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "33",
+      "valor" : "33"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "42",
+      "valor" : "42"
+    } ],
+    "Janeiro de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "32",
+      "valor" : "32"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "37",
+      "valor" : "37"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "41",
+      "valor" : "41"
+    } ],
+    "Fevereiro de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "31",
+      "valor" : "31"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "36",
+      "valor" : "36"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "40",
+      "valor" : "40"
+    } ],
+    "Março de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "31",
+      "valor" : "31"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "36",
+      "valor" : "36"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "40",
+      "valor" : "40"
+    } ],
+    "Abril de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "30",
+      "valor" : "30"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "35",
+      "valor" : "35"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "39",
+      "valor" : "39"
+    } ],
+    "Maio de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "30",
+      "valor" : "30"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "34",
+      "valor" : "34"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "39",
+      "valor" : "39"
+    } ],
+    "Junho de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "30",
+      "valor" : "30"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "35",
+      "valor" : "35"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "39",
+      "valor" : "39"
+    } ],
+    "Julho de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "29",
+      "valor" : "29"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "35",
+      "valor" : "35"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "39",
+      "valor" : "39"
+    } ],
+    "Agosto de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "29",
+      "valor" : "29"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "34",
+      "valor" : "34"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "39",
+      "valor" : "39"
+    } ],
+    "Setembro de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "29",
+      "valor" : "29"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "34",
+      "valor" : "34"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "38",
+      "valor" : "38"
+    } ],
+    "Outubro de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "31",
+      "valor" : "31"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "37",
+      "valor" : "37"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "40",
+      "valor" : "40"
+    } ],
+    "Novembro de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "31",
+      "valor" : "31"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "40",
+      "valor" : "40"
+    } ],
+    "Dezembro de 2021" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "31",
+      "valor" : "31"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "40",
+      "valor" : "40"
+    } ],
+    "Janeiro de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "31",
+      "valor" : "31"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "40",
+      "valor" : "40"
+    } ],
+    "Fevereiro de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "30",
+      "valor" : "30"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "37",
+      "valor" : "37"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "40",
+      "valor" : "40"
+    } ],
+    "Março de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "30",
+      "valor" : "30"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "37",
+      "valor" : "37"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "40",
+      "valor" : "40"
+    } ],
+    "Abril de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "31",
+      "valor" : "31"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "38",
+      "valor" : "38"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "41",
+      "valor" : "41"
+    } ],
+    "Maio de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "32",
+      "valor" : "32"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "39",
+      "valor" : "39"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "42",
+      "valor" : "42"
+    } ],
+    "Junho de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "43",
+      "valor" : "43"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "34",
+      "valor" : "34"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "41",
+      "valor" : "41"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "43",
+      "valor" : "43"
+    } ],
+    "Julho de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "36",
+      "valor" : "36"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "44",
+      "valor" : "44"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "46",
+      "valor" : "46"
+    } ],
+    "Agosto de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "51",
+      "valor" : "51"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "40",
+      "valor" : "40"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "49",
+      "valor" : "49"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "51",
+      "valor" : "51"
+    } ],
+    "Setembro de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "58",
+      "valor" : "58"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "46",
+      "valor" : "46"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "56",
+      "valor" : "56"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "58",
+      "valor" : "58"
+    } ],
+    "Outubro de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "68",
+      "valor" : "68"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "55",
+      "valor" : "55"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "66",
+      "valor" : "66"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "69",
+      "valor" : "69"
+    } ],
+    "Novembro de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "82",
+      "valor" : "82"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "69",
+      "valor" : "69"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "82",
+      "valor" : "82"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "83",
+      "valor" : "83"
+    } ],
+    "Dezembro de 2022" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "98",
+      "valor" : "98"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "84",
+      "valor" : "84"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "99",
+      "valor" : "99"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "99",
+      "valor" : "99"
+    } ],
+    "Janeiro de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "113",
+      "valor" : "113"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "100",
+      "valor" : "100"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "116",
+      "valor" : "116"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "114",
+      "valor" : "114"
+    } ],
+    "Fevereiro de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "131",
+      "valor" : "131"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "116",
+      "valor" : "116"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "136",
+      "valor" : "136"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "132",
+      "valor" : "132"
+    } ],
+    "Março de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "147",
+      "valor" : "147"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "129",
+      "valor" : "129"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "152",
+      "valor" : "152"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "148",
+      "valor" : "148"
+    } ],
+    "Abril de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "162",
+      "valor" : "162"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "144",
+      "valor" : "144"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "165",
+      "valor" : "165"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "163",
+      "valor" : "163"
+    } ],
+    "Maio de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "177",
+      "valor" : "177"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "158",
+      "valor" : "158"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "181",
+      "valor" : "181"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "179",
+      "valor" : "179"
+    } ],
+    "Junho de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "190",
+      "valor" : "190"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "167",
+      "valor" : "167"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "196",
+      "valor" : "196"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "192",
+      "valor" : "192"
+    } ],
+    "Julho de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "203",
+      "valor" : "203"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "178",
+      "valor" : "178"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "208",
+      "valor" : "208"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "204",
+      "valor" : "204"
+    } ],
+    "Agosto de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "214",
+      "valor" : "214"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "187",
+      "valor" : "187"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "218",
+      "valor" : "218"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "216",
+      "valor" : "216"
+    } ],
+    "Setembro de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "224",
+      "valor" : "224"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "194",
+      "valor" : "194"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "227",
+      "valor" : "227"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "226",
+      "valor" : "226"
+    } ],
+    "Outubro de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "234",
+      "valor" : "234"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "202",
+      "valor" : "202"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "236",
+      "valor" : "236"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "234",
+      "valor" : "234"
+    } ],
+    "Novembro de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "239",
+      "valor" : "239"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "206",
+      "valor" : "206"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "241",
+      "valor" : "241"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "240",
+      "valor" : "240"
+    } ],
+    "Dezembro de 2023" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "243",
+      "valor" : "243"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "210",
+      "valor" : "210"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "246",
+      "valor" : "246"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "244",
+      "valor" : "244"
+    } ],
+    "Janeiro de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "247",
+      "valor" : "247"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "214",
+      "valor" : "214"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "251",
+      "valor" : "251"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "248",
+      "valor" : "248"
+    } ],
+    "Fevereiro de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "248",
+      "valor" : "248"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "214",
+      "valor" : "214"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "251",
+      "valor" : "251"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "248",
+      "valor" : "248"
+    } ],
+    "Março de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "247",
+      "valor" : "247"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "213",
+      "valor" : "213"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "250",
+      "valor" : "250"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "247",
+      "valor" : "247"
+    } ],
+    "Abril de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "248",
+      "valor" : "248"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "213",
+      "valor" : "213"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "250",
+      "valor" : "250"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "247",
+      "valor" : "247"
+    } ],
+    "Maio de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "246",
+      "valor" : "246"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "212",
+      "valor" : "212"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "249",
+      "valor" : "249"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "246",
+      "valor" : "246"
+    } ],
+    "Junho de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "246",
+      "valor" : "246"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "211",
+      "valor" : "211"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "248",
+      "valor" : "248"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "245",
+      "valor" : "245"
+    } ],
+    "Julho de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "245",
+      "valor" : "245"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "210",
+      "valor" : "210"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "247",
+      "valor" : "247"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "244",
+      "valor" : "244"
+    } ],
+    "Agosto de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "243",
+      "valor" : "243"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "208",
+      "valor" : "208"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "245",
+      "valor" : "245"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "242",
+      "valor" : "242"
+    } ],
+    "Setembro de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "241",
+      "valor" : "241"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "206",
+      "valor" : "206"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "243",
+      "valor" : "243"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "240",
+      "valor" : "240"
+    } ],
+    "Outubro de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "238",
+      "valor" : "238"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "203",
+      "valor" : "203"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "239",
+      "valor" : "239"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "237",
+      "valor" : "237"
+    } ],
+    "Novembro de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "234",
+      "valor" : "234"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "200",
+      "valor" : "200"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "235",
+      "valor" : "235"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "234",
+      "valor" : "234"
+    } ],
+    "Dezembro de 2024" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "230",
+      "valor" : "230"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "196",
+      "valor" : "196"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "231",
+      "valor" : "231"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "230",
+      "valor" : "230"
+    } ],
+    "Janeiro de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "226",
+      "valor" : "226"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "193",
+      "valor" : "193"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "227",
+      "valor" : "227"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "225",
+      "valor" : "225"
+    } ],
+    "Fevereiro de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "219",
+      "valor" : "219"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "184",
+      "valor" : "184"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "217",
+      "valor" : "217"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "221",
+      "valor" : "221"
+    } ],
+    "Março de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "216",
+      "valor" : "216"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "180",
+      "valor" : "180"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "212",
+      "valor" : "212"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "217",
+      "valor" : "217"
+    } ],
+    "Abril de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "213",
+      "valor" : "213"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "178",
+      "valor" : "178"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "208",
+      "valor" : "208"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "213",
+      "valor" : "213"
+    } ],
+    "Maio de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "209",
+      "valor" : "209"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "173",
+      "valor" : "173"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "203",
+      "valor" : "203"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "210",
+      "valor" : "210"
+    } ],
+    "Junho de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "206",
+      "valor" : "206"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "169",
+      "valor" : "169"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "199",
+      "valor" : "199"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "206",
+      "valor" : "206"
+    } ],
+    "Julho de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "202",
+      "valor" : "202"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "165",
+      "valor" : "165"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "194",
+      "valor" : "194"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "202",
+      "valor" : "202"
+    } ],
+    "Agosto de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "199",
+      "valor" : "199"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "162",
+      "valor" : "162"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "190",
+      "valor" : "190"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "199",
+      "valor" : "199"
+    } ],
+    "Setembro de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "196",
+      "valor" : "196"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "159",
+      "valor" : "159"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "186",
+      "valor" : "186"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "195",
+      "valor" : "195"
+    } ],
+    "Outubro de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "195",
+      "valor" : "195"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "157",
+      "valor" : "157"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "185",
+      "valor" : "185"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "194",
+      "valor" : "194"
+    } ],
+    "Novembro de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "194",
+      "valor" : "194"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "156",
+      "valor" : "156"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "183",
+      "valor" : "183"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "193",
+      "valor" : "193"
+    } ],
+    "Dezembro de 2025" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "195",
+      "valor" : "195"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "156",
+      "valor" : "156"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "184",
+      "valor" : "184"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "194",
+      "valor" : "194"
+    } ],
+    "Janeiro de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "196",
+      "valor" : "196"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "156",
+      "valor" : "156"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "184",
+      "valor" : "184"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "195",
+      "valor" : "195"
+    } ],
+    "Fevereiro de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "195",
+      "valor" : "195"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "156",
+      "valor" : "156"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "182",
+      "valor" : "182"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "194",
+      "valor" : "194"
+    } ],
+    "Março de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "197",
+      "valor" : "197"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "157",
+      "valor" : "157"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "184",
+      "valor" : "184"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "196",
+      "valor" : "196"
+    } ],
+    "Abril de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "198",
+      "valor" : "198"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "157",
+      "valor" : "157"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "185",
+      "valor" : "185"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "197",
+      "valor" : "197"
+    } ],
+    "Maio de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "199",
+      "valor" : "199"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "158",
+      "valor" : "158"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "186",
+      "valor" : "186"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "198",
+      "valor" : "198"
+    } ],
+    "Junho de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "202",
+      "valor" : "202"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "160",
+      "valor" : "160"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "190",
+      "valor" : "190"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "202",
+      "valor" : "202"
+    } ],
+    "Julho de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "206",
+      "valor" : "206"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "163",
+      "valor" : "163"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "193",
+      "valor" : "193"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "205",
+      "valor" : "205"
+    } ],
+    "Agosto de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "210",
+      "valor" : "210"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "166",
+      "valor" : "166"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "196",
+      "valor" : "196"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "209",
+      "valor" : "209"
+    } ],
+    "Setembro de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "214",
+      "valor" : "214"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "169",
+      "valor" : "169"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "200",
+      "valor" : "200"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "213",
+      "valor" : "213"
+    } ],
+    "Outubro de 2026" : [ {
+      "geocod" : "1",
+      "geodsg" : "Continente",
+      "ind_string" : "218",
+      "valor" : "218"
+    }, {
+      "geocod" : "2",
+      "geodsg" : "Região Autónoma dos Açores",
+      "ind_string" : "172",
+      "valor" : "172"
+    }, {
+      "geocod" : "3",
+      "geodsg" : "Região Autónoma da Madeira",
+      "ind_string" : "204",
+      "valor" : "204"
+    }, {
+      "geocod" : "PT",
+      "geodsg" : "Portugal",
+      "ind_string" : "217",
+      "valor" : "217"
+    } ]
+  },
+  "Sucesso" : {
+    "Verdadeiro" : [ {
+      "Msg" : "OK"
+    } ]
+  }
+} ]

@@ -1,0 +1,1056 @@
+days_since_1949,model,publication_date,domain,organization_categorization,parameters,training_dataset_size__total,training_computation_petaflop
+547,Theseus,1950-07-02,Robotics,Industry,40,40,4e-14
+1102,SNARC,1952-01-08,Robotics,Academia,40,,
+2008,Genetic algorithm,1954-07-02,Multiple domains,Academia,,,
+2250,Self Organizing System,1955-03-01,Other,Academia,225,2,
+2250,Sequence-based pattern recognition,1955-03-01,Vision,Academia,,,
+2922,Perceptron Mark I,1957-01-01,Other,Academia,1000,100,6.948949e-10
+3683,Pandemonium (morse),1959-02-01,Language,Academia,,,6e-07
+3833,Samuel Neural Checkers,1959-07-01,Games,Industry,16,,4.284e-07
+3986,Pattern recognition and reading by machine,1959-12-01,Vision,Industry,2625,180,
+4106,Perceptron (1960),1960-03-30,Vision,Academia,1000,100,7.2e-07
+4198,ADALINE,1960-06-30,Vision,Academia,17,100,6.6e-12
+4899,Linear Decision Functions,1962-06-01,Other,Industry,,500,1.5592501e-09
+4929,MADALINE I,1962-07-01,Other,Academia,,256,
+5113,Print Recognition Logic,1963-01-01,Vision,Industry,,,2.25e-08
+6117,Heuristic Reinforcement Learning,1965-10-01,Robotics,Academia,,,1.08e-09
+6513,LTE speaker verification system,1966-11-01,Speech,Industry,2061,417,1.0591706e-07
+7121,Boxes (pole),1968-07-01,Games,Academia,,,
+7121,GLEE,1968-07-01,Games,Academia,,6000,
+7425,Decision tree adaline,1969-05-01,Other,Academia,2450,,
+9070,Piecewise linear model,1973-11-01,Vision,Academia,357,314,
+9739,Cognitron,1975-09-01,Other,Industry,21600,5,5.184e-09
+10043,Transfer Learning,1976-07-01,Vision,Academia,,,
+11413,Neocognitron,1980-04-01,Vision,Industry,1140576,5,2.7373824e-07
+11893,Kohonen network,1981-07-25,Other,Academia,4096,4000,
+12143,Hopfield network,1982-04-01,Other,Academia,9900,,
+12661,ASE+ACE,1983-09-01,Robotics,Academia,324,500000,3.24e-07
+12874,Hierarchical Cognitron,1984-04-01,Other,Industry,9315,5,
+13516,Error Propagation,1986-01-03,Other,Academia,,64,
+13740,Distributed representation NN,1986-08-15,Other,Academia,432,100,3.888e-07
+13787,MLP with back-propagation,1986-10-01,Other,Academia,720,104,6.7392e-07
+13818,Optimized Multi-Scale Edge Detection,1986-11-01,Vision,Academia,,,
+14035,NetTalk (dictionary),1987-06-06,Speech,Academia,18629,5000,2.7664064e-05
+14035,NetTalk (transcription),1987-06-06,Speech,Academia,18629,5120,2.8328002e-05
+14044,Translation-invariant MLP,1987-06-15,Other,Academia,816,160,1.8032948e-05
+14339,Latent semantic analysis,1988-04-05,Language,Academia and industry collaboration,,,
+14457,MLN-ASR,1988-08-01,Speech,Academia,10000,12600,2.96425e-07
+14610,MLP baggage detector,1989-01-01,Vision,Industry,,20000,
+14610,Q-learning,1989-01-01,Multiple domains,Academia,,200000,
+14778,Invariant image recognition,1989-06-18,Vision,Academia,,,2.7e-05
+14778,Truck backer-upper,1989-06-18,Other,Academia,805,,
+14940,Handwritten digit recognition network,1989-11-27,Vision,Industry,2578,9840,0.00018144
+14940,Speaker-independent vowel classification,1989-11-27,Speech,Academia,3040,4104,7.485696e-06
+14944,Zip CNN,1989-12-01,Vision,Industry,9760,7291,0.001496338
+15126,NETtalk reimplementation,1990-06-01,Speech,Academia,27480,7242,3.5811936e-05
+15142,Bankruptcy-NN,1990-06-17,Other,Not specified,36,74,3.0593378e-06
+15248,ISR network,1990-10-01,Vision,Academia,,600000,
+15248,SexNet classification,1990-10-01,Vision,Not specified,1640,80,
+15248,SexNet compression,1990-10-01,Vision,Not specified,72940,81000,7.87752e-05
+15279,RAAM,1990-11-01,Other,Not specified,1536,29,
+15675,Weight Decay,1991-12-02,Speech,Not specified,8386,25000,7.5474e-05
+15826,TD-Gammon,1992-05-01,Games,Industry,25000,6300000,0.018232157
+15979,Golem,1992-10-01,Biology,Other,,1612,
+15994,Cancer drug mechanism prediction,1992-10-16,Other,Other,594,141,5.346e-08
+16039,Boosting,1992-11-30,Vision,Industry,2578,29127,
+16236,IBM-5,1993-06-15,Language,Industry,1658364,28850104,
+16283,Siamese-TDNN,1993-08-01,Vision,Industry,744,7701,0.01286957
+16403,ANN Eye Tracker,1993-11-29,Vision,Not specified,5620,4000,1.7534401e-05
+16442,Ceramic-MLP,1994-01-07,Other,Academia,1888,80,4.5312e-06
+16730,GroupLens,1994-10-22,Other,Academia,,,
+16771,JPMAX,1994-12-02,Vision,Not specified,4446,1500,8.082828e-08
+16771,Mixture of linear models,1994-12-02,Vision,Not specified,384000,1792000,0.0004536
+16771,NeuroChess,1994-12-02,Games,Not specified,72251,9600000,0.0008587308
+16771,Predictive Coding NN,1994-12-02,Language,Academia,206910,600000,0.018621901
+17044,Support Vector Machines,1995-09-01,Vision,Industry,100000000,60000,
+17131,LISSOM,1995-11-27,Vision,Academia,432800,2000,0.0001955448
+17320,MUSIC perceptron,1996-06-03,Vision,Not specified,13607,81000,0.0008817336
+17335,System 11,1996-06-18,Vision,Academia,6452,23750,2.5859617e-05
+17350,AdaBoost.M2 Digit Recognition,1996-07-03,Vision,Industry,,9709,
+17562,SOM-CNN,1997-01-31,Vision,Not specified,32015,129000,3.1431602e-05
+17652,Deep Blue,1997-05-01,Games,Industry,8000,,
+17836,Bidirectional RNN,1997-11-01,Speech,Industry,13000,142910,
+17850,LSTM,1997-11-15,Language,Academia,10504,853000,0.031512
+18201,LeNet-5,1998-11-01,Vision,Industry,60000,60000,0.0028109376
+18263,LSTM with forget gates,1999-01-02,Language,Academia,276,140870000,
+18414,RECONTRA-categorized,1999-06-02,Language,Not specified,66780,40000,0.0080136005
+18414,RECONTRA-uncategorized,1999-06-02,Language,Not specified,112000,57500,0.003864
+18444,IBM Model 4,1999-07-02,Language,Academia and industry collaboration,,800000,
+18959,Neural LM,2000-11-28,Language,Academia,6906980,32000000,6.339
+18959,PoE MNIST,2000-11-28,Vision,Academia,3925310,54000,0.051810004
+19179,Immediate trihead,2001-07-06,Language,Academia,,,
+19266,Gradient Boosting Machine,2001-10-01,Other,Academia,,5000,
+19334,Decision tree (classification),2001-12-08,Vision,Industry,12000,753616,0.063
+19505,Thumbs Up?,2002-05-28,Language,Academia and industry collaboration,,1400,
+19723,Statistical Shape Constellations,2003-01-01,Vision,Academia,,,
+19755,LDA,2003-02-02,Language,Academia,,,
+19796,NPLM (AP News),2003-03-15,Language,Academia,11904264,13994528,1.6668692
+19796,NPLM (Brown),2003-03-15,Language,Academia,4124233,13994528,0.13207626
+20266,Invariant CNN,2004-06-27,Vision,Academia,90575,24300,0.00097423
+20423,LMICA,2004-12-01,Vision,Not specified,4096000,100000,2.7820802
+20459,Hierarchical LM,2005-01-06,Language,Not specified,,900000,0.115848005
+20629,Histograms of Oriented Gradients,2005-06-25,Vision,Academia,,14658,
+20672,RankNet,2005-08-07,Other,Industry,5711,3464289,0.0034820817
+20851,TFE SVM,2006-02-02,Vision,Academia,,600000,
+20945,FAST,2006-05-07,Other,Academia,,,
+20967,Crazy Stone,2006-05-29,Games,Academia,,,
+20986,SVM-CNN,2006-06-17,Vision,Academia,90857,583200,0.7452
+20986,Spatial Pyramid Matching,2006-06-17,Vision,Academia,,3030,
+21017,Deep Belief Nets,2006-07-18,Vision,Academia,1600000,47100000,
+21017,Dimensionality Reduction,2006-07-18,Vision,Academia,3800000,47040000,
+21153,Local Binary Patterns for facial recognition,2006-12-01,Vision,Academia and industry collaboration,,736,
+21156,Greedy layer-wise DNN training,2006-12-04,Other,Academia,,107100000,
+21335,λ-WASP,2007-06-01,Language,Academia,,,
+21356,KN-LM,2007-06-22,Language,Industry,21000000000,31000000000,773.03815
+21356,SB-LM,2007-06-22,Language,Industry,300000000000,1800000000000,1449.4465
+21449,BLSTM for handwriting (1),2007-09-23,Vision,Academia,,405478,
+21484,Enhanced Neighborhood-Based Filtering,2007-10-28,Other,Industry,,100000000,
+21520,BLSTM for handwriting (2),2007-12-03,Vision,Academia,100881,3298424,
+21735,Deep Multitask NLP Network,2008-07-05,Language,Industry,1500000,633000000,
+21735,Denoising Autoencoders,2008-07-05,Other,Academia,,7840000,
+21872,Sparse digit recognition SVM,2008-11-19,Vision,Academia,,,
+21878,BigChaos 2008,2008-11-25,Other,Industry,,,
+21891,HLBL,2008-12-08,Language,Academia,1846400,14000000,
+21892,GNN,2008-12-09,Other,Academia,30,207,1.6145999e-06
+21915,BP-DBN,2009-01-01,Speech,Academia,18030592,,
+22012,RBM Image Classifier,2009-04-08,Vision,Academia,80000000,6144050000,
+22080,GPU DBNs,2009-06-15,Other,Academia,100000000,121344000000,1.0
+22127,BellKor 2008,2009-08-01,Other,Industry,,,
+22127,BellKor 2009,2009-08-01,Other,Industry,,,
+22127,BigChaos OptiBlend,2009-08-01,Other,Industry,,,
+22127,Pragmatic Theory solution (Netflix 2009),2009-08-01,Other,Industry,,,
+22133,MatrixFac for Recommenders,2009-08-07,Other,Industry,,100480507,
+22158,Two Stage Feature Extraction (MNIST),2009-09-01,Vision,Academia,258800,50000,0.020754
+22178,BellKor 2007,2009-09-21,Other,Industry,,,
+22240,LCNP LabelMe,2009-11-22,Vision,Academia,13729792,40000,3.2951503
+22240,LCNP MNIST,2009-11-22,Vision,Not specified,11616256,50000,4.1818523
+22240,LCNP NORB,2009-11-22,Vision,Not specified,16818176,24300,2.45209
+22280,Super-vector coding,2010-01-01,Vision,Academia and industry collaboration,1025,,
+22282,Stacked Denoising Autoencoders,2010-01-03,Other,Academia,,339250000,
+22412,Feedforward NN,2010-05-13,Vision,Academia,7082000,90000,0.35000002
+22443,iCCCP,2010-06-13,Vision,Academia,,10000,1.08
+22445,ReLU (LFW),2010-06-15,Vision,Academia,,233280,
+22445,ReLU (NORB),2010-06-15,Vision,Academia,16210006,291600,
+22537,Pooling CNN (Caltech 101),2010-09-15,Vision,Academia,294912,3060,1.2211242
+22537,Pooling CNN (NORB),2010-09-15,Vision,Academia,268664,24300,1.4562773
+22548,RNN LM,2010-09-26,Language,Academia,70265000,6400000,53.960003
+22548,YouTube Video Recommendation System,2010-09-26,Other,Industry,,,
+22747,Deep rectifier networks,2011-04-13,Vision,Academia,,81920000,
+22763,Deep Autoencoders,2011-04-29,Vision,Academia,139808256,4915200000,36.72864
+22814,Cross-Lingual POS Tagger,2011-06-19,Language,Academia and industry collaboration,,,
+22814,Vector Space Model,2011-06-19,Language,Academia,255000,5650000,
+22823,Recursive Neural Network,2011-06-28,Multiple domains,Academia,,573285,
+22841,High Performance CNN (NORB),2011-07-16,Vision,Academia,4878300,50000,25.7985
+22905,CNN Committee (MNIST),2011-09-18,Vision,Academia,120620,420000,52.0
+22905,CNN Committee (NIST),2011-09-18,Vision,Academia,128420,3380475,26.0
+22920,Adaptive Subgrad,2011-10-03,Language,Academia and industry collaboration,,800000,
+22920,CNN committee (traffic sign),2011-10-03,Vision,Academia,1388800,53280,0.99198145
+22956,NLP from scratch,2011-11-08,Language,Academia and industry collaboration,5000000,852000000,
+23164,Dropout (CIFAR),2012-06-03,Vision,Academia,,60000,4.2687
+23164,Dropout (ImageNet),2012-06-03,Vision,Academia,,2600000,273.1968
+23164,Dropout (MNIST),2012-06-03,Vision,Academia,5594010,60000,6.039371
+23164,Dropout (TIMIT),2012-06-03,Speech,Academia,48840185,,
+23203,Unsupervised High-level Feature Learner,2012-07-12,Vision,Industry,1000000000,1200000000000,600.0
+23218,Context-dependent RNN,2012-07-27,Language,Academia and industry collaboration,,37000000,
+23262,LSTM LM,2012-09-09,Language,Academia,102720000,27000000,16.6
+23283,AlexNet,2012-09-30,Vision,Academia,60000000,2457600000,470.0
+23345,RNN+LDA+KN5+cache,2012-12-01,Language,Academia and industry collaboration,9000000,929000,
+23346,Bayesian automated hyperparameter tuning,2012-12-02,Other,Academia,,50000,
+23347,DNN EM segmentation,2012-12-03,Vision,Academia,218896,3000000,478.0
+23347,DistBelief Speech,2012-12-03,Speech,Industry,47185920,1100000000,311.40002
+23347,DistBelief Vision,2012-12-03,Vision,Industry,1700000000,16000000,
+23391,DistBelief NNLM,2013-01-16,Language,Industry,,6000000000,2612.736
+23456,PreTrans-3L-250H,2013-03-22,Speech,Academia,43000000,,
+23467,Selective Search,2013-04-02,Vision,Academia,,,
+23521,Multilingual DNN,2013-05-26,Speech,Industry,206899200,3103200000,
+23521,ReLU-Speech,2013-05-26,Speech,Academia and industry collaboration,101706240,,127.733765
+23588,Hierarchical Scene Labeling (Stanford Background),2013-08-01,Vision,Academia,51609600,71380800,237.74689
+23649,RCTM,2013-10-01,Language,Academia,,4500000,9.3312
+23649,RNTN,2013-10-01,Language,Academia,,155063,14.22
+23664,Word2Vec (large),2013-10-16,Language,Industry,692000000,330000000000,38.879997
+23664,Word2Vec (small),2013-10-16,Language,Industry,207600000,10000000000,
+23690,R-CNN (T-net),2013-11-11,Vision,Academia,69003872,,
+23691,Visualizing CNNs,2013-11-12,Vision,Academia,,7680000,532.0
+23714,DeViSE,2013-12-05,Vision,Industry,,5401200000,
+23714,TransE,2013-12-05,Language,Academia and industry collaboration,942000000,17500000,1340.928
+23720,RNN for 1B words,2013-12-11,Language,Industry,20000000000,1000000000,
+23725,Network in Network,2013-12-16,Vision,Academia,,630420,
+23728,DQN,2013-12-19,Games,Industry,836096,160000000,2.846884
+23729,Image generation,2013-12-20,Vision,Academia,784000,47040000,0.47520003
+23730,OverFeat,2013-12-21,Vision,Academia,144000000,,
+23741,GloVe (32B),2014-01-01,Language,Academia,120000000,315209597,
+23741,GloVe (6B),2014-01-01,Language,Academia,120000000,66453980,
+23804,HyperNEAT,2014-03-05,Games,Academia,239712,750000000,
+23874,Paragraph Vector,2014-05-14,Language,Industry,32000000,16500000,
+23892,AdaRNN,2014-06-01,Language,Academia,13040,6248,
+23892,Dropout: SVHN,2014-06-01,Vision,Academia,47795232,600000,
+23894,GRUs,2014-06-03,Language,Academia,,,
+23900,Two-stream ConvNets for action recognition,2014-06-09,Other,Academia,,1289500,
+23901,GANs,2014-06-10,Image generation,Academia,,120000,518.4
+23909,SPPNet,2014-06-18,Vision,Academia and industry collaboration,,1280000,3411.072
+23912,Fragment embedding,2014-06-21,Vision,Academia,144496000,15000000,
+23913,RNN-WER,2014-06-22,Speech,Academia and industry collaboration,26500000,,
+23914,DeepFace,2014-06-23,Vision,Academia and industry collaboration,,4400000,
+23914,Multiresolution CNN,2014-06-23,Other,Academia and industry collaboration,126125568,50000000,
+23922,SmooCT,2014-07-01,Games,Academia,,,69.0
+23936,ACF-WIDER,2014-07-15,Vision,Academia,6144,144448,0.07638001
+23958,NPD,2014-08-06,Vision,Industry,313856,434600,
+23984,RNNsearch-50*,2014-09-01,Language,Academia,,232000000,1555.2
+23987,VGG16,2014-09-04,Vision,Academia,138000000,1300000,12291.0
+23987,VGG19,2014-09-04,Vision,Academia,144000000,1300000,11000.0
+23993,Seq2Seq LSTM,2014-09-10,Language,Industry,1920000000,870000000,56000.0
+23997,SPN-4+KN5,2014-09-14,Language,Other,5000000,929000,44.0
+24000,GoogLeNet / InceptionV1,2014-09-17,Vision,Academia and industry collaboration,6797700,571392000000,1510.0
+24001,Deeply-supervised nets,2014-09-18,Vision,Industry,,598388,
+24006,Spatially-Sparse CNN,2014-09-23,Vision,Academia,,901200,
+24051,LRCN,2014-11-07,Other,Academia,142552000,400000,
+24054,SC-NLM,2014-11-10,Multiple domains,Academia,,5000000,
+24058,Fully Convolutional Networks,2014-11-14,Vision,Academia,,,
+24072,Cascaded LNet-ANet,2014-11-28,Vision,Academia,,9320000,
+24073,TA-CNN,2014-11-29,Vision,Academia,706048,45000,10.854
+24077,SNM-skip,2014-12-03,Language,Industry,62000000000,800000000,297600.0
+24092,Fractional Max-Pooling,2014-12-18,Vision,Academia,27000000,901200,100.0
+24096,ADAM (CIFAR-10),2014-12-22,Vision,Academia and industry collaboration,2370000,50000,0.62497985
+24106,VGG-Face,2015-01-01,Vision,Academia,138000000,2600000,
+24142,"MSRA (C, PReLU)",2015-02-06,Vision,Industry,87048800,1280000,23974.031
+24155,TRPO,2015-02-19,Games,Academia,33500,,
+24161,DQN-2015,2015-02-25,Games,Industry,1693362,12500000,
+24181,genCNN + dyn eval,2015-03-17,Language,Academia and industry collaboration,8000000,929000,34.15345
+24201,TC-DNN-BLSTM-DNN,2015-04-06,Speech,Academia,18413568,29160000,194.10193
+24225,Fast R-CNN,2015-04-30,Vision,Industry,,25600000,
+24243,U-Net,2015-05-18,Vision,Academia,37676160,7864320,50.832253
+24260,Faster R-CNN,2015-06-04,Vision,Industry,,102400000,
+24263,CFSS,2015-06-07,Vision,Academia and industry collaboration,17408,141660,
+24264,YOLO,2015-06-08,Vision,Other,271684800,,
+24271,BatchNorm,2015-06-15,Vision,Industry,13600000,12441600000,
+24305,CompACT-Deep,2015-07-19,Vision,Academia,,,
+24312,Deep CNN + COTS,2015-07-26,Vision,Industry,5006000,494414,
+24324,DCNN,2015-08-07,Vision,Academia,5006000,490356,480.9869
+24348,BPE,2015-08-31,Language,Academia,,50000000,
+24357,Deep Deterministic Policy Gradients,2015-09-09,Robotics,Industry,,,
+24379,AlphaGo Fan,2015-10-01,Games,Industry,8209984,12697600000,380000.03
+24406,SAF R-CNN,2015-10-28,Vision,Academia and industry collaboration,138000000,350000,12311.081
+24432,3DDFA,2015-11-23,Vision,Academia,5355584,293901,
+24432,Multi-scale Dilated CNN,2015-11-23,Vision,Academia and industry collaboration,,,
+24440,Netflix Recommender System,2015-12-01,Other,Industry,,,
+24441,Inception v3,2015-12-02,Vision,Academia and industry collaboration,23626728,1200000,100000.0
+24447,SSD,2015-12-08,Vision,Not specified,,2300000,
+24449,ResNet-101 (ImageNet),2015-12-10,Vision,Industry,44500000,1280000,7004.0
+24449,ResNet-110 (CIFAR-10),2015-12-10,Vision,Industry,1700000,50000,
+24449,ResNet-152 (ImageNet),2015-12-10,Vision,Industry,60200000,1280000,10414.081
+24454,Advantage Learning,2015-12-15,Games,Industry,,100000000,
+24455,"Variational (untied weights, MC) LSTM (Large)",2015-12-16,Language,Academia,66000000,929000,5.886144
+24497,AlphaGo Lee,2016-01-27,Games,Industry,,300000000,1.9e+06
+24505,A3C FF hs,2016-02-04,Games,Academia and industry collaboration,,200000000,
+24524,Inception-ResNet-V2,2016-02-23,Vision,Industry,56000000,1280000,
+24524,Inceptionv4,2016-02-23,Vision,Industry,43000000,1280000,
+24525,SqueezeNet,2016-02-24,Vision,Academia,1200000,1280000,
+24532,Double DQN,2016-03-02,Games,Industry,1500000,,
+24534,Named Entity Recognition model,2016-03-04,Language,Academia,,204567,96.940796
+24542,Template Adaptation,2016-03-12,Vision,Academia,138000000,7797,
+24566,Dueling DQN,2016-04-05,Games,Industry,1700000,,
+24591,Gated HORNN (3rd order),2016-04-30,Language,Academia,8970000,22400000,
+24599,LRR-4X,2016-05-08,Vision,Academia,138000000,152231040,
+24638,PixelCNN,2016-06-16,Vision,Industry,,15728640000,
+24639,CMS-RCNN,2016-06-17,Vision,Industry,138000000,,
+24642,Segmental RNN,2016-06-20,Speech,Academia,,,
+24643,R-FCN,2016-06-21,Vision,Academia and industry collaboration,,10624000,719.3578
+24649,CCL,2016-06-27,Vision,Academia and industry collaboration,,20000,
+24667,Character-enriched word2vec,2016-07-15,Language,Industry,,,
+24705,SimpleNet,2016-08-22,Vision,Academia and industry collaboration,5480000,1280000,
+24708,DenseNet-264,2016-08-25,Vision,Academia and industry collaboration,34000000,,
+24722,LF-MMI,2016-09-08,Speech,Academia,16600000,720000,
+24726,MS-ensemble-speech-recognition,2016-09-12,Speech,Industry,3172117056,11140000000,
+24726,WaveNet,2016-09-12,Speech,Industry,,11520000000,
+24729,Youtube recommendation model,2016-09-15,Other,Industry,,,
+24731,ResNet-1001,2016-09-17,Vision,Industry,10200000,50000,
+24731,ResNet-200,2016-09-17,Vision,Industry,,1281167,29741.645
+24733,Wide Residual Network,2016-09-19,Vision,Academia,,1280000,
+24740,GNMT,2016-09-26,Language,Industry,278000000,720000000,6.62e+06
+24740,Pointer Sentinel-LSTM (medium),2016-09-26,Language,Industry,21000000,929000,7.49
+24751,Xception,2016-10-07,Vision,Industry,22855952,350000000,436000.0
+24752,GAWWN,2016-10-08,Vision,Academia,,235760,
+24772,SPIDER2,2016-10-28,Biology,Academia,409536,13893600,18.220001
+24779,VD-LSTM+REAL Large,2016-11-04,Language,Academia and industry collaboration,51000000,929000,21.3
+24780,BIDAF,2016-11-05,Language,Other,2600000,879000,3468.6145
+24780,NAS with base 8 and shared embeddings,2016-11-05,Language,Industry,54000000,929000,10.5
+24780,NASv3 (CIFAR-10),2016-11-05,Vision,Industry,37400000,45000,2.2e+06
+24781,DLDL (PASCAL),2016-11-06,Vision,Academia,564000000,22531,
+24782,DTN (Domain Transfer Network),2016-11-07,Multiple domains,Industry,,2000000,
+24791,DAC-CSR,2016-11-16,Vision,Academia,,20000,
+24791,ResNeXt-101 (64×4d),2016-11-16,Vision,Academia and industry collaboration,83000000,1280000,12000.0
+24791,ResNeXt-50,2016-11-16,Vision,Academia and industry collaboration,25000000,1280000,
+24792,PolyNet,2016-11-17,Vision,Academia,92000000,1280000,64000.0
+24796,Image-to-image cGAN,2016-11-21,Multiple domains,Academia,,2400000,
+24807,Elastic weight consolidation,2016-12-02,Multiple domains,Industry,,,
+24807,PointNet,2016-12-02,Other,Academia,,9843,
+24810,GAN-Advancer,2016-12-05,Vision,Industry,,,
+24818,HR-ResNet101,2016-12-13,Vision,Academia,44500000,8243968,7077.0
+24820,3DMM-CNN,2016-12-15,Vision,Academia,44500000,500000,
+24828,EnhanceNet,2016-12-23,Vision,Academia,814464,9830400000,130.79233
+24830,YOLOv2,2016-12-25,Vision,Other,51000000,1280000,
+24842,DeepStack,2017-01-06,Games,Academia,2500000,25380000000,14463.36
+24843,OR-WideResNet,2017-01-07,Vision,Academia,18200000,50000,
+24859,MoE-Multi,2017-01-23,Language,Academia and industry collaboration,8700000000,87000000000,93939.055
+24868,DnCNN,2017-02-01,Multiple domains,Academia and industry collaboration,,2560000000,
+24910,Prototypical networks,2017-03-15,Vision,Academia and industry collaboration,,38400,
+24925,Mask R-CNN,2017-03-30,Vision,Industry,,46161920000,
+24926,WGAN-GP,2017-03-31,Image generation,Academia,,,
+24943,MobileNet,2017-04-17,Vision,Industry,4200000,1280000,
+24953,DeepLab (2017),2017-04-27,Vision,Academia and industry collaboration,,26455000,
+24964,Mnemonic Reader,2017-05-08,Language,Academia and industry collaboration,,215570,
+24981,SRGAN,2017-05-25,Multiple domains,Industry,,700000,
+24988,Inflated 3D ConvNet,2017-06-01,Other,Academia and industry collaboration,,240000,
+24994,PointNet++,2017-06-07,Other,Academia,,60000,
+24995,Reading Twice for NLU,2017-06-08,Language,Industry,,200000,
+24997,EDSR,2017-06-10,Multiple domains,Academia,,,
+24999,Transformer (2017),2017-06-12,Language,Industry,213000000,832000000,7424.525
+25000,HRA,2017-06-13,Games,Industry,,150000000,
+25004,DeepLabV3,2017-06-17,Vision,Industry,,8354563074,
+25017,NoisyNet-Dueling,2017-06-30,Games,Industry,,320000000,
+25020,ShuffleNet v1,2017-07-03,Vision,Industry,2430000,1280000,
+25024,DeepLoc,2017-07-07,Biology,Academia,,,578.1024
+25027,JFT,2017-07-10,Vision,Academia and industry collaboration,44654504,5487300000000,843000.06
+25035,AWD-LSTM,2017-07-18,Language,Academia and industry collaboration,24000000,2000000,
+25038,NASNet-A,2017-07-21,Vision,Industry,89000000,1280000,
+25038,PSPNet,2017-07-21,Vision,Academia,,,
+25042,ConvS2S (ensemble of 8 models),2017-07-25,Language,Industry,,1183333333,56400.0
+25047,GSM,2017-07-30,Language,Academia and industry collaboration,,215570,
+25055,AWD-LSTM - 3-layer LSTM (tied) + continuous cache pointer (WT2),2017-08-07,Language,Industry,33000000,2000000,297.00003
+25055,RetinaNet-R101,2017-08-07,Vision,Industry,53000000,115000,2065.392
+25055,RetinaNet-R50,2017-08-07,Vision,Industry,34000000,11500000000,
+25059,OpenAI TI7 DOTA 1v1,2017-08-11,Games,Industry,,,604609.5
+25062,EI-REHN-1000D,2017-08-14,Language,Academia,19000000,929000,10.599999
+25064,NeuMF (Pinterest),2017-08-16,Other,Academia,,1500809,
+25067,Libratus,2017-08-19,Games,Academia,,,551000.0
+25077,GL-LWGC-AWD-MoS-LSTM + dynamic evaluation (WT2),2017-08-29,Language,Academia,38000000,2000000,456.00003
+25084,SENet (ImageNet),2017-09-05,Vision,Academia,28100000,1280000,
+25085,PyramidNet,2017-09-06,Vision,Academia,26000000,1280000,2.34
+25094,ISS,2017-09-15,Language,Academia and industry collaboration,11100000,929000,3.4
+25100,LSTM + dynamic eval,2017-09-21,Language,Academia,50000000,90000000,
+25105,AWD-LSTM+WT+Cache+IOG (WT2),2017-09-26,Language,Industry,53000000,2000000,3.18
+25115,Rainbow DQN,2017-10-06,Games,Industry,,,
+25127,AlphaGo Zero,2017-10-18,Games,Industry,46400244,6348800000,649439.9
+25128,AlphaGo Master,2017-10-19,Games,Industry,,,341000.0
+25136,ProgressiveGAN,2017-10-27,Vision,Industry,,,
+25137,PhraseCond,2017-10-28,Language,Academia,,160000,
+25138,S-Norm,2017-10-29,Language,Other,,1060000,
+25140,DCN+,2017-10-31,Language,Industry,,215570,
+25140,Fraternal dropout + AWD-LSTM 3-layer (WT2),2017-10-31,Language,Academia,34000000,2000000,306.0
+25142,VQ-VAE,2017-11-02,Vision,Industry,,62914560000,
+25150,"AWD-LSTM-MoS + dynamic evaluation (WT2, 2017)",2017-11-10,Language,Academia,35000000,2000000,3360.0
+25161,TriNet,2017-11-21,Other,Academia,,509914,
+25171,DL scaling Image,2017-12-01,Vision,Industry,121000000,,
+25171,DL scaling LM,2017-12-01,Language,Industry,177000000,400000000,
+25171,DL scaling speech,2017-12-01,Speech,Industry,193000000,2149200000,
+25175,AlphaZero,2017-12-05,Games,Industry,,3520000000,106000.0
+25231,T-DMCA,2018-01-30,Language,Industry,,14000000000,
+25233,ELMo,2018-02-01,Language,Other,94000000,2000000000,3.3001
+25233,QRNN,2018-02-01,Language,Industry,135000000,103000000,688.66473
+25237,IMPALA,2018-02-05,Games,Industry,1600000,11400000000,168000.0
+25239,DeepLabV3+,2018-02-07,Vision,Industry,,8655843074,
+25247,TCN (P-MNIST),2018-02-15,Vision,Academia and industry collaboration,42000,60000,
+25261,Chinese - English translation,2018-03-01,Language,Industry,,,
+25282,4 layer QRNN (h=2500),2018-03-22,Language,Industry,151000000,103000000,591.5882
+25299,YOLOv3,2018-04-08,Vision,Academia,56933216,5430000,13416.381
+25323,ResNeXt-101 32x48d,2018-05-02,Vision,Industry,829000000,940000000,8.74395e+06
+25324,Dropout-LSTM+Noise(Bernoulli) (WT2),2018-05-03,Language,Academia,51000000,2000000,127.0
+25343,aLSTM(depth-2)+RecurrentPolicy (WT2),2018-05-22,Language,Other,32000000,2000000,72.96
+25353,GPT-1,2018-06-01,Language,Industry,117000000,1333333333,17578.125
+25357,Relational Memory Core,2018-06-05,Language,Academia and industry collaboration,,4000000000,
+25370,MobileNetV2,2018-06-18,Vision,Industry,3400000,1280000,
+25385,FTW (For The Win),2018-07-03,Games,Industry,126001330,2000000000,34900.0
+25392,Big-Little Net,2018-07-10,Vision,Industry,77360000,1280000,246.048
+25392,Big-Little Net (speech),2018-07-10,Speech,Industry,3320000,720000000,429.00482
+25427,AWD-LSTM-MoS+PDR + dynamic evaluation (WT2),2018-08-14,Language,Industry,35000000,2000000,
+25441,Big Transformer for Back-Translation,2018-08-28,Language,Industry,,4520000000,478080.0
+25443,(ensemble): AWD-LSTM-DOC (fin) × 5 (WT2),2018-08-30,Language,Academia and industry collaboration,185000000,2000000,666.00006
+25454,NetSurfP-2.0,2018-09-10,Biology,Academia,,,
+25461,Transformer + Simple Recurrent Unit,2018-09-17,Language,Academia and industry collaboration,90000000,112500000,11000.0
+25462,"AWD-LSTM-MoS + dynamic evaluation (WT2, 2018)",2018-09-18,Language,Academia and industry collaboration,35000000,2000000,
+25468,LSTM+NeuralCache,2018-09-24,Language,Academia and industry collaboration,2100000,2000000,0.9828
+25472,Transformer (Adaptive Input Embeddings) WT103,2018-09-28,Language,Industry,247000000,100000000,44700.0
+25485,BERT-Large,2018-10-11,Language,Industry,340000000,2649900000,285000.0
+25485,MetaMimic,2018-10-11,Robotics,Industry,22000000,,
+25489,TrellisNet,2018-10-15,Language,Academia and industry collaboration,180000000,103000000,2780.0
+25505,MemoReader,2018-10-31,Language,Academia and industry collaboration,,1057958,
+25510,Mesh-TensorFlow Transformer 2.9B (translation),2018-11-05,Language,Industry,2900000000,1550000000,68428.805
+25510,Mesh-TensorFlow Transformer 4.9B (language),2018-11-05,Language,Industry,4900000000,5000000000,161740.8
+25517,Fine-tuned-AWD-LSTM-DOC (fin),2018-11-12,Language,Industry,46000000,1044112,51.88
+25520,Multi-cell LSTM,2018-11-15,Language,Academia,7200000,929000,2.00664
+25521,GPipe (Transformer),2018-11-16,Language,Industry,6000000000,1450000000000,
+25539,SPN (ImageNet 128),2018-12-04,Image generation,Industry,250000000,251658240000,
+25547,StyleGAN,2018-12-12,Image generation,Industry,26200000,50000000,39.3
+25567,Transformer ELMo,2019-01-01,Language,Other,56000000,2000000000,
+25575,Transformer-XL (257M),2019-01-09,Language,Academia and industry collaboration,257000000,103000000,378327.72
+25597,MT-DNN,2019-01-31,Language,Industry,330000000,1000000,
+25598,Hanabi 4 player,2019-02-01,Games,Academia and industry collaboration,764000,20000000000,4300.0
+25606,SDE,2019-02-09,Language,Academia and industry collaboration,,,
+25611,GPT-2 (1.5B),2019-02-14,Language,Industry,1500000000,10666666666,1.9200001e+06
+25624,KataGo,2019-02-27,Games,Industry,2500000,241000000,23200.002
+25625,NMT Transformer 437M,2019-02-28,Language,Academia and industry collaboration,437700000,,
+25651,SciBERT,2019-03-26,Language,Other,110000000,3170000000,89268.48
+25660,Cross-lingual alignment,2019-04-04,Language,Academia,,,2560.0
+25664,True-Regularization+Finetune+Dynamic-Eval,2019-04-08,Language,Academia and industry collaboration,7000000,929000,
+25664,WeNet (Penn Treebank),2019-04-08,Language,Industry,23000000,929000,730.0
+25673,Transformer-XL + RMS dynamic eval,2019-04-17,Language,Academia,257000000,103000000,
+25676,BERT-Large-CAS (PTB+WT2+WT103),2019-04-20,Language,Industry,395000000,1300000000,154050.0
+25681,MuseNet,2019-04-25,Other,Industry,2038431744,,220830.11
+25682,Neuro-Symbolic Concept Learner,2019-04-26,Multiple domains,Academia and industry collaboration,,100000,
+25688,RaptorX-Contact,2019-05-02,Biology,Academia,,,
+25688,ResNeXt-101 Billion-scale,2019-05-02,Vision,Industry,193000000,90000000,
+25700,AWD-LSTM-DRILL + dynamic evaluation† (WT2),2019-05-14,Language,Academia,34000000,2000000,408.0
+25708,CPC v2,2019-05-22,Vision,Academia and industry collaboration,303000000,,
+25714,EfficientNet-L2,2019-05-28,Vision,Industry,480000000,1280000,
+25717,DLRM-2020,2019-05-31,Other,Industry,100000000000,38571428,4000.0
+25718,XLM,2019-06-01,Language,Industry,665000000,,
+25718,XLNet,2019-06-01,Language,Academia and industry collaboration,340000000,32890000000,6.19e+06
+25721,Transformer-XL Large + Phrase Induction,2019-06-04,Language,Academia,257000000,103000000,378486.53
+25727,AWD-LSTM + MoS + Partial Shuffled,2019-06-10,Language,Academia,35000000,2000000,315.00003
+25730,Char-CNN-BiLSTM,2019-06-13,Language,Industry,,929000,
+25731,FixRes ResNeXt-101 WSL,2019-06-14,Vision,Industry,829000000,940000000,
+25732,PG-SWGAN,2019-06-15,Image generation,Academia,,,
+25734,LaNet-L (CIFAR-10),2019-06-17,Vision,Academia and industry collaboration,44100000,60000,
+25736,Walking Minotaur robot,2019-06-19,Robotics,Academia and industry collaboration,,,
+25748,RoBERTa Large,2019-07-01,Language,Academia and industry collaboration,355000000,42666666666,8.5067e+06
+25751,BigBiGAN,2019-07-04,Multiple domains,Industry,86000000,2560000,
+25758,Pluribus,2019-07-11,Games,Industry,,,66.0
+25769,EN^2AS with performance reward,2019-07-22,Language,Academia,23000000,,
+25800,trRosetta,2019-08-22,Biology,Academia,,,38047.97
+25813,"Mogrifier (d2, MoS2, MC) + dynamic eval",2019-09-04,Language,Academia and industry collaboration,35000000,2000000,
+25813,UDSMProt,2019-09-04,Biology,Other,28303800,149700000,637.0
+25826,Megatron-BERT,2019-09-17,Language,Industry,3900000000,6960000000,2.2000002e+07
+25826,Megatron-LM (1.2B),2019-09-17,Language,Industry,1200000000,157000000000,1.1304e+06
+25826,Megatron-LM (8.3B),2019-09-17,Language,Industry,8300000000,46400000000,9.1e+06
+25834,Adaptive Inputs + LayerDrop,2019-09-25,Language,Academia and industry collaboration,423000000,103000000,
+25835,ALBERT,2019-09-26,Language,Academia and industry collaboration,18000000,3300000000,
+25841,AlphaX-1,2019-10-02,Vision,Academia and industry collaboration,5400000,61280000,889.344
+25841,DistilBERT,2019-10-02,Language,Industry,66000000,495000000,12441.6
+25850,M4-50B,2019-10-11,Language,Industry,50000000000,,
+25862,T5-11B,2019-10-23,Language,Industry,11000000000,34000000000,3.3e+07
+25862,T5-3B,2019-10-23,Language,Industry,2800000000,5100000000,9e+06
+25868,BART-large,2019-10-29,Language,Industry,406291456,42666666666,
+25869,AlphaStar,2019-10-30,Games,Industry,139000000,,1.07734e+08
+25871,Base LM + kNN LM + Continuous Cache,2019-11-01,Language,Academia and industry collaboration,247000000,103000000,30529.201
+25875,XLM-RoBERTa,2019-11-05,Language,Industry,550000000,167000000000,2.076e+07
+25880,CamemBERT,2019-11-10,Language,Academia and industry collaboration,335000000,28615771779,830000.0
+25880,Sandwich Transformer,2019-11-10,Language,Other,209000000,700000000,23504.094
+25881,Noisy Student (L2),2019-11-11,Vision,Academia and industry collaboration,480000000,81000000,2.612e+07
+25883,MoCo,2019-11-13,Multiple domains,Industry,375000000,940000000,
+25889,MuZero,2019-11-19,Games,Industry,36864000,12288000000,48000.0
+25889,Transformer - LibriVox + Decoding/Rescoring,2019-11-19,Speech,Industry,296000000,981312000,
+25895,Photo-Geometric Autoencoder,2019-11-25,Multiple domains,Academia,,819200000,
+25897,Transformer-XL DeFINE (141M),2019-11-27,Language,Other,141000000,103000000,1742.76
+25903,StyleGAN2,2019-12-03,Image generation,Academia and industry collaboration,30000000,114000000,
+25904,StarGAN v2,2019-12-04,Multiple domains,Academia and industry collaboration,,400000,
+25905,MMLSTM (PTB),2019-12-05,Language,Academia,21300000,929000,58.298782
+25905,MMLSTM (WT-2),2019-12-05,Language,Academia,32300000,2000000,193.8
+25913,OpenAI Five,2019-12-13,Games,Industry,159000000,454164480000,6.7000004e+07
+25913,OpenAI Five Rerun,2019-12-13,Games,Industry,159000000,53084160000,1.3e+07
+25919,DD-PPO,2019-12-19,Robotics,Academia and industry collaboration,,2500000000,780000.06
+25924,Big Transfer (BiT-L),2019-12-24,Vision,Industry,928000000,300000000,
+25946,AlphaFold,2020-01-15,Biology,Industry,16340840,6622252080,100000.0
+25950,ContextNet + Noisy Student,2020-01-19,Speech,Industry,,,8.16e+06
+25959,Meena,2020-01-28,Language,Industry,2600000000,53333333333,1.12e+08
+25969,Theseus 6/768,2020-02-07,Language,Academia and industry collaboration,66000000,393000,
+25970,Perceiver IO (optical flow),2020-02-08,Multiple domains,Industry,27900000,146022400000,
+25970,TaLK Convolution,2020-02-08,Language,Academia,240000000,103000000,26990.346
+25971,ALBERT-xxlarge,2020-02-09,Language,Academia and industry collaboration,235000000,3300000000,2.39e+06
+25975,SimCLR,2020-02-13,Vision,Industry,375000000,10467704832,
+25975,Turing-NLG,2020-02-13,Language,Industry,17000000000,46400000000,1.57e+07
+25976,FFN SwiGLU,2020-02-14,Language,Industry,220000000,50600083456,33687.316
+25983,Feedback Transformer,2020-02-21,Language,Academia and industry collaboration,126000000,103000000,7690.5474
+25990,TCAN (WT2),2020-02-28,Language,Academia and industry collaboration,33000000,2000000,
+26002,TransformerXL + spectrum control,2020-03-11,Language,Academia and industry collaboration,151000000,103000000,26289.762
+26003,Routing Transformer (WT-103),2020-03-12,Language,Industry,79500000,103000000,
+26008,Tensor-Transformer(1core)+PN (WT103),2020-03-17,Language,Academia,85300000,103000000,1580.0
+26014,ELECTRA,2020-03-23,Language,Academia and industry collaboration,335000000,33000000000,3.1e+06
+26015,MetNet,2020-03-24,Other,Industry,225000000,7045120000,9510.912
+26021,Agent57,2020-03-30,Games,Industry,,,
+26030,CURL,2020-04-08,Games,Academia,907264,,
+26049,Go-explore,2020-04-27,Games,Industry,,40000000000,
+26051,Once for All,2020-04-29,Vision,Academia and industry collaboration,7700000,1280000,623700.0
+26054,UnifiedQA,2020-05-02,Language,Other,11000000000,,16500.0
+26058,NAS+ESS (23M),2020-05-06,Language,Academia and industry collaboration,23000000,,
+26059,ContextNet,2020-05-07,Speech,Industry,112700000,349200000,
+26068,Conformer,2020-05-16,Speech,Industry,118800000,,
+26074,Retrieval-Augmented Generator,2020-05-22,Language,Academia and industry collaboration,626000000,3074560,
+26078,DETR,2020-05-26,Vision,Industry,60000000,826000,400000.0
+26080,GPT-3 175B (davinci),2020-05-28,Language,Industry,174600000000,238000000000,3.14e+08
+26113,GShard (dense),2020-06-30,Language,Industry,2300000000,346666666667,4.765e+07
+26115,SemExp,2020-07-02,Robotics,Academia and industry collaboration,,,
+26129,Hopfield Networks (2020),2020-07-16,Multiple domains,Academia,,,
+26140,EfficientDet,2020-07-27,Vision,Industry,77000000,,
+26147,DeLighT,2020-08-03,Language,Other,99000000,103000000,3801.6
+26150,ERNIE-GEN (large),2020-08-06,Language,Industry,340000000,114666666666,200000.0
+26176,ProBERTa,2020-09-01,Biology,Academia,44000000,58320000,9720.001
+26207,LUKE,2020-10-02,Language,Academia,483000000,4666666667,1.8144e+07
+26225,Conformer + Wav2vec 2.0 + Noisy Student,2020-10-20,Speech,Industry,1000000000,,7.6e+06
+26225,mT5-XXL,2020-10-20,Language,Industry,13000000000,1000000000000,8.2e+07
+26226,German ELECTRA Large,2020-10-21,Language,Other,335000000,36383733333,1.4282956e+06
+26227,ViT-Base/32,2020-10-22,Vision,Industry,86000000,303000000,
+26227,ViT-Huge/14,2020-10-22,Vision,Industry,632000000,303000000,4.262e+06
+26227,wave2vec 2.0 LARGE,2020-10-22,Speech,Industry,317000000,4598395200,3.87072e+06
+26259,KEPLER,2020-11-23,Language,Other,125000000,3533640000,1.66e+06
+26266,AlphaFold 2,2020-11-30,Biology,Industry,93000000,5724000000,2.99e+06
+26267,CPM-Large,2020-12-01,Language,Academia,2600000000,16700000000,260520.0
+26281,ESM1b,2020-12-15,Biology,Academia and industry collaboration,652400000,27750400000,5.1e+06
+26283,VQGAN + CLIP,2020-12-17,Image generation,Academia,,251988480000,
+26289,DensePhrases,2020-12-23,Language,Academia,,58000000,2099.52
+26291,CT-MoS (WT2),2020-12-25,Language,Academia and industry collaboration,45000000,2000000,540.0
+26297,ERNIE-Doc (247M),2020-12-31,Language,Industry,247000000,103000000,30302.799
+26302,CLIP (ResNet-50),2021-01-05,Multiple domains,Industry,88600000,400000000,
+26302,CLIP (ViT L/14@336px),2021-01-05,Multiple domains,Industry,370000000,400000000,1.05e+07
+26302,DALL-E,2021-01-05,Image generation,Industry,12000000000,320000000000,4.7e+07
+26307,BigSSL,2021-01-10,Speech,Industry,8000000000,100530000000,
+26308,Switch,2021-01-11,Language,Industry,1571000000000,86400000000,8.22e+07
+26312,DeiT-B,2021-01-15,Vision,Academia and industry collaboration,86000000,3840000,78840.0
+26337,DLWP,2021-02-09,Other,Academia and industry collaboration,2676376,,5684.515
+26337,top-down frozen classifier,2021-02-09,Speech,Academia and industry collaboration,,3408000,
+26341,MSA Transformer,2021-02-13,Biology,Academia and industry collaboration,100000000,1395000000000,5.49e+06
+26346,Rational DQN Average,2021-02-18,Games,Academia,1683456,,
+26352,SRU++ Large,2021-02-24,Language,Industry,234000000,103000000,21173.705
+26357,Meta Pseudo Labels,2021-03-01,Vision,Industry,480000000,131280000,4.7900004e+07
+26361,Generative BST,2021-03-05,Language,Industry,9431810048,56800000000,1.449e+07
+26361,M6-T,2021-03-05,Multiple domains,Industry,1002700000000,111800000000,5.5000005e+06
+26380,Unicorn,2021-03-24,Language,Other,11000000000,,
+26406,PLUG,2021-04-19,Language,Industry,27000000000,60000000000,3.5997696e+07
+26421,ProtBERT-BFD,2021-05-04,Biology,Other,420000000,58950000000,3.9000004e+07
+26421,ProtT5-XL-U50,2021-05-04,Biology,Other,3000000000,19582371375,1.8704498e+07
+26428,ADM,2021-05-11,Image generation,Industry,559000000,130191200000000,6.2e+06
+26437,MedBERT,2021-05-20,Other,Academia,17000000,14587212800,9470.0
+26443,CogView,2021-05-26,Image generation,Academia and industry collaboration,4000000000,964800000000,2.68e+07
+26443,Transformer local-attention (NesT-B),2021-05-26,Vision,Industry,90100000,1280000,24057.602
+26445,ByT5-XXL,2021-05-28,Language,Industry,12900000000,1048576000000,8.1e+07
+26456,ViT-G/14,2021-06-08,Vision,Industry,1843000000,3000000000,5.85e+07
+26457,CoAtNet,2021-06-09,Vision,Industry,2440000000,88779000000000,4.2700004e+07
+26457,EMDR,2021-06-09,Language,Academia and industry collaboration,440000000,171600000000,1.91e+06
+26458,DeBERTa,2021-06-10,Language,Industry,1500000000,20800000000,2.588e+07
+26459,ALIGN,2021-06-11,Multiple domains,Industry,820000000,1800000000,2.59867e+07
+26459,Denoising Diffusion Probabilistic Models (LSUN Bedroom),2021-06-11,Vision,Academia,256000000,596320321536,78401.25
+26469,StyleGAN3-R,2021-06-21,Image generation,Academia and industry collaboration,1580000,50000000,2.42784e+06
+26469,StyleGAN3-T,2021-06-21,Image generation,Academia and industry collaboration,2230000,50000000,1.70208e+06
+26471,EfficientNetV2-XL,2021-06-23,Vision,Industry,208000000,,95600.01
+26472,Fold2Seq,2021-06-24,Biology,Academia and industry collaboration,12427904,45995,140.0
+26476,Adaptive Input Transformer + RD,2021-06-28,Language,Academia and industry collaboration,247000000,103000000,85800.01
+26483,ERNIE 3.0,2021-07-05,Language,Industry,10000000000,375000000000,2.25e+07
+26485,Codex,2021-07-07,Language,Industry,12000000000,52788000000,7.344e+07
+26505,GOAT,2021-07-27,Games,Industry,3472816,798720000000000,2.412e+07
+26505,HuBERT,2021-07-27,Speech,Industry,1000000000,864000000,5.54e+06
+26507,SEER,2021-07-29,Vision,Academia and industry collaboration,1300000000,1000000000,1.8e+07
+26512,6-Act Tether,2021-08-03,Robotics,Academia and industry collaboration,5000000,125000000,
+26515,YOLOX-X,2021-08-06,Vision,Industry,99100000,2500000,634275.0
+26516,W2v-BERT,2021-08-07,Speech,Academia and industry collaboration,1000000000,,
+26520,Jurassic-1-Jumbo,2021-08-11,Language,Industry,178000000000,300000000000,3.7e+08
+26520,Zidong Taichu,2021-08-11,Multiple domains,Other,3200000000,,801600.0
+26524,DNABERT,2021-08-15,Biology,Academia,110000000,1444128539,107000.01
+26526,XLMR-XXL,2021-08-17,Language,Industry,10700000000,167000000000,3.366e+07
+26543,FLAN 137B,2021-09-03,Language,Industry,137000000000,2490000000000,2.047e+09
+26544,MEB,2021-09-04,Multiple domains,Industry,135000000000,500000000000,
+26546,PermuteFormer,2021-09-06,Language,Academia,149697024,103000000,2775.0
+26550,HyperCLOVA 204B,2021-09-10,Language,Industry,204000000000,560000000000,2e+08
+26560,PLATO-XL,2021-09-20,Language,Industry,11000000000,150000000000,9.9e+06
+26561,TrOCR,2021-09-21,Vision,Academia and industry collaboration,558000000,,
+26568,Turing ULRv5,2021-09-28,Language,Industry,2200000000,,2.8983952e+07
+26574,AlphaFold-Multimer,2021-10-04,Biology,Industry,,56573952,4.35e+06
+26581,Megatron-Turing NLG 530B,2021-10-11,Language,Industry,530000000000,270000000000,8.5860006e+08
+26582,Yuan 1.0,2021-10-12,Language,Industry,245730000000,180000000000,3.5380003e+08
+26587,base LM+GNN+kNN,2021-10-17,Language,Academia and industry collaboration,274000000,103000000,52587.457
+26597,Eve,2021-10-27,Biology,Academia,15010300,24167054120,
+26600,EfficientZero,2021-10-30,Games,Academia,,100000,
+26601,S4,2021-10-31,Language,Academia,249000000,103000000,78328.625
+26602,CodeT5-base,2021-11-01,Language,Academia and industry collaboration,220000000,,1.5600001e+06
+26602,Projected GAN,2021-11-01,Image generation,Academia,,3000000,10500.0
+26612,Masked Autoencoders ViT-H,2021-11-11,Vision,Industry,632000000,,460000.0
+26616,ViT-G/14 (LiT),2021-11-15,Vision,Industry,3005000000,1040000000000,
+26618,AliceMind-MMU,2021-11-17,Other,Industry,,12649000,
+26619,Swin Transformer V2 (SwinV2-G),2021-11-18,Multiple domains,Industry,3000000000,,1.1e+06
+26620,BASIC-L,2021-11-19,Vision,Industry,3070000000,8905031712000,4.12e+07
+26623,Florence,2021-11-22,Vision,Industry,893000000,7500000000,4.831e+07
+26625,NÜWA,2021-11-24,Multiple domains,Academia and industry collaboration,870000000,5547780000,7.245988e+06
+26634,T-NLRv5 XXL,2021-12-03,Language,Industry,5400000000,,
+26637,Student of Games,2021-12-06,Games,Industry,,245760000000,3.667927e+07
+26639,Gopher (280B),2021-12-08,Language,Industry,280000000000,300000000000,6.31e+08
+26644,GLaM,2021-12-13,Language,Industry,1200000000000,600000000000,3.6363114e+08
+26646,LongT5,2021-12-15,Language,Industry,3000000000,524288000000,
+26647,Contriever,2021-12-16,Language,Academia and industry collaboration,110000000,262144000000,157000.0
+26651,LDM-1.45B,2021-12-20,Image generation,Academia and industry collaboration,1450000000,291985200000,
+26651,XGLM-7.5B,2021-12-20,Language,Industry,7500000000,500000000000,2.25e+07
+26654,ERNIE 3.0 Titan,2021-12-23,Language,Academia and industry collaboration,260000000000,668000000000,1.04210003e+09
+26662,ERNIE-ViLG,2021-12-31,Multiple domains,Industry,10000000000,,
+26669,Detic,2022-01-07,Vision,Academia and industry collaboration,88000000,,23439.975
+26682,data2vec (language),2022-01-20,Language,Industry,705134592,131072000000,
+26682,data2vec (speech),2022-01-20,Speech,Industry,705134592,17510400,
+26682,data2vec (vision),2022-01-20,Vision,Industry,705134592,251108732,
+26684,AbLang (heavy sequences),2022-01-22,Biology,Academia,355000000,,
+26685,OntoProtein,2022-01-23,Multiple domains,Academia,420000000,2868520960,
+26689,InstructGPT 1.3B,2022-01-27,Language,Industry,1300000000,,
+26689,InstructGPT 175B,2022-01-27,Language,Industry,175000000000,16969897,3.19181e+08
+26689,InstructGPT 6B,2022-01-27,Language,Industry,6000000000,,
+26695,AlphaCode,2022-02-02,Language,Industry,41100000000,967000000000,2.3801e+08
+26700,RETRO-7B,2022-02-07,Language,Industry,7500000000,419430400000,1.68e+07
+26701,MaskGIT (ImageNet),2022-02-08,Image generation,Industry,227000000,,
+26702,GPT-NeoX-20B,2022-02-09,Language,Other,20000000000,341173367965,9.31627e+07
+26703,LaMDA,2022-02-10,Language,Industry,137000000000,2080000000000,3.55e+08
+26703,ProteinBERT,2022-02-10,Biology,Academia and industry collaboration,16000000,37598200000,65000.0
+26708,Midjourney V1,2022-02-15,Image generation,Industry,,,
+26710,ST-MoE,2022-02-17,Language,Industry,269000000000,1500000000000,2.9e+08
+26715,FourCastNet,2022-02-22,Other,Other,,,345047.06
+26719,PolyCoder,2022-02-26,Language,Academia,2700000000,39300000000,1.1e+06
+26722,DeepNet,2022-03-01,Language,Industry,3200000000,272629760000,
+26723,Statement Curriculum Learning,2022-03-02,Multiple domains,Industry,774000000,372000000000,1.7901648e+07
+26728,MegaSyn,2022-03-07,Other,Industry,,,
+26731,ViT-G (model soup),2022-03-10,Vision,Academia and industry collaboration,1843000000,1752320000,3.4000002e+06
+26736,GPT-3.5 (davinci-002),2022-03-15,Language,Industry,,,2.578e+09
+26742,"Segatron-XL large, M=384 + HCP",2022-03-21,Language,Academia and industry collaboration,257000000,103000000,26500.0
+26745,Make-A-Scene,2022-03-24,Image generation,Industry,4000000000,267386880000,6.417285e+06
+26750,Chinchilla,2022-03-29,Language,Industry,70000000000,1400000000000,5.76e+08
+26756,PaLM (540B),2022-04-04,Language,Industry,540350000000,780000000000,2.5272e+09
+26758,DALL·E 2,2022-04-06,Image generation,Industry,3500000000,167050000000,3.3695786e+08
+26759,BERT-RBP,2022-04-07,Biology,Academia,110000000,,140000.0
+26765,Stable Diffusion (LDM-KL-8-G),2022-04-13,Image generation,Academia and industry collaboration,1450000000,,5e+07
+26766,Sparse all-MLP,2022-04-14,Language,Industry,9410000000,100000000000,532224.0
+26766,XMC-GAN,2022-04-14,Image generation,Industry,,,
+26781,Flamingo,2022-04-29,Multiple domains,Industry,80000000000,458333333333,2.18972e+08
+26784,OPT-175B,2022-05-02,Language,Industry,175000000000,180000000000,4.3000003e+08
+26786,DeBERTaV3large + KEAR,2022-05-04,Language,Industry,418000000,,
+26792,UL2,2022-05-10,Language,Industry,20000000000,1000000000000,1.2e+08
+26794,Gato,2022-05-12,Multiple domains,Industry,1180000000,524288000000,4.02e+06
+26800,SimCSE,2022-05-18,Language,Academia,,27363505,
+26805,Imagen,2022-05-23,Image generation,Industry,7762000000,,1.46e+07
+26809,GPT-2 Medium (FlashAttention),2022-05-27,Language,Academia,355000000,10130000000,892809.25
+26809,Tranception,2022-05-27,Biology,Academia and industry collaboration,700000000,48230400000,7.2400005e+06
+26811,CogVideo,2022-05-29,Other,Academia,9400000000,145000000000,
+26818,Diffusion-GAN,2022-06-05,Image generation,Academia and industry collaboration,,,
+26819,DITTO,2022-06-06,Language,Academia and industry collaboration,750000000,103000000,3317.7603
+26826,MetaLM,2022-06-13,Multiple domains,Industry,,646707200000,
+26827,CoCa,2022-06-14,Vision,Industry,2100000000,1351680000000,7.3e+07
+26835,Parti,2022-06-22,Image generation,Industry,20000000000,4718592000000,5.0960797e+08
+26840,ProGen2-xlarge,2022-06-27,Biology,Academia and industry collaboration,6400000000,350000000000,1.3500001e+07
+26842,Minerva (540B),2022-06-29,Language,Industry,540350000000,26000000000,2.7415002e+09
+26848,CodeT5-large,2022-07-05,Language,Industry,770000000,10500000000,2.72e+06
+26849,NLLB,2022-07-06,Language,Industry,54500000000,300000000000,1.7511138e+07
+26854,BLOOM-176B,2022-07-11,Language,Other,176247271424,379000000000,3.65664e+08
+26864,ESM2-15B,2022-07-21,Biology,Academia and industry collaboration,15000000000,15360000000,7.35e+07
+26865,OmegaPLM,2022-07-22,Biology,Academia,670000000,1258291200000,1.0351411e+07
+26876,AlexaTM 20B,2022-08-02,Language,Industry,19750000000,1319000000000,2.0437402e+08
+26878,GLM-130B,2022-08-04,Language,Academia,130000000000,152000000000,3.5490054e+08
+26884,BlenderBot 3,2022-08-10,Language,Academia and industry collaboration,175000000000,1300000000,4.3000003e+08
+26896,BEIT-3,2022-08-22,Multiple domains,Industry,1900000000,,70000.0
+26919,PaLI,2022-09-14,Multiple domains,Industry,16900000000,143507000000,1.6900002e+08
+26919,SauTech,2022-09-14,Multiple domains,Other,,,
+26926,Whisper,2022-09-21,Speech,Industry,1550000000,12403200000,4.2072665e+06
+26934,Make-A-Video,2022-09-29,Other,Industry,,,
+26939,DiffDock,2022-10-04,Biology,Academia,20240000,4352000,72000.0
+26940,AlphaTensor,2022-10-05,Multiple domains,Industry,,,714147.8
+26940,Phenaki,2022-10-05,Other,Academia and industry collaboration,1800000000,,
+26946,Diplodocus,2022-10-11,Games,Academia and industry collaboration,,,
+26946,GenSLM,2022-10-11,Biology,Academia and industry collaboration,25000000000,225280000000,1.42e+06
+26955,Flan-PaLM 540B,2022-10-20,Language,Industry,540000000000,1400000000,2.54e+09
+26955,LMSI-Palm,2022-10-20,Language,Academia and industry collaboration,540000000000,1920000,
+26955,U-PaLM (540B),2022-10-20,Language,Industry,540000000000,1300000000,2.5300001e+09
+26959,EnCodec,2022-10-24,Other,Industry,,,
+26968,eDiff-I,2022-11-02,Image generation,Industry,9100000000,1556275200000,54600.004
+26969,Mogrifier RLSTM (WT2),2022-11-03,Language,Industry,35000000,2666667,140.0
+26969,mT0-13B,2022-11-03,Language,Other,13000000000,20000000000,
+26976,InternImage,2022-11-10,Vision,Academia and industry collaboration,1080000000,83692000000,2.4080002e+06
+26978,AltCLIP_M9,2022-11-12,Multiple domains,Academia,,,
+26980,EVA-01,2022-11-14,Vision,Academia,1011000000,7577600000,1.501e+07
+26982,Galactica,2022-11-16,Multiple domains,Industry,120000000000,106000000000,3.24e+08
+26984,Fusion in Encoder,2022-11-18,Language,Industry,330000000,960000,130000.0
+26986,AR-LDM,2022-11-20,Image generation,Academia and industry collaboration,1500000000,,510000.0
+26988,CICERO,2022-11-22,Games,Industry,,,
+26994,ALM 1.0,2022-11-28,Language,Academia,335000000,22696572400,
+26994,DiT-XL/2 + Discriminator Guidance,2022-11-28,Image generation,Academia and industry collaboration,,327978752,
+26994,Discriminator Guidance,2022-11-28,Image generation,Academia and industry collaboration,,327978752,215700.0
+26997,DeepNash,2022-12-01,Games,Industry,,2109703680000,
+27000,Vega v2,2022-12-04,Language,Academia,6000000000,6439999999,7.76e+07
+27006,TranceptEve,2022-12-10,Biology,Academia,,,
+27009,RT-1,2022-12-13,Robotics,Industry,35000000,,
+27015,CaLM,2022-12-19,Biology,Academia,86000000,2523746560,29000.0
+27024,Hybrid H3-2.7B,2022-12-28,Language,Academia,2700000000,400000000000,6.48e+06
+27032,VALL-E,2023-01-05,Multiple domains,Industry,353000000,76800000000,10100.0
+27037,DreamerV3,2023-01-10,Games,Academia and industry collaboration,200000000,1600000000,220320.0
+27042,Nucleotide Transformer,2023-01-15,Biology,Academia and industry collaboration,2500000000,300000000000,8.08e+06
+27043,Ankh_large,2023-01-16,Biology,Academia,1900000000,14000000000,6.5e+06
+27053,MusicLM,2023-01-26,Other,Industry,860000000,,
+27054,DDPM-IP (CelebA),2023-01-27,Image generation,Academia,295000000,831488000,350000.0
+27057,BLIP-2 (Q-Former),2023-01-30,Multiple domains,Industry,1480000000,2322000000,1.2e+06
+27064,Gen-1,2023-02-06,Other,Industry,,,
+27067,ProteinDT,2023-02-09,Multiple domains,Academia and industry collaboration,,132303900,
+27068,ViT-22B,2023-02-10,Vision,Industry,21743000000,4000000000,1.93248e+08
+27071,BASIC-L + Lion,2023-02-13,Vision,Academia and industry collaboration,3070000000,,
+27082,LLaMA-65B,2023-02-24,Language,Industry,65200000000,1400000000000,5.5e+08
+27088,DiT-XL/2,2023-03-02,Image generation,Academia,675000000,,600000.0
+27091,AudioGen,2023-03-05,Other,Academia and industry collaboration,1000000000,230400000000,9.5e+06
+27092,PaLM-E,2023-03-06,Multiple domains,Academia and industry collaboration,562000000000,,
+27100,Claude,2023-03-14,Language,Industry,,,
+27101,Falcon-40B,2023-03-15,Language,Other,40000000000,1000000000000,2.4e+08
+27101,GPT-4 (Mar 2023),2023-03-15,Multiple domains,Industry,1800000000000,5416666666666,2.1e+10
+27101,LEP-AD,2023-03-15,Biology,Academia,3007381000,1244420,
+27106,Gen-2,2023-03-20,Other,Industry,,,
+27106,PanGu-Σ,2023-03-20,Language,Industry,1085000000000,329000000000,4.67e+08
+27107,Firefly,2023-03-21,Image generation,Industry,,,
+27113,SigLIP 400M,2023-03-27,Vision,Industry,400000000,6705000000000,4.9467305e+06
+27115,VideoMAE V2,2023-03-29,Other,Academia,1000000000,1243350000,9.7e+06
+27116,BloombergGPT,2023-03-30,Language,Academia and industry collaboration,50558868480,569000000000,2.3600002e+08
+27122,Segment Anything Model,2023-04-05,Vision,Industry,636000000,1100000000,7.8e+06
+27126,Incoder-6.7B,2023-04-09,Language,Academia and industry collaboration,6700000000,52000000000,3.0000102e+06
+27131,DINOv2,2023-04-14,Vision,Academia and industry collaboration,1140000000,36380002816,7.418511e+06
+27134,LLaVA,2023-04-17,Multiple domains,Academia and industry collaboration,13000000000,,7.8049e+07
+27143,Agile Soccer Robot,2023-04-26,Robotics,Industry,,3140000000,
+27156,ImageBind,2023-05-09,Multiple domains,Industry,932000000,,
+27156,StarCoder,2023-05-09,Language,Other,15500000000,203750000000,8.46e+07
+27157,PaLM 2,2023-05-10,Language,Industry,340000000000,3600000000000,7.3399997e+09
+27158,InstructBLIP,2023-05-11,Multiple domains,Academia and industry collaboration,13000000000,,194000.0
+27163,Med-PaLM 2,2023-05-16,Multiple domains,Industry,340000000000,16020450,
+27164,CoEdiT-xxl,2023-05-17,Language,Academia and industry collaboration,11000000000,1093333,
+27165,ONE-PEACE,2023-05-18,Multiple domains,Academia and industry collaboration,4000000000,490617000000,180000.0
+27167,CodeT5+,2023-05-20,Language,Industry,16000000000,51500000000,
+27170,Goat-7B,2023-05-23,Language,Academia,7000000000,43700000,
+27176,DPO on Pythia-2.8B,2023-05-29,Language,Academia,2800000000,,
+27176,PaLI-X,2023-05-29,Multiple domains,Industry,55000000000,,5.6e+08
+27184,LTM-1,2023-06-06,Language,Industry,,,
+27186,MusicGen,2023-06-08,Other,Industry,3359000000,14284800000000,
+27191,GPT-3.5 Turbo,2023-06-13,Language,Industry,20000000000,,
+27191,GPT-4 (Jun 2023),2023-06-13,Multiple domains,Industry,1800000000000,5416666666666,2.1e+10
+27205,ERNIE 3.5,2023-06-27,Language,Industry,,,
+27205,HyenaDNA,2023-06-27,Biology,Academia,6600000,2945000000,1.811e+06
+27212,Stable Diffusion XL (SDXL),2023-07-04,Image generation,Industry,3400000000,,
+27213,Pangu-Weather,2023-07-05,Other,Industry,256000000,24457821696000,3.98e+07
+27214,InternLM,2023-07-06,Language,Academia and industry collaboration,104000000000,1600000000000,9.984e+08
+27214,xTrimoPGLM -100B,2023-07-06,Biology,Academia and industry collaboration,100000000000,275000000000,6.2e+08
+27219,Claude 2,2023-07-11,Language,Industry,,,3.8660001e+09
+27226,GPT3-2.7B (FlashAttention-2),2023-07-18,Language,Academia,2700000000,,
+27226,Llama 2-70B,2023-07-18,Language,Industry,70000000000,2000000000000,8.1e+08
+27226,Llama 2-7B,2023-07-18,Language,Industry,7000000000,2000000000000,8.4e+07
+27234,AudioLM,2023-07-26,Other,Industry,1500000000,135000000000,3900.0
+27236,RT-2,2023-07-28,Robotics,Industry,55000000000,,
+27244,GGNN,2023-08-05,Biology,Academia,,,7.5600005e+06
+27263,Qwen-VL,2023-08-24,Multiple domains,Industry,9600000000,500000000000,
+27267,PeptideBERT,2023-08-28,Biology,Academia,,4160566,49.000004
+27268,Jais,2023-08-29,Language,Academia and industry collaboration,13000000000,395000000000,4.8946764e+07
+27269,Swift,2023-08-30,Robotics,Industry,56804,120000000,53.37
+27276,Falcon-180B,2023-09-06,Language,Other,180000000000,3500000000000,3.7600003e+09
+27282,Robot Parkour,2023-09-12,Robotics,Academia,500000,,
+27292,AlphaMissense,2023-09-22,Biology,Industry,93000000,2304000000,
+27295,GPT-4V,2023-09-25,Multiple domains,Industry,,,
+27297,Show-1,2023-09-27,Other,Academia,,160358400000000,
+27298,Amazon Titan,2023-09-28,Multiple domains,Industry,200000000000,4000000000000,4.8e+09
+27298,GPT-3.5 Turbo Instruct,2023-09-28,Language,Industry,20000000000,,
+27301,CTM (CIFAR-10),2023-10-01,Image generation,Academia and industry collaboration,,,
+27307,FinGPT-13B,2023-10-07,Language,Academia,13000000000,76800,1.6e+08
+27309,RoseTTAFold All-Atom (RFAA),2023-10-09,Biology,Academia,,63240960,214000.02
+27311,Ferret (13B),2023-10-11,Multiple domains,Academia and industry collaboration,13000000000,172649572,
+27313,RT-2-X,2023-10-13,Robotics,Industry,55000000000,,
+27317,ERNIE 4.0,2023-10-17,Multiple domains,Industry,,,
+27317,PaLI-3,2023-10-17,Multiple domains,Industry,5000000000,,
+27319,DALL·E 3,2023-10-19,Image generation,Industry,,,
+27326,CODEFUSION (Python),2023-10-26,Language,Industry,75000000,4390400,7920.0
+27326,DiT-XL/2 + CADS,2023-10-26,Image generation,Academia and industry collaboration,675000000,,
+27327,ChatGLM3-6B,2023-10-27,Multiple domains,Industry,6000000000,1400000000000,5.04e+07
+27330,Skywork-13B,2023-10-30,Language,Industry,13000000000,3200000000000,2.5e+08
+27333,Cohere Embed,2023-11-02,Language,Industry,,,
+27333,Yi-34B,2023-11-02,Language,Industry,34000000000,3100000000000,6.1000006e+08
+27334,BLUUMI,2023-11-03,Language,Academia and industry collaboration,176000000000,38000000000,
+27334,RT-Trajectory,2023-11-03,Robotics,Academia and industry collaboration,,,
+27335,Grok-1,2023-11-04,Language,Industry,314000000000,6200000000000,2.9e+09
+27336,LLaVA 1.5,2023-11-05,Multiple domains,Academia and industry collaboration,13000000000,,7.807e+07
+27337,CogVLM-17B,2023-11-06,Multiple domains,Academia and industry collaboration,17000000000,,6.331e+07
+27337,GPT-4 Turbo (Nov 2023),2023-11-06,Multiple domains,Industry,,,
+27338,OmniVec,2023-11-07,Multiple domains,Industry,,,
+27338,mPLUG-Owl2,2023-11-07,Multiple domains,Industry,7120000000,182032793600,
+27339,MultiBand Diffusion,2023-11-08,Multiple domains,Academia and industry collaboration,,,26000.0
+27339,RoFormer,2023-11-08,Language,Industry,110000000,3276800000,2162.688
+27344,SPHINX (Llama 2 13B),2023-11-13,Multiple domains,Academia,19900000000,,3.04e+07
+27344,Volcano 13B,2023-11-13,Multiple domains,Academia and industry collaboration,13000000000,,4.56e+07
+27345,GraphCast,2023-11-14,Other,Industry,,,2.1e+07
+27345,Qwen-Audio-Chat,2023-11-14,Multiple domains,Industry,8460000000,,
+27346,Nemotron-3-8B,2023-11-15,Language,Industry,8000000000,3800000000000,1.8e+08
+27347,AndesGPT,2023-11-16,Language,Industry,,,
+27352,Claude 2.1,2023-11-21,Language,Industry,,,
+27353,Inflection-2,2023-11-22,Language,Industry,,,1.001e+10
+27360,GNoME for crystal discovery,2023-11-29,Other,Industry,16240000,69000,
+27360,PPLX-70B-Online,2023-11-29,Language,Industry,70000000000,,
+27361,Qwen-72B,2023-11-30,Language,Industry,72000000000,3000000000000,1.3e+09
+27362,Mamba-24M (SC09),2023-12-01,Speech,Academia,23400000,96672,
+27367,Gemini 1.0 Pro,2023-12-06,Multiple domains,Industry,,,
+27367,Gemini 1.0 Ultra,2023-12-06,Multiple domains,Industry,,,5.0000003e+10
+27368,Llama Guard,2023-12-07,Language,Industry,7000000000,4096000,1.6e+08
+27369,SeamlessM4T,2023-12-08,Multiple domains,Academia and industry collaboration,2300000000,,
+27372,Mixtral 8x7B,2023-12-11,Language,Industry,46700000000,,7.74e+08
+27372,W.A.L.T,2023-12-11,Other,Academia and industry collaboration,4719000000,,
+27373,VILA-13B,2023-12-12,Multiple domains,Academia and industry collaboration,13350839296,32430000000,2.3003135e+06
+27375,CogAgent,2023-12-14,Multiple domains,Academia and industry collaboration,18000000000,,6.7070004e+07
+27375,FunSearch,2023-12-14,Multiple domains,Industry,15000000000,,3.87e+08
+27380,Gemini Nano-1,2023-12-19,Multiple domains,Industry,1800000000,,
+27380,Gemini Nano-2,2023-12-19,Multiple domains,Industry,3250000000,,
+27382,nekomata-14b,2023-12-21,Language,Industry,14200000000,66000000000,2.5562e+08
+27384,GQA-8-XXL,2023-12-23,Language,Industry,11000000000,,3.4912896e+07
+27390,CoRe,2023-12-29,Multiple domains,Academia,12400000000,,
+27393,Kimi Explorer,2024-01-01,Language,Industry,,,
+27393,Palmyra X 003,2024-01-01,Language,Industry,72000000000,,
+27409,AlphaGeometry,2024-01-17,Other,Academia and industry collaboration,151000000,,
+27417,Qwen-VL-Max,2024-01-25,Multiple domains,Industry,7000000000,,
+27427,Qwen1.5-72B,2024-02-04,Language,Industry,72000000000,3000000000000,1.3e+09
+27435,Aya,2024-02-12,Language,Academia and industry collaboration,13000000000,1144220000000,
+27438,Gemini 1.5 Pro,2024-02-15,Multiple domains,Industry,,,
+27438,Sora,2024-02-15,Multiple domains,Industry,,,
+27445,Stable Diffusion 3,2024-02-22,Image generation,Industry,8000000000,,5e+07
+27446,MegaScale (Production),2024-02-23,Language,Academia and industry collaboration,530000000000,,3.9e+09
+27449,Mistral Large,2024-02-26,Language,Industry,,,
+27456,Aramco Metabrain AI,2024-03-04,Language,Other,250000000000,7000000000000,1.05e+10
+27456,Claude 3 Opus,2024-03-04,Multiple domains,Industry,,,
+27456,Claude 3 Sonnet,2024-03-04,Multiple domains,Industry,,,
+27459,Inflection-2.5,2024-03-07,Language,Industry,,,8.0000015e+09
+27465,ManiGaussian,2024-03-13,Multiple domains,Academia,,,
+27466,MM1-30B,2024-03-14,Multiple domains,Industry,30000000000,,4.86e+08
+27479,DBRX,2024-03-27,Language,Industry,132000000000,12000000000000,2.6e+09
+27481,ReALM,2024-03-29,Language,Industry,3000000000,134000000000,
+27492,GPT-4 Turbo (Apr 2024),2024-04-09,Multiple domains,Industry,,,
+27498,Reka Core,2024-04-15,Multiple domains,Industry,67000000000,,8.40001e+09
+27501,Llama 3-70B,2024-04-18,Language,Industry,70000000000,15000000000000,7.861e+09
+27514,GenCast,2024-05-01,Other,Industry,,,816998.44
+27516,VILA1.5-13B,2024-05-03,Multiple domains,Academia and industry collaboration,13493916736,32430000000,2.3003135e+06
+27521,AlphaFold 3,2024-05-08,Biology,Industry,,29491200000,4.1405644e+07
+27526,GPT-4o,2024-05-13,Multiple domains,Industry,,,
+27526,Yi-Large,2024-05-13,Language,Industry,100000000000,3000000000000,1.8e+09
+27533,GLM-4 (0520),2024-05-20,Language,Industry,,10000000000000,
+27533,Octo-Base,2024-05-20,Robotics,Academia and industry collaboration,93000000,,585000.0
+27534,ALLaM adapted 70B,2024-05-21,Language,Other,70000000000,600000000000,1.06200006e+09
+27551,Qwen2-72B,2024-06-07,Language,Industry,72710000000,7000000000000,3.02e+09
+27557,OpenVLA,2024-06-13,Multiple domains,Academia and industry collaboration,7188100000,,1.1e+08
+27558,Nemotron-4 340B,2024-06-14,Language,Industry,340000000000,9000000000000,1.8e+10
+27561,DeepSeek-Coder-V2 236B,2024-06-17,Language,Industry,236000000000,3191000000000,1.2852e+09
+27564,Claude 3.5 Sonnet,2024-06-20,Multiple domains,Industry,,,2.6999998e+10
+27568,Cambrian-1-34B,2024-06-24,Multiple domains,Academia,34000000000,,
+27569,ESM3 (98B),2024-06-25,Biology,Academia and industry collaboration,98500000000,771000000000,1.07e+09
+27572,Ernie 4.0 Turbo,2024-06-28,Multiple domains,Industry,,,
+27580,SenseChat 5.5,2024-07-06,Multiple domains,Industry,600000000000,,
+27590,DeepL LLM,2024-07-16,Language,Industry,,,
+27590,Mathstral,2024-07-16,Multiple domains,Industry,7000000000,,
+27592,GPT-4o mini,2024-07-18,Multiple domains,Industry,,,
+27597,Llama 3.1-405B,2024-07-23,Language,Industry,405000000000,15600000000000,3.8e+10
+27598,Mistral Large 2,2024-07-24,Language,Industry,123000000000,,
+27603,AFM-on-device,2024-07-29,Language,Industry,2730000000,7588000000000,4.5126e+08
+27603,AFM-server,2024-07-29,Language,Industry,,7400000000000,4.3e+09
+27611,GPT-4o (Aug 2024),2024-08-06,Multiple domains,Industry,,,
+27611,LLaVA-OV-72B,2024-08-06,Multiple domains,Academia and industry collaboration,72000000000,38314782000,3.036552e+09
+27612,Table Tennis Agent,2024-08-07,Robotics,Industry,185000,2400000000,
+27618,Grok-2,2024-08-13,Multiple domains,Industry,,,2.9600002e+10
+27627,Jamba 1.5-Large,2024-08-22,Language,Industry,398000000000,,
+27634,GLM-4-Plus,2024-08-29,Language,Industry,,,
+27634,Hairuo,2024-08-29,Language,Industry,,,
+27641,AlphaProteo,2024-09-05,Biology,Industry,,,
+27641,Harrison.rad.1,2024-09-05,Multiple domains,Industry,,,
+27641,Hunyuan Turbo,2024-09-05,Language,Industry,,,
+27642,DeepSeek-V2.5,2024-09-06,Language,Industry,236000000000,,1.7892e+09
+27648,o1-mini,2024-09-12,Language,Industry,,,
+27648,o1-preview,2024-09-12,Multiple domains,Industry,,,
+27653,Qwen2.5-32B,2024-09-17,Language,Industry,32500000000,18000000000000,3.51e+09
+27655,Oryx 34B,2024-09-19,Multiple domains,Academia and industry collaboration,34000000000,,
+27655,Qwen2.5 Instruct (72B),2024-09-19,Language,Industry,72700000000,,7.8516004e+09
+27655,Qwen2.5-72B,2024-09-19,Language,Industry,72700000000,18000000000000,7.8e+09
+27656,Telechat2-115B,2024-09-20,Language,Industry,115000000000,10000000000000,6.9000003e+09
+27660,Llama 3.2 11B,2024-09-24,Multiple domains,Industry,10600000000,,5.79e+08
+27660,PixelDance,2024-09-24,Multiple domains,Industry,,114229250000000,
+27670,Movie Gen Video,2024-10-04,Multiple domains,Industry,30000000000,3400000000,1.65e+09
+27674,GR-2,2024-10-08,Robotics,Industry,230000000,,
+27675,Palmyra X 004,2024-10-09,Language,Industry,150000000000,,
+27676,RDT-1B,2024-10-10,Robotics,Academia,1200000000,,4.06e+07
+27678,Llama-3.1-Nemotron-70B-Instruct,2024-10-12,Language,Industry,,,7.929e+09
+27681,CHAI-1,2024-10-15,Biology,Industry,,,7.7605725e+06
+27682,Yi-Lightning,2024-10-16,Language,Industry,,,1.5e+09
+27688,NVLM-D 72B,2024-10-22,Multiple domains,Industry,72000000000,57016320000,3.02e+09
+27688,NVLM-H 72B,2024-10-22,Multiple domains,Industry,72000000000,125829120000,3.02e+09
+27688,NVLM-X 72B,2024-10-22,Multiple domains,Industry,72000000000,45875200000,3.0398182e+09
+27694,Doubao-pro,2024-10-28,Language,Industry,500000000000,8350000000000,2.5050001e+10
+27703,Hunyuan-Large,2024-11-06,Language,Industry,389000000000,7000000000000,3.49237e+09
+27708,SeedEdit,2024-11-11,Vision,Industry,,,
+27712,Gemini-Exp-1114,2024-11-15,Language,Industry,,,
+27713,k0-math,2024-11-16,Multiple domains,Industry,,,
+27715,Pixtral Large,2024-11-18,Multiple domains,Industry,124000000000,,
+27716,Suno v4,2024-11-19,Other,Industry,,,
+27717,GPT-4o (Nov 2024),2024-11-20,Multiple domains,Industry,,,
+27722,Fugatto 1,2024-11-25,Multiple domains,Industry,2500000000,,
+27730,Amazon Nova Pro,2024-12-03,Multiple domains,Industry,,,6.0000097e+09
+27732,Infinity,2024-12-05,Image generation,Industry,2000000000,,
+27732,NVILA 15B,2024-12-05,Multiple domains,Academia and industry collaboration,15000000000,,
+27732,o1,2024-12-05,Multiple domains,Industry,,,
+27733,Llama 3.3 70B,2024-12-06,Language,Industry,70000000000,15000000000000,6.864977e+09
+27736,EXAONE 3.5 32B,2024-12-09,Language,Industry,32000000000,6500000000000,1.25e+09
+27736,Sora Turbo,2024-12-09,Multiple domains,Industry,,,
+27738,Gemini 2.0 Pro,2024-12-11,Multiple domains,Industry,,,
+27740,Apollo 7B,2024-12-13,Multiple domains,Academia and industry collaboration,7000000000,,
+27743,Veo 2,2024-12-16,Multiple domains,Industry,,,
+27747,o3,2024-12-20,Multiple domains,Industry,,,
+27751,DeepSeek-V3,2024-12-24,Language,Industry,671000000000,14800000000000,3.3e+09
+27758,STORM-B/8,2024-12-31,Other,Academia and industry collaboration,100598707,,
+27760,Eurus-2-7B-PRIME,2025-01-02,Multiple domains,Academia,7000000000,830000,401915.9
+27766,Stable Point Aware 3D (SPAR3D),2025-01-08,Other,Academia and industry collaboration,,,
+27775,INTELLECT-MATH,2025-01-17,Other,Industry,7000000000,,
+27778,DeepSeek-R1,2025-01-20,Language,Industry,671000000000,14800000000000,3.5e+09
+27778,Eagle 2,2025-01-20,Multiple domains,Academia and industry collaboration,8930000000,,4.7156e+07
+27780,Doubao-1.5-pro,2025-01-22,Language,Industry,,9000000000000,
+27780,Kimi k1.5,2025-01-22,Multiple domains,Industry,,,
+27781,Computer-Using Agent (CUA),2025-01-23,Multiple domains,Industry,,,
+27787,GPT-4o (Jan 2025),2025-01-29,Multiple domains,Industry,,,
+27789,o3-mini,2025-01-31,Language,Industry,,,
+27806,Grok 3,2025-02-17,Multiple domains,Industry,3000000000000,,3.5e+11
+27813,Claude 3.7 Sonnet,2025-02-24,Multiple domains,Industry,,,3.35e+10
+27816,GPT-4.5,2025-02-27,Multiple domains,Industry,,,3.8e+11
+27816,Mercury,2025-02-27,Language,Industry,,,
+27823,Mistral OCR,2025-03-06,Multiple domains,Industry,,,
+27823,QwQ-32B,2025-03-06,Language,Industry,32500000000,,3.51e+09
+27828,Hunyuan-TurboS,2025-03-11,Language,Industry,560000000000,16000000000000,5.4e+09
+27833,ERNIE-4.5-VL-424B-A47B (文心大模型4.5),2025-03-16,Multiple domains,Industry,424000000000,,
+27833,EXAONE Deep 32B,2025-03-16,Language,Industry,32000000000,12000000000,1.26e+09
+27836,o1-pro,2025-03-19,Multiple domains,Industry,,,
+27839,Diffusion Renderer,2025-03-22,Other,Academia and industry collaboration,1100000000,,
+27841,DeepSeek-V3 (Mar 2025),2025-03-24,Language,Industry,671000000000,14800000000000,3.3e+09
+27842,Gemini 2.5 Pro (Mar 2025),2025-03-25,Multiple domains,Industry,,,
+27844,GPT-4o (Mar 2025),2025-03-27,Multiple domains,Industry,,,
+27853,Llama 4 Behemoth (preview),2025-04-05,Multiple domains,Industry,2000000000000,30000000000000,5.184e+10
+27853,Llama 4 Maverick,2025-04-05,Multiple domains,Industry,400000000000,30000000000000,2.244e+09
+27853,Llama 4 Scout,2025-04-05,Multiple domains,Industry,109000000000,30000000000000,4.0800003e+09
+27858,Pangu Ultra,2025-04-10,Language,Industry,135000000000,13200000000000,1.0692001e+10
+27871,gpt-image-1,2025-04-23,Multiple domains,Industry,,,
+27877,Qwen3-235B-A22B,2025-04-29,Language,Industry,235000000000,36000000000000,4.752e+09
+27884,Gemini 2.5 Pro (May 2025),2025-05-06,Multiple domains,Industry,,,
+27889,Seed1.5-VL,2025-05-11,Multiple domains,Industry,,3000000000000,1.388556e+09
+27898,Imagen 4,2025-05-20,Image generation,Industry,,,
+27899,Veo 3,2025-05-21,Multiple domains,Industry,,,
+27900,Claude Opus 4,2025-05-22,Multiple domains,Industry,,,
+27900,Claude Sonnet 4,2025-05-22,Multiple domains,Industry,,,
+27906,DeepSeek-R1 (May 2025),2025-05-28,Language,Industry,671000000000,14800000000000,4.02001e+09
+27914,Gemini 2.5 Pro (Jun 2025),2025-06-05,Multiple domains,Industry,,,
+27914,Qwen3 Embedding,2025-06-05,Language,Industry,8000000000,,
+27920,Seed-1.6-Thinking,2025-06-11,Multiple domains,Industry,230000000000,,
+27921,FGN,2025-06-12,Other,Industry,720000000,,9.618951e+06
+27948,EXAONE Path 2.0,2025-07-09,Multiple domains,Industry,175000000,144450,
+27948,Grok 4,2025-07-09,Multiple domains,Industry,3000000000000,,5e+11
+27949,Grok 4 Heavy,2025-07-10,Language,Industry,,,
+27950,Kimi K2,2025-07-11,Language,Industry,1000000000000,15500000000000,2.976e+09
+27953,Gemini Embedding,2025-07-14,Language,Industry,,,
+27954,EXAONE 4.0 (32B),2025-07-15,Language,Industry,32000000000,14000000000000,2.69e+09
+27961,Qwen3-Coder-480B-A35B,2025-07-22,Language,Industry,480000000000,7500000000000,1.575e+09
+27964,Qwen3-235B-A22B (Jul 2025),2025-07-25,Language,Industry,235000000000,36000000000000,4.752e+09
+27964,Qwen3-235B-A22B-Thinking (Jul 2025),2025-07-25,Language,Industry,235000000000,36000000000000,4.752e+09
+27967,GLM-4.5,2025-07-28,Language,Academia and industry collaboration,355000000000,23100000000000,4.4200003e+09
+27971,Gemini 2.5 Deep Think,2025-08-01,Multiple domains,Industry,,,
+27971,MindLink-72B,2025-08-01,Language,Industry,72000000000,,
+27974,Hierarchical Reasoning Model (HPM),2025-08-04,Multiple domains,Not specified,27000000,,
+27974,Qwen Image,2025-08-04,Multiple domains,Industry,27000000000,,
+27975,Claude Opus 4.1,2025-08-05,Multiple domains,Industry,,,
+27975,gpt-oss-120b,2025-08-05,Language,Industry,116830000000,,4.94e+09
+27975,gpt-oss-20b,2025-08-05,Language,Industry,20910000000,,5.49e+08
+27977,GPT-5,2025-08-07,Multiple domains,Industry,,,6.6000003e+10
+27977,GPT-5 mini,2025-08-07,Multiple domains,Industry,,,
+27977,GPT-5 nano,2025-08-07,Multiple domains,Industry,,,
+27996,Gemini 2.5 Flash Image (Nano Banana),2025-08-26,Image generation,Industry,,,
+28002,LongCat-Flash,2025-09-01,Language,Industry,560000000000,23000000000000,3.7259999e+09
+28006,Qwen3-Max,2025-09-05,Language,Industry,1000000000000,36000000000000,1.512e+10
+28017,AgentFounder-30B,2025-09-16,Language,Industry,30000000000,315000000000,6.5367e+08
+28023,Qwen3-Omni-30B-A3B,2025-09-22,Multiple domains,Industry,35300000000,2000000000000,3.6e+07
+28026,Gemini Robotics-ER 1.5,2025-09-25,Multiple domains,Industry,,,
+28030,Claude Sonnet 4.5,2025-09-29,Multiple domains,Industry,,,
+28031,GLM-4.6,2025-09-30,Language,Academia and industry collaboration,357000000000,23000000000000,4.4200003e+09
+28031,Sora 2.0,2025-09-30,Other,Industry,,,
+28038,GPT-5 Pro,2025-10-07,Multiple domains,Industry,,,
+28041,Ling-1T,2025-10-10,Language,Industry,1000000000000,20000000000000,6.0000015e+09
+28046,Claude Haiku 4.5,2025-10-15,Language,Industry,,,
+28046,Veo 3.1,2025-10-15,Multiple domains,Industry,,,
+28058,MiniMax-M2,2025-10-27,Language,Industry,229000000000,,
+28059,Tongyi DeepResearch,2025-10-28,Language,Industry,30500000000,,
+28068,Kimi K2 Thinking,2025-11-06,Language,Industry,1000000000000,,4.2e+09
+28069,Kaiju Large,2025-11-07,Language,Industry,110000000000,,
+28069,Kaiju Medium,2025-11-07,Language,Industry,34000000000,,
+28069,Kaiju Small,2025-11-07,Language,Industry,13000000000,,
+28072,Meta's Generative Ads Model (GEM),2025-11-10,Other,Industry,,,
+28074,GPT-5.1-Codex,2025-11-12,Language,Industry,,,
+28075,GPT-5.1,2025-11-13,Multiple domains,Industry,,,
+28075,GPT-5.1 Instant,2025-11-13,Multiple domains,Industry,,,
+28079,Grok 4.1,2025-11-17,Language,Industry,,,
+28079,P1-235B-A22B,2025-11-17,Language,Academia,235000000000,,
+28079,π0.6 (pi-0.6),2025-11-17,Multiple domains,Industry,5260000000,,
+28080,Gemini 3 Pro,2025-11-18,Multiple domains,Industry,,,
+28081,GPT-5.1-Codex-Max,2025-11-19,Language,Industry,,,
+28081,Grok 4.1 Fast,2025-11-19,Language,Industry,,,
+28082,Gemini 3 Pro Image (Nano Banana Pro),2025-11-20,Image generation,Industry,,,
+28082,Olmo 3,2025-11-20,Language,Other,32000000000,5500000000000,1.1e+09
+28086,Claude Opus 4.5,2025-11-24,Multiple domains,Industry,,,
+28089,DeepSeekMath-V2,2025-11-27,Language,Industry,685000000000,,
+28096,SIMA 2,2025-12-04,Other,Industry,,,
+28103,GPT-5.2,2025-12-11,Other,Industry,,,
+28103,GPT-5.2 Pro,2025-12-11,Multiple domains,Industry,,,
+28107,Nemotron 3-Nano-30B-A3B,2025-12-15,Language,Industry,31600000000,,4.8e+08
+28110,GPT-5.2 Codex,2025-12-18,Language,Industry,,,
+28114,GLM-4.7,2025-12-22,Language,Industry,358000000000,,4.4200003e+09
+28115,MiniMax-M2.1,2025-12-23,Language,Industry,229000000000,,
+28121,HyperCLOVA X SEED 32B Think,2025-12-29,Multiple domains,Industry,32000000000,,
+28122,A.X K1,2025-12-30,Language,Industry,519000000000,,
+28122,VAETKI,2025-12-30,Language,Industry,100000000000,,
+28123,K-EXAONE,2025-12-31,Language,Industry,236000000000,11000000000000,1.52e+09
+28123,Solar Open 100B,2025-12-31,Language,Industry,102000000000,19700000000000,1.4e+09
+28148,Qwen3-Max-Thinking,2026-01-25,Language,Industry,,,
+28156,Kimi K2.5,2026-02-02,Language,Industry,1040000000000,,5.8e+09
+28156,Qwen3-Coder-Next,2026-02-02,Language,Industry,80000000000,,
+28159,GPT-5.3 Codex,2026-02-05,Language,Industry,,,
+28166,GLM-5,2026-02-12,Language,Industry,744000000000,,6.8400005e+09
+28166,Seedance 2.0,2026-02-12,Multiple domains,Industry,,,
+28169,Qwen3.5 397B-A17B,2026-02-15,Multiple domains,Industry,397000000000,,
+28171,Grok 4.20,2026-02-17,Language,Industry,500000000000,,
+28178,Qwen3.5-122B-A10B,2026-02-24,Language,Industry,122000000000,,
+28183,SWE 1.6,2026-03-01,Language,Industry,,,
+28185,Gemini 3.0 Flash-lite,2026-03-03,Language,Industry,,,
+28187,GPT-5.4,2026-03-05,Multiple domains,Industry,,,
+28187,GPT-5.4 Pro,2026-03-05,Multiple domains,Industry,,,
+28193,Nemotron 3 Super,2026-03-11,Language,Industry,120000000000,,
+28200,MiMo-V2-Pro,2026-03-18,Language,Industry,1020000000000,,
+28201,Composer 2,2026-03-19,Language,Industry,1040000000000,,2.32e+10
+28211,Qwen3.5-Omni-Flash,2026-03-29,Multiple domains,Industry,,,
+28211,Qwen3.5-Omni-Plus,2026-03-29,Multiple domains,Industry,,,
+28214,Qwen 3.6 Plus,2026-04-01,Multiple domains,Industry,,,
+28218,MolmoAct 2,2026-04-05,Multiple domains,Other,5485309424,,1.1000001e+07
+28220,GLM-5.1,2026-04-07,Language,Industry,754000000000,,
+28221,Muse Spark,2026-04-08,Multiple domains,Industry,,,
+28222,EXAONE 4.5,2026-04-09,Multiple domains,Industry,33200000000,,3.8500001e+09
+28228,Gemini Flash 3.1 TTS,2026-04-15,Other,Industry,,,
+28229,Claude Opus 4.7,2026-04-16,Language,Industry,,,
+28233,Kimi K2.6,2026-04-20,Language,Industry,1040000000000,,
+28234,GPT Image 2,2026-04-21,Image generation,Industry,,,
+28236,GPT-5.5,2026-04-23,Multiple domains,Industry,,,
+28236,GPT-5.5 Pro,2026-04-23,Multiple domains,Industry,,,
+28236,MiMo-V2.5-Pro,2026-04-23,Language,Industry,1020000000000,27000000000000,6.8040003e+09
+28236,Tencent Hy3 preview,2026-04-23,Language,Industry,295000000000,,
+28237,DeepSeek-V4-Flash,2026-04-24,Language,Industry,284000000000,,2.4960003e+09
+28237,DeepSeek-V4-Pro,2026-04-24,Language,Industry,1600000000000,,9.702001e+09
+28248,GPT-5.5 Instant,2026-05-05,Multiple domains,Industry,,,
+28254,TML-Interaction-Small,2026-05-11,Multiple domains,Industry,276000000000,,
+28261,Composer 2.5,2026-05-18,Language,Industry,1040000000000,,3.8700003e+10
+28262,Gemini 3.5 Flash,2026-05-19,Multiple domains,Industry,,,
+28271,Claude Opus 4.8,2026-05-28,Language,Industry,,,
+28275,MiniMax-M3,2026-06-01,Multiple domains,Industry,428000000000,,
+28276,MAI-Code-1-Flash,2026-06-02,Language,Industry,,,
+28276,MAI-Image-2.5,2026-06-02,Image generation,Industry,,,
+28278,Nemotron 3 Ultra,2026-06-04,Language,Industry,550000000000,,6.6e+09
+28283,Claude Fable 5,2026-06-09,Multiple domains,Industry,,,
+28283,Claude Mythos 5,2026-06-09,Multiple domains,Industry,,,
+28302,Solar Open2 250B,2026-06-28,Language,Industry,250300000000,11000000000000,1.05e+09
+28303,LongCat-2.0,2026-06-29,Language,Industry,1600000000000,35000000000000,1.008e+10
+28310,Tencent Hy3,2026-07-06,Language,Industry,295000000000,,
+28319,Inkling,2026-07-15,Multiple domains,Industry,975000000000,45000000000000,1.845e+09
+28320,Kimi K3,2026-07-16,Multiple domains,Industry,2800000000000,,2.0001e+10
+28323,Qwen 3.8 Max,2026-07-19,Multiple domains,Industry,2400000000000,,
+28328,Claude Opus 5,2026-07-24,Multiple domains,Industry,,,
+28333,A.X K2,2026-07-29,Language,Industry,688000000000,,1.8e+09
+28335,K-EXAONE 2.0,2026-07-31,Language,Industry,750000000000,,3.55e+09
+28340,Muse Spark 1.2,2026-08-05,Language,Industry,,,
+28342,Motif-3,2026-08-07,Language,Industry,314000000000,,1.1e+09
+28343,Qwen3.8-2.4T-A95B,2026-08-08,Language,Industry,2400000000000,,
+28346,GPT-5.5 Cyber,2026-08-11,Other,Industry,,,
+28346,GPT-5.6 Cyber,2026-08-11,Multiple domains,Industry,,,
+28349,GLM-5.3,2026-08-14,Language,Industry,744000000000,,
+28368,Gemini 3.8 Flash,2026-09-02,Multiple domains,Industry,,,
+28369,GPT-6 Astra,2026-09-03,Multiple domains,Industry,,,
+28369,OpenEvidence Darwin,2026-09-03,Multiple domains,Not specified,,,

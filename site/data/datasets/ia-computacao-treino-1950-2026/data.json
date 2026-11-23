@@ -1,0 +1,4378 @@
+{
+ "rows": [
+  {
+   "x": 1950.499,
+   "y": 40,
+   "label": "Theseus",
+   "xLabel": "2 jul. 1950",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 1957,
+   "y": 694894.9,
+   "label": "Perceptron Mark I",
+   "xLabel": "1 jan. 1957",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1959.085,
+   "y": 600000000,
+   "label": "Pandemonium (morse)",
+   "xLabel": "1 fev. 1959",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 1959.496,
+   "y": 428400000,
+   "label": "Samuel Neural Checkers",
+   "xLabel": "1 jul. 1959",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 1960.243,
+   "y": 720000000,
+   "label": "Perceptron (1960)",
+   "xLabel": "30 mar. 1960",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 1960.495,
+   "y": 6600,
+   "label": "ADALINE",
+   "xLabel": "30 jun. 1960",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 1962.414,
+   "y": 1559250.1,
+   "label": "Linear Decision Functions",
+   "xLabel": "1 jun. 1962",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 1963,
+   "y": 22500000,
+   "label": "Print Recognition Logic",
+   "xLabel": "1 jan. 1963",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 1965.748,
+   "y": 1080000,
+   "label": "Heuristic Reinforcement Learning",
+   "xLabel": "1 out. 1965",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1966.833,
+   "y": 105917060,
+   "label": "LTE speaker verification system",
+   "xLabel": "1 nov. 1966",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 1975.666,
+   "y": 5184000,
+   "label": "Cognitron",
+   "xLabel": "1 set. 1975",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 1980.249,
+   "y": 273738240,
+   "label": "Neocognitron",
+   "xLabel": "1 abr. 1980",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 1983.666,
+   "y": 324000000,
+   "label": "ASE+ACE",
+   "xLabel": "1 set. 1983",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1986.619,
+   "y": 388800000,
+   "label": "Distributed representation NN",
+   "xLabel": "15 ago. 1986",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1986.748,
+   "y": 673920000,
+   "label": "MLP with back-propagation",
+   "xLabel": "1 out. 1986",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1987.427,
+   "y": 27664064000,
+   "label": "NetTalk (dictionary)",
+   "xLabel": "6 jun. 1987",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1987.427,
+   "y": 28328002000,
+   "label": "NetTalk (transcription)",
+   "xLabel": "6 jun. 1987",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1987.452,
+   "y": 18032948000,
+   "label": "Translation-invariant MLP",
+   "xLabel": "15 jun. 1987",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1988.582,
+   "y": 296425000,
+   "label": "MLN-ASR",
+   "xLabel": "1 ago. 1988",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1989.46,
+   "y": 27000000000,
+   "label": "Invariant image recognition",
+   "xLabel": "18 jun. 1989",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 1989.904,
+   "y": 181440000000,
+   "label": "Handwritten digit recognition network",
+   "xLabel": "27 nov. 1989",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 1989.904,
+   "y": 7485696000,
+   "label": "Speaker-independent vowel classification",
+   "xLabel": "27 nov. 1989",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1989.915,
+   "y": 1496338000000,
+   "label": "Zip CNN",
+   "xLabel": "1 dez. 1989",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 1990.414,
+   "y": 35811936000,
+   "label": "NETtalk reimplementation",
+   "xLabel": "1 jun. 1990",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1990.458,
+   "y": 3059337800,
+   "label": "Bankruptcy-NN",
+   "xLabel": "17 jun. 1990",
+   "group": "other"
+  },
+  {
+   "x": 1990.748,
+   "y": 78775200000,
+   "label": "SexNet compression",
+   "xLabel": "1 out. 1990",
+   "group": "vis"
+  },
+  {
+   "x": 1991.918,
+   "y": 75474000000,
+   "label": "Weight Decay",
+   "xLabel": "2 dez. 1991",
+   "group": "other"
+  },
+  {
+   "x": 1992.331,
+   "y": 18232157000000,
+   "label": "TD-Gammon",
+   "xLabel": "1 maio 1992",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 1992.79,
+   "y": 53460000,
+   "label": "Cancer drug mechanism prediction",
+   "xLabel": "16 out. 1992",
+   "group": "other"
+  },
+  {
+   "x": 1993.581,
+   "y": 12869570000000,
+   "label": "Siamese-TDNN",
+   "xLabel": "1 ago. 1993",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 1993.91,
+   "y": 17534401000,
+   "label": "ANN Eye Tracker",
+   "xLabel": "29 nov. 1993",
+   "group": "vis"
+  },
+  {
+   "x": 1994.016,
+   "y": 4531200000,
+   "label": "Ceramic-MLP",
+   "xLabel": "7 jan. 1994",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 1994.918,
+   "y": 80828280,
+   "label": "JPMAX",
+   "xLabel": "2 dez. 1994",
+   "group": "vis"
+  },
+  {
+   "x": 1994.918,
+   "y": 453600000000,
+   "label": "Mixture of linear models",
+   "xLabel": "2 dez. 1994",
+   "group": "vis"
+  },
+  {
+   "x": 1994.918,
+   "y": 858730800000,
+   "label": "NeuroChess",
+   "xLabel": "2 dez. 1994",
+   "group": "other"
+  },
+  {
+   "x": 1994.918,
+   "y": 18621901000000,
+   "label": "Predictive Coding NN",
+   "xLabel": "2 dez. 1994",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 1995.904,
+   "y": 195544800000,
+   "label": "LISSOM",
+   "xLabel": "27 nov. 1995",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 1996.421,
+   "y": 881733600000,
+   "label": "MUSIC perceptron",
+   "xLabel": "3 jun. 1996",
+   "group": "vis"
+  },
+  {
+   "x": 1996.462,
+   "y": 25859617000,
+   "label": "System 11",
+   "xLabel": "18 jun. 1996",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 1997.082,
+   "y": 31431601999.999996,
+   "label": "SOM-CNN",
+   "xLabel": "31 jan. 1997",
+   "group": "vis"
+  },
+  {
+   "x": 1997.871,
+   "y": 31512000000000,
+   "label": "LSTM",
+   "xLabel": "15 nov. 1997",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 1998.833,
+   "y": 2810937600000,
+   "label": "LeNet-5",
+   "xLabel": "1 nov. 1998",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 1999.416,
+   "y": 8013600500000.001,
+   "label": "RECONTRA-categorized",
+   "xLabel": "2 jun. 1999",
+   "group": "lang"
+  },
+  {
+   "x": 1999.416,
+   "y": 3864000000000,
+   "label": "RECONTRA-uncategorized",
+   "xLabel": "2 jun. 1999",
+   "group": "lang"
+  },
+  {
+   "x": 2000.907,
+   "y": 6339000000000000,
+   "label": "Neural LM",
+   "xLabel": "28 nov. 2000",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2000.907,
+   "y": 51810004000000,
+   "label": "PoE MNIST",
+   "xLabel": "28 nov. 2000",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2001.934,
+   "y": 63000000000000,
+   "label": "Decision tree (classification)",
+   "xLabel": "8 dez. 2001",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2003.2,
+   "y": 1666869200000000,
+   "label": "NPLM (AP News)",
+   "xLabel": "15 mar. 2003",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2003.2,
+   "y": 132076260000000,
+   "label": "NPLM (Brown)",
+   "xLabel": "15 mar. 2003",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2004.486,
+   "y": 974230000000,
+   "label": "Invariant CNN",
+   "xLabel": "27 jun. 2004",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2004.915,
+   "y": 2782080200000000,
+   "label": "LMICA",
+   "xLabel": "1 dez. 2004",
+   "group": "vis"
+  },
+  {
+   "x": 2005.014,
+   "y": 115848005000000,
+   "label": "Hierarchical LM",
+   "xLabel": "6 jan. 2005",
+   "group": "lang"
+  },
+  {
+   "x": 2005.597,
+   "y": 3482081700000,
+   "label": "RankNet",
+   "xLabel": "7 ago. 2005",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2006.458,
+   "y": 745200000000000,
+   "label": "SVM-CNN",
+   "xLabel": "17 jun. 2006",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2007.471,
+   "y": 773038150000000000,
+   "label": "KN-LM",
+   "xLabel": "22 jun. 2007",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2007.471,
+   "y": 1449446500000000000,
+   "label": "SB-LM",
+   "xLabel": "22 jun. 2007",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2008.937,
+   "y": 1614599900,
+   "label": "GNN",
+   "xLabel": "9 dez. 2008",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2009.452,
+   "y": 1000000000000000,
+   "label": "GPU DBNs",
+   "xLabel": "15 jun. 2009",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2009.666,
+   "y": 20754000000000,
+   "label": "Two Stage Feature Extraction (MNIST)",
+   "xLabel": "1 set. 2009",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2009.89,
+   "y": 3295150300000000,
+   "label": "LCNP LabelMe",
+   "xLabel": "22 nov. 2009",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2009.89,
+   "y": 4181852300000000,
+   "label": "LCNP MNIST",
+   "xLabel": "22 nov. 2009",
+   "group": "vis"
+  },
+  {
+   "x": 2009.89,
+   "y": 2452090000000000,
+   "label": "LCNP NORB",
+   "xLabel": "22 nov. 2009",
+   "group": "vis"
+  },
+  {
+   "x": 2010.362,
+   "y": 350000020000000,
+   "label": "Feedforward NN",
+   "xLabel": "13 maio 2010",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2010.447,
+   "y": 1080000000000000.1,
+   "label": "iCCCP",
+   "xLabel": "13 jun. 2010",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2010.704,
+   "y": 1221124200000000,
+   "label": "Pooling CNN (Caltech 101)",
+   "xLabel": "15 set. 2010",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2010.704,
+   "y": 1456277300000000,
+   "label": "Pooling CNN (NORB)",
+   "xLabel": "15 set. 2010",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2010.734,
+   "y": 53960003000000000,
+   "label": "RNN LM",
+   "xLabel": "26 set. 2010",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2011.323,
+   "y": 36728640000000000,
+   "label": "Deep Autoencoders",
+   "xLabel": "29 abr. 2011",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2011.537,
+   "y": 25798500000000000,
+   "label": "High Performance CNN (NORB)",
+   "xLabel": "16 jul. 2011",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2011.712,
+   "y": 52000000000000000,
+   "label": "CNN Committee (MNIST)",
+   "xLabel": "18 set. 2011",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2011.712,
+   "y": 26000000000000000,
+   "label": "CNN Committee (NIST)",
+   "xLabel": "18 set. 2011",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2011.753,
+   "y": 991981450000000,
+   "label": "CNN committee (traffic sign)",
+   "xLabel": "3 out. 2011",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2012.421,
+   "y": 4268700000000000,
+   "label": "Dropout (CIFAR)",
+   "xLabel": "3 jun. 2012",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2012.421,
+   "y": 273196800000000000,
+   "label": "Dropout (ImageNet)",
+   "xLabel": "3 jun. 2012",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2012.421,
+   "y": 6039371000000000,
+   "label": "Dropout (MNIST)",
+   "xLabel": "3 jun. 2012",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2012.527,
+   "y": 600000000000000000,
+   "label": "Unsupervised High-level Feature Learner",
+   "xLabel": "12 jul. 2012",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2012.689,
+   "y": 16600000000000002,
+   "label": "LSTM LM",
+   "xLabel": "9 set. 2012",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2012.746,
+   "y": 470000000000000000,
+   "label": "AlexNet",
+   "xLabel": "30 set. 2012",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2012.921,
+   "y": 478000000000000000,
+   "label": "DNN EM segmentation",
+   "xLabel": "3 dez. 2012",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2012.921,
+   "y": 311400020000000000,
+   "label": "DistBelief Speech",
+   "xLabel": "3 dez. 2012",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2013.041,
+   "y": 2612736000000000000,
+   "label": "DistBelief NNLM",
+   "xLabel": "16 jan. 2013",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2013.397,
+   "y": 127733765000000000,
+   "label": "ReLU-Speech",
+   "xLabel": "26 maio 2013",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2013.581,
+   "y": 237746890000000000,
+   "label": "Hierarchical Scene Labeling (Stanford Background)",
+   "xLabel": "1 ago. 2013",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2013.748,
+   "y": 9331200000000000,
+   "label": "RCTM",
+   "xLabel": "1 out. 2013",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2013.748,
+   "y": 14220000000000000,
+   "label": "RNTN",
+   "xLabel": "1 out. 2013",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2013.789,
+   "y": 38879997000000000,
+   "label": "Word2Vec (large)",
+   "xLabel": "16 out. 2013",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2013.863,
+   "y": 532000000000000000,
+   "label": "Visualizing CNNs",
+   "xLabel": "12 nov. 2013",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2013.926,
+   "y": 1340928000000000000,
+   "label": "TransE",
+   "xLabel": "5 dez. 2013",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2013.964,
+   "y": 2846884000000000,
+   "label": "DQN",
+   "xLabel": "19 dez. 2013",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2013.967,
+   "y": 475200030000000,
+   "label": "Image generation",
+   "xLabel": "20 dez. 2013",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2014.438,
+   "y": 518400000000000000,
+   "label": "GANs",
+   "xLabel": "10 jun. 2014",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2014.46,
+   "y": 3411072000000000000,
+   "label": "SPPNet",
+   "xLabel": "18 jun. 2014",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2014.496,
+   "y": 69000000000000000,
+   "label": "SmooCT",
+   "xLabel": "1 jul. 2014",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2014.534,
+   "y": 76380010000000,
+   "label": "ACF-WIDER",
+   "xLabel": "15 jul. 2014",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2014.666,
+   "y": 1555200000000000000,
+   "label": "RNNsearch-50*",
+   "xLabel": "1 set. 2014",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2014.674,
+   "y": 12291000000000000000,
+   "label": "VGG16",
+   "xLabel": "4 set. 2014",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2014.674,
+   "y": 11000000000000000000,
+   "label": "VGG19",
+   "xLabel": "4 set. 2014",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2014.69,
+   "y": 56000000000000000000,
+   "label": "Seq2Seq LSTM",
+   "xLabel": "10 set. 2014",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2014.701,
+   "y": 44000000000000000,
+   "label": "SPN-4+KN5",
+   "xLabel": "14 set. 2014",
+   "group": "lang"
+  },
+  {
+   "x": 2014.71,
+   "y": 1510000000000000000,
+   "label": "GoogLeNet / InceptionV1",
+   "xLabel": "17 set. 2014",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2014.91,
+   "y": 10854000000000000,
+   "label": "TA-CNN",
+   "xLabel": "29 nov. 2014",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2014.921,
+   "y": 297600000000000000000,
+   "label": "SNM-skip",
+   "xLabel": "3 dez. 2014",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2014.962,
+   "y": 100000000000000000,
+   "label": "Fractional Max-Pooling",
+   "xLabel": "18 dez. 2014",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2014.973,
+   "y": 624979850000000,
+   "label": "ADAM (CIFAR-10)",
+   "xLabel": "22 dez. 2014",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2015.099,
+   "y": 23974031000000000000,
+   "label": "MSRA (C, PReLU)",
+   "xLabel": "6 fev. 2015",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2015.205,
+   "y": 34153450000000000,
+   "label": "genCNN + dyn eval",
+   "xLabel": "17 mar. 2015",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2015.26,
+   "y": 194101930000000000,
+   "label": "TC-DNN-BLSTM-DNN",
+   "xLabel": "6 abr. 2015",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2015.375,
+   "y": 50832253000000000,
+   "label": "U-Net",
+   "xLabel": "18 maio 2015",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2015.597,
+   "y": 480986900000000000,
+   "label": "DCNN",
+   "xLabel": "7 ago. 2015",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2015.748,
+   "y": 380000030000000000000,
+   "label": "AlphaGo Fan",
+   "xLabel": "1 out. 2015",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2015.822,
+   "y": 12311081000000000000,
+   "label": "SAF R-CNN",
+   "xLabel": "28 out. 2015",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2015.918,
+   "y": 100000000000000000000,
+   "label": "Inception v3",
+   "xLabel": "2 dez. 2015",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2015.94,
+   "y": 7004000000000000000,
+   "label": "ResNet-101 (ImageNet)",
+   "xLabel": "10 dez. 2015",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2015.94,
+   "y": 10414081000000000000,
+   "label": "ResNet-152 (ImageNet)",
+   "xLabel": "10 dez. 2015",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2015.956,
+   "y": 5886144000000000,
+   "label": "Variational (untied weights, MC) LSTM (Large)",
+   "xLabel": "16 dez. 2015",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2016.071,
+   "y": 1.9e+21,
+   "label": "AlphaGo Lee",
+   "xLabel": "27 jan. 2016",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2016.172,
+   "y": 96940796000000000,
+   "label": "Named Entity Recognition model",
+   "xLabel": "4 mar. 2016",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2016.47,
+   "y": 719357800000000000,
+   "label": "R-FCN",
+   "xLabel": "21 jun. 2016",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2016.71,
+   "y": 29741645000000000000,
+   "label": "ResNet-200",
+   "xLabel": "17 set. 2016",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2016.735,
+   "y": 6.62e+21,
+   "label": "GNMT",
+   "xLabel": "26 set. 2016",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2016.735,
+   "y": 7490000000000000,
+   "label": "Pointer Sentinel-LSTM (medium)",
+   "xLabel": "26 set. 2016",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2016.765,
+   "y": 436000000000000000000,
+   "label": "Xception",
+   "xLabel": "7 out. 2016",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2016.822,
+   "y": 18220001000000000,
+   "label": "SPIDER2",
+   "xLabel": "28 out. 2016",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2016.842,
+   "y": 21300000000000000,
+   "label": "VD-LSTM+REAL Large",
+   "xLabel": "4 nov. 2016",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2016.844,
+   "y": 3468614500000000000,
+   "label": "BIDAF",
+   "xLabel": "5 nov. 2016",
+   "group": "lang"
+  },
+  {
+   "x": 2016.844,
+   "y": 10500000000000000,
+   "label": "NAS with base 8 and shared embeddings",
+   "xLabel": "5 nov. 2016",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2016.844,
+   "y": 2.2e+21,
+   "label": "NASv3 (CIFAR-10)",
+   "xLabel": "5 nov. 2016",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2016.874,
+   "y": 12000000000000000000,
+   "label": "ResNeXt-101 (64×4d)",
+   "xLabel": "16 nov. 2016",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2016.877,
+   "y": 64000000000000000000,
+   "label": "PolyNet",
+   "xLabel": "17 nov. 2016",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2016.948,
+   "y": 7077000000000000000,
+   "label": "HR-ResNet101",
+   "xLabel": "13 dez. 2016",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2016.975,
+   "y": 130792330000000000,
+   "label": "EnhanceNet",
+   "xLabel": "23 dez. 2016",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2017.014,
+   "y": 14463360000000000000,
+   "label": "DeepStack",
+   "xLabel": "6 jan. 2017",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2017.06,
+   "y": 93939054999999990000,
+   "label": "MoE-Multi",
+   "xLabel": "23 jan. 2017",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2017.444,
+   "y": 7424525000000000000,
+   "label": "Transformer (2017)",
+   "xLabel": "12 jun. 2017",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2017.512,
+   "y": 578102400000000000,
+   "label": "DeepLoc",
+   "xLabel": "7 jul. 2017",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2017.521,
+   "y": 843000060000000000000,
+   "label": "JFT",
+   "xLabel": "10 jul. 2017",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2017.562,
+   "y": 56400000000000000000,
+   "label": "ConvS2S (ensemble of 8 models)",
+   "xLabel": "25 jul. 2017",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2017.597,
+   "y": 297000030000000000,
+   "label": "AWD-LSTM - 3-layer LSTM (tied) + continuous cache pointer (WT2)",
+   "xLabel": "7 ago. 2017",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2017.597,
+   "y": 2065391999999999700,
+   "label": "RetinaNet-R101",
+   "xLabel": "7 ago. 2017",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2017.608,
+   "y": 604609500000000000000,
+   "label": "OpenAI TI7 DOTA 1v1",
+   "xLabel": "11 ago. 2017",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2017.616,
+   "y": 10599999000000000,
+   "label": "EI-REHN-1000D",
+   "xLabel": "14 ago. 2017",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2017.63,
+   "y": 551000000000000000000,
+   "label": "Libratus",
+   "xLabel": "19 ago. 2017",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2017.658,
+   "y": 456000030000000000,
+   "label": "GL-LWGC-AWD-MoS-LSTM + dynamic evaluation (WT2)",
+   "xLabel": "29 ago. 2017",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2017.679,
+   "y": 2340000000000000,
+   "label": "PyramidNet",
+   "xLabel": "6 set. 2017",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2017.704,
+   "y": 3400000000000000,
+   "label": "ISS",
+   "xLabel": "15 set. 2017",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2017.734,
+   "y": 3180000000000000,
+   "label": "AWD-LSTM+WT+Cache+IOG (WT2)",
+   "xLabel": "26 set. 2017",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2017.795,
+   "y": 649439900000000000000,
+   "label": "AlphaGo Zero",
+   "xLabel": "18 out. 2017",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2017.797,
+   "y": 341000000000000000000,
+   "label": "AlphaGo Master",
+   "xLabel": "19 out. 2017",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2017.83,
+   "y": 306000000000000000,
+   "label": "Fraternal dropout + AWD-LSTM 3-layer (WT2)",
+   "xLabel": "31 out. 2017",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2017.858,
+   "y": 3360000000000000000,
+   "label": "AWD-LSTM-MoS + dynamic evaluation (WT2, 2017)",
+   "xLabel": "10 nov. 2017",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2017.926,
+   "y": 106000000000000000000,
+   "label": "AlphaZero",
+   "xLabel": "5 dez. 2017",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2018.085,
+   "y": 3300100000000000,
+   "label": "ELMo",
+   "xLabel": "1 fev. 2018",
+   "group": "lang"
+  },
+  {
+   "x": 2018.085,
+   "y": 688664730000000000,
+   "label": "QRNN",
+   "xLabel": "1 fev. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.096,
+   "y": 168000000000000000000,
+   "label": "IMPALA",
+   "xLabel": "5 fev. 2018",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2018.219,
+   "y": 591588200000000000,
+   "label": "4 layer QRNN (h=2500)",
+   "xLabel": "22 mar. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.266,
+   "y": 13416381000000000000,
+   "label": "YOLOv3",
+   "xLabel": "8 abr. 2018",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2018.332,
+   "y": 8.74395e+21,
+   "label": "ResNeXt-101 32x48d",
+   "xLabel": "2 maio 2018",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2018.334,
+   "y": 127000000000000000,
+   "label": "Dropout-LSTM+Noise(Bernoulli) (WT2)",
+   "xLabel": "3 maio 2018",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2018.386,
+   "y": 72960000000000000,
+   "label": "aLSTM(depth-2)+RecurrentPolicy (WT2)",
+   "xLabel": "22 maio 2018",
+   "group": "lang"
+  },
+  {
+   "x": 2018.414,
+   "y": 17578125000000000000,
+   "label": "GPT-1",
+   "xLabel": "1 jun. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.501,
+   "y": 34900000000000000000,
+   "label": "FTW (For The Win)",
+   "xLabel": "3 jul. 2018",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2018.521,
+   "y": 246048000000000000,
+   "label": "Big-Little Net",
+   "xLabel": "10 jul. 2018",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2018.521,
+   "y": 429004820000000000,
+   "label": "Big-Little Net (speech)",
+   "xLabel": "10 jul. 2018",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2018.655,
+   "y": 478080000000000000000,
+   "label": "Big Transformer for Back-Translation",
+   "xLabel": "28 ago. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.66,
+   "y": 666000060000000000,
+   "label": "(ensemble): AWD-LSTM-DOC (fin) × 5 (WT2)",
+   "xLabel": "30 ago. 2018",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.71,
+   "y": 11000000000000000000,
+   "label": "Transformer + Simple Recurrent Unit",
+   "xLabel": "17 set. 2018",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.729,
+   "y": 982800000000000,
+   "label": "LSTM+NeuralCache",
+   "xLabel": "24 set. 2018",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.74,
+   "y": 44700000000000000000,
+   "label": "Transformer (Adaptive Input Embeddings) WT103",
+   "xLabel": "28 set. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.775,
+   "y": 285000000000000000000,
+   "label": "BERT-Large",
+   "xLabel": "11 out. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.786,
+   "y": 2780000000000000000,
+   "label": "TrellisNet",
+   "xLabel": "15 out. 2018",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.844,
+   "y": 68428805000000000000,
+   "label": "Mesh-TensorFlow Transformer 2.9B (translation)",
+   "xLabel": "5 nov. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.844,
+   "y": 161740800000000000000,
+   "label": "Mesh-TensorFlow Transformer 4.9B (language)",
+   "xLabel": "5 nov. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.863,
+   "y": 51880000000000000,
+   "label": "Fine-tuned-AWD-LSTM-DOC (fin)",
+   "xLabel": "12 nov. 2018",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2018.871,
+   "y": 2006640000000000,
+   "label": "Multi-cell LSTM",
+   "xLabel": "15 nov. 2018",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2018.945,
+   "y": 39300000000000000,
+   "label": "StyleGAN",
+   "xLabel": "12 dez. 2018",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.022,
+   "y": 378327720000000000000,
+   "label": "Transformer-XL (257M)",
+   "xLabel": "9 jan. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.085,
+   "y": 4300000000000000000,
+   "label": "Hanabi 4 player",
+   "xLabel": "1 fev. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.121,
+   "y": 1.9200001e+21,
+   "label": "GPT-2 (1.5B)",
+   "xLabel": "14 fev. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.156,
+   "y": 23200002000000000000,
+   "label": "KataGo",
+   "xLabel": "27 fev. 2019",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.23,
+   "y": 89268480000000000000,
+   "label": "SciBERT",
+   "xLabel": "26 mar. 2019",
+   "group": "lang"
+  },
+  {
+   "x": 2019.255,
+   "y": 2560000000000000000,
+   "label": "Cross-lingual alignment",
+   "xLabel": "4 abr. 2019",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2019.266,
+   "y": 730000000000000000,
+   "label": "WeNet (Penn Treebank)",
+   "xLabel": "8 abr. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.299,
+   "y": 154050000000000000000,
+   "label": "BERT-Large-CAS (PTB+WT2+WT103)",
+   "xLabel": "20 abr. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.312,
+   "y": 220830109999999980000,
+   "label": "MuseNet",
+   "xLabel": "25 abr. 2019",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.364,
+   "y": 408000000000000000,
+   "label": "AWD-LSTM-DRILL + dynamic evaluation† (WT2)",
+   "xLabel": "14 maio 2019",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2019.411,
+   "y": 4000000000000000000,
+   "label": "DLRM-2020",
+   "xLabel": "31 maio 2019",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.414,
+   "y": 6.19e+21,
+   "label": "XLNet",
+   "xLabel": "1 jun. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.422,
+   "y": 378486530000000060000,
+   "label": "Transformer-XL Large + Phrase Induction",
+   "xLabel": "4 jun. 2019",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2019.438,
+   "y": 315000030000000000,
+   "label": "AWD-LSTM + MoS + Partial Shuffled",
+   "xLabel": "10 jun. 2019",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2019.496,
+   "y": 8.5067e+21,
+   "label": "RoBERTa Large",
+   "xLabel": "1 jul. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.523,
+   "y": 66000000000000000,
+   "label": "Pluribus",
+   "xLabel": "11 jul. 2019",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.638,
+   "y": 38047970000000000000,
+   "label": "trRosetta",
+   "xLabel": "22 ago. 2019",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2019.674,
+   "y": 637000000000000000,
+   "label": "UDSMProt",
+   "xLabel": "4 set. 2019",
+   "group": "other"
+  },
+  {
+   "x": 2019.71,
+   "y": 2.2000002e+22,
+   "label": "Megatron-BERT",
+   "xLabel": "17 set. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.71,
+   "y": 1.1304e+21,
+   "label": "Megatron-LM (1.2B)",
+   "xLabel": "17 set. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.71,
+   "y": 9.1e+21,
+   "label": "Megatron-LM (8.3B)",
+   "xLabel": "17 set. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.751,
+   "y": 889344000000000000,
+   "label": "AlphaX-1",
+   "xLabel": "2 out. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2019.751,
+   "y": 12441600000000000000,
+   "label": "DistilBERT",
+   "xLabel": "2 out. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.808,
+   "y": 3.3e+22,
+   "label": "T5-11B",
+   "xLabel": "23 out. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.808,
+   "y": 9e+21,
+   "label": "T5-3B",
+   "xLabel": "23 out. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.827,
+   "y": 1.07734e+23,
+   "label": "AlphaStar",
+   "xLabel": "30 out. 2019",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.833,
+   "y": 30529201000000000000,
+   "label": "Base LM + kNN LM + Continuous Cache",
+   "xLabel": "1 nov. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.844,
+   "y": 2.076e+22,
+   "label": "XLM-RoBERTa",
+   "xLabel": "5 nov. 2019",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.858,
+   "y": 830000000000000000000,
+   "label": "CamemBERT",
+   "xLabel": "10 nov. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2019.858,
+   "y": 23504094000000000000,
+   "label": "Sandwich Transformer",
+   "xLabel": "10 nov. 2019",
+   "group": "lang"
+  },
+  {
+   "x": 2019.86,
+   "y": 2.612e+22,
+   "label": "Noisy Student (L2)",
+   "xLabel": "11 nov. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2019.882,
+   "y": 48000000000000000000,
+   "label": "MuZero",
+   "xLabel": "19 nov. 2019",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.904,
+   "y": 1742760000000000000,
+   "label": "Transformer-XL DeFINE (141M)",
+   "xLabel": "27 nov. 2019",
+   "group": "lang"
+  },
+  {
+   "x": 2019.926,
+   "y": 58298782000000000,
+   "label": "MMLSTM (PTB)",
+   "xLabel": "5 dez. 2019",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2019.926,
+   "y": 193800000000000000,
+   "label": "MMLSTM (WT-2)",
+   "xLabel": "5 dez. 2019",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2019.948,
+   "y": 6.7000004e+22,
+   "label": "OpenAI Five",
+   "xLabel": "13 dez. 2019",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.948,
+   "y": 1.3e+22,
+   "label": "OpenAI Five Rerun",
+   "xLabel": "13 dez. 2019",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2019.964,
+   "y": 780000060000000000000,
+   "label": "DD-PPO",
+   "xLabel": "19 dez. 2019",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2020.038,
+   "y": 100000000000000000000,
+   "label": "AlphaFold",
+   "xLabel": "15 jan. 2020",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2020.049,
+   "y": 8.16e+21,
+   "label": "ContextNet + Noisy Student",
+   "xLabel": "19 jan. 2020",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2020.074,
+   "y": 1.12e+23,
+   "label": "Meena",
+   "xLabel": "28 jan. 2020",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.104,
+   "y": 26990346000000000000,
+   "label": "TaLK Convolution",
+   "xLabel": "8 fev. 2020",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2020.107,
+   "y": 2.39e+21,
+   "label": "ALBERT-xxlarge",
+   "xLabel": "9 fev. 2020",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.117,
+   "y": 1.57e+22,
+   "label": "Turing-NLG",
+   "xLabel": "13 fev. 2020",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.12,
+   "y": 33687316000000000000,
+   "label": "FFN SwiGLU",
+   "xLabel": "14 fev. 2020",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.139,
+   "y": 7690547400000000000,
+   "label": "Feedback Transformer",
+   "xLabel": "21 fev. 2020",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.191,
+   "y": 26289762000000000000,
+   "label": "TransformerXL + spectrum control",
+   "xLabel": "11 mar. 2020",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.208,
+   "y": 1580000000000000000,
+   "label": "Tensor-Transformer(1core)+PN (WT103)",
+   "xLabel": "17 mar. 2020",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2020.224,
+   "y": 3.1e+21,
+   "label": "ELECTRA",
+   "xLabel": "23 mar. 2020",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.227,
+   "y": 9510912000000000000,
+   "label": "MetNet",
+   "xLabel": "24 mar. 2020",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2020.325,
+   "y": 623700000000000000000,
+   "label": "Once for All",
+   "xLabel": "29 abr. 2020",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2020.333,
+   "y": 16500000000000000000,
+   "label": "UnifiedQA",
+   "xLabel": "2 maio 2020",
+   "group": "lang"
+  },
+  {
+   "x": 2020.399,
+   "y": 400000000000000000000,
+   "label": "DETR",
+   "xLabel": "26 maio 2020",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2020.404,
+   "y": 3.14e+23,
+   "label": "GPT-3 175B (davinci)",
+   "xLabel": "28 maio 2020",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.495,
+   "y": 4.765e+22,
+   "label": "GShard (dense)",
+   "xLabel": "30 jun. 2020",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.587,
+   "y": 3801600000000000000,
+   "label": "DeLighT",
+   "xLabel": "3 ago. 2020",
+   "group": "lang"
+  },
+  {
+   "x": 2020.596,
+   "y": 200000000000000000000,
+   "label": "ERNIE-GEN (large)",
+   "xLabel": "6 ago. 2020",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.667,
+   "y": 9720001000000000000,
+   "label": "ProBERTa",
+   "xLabel": "1 set. 2020",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2020.751,
+   "y": 1.8144e+22,
+   "label": "LUKE",
+   "xLabel": "2 out. 2020",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2020.801,
+   "y": 7.6e+21,
+   "label": "Conformer + Wav2vec 2.0 + Noisy Student",
+   "xLabel": "20 out. 2020",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2020.801,
+   "y": 8.2e+22,
+   "label": "mT5-XXL",
+   "xLabel": "20 out. 2020",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.803,
+   "y": 1.4282956e+21,
+   "label": "German ELECTRA Large",
+   "xLabel": "21 out. 2020",
+   "group": "lang"
+  },
+  {
+   "x": 2020.806,
+   "y": 4.262e+21,
+   "label": "ViT-Huge/14",
+   "xLabel": "22 out. 2020",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2020.806,
+   "y": 3.87072e+21,
+   "label": "wave2vec 2.0 LARGE",
+   "xLabel": "22 out. 2020",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2020.893,
+   "y": 1.66e+21,
+   "label": "KEPLER",
+   "xLabel": "23 nov. 2020",
+   "group": "lang"
+  },
+  {
+   "x": 2020.913,
+   "y": 2.99e+21,
+   "label": "AlphaFold 2",
+   "xLabel": "30 nov. 2020",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2020.915,
+   "y": 260520000000000000000,
+   "label": "CPM-Large",
+   "xLabel": "1 dez. 2020",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2020.954,
+   "y": 5.1e+21,
+   "label": "ESM1b",
+   "xLabel": "15 dez. 2020",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2020.975,
+   "y": 2099520000000000000,
+   "label": "DensePhrases",
+   "xLabel": "23 dez. 2020",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2020.981,
+   "y": 540000000000000000,
+   "label": "CT-MoS (WT2)",
+   "xLabel": "25 dez. 2020",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2020.997,
+   "y": 30302799000000000000,
+   "label": "ERNIE-Doc (247M)",
+   "xLabel": "31 dez. 2020",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.011,
+   "y": 1.05e+22,
+   "label": "CLIP (ViT L/14@336px)",
+   "xLabel": "5 jan. 2021",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2021.011,
+   "y": 4.7e+22,
+   "label": "DALL-E",
+   "xLabel": "5 jan. 2021",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.027,
+   "y": 8.22e+22,
+   "label": "Switch",
+   "xLabel": "11 jan. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.038,
+   "y": 78840000000000000000,
+   "label": "DeiT-B",
+   "xLabel": "15 jan. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.107,
+   "y": 5684515000000000000,
+   "label": "DLWP",
+   "xLabel": "9 fev. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.118,
+   "y": 5.49e+21,
+   "label": "MSA Transformer",
+   "xLabel": "13 fev. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.148,
+   "y": 21173705000000000000,
+   "label": "SRU++ Large",
+   "xLabel": "24 fev. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.162,
+   "y": 4.7900004e+22,
+   "label": "Meta Pseudo Labels",
+   "xLabel": "1 mar. 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.173,
+   "y": 1.449e+22,
+   "label": "Generative BST",
+   "xLabel": "5 mar. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.173,
+   "y": 5.5000005e+21,
+   "label": "M6-T",
+   "xLabel": "5 mar. 2021",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2021.296,
+   "y": 3.5997696e+22,
+   "label": "PLUG",
+   "xLabel": "19 abr. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.337,
+   "y": 3.9000004e+22,
+   "label": "ProtBERT-BFD",
+   "xLabel": "4 maio 2021",
+   "group": "other"
+  },
+  {
+   "x": 2021.337,
+   "y": 1.8704498e+22,
+   "label": "ProtT5-XL-U50",
+   "xLabel": "4 maio 2021",
+   "group": "other"
+  },
+  {
+   "x": 2021.356,
+   "y": 6.2e+21,
+   "label": "ADM",
+   "xLabel": "11 maio 2021",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.381,
+   "y": 9470000000000000000,
+   "label": "MedBERT",
+   "xLabel": "20 maio 2021",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2021.397,
+   "y": 2.68e+22,
+   "label": "CogView",
+   "xLabel": "26 maio 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.397,
+   "y": 24057602000000000000,
+   "label": "Transformer local-attention (NesT-B)",
+   "xLabel": "26 maio 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.403,
+   "y": 8.1e+22,
+   "label": "ByT5-XXL",
+   "xLabel": "28 maio 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.433,
+   "y": 5.85e+22,
+   "label": "ViT-G/14",
+   "xLabel": "8 jun. 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.436,
+   "y": 4.2700004e+22,
+   "label": "CoAtNet",
+   "xLabel": "9 jun. 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.436,
+   "y": 1.91e+21,
+   "label": "EMDR",
+   "xLabel": "9 jun. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.438,
+   "y": 2.588e+22,
+   "label": "DeBERTa",
+   "xLabel": "10 jun. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.441,
+   "y": 2.59867e+22,
+   "label": "ALIGN",
+   "xLabel": "11 jun. 2021",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2021.441,
+   "y": 78401250000000000000,
+   "label": "Denoising Diffusion Probabilistic Models (LSUN Bedroom)",
+   "xLabel": "11 jun. 2021",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2021.468,
+   "y": 2.42784e+21,
+   "label": "StyleGAN3-R",
+   "xLabel": "21 jun. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.468,
+   "y": 1.70208e+21,
+   "label": "StyleGAN3-T",
+   "xLabel": "21 jun. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.474,
+   "y": 95600010000000000000,
+   "label": "EfficientNetV2-XL",
+   "xLabel": "23 jun. 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.477,
+   "y": 140000000000000000,
+   "label": "Fold2Seq",
+   "xLabel": "24 jun. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.488,
+   "y": 85800010000000000000,
+   "label": "Adaptive Input Transformer + RD",
+   "xLabel": "28 jun. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.507,
+   "y": 2.25e+22,
+   "label": "ERNIE 3.0",
+   "xLabel": "5 jul. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.512,
+   "y": 7.344e+22,
+   "label": "Codex",
+   "xLabel": "7 jul. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.567,
+   "y": 2.412e+22,
+   "label": "GOAT",
+   "xLabel": "27 jul. 2021",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.567,
+   "y": 5.54e+21,
+   "label": "HuBERT",
+   "xLabel": "27 jul. 2021",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.573,
+   "y": 1.8e+22,
+   "label": "SEER",
+   "xLabel": "29 jul. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.595,
+   "y": 634275000000000000000,
+   "label": "YOLOX-X",
+   "xLabel": "6 ago. 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.608,
+   "y": 3.7e+23,
+   "label": "Jurassic-1-Jumbo",
+   "xLabel": "11 ago. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.608,
+   "y": 801600000000000000000,
+   "label": "Zidong Taichu",
+   "xLabel": "11 ago. 2021",
+   "group": "multi"
+  },
+  {
+   "x": 2021.619,
+   "y": 107000010000000000000,
+   "label": "DNABERT",
+   "xLabel": "15 ago. 2021",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2021.625,
+   "y": 3.366e+22,
+   "label": "XLMR-XXL",
+   "xLabel": "17 ago. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.671,
+   "y": 2.047e+24,
+   "label": "FLAN 137B",
+   "xLabel": "3 set. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.679,
+   "y": 2775000000000000000,
+   "label": "PermuteFormer",
+   "xLabel": "6 set. 2021",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2021.69,
+   "y": 2e+23,
+   "label": "HyperCLOVA 204B",
+   "xLabel": "10 set. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.718,
+   "y": 9.9e+21,
+   "label": "PLATO-XL",
+   "xLabel": "20 set. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.74,
+   "y": 2.8983952e+22,
+   "label": "Turing ULRv5",
+   "xLabel": "28 set. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.756,
+   "y": 4.35e+21,
+   "label": "AlphaFold-Multimer",
+   "xLabel": "4 out. 2021",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.775,
+   "y": 8.5860006e+23,
+   "label": "Megatron-Turing NLG 530B",
+   "xLabel": "11 out. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.778,
+   "y": 3.5380003e+23,
+   "label": "Yuan 1.0",
+   "xLabel": "12 out. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.792,
+   "y": 52587457000000004000,
+   "label": "base LM+GNN+kNN",
+   "xLabel": "17 out. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.83,
+   "y": 78328625000000000000,
+   "label": "S4",
+   "xLabel": "31 out. 2021",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2021.833,
+   "y": 1.5600001e+21,
+   "label": "CodeT5-base",
+   "xLabel": "1 nov. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.833,
+   "y": 10500000000000000000,
+   "label": "Projected GAN",
+   "xLabel": "1 nov. 2021",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2021.86,
+   "y": 460000000000000000000,
+   "label": "Masked Autoencoders ViT-H",
+   "xLabel": "11 nov. 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.879,
+   "y": 1.1e+21,
+   "label": "Swin Transformer V2 (SwinV2-G)",
+   "xLabel": "18 nov. 2021",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2021.882,
+   "y": 4.12e+22,
+   "label": "BASIC-L",
+   "xLabel": "19 nov. 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.89,
+   "y": 4.831e+22,
+   "label": "Florence",
+   "xLabel": "22 nov. 2021",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2021.896,
+   "y": 7.245988e+21,
+   "label": "NÜWA",
+   "xLabel": "24 nov. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2021.929,
+   "y": 3.667927e+22,
+   "label": "Student of Games",
+   "xLabel": "6 dez. 2021",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2021.934,
+   "y": 6.31e+23,
+   "label": "Gopher (280B)",
+   "xLabel": "8 dez. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.948,
+   "y": 3.6363114e+23,
+   "label": "GLaM",
+   "xLabel": "13 dez. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.956,
+   "y": 157000000000000000000,
+   "label": "Contriever",
+   "xLabel": "16 dez. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.967,
+   "y": 2.25e+22,
+   "label": "XGLM-7.5B",
+   "xLabel": "20 dez. 2021",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2021.975,
+   "y": 1.04210003e+24,
+   "label": "ERNIE 3.0 Titan",
+   "xLabel": "23 dez. 2021",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.016,
+   "y": 23439975000000000000,
+   "label": "Detic",
+   "xLabel": "7 jan. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2022.071,
+   "y": 3.19181e+23,
+   "label": "InstructGPT 175B",
+   "xLabel": "27 jan. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.088,
+   "y": 2.3801e+23,
+   "label": "AlphaCode",
+   "xLabel": "2 fev. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.101,
+   "y": 1.68e+22,
+   "label": "RETRO-7B",
+   "xLabel": "7 fev. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.107,
+   "y": 9.31627e+22,
+   "label": "GPT-NeoX-20B",
+   "xLabel": "9 fev. 2022",
+   "group": "lang"
+  },
+  {
+   "x": 2022.11,
+   "y": 3.55e+23,
+   "label": "LaMDA",
+   "xLabel": "10 fev. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.11,
+   "y": 65000000000000000000,
+   "label": "ProteinBERT",
+   "xLabel": "10 fev. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.129,
+   "y": 2.9e+23,
+   "label": "ST-MoE",
+   "xLabel": "17 fev. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.142,
+   "y": 345047060000000000000,
+   "label": "FourCastNet",
+   "xLabel": "22 fev. 2022",
+   "group": "other"
+  },
+  {
+   "x": 2022.153,
+   "y": 1.1e+21,
+   "label": "PolyCoder",
+   "xLabel": "26 fev. 2022",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2022.164,
+   "y": 1.7901648e+22,
+   "label": "Statement Curriculum Learning",
+   "xLabel": "2 mar. 2022",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2022.186,
+   "y": 3.4000002e+21,
+   "label": "ViT-G (model soup)",
+   "xLabel": "10 mar. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2022.2,
+   "y": 2.578e+24,
+   "label": "GPT-3.5 (davinci-002)",
+   "xLabel": "15 mar. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.216,
+   "y": 26500000000000000000,
+   "label": "Segatron-XL large, M=384 + HCP",
+   "xLabel": "21 mar. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.225,
+   "y": 6.417285e+21,
+   "label": "Make-A-Scene",
+   "xLabel": "24 mar. 2022",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.238,
+   "y": 5.76e+23,
+   "label": "Chinchilla",
+   "xLabel": "29 mar. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.255,
+   "y": 2.5272e+24,
+   "label": "PaLM (540B)",
+   "xLabel": "4 abr. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.26,
+   "y": 3.3695786e+23,
+   "label": "DALL·E 2",
+   "xLabel": "6 abr. 2022",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.263,
+   "y": 140000000000000000000,
+   "label": "BERT-RBP",
+   "xLabel": "7 abr. 2022",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2022.279,
+   "y": 5e+22,
+   "label": "Stable Diffusion (LDM-KL-8-G)",
+   "xLabel": "13 abr. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.282,
+   "y": 532224000000000000000,
+   "label": "Sparse all-MLP",
+   "xLabel": "14 abr. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.323,
+   "y": 2.18972e+23,
+   "label": "Flamingo",
+   "xLabel": "29 abr. 2022",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2022.332,
+   "y": 4.3000003e+23,
+   "label": "OPT-175B",
+   "xLabel": "2 maio 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.353,
+   "y": 1.2e+23,
+   "label": "UL2",
+   "xLabel": "10 maio 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.359,
+   "y": 4.02e+21,
+   "label": "Gato",
+   "xLabel": "12 maio 2022",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2022.389,
+   "y": 1.46e+22,
+   "label": "Imagen",
+   "xLabel": "23 maio 2022",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.4,
+   "y": 892809250000000000000,
+   "label": "GPT-2 Medium (FlashAttention)",
+   "xLabel": "27 maio 2022",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2022.4,
+   "y": 7.2400005e+21,
+   "label": "Tranception",
+   "xLabel": "27 maio 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.427,
+   "y": 3317760300000000000,
+   "label": "DITTO",
+   "xLabel": "6 jun. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.449,
+   "y": 7.3e+22,
+   "label": "CoCa",
+   "xLabel": "14 jun. 2022",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2022.471,
+   "y": 5.0960797e+23,
+   "label": "Parti",
+   "xLabel": "22 jun. 2022",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.485,
+   "y": 1.3500001e+22,
+   "label": "ProGen2-xlarge",
+   "xLabel": "27 jun. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.49,
+   "y": 2.7415002e+24,
+   "label": "Minerva (540B)",
+   "xLabel": "29 jun. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.507,
+   "y": 2.72e+21,
+   "label": "CodeT5-large",
+   "xLabel": "5 jul. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.51,
+   "y": 1.7511138e+22,
+   "label": "NLLB",
+   "xLabel": "6 jul. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.523,
+   "y": 3.65664e+23,
+   "label": "BLOOM-176B",
+   "xLabel": "11 jul. 2022",
+   "group": "lang"
+  },
+  {
+   "x": 2022.551,
+   "y": 7.35e+22,
+   "label": "ESM2-15B",
+   "xLabel": "21 jul. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.553,
+   "y": 1.0351411e+22,
+   "label": "OmegaPLM",
+   "xLabel": "22 jul. 2022",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2022.584,
+   "y": 2.0437402e+23,
+   "label": "AlexaTM 20B",
+   "xLabel": "2 ago. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.589,
+   "y": 3.5490054e+23,
+   "label": "GLM-130B",
+   "xLabel": "4 ago. 2022",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2022.605,
+   "y": 4.3000003e+23,
+   "label": "BlenderBot 3",
+   "xLabel": "10 ago. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.638,
+   "y": 70000000000000000000,
+   "label": "BEIT-3",
+   "xLabel": "22 ago. 2022",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2022.701,
+   "y": 1.6900002e+23,
+   "label": "PaLI",
+   "xLabel": "14 set. 2022",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2022.721,
+   "y": 4.2072665e+21,
+   "label": "Whisper",
+   "xLabel": "21 set. 2022",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.756,
+   "y": 72000000000000000000,
+   "label": "DiffDock",
+   "xLabel": "4 out. 2022",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2022.759,
+   "y": 714147800000000000000,
+   "label": "AlphaTensor",
+   "xLabel": "5 out. 2022",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2022.775,
+   "y": 1.42e+21,
+   "label": "GenSLM",
+   "xLabel": "11 out. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.8,
+   "y": 2.54e+24,
+   "label": "Flan-PaLM 540B",
+   "xLabel": "20 out. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.8,
+   "y": 2.5300001e+24,
+   "label": "U-PaLM (540B)",
+   "xLabel": "20 out. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.836,
+   "y": 54600004000000000000,
+   "label": "eDiff-I",
+   "xLabel": "2 nov. 2022",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.838,
+   "y": 140000000000000000,
+   "label": "Mogrifier RLSTM (WT2)",
+   "xLabel": "3 nov. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.858,
+   "y": 2.4080002e+21,
+   "label": "InternImage",
+   "xLabel": "10 nov. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2022.868,
+   "y": 1.501e+22,
+   "label": "EVA-01",
+   "xLabel": "14 nov. 2022",
+   "sub": "Origem: universidade",
+   "group": "vis"
+  },
+  {
+   "x": 2022.874,
+   "y": 3.24e+23,
+   "label": "Galactica",
+   "xLabel": "16 nov. 2022",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2022.879,
+   "y": 130000000000000000000,
+   "label": "Fusion in Encoder",
+   "xLabel": "18 nov. 2022",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2022.885,
+   "y": 510000000000000000000,
+   "label": "AR-LDM",
+   "xLabel": "20 nov. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.907,
+   "y": 215700000000000000000,
+   "label": "Discriminator Guidance",
+   "xLabel": "28 nov. 2022",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2022.923,
+   "y": 7.76e+22,
+   "label": "Vega v2",
+   "xLabel": "4 dez. 2022",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2022.964,
+   "y": 29000000000000000000,
+   "label": "CaLM",
+   "xLabel": "19 dez. 2022",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2022.989,
+   "y": 6.48e+21,
+   "label": "Hybrid H3-2.7B",
+   "xLabel": "28 dez. 2022",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2023.011,
+   "y": 10100000000000000000,
+   "label": "VALL-E",
+   "xLabel": "5 jan. 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.025,
+   "y": 220320000000000000000,
+   "label": "DreamerV3",
+   "xLabel": "10 jan. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2023.038,
+   "y": 8.08e+21,
+   "label": "Nucleotide Transformer",
+   "xLabel": "15 jan. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2023.041,
+   "y": 6.5e+21,
+   "label": "Ankh_large",
+   "xLabel": "16 jan. 2023",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2023.071,
+   "y": 350000000000000000000,
+   "label": "DDPM-IP (CelebA)",
+   "xLabel": "27 jan. 2023",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2023.079,
+   "y": 1.2e+21,
+   "label": "BLIP-2 (Q-Former)",
+   "xLabel": "30 jan. 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.11,
+   "y": 1.93248e+23,
+   "label": "ViT-22B",
+   "xLabel": "10 fev. 2023",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2023.148,
+   "y": 5.5e+23,
+   "label": "LLaMA-65B",
+   "xLabel": "24 fev. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.164,
+   "y": 600000000000000000000,
+   "label": "DiT-XL/2",
+   "xLabel": "2 mar. 2023",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2023.173,
+   "y": 9.5e+21,
+   "label": "AudioGen",
+   "xLabel": "5 mar. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2023.2,
+   "y": 2.4e+23,
+   "label": "Falcon-40B",
+   "xLabel": "15 mar. 2023",
+   "group": "lang"
+  },
+  {
+   "x": 2023.2,
+   "y": 2.1e+25,
+   "label": "GPT-4 (Mar 2023)",
+   "xLabel": "15 mar. 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.214,
+   "y": 4.67e+23,
+   "label": "PanGu-Σ",
+   "xLabel": "20 mar. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.233,
+   "y": 4.9467305e+21,
+   "label": "SigLIP 400M",
+   "xLabel": "27 mar. 2023",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2023.238,
+   "y": 9.7e+21,
+   "label": "VideoMAE V2",
+   "xLabel": "29 mar. 2023",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2023.241,
+   "y": 2.3600002e+23,
+   "label": "BloombergGPT",
+   "xLabel": "30 mar. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.258,
+   "y": 7.8e+21,
+   "label": "Segment Anything Model",
+   "xLabel": "5 abr. 2023",
+   "sub": "Origem: indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2023.268,
+   "y": 3.0000102e+21,
+   "label": "Incoder-6.7B",
+   "xLabel": "9 abr. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.282,
+   "y": 7.418511e+21,
+   "label": "DINOv2",
+   "xLabel": "14 abr. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "vis"
+  },
+  {
+   "x": 2023.29,
+   "y": 7.8049e+22,
+   "label": "LLaVA",
+   "xLabel": "17 abr. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.351,
+   "y": 8.46e+22,
+   "label": "StarCoder",
+   "xLabel": "9 maio 2023",
+   "group": "lang"
+  },
+  {
+   "x": 2023.353,
+   "y": 7.3399997e+24,
+   "label": "PaLM 2",
+   "xLabel": "10 maio 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.356,
+   "y": 194000000000000000000,
+   "label": "InstructBLIP",
+   "xLabel": "11 maio 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.375,
+   "y": 180000000000000000000,
+   "label": "ONE-PEACE",
+   "xLabel": "18 maio 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.405,
+   "y": 5.6e+23,
+   "label": "PaLI-X",
+   "xLabel": "29 maio 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.447,
+   "y": 2.1e+25,
+   "label": "GPT-4 (Jun 2023)",
+   "xLabel": "13 jun. 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.485,
+   "y": 1.811e+21,
+   "label": "HyenaDNA",
+   "xLabel": "27 jun. 2023",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2023.507,
+   "y": 3.98e+22,
+   "label": "Pangu-Weather",
+   "xLabel": "5 jul. 2023",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2023.51,
+   "y": 9.984e+23,
+   "label": "InternLM",
+   "xLabel": "6 jul. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.51,
+   "y": 6.2e+23,
+   "label": "xTrimoPGLM -100B",
+   "xLabel": "6 jul. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2023.523,
+   "y": 3.8660001e+24,
+   "label": "Claude 2",
+   "xLabel": "11 jul. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.542,
+   "y": 8.1e+23,
+   "label": "Llama 2-70B",
+   "xLabel": "18 jul. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.542,
+   "y": 8.4e+22,
+   "label": "Llama 2-7B",
+   "xLabel": "18 jul. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.564,
+   "y": 3900000000000000000,
+   "label": "AudioLM",
+   "xLabel": "26 jul. 2023",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2023.592,
+   "y": 7.5600005e+21,
+   "label": "GGNN",
+   "xLabel": "5 ago. 2023",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2023.655,
+   "y": 49000004000000000,
+   "label": "PeptideBERT",
+   "xLabel": "28 ago. 2023",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2023.658,
+   "y": 4.8946764e+22,
+   "label": "Jais",
+   "xLabel": "29 ago. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.66,
+   "y": 53370000000000000,
+   "label": "Swift",
+   "xLabel": "30 ago. 2023",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2023.679,
+   "y": 3.7600003e+24,
+   "label": "Falcon-180B",
+   "xLabel": "6 set. 2023",
+   "group": "lang"
+  },
+  {
+   "x": 2023.74,
+   "y": 4.8e+24,
+   "label": "Amazon Titan",
+   "xLabel": "28 set. 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.764,
+   "y": 1.6e+23,
+   "label": "FinGPT-13B",
+   "xLabel": "7 out. 2023",
+   "sub": "Origem: universidade",
+   "group": "lang"
+  },
+  {
+   "x": 2023.77,
+   "y": 214000020000000000000,
+   "label": "RoseTTAFold All-Atom (RFAA)",
+   "xLabel": "9 out. 2023",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2023.816,
+   "y": 7920000000000000000,
+   "label": "CODEFUSION (Python)",
+   "xLabel": "26 out. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.819,
+   "y": 5.04e+22,
+   "label": "ChatGLM3-6B",
+   "xLabel": "27 out. 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.827,
+   "y": 2.5e+23,
+   "label": "Skywork-13B",
+   "xLabel": "30 out. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.836,
+   "y": 6.1000006e+23,
+   "label": "Yi-34B",
+   "xLabel": "2 nov. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.841,
+   "y": 2.9e+24,
+   "label": "Grok-1",
+   "xLabel": "4 nov. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.844,
+   "y": 7.807e+22,
+   "label": "LLaVA 1.5",
+   "xLabel": "5 nov. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.847,
+   "y": 6.331e+22,
+   "label": "CogVLM-17B",
+   "xLabel": "6 nov. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.852,
+   "y": 26000000000000000000,
+   "label": "MultiBand Diffusion",
+   "xLabel": "8 nov. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.852,
+   "y": 2162688000000000000,
+   "label": "RoFormer",
+   "xLabel": "8 nov. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.866,
+   "y": 3.04e+22,
+   "label": "SPHINX (Llama 2 13B)",
+   "xLabel": "13 nov. 2023",
+   "sub": "Origem: universidade",
+   "group": "multi"
+  },
+  {
+   "x": 2023.866,
+   "y": 4.56e+22,
+   "label": "Volcano 13B",
+   "xLabel": "13 nov. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.868,
+   "y": 2.1e+22,
+   "label": "GraphCast",
+   "xLabel": "14 nov. 2023",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2023.871,
+   "y": 1.8e+23,
+   "label": "Nemotron-3-8B",
+   "xLabel": "15 nov. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.89,
+   "y": 1.001e+25,
+   "label": "Inflection-2",
+   "xLabel": "22 nov. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.912,
+   "y": 1.3e+24,
+   "label": "Qwen-72B",
+   "xLabel": "30 nov. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.929,
+   "y": 5.0000003e+25,
+   "label": "Gemini 1.0 Ultra",
+   "xLabel": "6 dez. 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.932,
+   "y": 1.6e+23,
+   "label": "Llama Guard",
+   "xLabel": "7 dez. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.942,
+   "y": 7.74e+23,
+   "label": "Mixtral 8x7B",
+   "xLabel": "11 dez. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.945,
+   "y": 2.3003135e+21,
+   "label": "VILA-13B",
+   "xLabel": "12 dez. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.951,
+   "y": 6.7070004e+22,
+   "label": "CogAgent",
+   "xLabel": "14 dez. 2023",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.951,
+   "y": 3.87e+23,
+   "label": "FunSearch",
+   "xLabel": "14 dez. 2023",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2023.97,
+   "y": 2.5562e+23,
+   "label": "nekomata-14b",
+   "xLabel": "21 dez. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2023.975,
+   "y": 3.4912896e+22,
+   "label": "GQA-8-XXL",
+   "xLabel": "23 dez. 2023",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.093,
+   "y": 1.3e+24,
+   "label": "Qwen1.5-72B",
+   "xLabel": "4 fev. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.142,
+   "y": 5e+22,
+   "label": "Stable Diffusion 3",
+   "xLabel": "22 fev. 2024",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2024.145,
+   "y": 3.9e+24,
+   "label": "MegaScale (Production)",
+   "xLabel": "23 fev. 2024",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.172,
+   "y": 1.05e+25,
+   "label": "Aramco Metabrain AI",
+   "xLabel": "4 mar. 2024",
+   "group": "lang"
+  },
+  {
+   "x": 2024.18,
+   "y": 8.0000015e+24,
+   "label": "Inflection-2.5",
+   "xLabel": "7 mar. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.199,
+   "y": 4.86e+23,
+   "label": "MM1-30B",
+   "xLabel": "14 mar. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.235,
+   "y": 2.6e+24,
+   "label": "DBRX",
+   "xLabel": "27 mar. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.287,
+   "y": 8.40001e+24,
+   "label": "Reka Core",
+   "xLabel": "15 abr. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.295,
+   "y": 7.861e+24,
+   "label": "Llama 3-70B",
+   "xLabel": "18 abr. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.331,
+   "y": 816998440000000000000,
+   "label": "GenCast",
+   "xLabel": "1 maio 2024",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2024.336,
+   "y": 2.3003135e+21,
+   "label": "VILA1.5-13B",
+   "xLabel": "3 maio 2024",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.35,
+   "y": 4.1405644e+22,
+   "label": "AlphaFold 3",
+   "xLabel": "8 maio 2024",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2024.363,
+   "y": 1.8e+24,
+   "label": "Yi-Large",
+   "xLabel": "13 maio 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.383,
+   "y": 585000000000000000000,
+   "label": "Octo-Base",
+   "xLabel": "20 maio 2024",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2024.385,
+   "y": 1.06200006e+24,
+   "label": "ALLaM adapted 70B",
+   "xLabel": "21 maio 2024",
+   "group": "lang"
+  },
+  {
+   "x": 2024.432,
+   "y": 3.02e+24,
+   "label": "Qwen2-72B",
+   "xLabel": "7 jun. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.448,
+   "y": 1.1e+23,
+   "label": "OpenVLA",
+   "xLabel": "13 jun. 2024",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.451,
+   "y": 1.8e+25,
+   "label": "Nemotron-4 340B",
+   "xLabel": "14 jun. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.459,
+   "y": 1.2852e+24,
+   "label": "DeepSeek-Coder-V2 236B",
+   "xLabel": "17 jun. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.467,
+   "y": 2.6999998e+25,
+   "label": "Claude 3.5 Sonnet",
+   "xLabel": "20 jun. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.481,
+   "y": 1.07e+24,
+   "label": "ESM3 (98B)",
+   "xLabel": "25 jun. 2024",
+   "sub": "Origem: universidade e indústria",
+   "group": "other"
+  },
+  {
+   "x": 2024.557,
+   "y": 3.8e+25,
+   "label": "Llama 3.1-405B",
+   "xLabel": "23 jul. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.574,
+   "y": 4.5126e+23,
+   "label": "AFM-on-device",
+   "xLabel": "29 jul. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.574,
+   "y": 4.3e+24,
+   "label": "AFM-server",
+   "xLabel": "29 jul. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.596,
+   "y": 3.036552e+24,
+   "label": "LLaVA-OV-72B",
+   "xLabel": "6 ago. 2024",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.615,
+   "y": 2.9600002e+25,
+   "label": "Grok-2",
+   "xLabel": "13 ago. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.68,
+   "y": 1.7892e+24,
+   "label": "DeepSeek-V2.5",
+   "xLabel": "6 set. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.71,
+   "y": 3.51e+24,
+   "label": "Qwen2.5-32B",
+   "xLabel": "17 set. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.716,
+   "y": 7.8516004e+24,
+   "label": "Qwen2.5 Instruct (72B)",
+   "xLabel": "19 set. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.716,
+   "y": 7.8e+24,
+   "label": "Qwen2.5-72B",
+   "xLabel": "19 set. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.719,
+   "y": 6.9000003e+24,
+   "label": "Telechat2-115B",
+   "xLabel": "20 set. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.73,
+   "y": 5.79e+23,
+   "label": "Llama 3.2 11B",
+   "xLabel": "24 set. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.757,
+   "y": 1.65e+24,
+   "label": "Movie Gen Video",
+   "xLabel": "4 out. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.773,
+   "y": 4.06e+22,
+   "label": "RDT-1B",
+   "xLabel": "10 out. 2024",
+   "sub": "Origem: universidade",
+   "group": "other"
+  },
+  {
+   "x": 2024.779,
+   "y": 7.929e+24,
+   "label": "Llama-3.1-Nemotron-70B-Instruct",
+   "xLabel": "12 out. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.787,
+   "y": 7.7605725e+21,
+   "label": "CHAI-1",
+   "xLabel": "15 out. 2024",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2024.79,
+   "y": 1.5e+24,
+   "label": "Yi-Lightning",
+   "xLabel": "16 out. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.806,
+   "y": 3.02e+24,
+   "label": "NVLM-D 72B",
+   "xLabel": "22 out. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.806,
+   "y": 3.02e+24,
+   "label": "NVLM-H 72B",
+   "xLabel": "22 out. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.806,
+   "y": 3.0398182e+24,
+   "label": "NVLM-X 72B",
+   "xLabel": "22 out. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.822,
+   "y": 2.5050001e+25,
+   "label": "Doubao-pro",
+   "xLabel": "28 out. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.847,
+   "y": 3.49237e+24,
+   "label": "Hunyuan-Large",
+   "xLabel": "6 nov. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.921,
+   "y": 6.0000097e+24,
+   "label": "Amazon Nova Pro",
+   "xLabel": "3 dez. 2024",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2024.929,
+   "y": 6.864977e+24,
+   "label": "Llama 3.3 70B",
+   "xLabel": "6 dez. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.937,
+   "y": 1.25e+24,
+   "label": "EXAONE 3.5 32B",
+   "xLabel": "9 dez. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2024.978,
+   "y": 3.3e+24,
+   "label": "DeepSeek-V3",
+   "xLabel": "24 dez. 2024",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.003,
+   "y": 401915900000000000000,
+   "label": "Eurus-2-7B-PRIME",
+   "xLabel": "2 jan. 2025",
+   "sub": "Origem: universidade",
+   "group": "multi"
+  },
+  {
+   "x": 2025.052,
+   "y": 3.5e+24,
+   "label": "DeepSeek-R1",
+   "xLabel": "20 jan. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.052,
+   "y": 4.7156e+22,
+   "label": "Eagle 2",
+   "xLabel": "20 jan. 2025",
+   "sub": "Origem: universidade e indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.129,
+   "y": 3.5e+26,
+   "label": "Grok 3",
+   "xLabel": "17 fev. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.148,
+   "y": 3.35e+25,
+   "label": "Claude 3.7 Sonnet",
+   "xLabel": "24 fev. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.156,
+   "y": 3.8e+26,
+   "label": "GPT-4.5",
+   "xLabel": "27 fev. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.175,
+   "y": 3.51e+24,
+   "label": "QwQ-32B",
+   "xLabel": "6 mar. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.189,
+   "y": 5.4e+24,
+   "label": "Hunyuan-TurboS",
+   "xLabel": "11 mar. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.203,
+   "y": 1.26e+24,
+   "label": "EXAONE Deep 32B",
+   "xLabel": "16 mar. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.225,
+   "y": 3.3e+24,
+   "label": "DeepSeek-V3 (Mar 2025)",
+   "xLabel": "24 mar. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.258,
+   "y": 5.184e+25,
+   "label": "Llama 4 Behemoth (preview)",
+   "xLabel": "5 abr. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.258,
+   "y": 2.244e+24,
+   "label": "Llama 4 Maverick",
+   "xLabel": "5 abr. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.258,
+   "y": 4.0800003e+24,
+   "label": "Llama 4 Scout",
+   "xLabel": "5 abr. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.271,
+   "y": 1.0692001e+25,
+   "label": "Pangu Ultra",
+   "xLabel": "10 abr. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.323,
+   "y": 4.752e+24,
+   "label": "Qwen3-235B-A22B",
+   "xLabel": "29 abr. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.356,
+   "y": 1.388556e+24,
+   "label": "Seed1.5-VL",
+   "xLabel": "11 maio 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.403,
+   "y": 4.02001e+24,
+   "label": "DeepSeek-R1 (May 2025)",
+   "xLabel": "28 maio 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.444,
+   "y": 9.618951e+21,
+   "label": "FGN",
+   "xLabel": "12 jun. 2025",
+   "sub": "Origem: indústria",
+   "group": "other"
+  },
+  {
+   "x": 2025.518,
+   "y": 5e+26,
+   "label": "Grok 4",
+   "xLabel": "9 jul. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.523,
+   "y": 2.976e+24,
+   "label": "Kimi K2",
+   "xLabel": "11 jul. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.534,
+   "y": 2.69e+24,
+   "label": "EXAONE 4.0 (32B)",
+   "xLabel": "15 jul. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.553,
+   "y": 1.575e+24,
+   "label": "Qwen3-Coder-480B-A35B",
+   "xLabel": "22 jul. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.562,
+   "y": 4.752e+24,
+   "label": "Qwen3-235B-A22B (Jul 2025)",
+   "xLabel": "25 jul. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.562,
+   "y": 4.752e+24,
+   "label": "Qwen3-235B-A22B-Thinking (Jul 2025)",
+   "xLabel": "25 jul. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.57,
+   "y": 4.4200003e+24,
+   "label": "GLM-4.5",
+   "xLabel": "28 jul. 2025",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.592,
+   "y": 4.94e+24,
+   "label": "gpt-oss-120b",
+   "xLabel": "5 ago. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.592,
+   "y": 5.49e+23,
+   "label": "gpt-oss-20b",
+   "xLabel": "5 ago. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.597,
+   "y": 6.6000003e+25,
+   "label": "GPT-5",
+   "xLabel": "7 ago. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.666,
+   "y": 3.7259999e+24,
+   "label": "LongCat-Flash",
+   "xLabel": "1 set. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.677,
+   "y": 1.512e+25,
+   "label": "Qwen3-Max",
+   "xLabel": "5 set. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.707,
+   "y": 6.5367e+23,
+   "label": "AgentFounder-30B",
+   "xLabel": "16 set. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.723,
+   "y": 3.6e+22,
+   "label": "Qwen3-Omni-30B-A3B",
+   "xLabel": "22 set. 2025",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2025.745,
+   "y": 4.4200003e+24,
+   "label": "GLM-4.6",
+   "xLabel": "30 set. 2025",
+   "sub": "Origem: universidade e indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.773,
+   "y": 6.0000015e+24,
+   "label": "Ling-1T",
+   "xLabel": "10 out. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.847,
+   "y": 4.2e+24,
+   "label": "Kimi K2 Thinking",
+   "xLabel": "6 nov. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.885,
+   "y": 1.1e+24,
+   "label": "Olmo 3",
+   "xLabel": "20 nov. 2025",
+   "group": "lang"
+  },
+  {
+   "x": 2025.953,
+   "y": 4.8e+23,
+   "label": "Nemotron 3-Nano-30B-A3B",
+   "xLabel": "15 dez. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.973,
+   "y": 4.4200003e+24,
+   "label": "GLM-4.7",
+   "xLabel": "22 dez. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.997,
+   "y": 1.52e+24,
+   "label": "K-EXAONE",
+   "xLabel": "31 dez. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2025.997,
+   "y": 1.4e+24,
+   "label": "Solar Open 100B",
+   "xLabel": "31 dez. 2025",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.088,
+   "y": 5.8e+24,
+   "label": "Kimi K2.5",
+   "xLabel": "2 fev. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.115,
+   "y": 6.8400005e+24,
+   "label": "GLM-5",
+   "xLabel": "12 fev. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.211,
+   "y": 2.32e+25,
+   "label": "Composer 2",
+   "xLabel": "19 mar. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.258,
+   "y": 1.1000001e+22,
+   "label": "MolmoAct 2",
+   "xLabel": "5 abr. 2026",
+   "group": "multi"
+  },
+  {
+   "x": 2026.268,
+   "y": 3.8500001e+24,
+   "label": "EXAONE 4.5",
+   "xLabel": "9 abr. 2026",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2026.307,
+   "y": 6.8040003e+24,
+   "label": "MiMo-V2.5-Pro",
+   "xLabel": "23 abr. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.31,
+   "y": 2.4960003e+24,
+   "label": "DeepSeek-V4-Flash",
+   "xLabel": "24 abr. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.31,
+   "y": 9.702001e+24,
+   "label": "DeepSeek-V4-Pro",
+   "xLabel": "24 abr. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.375,
+   "y": 3.8700003e+25,
+   "label": "Composer 2.5",
+   "xLabel": "18 maio 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.422,
+   "y": 6.6e+24,
+   "label": "Nemotron 3 Ultra",
+   "xLabel": "4 jun. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.488,
+   "y": 1.05e+24,
+   "label": "Solar Open2 250B",
+   "xLabel": "28 jun. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.49,
+   "y": 1.008e+25,
+   "label": "LongCat-2.0",
+   "xLabel": "29 jun. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.534,
+   "y": 1.845e+24,
+   "label": "Inkling",
+   "xLabel": "15 jul. 2026",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2026.537,
+   "y": 2.0001e+25,
+   "label": "Kimi K3",
+   "xLabel": "16 jul. 2026",
+   "sub": "Origem: indústria",
+   "group": "multi"
+  },
+  {
+   "x": 2026.573,
+   "y": 1.8e+24,
+   "label": "A.X K2",
+   "xLabel": "29 jul. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.578,
+   "y": 3.55e+24,
+   "label": "K-EXAONE 2.0",
+   "xLabel": "31 jul. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  },
+  {
+   "x": 2026.597,
+   "y": 1.1e+24,
+   "label": "Motif-3",
+   "xLabel": "7 ago. 2026",
+   "sub": "Origem: indústria",
+   "group": "lang"
+  }
+ ],
+ "config": {
+  "x": {
+   "label": "Data de publicação",
+   "short": "Ano",
+   "min": 1948,
+   "max": 2028,
+   "ticks": [
+    1950,
+    1960,
+    1970,
+    1980,
+    1990,
+    2000,
+    2010,
+    2020
+   ],
+   "decimals": 0,
+   "tipLabel": "Publicado"
+  },
+  "y": {
+   "label": "Computação usada no treino (FLOP)",
+   "short": "Computação (FLOP)",
+   "log": true,
+   "sci": true,
+   "min": 1,
+   "max": 1e+28,
+   "ticks": [
+    1,
+    10000,
+    100000000,
+    1000000000000,
+    10000000000000000,
+    100000000000000000000,
+    1e+24,
+    1e+28
+   ],
+   "tipLabel": "Computação de treino"
+  },
+  "groups": [
+   {
+    "key": "lang",
+    "label": "Linguagem",
+    "color": "--accent-2"
+   },
+   {
+    "key": "multi",
+    "label": "Vários domínios",
+    "color": "--accent-4"
+   },
+   {
+    "key": "vis",
+    "label": "Visão",
+    "color": "--accent-3"
+   },
+   {
+    "key": "other",
+    "label": "Outros (jogos, biologia, fala…)",
+    "color": "--ink-3"
+   }
+  ],
+  "trends": [
+   {
+    "x0": 1950,
+    "x1": 2010,
+    "y0": 7923.169584564209,
+    "y1": 298755559408644.44,
+    "text": "1950–2009: ×1,5 por ano",
+    "short": "×1,5/ano",
+    "anchor": "start",
+    "lx": 1966,
+    "ly": 15718028961.52143
+   },
+   {
+    "x0": 2010,
+    "x1": 2026.6,
+    "y0": 169519398850843.94,
+    "y1": 5.108110541153873e+24,
+    "text": "Desde 2010: ×4,3 por ano",
+    "short": "×4,3/ano",
+    "anchor": "end",
+    "lx": 2009,
+    "ly": 3e+22
+   }
+  ],
+  "notes": [
+   {
+    "x": 1957.2,
+    "y": 3000,
+    "text": "Perceptron (1957)",
+    "short": "Perceptron",
+    "anchor": "start"
+   },
+   {
+    "x": 2019.6,
+    "y": 1e+25,
+    "text": "GPT-3 (2020)",
+    "short": "GPT-3",
+    "anchor": "end"
+   },
+   {
+    "x": 2025.3,
+    "y": 3e+27,
+    "text": "Grok 4 (2025)",
+    "short": "Grok 4",
+    "anchor": "end"
+   }
+  ],
+  "howToRead": "Cada ponto é um modelo de inteligência artificial considerado notável pela Epoch AI, colocado na data de publicação e na quantidade de cálculos usada para o treinar. A escala vertical é logarítmica: cada linha da grelha vale 10 000 vezes a de baixo. As linhas tracejadas são as tendências médias antes e depois de 2010."
+ },
+ "summary": {
+  "n": 536,
+  "nPre": 62,
+  "nPost": 474,
+  "perYearPre": 1.5,
+  "doublingPre": 20.5,
+  "perYearPost": 4.3,
+  "doublingPost": 5.7,
+  "top": "Grok 4",
+  "topDate": "2025-07-09",
+  "topFlop": 5e+26,
+  "gpt3": 3.14e+23,
+  "gpt4": 2.1e+25,
+  "alexnet": 470000000000000000,
+  "perceptron": 694894.9,
+  "topOverGpt4": 23.8,
+  "topOverGpt3": 1592
+ }
+}

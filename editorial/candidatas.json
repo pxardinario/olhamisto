@@ -211,17 +211,6 @@
    "tentativas": 1
   },
   {
-   "id": "ia-computacao-modelos-epoch",
-   "tema": "tecnologia",
-   "ideia": "Computação usada para treinar os modelos de IA notáveis, 1950–2026 (crescimento de ~4–5 vezes por ano)",
-   "fonte": "Epoch AI, Notable AI Models (CC BY 4.0)",
-   "licenca": "CC BY 4.0",
-   "estado": "bloqueada",
-   "bloqueio": "2026-11-16: epoch.ai não responde neste ambiente; procurar cópia no GitHub ou pedir ao Pedro para autorizar o domínio.",
-   "registada": "2026-11-16",
-   "tentativas": 1
-  },
-  {
    "id": "retratacoes-ciencia-retraction-watch",
    "tema": "ciencia",
    "ideia": "Retratações de artigos científicos por ano, motivo e país (crescimento desde 2010; fábricas de artigos; peso de Portugal)",
@@ -305,9 +294,9 @@
    "fonte": "Sichel (2017), NBER; cópia em owid-datasets («Price of nails since 1695 (Daniel Sichels (2017))»)",
    "licenca": "CC BY 4.0 (OWID); confirmar a do artigo",
    "estado": "pronta",
-   "bloqueio": "2026-11-19: dados descarregáveis do GitHub; adiada para não repetir logo a seguir à peça do preço da luz. Confirmar no README a mistura de fontes (Reino Unido até 1784, EUA depois) e os anos interpolados. 2026-11-20: adiada outra vez (um dia depois da peça do preço da luz).",
+   "bloqueio": "2026-11-19: dados descarregáveis do GitHub; adiada para não repetir logo a seguir à peça do preço da luz. Confirmar no README a mistura de fontes (Reino Unido até 1784, EUA depois) e os anos interpolados. 2026-11-20: adiada outra vez (um dia depois da peça do preço da luz). 2026-11-23: adiada pela terceira vez (o tema do preço secular ainda está próximo da peça da luz e a série acaba em 2011); considerar descartar se voltar a não caber.",
    "registada": "2026-11-19",
-   "tentativas": 0
+   "tentativas": 1
   },
   {
    "id": "temperatura-estacoes-2025",
@@ -341,6 +330,39 @@
    "bloqueio": "2026-11-20: a cópia da OWID termina em 2021 e a licença da fonte primária não está clara; procurar os números anuais da OMS (Weekly Epidemiological Record) até 2025.",
    "registada": "2026-11-20",
    "tentativas": 1
+  },
+  {
+   "id": "buraco-ozono-2026",
+   "tema": "ciencia",
+   "ideia": "Buraco do ozono: 2026 foi o maior numa década (7.º maior em 48 anos, segundo a NASA e a NOAA), por causa do vórtice polar, mas a recuperação mantém-se",
+   "fonte": "NASA Ozone Watch, via catálogo da OWID (garden/climate/<versão>/nasa_ozone_hole)",
+   "licenca": "CC BY (NASA)",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-23: a tabela da OWID (versão 2026-11-11) só vai até 2025; ozonewatch.gsfc.nasa.gov é recusado pelo proxy. Tentar quando a OWID acrescentar 2026 (provavelmente em dezembro).",
+   "registada": "2026-11-23",
+   "tentativas": 1
+  },
+  {
+   "id": "fomes-historicas-wpf",
+   "tema": "historia",
+   "ideia": "Mortes em fomes por década desde 1870 (World Peace Foundation)",
+   "fonte": "World Peace Foundation, via catálogo da OWID (garden/wpf/2025-01-17)",
+   "licenca": "«permission obtained from the authors» — não é licença aberta",
+   "estado": "descartada",
+   "bloqueio": "2026-11-23: licença sem reutilização pública explícita.",
+   "registada": "2026-11-23",
+   "tentativas": 1
+  },
+  {
+   "id": "centros-dados-construcao-eua",
+   "tema": "tecnologia",
+   "ideia": "Investimento privado em construção de centros de dados nos EUA (US Census Bureau), a corrida da IA em números",
+   "fonte": "US Census Bureau, Value of Private Construction Put in Place, via catálogo da OWID (garden/us_census_bureau/2026-10-02/datacenter_construction)",
+   "licenca": "Domínio público (governo dos EUA)",
+   "estado": "pronta",
+   "bloqueio": "2026-11-23: dados acessíveis pelo catálogo da OWID; não testados em detalhe. Tema dos EUA: conta para a quota semanal; ligar à peça da computação da IA de 2026-11-23.",
+   "registada": "2026-11-23",
+   "tentativas": 0
   }
  ]
 }
