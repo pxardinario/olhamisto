@@ -195,7 +195,7 @@
    "fonte": "SNS — Portal da Transparência, conjunto utentes-inscritos-em-cuidados-de-saude-primarios (ACSS)",
    "licenca": "CC BY 4.0 por defeito (dados.gov.pt); uso autorizado pelo Pedro em 2026-11-11",
    "estado": "pronta",
-   "bloqueio": "2026-11-16: dados acessíveis; adiada porque a peça do dia usou o conjunto novo (por nacionalidade, desde julho de 2026). A série antiga termina em junho de 2026 e não é comparável com a nova (critério de elegibilidade); a peça teria de o dizer.",
+   "bloqueio": "2026-11-16: dados acessíveis; adiada porque a peça do dia usou o conjunto novo (por nacionalidade, desde julho de 2026). A série antiga termina em junho de 2026 e não é comparável com a nova (critério de elegibilidade); a peça teria de o dizer. 2026-11-24: adiada de novo (a edição já tinha uma peça de saúde, cesarianas).",
    "registada": "2026-11-16",
    "tentativas": 0
   },
@@ -288,17 +288,6 @@
    "tentativas": 1
   },
   {
-   "id": "preco-pregos-sichel",
-   "tema": "historia",
-   "ideia": "O preço real dos pregos desde 1695 (Sichel, 2017): até um produto simples ficou dez vezes mais barato, e depois voltou a encarecer",
-   "fonte": "Sichel (2017), NBER; cópia em owid-datasets («Price of nails since 1695 (Daniel Sichels (2017))»)",
-   "licenca": "CC BY 4.0 (OWID); confirmar a do artigo",
-   "estado": "pronta",
-   "bloqueio": "2026-11-19: dados descarregáveis do GitHub; adiada para não repetir logo a seguir à peça do preço da luz. Confirmar no README a mistura de fontes (Reino Unido até 1784, EUA depois) e os anos interpolados. 2026-11-20: adiada outra vez (um dia depois da peça do preço da luz). 2026-11-23: adiada pela terceira vez (o tema do preço secular ainda está próximo da peça da luz e a série acaba em 2011); considerar descartar se voltar a não caber.",
-   "registada": "2026-11-19",
-   "tentativas": 1
-  },
-  {
    "id": "temperatura-estacoes-2025",
    "tema": "ambiente",
    "ideia": "Desvio da temperatura média de 2025 face à normal 1981–2010, por estação meteorológica",
@@ -316,9 +305,9 @@
    "fonte": "Eurostat nrg_ti_gasm (importações mensais de gás natural por parceiro, até agosto de 2026)",
    "licenca": "Eurostat: reutilização com atribuição",
    "estado": "bloqueada",
-   "bloqueio": "2026-11-20: o total inclui comércio intra-UE e a soma dos parceiros extra-UE não fecha (em 2021 a Rússia aparece com 23% do extra-UE calculado, longe dos ~40% habituais; trânsito por Ucrânia/Bielorrússia e «não especificado» pesam). Usar nrg_ti_gas anual ou a série de origem do gás e confirmar a metodologia de parceiro antes de publicar.",
+   "bloqueio": "2026-11-20: o total inclui comércio intra-UE e a soma dos parceiros extra-UE não fecha (em 2021 a Rússia aparece com 23% do extra-UE calculado, longe dos ~40% habituais; trânsito por Ucrânia/Bielorrússia e «não especificado» pesam). Usar nrg_ti_gas anual ou a série de origem do gás e confirmar a metodologia de parceiro antes de publicar. 2026-11-24: nrg_ti_gasm já tem setembro de 2026 (UE) e outubro para alguns países; o Catar aparece com zero de abril a setembro de 2026 (era cerca de 0,5 a 0,9 mil milhões de m³ por mês), mas pesou só cerca de 3% das importações extra-UE de 2025; a Rússia somou 22,1 mil milhões de m³ de janeiro a setembro de 2026, quase o mesmo do que em 2025. Continua por resolver a coerência dos totais; usar valores absolutos por parceiro, sem quotas.",
    "registada": "2026-11-20",
-   "tentativas": 1
+   "tentativas": 2
   },
   {
    "id": "dracunculose-erradicacao",
@@ -354,15 +343,15 @@
    "tentativas": 1
   },
   {
-   "id": "centros-dados-construcao-eua",
+   "id": "robotaxis-california",
    "tema": "tecnologia",
-   "ideia": "Investimento privado em construção de centros de dados nos EUA (US Census Bureau), a corrida da IA em números",
-   "fonte": "US Census Bureau, Value of Private Construction Put in Place, via catálogo da OWID (garden/us_census_bureau/2026-10-02/datacenter_construction)",
-   "licenca": "Domínio público (governo dos EUA)",
+   "ideia": "Viagens de robotáxi na Califórnia, mensais desde março de 2022 (1,53 milhões de viagens em setembro de 2026, contra 3 753 em março de 2022)",
+   "fonte": "California Public Utilities Commission, via catálogo da OWID (garden/artificial_intelligence/2026-11-20/robotaxis/robotaxis)",
+   "licenca": "Domínio público (segundo os metadados da OWID)",
    "estado": "pronta",
-   "bloqueio": "2026-11-23: dados acessíveis pelo catálogo da OWID; não testados em detalhe. Tema dos EUA: conta para a quota semanal; ligar à peça da computação da IA de 2026-11-23.",
-   "registada": "2026-11-23",
-   "tentativas": 0
+   "bloqueio": "2026-11-24: dados acessíveis; adiada porque a edição já tinha uma peça dos EUA (centros de dados) e o limite é uma por semana. Precisa de ângulo europeu (testes de condução autónoma na UE) para passar o teste de relevância.",
+   "registada": "2026-11-24",
+   "tentativas": 1
   }
  ]
 }

@@ -1,8 +1,121 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-23T07:39:49.857Z",
- "latest": "2026-11-23",
+ "updated": "2026-11-24T07:37:38.419Z",
+ "latest": "2026-11-24",
  "editions": [
+  {
+   "date": "2026-11-24",
+   "number": 16,
+   "lead": "autorizacoes-residencia-portugal-2025",
+   "opening": "Cinco histórias para terça-feira: o ano em que Portugal deu mais autorizações de residência do que em qualquer ano desde 2008, as cesarianas em máximos, os centros de dados que já custam mais a construir do que os escritórios nos EUA, o gelo da Antártida em queda e três séculos do preço de um prego.",
+   "pieces": [
+    {
+     "id": "autorizacoes-residencia-portugal-2025",
+     "title": "Portugal emitiu 310 mil primeiras autorizações de residência em 2025, duas vezes e meia as de 2024. Quase oito em cada dez foram por trabalho",
+     "kind": "atualidade",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade",
+     "vizType": "colunas",
+     "vizLabel": "Colunas empilhadas por motivo",
+     "interactive": false,
+     "question": "Quantas autorizações de residência deu Portugal a cidadãos de fora da UE em 2025, e como se compara com os anos anteriores e com o resto da Europa?",
+     "finding": "Em 2025, Portugal emitiu 310 639 primeiras autorizações de residência a cidadãos de fora da UE, 2,55 vezes as 121 872 de 2024 e mais do dobro do máximo anterior (135 907, em 2023). As concedidas por trabalho passaram de 60 553 para 240 523 e explicam 95,3% do aumento. Por mil habitantes, Portugal (27,3) só fica atrás de Malta e de Chipre; a média da UE é 8,6.",
+     "period": "2008–2025 (anual)",
+     "dataset": "autorizacoes-residencia-portugal-2025",
+     "sourceNames": [
+      "Eurostat — First permits by reason, length of validity and citizenship (migr_resfirst), dados da AIMA, atualizado a 23-11-2026",
+      "Eurostat — População a 1 de janeiro (demo_gind)",
+      "Eurostat — Metadados das autorizações de residência de Portugal (AIMA), atualizados a 24-07-2026",
+      "Governo de Portugal — Estrutura de Missão para a Recuperação de Processos Pendentes na AIMA: balanço (lido através de resultados de pesquisa; página não acessível neste ambiente)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "cesarianas-portugal-ue-2024",
+     "title": "Em 2024, 38 em cada 100 bebés nasceram por cesariana em Portugal, o valor mais alto desde 1990. A descida de 2012 a 2015 desfez-se",
+     "kind": "atualidade",
+     "theme": "saude",
+     "themeLabel": "Saúde",
+     "vizType": "halteres",
+     "vizLabel": "Halteres 2015 → 2024 · ordenação alternável",
+     "interactive": true,
+     "question": "Quantos partos se fazem por cesariana em Portugal, e o que mudou desde que a taxa desceu a meio da década passada?",
+     "finding": "Em 2024 houve 38,3 cesarianas por cada 100 nados-vivos em Portugal, o valor mais alto da série do Eurostat, que começa em 1990 com 18,6. Depois de um pico de 36,9 em 2012, a taxa desceu para 32,0 em 2015 e voltou a subir 6,2 pontos. A média da UE foi 30,2; Portugal tem a sétima taxa mais alta, e a taxa subiu em 20 dos 25 países com dados de 2015 e 2024.",
+     "period": "2015 e 2024 (série portuguesa desde 1990)",
+     "dataset": "cesarianas-ue-2015-2024",
+     "sourceNames": [
+      "Eurostat — Caesarean section surgical procedures (hlth_co_ces), atualizado a 20-11-2026",
+      "Organização Mundial da Saúde — WHO Statement on Caesarean Section Rates (2015): perguntas frequentes"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "centros-dados-escritorios-eua-2026",
+     "title": "Em agosto, os EUA gastaram quase o dobro a construir centros de dados do que a construir escritórios",
+     "kind": "descoberta",
+     "theme": "tecnologia",
+     "themeLabel": "Tecnologia",
+     "vizType": "linha",
+     "vizLabel": "Linhas mensais com cursor",
+     "interactive": true,
+     "question": "Quanto pesa a corrida da inteligência artificial na construção de edifícios nos EUA?",
+     "finding": "Em agosto de 2026, a construção privada de centros de dados nos EUA custou 7,5 mil milhões de dólares, 1,86 vezes o que se gastou em escritórios (4,1 mil milhões) e mais 74,7% do que um ano antes. Os centros de dados passaram os escritórios pela primeira vez em abril de 2025 e estão sempre acima desde setembro desse ano. De janeiro a agosto de 2026 somaram 45,2 mil milhões, 39 vezes o mesmo período de 2014.",
+     "period": "Janeiro de 2014 a agosto de 2026 (mensal)",
+     "dataset": "centros-dados-escritorios-eua-2014-2026",
+     "sourceNames": [
+      "U.S. Census Bureau — Value of Construction Put in Place Survey (VIP), Private Construction Spending, publicação de 1-10-2026",
+      "Our World in Data — catálogo de dados, tabela datacenter_construction (cópia, com o deflator do BLS)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "gelo-marinho-antartida-2025",
+     "title": "Em 2014, o gelo marinho da Antártida bateu o recorde. Os sete anos com menos gelo desde 1979 vieram todos depois",
+     "kind": "descoberta",
+     "theme": "ambiente",
+     "themeLabel": "Ambiente",
+     "vizType": "colunas",
+     "vizLabel": "Colunas acima e abaixo da média · duas vistas",
+     "interactive": true,
+     "question": "O gelo marinho da Antártida, que durante décadas não acompanhou o derretimento do Ártico, também começou a desaparecer?",
+     "finding": "Em 2014, a extensão média do gelo marinho à volta da Antártida chegou a 12,73 milhões de km², o máximo desde 1979 e 1,13 milhões acima da média de 1981–2010. Desde 2016, todos os anos ficaram abaixo dessa média, e os sete anos com menos gelo da série foram todos entre 2017 e 2025; o mínimo foi 2023, com 9,89 milhões. Em setembro de 2026, mês do máximo anual, a extensão foi a terceira mais baixa em 48 anos.",
+     "period": "1979–2025 (média anual); setembro de 2026",
+     "dataset": "gelo-marinho-antartida-artico-1979-2025",
+     "sourceNames": [
+      "National Snow and Ice Data Center (NSIDC) — Sea Ice Index, versão 4 (G02135), Fetterer et al., publicação de 10-11-2026",
+      "Our World in Data — catálogo de dados, tabela sea_ice_index (cópia)",
+      "Australian Antarctic Division — «The lows and lows of Antarctic sea ice» (2024)",
+      "Zhang et al. (2022), «The relative role of the subsurface Southern Ocean in driving negative Antarctic Sea ice extent anomalies in 2016–2021», Communications Earth & Environment 3: 302"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "preco-pregos-1695-2011",
+     "title": "Em dois séculos, um prego ficou sete vezes mais barato. Depois do mínimo de 1944, o preço real triplicou",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História",
+     "vizType": "linha",
+     "vizLabel": "Linha com escala logarítmica ⇄ linear",
+     "interactive": true,
+     "question": "Quanto mudou, ao longo de três séculos, o preço de um objeto tão simples como um prego?",
+     "finding": "Descontada a inflação, um prego comum custava em média 1,74 cêntimos de dólar de 2010 na segunda metade do século XVIII e 0,24 cêntimos nos anos 1930 e 1940, sete vezes menos (−86%). O mínimo foi em 1944: 0,17 cêntimos. Em 2011, último ano da série, custava 0,53 cêntimos, 3,1 vezes o mínimo, mas cerca de um terço do preço de 1695.",
+     "period": "1695–2011 (anual)",
+     "dataset": "preco-pregos-1695-2011",
+     "sourceNames": [
+      "Sichel, D. E. (2022), «The Price of Nails since 1695: A Window into Economic Change», Journal of Economic Perspectives 36(1): 125–150 (versão NBER w29617)",
+      "Our World in Data — owid-datasets, «Price of nails since 1695 (Daniel Sichels (2017))» (cópia do apêndice de dados)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "fronteiras-africa-regua",
+    "title": "As fronteiras de África desenhadas «à régua»",
+    "axis": "geopolitica",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-23",
    "number": 15,

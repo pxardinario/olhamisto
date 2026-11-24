@@ -1,0 +1,5 @@
+# Fonte — despesa mensal na construção de centros de dados e de escritórios nos EUA
+
+- U.S. Census Bureau, Value of Construction Put in Place Survey (VIP), Private Construction Spending, valores mensais não ajustados de sazonalidade (https://www.census.gov/construction/c30/historical_data.html). Domínio público (governo dos EUA). Publicação usada pela OWID: 2026-10-01 (dados até agosto de 2026).
+- Cópia usada (census.gov não está acessível neste ambiente): catálogo de dados da Our World in Data, tabela `garden/us_census_bureau/2026-10-02/datacenter_construction/datacenter_construction` (https://catalog.ourworldindata.org/garden/us_census_bureau/2026-10-02/datacenter_construction/datacenter_construction.feather). Descarregado em 2026-11-24 e convertido de feather para CSV sem alterar valores; metadados em `owid_catalog_datacenter_construction_2026-10-02.meta.json`.
+- Unidades: dólares correntes por mês (`*_spending`) e dólares constantes de 2021 (`*_real`, deflacionados pela OWID com o índice de preços no produtor da construção do BLS).

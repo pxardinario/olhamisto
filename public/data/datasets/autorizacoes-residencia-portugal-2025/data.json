@@ -1,0 +1,245 @@
+{
+ "rows": [
+  {
+   "cat": "2008",
+   "trabalho": 25286,
+   "familia": 27270,
+   "estudo": 4344,
+   "outros": 6815,
+   "total": 63715
+  },
+  {
+   "cat": "2009",
+   "trabalho": 18275,
+   "familia": 19964,
+   "estudo": 4302,
+   "outros": 3783,
+   "total": 46324
+  },
+  {
+   "cat": "2010",
+   "trabalho": 10869,
+   "familia": 17478,
+   "estudo": 5414,
+   "outros": 3249,
+   "total": 37010
+  },
+  {
+   "cat": "2011",
+   "trabalho": 7276,
+   "familia": 18229,
+   "estudo": 6478,
+   "outros": 3189,
+   "total": 35172
+  },
+  {
+   "cat": "2012",
+   "trabalho": 5917,
+   "familia": 14654,
+   "estudo": 8410,
+   "outros": 3609,
+   "total": 32590
+  },
+  {
+   "cat": "2013",
+   "trabalho": 6394,
+   "familia": 12224,
+   "estudo": 4734,
+   "outros": 3241,
+   "total": 26593
+  },
+  {
+   "cat": "2014",
+   "trabalho": 6409,
+   "familia": 13846,
+   "estudo": 3407,
+   "outros": 6102,
+   "total": 29764
+  },
+  {
+   "cat": "2015",
+   "trabalho": 6805,
+   "familia": 12916,
+   "estudo": 3139,
+   "outros": 6161,
+   "total": 29021
+  },
+  {
+   "cat": "2016",
+   "trabalho": 5791,
+   "familia": 12755,
+   "estudo": 3459,
+   "outros": 3723,
+   "total": 25728
+  },
+  {
+   "cat": "2017",
+   "trabalho": 8164,
+   "familia": 17840,
+   "estudo": 4883,
+   "outros": 3186,
+   "total": 34073
+  },
+  {
+   "cat": "2018",
+   "trabalho": 20256,
+   "familia": 26659,
+   "estudo": 8369,
+   "outros": 6457,
+   "total": 61741
+  },
+  {
+   "cat": "2019",
+   "trabalho": 34999,
+   "familia": 38203,
+   "estudo": 13356,
+   "outros": 6917,
+   "total": 93475
+  },
+  {
+   "cat": "2020",
+   "trabalho": 32666,
+   "familia": 35735,
+   "estudo": 12285,
+   "outros": 3711,
+   "total": 84397
+  },
+  {
+   "cat": "2021",
+   "trabalho": 38659,
+   "familia": 29516,
+   "estudo": 10919,
+   "outros": 5711,
+   "total": 84805
+  },
+  {
+   "cat": "2022",
+   "trabalho": 53194,
+   "familia": 38602,
+   "estudo": 9712,
+   "outros": 7176,
+   "total": 108684
+  },
+  {
+   "cat": "2023",
+   "trabalho": 55161,
+   "familia": 44617,
+   "estudo": 23878,
+   "outros": 12251,
+   "total": 135907
+  },
+  {
+   "cat": "2024",
+   "trabalho": 60553,
+   "familia": 24154,
+   "estudo": 16664,
+   "outros": 20501,
+   "total": 121872
+  },
+  {
+   "cat": "2025",
+   "trabalho": 240523,
+   "familia": 25435,
+   "estudo": 11389,
+   "outros": 33292,
+   "total": 310639
+  }
+ ],
+ "views": [
+  {
+   "id": "motivo",
+   "label": "Por motivo",
+   "yLabel": "Primeiras autorizações de residência emitidas a cidadãos de fora da UE, Portugal",
+   "unit": "",
+   "decimals": 0,
+   "marginLeft": [
+    44,
+    56
+   ],
+   "labelEvery": 1,
+   "labelEveryNarrow": 3,
+   "series": [
+    {
+     "key": "outros",
+     "label": "Outros motivos",
+     "color": "--muted"
+    },
+    {
+     "key": "estudo",
+     "label": "Estudo",
+     "color": "--accent-3"
+    },
+    {
+     "key": "familia",
+     "label": "Família",
+     "color": "--ink-3"
+    },
+    {
+     "key": "trabalho",
+     "label": "Trabalho",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "total",
+     "label": "Total",
+     "suffix": ""
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2025",
+     "text": "2025: 310 639 (quebra de série)",
+     "short": "310 639"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "tot25": 310639,
+  "tot24": 121872,
+  "emp25": 240523,
+  "emp24": 60553,
+  "fam25": 25435,
+  "edu25": 11389,
+  "oth25": 33292,
+  "tot08": 63715,
+  "tot17": 34073,
+  "emp17": 8164,
+  "ratioTot": 2.55,
+  "ratioEmp": 3.97,
+  "empShare25": 77.4,
+  "empShare24": 49.7,
+  "maxBefore": 135907,
+  "maxBeforeYear": "2023",
+  "empIncrease": 179970,
+  "totIncrease": 188767,
+  "empShareOfIncrease": 95.3,
+  "sum2008_2017": 359990,
+  "minTot": 25728,
+  "minTotYear": "2016",
+  "ptPerK": 27.3,
+  "ptPerKemp": 21.1,
+  "euPerK": 8.6,
+  "euPerKemp": 2.9,
+  "esPerK": 12.9,
+  "rankPT": 3,
+  "rankPTemp": 3,
+  "top": [
+   "MT 56.9",
+   "CY 46.7",
+   "PT 27.3"
+  ],
+  "topEmp": [
+   "MT 28.4",
+   "CY 25.6",
+   "PT 21.1"
+  ],
+  "euTot": 3860000,
+  "euEmp": 1295687,
+  "ptShareEUemp": 18.6,
+  "ptPop": 11387222,
+  "ptPopShare": 2.5
+ }
+}

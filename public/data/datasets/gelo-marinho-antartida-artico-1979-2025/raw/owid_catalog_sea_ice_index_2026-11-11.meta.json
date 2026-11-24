@@ -1,0 +1,83 @@
+{
+  "short_name": "sea_ice_index",
+  "title": "Sea Ice Index",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "climate",
+    "short_name": "sea_ice_index",
+    "title": "Sea Ice Index",
+    "is_public": true,
+    "version": "2026-11-11",
+    "update_period_days": 60,
+    "non_redistributable": false,
+    "jsonld": false,
+    "owners": [
+      "Pablo Rosado"
+    ],
+    "source_checksum": "18266b1e735dafe35809ed20badf76cc"
+  },
+  "primary_key": [
+    "location",
+    "date"
+  ],
+  "dimensions": [
+    {
+      "name": "location",
+      "slug": "location"
+    },
+    {
+      "name": "date",
+      "slug": "date"
+    }
+  ],
+  "fields": {
+    "location": {},
+    "date": {
+      "origins": [
+        {
+          "producer": "National Snow and Ice Data Center",
+          "title": "Sea Ice Index",
+          "citation_full": "Fetterer, F., Knowles, K., Meier, W. N., Savoie, M., Windnagel, A. K. & Stafford, T. (2025). Sea Ice Index. (G02135, Version 4). [Data Set]. Boulder, Colorado USA. National Snow and Ice Data Center. https://doi.org/10.7265/a98x-0f50.",
+          "attribution": "National Snow and Ice Data Center \u2013 Sea Ice Index (2026)",
+          "attribution_short": "NSIDC",
+          "version_producer": "Version 4",
+          "url_main": "https://nsidc.org/data/g02135/",
+          "url_download": "https://noaadata.apps.nsidc.org/NOAA/G02135/seaice_analysis/Sea_Ice_Index_Monthly_Data_by_Year_G02135_v4.0.xlsx",
+          "date_accessed": "2026-11-11",
+          "date_published": "2026-11-10",
+          "license": {
+            "name": "CC BY 4.0"
+          }
+        }
+      ]
+    },
+    "sea_ice_extent": {
+      "title": "Sea ice extent",
+      "origins": [
+        {
+          "producer": "National Snow and Ice Data Center",
+          "title": "Sea Ice Index",
+          "citation_full": "Fetterer, F., Knowles, K., Meier, W. N., Savoie, M., Windnagel, A. K. & Stafford, T. (2025). Sea Ice Index. (G02135, Version 4). [Data Set]. Boulder, Colorado USA. National Snow and Ice Data Center. https://doi.org/10.7265/a98x-0f50.",
+          "attribution": "National Snow and Ice Data Center \u2013 Sea Ice Index (2026)",
+          "attribution_short": "NSIDC",
+          "version_producer": "Version 4",
+          "url_main": "https://nsidc.org/data/g02135/",
+          "url_download": "https://noaadata.apps.nsidc.org/NOAA/G02135/seaice_analysis/Sea_Ice_Index_Monthly_Data_by_Year_G02135_v4.0.xlsx",
+          "date_accessed": "2026-11-11",
+          "date_published": "2026-11-10",
+          "license": {
+            "name": "CC BY 4.0"
+          }
+        }
+      ],
+      "unit": "million square kilometers",
+      "short_unit": "million km\u00b2",
+      "processing_level": "minor",
+      "presentation": {
+        "topic_tags": [
+          "Climate Change"
+        ]
+      }
+    }
+  }
+}

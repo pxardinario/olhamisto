@@ -1,0 +1,316 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-24",
+ "number": 16,
+ "status": "publicada",
+ "opening": "Cinco histórias para terça-feira: o ano em que Portugal deu mais autorizações de residência do que em qualquer ano desde 2008, as cesarianas em máximos, os centros de dados que já custam mais a construir do que os escritórios nos EUA, o gelo da Antártida em queda e três séculos do preço de um prego.",
+ "lead": "autorizacoes-residencia-portugal-2025",
+ "generatedAt": "2026-11-24T08:00:00+00:00",
+ "limitations": [
+  "Mistura da edição: 2 peças de atualidade (autorizações de residência, Eurostat de 23 de novembro; cesarianas, Eurostat de 20 de novembro) e 3 de descoberta. Peças do tipo «Portugal comparado com a Europa»: 2 (autorizações e cesarianas). Fontes não oficiais e sem Portugal como ângulo principal: gelo marinho (NSIDC) e preço dos pregos (Sichel); centros de dados (U.S. Census Bureau) é a peça semanal sobre os EUA. Tipos de gráfico: colunas (2), linhas (2), halteres (1).",
+  "Verificação independente: as cinco peças e a Chave do Dia ficaram verificadas depois de correções (subida das cesarianas, nota de quebras de série, queda real dos escritórios e título dos centros de dados, título e referência do gelo antártico, título dos pregos, legenda do esquema da Chave). U.S. Census Bureau e NSIDC foram lidos através de cópias no catálogo da Our World in Data; os artigos científicos, a página da OMS e o balanço da estrutura de missão da AIMA (portugal.gov.pt) foram confirmados só por resultados de pesquisa, porque não estão acessíveis neste ambiente.",
+  "O Eurostat marca o valor de 2025 de Portugal nas autorizações de residência como quebra de série, sem explicação nos metadados; a peça di-lo.",
+  "Candidatas rejeitadas ou adiadas: importações de gás da UE por parceiro (o Catar caiu para zero desde abril de 2026, mas pesava cerca de 3% e os totais continuam incoerentes), robotáxis na Califórnia (seria a segunda peça dos EUA da semana), aquisição de nacionalidade (sem mudança relevante em 2024), utentes sem médico de família 2016–2026 (adiada, já havia uma peça de saúde), preços da habitação por capital no 3.º trimestre (tema muito repetido).",
+  "Nesta execução, o grapher da Our World in Data não respondeu pela linha de comandos (o catálogo sim)."
+ ],
+ "pieces": [
+  {
+   "id": "autorizacoes-residencia-portugal-2025",
+   "slug": "primeiras-autorizacoes-residencia-portugal-2025-trabalho",
+   "kind": "atualidade",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade",
+   "vizType": "colunas",
+   "vizLabel": "Colunas empilhadas por motivo",
+   "interactive": false,
+   "title": "Portugal emitiu 310 mil primeiras autorizações de residência em 2025, duas vezes e meia as de 2024. Quase oito em cada dez foram por trabalho",
+   "question": "Quantas autorizações de residência deu Portugal a cidadãos de fora da UE em 2025, e como se compara com os anos anteriores e com o resto da Europa?",
+   "finding": "Em 2025, Portugal emitiu 310 639 primeiras autorizações de residência a cidadãos de fora da UE, 2,55 vezes as 121 872 de 2024 e mais do dobro do máximo anterior (135 907, em 2023). As concedidas por trabalho passaram de 60 553 para 240 523 e explicam 95,3% do aumento. Por mil habitantes, Portugal (27,3) só fica atrás de Malta e de Chipre; a média da UE é 8,6.",
+   "context": "O Eurostat atualizou a 23 de novembro as estatísticas de autorizações de residência de 2025, com os dados portugueses enviados pela AIMA. Uma primeira autorização é a primeira que uma pessoa recebe num país, mesmo que já lá viva. Em 2025 funcionou a estrutura de missão criada em junho de 2024 para despachar os processos pendentes, incluindo cerca de 450 mil manifestações de interesse.",
+   "interpretation": "Os dados não separam chegadas recentes de regularizações: parte destas autorizações respondeu a pedidos de anos anteriores, de pessoas que já viviam e trabalhavam em Portugal. O Eurostat marca 2025 como quebra de série em Portugal, sem explicar porquê nos metadados. Mesmo com essa reserva, Portugal, com 2,5% da população da UE, emitiu 18,6% de todas as primeiras autorizações por trabalho dos 27.",
+   "chart": {
+    "type": "columns",
+    "dataset": "autorizacoes-residencia-portugal-2025"
+   },
+   "period": "2008–2025 (anual)",
+   "unit": "número de primeiras autorizações de residência",
+   "sources": [
+    {
+     "name": "Eurostat — First permits by reason, length of validity and citizenship (migr_resfirst), dados da AIMA, atualizado a 23-11-2026",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Eurostat — População a 1 de janeiro (demo_gind)",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Eurostat — Metadados das autorizações de residência de Portugal (AIMA), atualizados a 24-07-2026",
+     "url": "https://ec.europa.eu/eurostat/cache/metadata/en/migr_resval_sims_pt.htm",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Governo de Portugal — Estrutura de Missão para a Recuperação de Processos Pendentes na AIMA: balanço (lido através de resultados de pesquisa; página não acessível neste ambiente)",
+     "url": "https://portugal.gov.pt/gc25/comunicacao/documentos/estrutura-de-missao-para-a-recuperacao-de-processos-pendentes-na-aima-balanco-da-producao",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "method": [
+    "Primeiras autorizações de residência emitidas a cidadãos de países terceiros (fora da UE), todas as durações, por motivo: trabalho, família, estudo e outros (inclui proteção internacional e autorizações sem motivo especificado). Em todos os anos, a soma dos quatro motivos é igual ao total publicado. Uma autorização conta como «primeira» quando é a primeira dada à pessoa ou quando surge pelo menos seis meses depois de expirar a anterior, emitida pelo mesmo motivo.",
+    "O valor de 2025 para Portugal (total e trabalho) tem a marca «b» do Eurostat, quebra de série. Os metadados da AIMA, atualizados em julho de 2026, dizem que a série é comparável desde o início e não explicam a marca. Por mil habitantes: autorizações de 2025 a dividir pela população a 1 de janeiro de 2025 (Eurostat demo_gind). O número de cerca de 450 mil manifestações de interesse pendentes vem da apresentação pública da estrutura de missão (Resolução do Conselho de Ministros n.º 87/2024), lida através de resultados de pesquisa. Brutos em raw/autorizacoes-residencia/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-24",
+    "note": "Os 90 valores de Portugal (2008–2025, cinco motivos), os 27 países e as populações de 2025 descarregados pelo verificador da API do Eurostat: totais, rácios, valores por mil habitantes, classificação e quotas conferem. Contexto da estrutura de missão (RCM 87/2024, cerca de 450 mil manifestações de interesse) confirmado só por resultados de pesquisa; definição de primeira autorização completada."
+   }
+  },
+  {
+   "id": "cesarianas-portugal-ue-2024",
+   "slug": "cesarianas-portugal-ue-2024-maximo",
+   "kind": "atualidade",
+   "theme": "saude",
+   "themeLabel": "Saúde",
+   "vizType": "halteres",
+   "vizLabel": "Halteres 2015 → 2024 · ordenação alternável",
+   "interactive": true,
+   "title": "Em 2024, 38 em cada 100 bebés nasceram por cesariana em Portugal, o valor mais alto desde 1990. A descida de 2012 a 2015 desfez-se",
+   "question": "Quantos partos se fazem por cesariana em Portugal, e o que mudou desde que a taxa desceu a meio da década passada?",
+   "finding": "Em 2024 houve 38,3 cesarianas por cada 100 nados-vivos em Portugal, o valor mais alto da série do Eurostat, que começa em 1990 com 18,6. Depois de um pico de 36,9 em 2012, a taxa desceu para 32,0 em 2015 e voltou a subir 6,2 pontos. A média da UE foi 30,2; Portugal tem a sétima taxa mais alta, e a taxa subiu em 20 dos 25 países com dados de 2015 e 2024.",
+   "context": "O Eurostat publicou a 20 de novembro os dados de 2024 sobre intervenções cirúrgicas nos hospitais europeus. Em 2015, a Organização Mundial da Saúde concluiu que, ao nível de um país, taxas de cesariana acima de 10% não estão associadas a menos mortes de mães e de recém-nascidos, e deixou de recomendar uma taxa-alvo. Com indicação médica, a cesariana salva vidas.",
+   "interpretation": "As diferenças entre países dificilmente se explicam só pela saúde das grávidas: nos Países Baixos houve 16 cesarianas por cada 100 nascimentos, em Chipre 63. A Itália, que em 2015 estava acima de Portugal, desceu de 35,7 para 31,3; a Espanha ficou igual, em 24,7. Os dados não dizem porque subiu a taxa portuguesa: a idade das mães, a organização dos hospitais e as preferências não são medidas aqui.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "cesarianas-ue-2015-2024"
+   },
+   "period": "2015 e 2024 (série portuguesa desde 1990)",
+   "unit": "cesarianas por 100 nados-vivos",
+   "sources": [
+    {
+     "name": "Eurostat — Caesarean section surgical procedures (hlth_co_ces), atualizado a 20-11-2026",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/hlth_co_ces/default/table",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Organização Mundial da Saúde — WHO Statement on Caesarean Section Rates (2015): perguntas frequentes",
+     "url": "https://www.who.int/news-room/questions-and-answers/item/who-statement-on-caesarean-section-rates-frequently-asked-questions",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "method": [
+    "O Eurostat publica cesarianas por 1 000 nados-vivos (unidade P_TLBRTH, internamento e ambulatório); aqui dividido por 10, para ficar por 100 nados-vivos. O denominador são nados-vivos, não partos: em partos múltiplos, uma cesariana corresponde a mais de um bebé, por isso o valor é uma aproximação da proporção de partos por cesariana. Em 2024, Portugal registou 32 392 cesarianas.",
+    "O gráfico mostra os 25 países da UE com dados de 2015 e de 2024; ficam de fora a Bélgica (sem 2015) e a Grécia (série só desde 2023), que entra na classificação de 2024 (51,4). Há quebras de série assinaladas pelo Eurostat entre 2015 e 2024 na Dinamarca, Espanha, Finlândia, Hungria, Irlanda e Países Baixos, e em 2015 na França; o valor de Malta em 2024 tem definição diferente. Brutos em raw/cesarianas-ue/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-24",
+    "note": "Cerca de 115 valores do Eurostat conferidos (halteres, série portuguesa 1990–2024, classificação de 2024). Corrigidos a subida desde 2015 (6,2 pontos, não 6,3) e a nota sobre quebras de série. Afirmação da OMS confirmada por resultados de pesquisa."
+   }
+  },
+  {
+   "id": "centros-dados-escritorios-eua-2026",
+   "slug": "construcao-centros-dados-escritorios-eua-agosto-2026",
+   "kind": "descoberta",
+   "theme": "tecnologia",
+   "themeLabel": "Tecnologia",
+   "vizType": "linha",
+   "vizLabel": "Linhas mensais com cursor",
+   "interactive": true,
+   "title": "Em agosto, os EUA gastaram quase o dobro a construir centros de dados do que a construir escritórios",
+   "question": "Quanto pesa a corrida da inteligência artificial na construção de edifícios nos EUA?",
+   "finding": "Em agosto de 2026, a construção privada de centros de dados nos EUA custou 7,5 mil milhões de dólares, 1,86 vezes o que se gastou em escritórios (4,1 mil milhões) e mais 74,7% do que um ano antes. Os centros de dados passaram os escritórios pela primeira vez em abril de 2025 e estão sempre acima desde setembro desse ano. De janeiro a agosto de 2026 somaram 45,2 mil milhões, 39 vezes o mesmo período de 2014.",
+   "context": "O U.S. Census Bureau mede todos os meses o valor das obras de construção feitas nos EUA, por tipo de edifício. Os centros de dados são os pavilhões onde ficam os servidores que treinam e põem a funcionar os modelos de inteligência artificial, além da nuvem e do streaming. A série conta só a obra: materiais, mão de obra e empreiteiros, sem equipamento informático.",
+   "interpretation": "A obra é a parte menor da conta: os servidores e os chips, que valem muito mais, ficam de fora. Descontada a inflação, a despesa de janeiro a agosto de 2026 é 22 vezes a de 2014; a dos escritórios caiu 15% face a 2025. O fenómeno não é só americano: na Irlanda, os centros de dados levaram três quartos do aumento do consumo elétrico numa década.",
+   "chart": {
+    "type": "lines",
+    "dataset": "centros-dados-escritorios-eua-2014-2026"
+   },
+   "period": "Janeiro de 2014 a agosto de 2026 (mensal)",
+   "unit": "mil milhões de dólares correntes por mês",
+   "sources": [
+    {
+     "name": "U.S. Census Bureau — Value of Construction Put in Place Survey (VIP), Private Construction Spending, publicação de 1-10-2026",
+     "url": "https://www.census.gov/construction/c30/historical_data.html",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Our World in Data — catálogo de dados, tabela datacenter_construction (cópia, com o deflator do BLS)",
+     "url": "https://catalog.ourworldindata.org/garden/us_census_bureau/2026-10-02/datacenter_construction/datacenter_construction.feather",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "method": [
+    "Valores mensais da construção privada, em dólares correntes e sem ajuste de sazonalidade (há meses de inverno mais fracos); por isso as comparações anuais usam os mesmos meses (janeiro a agosto) ou o mesmo mês do ano anterior. Os meses mais recentes são preliminares e o Census Bureau revê todos os anos os dois anteriores. Só obras privadas; não inclui terreno, manutenção nem equipamento informático.",
+    "Os valores a preços constantes (dólares de 2021) são os da Our World in Data: para os centros de dados, deflacionados com um índice composto, em partes iguais, dos índices de preços no produtor do Bureau of Labor Statistics para edifícios industriais e armazéns (abordagem do BEA). O título assenta num mês preliminar e sem ajuste de sazonalidade; de janeiro a agosto de 2026, o rácio é 1,49. O site do Census Bureau não está acessível neste ambiente; dados lidos na cópia do catálogo da OWID. Brutos em raw/centros-dados-eua/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-24",
+    "note": "Os 304 valores mensais da cópia da OWID conferidos, assim como todos os agregados. Corrigida a queda dos escritórios (−15% descontada a inflação, em vez de −11,1% nominal) e o título passou a referir agosto. O Census Bureau não está acessível; dados conferidos na cópia da OWID."
+   }
+  },
+  {
+   "id": "gelo-marinho-antartida-2025",
+   "slug": "gelo-marinho-antartida-artico-1979-2025",
+   "kind": "descoberta",
+   "theme": "ambiente",
+   "themeLabel": "Ambiente",
+   "vizType": "colunas",
+   "vizLabel": "Colunas acima e abaixo da média · duas vistas",
+   "interactive": true,
+   "title": "Em 2014, o gelo marinho da Antártida bateu o recorde. Os sete anos com menos gelo desde 1979 vieram todos depois",
+   "question": "O gelo marinho da Antártida, que durante décadas não acompanhou o derretimento do Ártico, também começou a desaparecer?",
+   "finding": "Em 2014, a extensão média do gelo marinho à volta da Antártida chegou a 12,73 milhões de km², o máximo desde 1979 e 1,13 milhões acima da média de 1981–2010. Desde 2016, todos os anos ficaram abaixo dessa média, e os sete anos com menos gelo da série foram todos entre 2017 e 2025; o mínimo foi 2023, com 9,89 milhões. Em setembro de 2026, mês do máximo anual, a extensão foi a terceira mais baixa em 48 anos.",
+   "context": "O gelo marinho é água do mar gelada que cresce no inverno e encolhe no verão de cada hemisfério; não é o gelo dos glaciares nem o manto que cobre o continente antártico. Os satélites medem-no desde o fim de 1978. Durante décadas, o Ártico perdeu gelo e a Antártida não: a extensão antártica até subiu ligeiramente, até ao recorde de 2014.",
+   "interpretation": "A queda antártica é recente e brusca, e a causa ainda está em estudo: a investigação aponta a atmosfera para o colapso de 2016 e o aquecimento do oceano abaixo da superfície para a persistência desde então. Não se sabe ainda se a mudança é duradoura. No Ártico, a perda é antiga: nenhum ano ficou acima da média desde 2001, e 2025 foi o ano com menos gelo, por pouco.",
+   "chart": {
+    "type": "columns",
+    "dataset": "gelo-marinho-antartida-artico-1979-2025"
+   },
+   "period": "1979–2025 (média anual); setembro de 2026",
+   "unit": "milhões de km² acima ou abaixo da média de 1981–2010",
+   "sources": [
+    {
+     "name": "National Snow and Ice Data Center (NSIDC) — Sea Ice Index, versão 4 (G02135), Fetterer et al., publicação de 10-11-2026",
+     "url": "https://nsidc.org/data/g02135/",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Our World in Data — catálogo de dados, tabela sea_ice_index (cópia)",
+     "url": "https://catalog.ourworldindata.org/garden/climate/2026-11-11/sea_ice_index/sea_ice_index.feather",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Australian Antarctic Division — «The lows and lows of Antarctic sea ice» (2024)",
+     "url": "https://www.antarctica.gov.au/news/2024/the-lows-and-lows-of-antarctic-sea-ice/",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Zhang et al. (2022), «The relative role of the subsurface Southern Ocean in driving negative Antarctic Sea ice extent anomalies in 2016–2021», Communications Earth & Environment 3: 302",
+     "url": "https://link.springer.com/10.1038/s43247-022-00624-1",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "method": [
+    "Extensão do gelo marinho (área com pelo menos 15% de cobertura de gelo), média de cada mês, em milhões de km². A média anual é a média dos 12 meses; 1987 e 1988 ficam em branco porque faltam dezembro de 1987 e janeiro de 1988 (falha do satélite), e 1978 só tem dois meses. A referência é a média anual de 1981–2010 (28 anos completos): 11,60 milhões de km² na Antártida e 11,62 no Ártico. 2026 ainda não tem ano completo; para 2026 usa-se só o mês de setembro.",
+    "Valores mensais do Sea Ice Index do NSIDC (CC BY 4.0), lidos na cópia do catálogo da Our World in Data. A explicação das causas resume trabalhos publicados e a divulgação da Australian Antarctic Division; não é um cálculo desta revista. Brutos em raw/gelo-marinho/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-24",
+    "note": "Médias anuais recalculadas a partir dos 1 148 meses, sem diferenças. Corrigido o título (não é verdade que o gelo antártico estivesse sempre acima da média até 2015) e a referência do artigo de Zhang et al. (n.º 302). NSIDC conferido através da cópia da OWID; causas confirmadas por resultados de pesquisa."
+   }
+  },
+  {
+   "id": "preco-pregos-1695-2011",
+   "slug": "preco-real-pregos-desde-1695",
+   "kind": "descoberta",
+   "theme": "historia",
+   "themeLabel": "História",
+   "vizType": "linha",
+   "vizLabel": "Linha com escala logarítmica ⇄ linear",
+   "interactive": true,
+   "title": "Em dois séculos, um prego ficou sete vezes mais barato. Depois do mínimo de 1944, o preço real triplicou",
+   "question": "Quanto mudou, ao longo de três séculos, o preço de um objeto tão simples como um prego?",
+   "finding": "Descontada a inflação, um prego comum custava em média 1,74 cêntimos de dólar de 2010 na segunda metade do século XVIII e 0,24 cêntimos nos anos 1930 e 1940, sete vezes menos (−86%). O mínimo foi em 1944: 0,17 cêntimos. Em 2011, último ano da série, custava 0,53 cêntimos, 3,1 vezes o mínimo, mas cerca de um terço do preço de 1695.",
+   "context": "O economista Daniel Sichel reconstruiu o preço dos pregos desde 1695 com registos ingleses e norte-americanos, converteu tudo para o mesmo prego de 2 polegadas e descontou a inflação. Os pregos foram primeiro forjados à mão por ferreiros, depois cortados à máquina a partir de chapas de ferro e, desde o fim do século XIX, feitos de arame.",
+   "interpretation": "Sichel atribui a maior parte da descida ao aumento da produtividade dentro das fábricas de pregos, e uma parte menor à queda do preço dos materiais. A subida desde meados do século XX deve-se, em parte, a materiais mais caros e à passagem para pregos especiais. O peso na economia mudou tanto como o preço: em 1810, os pregos valiam cerca de 0,4% do PIB dos EUA.",
+   "chart": {
+    "type": "lines",
+    "dataset": "preco-pregos-1695-2011"
+   },
+   "period": "1695–2011 (anual)",
+   "unit": "cêntimos de dólar de 2010 por prego",
+   "sources": [
+    {
+     "name": "Sichel, D. E. (2022), «The Price of Nails since 1695: A Window into Economic Change», Journal of Economic Perspectives 36(1): 125–150 (versão NBER w29617)",
+     "url": "https://www.nber.org/papers/w29617",
+     "accessed": "2026-11-24"
+    },
+    {
+     "name": "Our World in Data — owid-datasets, «Price of nails since 1695 (Daniel Sichels (2017))» (cópia do apêndice de dados)",
+     "url": "https://github.com/owid/owid-datasets/tree/master/datasets/Price%20of%20nails%20since%201695%20(Daniel%20Sichels%20(2017))",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "method": [
+    "Série «matched model» de Sichel: preço real de um prego de 2 polegadas (tamanho 6d), em cêntimos de dólar de 2010. Até 1792, preços ingleses de Beveridge (com anos em falta interpolados pelo autor) e mistos de 1784 a 1813; de 1814 a 1890, pregos cortados à máquina nos EUA; desde 1890, pregos de arame (incluindo dados do Bureau of Labor Statistics). Deflator: índice de preços de retalho britânico até 1784 e IPC dos EUA depois.",
+    "As médias por período são médias simples dos valores anuais (1750–1799, anos 1930 e 1940). A série termina em 2011; entre 1950 e 2003 o preço oscilou sem tendência clara, e a subida concentra-se em 2004–2011. Os dados da OWID são da versão de 2017 do trabalho de Sichel; no artigo de 2022, o autor fala numa descida de cerca de 10 vezes entre meados do século XVIII e meados do século XX, medida de outra forma. A explicação das causas e o peso de 0,4% do PIB em 1810 são de Sichel. Brutos em raw/pregos-sichel/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-24",
+    "note": "Os 317 valores anuais conferidos, sem diferenças; médias e rácios recalculados. Título ajustado para comparar com o mínimo de 1944. As afirmações atribuídas a Sichel foram confirmadas por resultados de pesquisa (texto integral inacessível)."
+   }
+  }
+ ],
+ "chave": {
+  "id": "fronteiras-africa-regua",
+  "axis": "geopolitica",
+  "axisLabel": "Geopolítica e história",
+  "certainty": "Mito popular (desmontado)",
+  "title": "As fronteiras de África desenhadas «à régua»",
+  "concept": "A ideia popular diz que os europeus partilharam África numa mesa em Berlim, em 1884–1885, traçando linhas retas sobre mapas em branco. A investigação mostra outra coisa: a conferência fixou regras para a ocupação, as fronteiras foram negociadas depois, durante décadas, e a maior parte seguiu rios, lagos e limites de entidades políticas que já existiam.",
+  "lesson": [
+   "Entre novembro de 1884 e fevereiro de 1885, as potências europeias reuniram-se em Berlim, a convite de Bismarck, para tratar da navegação nos rios Congo e Níger e das condições para reclamar território na costa africana. A Ata Geral assinada no fim não desenha a partilha de África. A imagem de diplomatas a riscar o continente com régua e esquadro tornou-se, mesmo assim, uma das mais repetidas da história colonial.",
+   "As fronteiras vieram depois, em tratados bilaterais. Um estudo de 2025 sobre as 107 fronteiras entre países africanos concluiu que metade não existia até 1891 e que metade foi muito alterada depois de 1908. Rios e lagos serviram de limite bem mais vezes do que retas, e 62% das fronteiras seguiram estados africanos e outras entidades já existentes. As retas ficaram sobretudo onde nada havia a seguir, como nos desertos.",
+   "Desmontar o mito não absolve a partilha. As fronteiras foram fixadas em tratados entre potências europeias, que não perguntaram aos povos divididos, e cortaram muitos grupos étnicos ao meio. Um estudo de 2016 mostra que os territórios desses grupos partidos tiveram depois mais violência política e mais intervenções militares de países vizinhos. O erro do mito está no método que atribui à partilha, não no dano que denuncia."
+  ],
+  "diagram": {
+   "title": "Uma partilha que durou décadas, não uma tarde",
+   "svg": "<svg viewBox=\"0 0 340 232\" role=\"img\" aria-label=\"Cronologia da partilha de África. Em 1884 e 1885, a Conferência de Berlim fixa regras para reclamar território na costa, mas não desenha fronteiras. Até 1891, metade das 107 fronteiras bilaterais entre países africanos ainda não existia sob nenhuma forma. Depois de 1908, metade foi muito alterada. Por baixo, uma barra mostra que 62% das fronteiras foram fixadas de acordo com estados ou entidades que já existiam e 38% não tinham fronteira anterior a seguir, segundo Paine, Qiu e Ricart-Huguet (2025).\"><text x=\"10\" y=\"16\" font-size=\"11\" fill=\"var(--key-ink-2)\">As 107 fronteiras entre países africanos</text><line x1=\"20\" y1=\"62\" x2=\"320\" y2=\"62\" stroke=\"var(--key-ink-2)\" stroke-width=\"1.5\"/><circle cx=\"30\" cy=\"62\" r=\"6\" fill=\"var(--key-acc)\"/><text x=\"30\" y=\"44\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">1884–85</text><text x=\"30\" y=\"82\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">Berlim:</text><text x=\"30\" y=\"95\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">regras,</text><text x=\"30\" y=\"108\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">não linhas</text><circle cx=\"130\" cy=\"62\" r=\"6\" fill=\"var(--key-ink)\"/><text x=\"130\" y=\"44\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">1891</text><text x=\"130\" y=\"82\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">metade ainda</text><text x=\"130\" y=\"95\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">não existia</text><circle cx=\"230\" cy=\"62\" r=\"6\" fill=\"var(--key-ink)\"/><text x=\"230\" y=\"44\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">1908</text><text x=\"230\" y=\"82\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">depois disto, metade</text><text x=\"230\" y=\"95\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">muito alterada</text><text x=\"312\" y=\"44\" text-anchor=\"end\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">…</text><text x=\"10\" y=\"142\" font-size=\"11\" fill=\"var(--key-ink-2)\">Como foram fixadas</text><rect x=\"10\" y=\"150\" width=\"198\" height=\"28\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\"/><text x=\"109\" y=\"169\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">62%</text><rect x=\"208\" y=\"150\" width=\"122\" height=\"28\" fill=\"none\" stroke=\"var(--key-rule)\"/><text x=\"269\" y=\"169\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"var(--key-ink)\">38%</text><text x=\"10\" y=\"196\" font-size=\"10.5\" fill=\"var(--key-ink)\">de acordo com estados e entidades</text><text x=\"10\" y=\"209\" font-size=\"10.5\" fill=\"var(--key-ink)\">que já existiam</text><text x=\"330\" y=\"196\" text-anchor=\"end\" font-size=\"10.5\" fill=\"var(--key-ink)\">sem fronteira</text><text x=\"330\" y=\"209\" text-anchor=\"end\" font-size=\"10.5\" fill=\"var(--key-ink)\">anterior a seguir</text></svg>",
+   "caption": "Datas e percentagens de Paine, Qiu e Ricart-Huguet (2025), que codificaram as 107 fronteiras bilaterais de África. O espaçamento da cronologia não está à escala."
+  },
+  "aside": "A curva da fronteira entre o Quénia e a Tanzânia à volta do Kilimanjaro alimenta outra lenda: a rainha Vitória teria oferecido a montanha ao neto, o futuro Guilherme II, como prenda de anos. A linha resultou do acordo anglo-alemão de 1886, negociado entre governos, e Guilherme só se tornou imperador em 1888. Os historiadores que procuraram não encontraram registo da suposta prenda.",
+  "application": "Aparece nos debates sobre conflitos e secessões em África, muitas vezes explicados só pelas «fronteiras artificiais»; nas discussões sobre a herança colonial nos manuais escolares; e em todas as histórias que comprimem um processo longo numa única reunião, numa única assinatura ou num único culpado.",
+  "motto": "Uma fronteira raramente nasce numa só reunião, e quase nunca numa linha reta.",
+  "sources": [
+   {
+    "name": "Paine, Qiu e Ricart-Huguet (2025), «Endogenous Colonial Borders: Precolonial States and Geography in the Partition of Africa», American Political Science Review 119(1): 1–20",
+    "url": "https://www.cambridge.org/core/product/132D6CBDE92946D14CCC64E59A94D3D2/core-reader",
+    "accessed": "2026-11-24"
+   },
+   {
+    "name": "African Economic History Network — «African Borders: Neither Random Nor Decided at the Berlin Conference» (resumo dos autores)",
+    "url": "https://www.aehnetwork.org/blog/african-borders-neither-random-nor-decided-at-the-berlin-conference/",
+    "accessed": "2026-11-24"
+   },
+   {
+    "name": "Michalopoulos e Papaioannou (2016), «The Long-Run Effects of the Scramble for Africa», American Economic Review 106(7): 1802–1848 (versão NBER w17620)",
+    "url": "https://www.nber.org/papers/w17620",
+    "accessed": "2026-11-24"
+   },
+   {
+    "name": "Alesina, Easterly e Matuszeski (2006), «Artificial States», NBER Working Paper 12328",
+    "url": "https://www.nber.org/papers/w12328",
+    "accessed": "2026-11-24"
+   },
+   {
+    "name": "Ministério dos Negócios Estrangeiros da Alemanha, Arquivo Político — Ata Geral da Conferência de Berlim (página não acessível neste ambiente; lida através de resultados de pesquisa)",
+    "url": "https://archiv.diplo.de/arc-en/the-political-archive/general-act-2684414",
+    "accessed": "2026-11-24"
+   },
+   {
+    "name": "Temple, P. (1989), «Kilimanjaro: a Royal Gift?», Alpine Journal 94: 170–174",
+    "url": "https://www.alpinejournal.org.uk/Contents/Contents_1989-90_files/AJ%201989%20170-174%20Temple%20Kilimanjaro.pdf",
+    "accessed": "2026-11-24"
+   }
+  ],
+  "notes": [
+   "«Mito popular (desmontado)»: a ideia de que a Conferência de Berlim desenhou as fronteiras de África, em linhas retas e arbitrárias, não resiste aos documentos nem aos estudos recentes. O artigo «Artificial States» (2006) afirma na introdução que cerca de 80% das fronteiras africanas seguem paralelos e meridianos, sem dizer como foi medido (uma contagem de 1961, citada por Paine e coautores, dava 44%); Paine, Qiu e Ricart-Huguet mostram que rios e lagos foram o critério principal muito mais vezes do que as retas.",
+   "A ressalva: o desmentido diz respeito ao método e ao calendário da partilha, não às suas consequências. Michalopoulos e Papaioannou (2016) usam o mapa étnico de Murdock e encontram mais violência política nos territórios de grupos divididos por fronteiras. Paine e coautores argumentam que esse mapa não basta para testar se os estados pré-coloniais influenciaram as fronteiras; os dois resultados não se contradizem."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-24",
+   "note": "Datas da Conferência de Berlim, números de Paine, Qiu e Ricart-Huguet (107 fronteiras, 1891, 1908, 62%), Michalopoulos e Papaioannou, Alesina et al. e o caso do Kilimanjaro confirmados por resultados de pesquisa (os textos integrais não estão acessíveis neste ambiente). Esquema ajustado: os 38% são fronteiras sem limite anterior a seguir."
+  }
+ }
+}

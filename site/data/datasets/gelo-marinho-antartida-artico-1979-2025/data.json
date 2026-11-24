@@ -1,0 +1,450 @@
+{
+ "rows": [
+  {
+   "cat": "1979",
+   "ant": 0.06,
+   "arc": 0.73,
+   "antExt": 11.65,
+   "arcExt": 12.35
+  },
+  {
+   "cat": "1980",
+   "ant": -0.39,
+   "arc": 0.73,
+   "antExt": 11.21,
+   "arcExt": 12.35
+  },
+  {
+   "cat": "1981",
+   "ant": -0.21,
+   "arc": 0.53,
+   "antExt": 11.39,
+   "arcExt": 12.15
+  },
+  {
+   "cat": "1982",
+   "ant": 0,
+   "arc": 0.85,
+   "antExt": 11.59,
+   "arcExt": 12.47
+  },
+  {
+   "cat": "1983",
+   "ant": -0.25,
+   "arc": 0.74,
+   "antExt": 11.34,
+   "arcExt": 12.35
+  },
+  {
+   "cat": "1984",
+   "ant": -0.17,
+   "arc": 0.3,
+   "antExt": 11.43,
+   "arcExt": 11.92
+  },
+  {
+   "cat": "1985",
+   "ant": -0.03,
+   "arc": 0.4,
+   "antExt": 11.57,
+   "arcExt": 12.02
+  },
+  {
+   "cat": "1986",
+   "ant": -0.55,
+   "arc": 0.61,
+   "antExt": 11.04,
+   "arcExt": 12.22
+  },
+  {
+   "cat": "1987",
+   "ant": null,
+   "arc": null,
+   "antExt": null,
+   "arcExt": null
+  },
+  {
+   "cat": "1988",
+   "ant": null,
+   "arc": null,
+   "antExt": null,
+   "arcExt": null
+  },
+  {
+   "cat": "1989",
+   "ant": -0.22,
+   "arc": 0.37,
+   "antExt": 11.38,
+   "arcExt": 11.99
+  },
+  {
+   "cat": "1990",
+   "ant": -0.23,
+   "arc": 0.1,
+   "antExt": 11.36,
+   "arcExt": 11.72
+  },
+  {
+   "cat": "1991",
+   "ant": -0.1,
+   "arc": 0.15,
+   "antExt": 11.5,
+   "arcExt": 11.77
+  },
+  {
+   "cat": "1992",
+   "ant": -0.22,
+   "arc": 0.5,
+   "antExt": 11.37,
+   "arcExt": 12.12
+  },
+  {
+   "cat": "1993",
+   "ant": -0.22,
+   "arc": 0.33,
+   "antExt": 11.37,
+   "arcExt": 11.95
+  },
+  {
+   "cat": "1994",
+   "ant": 0.13,
+   "arc": 0.42,
+   "antExt": 11.73,
+   "arcExt": 12.03
+  },
+  {
+   "cat": "1995",
+   "ant": 0.15,
+   "arc": -0.18,
+   "antExt": 11.75,
+   "arcExt": 11.44
+  },
+  {
+   "cat": "1996",
+   "ant": 0.15,
+   "arc": 0.23,
+   "antExt": 11.74,
+   "arcExt": 11.85
+  },
+  {
+   "cat": "1997",
+   "ant": -0.25,
+   "arc": 0.07,
+   "antExt": 11.34,
+   "arcExt": 11.69
+  },
+  {
+   "cat": "1998",
+   "ant": 0.09,
+   "arc": 0.16,
+   "antExt": 11.69,
+   "arcExt": 11.78
+  },
+  {
+   "cat": "1999",
+   "ant": 0.12,
+   "arc": 0.1,
+   "antExt": 11.71,
+   "arcExt": 11.71
+  },
+  {
+   "cat": "2000",
+   "ant": 0.13,
+   "arc": -0.1,
+   "antExt": 11.72,
+   "arcExt": 11.52
+  },
+  {
+   "cat": "2001",
+   "ant": 0.03,
+   "arc": 0.01,
+   "antExt": 11.63,
+   "arcExt": 11.62
+  },
+  {
+   "cat": "2002",
+   "ant": -0.42,
+   "arc": -0.23,
+   "antExt": 11.17,
+   "arcExt": 11.39
+  },
+  {
+   "cat": "2003",
+   "ant": 0.33,
+   "arc": -0.2,
+   "antExt": 11.92,
+   "arcExt": 11.42
+  },
+  {
+   "cat": "2004",
+   "ant": 0.34,
+   "arc": -0.37,
+   "antExt": 11.94,
+   "arcExt": 11.25
+  },
+  {
+   "cat": "2005",
+   "ant": 0.05,
+   "arc": -0.69,
+   "antExt": 11.65,
+   "arcExt": 10.93
+  },
+  {
+   "cat": "2006",
+   "ant": -0.18,
+   "arc": -0.82,
+   "antExt": 11.41,
+   "arcExt": 10.79
+  },
+  {
+   "cat": "2007",
+   "ant": 0.04,
+   "arc": -1.12,
+   "antExt": 11.64,
+   "arcExt": 10.5
+  },
+  {
+   "cat": "2008",
+   "ant": 0.62,
+   "arc": -0.63,
+   "antExt": 12.22,
+   "arcExt": 10.99
+  },
+  {
+   "cat": "2009",
+   "ant": 0.4,
+   "arc": -0.66,
+   "antExt": 12,
+   "arcExt": 10.96
+  },
+  {
+   "cat": "2010",
+   "ant": 0.46,
+   "arc": -0.88,
+   "antExt": 12.06,
+   "arcExt": 10.73
+  },
+  {
+   "cat": "2011",
+   "ant": -0.15,
+   "arc": -1.11,
+   "antExt": 11.45,
+   "arcExt": 10.51
+  },
+  {
+   "cat": "2012",
+   "ant": 0.39,
+   "arc": -1.2,
+   "antExt": 11.98,
+   "arcExt": 10.42
+  },
+  {
+   "cat": "2013",
+   "ant": 0.88,
+   "arc": -0.7,
+   "antExt": 12.48,
+   "arcExt": 10.92
+  },
+  {
+   "cat": "2014",
+   "ant": 1.13,
+   "arc": -0.8,
+   "antExt": 12.73,
+   "arcExt": 10.81
+  },
+  {
+   "cat": "2015",
+   "ant": 0.77,
+   "arc": -1.03,
+   "antExt": 12.37,
+   "arcExt": 10.59
+  },
+  {
+   "cat": "2016",
+   "ant": -0.42,
+   "arc": -1.44,
+   "antExt": 11.18,
+   "arcExt": 10.18
+  },
+  {
+   "cat": "2017",
+   "ant": -0.89,
+   "arc": -1.2,
+   "antExt": 10.7,
+   "arcExt": 10.42
+  },
+  {
+   "cat": "2018",
+   "ant": -0.64,
+   "arc": -1.24,
+   "antExt": 10.95,
+   "arcExt": 10.38
+  },
+  {
+   "cat": "2019",
+   "ant": -0.76,
+   "arc": -1.39,
+   "antExt": 10.83,
+   "arcExt": 10.23
+  },
+  {
+   "cat": "2020",
+   "ant": -0.02,
+   "arc": -1.45,
+   "antExt": 11.58,
+   "arcExt": 10.16
+  },
+  {
+   "cat": "2021",
+   "ant": -0.07,
+   "arc": -1.04,
+   "antExt": 11.53,
+   "arcExt": 10.58
+  },
+  {
+   "cat": "2022",
+   "ant": -0.92,
+   "arc": -0.93,
+   "antExt": 10.68,
+   "arcExt": 10.68
+  },
+  {
+   "cat": "2023",
+   "ant": -1.71,
+   "arc": -1.13,
+   "antExt": 9.89,
+   "arcExt": 10.49
+  },
+  {
+   "cat": "2024",
+   "ant": -1.16,
+   "arc": -1.21,
+   "antExt": 10.44,
+   "arcExt": 10.41
+  },
+  {
+   "cat": "2025",
+   "ant": -1.01,
+   "arc": -1.47,
+   "antExt": 10.59,
+   "arcExt": 10.15
+  }
+ ],
+ "views": [
+  {
+   "id": "ant",
+   "label": "Antártida",
+   "yLabel": "Extensão média anual do gelo marinho face à média de 1981–2010 (milhões de km²)",
+   "unit": " M km²",
+   "decimals": 2,
+   "marginLeft": [
+    34,
+    40
+   ],
+   "labelEvery": 4,
+   "labelEveryNarrow": 8,
+   "series": [
+    {
+     "key": "ant",
+     "label": "Antártida",
+     "color": "--accent-2",
+     "negColor": "--accent-3"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "antExt",
+     "label": "Extensão média",
+     "suffix": " milhões de km²"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2014",
+     "text": "2014: máximo",
+     "short": "2014"
+    },
+    {
+     "cat": "2023",
+     "text": "2023: mínimo",
+     "short": "2023"
+    }
+   ]
+  },
+  {
+   "id": "arc",
+   "label": "Ártico",
+   "yLabel": "Extensão média anual do gelo marinho face à média de 1981–2010 (milhões de km²)",
+   "unit": " M km²",
+   "decimals": 2,
+   "marginLeft": [
+    34,
+    40
+   ],
+   "labelEvery": 4,
+   "labelEveryNarrow": 8,
+   "series": [
+    {
+     "key": "arc",
+     "label": "Ártico",
+     "color": "--accent-2",
+     "negColor": "--accent-3"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "arcExt",
+     "label": "Extensão média",
+     "suffix": " milhões de km²"
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2025",
+     "text": "2025: mínimo",
+     "short": "2025"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "baseS": 11.6,
+  "baseN": 11.62,
+  "max": "2014",
+  "maxAnom": 1.13,
+  "maxExt": 12.73,
+  "low7": [
+   "2023",
+   "2024",
+   "2025",
+   "2022",
+   "2017",
+   "2019",
+   "2018"
+  ],
+  "low8": "1986",
+  "min": "2023",
+  "minAnom": -1.71,
+  "minExt": 9.89,
+  "a2025": -1.01,
+  "a2015": 0.77,
+  "a2016": -0.42,
+  "lowN3": [
+   "2025",
+   "2020",
+   "2016"
+  ],
+  "n2025": -1.47,
+  "negSince": true,
+  "posBefore": true,
+  "arcNegSince": "2001",
+  "sep26": 17.32,
+  "sep26rank": 3,
+  "sepN": 48,
+  "sepLow": [
+   2023,
+   2024,
+   2026
+  ]
+ }
+}

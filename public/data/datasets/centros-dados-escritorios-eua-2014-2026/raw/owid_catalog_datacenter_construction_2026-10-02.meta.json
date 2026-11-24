@@ -1,0 +1,265 @@
+{
+  "short_name": "datacenter_construction",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "us_census_bureau",
+    "short_name": "datacenter_construction",
+    "title": "Value of Private Construction Put in Place",
+    "description": "Monthly construction spending data for private construction in the United States, broken down by construction type.\nThe dataset includes datacenter construction spending measured as not seasonally adjusted monthly values in millions of dollars.\n\nEstimates for private nonresidential categories such as data centers and offices come from the Construction Progress\nReporting Survey (CPRS), in which owners of sampled construction projects (drawn from Dodge Data & Analytics project\nlists) report the value of work done each month until completion. Estimates include materials, labor, architectural\nand engineering costs, overhead, interest and taxes paid during construction, and contractor's profits.",
+    "is_public": true,
+    "version": "2026-10-02",
+    "update_period_days": 90,
+    "non_redistributable": false,
+    "jsonld": false,
+    "owners": [
+      "Pablo Arriagada",
+      "Edouard Mathieu"
+    ],
+    "source_checksum": "1d1cd8e426bc73f3dea7eb74c44a1dc9"
+  },
+  "primary_key": [
+    "country",
+    "date"
+  ],
+  "dimensions": [
+    {
+      "name": "country",
+      "slug": "country"
+    },
+    {
+      "name": "date",
+      "slug": "date"
+    }
+  ],
+  "fields": {
+    "country": {},
+    "date": {
+      "origins": [
+        {
+          "producer": "United States Census Bureau",
+          "title": "Value of Private Construction Put in Place",
+          "description": "Monthly construction spending data for private construction in the United States, broken down by construction type.\nThe dataset includes datacenter construction spending measured as not seasonally adjusted monthly values in millions of dollars.\n\nEstimates for private nonresidential categories such as data centers and offices come from the Construction Progress\nReporting Survey (CPRS), in which owners of sampled construction projects (drawn from Dodge Data & Analytics project\nlists) report the value of work done each month until completion. Estimates include materials, labor, architectural\nand engineering costs, overhead, interest and taxes paid during construction, and contractor's profits.",
+          "citation_full": "U.S. Census Bureau, Value of Construction Put in Place Survey (VIP), Private Construction Spending Time Series",
+          "url_main": "https://www.census.gov/construction/c30/historical_data.html",
+          "url_download": "https://www.census.gov/construction/c30/xlsx/privtime.xlsx",
+          "date_accessed": "2026-10-02",
+          "date_published": "2026-10-01",
+          "license": {
+            "name": "Public Domain"
+          }
+        },
+        {
+          "producer": "U.S. Bureau of Labor Statistics",
+          "title": "US PPI New Nonresidential Building Construction",
+          "description": "Producer price indexes (PPIs) for new nonresidential building construction in the United States, covering new office, new warehouse, and new industrial building construction.\n\nBLS uses a method in which building models are developed and specified to represent the buildings being constructed in the marketplace. Multiple models were developed for each building type to accommodate variations in building design. The building models are described as a series of unique production elements or \"assemblies\" in BLS terminology. Each building assembly represents a building construction activity that can be fully defined as a unique portion of the total project. Each assembly is made up of unit-price components that define the specific type and quantity of materials, labor, and equipment necessary for the assembly's installation.\n\nA professional cost-estimating firm developed the building models under BLS direction. To achieve an output price, BLS combines the detailed material and installation (labor and related equipment) cost data, which are updated quarterly by the cost-estimating firm, with margin (overhead and profit) data collected monthly by BLS directly from building construction contractors. BLS aggregates output price changes captured at the assembly level each month to represent the changes in output prices for the total structure. Therefore, the BLS output indexes attempt to measure changes in the input costs for these structures, along with changes in contractor markups.",
+          "citation_full": "U.S. Bureau of Labor Statistics",
+          "url_main": "https://www.bls.gov/ppi/factsheets/producer-price-index-data-for-nonresidential-building-construction-sector-new-office-building-construction-naics-236223.htm",
+          "date_accessed": "2026-10-02",
+          "date_published": "2026",
+          "license": {
+            "name": "Public domain",
+            "url": "https://www.bls.gov/opub/copyright-information.htm"
+          }
+        }
+      ]
+    },
+    "datacenter_construction_spending": {
+      "title": "Monthly spending on data center construction in the United States",
+      "description_short": "This only includes work done on-site to construct data center buildings each month, including materials and construction labor. It excludes the cost of IT hardware inside the buildings, like servers and storage, which can account for a large share of total investment. This data is expressed in US dollars. It is not adjusted for inflation. Only private construction is included.",
+      "description_key": [
+        "This indicator shows monthly spending on the physical construction of data center buildings in the United States. It represents the actual value of work done at construction sites each month, including materials, labor, and contractor costs.",
+        "This data doesn't include maintenance work, land purchases, or the computer equipment that goes inside data centers (like servers and storage systems). This means it captures only a small part of total data center investment, since IT hardware represents a significant additional cost.",
+        "Only privately-owned construction projects are counted. Projects owned by federal, state, or local governments are not included.",
+        "Data centers power a wide range of online services beyond AI, such as streaming services and cloud storage.",
+        "The values shown are not seasonally adjusted, meaning they reflect actual monthly spending and typical seasonal patterns, including slower winter construction and busier summer periods.",
+        "Recent months are preliminary and are revised as more complete reports arrive. Once a year, the Census Bureau also revises the previous two years of data, and these annual revisions can be substantial."
+      ],
+      "origins": [
+        {
+          "producer": "United States Census Bureau",
+          "title": "Value of Private Construction Put in Place",
+          "description": "Monthly construction spending data for private construction in the United States, broken down by construction type.\nThe dataset includes datacenter construction spending measured as not seasonally adjusted monthly values in millions of dollars.\n\nEstimates for private nonresidential categories such as data centers and offices come from the Construction Progress\nReporting Survey (CPRS), in which owners of sampled construction projects (drawn from Dodge Data & Analytics project\nlists) report the value of work done each month until completion. Estimates include materials, labor, architectural\nand engineering costs, overhead, interest and taxes paid during construction, and contractor's profits.",
+          "citation_full": "U.S. Census Bureau, Value of Construction Put in Place Survey (VIP), Private Construction Spending Time Series",
+          "url_main": "https://www.census.gov/construction/c30/historical_data.html",
+          "url_download": "https://www.census.gov/construction/c30/xlsx/privtime.xlsx",
+          "date_accessed": "2026-10-02",
+          "date_published": "2026-10-01",
+          "license": {
+            "name": "Public Domain"
+          }
+        }
+      ],
+      "unit": "US dollars",
+      "short_unit": "$",
+      "display": {
+        "name": "Data center construction",
+        "timeInterval": "month"
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "title_public": "Monthly spending on data center construction in the United States",
+        "attribution_short": "US Census Bureau",
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      }
+    },
+    "general_office_construction_spending": {
+      "title": "Monthly spending on general office construction in the United States",
+      "description_short": "Monthly spending on the physical construction of general office buildings in the United States. Measured as the value of work done on-site each month, including materials and construction labor. Not adjusted for inflation. Only private construction is included.",
+      "description_key": [
+        "This indicator shows monthly spending on the physical construction of general office buildings in the United States. It represents the actual value of work done at construction sites each month, including materials, labor, and contractor costs.",
+        "This data doesn't include maintenance work, land purchases, or the fit-out costs inside buildings.",
+        "Only privately-owned construction projects are counted. Projects owned by federal, state, or local governments are not included.",
+        "The values shown are not seasonally adjusted, meaning they reflect actual monthly spending and typical seasonal patterns, including slower winter construction and busier summer periods.",
+        "Recent months are preliminary and are revised as more complete reports arrive. Once a year, the Census Bureau also revises the previous two years of data, and these annual revisions can be substantial."
+      ],
+      "origins": [
+        {
+          "producer": "United States Census Bureau",
+          "title": "Value of Private Construction Put in Place",
+          "description": "Monthly construction spending data for private construction in the United States, broken down by construction type.\nThe dataset includes datacenter construction spending measured as not seasonally adjusted monthly values in millions of dollars.\n\nEstimates for private nonresidential categories such as data centers and offices come from the Construction Progress\nReporting Survey (CPRS), in which owners of sampled construction projects (drawn from Dodge Data & Analytics project\nlists) report the value of work done each month until completion. Estimates include materials, labor, architectural\nand engineering costs, overhead, interest and taxes paid during construction, and contractor's profits.",
+          "citation_full": "U.S. Census Bureau, Value of Construction Put in Place Survey (VIP), Private Construction Spending Time Series",
+          "url_main": "https://www.census.gov/construction/c30/historical_data.html",
+          "url_download": "https://www.census.gov/construction/c30/xlsx/privtime.xlsx",
+          "date_accessed": "2026-10-02",
+          "date_published": "2026-10-01",
+          "license": {
+            "name": "Public Domain"
+          }
+        }
+      ],
+      "unit": "US dollars",
+      "short_unit": "$",
+      "display": {
+        "name": "Office construction",
+        "timeInterval": "month"
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "title_public": "Monthly spending on general office construction in the United States",
+        "attribution_short": "US Census Bureau",
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      }
+    },
+    "datacenter_construction_spending_real": {
+      "title": "Monthly spending on data center construction in the United States (inflation-adjusted)",
+      "description_short": "This only includes work done on-site to construct data center buildings each month, including materials and construction labor. It excludes the cost of IT hardware inside the buildings, like servers and storage, which can account for a large share of total investment. This data is expressed in US dollars, adjusted for inflation. Only private construction is included.",
+      "description_key": [
+        "This indicator shows monthly spending on the physical construction of data center buildings in the United States. It represents the actual value of work done at construction sites each month, including materials, labor, and contractor costs.",
+        "This data doesn't include maintenance work, land purchases, or the computer equipment that goes inside data centers (like servers and storage systems). This means it captures only a small part of total data center investment, since IT hardware represents a significant additional cost.",
+        "Only privately-owned construction projects are counted. Projects owned by federal, state, or local governments are not included.",
+        "Data centers power a wide range of online services beyond AI, such as streaming services and cloud storage.",
+        "The values shown are not seasonally adjusted, meaning they reflect actual monthly spending and typical seasonal patterns, including slower winter construction and busier summer periods.",
+        "Recent months are preliminary and are revised as more complete reports arrive. Once a year, the Census Bureau also revises the previous two years of data, and these annual revisions can be substantial.",
+        "This indicator is adjusted for inflation using a composite price index that equally weights the producer price indexes (PPIs) for new industrial building and new warehouse building construction \u2014 the approach the US Bureau of Economic Analysis adopted for data center construction in its [2025 annual update](https://apps.bea.gov/scb/issues/2025/11-november/1125-nea-annual-update.htm)."
+      ],
+      "origins": [
+        {
+          "producer": "United States Census Bureau",
+          "title": "Value of Private Construction Put in Place",
+          "description": "Monthly construction spending data for private construction in the United States, broken down by construction type.\nThe dataset includes datacenter construction spending measured as not seasonally adjusted monthly values in millions of dollars.\n\nEstimates for private nonresidential categories such as data centers and offices come from the Construction Progress\nReporting Survey (CPRS), in which owners of sampled construction projects (drawn from Dodge Data & Analytics project\nlists) report the value of work done each month until completion. Estimates include materials, labor, architectural\nand engineering costs, overhead, interest and taxes paid during construction, and contractor's profits.",
+          "citation_full": "U.S. Census Bureau, Value of Construction Put in Place Survey (VIP), Private Construction Spending Time Series",
+          "url_main": "https://www.census.gov/construction/c30/historical_data.html",
+          "url_download": "https://www.census.gov/construction/c30/xlsx/privtime.xlsx",
+          "date_accessed": "2026-10-02",
+          "date_published": "2026-10-01",
+          "license": {
+            "name": "Public Domain"
+          }
+        },
+        {
+          "producer": "U.S. Bureau of Labor Statistics",
+          "title": "US PPI New Nonresidential Building Construction",
+          "description": "Producer price indexes (PPIs) for new nonresidential building construction in the United States, covering new office, new warehouse, and new industrial building construction.\n\nBLS uses a method in which building models are developed and specified to represent the buildings being constructed in the marketplace. Multiple models were developed for each building type to accommodate variations in building design. The building models are described as a series of unique production elements or \"assemblies\" in BLS terminology. Each building assembly represents a building construction activity that can be fully defined as a unique portion of the total project. Each assembly is made up of unit-price components that define the specific type and quantity of materials, labor, and equipment necessary for the assembly's installation.\n\nA professional cost-estimating firm developed the building models under BLS direction. To achieve an output price, BLS combines the detailed material and installation (labor and related equipment) cost data, which are updated quarterly by the cost-estimating firm, with margin (overhead and profit) data collected monthly by BLS directly from building construction contractors. BLS aggregates output price changes captured at the assembly level each month to represent the changes in output prices for the total structure. Therefore, the BLS output indexes attempt to measure changes in the input costs for these structures, along with changes in contractor markups.",
+          "citation_full": "U.S. Bureau of Labor Statistics",
+          "url_main": "https://www.bls.gov/ppi/factsheets/producer-price-index-data-for-nonresidential-building-construction-sector-new-office-building-construction-naics-236223.htm",
+          "date_accessed": "2026-10-02",
+          "date_published": "2026",
+          "license": {
+            "name": "Public domain",
+            "url": "https://www.bls.gov/opub/copyright-information.htm"
+          }
+        }
+      ],
+      "unit": "constant 2021 US$",
+      "short_unit": "$",
+      "display": {
+        "name": "Data center construction",
+        "timeInterval": "month"
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2021 US$. Inflation adjustment is based on a composite of the Producer Price Indexes (PPIs) for new industrial and new warehouse construction."
+        },
+        "title_public": "Monthly spending on data center construction in the United States",
+        "attribution_short": "US Census Bureau",
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      },
+      "description_processing": "We adjusted for inflation using a composite price index that equally weights the US Bureau of Labor Statistics' producer price indexes (PPIs) for new industrial building and new warehouse building construction, each rebased so that its 2021 annual average = 100. This follows the approach the US Bureau of Economic Analysis adopted for data center construction in its [2025 annual update](https://apps.bea.gov/scb/issues/2025/11-november/1125-nea-annual-update.htm)."
+    },
+    "general_office_construction_spending_real": {
+      "title": "Monthly spending on general office construction in the United States (inflation-adjusted)",
+      "description_short": "Monthly spending on the physical construction of general office buildings in the United States, adjusted for inflation using the Producer Price Index (PPI) for new office building construction. Expressed in constant 2021 US dollars. Only private construction is included.",
+      "description_key": [
+        "This indicator shows monthly spending on the physical construction of general office buildings in the United States. It represents the actual value of work done at construction sites each month, including materials, labor, and contractor costs.",
+        "This data doesn't include maintenance work, land purchases, or the fit-out costs inside buildings.",
+        "Only privately-owned construction projects are counted. Projects owned by federal, state, or local governments are not included.",
+        "The values shown are not seasonally adjusted, meaning they reflect actual monthly spending and typical seasonal patterns, including slower winter construction and busier summer periods.",
+        "Recent months are preliminary and are revised as more complete reports arrive. Once a year, the Census Bureau also revises the previous two years of data, and these annual revisions can be substantial.",
+        "This indicator is adjusted for inflation using the Producer Price Index (PPI) for new office building construction."
+      ],
+      "origins": [
+        {
+          "producer": "United States Census Bureau",
+          "title": "Value of Private Construction Put in Place",
+          "description": "Monthly construction spending data for private construction in the United States, broken down by construction type.\nThe dataset includes datacenter construction spending measured as not seasonally adjusted monthly values in millions of dollars.\n\nEstimates for private nonresidential categories such as data centers and offices come from the Construction Progress\nReporting Survey (CPRS), in which owners of sampled construction projects (drawn from Dodge Data & Analytics project\nlists) report the value of work done each month until completion. Estimates include materials, labor, architectural\nand engineering costs, overhead, interest and taxes paid during construction, and contractor's profits.",
+          "citation_full": "U.S. Census Bureau, Value of Construction Put in Place Survey (VIP), Private Construction Spending Time Series",
+          "url_main": "https://www.census.gov/construction/c30/historical_data.html",
+          "url_download": "https://www.census.gov/construction/c30/xlsx/privtime.xlsx",
+          "date_accessed": "2026-10-02",
+          "date_published": "2026-10-01",
+          "license": {
+            "name": "Public Domain"
+          }
+        },
+        {
+          "producer": "U.S. Bureau of Labor Statistics",
+          "title": "US PPI New Nonresidential Building Construction",
+          "description": "Producer price indexes (PPIs) for new nonresidential building construction in the United States, covering new office, new warehouse, and new industrial building construction.\n\nBLS uses a method in which building models are developed and specified to represent the buildings being constructed in the marketplace. Multiple models were developed for each building type to accommodate variations in building design. The building models are described as a series of unique production elements or \"assemblies\" in BLS terminology. Each building assembly represents a building construction activity that can be fully defined as a unique portion of the total project. Each assembly is made up of unit-price components that define the specific type and quantity of materials, labor, and equipment necessary for the assembly's installation.\n\nA professional cost-estimating firm developed the building models under BLS direction. To achieve an output price, BLS combines the detailed material and installation (labor and related equipment) cost data, which are updated quarterly by the cost-estimating firm, with margin (overhead and profit) data collected monthly by BLS directly from building construction contractors. BLS aggregates output price changes captured at the assembly level each month to represent the changes in output prices for the total structure. Therefore, the BLS output indexes attempt to measure changes in the input costs for these structures, along with changes in contractor markups.",
+          "citation_full": "U.S. Bureau of Labor Statistics",
+          "url_main": "https://www.bls.gov/ppi/factsheets/producer-price-index-data-for-nonresidential-building-construction-sector-new-office-building-construction-naics-236223.htm",
+          "date_accessed": "2026-10-02",
+          "date_published": "2026",
+          "license": {
+            "name": "Public domain",
+            "url": "https://www.bls.gov/opub/copyright-information.htm"
+          }
+        }
+      ],
+      "unit": "constant 2021 US$",
+      "short_unit": "$",
+      "display": {
+        "name": "Office construction",
+        "timeInterval": "month"
+      },
+      "processing_level": "major",
+      "presentation": {
+        "grapher_config": {
+          "note": "This data is expressed in constant 2021 US$. Inflation adjustment is based on the Producer Price Index (PPI) for new office construction, rebased to its 2021 annual average."
+        },
+        "title_public": "Monthly spending on general office construction in the United States",
+        "attribution_short": "US Census Bureau",
+        "topic_tags": [
+          "Artificial Intelligence"
+        ]
+      },
+      "description_processing": "We adjusted for inflation using the US Bureau of Labor Statistics' producer price index (PPI) for new office building construction, rebased so that its 2021 annual average = 100."
+    }
+  }
+}
