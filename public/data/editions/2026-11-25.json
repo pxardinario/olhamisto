@@ -1,0 +1,283 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-25",
+ "number": 17,
+ "status": "publicada",
+ "opening": "Quatro histórias para quarta-feira: Portugal ficou mais novo pela primeira vez desde 1977, a reciclagem que não saiu dos 30% enquanto a meta era 55%, os anúncios para informáticos a encolher na Europa e o que quer dizer, ao certo, a queda de 73% nas populações de animais selvagens.",
+ "lead": "idade-mediana-portugal-2025",
+ "generatedAt": "2026-11-25T08:00:00+00:00",
+ "limitations": [
+  "Edição com quatro peças em vez de cinco: das candidatas com dados verificáveis, a quinta disponível (exoplanetas descobertos por ano, NASA) seria a segunda peça de ciência da edição e foi adiada; as restantes foram rejeitadas pelos motivos abaixo. Preferiu-se publicar menos a enfraquecer a seleção.",
+  "Mistura da edição: 2 peças de atualidade (reciclagem, INE de 20 de novembro; anúncios de emprego TIC, Eurostat de 16 de novembro) e 2 de descoberta. Peças do tipo «Portugal comparado com a Europa»: 2 (idade mediana e anúncios TIC). Fonte não oficial e sem Portugal como ângulo principal: Índice Planeta Vivo (WWF/ZSL). Tipos de gráfico: linhas (2) e halteres (2).",
+  "Verificação independente: as quatro peças e a Chave do Dia ficaram verificadas depois de correções (número de países em risco na meta de reciclagem, base da proporção em aterro, título da reciclagem, quebra de série por nacionalidade, frase sobre Leung et al., afirmações sobre Gott e Mandelbrot). As páginas da WWF, da Representação da Comissão em Portugal e os artigos da Chave foram confirmados só por resultados de pesquisa, porque não estão acessíveis neste ambiente.",
+  "Candidatas rejeitadas ou adiadas: produção de azeite por região (INE com muitos valores em segredo estatístico e 2022 em falta), passageiros aéreos no verão de 2026 (só seis países com o 3.º trimestre), rendimento agrícola de 2025 (sem descoberta forte), inflação de outubro (tema repetido nas últimas semanas), capturas de pesca da Sea Around Us (licença não comercial), lançamentos espaciais (UNOOSA, sem licença aberta), uso de IA pelos programadores (Stack Overflow, só quatro pontos), importações de crude por campo de produção (o Eurostat não respondeu ao pedido), indicador diário de atividade do Banco de Portugal (não encontrado no BPstat).",
+  "Nesta execução, a OCDE (SDMX) e o grapher da Our World in Data não responderam no teste inicial da linha de comandos; nenhuma peça dependia deles."
+ ],
+ "pieces": [
+  {
+   "id": "idade-mediana-portugal-2025",
+   "slug": "idade-mediana-portugal-desce-2021-2025-estrangeiros",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade",
+   "vizType": "halteres",
+   "vizLabel": "Halteres 2021 → 2025 por país · ordenação alternável",
+   "interactive": true,
+   "title": "Portugal ficou mais novo: a idade mediana desceu de 46,3 para 45,6 anos desde 2021. Entre os portugueses, continuou a subir",
+   "question": "A chegada de imigrantes mudou a idade da população portuguesa?",
+   "finding": "A 1 de janeiro de 2025, metade dos residentes em Portugal tinha mais de 45,6 anos, menos 0,7 do que em 2021: a maior descida da UE, onde só outros quatro países ficaram mais novos. Entre os cidadãos portugueses, a idade mediana subiu de 47,1 para 48,4 anos; entre os estrangeiros residentes, desceu de 36,6 para 33,9. Portugal passou de terceiro a quinto país mais velho da UE.",
+   "context": "A idade mediana divide a população em duas metades iguais, uma mais velha e outra mais nova. Em Portugal subiu quase sem interrupções desde 1960, ao ritmo do envelhecimento: era de 37,5 anos em 2000 e chegou a 46,3 em 2021. O Eurostat atualizou a 19 de novembro as estimativas da população a 1 de janeiro de 2025, com dados enviados pelo INE.",
+   "interpretation": "A descida acompanha o aumento dos residentes estrangeiros, mais novos: a sua idade mediana, 33,9 anos, fica 14,5 abaixo da dos cidadãos portugueses. Entre estes, o envelhecimento não parou, com mais 1,3 anos em quatro anos. A última vez que a idade mediana do país tinha descido foi em 1977. A Itália continua a ser o país mais velho da UE, com 49,1 anos.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "idade-mediana-ue-2021-2025"
+   },
+   "period": "1 de janeiro de 2021 e de 2025 (série de Portugal desde 1960)",
+   "unit": "anos (idade mediana)",
+   "sources": [
+    {
+     "name": "Eurostat — Population structure indicators at national level (demo_pjanind), idade mediana, atualizado a 19-11-2026",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_pjanind/default/table",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "Eurostat — Median age of residents by sex and citizenship (demo_popmdctz), atualizado a 19-11-2026",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_popmdctz/default/table",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "method": [
+    "Idade mediana da população residente a 1 de janeiro (indicador MEDAGEPOP), em anos. Os dados de Portugal são estimativas do INE enviadas ao Eurostat; o Eurostat marca 2022 com quebra de série em Portugal (estimativas ajustadas aos Censos de 2021), por isso parte da descida de 2021 para 2022 (46,3 → 46,1) pode vir da revisão. De 2022 a 2025, sem quebras, desceu de 46,1 para 45,6. Na série desde 1960, só tinha descido em 1972, 1973, 1974 e 1977.",
+    "A separação por nacionalidade (demo_popmdctz) só existe desde 2021 e também tem quebra de série em 2022 em Portugal: quase toda a descida da idade mediana dos estrangeiros (36,6 → 34,2) acontece nesse ano; depois ficou estável (34,2, 33,7, 33,6 e 33,9 em 2025). Quem adquire a nacionalidade portuguesa passa do grupo dos estrangeiros para o dos portugueses, o que também mexe nas duas medianas. «Estrangeiros» inclui apátridas. A escala do gráfico começa nos 38 anos. Brutos em raw/idade-mediana/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-25",
+    "note": "Valores dos 27 países (2021 e 2025), série de Portugal desde 1960 e medianas por nacionalidade conferidos contra o Eurostat, sem diferenças. Corrigido: o método passou a dizer que a quebra de série de 2022 afeta também as medianas por nacionalidade (quase toda a descida dos estrangeiros é nesse ano); retirada a expressão «ao ritmo de antes» e suavizada a formulação causal."
+   }
+  },
+  {
+   "id": "reciclagem-residuos-portugal-2025",
+   "slug": "reciclagem-residuos-urbanos-portugal-meta-55-2025",
+   "kind": "atualidade",
+   "theme": "ambiente",
+   "themeLabel": "Ambiente",
+   "vizType": "linha",
+   "vizLabel": "Linhas com meta de referência · cursor",
+   "interactive": true,
+   "title": "A meta europeia para 2025 era reciclar 55% do lixo urbano. Portugal reciclou 30,7%, tanto como há dez anos",
+   "question": "Portugal cumpriu a meta europeia de reciclagem dos resíduos urbanos para 2025?",
+   "finding": "Em 2025, 30,7% dos resíduos urbanos geridos em Portugal foram para reciclagem ou valorização orgânica, segundo o INE: menos do que os 31,3% de 2015 e 24,3 pontos abaixo da meta de 55%. No mesmo período, a recolha seletiva subiu de 71 para 126 quilos por habitante (+77,5%), de 15% para 25% dos resíduos recolhidos. Quase metade, 49,1%, continua a ir para aterro.",
+   "context": "As diretivas europeias de 2018 fixaram metas para os resíduos urbanos: preparar para reutilização e reciclar 55% em 2025, 60% em 2030 e 65% em 2035, e não depositar em aterro mais de 10% em 2035. Em 2023, a Comissão Europeia pôs Portugal entre os 18 países em risco de falhar a meta de 2025. O INE publicou os dados desse ano a 20 de novembro.",
+   "interpretation": "A separação em casa cresceu, mas o destino final quase não mudou: a parte reciclada anda à volta de 30% há uma década, e o aterro voltou a subir depois do mínimo de 2016. Os dados não mostram onde se perde a diferença. No cálculo harmonizado do Eurostat, Portugal reciclou 32,9% em 2024, contra 49,4% na média da UE; só seis países chegavam aos 55%.",
+   "chart": {
+    "type": "lines",
+    "dataset": "residuos-urbanos-portugal-2011-2025"
+   },
+   "period": "2011–2025 (anual; reciclagem desde 2015)",
+   "unit": "% dos resíduos urbanos",
+   "sources": [
+    {
+     "name": "INE / Agência Portuguesa do Ambiente — Taxa de reciclagem de resíduos urbanos (0013541), atualizado a 20-11-2026",
+     "url": "https://www.ine.pt/xurl/ind/0013541",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "INE — Estatísticas dos resíduos urbanos: proporção depositada em aterro (0008978), proporção e quantidade recolhida seletivamente (0008658, 0008660), resíduos recolhidos por habitante (0008657)",
+     "url": "https://www.ine.pt/xurl/ind/0008978",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "Eurostat — Recycling rate of municipal waste (cei_wm011), atualizado a 15-10-2026",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/cei_wm011/default/table",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "União Europeia — Diretiva (UE) 2018/851, que altera a Diretiva-Quadro Resíduos (metas de 55%, 60% e 65%)",
+     "url": "https://eur-lex.europa.eu/eli/dir/2018/851/oj",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "União Europeia — Diretiva (UE) 2018/850, relativa à deposição de resíduos em aterro (máximo de 10% em 2035)",
+     "url": "https://eur-lex.europa.eu/eli/dir/2018/850/oj",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "Comissão Europeia, Representação em Portugal — «Economia circular: Comissão recomenda ações para impulsionar a reciclagem em 18 Estados-Membros» (9-6-2023)",
+     "url": "https://portugal.representation.ec.europa.eu/news/economia-circular-comissao-recomenda-acoes-para-impulsionar-reciclagem-em-18-estados-membros-2023-06-09_pt",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "method": [
+    "Taxa de reciclagem do INE: resíduos urbanos enviados para valorização multimaterial e para valorização orgânica (compostagem e digestão anaeróbia) a dividir pelo total gerido nas operações de destino (aterro, valorização energética, orgânica e multimaterial). Mede o que entra nas operações de reciclagem, não o que sai delas, e por isso não é o método de cálculo da meta europeia (Decisão de Execução (UE) 2019/1004), que desconta perdas na triagem. O INE só publica esta taxa desde 2015.",
+    "A proporção em aterro e a recolha seletiva usam como base os resíduos recolhidos; a taxa de reciclagem usa os resíduos geridos. As linhas têm bases diferentes e não se somam. A meta europeia para o aterro mede-se sobre os resíduos gerados. No método harmonizado do Eurostat, ao contrário da taxa do INE, Portugal subiu de 29,8% em 2015 para 32,9% em 2024. A comparação com a UE usa a taxa harmonizada do Eurostat, até 2024 (Portugal 32,9%; 26 países com dados, sem a Roménia). Brutos em raw/reciclagem-residuos/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-25",
+    "note": "Cinco indicadores do INE e taxa harmonizada do Eurostat conferidos contra a fonte, sem diferenças; metas das diretivas 2018/851 e 2018/850 confirmadas. Corrigido: a Comissão pôs 18 países (não oito) em risco de falhar a meta de 2025; a proporção em aterro usa os resíduos recolhidos, não os geridos; o título deixou de dizer «menos do que em 2015», que só vale na taxa do INE."
+   }
+  },
+  {
+   "id": "anuncios-emprego-tic-ue-2026",
+   "slug": "anuncios-emprego-online-especialistas-tic-ue-2022-2026",
+   "kind": "atualidade",
+   "theme": "tecnologia",
+   "themeLabel": "Tecnologia",
+   "vizType": "halteres",
+   "vizLabel": "Halteres 2022 → 2026 por país · ordenação alternável",
+   "interactive": true,
+   "title": "Em quatro anos, a fatia dos anúncios de emprego na internet que procuram especialistas em informática caiu de 10,1% para 5,8% na UE",
+   "question": "A procura de especialistas em informática nos anúncios de emprego está a cair na Europa?",
+   "finding": "Nos quatro trimestres até setembro de 2026, 5,8% dos anúncios de emprego publicados na internet na UE procuravam especialistas em tecnologias da informação e comunicação, contra 10,1% no mesmo período até 2022 e um máximo de 11,1% no início de 2021. A fatia caiu em 26 dos 27 países; só subiu em Itália. Portugal desceu de 15,6% para 12,6% e tem a terceira mais alta, depois de Malta e Chipre.",
+   "context": "O Eurostat recolhe na internet milhões de anúncios de emprego, de portais e de serviços públicos de emprego, e classifica-os por profissão. Conta como especialista em TIC quem desenvolve, opera ou mantém sistemas informáticos: programadores, analistas, administradores de redes e de bases de dados, técnicos de apoio. A série é experimental e começa em 2019; os dados até setembro saíram a 16 de novembro.",
+   "interpretation": "Não encolheu só a fatia: só no terceiro trimestre de 2026, o número de anúncios para estes perfis foi 36% menor do que um ano antes na UE e 55,1% menor em Portugal. Os dados não dizem porquê; o fim da vaga de contratações depois da pandemia, a subida dos juros e a inteligência artificial são explicações em debate, não conclusões. E um anúncio não é uma vaga.",
+   "chart": {
+    "type": "dumbbell",
+    "dataset": "anuncios-tic-ue-2022-2026"
+   },
+   "period": "Quatro trimestres até setembro de 2022 e até setembro de 2026 (série desde 2019)",
+   "unit": "% dos anúncios de emprego online",
+   "sources": [
+    {
+     "name": "Eurostat — Labour market demand for ICT specialists in online job advertisements (isoc_sk_oja1), estatísticas em desenvolvimento, atualizado a 16-11-2026",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/isoc_sk_oja1/default/table",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "Eurostat — Percentage change in the number of online job advertisements for ICT specialists (isoc_sk_oja3), atualizado a 16-11-2026",
+     "url": "https://ec.europa.eu/eurostat/databrowser/view/isoc_sk_oja3/default/table",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "Eurostat — Metadados dos indicadores sobre especialistas em TIC nos anúncios de emprego online",
+     "url": "https://ec.europa.eu/eurostat/cache/metadata/en/isoc_sk_oja_esmsip2.htm",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "method": [
+    "Percentagem dos anúncios de emprego online que procuram especialistas em TIC (definição OCDE/Eurostat, por códigos ISCO-08: gestores de serviços TIC, profissionais e técnicos de TIC, engenheiros eletrónicos e de telecomunicações, designers gráficos e multimédia, entre outros), calculada sobre os quatro trimestres mais recentes para suavizar a sazonalidade. Os anúncios vêm do conjunto WIH-OJA, recolhido automaticamente na web e classificado por algoritmos; o Eurostat publica-o como estatística em desenvolvimento.",
+    "Anúncios não equivalem a vagas: há vagas que não são anunciadas, anúncios repetidos ou que cobrem várias vagas, e as fontes recolhidas mudam com o tempo. A variação do número de anúncios compara o terceiro trimestre de 2026 com o de 2025. A escala do gráfico começa no zero. Brutos em raw/anuncios-tic/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-25",
+    "note": "Valores dos 27 países, máximo da UE, variações homólogas e metadados conferidos contra o Eurostat, sem erros. Por sugestão do verificador, o título passou a dizer «especialistas em informática» e a interpretação sublinha que a variação do número de anúncios é de um só trimestre."
+   }
+  },
+  {
+   "id": "indice-planeta-vivo-2026",
+   "slug": "indice-planeta-vivo-populacoes-animais-1970-2022",
+   "kind": "descoberta",
+   "theme": "ciencia",
+   "themeLabel": "Ciência",
+   "vizType": "linha",
+   "vizLabel": "Linhas por região · escala logarítmica ⇄ linear",
+   "interactive": true,
+   "title": "As populações de animais selvagens vigiadas encolheram, em média, 73% desde 1970. Na América Latina, 95%",
+   "question": "Quanto diminuíram as populações de animais selvagens desde 1970, e o que mede, ao certo, esse número?",
+   "finding": "O Índice Planeta Vivo de 2026 segue 35 803 populações de 5 790 espécies de vertebrados. Entre 1970 e 2022, o tamanho dessas populações caiu em média 73,2% (intervalo de confiança de 67,3% a 78,3%), cerca de 2,5% ao ano. A queda foi de 94,9% na América Latina e Caraíbas, 80,2% em África e 23,0% na Europa e Ásia Central. Nas espécies de água doce, 84,8%.",
+   "context": "O índice é publicado de dois em dois anos pela WWF e pela Sociedade Zoológica de Londres, no Relatório Planeta Vivo; a edição de 2026 saiu a 8 de outubro. Junta contagens de mamíferos, aves, peixes, répteis e anfíbios repetidas pelos cientistas no mesmo lugar ao longo do tempo, e dá mais peso às regiões e aos grupos com mais espécies.",
+   "interpretation": "O número não quer dizer que desapareceram 73% dos animais do planeta: é a média das variações relativas, e uma colónia de 100 aves que passa a 10 pesa tanto como uma população de um milhão que perde 90%. Cerca de metade das populações está estável ou a crescer, e um grupo pequeno de quedas extremas puxa a média para baixo. As quedas são reais, mas concentradas.",
+   "chart": {
+    "type": "lines",
+    "dataset": "indice-planeta-vivo-1970-2022"
+   },
+   "period": "1970–2022 (anual)",
+   "unit": "índice, 1970 = 100",
+   "sources": [
+    {
+     "name": "WWF e Zoological Society of London — Living Planet Index 2026 (Living Planet Report 2026), CC BY 4.0",
+     "url": "https://www.worldwildlife.org/publications/2026-living-planet-report/",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "Our World in Data — catálogo de dados, tabela living_planet_index (cópia)",
+     "url": "https://catalog.ourworldindata.org/garden/biodiversity/2026-09-30/living_planet_index/living_planet_index.feather",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "WWF — comunicado de imprensa do Living Planet Report 2026 (lido através de resultados de pesquisa)",
+     "url": "https://www.worldwildlife.org/news/press-releases/wildlife-population-sizes-decline-73-on-average-but-tiger-elephant-turtle-and-tuna-recoveries-offer-hope/",
+     "accessed": "2026-11-25"
+    },
+    {
+     "name": "Leung et al. (2020), «Clustered versus catastrophic global vertebrate declines», Nature 588: 267–271",
+     "url": "https://www.nature.com/articles/s41586-020-2920-6",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "method": [
+    "Índice Planeta Vivo (LPI): para cada população monitorizada estima-se a tendência com um modelo aditivo generalizado; as taxas de variação são agregadas por espécie e depois combinadas com pesos que dão mais importância às regiões e grupos taxonómicos com mais espécies. 1970 = 1 (aqui multiplicado por 100). A queda média anual de 2,5% é a taxa composta entre 1970 e 2022. O intervalo de confiança do índice mundial em 2022 vai de 21,7 a 32,7.",
+    "As regiões são as da WWF (a «Europa e Ásia Central» inclui a Rússia e a Ásia Central); esta série esteve acima do nível de 1970 até 2002, com um máximo de 129,5 em 1990. O índice cobre só vertebrados e só populações com séries de contagens; a cobertura é desigual entre regiões. Lido na cópia do catálogo da Our World in Data (licença CC BY 4.0 da fonte confirmada nos metadados). Brutos em raw/indice-planeta-vivo/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-25",
+    "note": "Os 477 pontos do índice, o intervalo de confiança, a taxa composta e as quedas por região conferidos contra a cópia da OWID; números do relatório confirmados por metadados e resultados de pesquisa (as páginas da WWF não estão acessíveis neste ambiente). Corrigido: retirada a frase «o declínio geral não está em causa», que contradizia Leung et al. (2020)."
+   }
+  }
+ ],
+ "chave": {
+  "id": "efeito-lindy",
+  "axis": "ciencia",
+  "axisLabel": "Ciência e tecnologia",
+  "certainty": "Tese debatida",
+  "title": "O efeito Lindy",
+  "concept": "Para o que não envelhece, como livros, ideias, técnicas ou instituições, quanto mais tempo uma coisa já durou, mais tempo é provável que ainda dure. A idade passa a ser informação: o que existe há séculos tem, em média, mais futuro do que o que apareceu no ano passado.",
+  "lesson": [
+   "Em 1969, o astrofísico J. Richard Gott visitou o Muro de Berlim, que tinha então oito anos. Sem usar mais nada do que a idade do Muro, raciocinou assim: se a visita era um momento qualquer da vida do Muro, havia 50% de probabilidade de estar na metade do meio dessa vida. Isso dava-lhe entre 2,7 e 24 anos de futuro. O Muro caiu em 1989, vinte anos depois.",
+   "O nome vem de um artigo de 1964 sobre os comediantes que se juntavam no restaurante Lindy's, em Nova Iorque; a versão hoje conhecida foi formulada por Benoit Mandelbrot e popularizada por Nassim Taleb. O mecanismo é um filtro: o que é frágil desaparece cedo, e o que durou muito já sobreviveu a muitos choques. Um livro lido há dois séculos passou esse teste geração após geração.",
+   "A regra não serve para o que envelhece: um homem de 90 anos não tem mais vida pela frente do que um de 40. E é uma probabilidade, não uma profecia: aplicada a uma coisa só, o intervalo é enorme, e os críticos de Gott argumentaram que o resultado depende de a observação ser mesmo um momento ao acaso. Ajuda a ordenar apostas, não a datar finais."
+  ],
+  "diagram": {
+   "title": "Oito anos de passado, entre 2,7 e 24 de futuro",
+   "svg": "<svg viewBox=\"0 0 340 206\" role=\"img\" aria-label=\"Cronologia do raciocínio de Gott sobre o Muro de Berlim. O Muro foi construído em 1961. Em 1969, quando Gott o visitou, tinha 8 anos. Supondo que a visita era um momento ao acaso da vida do Muro, havia 50% de probabilidade de lhe restarem entre um terço e o triplo da idade já vivida, ou seja, entre 2,7 e 24 anos: uma faixa que vai de 1971 a 1993. O Muro caiu em 1989, dentro da faixa.\"><text x=\"10\" y=\"16\" font-size=\"11\" fill=\"var(--key-ink-2)\">O raciocínio de Gott no Muro de Berlim</text><rect x=\"114\" y=\"78\" width=\"188\" height=\"24\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\"/><text x=\"208\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"var(--key-ink)\">50% de probabilidade de cair aqui</text><line x1=\"20\" y1=\"90\" x2=\"320\" y2=\"90\" stroke=\"var(--key-rule)\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"90\" x2=\"90.6\" y2=\"90\" stroke=\"var(--key-ink)\" stroke-width=\"4\"/><circle cx=\"20\" cy=\"90\" r=\"5\" fill=\"var(--key-ink)\"/><circle cx=\"90.6\" cy=\"90\" r=\"5\" fill=\"var(--key-ink)\"/><circle cx=\"267.1\" cy=\"90\" r=\"6\" fill=\"var(--key-acc)\"/><text x=\"20\" y=\"70\" text-anchor=\"start\" font-size=\"11\" font-weight=\"700\" fill=\"var(--key-ink)\">1961</text><text x=\"90.6\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"var(--key-ink)\">1969</text><text x=\"14\" y=\"120\" text-anchor=\"start\" font-size=\"10.5\" fill=\"var(--key-ink)\">construído</text><text x=\"96\" y=\"120\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">visita</text><text x=\"267.1\" y=\"120\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\" fill=\"var(--key-ink)\">cai em 1989</text><text x=\"114\" y=\"136\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">1971</text><text x=\"302\" y=\"136\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">1993</text><text x=\"10\" y=\"164\" font-size=\"10.5\" fill=\"var(--key-ink)\">Passado: 8 anos. Futuro provável (50%):</text><text x=\"10\" y=\"180\" font-size=\"10.5\" fill=\"var(--key-ink)\">entre 8 ÷ 3 = 2,7 anos e 8 × 3 = 24 anos.</text><text x=\"10\" y=\"196\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">Quanto mais longo o passado, mais longo o futuro esperado.</text></svg>",
+   "caption": "Intervalo de 50% do método de Gott: o futuro fica entre um terço e o triplo do passado já vivido. Datas e cálculo de Gott (1993); o eixo está à escala dos anos, de 1961 a 1995, e o início da faixa (1971,7) aparece arredondado."
+  },
+  "aside": "Gott só publicou o método em 1993, na revista Nature, e aplicou-o à própria espécie humana: com 95% de confiança, restariam entre 5 100 e 7,8 milhões de anos. No ano seguinte, a Nature publicou cartas de outros cientistas a contestar o raciocínio, que continua a dividir estatísticos e filósofos.",
+  "application": "Aparece na escolha de leituras, em que os clássicos já sobreviveram a gerações de leitores; na avaliação de tecnologias e linguagens de programação; na gestão de risco, em que um negócio com décadas de crises atravessadas pesa de outra forma; e em qualquer previsão em que da coisa só se sabe a idade.",
+  "motto": "O tempo é o filtro mais lento e o mais difícil de enganar.",
+  "sources": [
+   {
+    "name": "Gott, J. R. (1993), «Implications of the Copernican principle for our future prospects», Nature 363: 315–319",
+    "url": "https://www.nature.com/articles/363315a0",
+    "accessed": "2026-11-25"
+   },
+   {
+    "name": "Goodman, S. N. (1994), «Future prospects discussed», Nature 368: 106–107 (carta crítica)",
+    "url": "https://link.springer.com/article/10.1038/368106b0",
+    "accessed": "2026-11-25"
+   },
+   {
+    "name": "Caves, C. M. (2000), «Predicting future duration from present age: a critical assessment», Contemporary Physics 41: 143–153",
+    "url": "https://www.thp.uni-koeln.de/krug/teaching-Dateien/WS2011/Caves2000.pdf",
+    "accessed": "2026-11-25"
+   },
+   {
+    "name": "Farnam Street — «The Copernican Principle: How To Predict Everything» (secundária, resumo do caso do Muro de Berlim)",
+    "url": "https://fs.blog/2012/06/copernican-principle/",
+    "accessed": "2026-11-25"
+   },
+   {
+    "name": "Wikipedia — «Lindy effect» (secundária: Goldman, 1964; Mandelbrot, 1982; Taleb, 2012)",
+    "url": "https://en.wikipedia.org/wiki/Lindy_effect",
+    "accessed": "2026-11-25"
+   }
+  ],
+  "notes": [
+   "«Tese debatida»: o efeito Lindy é uma heurística, não uma lei. Vale, em média, para coisas cuja probabilidade de desaparecer não aumenta com a idade (distribuições de duração de cauda longa), e não para seres vivos nem objetos que se gastam. O método de Gott foi criticado por Goodman (1994) e Caves (2000), entre outros, por depender de a observação ser um momento ao acaso e de não haver outra informação.",
+   "O intervalo de 50% do método de Gott vai de um terço ao triplo da idade observada (8 ÷ 3 ≈ 2,7 anos e 8 × 3 = 24 anos, para um muro construído em 1961 e visitado em 1969). A origem do nome (artigo de Albert Goldman na The New Republic, 1964) e as formulações de Mandelbrot (1982) e Taleb (2012) foram confirmadas só em fontes secundárias; o artigo original de 1964 não está acessível neste ambiente."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-25",
+   "note": "Factos sobre Gott (1969, 8 anos, intervalo de 2,7 a 24 anos, 1989), Nature 1993, previsão para a espécie humana, cartas de 1994, Caves (2000) e origem do nome confirmados por resultados de pesquisa (os textos originais não estão acessíveis neste ambiente). Esquema conforme às regras. Corrigido: retirada a afirmação sem fonte de que Gott nada sabia de política alemã; Mandelbrot formulou a versão hoje conhecida (não formalizou a de Goldman); «mostraram» passou a «argumentaram»; ligação da carta de Goodman corrigida."
+  }
+ }
+}

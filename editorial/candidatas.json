@@ -128,8 +128,8 @@
    "ideia": "Mito: «no passado morria-se aos 30». Esperança de vida à nascença contra esperança de vida aos 10 anos, séculos XVIII–XX",
    "fonte": "OWID (owid-datasets), a partir da Human Mortality Database e da ONU (WPP 2015)",
    "licenca": "CC BY 4.0 (OWID); HMD CC BY 4.0",
-   "estado": "bloqueada",
-   "bloqueio": "2026-11-11: o conjunto da OWID é de 2015 e mistura fontes; faltam a série à nascença da mesma origem e o acesso direto a mortality.org.",
+   "estado": "descartada",
+   "bloqueio": "2026-11-11: o conjunto da OWID é de 2015 e mistura fontes; faltam a série à nascença da mesma origem e o acesso direto a mortality.org. 2026-11-25: descartada para manter a lista com 30 entradas ativas; conjunto de 2015 com fontes misturadas, sem acesso a mortality.org.",
    "registada": "2026-11-11",
    "tentativas": 1
   },
@@ -139,8 +139,8 @@
    "ideia": "O pacto interestadual do voto popular nos EUA: quantos votos eleitorais faltam para os 270",
    "fonte": "National Archives (votos eleitorais por estado); leis estaduais",
    "licenca": "Domínio público (governo dos EUA)",
-   "estado": "bloqueada",
-   "bloqueio": "2026-11-11: sem fonte primária acessível pela linha de comandos para a lista de estados aderentes; archives.gov não testado.",
+   "estado": "descartada",
+   "bloqueio": "2026-11-11: sem fonte primária acessível pela linha de comandos para a lista de estados aderentes; archives.gov não testado. 2026-11-25: descartada para manter a lista com 30 entradas ativas; tema interno dos EUA sem fonte primária acessível.",
    "registada": "2026-11-11",
    "tentativas": 1
   },
@@ -293,8 +293,8 @@
    "ideia": "Desvio da temperatura média de 2025 face à normal 1981–2010, por estação meteorológica",
    "fonte": "INE 0014122 (dados do IPMA)",
    "licenca": "INE, CC BY 4.0",
-   "estado": "bloqueada",
-   "bloqueio": "2026-11-19: o indicador só tem 2023–2025; sem série longa. O IPMA continua fora do alcance.",
+   "estado": "descartada",
+   "bloqueio": "2026-11-19: o indicador só tem 2023–2025; sem série longa. O IPMA continua fora do alcance. 2026-11-25: descartada para manter a lista com 30 entradas ativas; o indicador do INE só tem 2023–2025 e o IPMA está fora do alcance.",
    "registada": "2026-11-19",
    "tentativas": 1
   },
@@ -351,6 +351,39 @@
    "estado": "pronta",
    "bloqueio": "2026-11-24: dados acessíveis; adiada porque a edição já tinha uma peça dos EUA (centros de dados) e o limite é uma por semana. Precisa de ângulo europeu (testes de condução autónoma na UE) para passar o teste de relevância.",
    "registada": "2026-11-24",
+   "tentativas": 1
+  },
+  {
+   "id": "exoplanetas-descobertas",
+   "tema": "ciencia",
+   "ideia": "Exoplanetas confirmados por ano e método de deteção, 1995–2025 (pico de 2016 com o Kepler; trânsito domina)",
+   "fonte": "NASA Exoplanet Archive, via catálogo da OWID (garden/space/2026-01-08/exoplanets/exoplanets)",
+   "licenca": "Domínio público (metadados da OWID)",
+   "estado": "pronta",
+   "bloqueio": "2026-11-25: dados acessíveis; adiada para não ter duas peças de ciência na mesma edição. A cópia foi recolhida a 8-1-2026: 2025 pode estar incompleto (confirmações tardias).",
+   "registada": "2026-11-25",
+   "tentativas": 1
+  },
+  {
+   "id": "azeite-producao-regioes",
+   "tema": "agricultura",
+   "ideia": "Produção de azeite em Portugal desde 2004 e o peso do Alentejo",
+   "fonte": "INE 0013162 (NUTS 2024, 2004–2025) e 0000709 (região agrária)",
+   "licenca": "CC BY 4.0 (INE)",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-25: muitos valores sob segredo estatístico («…»), 2022 em falta no total e o indicador por região agrária mistura dimensões (tipo de lagar, acidez, sistema de extração). Tentar o Eurostat apro_cpsh1 (azeitona para azeite) ou o total por NUTS II.",
+   "registada": "2026-11-25",
+   "tentativas": 1
+  },
+  {
+   "id": "passageiros-aereos-ue-2026",
+   "tema": "turismo",
+   "ideia": "Passageiros aéreos na UE no verão de 2026 face a 2019 e 2025",
+   "fonte": "Eurostat avia_paoc (trimestral)",
+   "licenca": "CC BY 4.0",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-25: o 3.º trimestre de 2026 só existia para seis países; tentar em dezembro.",
+   "registada": "2026-11-25",
    "tentativas": 1
   }
  ]

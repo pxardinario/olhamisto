@@ -1,0 +1,214 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "a": 41.8,
+   "b": 42.1
+  },
+  {
+   "label": "Bulgária",
+   "a": 46.4,
+   "b": 47.3
+  },
+  {
+   "label": "Chéquia",
+   "a": 43.6,
+   "b": 44.3
+  },
+  {
+   "label": "Dinamarca",
+   "a": 42.2,
+   "b": 42.2
+  },
+  {
+   "label": "Alemanha",
+   "a": 45.9,
+   "b": 45.5
+  },
+  {
+   "label": "Estónia",
+   "a": 42.5,
+   "b": 42.9
+  },
+  {
+   "label": "Irlanda",
+   "a": 38.4,
+   "b": 39.6
+  },
+  {
+   "label": "Grécia",
+   "a": 45.8,
+   "b": 47.2
+  },
+  {
+   "label": "Espanha",
+   "a": 44.6,
+   "b": 45.8
+  },
+  {
+   "label": "França",
+   "a": 42,
+   "b": 42.8
+  },
+  {
+   "label": "Croácia",
+   "a": 45.3,
+   "b": 45.5
+  },
+  {
+   "label": "Itália",
+   "a": 47.6,
+   "b": 49.1
+  },
+  {
+   "label": "Chipre",
+   "a": 39.6,
+   "b": 41
+  },
+  {
+   "label": "Letónia",
+   "a": 43.9,
+   "b": 44.4
+  },
+  {
+   "label": "Lituânia",
+   "a": 44.5,
+   "b": 44.3
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 39.6,
+   "b": 39.8
+  },
+  {
+   "label": "Hungria",
+   "a": 43.7,
+   "b": 44.8
+  },
+  {
+   "label": "Malta",
+   "a": 40.2,
+   "b": 40
+  },
+  {
+   "label": "Países Baixos",
+   "a": 42.7,
+   "b": 42.6
+  },
+  {
+   "label": "Áustria",
+   "a": 43.6,
+   "b": 43.8
+  },
+  {
+   "label": "Polónia",
+   "a": 41.9,
+   "b": 43.4
+  },
+  {
+   "label": "Portugal",
+   "a": 46.3,
+   "b": 45.6,
+   "highlight": true
+  },
+  {
+   "label": "Roménia",
+   "a": 43,
+   "b": 44.1
+  },
+  {
+   "label": "Eslovénia",
+   "a": 44.4,
+   "b": 45.5
+  },
+  {
+   "label": "Eslováquia",
+   "a": 41.4,
+   "b": 43
+  },
+  {
+   "label": "Finlândia",
+   "a": 43.3,
+   "b": 43.5
+  },
+  {
+   "label": "Suécia",
+   "a": 40.6,
+   "b": 41.2
+  }
+ ],
+ "config": {
+  "aLabel": "2021",
+  "bLabel": "2025",
+  "unit": "",
+  "decimals": 1,
+  "domain": [
+   38,
+   50
+  ],
+  "ref": 44.9,
+  "refLabel": "UE, 2025: 44,9 anos",
+  "itemLabel": "país",
+  "sorts": [
+   [
+    "delta",
+    "Variação desde 2021"
+   ],
+   [
+    "b",
+    "Idade mediana em 2025"
+   ]
+  ],
+  "howToRead": "Cada linha é um país. O ponto cinzento é a idade mediana da população a 1 de janeiro de 2021 (metade tem mais, metade tem menos); o ponto colorido, a de 2025. Quando o ponto colorido fica à esquerda, a população ficou mais nova. A escala começa nos 38 anos. A linha tracejada é a média da UE em 2025."
+ },
+ "summary": {
+  "firstPT": "1960",
+  "pt21": 46.3,
+  "pt22": 46.1,
+  "pt22status": "b",
+  "pt25": 45.6,
+  "ptMax": 46.3,
+  "ptFalls": [
+   "1972",
+   "1973",
+   "1974",
+   "1977",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "eu21": 44.2,
+  "eu25": 44.9,
+  "pt05": 39.2,
+  "pt00": 37.5,
+  "down": [
+   "DE 45.9→45.5",
+   "LT 44.5→44.3",
+   "MT 40.2→40",
+   "NL 42.7→42.6",
+   "PT 46.3→45.6"
+  ],
+  "rank21": 3,
+  "rank25": 5,
+  "top5": [
+   "IT 49.1",
+   "BG 47.3",
+   "EL 47.2",
+   "ES 45.8",
+   "PT 45.6"
+  ],
+  "nat21": 47.1,
+  "nat25": 48.4,
+  "for21": 36.6,
+  "for25": 33.9,
+  "nonEU21": 35.5,
+  "nonEU25": 33.3,
+  "euNat25": 46.2,
+  "euFor25": 36.7,
+  "ptMaxYear": "2021",
+  "ptDrop": -0.7,
+  "natUp": 1.3,
+  "forDown": -2.7,
+  "gapNatFor": 14.5
+ }
+}

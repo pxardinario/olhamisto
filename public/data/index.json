@@ -1,8 +1,105 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-24T07:37:38.419Z",
- "latest": "2026-11-24",
+ "updated": "2026-11-25T07:37:45.458Z",
+ "latest": "2026-11-25",
  "editions": [
+  {
+   "date": "2026-11-25",
+   "number": 17,
+   "lead": "idade-mediana-portugal-2025",
+   "opening": "Quatro histórias para quarta-feira: Portugal ficou mais novo pela primeira vez desde 1977, a reciclagem que não saiu dos 30% enquanto a meta era 55%, os anúncios para informáticos a encolher na Europa e o que quer dizer, ao certo, a queda de 73% nas populações de animais selvagens.",
+   "pieces": [
+    {
+     "id": "idade-mediana-portugal-2025",
+     "title": "Portugal ficou mais novo: a idade mediana desceu de 46,3 para 45,6 anos desde 2021. Entre os portugueses, continuou a subir",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade",
+     "vizType": "halteres",
+     "vizLabel": "Halteres 2021 → 2025 por país · ordenação alternável",
+     "interactive": true,
+     "question": "A chegada de imigrantes mudou a idade da população portuguesa?",
+     "finding": "A 1 de janeiro de 2025, metade dos residentes em Portugal tinha mais de 45,6 anos, menos 0,7 do que em 2021: a maior descida da UE, onde só outros quatro países ficaram mais novos. Entre os cidadãos portugueses, a idade mediana subiu de 47,1 para 48,4 anos; entre os estrangeiros residentes, desceu de 36,6 para 33,9. Portugal passou de terceiro a quinto país mais velho da UE.",
+     "period": "1 de janeiro de 2021 e de 2025 (série de Portugal desde 1960)",
+     "dataset": "idade-mediana-ue-2021-2025",
+     "sourceNames": [
+      "Eurostat — Population structure indicators at national level (demo_pjanind), idade mediana, atualizado a 19-11-2026",
+      "Eurostat — Median age of residents by sex and citizenship (demo_popmdctz), atualizado a 19-11-2026"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "reciclagem-residuos-portugal-2025",
+     "title": "A meta europeia para 2025 era reciclar 55% do lixo urbano. Portugal reciclou 30,7%, tanto como há dez anos",
+     "kind": "atualidade",
+     "theme": "ambiente",
+     "themeLabel": "Ambiente",
+     "vizType": "linha",
+     "vizLabel": "Linhas com meta de referência · cursor",
+     "interactive": true,
+     "question": "Portugal cumpriu a meta europeia de reciclagem dos resíduos urbanos para 2025?",
+     "finding": "Em 2025, 30,7% dos resíduos urbanos geridos em Portugal foram para reciclagem ou valorização orgânica, segundo o INE: menos do que os 31,3% de 2015 e 24,3 pontos abaixo da meta de 55%. No mesmo período, a recolha seletiva subiu de 71 para 126 quilos por habitante (+77,5%), de 15% para 25% dos resíduos recolhidos. Quase metade, 49,1%, continua a ir para aterro.",
+     "period": "2011–2025 (anual; reciclagem desde 2015)",
+     "dataset": "residuos-urbanos-portugal-2011-2025",
+     "sourceNames": [
+      "INE / Agência Portuguesa do Ambiente — Taxa de reciclagem de resíduos urbanos (0013541), atualizado a 20-11-2026",
+      "INE — Estatísticas dos resíduos urbanos: proporção depositada em aterro (0008978), proporção e quantidade recolhida seletivamente (0008658, 0008660), resíduos recolhidos por habitante (0008657)",
+      "Eurostat — Recycling rate of municipal waste (cei_wm011), atualizado a 15-10-2026",
+      "União Europeia — Diretiva (UE) 2018/851, que altera a Diretiva-Quadro Resíduos (metas de 55%, 60% e 65%)",
+      "União Europeia — Diretiva (UE) 2018/850, relativa à deposição de resíduos em aterro (máximo de 10% em 2035)",
+      "Comissão Europeia, Representação em Portugal — «Economia circular: Comissão recomenda ações para impulsionar a reciclagem em 18 Estados-Membros» (9-6-2023)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "anuncios-emprego-tic-ue-2026",
+     "title": "Em quatro anos, a fatia dos anúncios de emprego na internet que procuram especialistas em informática caiu de 10,1% para 5,8% na UE",
+     "kind": "atualidade",
+     "theme": "tecnologia",
+     "themeLabel": "Tecnologia",
+     "vizType": "halteres",
+     "vizLabel": "Halteres 2022 → 2026 por país · ordenação alternável",
+     "interactive": true,
+     "question": "A procura de especialistas em informática nos anúncios de emprego está a cair na Europa?",
+     "finding": "Nos quatro trimestres até setembro de 2026, 5,8% dos anúncios de emprego publicados na internet na UE procuravam especialistas em tecnologias da informação e comunicação, contra 10,1% no mesmo período até 2022 e um máximo de 11,1% no início de 2021. A fatia caiu em 26 dos 27 países; só subiu em Itália. Portugal desceu de 15,6% para 12,6% e tem a terceira mais alta, depois de Malta e Chipre.",
+     "period": "Quatro trimestres até setembro de 2022 e até setembro de 2026 (série desde 2019)",
+     "dataset": "anuncios-tic-ue-2022-2026",
+     "sourceNames": [
+      "Eurostat — Labour market demand for ICT specialists in online job advertisements (isoc_sk_oja1), estatísticas em desenvolvimento, atualizado a 16-11-2026",
+      "Eurostat — Percentage change in the number of online job advertisements for ICT specialists (isoc_sk_oja3), atualizado a 16-11-2026",
+      "Eurostat — Metadados dos indicadores sobre especialistas em TIC nos anúncios de emprego online"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "indice-planeta-vivo-2026",
+     "title": "As populações de animais selvagens vigiadas encolheram, em média, 73% desde 1970. Na América Latina, 95%",
+     "kind": "descoberta",
+     "theme": "ciencia",
+     "themeLabel": "Ciência",
+     "vizType": "linha",
+     "vizLabel": "Linhas por região · escala logarítmica ⇄ linear",
+     "interactive": true,
+     "question": "Quanto diminuíram as populações de animais selvagens desde 1970, e o que mede, ao certo, esse número?",
+     "finding": "O Índice Planeta Vivo de 2026 segue 35 803 populações de 5 790 espécies de vertebrados. Entre 1970 e 2022, o tamanho dessas populações caiu em média 73,2% (intervalo de confiança de 67,3% a 78,3%), cerca de 2,5% ao ano. A queda foi de 94,9% na América Latina e Caraíbas, 80,2% em África e 23,0% na Europa e Ásia Central. Nas espécies de água doce, 84,8%.",
+     "period": "1970–2022 (anual)",
+     "dataset": "indice-planeta-vivo-1970-2022",
+     "sourceNames": [
+      "WWF e Zoological Society of London — Living Planet Index 2026 (Living Planet Report 2026), CC BY 4.0",
+      "Our World in Data — catálogo de dados, tabela living_planet_index (cópia)",
+      "WWF — comunicado de imprensa do Living Planet Report 2026 (lido através de resultados de pesquisa)",
+      "Leung et al. (2020), «Clustered versus catastrophic global vertebrate declines», Nature 588: 267–271"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "efeito-lindy",
+    "title": "O efeito Lindy",
+    "axis": "ciencia",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-24",
    "number": 16,

@@ -1,0 +1,225 @@
+{
+ "rows": [
+  {
+   "x": 2011,
+   "label": "2011",
+   "sel": 15,
+   "rec": null,
+   "at": 58.9
+  },
+  {
+   "x": 2012,
+   "label": "2012",
+   "sel": 14,
+   "rec": null,
+   "at": 54.4
+  },
+  {
+   "x": 2013,
+   "label": "2013",
+   "sel": 13,
+   "rec": null,
+   "at": 50.5
+  },
+  {
+   "x": 2014,
+   "label": "2014",
+   "sel": 14,
+   "rec": null,
+   "at": 49
+  },
+  {
+   "x": 2015,
+   "label": "2015",
+   "sel": 15,
+   "rec": 31.3,
+   "at": 47.3
+  },
+  {
+   "x": 2016,
+   "label": "2016",
+   "sel": 16,
+   "rec": 32.8,
+   "at": 46.1
+  },
+  {
+   "x": 2017,
+   "label": "2017",
+   "sel": 19,
+   "rec": 30.5,
+   "at": 48.4
+  },
+  {
+   "x": 2018,
+   "label": "2018",
+   "sel": 20,
+   "rec": 30.5,
+   "at": 50.3
+  },
+  {
+   "x": 2019,
+   "label": "2019",
+   "sel": 21,
+   "rec": 30.3,
+   "at": 49.8
+  },
+  {
+   "x": 2020,
+   "label": "2020",
+   "sel": 21,
+   "rec": 27.6,
+   "at": 53.5
+  },
+  {
+   "x": 2021,
+   "label": "2021",
+   "sel": 23,
+   "rec": 28.5,
+   "at": 49.5
+  },
+  {
+   "x": 2022,
+   "label": "2022",
+   "sel": 23,
+   "rec": 28.6,
+   "at": 52.2
+  },
+  {
+   "x": 2023,
+   "label": "2023",
+   "sel": 24,
+   "rec": 29,
+   "at": 53.7
+  },
+  {
+   "x": 2024,
+   "label": "2024",
+   "sel": 25,
+   "rec": 30.3,
+   "at": 48.7
+  },
+  {
+   "x": 2025,
+   "label": "2025",
+   "sel": 25,
+   "rec": 30.7,
+   "at": 49.1
+  }
+ ],
+ "config": {
+  "x": {
+   "min": 2011,
+   "max": 2025,
+   "ticks": [
+    2011,
+    2013,
+    2015,
+    2017,
+    2019,
+    2021,
+    2023,
+    2025
+   ],
+   "tableLabel": "Ano"
+  },
+  "y": {
+   "label": "Percentagem dos resíduos urbanos (%)",
+   "suffix": "%",
+   "decimals": 1,
+   "linMin": 0,
+   "linMax": 70,
+   "logDefault": false,
+   "linTicks": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70
+   ]
+  },
+  "series": [
+   {
+    "key": "at",
+    "label": "Depositados em aterro",
+    "short": "Aterro",
+    "color": "--ink-3",
+    "width": 2
+   },
+   {
+    "key": "rec",
+    "label": "Enviados para reciclagem",
+    "short": "Reciclagem",
+    "color": "--accent",
+    "width": 2.8
+   },
+   {
+    "key": "sel",
+    "label": "Recolhidos seletivamente",
+    "short": "Seletiva",
+    "color": "--accent-2",
+    "width": 2
+   }
+  ],
+  "labelMargin": [
+   90,
+   206
+  ],
+  "dots": true,
+  "refLine": {
+   "value": 55,
+   "label": "Meta da UE para 2025: 55% reciclados",
+   "short": "Meta UE 2025: 55%",
+   "at": 2015.5
+  },
+  "howToRead": "Cada linha é uma fatia dos resíduos urbanos de Portugal, em percentagem. A reciclagem é a parte dos resíduos geridos enviada para reciclagem ou compostagem; o aterro e a recolha seletiva são partes dos resíduos recolhidos (a seletiva é o que chegou separado: ecopontos, porta a porta, biorresíduos). As bases são diferentes e as linhas não se somam. A taxa de reciclagem do INE só existe desde 2015. A linha tracejada é a meta europeia para 2025."
+ },
+ "summary": {
+  "rec15": 31.3,
+  "rec24": 30.3,
+  "rec25": 30.7,
+  "maxRec": 32.8,
+  "maxRecYear": "2016",
+  "minRec": 27.6,
+  "minRecYear": "2020",
+  "at11": 58.9,
+  "at15": 47.3,
+  "at24": 48.7,
+  "at25": 49.1,
+  "minAt": 46.1,
+  "sel11": 15,
+  "sel15": 15,
+  "sel25": 25,
+  "kgSel15": 71,
+  "kgSel25": 126,
+  "kg15": 459,
+  "kg25": 497,
+  "kgSel13": 56,
+  "minAtYear": "2016",
+  "kgSelChg": 77.5,
+  "kgChg": 8.3,
+  "gapMeta": 24.3,
+  "euPT24": 32.9,
+  "euUE24": 49.4,
+  "euPT15": 29.8,
+  "euN24": 26,
+  "euRankLow": 6,
+  "euBelowPT": [
+   "CY",
+   "MT",
+   "EL",
+   "BG",
+   "PL"
+  ],
+  "eu55": [
+   "LU",
+   "BE",
+   "NL",
+   "AT",
+   "SI",
+   "DE"
+  ]
+ }
+}

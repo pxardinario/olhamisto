@@ -1,0 +1,165 @@
+{
+  "short_name": "living_planet_index",
+  "title": "Living Planet Index",
+  "description": "The Living Planet Index (LPI) is a measure of the state of global biological diversity based on population trends of vertebrate species from around the world. The 2026 index represents 35,803 monitored populations of 5,790 vertebrate species. It tracks changes in the relative abundance of wildlife populations that have been consistently monitored in a specific area over time. All indices are weighted by species richness, giving species-rich taxonomic groups in terrestrial, marine and freshwater systems more weight than groups with fewer species. Using a method developed by ZSL and WWF, these species population trends are aggregated to produce indices of the state of biodiversity.\n\nThe index value is measured relative to species' populations in 1970 (i.e. 1970 = 1).\n\nTo calculate an LPI, a generalized additive modeling framework is used to determine the underlying trend in each population time-series. Average rates of change are then calculated and aggregated to the species level, and then combined into indices using a weighting system that gives trends from more species-rich systems, realms and groups more weight in the final index.",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "biodiversity",
+    "short_name": "living_planet_index",
+    "title": "Living Planet Index",
+    "description": "The Living Planet Index (LPI) is a measure of the state of global biological diversity based on population trends of vertebrate species from around the world. The 2026 index represents 35,803 monitored populations of 5,790 vertebrate species. It tracks changes in the relative abundance of wildlife populations that have been consistently monitored in a specific area over time. All indices are weighted by species richness, giving species-rich taxonomic groups in terrestrial, marine and freshwater systems more weight than groups with fewer species. Using a method developed by ZSL and WWF, these species population trends are aggregated to produce indices of the state of biodiversity.\n\nThe index value is measured relative to species' populations in 1970 (i.e. 1970 = 1).\n\nTo calculate an LPI, a generalized additive modeling framework is used to determine the underlying trend in each population time-series. Average rates of change are then calculated and aggregated to the species level, and then combined into indices using a weighting system that gives trends from more species-rich systems, realms and groups more weight in the final index.",
+    "is_public": true,
+    "version": "2026-09-30",
+    "update_period_days": 730,
+    "non_redistributable": false,
+    "jsonld": false,
+    "owners": [
+      "Fiona Spooner",
+      "Hannah Ritchie"
+    ],
+    "source_checksum": "2abf84af5d9f833e2534d1df1a5c1b99"
+  },
+  "primary_key": [
+    "country",
+    "year"
+  ],
+  "dimensions": [
+    {
+      "name": "country",
+      "slug": "country"
+    },
+    {
+      "name": "year",
+      "slug": "year"
+    }
+  ],
+  "fields": {
+    "country": {
+      "origins": [
+        {
+          "producer": "World Wildlife Fund and Zoological Society of London",
+          "title": "Living Planet Index",
+          "description": "The Living Planet Index (LPI) is a measure of the state of global biological diversity based on population trends of vertebrate species from around the world. The 2026 index represents 35,803 monitored populations of 5,790 vertebrate species. It tracks changes in the relative abundance of wildlife populations that have been consistently monitored in a specific area over time. All indices are weighted by species richness, giving species-rich taxonomic groups in terrestrial, marine and freshwater systems more weight than groups with fewer species. Using a method developed by ZSL and WWF, these species population trends are aggregated to produce indices of the state of biodiversity.\n\nThe index value is measured relative to species' populations in 1970 (i.e. 1970 = 1).\n\nTo calculate an LPI, a generalized additive modeling framework is used to determine the underlying trend in each population time-series. Average rates of change are then calculated and aggregated to the species level, and then combined into indices using a weighting system that gives trends from more species-rich systems, realms and groups more weight in the final index.",
+          "citation_full": "WWF (2026) Living Planet Report 2026 \u2013 The Science of Hope. WWF, Gland, Switzerland.",
+          "attribution_short": "WWF & ZSL",
+          "url_main": "http://stats.livingplanetindex.org/",
+          "date_accessed": "2026-09-30",
+          "date_published": "2026-10-08",
+          "license": {
+            "name": "CC BY 4.0"
+          }
+        }
+      ]
+    },
+    "year": {
+      "origins": [
+        {
+          "producer": "World Wildlife Fund and Zoological Society of London",
+          "title": "Living Planet Index",
+          "description": "The Living Planet Index (LPI) is a measure of the state of global biological diversity based on population trends of vertebrate species from around the world. The 2026 index represents 35,803 monitored populations of 5,790 vertebrate species. It tracks changes in the relative abundance of wildlife populations that have been consistently monitored in a specific area over time. All indices are weighted by species richness, giving species-rich taxonomic groups in terrestrial, marine and freshwater systems more weight than groups with fewer species. Using a method developed by ZSL and WWF, these species population trends are aggregated to produce indices of the state of biodiversity.\n\nThe index value is measured relative to species' populations in 1970 (i.e. 1970 = 1).\n\nTo calculate an LPI, a generalized additive modeling framework is used to determine the underlying trend in each population time-series. Average rates of change are then calculated and aggregated to the species level, and then combined into indices using a weighting system that gives trends from more species-rich systems, realms and groups more weight in the final index.",
+          "citation_full": "WWF (2026) Living Planet Report 2026 \u2013 The Science of Hope. WWF, Gland, Switzerland.",
+          "attribution_short": "WWF & ZSL",
+          "url_main": "http://stats.livingplanetindex.org/",
+          "date_accessed": "2026-09-30",
+          "date_published": "2026-10-08",
+          "license": {
+            "name": "CC BY 4.0"
+          }
+        }
+      ]
+    },
+    "lpi_final": {
+      "title": "Living Planet Index",
+      "description_short": "The Living Planet Index (LPI) is a measure of the state of global biological diversity based on population trends of vertebrate species from around the world. The index value is measured relative to species' populations in 1970 (i.e. 1970 = 1).",
+      "origins": [
+        {
+          "producer": "World Wildlife Fund and Zoological Society of London",
+          "title": "Living Planet Index",
+          "description": "The Living Planet Index (LPI) is a measure of the state of global biological diversity based on population trends of vertebrate species from around the world. The 2026 index represents 35,803 monitored populations of 5,790 vertebrate species. It tracks changes in the relative abundance of wildlife populations that have been consistently monitored in a specific area over time. All indices are weighted by species richness, giving species-rich taxonomic groups in terrestrial, marine and freshwater systems more weight than groups with fewer species. Using a method developed by ZSL and WWF, these species population trends are aggregated to produce indices of the state of biodiversity.\n\nThe index value is measured relative to species' populations in 1970 (i.e. 1970 = 1).\n\nTo calculate an LPI, a generalized additive modeling framework is used to determine the underlying trend in each population time-series. Average rates of change are then calculated and aggregated to the species level, and then combined into indices using a weighting system that gives trends from more species-rich systems, realms and groups more weight in the final index.",
+          "citation_full": "WWF (2026) Living Planet Report 2026 \u2013 The Science of Hope. WWF, Gland, Switzerland.",
+          "attribution_short": "WWF & ZSL",
+          "url_main": "http://stats.livingplanetindex.org/",
+          "date_accessed": "2026-09-30",
+          "date_published": "2026-10-08",
+          "license": {
+            "name": "CC BY 4.0"
+          }
+        }
+      ],
+      "unit": "(1970 = 1)",
+      "short_unit": "",
+      "display": {
+        "numDecimalPlaces": 2
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "WWF & ZSL",
+        "topic_tags": [
+          "Biodiversity"
+        ]
+      }
+    },
+    "ci_low": {
+      "title": "Lower confidence interval of Living Planet Index",
+      "description_short": "Lower bound of the 95% confidence interval of the Living Planet Index, measured relative to species' populations in 1970 (i.e. 1970 = 1).",
+      "origins": [
+        {
+          "producer": "World Wildlife Fund and Zoological Society of London",
+          "title": "Living Planet Index",
+          "description": "The Living Planet Index (LPI) is a measure of the state of global biological diversity based on population trends of vertebrate species from around the world. The 2026 index represents 35,803 monitored populations of 5,790 vertebrate species. It tracks changes in the relative abundance of wildlife populations that have been consistently monitored in a specific area over time. All indices are weighted by species richness, giving species-rich taxonomic groups in terrestrial, marine and freshwater systems more weight than groups with fewer species. Using a method developed by ZSL and WWF, these species population trends are aggregated to produce indices of the state of biodiversity.\n\nThe index value is measured relative to species' populations in 1970 (i.e. 1970 = 1).\n\nTo calculate an LPI, a generalized additive modeling framework is used to determine the underlying trend in each population time-series. Average rates of change are then calculated and aggregated to the species level, and then combined into indices using a weighting system that gives trends from more species-rich systems, realms and groups more weight in the final index.",
+          "citation_full": "WWF (2026) Living Planet Report 2026 \u2013 The Science of Hope. WWF, Gland, Switzerland.",
+          "attribution_short": "WWF & ZSL",
+          "url_main": "http://stats.livingplanetindex.org/",
+          "date_accessed": "2026-09-30",
+          "date_published": "2026-10-08",
+          "license": {
+            "name": "CC BY 4.0"
+          }
+        }
+      ],
+      "unit": "(1970 = 1)",
+      "short_unit": "",
+      "display": {
+        "numDecimalPlaces": 2
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "WWF & ZSL",
+        "topic_tags": [
+          "Biodiversity"
+        ]
+      }
+    },
+    "ci_high": {
+      "title": "Upper confidence interval of Living Planet Index",
+      "description_short": "Upper bound of the 95% confidence interval of the Living Planet Index, measured relative to species' populations in 1970 (i.e. 1970 = 1).",
+      "origins": [
+        {
+          "producer": "World Wildlife Fund and Zoological Society of London",
+          "title": "Living Planet Index",
+          "description": "The Living Planet Index (LPI) is a measure of the state of global biological diversity based on population trends of vertebrate species from around the world. The 2026 index represents 35,803 monitored populations of 5,790 vertebrate species. It tracks changes in the relative abundance of wildlife populations that have been consistently monitored in a specific area over time. All indices are weighted by species richness, giving species-rich taxonomic groups in terrestrial, marine and freshwater systems more weight than groups with fewer species. Using a method developed by ZSL and WWF, these species population trends are aggregated to produce indices of the state of biodiversity.\n\nThe index value is measured relative to species' populations in 1970 (i.e. 1970 = 1).\n\nTo calculate an LPI, a generalized additive modeling framework is used to determine the underlying trend in each population time-series. Average rates of change are then calculated and aggregated to the species level, and then combined into indices using a weighting system that gives trends from more species-rich systems, realms and groups more weight in the final index.",
+          "citation_full": "WWF (2026) Living Planet Report 2026 \u2013 The Science of Hope. WWF, Gland, Switzerland.",
+          "attribution_short": "WWF & ZSL",
+          "url_main": "http://stats.livingplanetindex.org/",
+          "date_accessed": "2026-09-30",
+          "date_published": "2026-10-08",
+          "license": {
+            "name": "CC BY 4.0"
+          }
+        }
+      ],
+      "unit": "(1970 = 1)",
+      "short_unit": "",
+      "display": {
+        "numDecimalPlaces": 2
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "WWF & ZSL",
+        "topic_tags": [
+          "Biodiversity"
+        ]
+      }
+    }
+  }
+}

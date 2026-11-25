@@ -1,0 +1,6 @@
+# Fonte — resíduos urbanos em Portugal
+
+- INE, indicadores 0013541 (taxa de reciclagem de resíduos urbanos, 2015–2025), 0008978 (proporção de resíduos urbanos depositados em aterro), 0008658 (proporção de resíduos urbanos recolhidos seletivamente), 0008657 (resíduos urbanos recolhidos por habitante) e 0008660 (recolhidos seletivamente por habitante), 2011–2025; fonte primária INE/Agência Portuguesa do Ambiente. Atualizados a 20-11-2026. API: `https://www.ine.pt/ine/json_indicador/pindica.jsp?op=2&varcd=<código>&Dim1=T&lang=PT`. Descarregados em 2026-11-25, sem alterações.
+- Definição do INE (metainformação de 0013541): (RU para valorização multimaterial + RU para valorização orgânica) / total de RU geridos por operações de destino (aterro, valorização energética, valorização orgânica, valorização multimaterial). Não é o método de cálculo da meta europeia (Decisão de Execução (UE) 2019/1004).
+- Eurostat, `cei_wm011` (taxa de reciclagem de resíduos urbanos, método harmonizado, 2000–2024, atualizado a 15-10-2026), para a comparação com a UE. API: `https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cei_wm011?format=JSON&lang=EN`.
+- Licença: INE, CC BY 4.0 (dados.gov.pt); Eurostat, reutilização com atribuição (CC BY 4.0).

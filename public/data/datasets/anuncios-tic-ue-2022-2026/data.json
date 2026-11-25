@@ -1,0 +1,207 @@
+{
+ "rows": [
+  {
+   "label": "Bélgica",
+   "a": 7.8,
+   "b": 4.8
+  },
+  {
+   "label": "Bulgária",
+   "a": 15.9,
+   "b": 8.2
+  },
+  {
+   "label": "Chéquia",
+   "a": 9.8,
+   "b": 5.8
+  },
+  {
+   "label": "Dinamarca",
+   "a": 4.4,
+   "b": 3.8
+  },
+  {
+   "label": "Alemanha",
+   "a": 13.6,
+   "b": 9.8
+  },
+  {
+   "label": "Estónia",
+   "a": 15.4,
+   "b": 7.2
+  },
+  {
+   "label": "Irlanda",
+   "a": 14.1,
+   "b": 6.4
+  },
+  {
+   "label": "Grécia",
+   "a": 13.5,
+   "b": 7.3
+  },
+  {
+   "label": "Espanha",
+   "a": 13.5,
+   "b": 10.9
+  },
+  {
+   "label": "França",
+   "a": 7.3,
+   "b": 3.6
+  },
+  {
+   "label": "Croácia",
+   "a": 4.7,
+   "b": 4
+  },
+  {
+   "label": "Itália",
+   "a": 8.9,
+   "b": 10.7
+  },
+  {
+   "label": "Chipre",
+   "a": 14.2,
+   "b": 12.8
+  },
+  {
+   "label": "Letónia",
+   "a": 8,
+   "b": 7.5
+  },
+  {
+   "label": "Lituânia",
+   "a": 10.3,
+   "b": 8.7
+  },
+  {
+   "label": "Luxemburgo",
+   "a": 19.1,
+   "b": 11.3
+  },
+  {
+   "label": "Hungria",
+   "a": 10.8,
+   "b": 7.4
+  },
+  {
+   "label": "Malta",
+   "a": 13.3,
+   "b": 13.2
+  },
+  {
+   "label": "Países Baixos",
+   "a": 9.8,
+   "b": 5.5
+  },
+  {
+   "label": "Áustria",
+   "a": 13,
+   "b": 11.2
+  },
+  {
+   "label": "Polónia",
+   "a": 12.4,
+   "b": 3.8
+  },
+  {
+   "label": "Portugal",
+   "a": 15.6,
+   "b": 12.6,
+   "highlight": true
+  },
+  {
+   "label": "Roménia",
+   "a": 8.2,
+   "b": 3.2
+  },
+  {
+   "label": "Eslovénia",
+   "a": 3.8,
+   "b": 3.7
+  },
+  {
+   "label": "Eslováquia",
+   "a": 15,
+   "b": 10.7
+  },
+  {
+   "label": "Finlândia",
+   "a": 5.9,
+   "b": 3.1
+  },
+  {
+   "label": "Suécia",
+   "a": 8.8,
+   "b": 6.8
+  }
+ ],
+ "config": {
+  "aLabel": "4 trimestres até set. 2022",
+  "bLabel": "4 trimestres até set. 2026",
+  "unit": "%",
+  "decimals": 1,
+  "domain": [
+   0,
+   20
+  ],
+  "ref": 5.8,
+  "refLabel": "UE, 2026: 5,8%",
+  "itemLabel": "país",
+  "sorts": [
+   [
+    "b",
+    "Valor de 2026"
+   ],
+   [
+    "delta",
+    "Variação desde 2022"
+   ]
+  ],
+  "howToRead": "Cada linha é um país. O ponto cinzento é a percentagem dos anúncios de emprego publicados na internet que procuravam especialistas em informática e telecomunicações nos quatro trimestres até setembro de 2022; o ponto colorido, nos quatro trimestres até setembro de 2026. A linha tracejada é a média da UE em 2026."
+ },
+ "summary": {
+  "eu22": 10.1,
+  "eu26": 5.8,
+  "eu19": 10.7,
+  "euMax": 11.1,
+  "euMaxT": "2021-Q1",
+  "pt22": 15.6,
+  "pt26": 12.6,
+  "ptMax": 20.3,
+  "ptMaxT": "2021-Q1",
+  "nFell": 26,
+  "rankPT": 3,
+  "top3": [
+   "MT 13.2",
+   "CY 12.8",
+   "PT 12.6"
+  ],
+  "low3": [
+   "FR 3.6",
+   "RO 3.2",
+   "FI 3.1"
+  ],
+  "euYoy26": -36,
+  "ptYoy26": -55.1,
+  "euYoyQ3": [
+   12.7,
+   -34.8,
+   -26.7,
+   -36
+  ],
+  "euRatio": 0.57,
+  "euChgPP": -4.3,
+  "ptChgPP": -3,
+  "euCountIdx": 34.5,
+  "biggestDrops": [
+   "PL -8.6",
+   "EE -8.2",
+   "LU -7.8"
+  ],
+  "rose": [
+   "IT 8.9→10.7"
+  ]
+ }
+}
