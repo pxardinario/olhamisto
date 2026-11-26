@@ -7,8 +7,8 @@
    "ideia": "Os nudges funcionam muito menos nas unidades governamentais do que nas revistas científicas (DellaVigna e Linos, Econometrica 2022)",
    "fonte": "DellaVigna e Linos (2022), Econometrica; dados de replicação",
    "licenca": "Por confirmar: o pacote de replicação não indicava licença",
-   "estado": "bloqueada",
-   "bloqueio": "Só dois valores médios no resumo; dados por ensaio sem licença de reutilização indicada. Procurar o pacote de replicação no openICPSR ou no sítio da Econometric Society e confirmar a licença.",
+   "estado": "descartada",
+   "bloqueio": "Só dois valores médios no resumo; dados por ensaio sem licença de reutilização indicada. Procurar o pacote de replicação no openICPSR ou no sítio da Econometric Society e confirmar a licença. 2026-11-26: descartada para manter a lista com 30 entradas ativas; sem fonte com licença aberta encontrada.",
    "registada": "2026-11-05",
    "tentativas": 1
   },
@@ -18,8 +18,8 @@
    "ideia": "A longa série das receitas de música gravada por formato: o regresso do vinil",
    "fonte": "RIAA, base de dados de receitas por formato (U.S. Sales Database)",
    "licenca": "Por confirmar",
-   "estado": "bloqueada",
-   "bloqueio": "Em 2026-11-04 só havia números de 2025 em notícias, sem série longa. Procurar a série da RIAA ou uma fonte com licença aberta.",
+   "estado": "descartada",
+   "bloqueio": "Em 2026-11-04 só havia números de 2025 em notícias, sem série longa. Procurar a série da RIAA ou uma fonte com licença aberta. 2026-11-26: descartada para manter a lista com 30 entradas ativas; sem fonte com licença aberta encontrada.",
    "registada": "2026-11-04",
    "tentativas": 1
   },
@@ -29,8 +29,8 @@
    "ideia": "Consentimento presumido e taxas de dadores de órgãos",
    "fonte": "Registos internacionais de dadores (IRODaT, Newsletter Transplant do Conselho da Europa)",
    "licenca": "Sem licença de reutilização clara",
-   "estado": "bloqueada",
-   "bloqueio": "Licença. Só avançar se aparecer uma fonte com licença aberta (ex.: Newsletter Transplant com termos de reutilização explícitos).",
+   "estado": "descartada",
+   "bloqueio": "Licença. Só avançar se aparecer uma fonte com licença aberta (ex.: Newsletter Transplant com termos de reutilização explícitos). 2026-11-26: descartada para manter a lista com 30 entradas ativas; sem fonte com licença aberta encontrada.",
    "registada": "2026-11-05",
    "tentativas": 1
   },
@@ -151,7 +151,7 @@
    "fonte": "NASA GISTEMP / NOAA / Copernicus ERA5",
    "licenca": "Domínio público (NASA, NOAA); Copernicus com atribuição",
    "estado": "bloqueada",
-   "bloqueio": "2026-11-12: NASA, NOAA e Copernicus inacessíveis pela linha de comandos; a cópia no GitHub (datasets/global-temp) só chega a julho de 2026. Tentar quando o ano fechar (janeiro de 2027).",
+   "bloqueio": "2026-11-12: NASA, NOAA e Copernicus inacessíveis pela linha de comandos; a cópia no GitHub (datasets/global-temp) só chega a julho de 2026. Tentar quando o ano fechar (janeiro de 2027). 2026-11-26: o catálogo da OWID tem a ERA5 do Copernicus por país e mundial até outubro de 2026 (garden/climate/2026-11-11/surface_temperature); publicada a peça de Portugal (jan.–out.). Para o mundo, esperar pelo ano completo.",
    "registada": "2026-11-12",
    "tentativas": 1
   },
@@ -195,7 +195,7 @@
    "fonte": "SNS — Portal da Transparência, conjunto utentes-inscritos-em-cuidados-de-saude-primarios (ACSS)",
    "licenca": "CC BY 4.0 por defeito (dados.gov.pt); uso autorizado pelo Pedro em 2026-11-11",
    "estado": "pronta",
-   "bloqueio": "2026-11-16: dados acessíveis; adiada porque a peça do dia usou o conjunto novo (por nacionalidade, desde julho de 2026). A série antiga termina em junho de 2026 e não é comparável com a nova (critério de elegibilidade); a peça teria de o dizer. 2026-11-24: adiada de novo (a edição já tinha uma peça de saúde, cesarianas).",
+   "bloqueio": "2026-11-16: dados acessíveis; adiada porque a peça do dia usou o conjunto novo (por nacionalidade, desde julho de 2026). A série antiga termina em junho de 2026 e não é comparável com a nova (critério de elegibilidade); a peça teria de o dizer. 2026-11-24: adiada de novo (a edição já tinha uma peça de saúde, cesarianas). 2026-11-26: adiada (tema tratado a 16-11 com a série nova).",
    "registada": "2026-11-16",
    "tentativas": 0
   },
@@ -354,17 +354,6 @@
    "tentativas": 1
   },
   {
-   "id": "exoplanetas-descobertas",
-   "tema": "ciencia",
-   "ideia": "Exoplanetas confirmados por ano e método de deteção, 1995–2025 (pico de 2016 com o Kepler; trânsito domina)",
-   "fonte": "NASA Exoplanet Archive, via catálogo da OWID (garden/space/2026-01-08/exoplanets/exoplanets)",
-   "licenca": "Domínio público (metadados da OWID)",
-   "estado": "pronta",
-   "bloqueio": "2026-11-25: dados acessíveis; adiada para não ter duas peças de ciência na mesma edição. A cópia foi recolhida a 8-1-2026: 2025 pode estar incompleto (confirmações tardias).",
-   "registada": "2026-11-25",
-   "tentativas": 1
-  },
-  {
    "id": "azeite-producao-regioes",
    "tema": "agricultura",
    "ideia": "Produção de azeite em Portugal desde 2004 e o peso do Alentejo",
@@ -385,6 +374,50 @@
    "bloqueio": "2026-11-25: o 3.º trimestre de 2026 só existia para seis países; tentar em dezembro.",
    "registada": "2026-11-25",
    "tentativas": 1
+  },
+  {
+   "id": "sacos-plastico-leves-ue",
+   "tema": "ambiente",
+   "ideia": "Sacos de plástico leves por habitante face à meta europeia de 40 por pessoa até ao fim de 2025",
+   "fonte": "Eurostat env_waspcb (até 2024)",
+   "licenca": "Eurostat: reutilização permitida com atribuição",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-26: muitos países com marca «d» (definição diferente) e Portugal só com o total abaixo de 50 mícrones (10,5 em 2024, contra 135 em Itália); comparar exige confirmar nos metadados se se excluem os sacos muito leves.",
+   "registada": "2026-11-26",
+   "tentativas": 1
+  },
+  {
+   "id": "retorno-migrantes-ue",
+   "tema": "geopolitica",
+   "ideia": "Ordens de saída e retornos efetivos na UE (taxa de retorno) a propósito do novo regulamento europeu do retorno",
+   "fonte": "Eurostat migr_eiord1 e migr_eirtn1 (trimestral, até 2026-T3)",
+   "licenca": "Eurostat: reutilização permitida com atribuição",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-26: adiada porque a semana já tinha duas peças de migração (asilo a 17-11, autorizações de residência a 24-11); ordens e retornos não são as mesmas pessoas, a taxa precisa de nota.",
+   "registada": "2026-11-26",
+   "tentativas": 1
+  },
+  {
+   "id": "ia-empresas-portugal-2026",
+   "tema": "tecnologia",
+   "ideia": "Empresas portuguesas que usam IA em 2026 por setor (19,6% no total; 72,3% nas TIC; 9,4% na construção)",
+   "fonte": "INE 0015009 (inquérito TIC nas empresas 2026, CAE Rev.4)",
+   "licenca": "CC BY 4.0",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-26: série nova (CAE Rev.4) sem comparação direta com 2025; a peça de 09-11 já tratou a IA nas empresas. Esperar pelo Eurostat de 2026 para comparar com a UE.",
+   "registada": "2026-11-26",
+   "tentativas": 1
+  },
+  {
+   "id": "fecundidade-geracoes-europa",
+   "tema": "sociedade",
+   "ideia": "Descendência final das gerações de 1950 a 1974 em 30 países (HFD): onde a queda foi real e onde foi adiamento",
+   "fonte": "Human Fertility Database via catálogo da OWID (garden/hmd/2026-10-22/hfd/cohort)",
+   "licenca": "CC BY 4.0",
+   "estado": "pronta",
+   "bloqueio": "2026-11-26: dados acessíveis; adiada porque a peça de Portugal (índice ajustado) saiu hoje. Usar daqui a algumas semanas, com ângulo europeu.",
+   "registada": "2026-11-26",
+   "tentativas": 0
   }
  ]
 }

@@ -1,0 +1,4 @@
+# Fonte — Temperatura média mensal a 2 m, Portugal e mundo, 1940–outubro de 2026
+
+- Copernicus Climate Change Service (C3S/ECMWF), reanálise ERA5, «ERA5 monthly averaged data on single levels from 1940 to present» (Hersbach et al., 2023, DOI 10.24381/cds.f17050d7), dados publicados a 06-11-2026 (ERA5T para os meses mais recentes). Licença Copernicus (reutilização livre, incluindo comercial, com atribuição «Contains modified Copernicus Climate Change Service information»).
+- Lido através do catálogo de dados da Our World in Data (tabela `garden/climate/2026-11-11/surface_temperature/surface_temperature`), que calcula a média ponderada pela área (peso da latitude) sobre o território de cada país (fronteiras do Banco Mundial, só terra) e converte de kelvin para °C. Convertido de feather para CSV sem alterar valores; ficaram só as linhas «Portugal» e «World». Metadados em `surface_temperature.meta.json`. Descarregado em 2026-11-26.

@@ -1,0 +1,110 @@
+{
+ "rows": [
+  {
+   "label": "Afeganistão",
+   "ret": 1947.2,
+   "ref": 2671.6
+  },
+  {
+   "label": "Síria",
+   "ret": 1341.1,
+   "ref": 4865.8
+  },
+  {
+   "label": "Sudão",
+   "ret": 651.5,
+   "ref": 2820.7
+  },
+  {
+   "label": "Sudão do Sul",
+   "ret": 199.3,
+   "ref": 2386.5
+  },
+  {
+   "label": "Ucrânia",
+   "ret": 139.3,
+   "ref": 5224.1
+  },
+  {
+   "label": "Nigéria",
+   "ret": 26.8,
+   "ref": 478.2
+  },
+  {
+   "label": "República Centro-Africana",
+   "ret": 21.7,
+   "ref": 674.2
+  },
+  {
+   "label": "Burundi",
+   "ret": 17.8,
+   "ref": 318.3
+  },
+  {
+   "label": "Ruanda",
+   "ret": 7.2,
+   "ref": 244.4
+  },
+  {
+   "label": "Etiópia",
+   "ret": 5.4,
+   "ref": 164.2
+  }
+ ],
+ "config": {
+  "views": [
+   {
+    "id": "ret",
+    "label": "Regressaram em 2025",
+    "key": "ret",
+    "axisLabel": "Refugiados que regressaram ao país de origem em 2025 (milhares)",
+    "axisShort": "Regressos em 2025 (milhares)"
+   },
+   {
+    "id": "ref",
+    "label": "Ainda refugiados",
+    "key": "ref",
+    "axisLabel": "Refugiados desse país no estrangeiro no fim de 2025 (milhares)",
+    "axisShort": "Refugiados no fim de 2025 (milhares)"
+   }
+  ],
+  "unit": " mil",
+  "decimals": 0,
+  "signed": false,
+  "independentScale": true,
+  "posLabel": "Milhares de pessoas",
+  "howToRead": "Cada barra é um país de origem: os dez com mais refugiados regressados em 2025, segundo o ACNUR. A vista «Ainda refugiados» mostra quantos continuavam fora do país no fim do ano. Os regressos contam pessoas que voltaram durante o ano, incluindo as que foram expulsas ou pressionadas a sair do país de acolhimento."
+ },
+ "summary": {
+  "total25": 4362272,
+  "total24": 1615821,
+  "total23": 1126551,
+  "rank25": 2,
+  "firstYear": "1972",
+  "first": 9913600,
+  "third": "1994",
+  "thirdV": 3036966,
+  "afg": 1947183,
+  "syr": 1341148,
+  "sud": 651456,
+  "top3Share": 90.3,
+  "top": [
+   "Afghanistan",
+   "Syria",
+   "Sudan",
+   "South Sudan",
+   "Ukraine",
+   "Nigeria",
+   "Central African Republic",
+   "Burundi",
+   "Rwanda",
+   "Ethiopia"
+  ],
+  "syrRef24": 5952174,
+  "syrRef25": 4865764,
+  "syrRef21": 6848865,
+  "ukrRef25": 5224131,
+  "ratio2524": 2.7,
+  "ind72": 9799410
+ }
+}

@@ -1,0 +1,421 @@
+{
+  "short_name": "cohort",
+  "title": "Human Fertility Database",
+  "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "hmd",
+    "short_name": "hfd",
+    "title": "Human Fertility Database",
+    "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+    "is_public": true,
+    "version": "2026-10-22",
+    "update_period_days": 365,
+    "non_redistributable": false,
+    "jsonld": false,
+    "owners": [
+      "Lucas Rod\u00e9s-Guirao"
+    ],
+    "source_checksum": "567a8a9f033f65f6d7d160343bdcf3c7"
+  },
+  "primary_key": [
+    "country",
+    "cohort",
+    "birth_order"
+  ],
+  "dimensions": [
+    {
+      "name": "country",
+      "slug": "country"
+    },
+    {
+      "name": "cohort",
+      "slug": "cohort"
+    },
+    {
+      "name": "birth_order",
+      "slug": "birth_order"
+    }
+  ],
+  "fields": {
+    "country": {
+      "title": "Code",
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ]
+    },
+    "cohort": {
+      "title": "Cohort",
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ]
+    },
+    "birth_order": {},
+    "cmab": {
+      "title": "<% set title = \"Cohort mean ages at birth\" %>\n<% if birth_order == 'total' %>\n<< title >> - Total\n<%- elif birth_order == '5p' %>\n<< title >> - Birth order: \u22655\n<%- else %>\n<< title >> - Birth order: << birth_order >>\n<%- endif %>",
+      "description_short": "<% if birth_order == 'total' %>\nAverage age at which women in a specific birth cohort have children. It is standardized for the age structure of the female population of reproductive age.\n<%- else %>\nAverage age at which women in a specific birth cohort have their<% if birth_order == '1' %>\n first\n<%- elif birth_order == '2' %>\n second\n<%- elif birth_order == '3' %>\n third\n<%- elif birth_order == '4' %>\n fourth\n<%- elif birth_order == '5p' %>\n fifth (or greater)\n<%- endif %> child. It is standardized for the age structure of the female population of reproductive age.\n<%- endif %>",
+      "description_key": [
+        "Shows the average age when women in a specific group have their children.",
+        "Highlights how the timing of childbirth differs from one generation to the next.",
+        "Calculated from the actual rates at which women have children during their reproductive years."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "years",
+      "display": {
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "HFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    },
+    "cmab40": {
+      "title": "<% set title = \"Cohort mean ages at birth by the age 40\" %>\n<% if birth_order == 'total' %>\n<< title >> - Total\n<%- elif birth_order == '5p' %>\n<< title >> - Birth order: \u22655\n<%- else %>\n<< title >> - Birth order: << birth_order >>\n<%- endif %>",
+      "description_short": "<% if birth_order == 'total' %>\nAverage age at which women under 40 in a specific cohort have children.\n<%- else %>\nAverage age at which women under 40 in a specific cohort have their<% if birth_order == '1' %>\n first\n<%- elif birth_order == '2' %>\n second\n<%- elif birth_order == '3' %>\n third\n<%- elif birth_order == '4' %>\n fourth\n<%- elif birth_order == '5p' %>\n fifth (or greater)\n<%- endif %> child.\n<%- endif %>",
+      "description_key": [
+        "Focuses on births occurring before age 40, providing insights into early fertility patterns for the cohort.",
+        "Useful for comparing early reproductive behavior across different cohorts."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "years",
+      "display": {
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "HFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    },
+    "ppr": {
+      "title": "Cohort parity progression ratio - << (birth_order | int) - 1 >> to << (birth_order | int) >> birth",
+      "description_short": "<% if birth_order == '1' %>\nProbability of giving birth to a first child.\n<%- elif birth_order == '2' %>\nProbability of giving birth to a second child, conditioned on having had a first child.\n<%- elif birth_order == '3' %>\nProbability of giving birth to a third child, conditioned on having had a second child.\n<%- elif birth_order == '4' %>\nProbability of giving birth to a fourth child, conditioned on having had a third child.\n<% endif %>",
+      "description_key": [
+        "Measures the likelihood that a woman with a given number of children will go on to have another child.",
+        "It is useful for understanding family-building dynamics and changes in reproductive behavior over time."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "",
+      "display": {
+        "numDecimalPlaces": 2
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "HFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    },
+    "sdcmab": {
+      "title": "<% set title = \"Standard deviation in cohort mean ages at birth\" %>\n<% if birth_order == 'total' %>\n<< title >> - Total\n<%- elif birth_order == '5p' %>\n<< title >> - Birth order: \u22655\n<%- else %>\n<< title >> - Birth order: << birth_order >>\n<%- endif %>",
+      "description_short": "<% if birth_order == 'total' %>\nVariation in the ages at which women in a specific cohort have children.\n<%- else %>\nVariation in the ages at which women in a specific cohort have their<% if birth_order == '1' %>\n first\n<%- elif birth_order == '2' %>\n second\n<%- elif birth_order == '3' %>\n third\n<%- elif birth_order == '4' %>\n fourth\n<%- elif birth_order == '5p' %>\n fifth (or greater)\n<%- endif %> child.\n<%- endif %>",
+      "description_key": [
+        "Measures the spread of ages at which women in a cohort give birth.",
+        "A lower value indicates concentrated timing, while a higher value suggests more variation in childbearing ages.",
+        "Helps to understand the diversity of reproductive timing within a cohort."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "years",
+      "display": {
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "HFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    },
+    "sdcmab40": {
+      "title": "<% set title = \"Standard deviation in cohort mean ages at 40\" %>\n<% if birth_order == 'total' %>\n<< title >> - Total\n<%- elif birth_order == '5p' %>\n<< title >> - Birth order: \u22655\n<%- else %>\n<< title >> - Birth order: << birth_order >>\n<%- endif %>",
+      "description_short": "<% if birth_order == 'total' %>\nHow much variation there is in the ages at which women in a specific cohort have children, calculated only up to age 40.\n<%- else %>\nHow much variation there is in the ages at which women in a specific cohort have their<% if birth_order == '1' %>\n first\n<%- elif birth_order == '2' %>\n second\n<%- elif birth_order == '3' %>\n third\n<%- elif birth_order == '4' %>\n fourth\n<%- elif birth_order == '5p' %>\n fifth (or greater)\n<%- endif %> child, calculated only up to age 40.\n<%- endif %>",
+      "description_key": [
+        "Reflects variability in the timing of births up to age 40 within a cohort.",
+        "Helps to understand how concentrated or spread out early childbearing is within the cohort."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "years",
+      "display": {
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "HFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    },
+    "ccf": {
+      "title": "<% set title = \"Completed cohort fertility rate\" %>\n<% if birth_order == 'total' %>\n<< title >> - Total\n<%- elif birth_order == '5p' %>\n<< title >> - Birth order: \u22655\n<%- else %>\n<< title >> - Birth order: << birth_order >>\n<%- endif %>",
+      "description_short": "<% if birth_order == 'total' %>\nAverage number of children born to women in the current cohort over their lifetime.\n<%- else %>\nAverage number of<% if birth_order == '1' %>\n first\n<%- elif birth_order == '2' %>\n second\n<%- elif birth_order == '3' %>\n third\n<%- elif birth_order == '4' %>\n fourth\n<%- elif birth_order == '5p' %>\n fifth (or greater)\n<%- endif %> children born to women in a specific cohort over their lifetime.\n<%- endif %>",
+      "description_key": [
+        "Shows the total number of children that women born in the same year have by the end of their childbearing years.",
+        "Helps compare how many children different generations of women have on average.",
+        "Calculated using the actual number of births recorded at different ages throughout a woman\u2019s childbearing years."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "births per woman",
+      "display": {
+        "numDecimalPlaces": 2
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "HFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    },
+    "ccf40": {
+      "title": "<% set title = \"Completed cohort fertility rate by the age 40\" %>\n<% if birth_order == 'total' %>\n<< title >> - Total\n<%- elif birth_order == '5p' %>\n<< title >> - Birth order: \u22655\n<%- else %>\n<< title >> - Birth order: << birth_order >>\n<%- endif %>",
+      "description_short": "<% if birth_order == 'total' %>\nAverage number of children born to women under 40 in a specific cohort.\n<%- else %>\nAverage number of<% if birth_order == '1' %>\n first\n<%- elif birth_order == '2' %>\n second\n<%- elif birth_order == '3' %>\n third\n<%- elif birth_order == '4' %>\n fourth\n<%- elif birth_order == '5p' %>\n fifth (or greater)\n<%- endif %> children born to women under 40 in a specific cohort.\n<%- endif %>",
+      "description_key": [
+        "Shows the fertility of a cohort up to age 40.",
+        "Provides insights into early and mid-reproductive age fertility patterns."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "births per woman",
+      "display": {
+        "numDecimalPlaces": 2
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "HFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    },
+    "ccf_plus15y": {
+      "title": "<% set title = \"Completed cohort fertility rate (adjusted +15 years)\" %>\n<% if birth_order == 'total' %>\n<< title >> - Total\n<%- elif birth_order == '5p' %>\n<< title >> - Birth order: \u22655\n<%- else %>\n<< title >> - Birth order: << birth_order >>\n<%- endif %>",
+      "description_short": "<% if birth_order == 'total' %>\nAverage number of children born to women in the 15-years-ago cohort over their lifetime.\n<%- else %>\nAverage number of<% if birth_order == '1' %>\n first\n<%- elif birth_order == '2' %>\n second\n<%- elif birth_order == '3' %>\n third\n<%- elif birth_order == '4' %>\n fourth\n<%- elif birth_order == '5p' %>\n fifth (or greater)\n<%- endif %> children born to women in a specific cohort over their lifetime.\n<%- endif %>",
+      "description_key": [
+        "Shows the total number of children that women born in the same year have by the end of their childbearing years.",
+        "Helps compare how many children different generations of women have on average.",
+        "Calculated using the actual number of births recorded at different ages throughout a woman\u2019s childbearing years."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "births per woman",
+      "display": {
+        "numDecimalPlaces": 2
+      },
+      "processing_level": "major",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "We shift the completed cohort fertility rate forward by 15 years: the value shown for year X is the completed cohort fertility rate of women born in year X \u2212 15. This makes it easier to compare with the period total fertility rate in the years when these women were having children.\n\nHFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    },
+    "ccf_plus30y": {
+      "title": "<% set title = \"Completed cohort fertility rate (adjusted +30 years)\" %>\n<% if birth_order == 'total' %>\n<< title >> - Total\n<%- elif birth_order == '5p' %>\n<< title >> - Birth order: \u22655\n<%- else %>\n<< title >> - Birth order: << birth_order >>\n<%- endif %>",
+      "description_short": "<% if birth_order == 'total' %>\nAverage number of children born to women in the 30-years-ago cohort over their lifetime.\n<%- else %>\nAverage number of<% if birth_order == '1' %>\n first\n<%- elif birth_order == '2' %>\n second\n<%- elif birth_order == '3' %>\n third\n<%- elif birth_order == '4' %>\n fourth\n<%- elif birth_order == '5p' %>\n fifth (or greater)\n<%- endif %> children born to women in a specific cohort over their lifetime.\n<%- endif %>",
+      "description_key": [
+        "Shows the total number of children that women born in the same year have by the end of their childbearing years.",
+        "Helps compare how many children different generations of women have on average.",
+        "Calculated using the actual number of births recorded at different ages throughout a woman\u2019s childbearing years."
+      ],
+      "origins": [
+        {
+          "producer": "Human Fertility Database",
+          "title": "Human Fertility Database",
+          "description": "The HFD is entirely based on one and the same type of initial data - officially registered birth counts by calendar year, mother's age (and/or cohort) and (whenever possible) biological birth order. These data, together with total female population exposure from the Human Mortality Database (www.mortality.org) and parity-specific female population exposure from selected population censuses, population registers, or large-scale surveys, are further processed using a uniform set of methods. The major HFD output includes detailed data on births, unconditional and conditional fertility rates, cohort and period fertility tables as well as selected aggregate indicators such as total fertility rates, mean ages at childbearing, and parity progression ratios.\n\nFor each country, there are four blocks of data provided:\n\n- Summary Indicators\n- Age-Specific Data\n- Fertility Tables\n- Input Data\n\nMore details at https://www.humanfertility.org/Data/ExplanatoryNotes, and https://www.humanfertility.org/File/GetDocumentFree/Docs/methods.pdf.",
+          "citation_full": "Human Fertility Database. Max Planck Institute for Demographic Research (Germany) and Vienna Institute of Demography (Austria). Available at www.humanfertility.org (data downloaded on 2026-10-22).",
+          "attribution_short": "HFD",
+          "url_main": "https://www.humanfertility.org/Home/Index",
+          "url_download": "https://www.humanfertility.org/File/Download/Files/zip/HFD.zip",
+          "date_accessed": "2026-10-22",
+          "date_published": "2026-07-02",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.humanfertility.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "births per woman",
+      "display": {
+        "numDecimalPlaces": 2
+      },
+      "processing_level": "major",
+      "presentation": {
+        "attribution_short": "HFD",
+        "topic_tags": [
+          "Fertility Rate"
+        ]
+      },
+      "description_processing": "We shift the completed cohort fertility rate forward by 30 years: the value shown for year X is the completed cohort fertility rate of women born in year X \u2212 30. This makes it easier to compare with the period total fertility rate in the years when these women were having children.\n\nHFD's data for France covers metropolitan France only. It doesn't include the overseas departments."
+    }
+  }
+}

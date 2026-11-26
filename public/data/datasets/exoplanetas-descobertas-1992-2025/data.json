@@ -1,0 +1,351 @@
+{
+ "rows": [
+  {
+   "cat": "1992",
+   "tr": 0,
+   "rv": 0,
+   "mi": 0,
+   "ot": 2,
+   "total": 2
+  },
+  {
+   "cat": "1993",
+   "tr": 0,
+   "rv": 0,
+   "mi": 0,
+   "ot": 0,
+   "total": 0
+  },
+  {
+   "cat": "1994",
+   "tr": 0,
+   "rv": 0,
+   "mi": 0,
+   "ot": 1,
+   "total": 1
+  },
+  {
+   "cat": "1995",
+   "tr": 0,
+   "rv": 1,
+   "mi": 0,
+   "ot": 0,
+   "total": 1
+  },
+  {
+   "cat": "1996",
+   "tr": 0,
+   "rv": 6,
+   "mi": 0,
+   "ot": 0,
+   "total": 6
+  },
+  {
+   "cat": "1997",
+   "tr": 0,
+   "rv": 1,
+   "mi": 0,
+   "ot": 0,
+   "total": 1
+  },
+  {
+   "cat": "1998",
+   "tr": 0,
+   "rv": 6,
+   "mi": 0,
+   "ot": 0,
+   "total": 6
+  },
+  {
+   "cat": "1999",
+   "tr": 0,
+   "rv": 13,
+   "mi": 0,
+   "ot": 0,
+   "total": 13
+  },
+  {
+   "cat": "2000",
+   "tr": 0,
+   "rv": 16,
+   "mi": 0,
+   "ot": 0,
+   "total": 16
+  },
+  {
+   "cat": "2001",
+   "tr": 0,
+   "rv": 12,
+   "mi": 0,
+   "ot": 0,
+   "total": 12
+  },
+  {
+   "cat": "2002",
+   "tr": 1,
+   "rv": 28,
+   "mi": 0,
+   "ot": 0,
+   "total": 29
+  },
+  {
+   "cat": "2003",
+   "tr": 0,
+   "rv": 21,
+   "mi": 0,
+   "ot": 1,
+   "total": 22
+  },
+  {
+   "cat": "2004",
+   "tr": 5,
+   "rv": 18,
+   "mi": 1,
+   "ot": 3,
+   "total": 27
+  },
+  {
+   "cat": "2005",
+   "tr": 0,
+   "rv": 33,
+   "mi": 2,
+   "ot": 1,
+   "total": 36
+  },
+  {
+   "cat": "2006",
+   "tr": 5,
+   "rv": 21,
+   "mi": 1,
+   "ot": 5,
+   "total": 32
+  },
+  {
+   "cat": "2007",
+   "tr": 16,
+   "rv": 34,
+   "mi": 0,
+   "ot": 2,
+   "total": 52
+  },
+  {
+   "cat": "2008",
+   "tr": 16,
+   "rv": 36,
+   "mi": 4,
+   "ot": 7,
+   "total": 63
+  },
+  {
+   "cat": "2009",
+   "tr": 18,
+   "rv": 70,
+   "mi": 2,
+   "ot": 1,
+   "total": 91
+  },
+  {
+   "cat": "2010",
+   "tr": 47,
+   "rv": 41,
+   "mi": 2,
+   "ot": 8,
+   "total": 98
+  },
+  {
+   "cat": "2011",
+   "tr": 79,
+   "rv": 43,
+   "mi": 1,
+   "ot": 12,
+   "total": 135
+  },
+  {
+   "cat": "2012",
+   "tr": 93,
+   "rv": 35,
+   "mi": 7,
+   "ot": 4,
+   "total": 139
+  },
+  {
+   "cat": "2013",
+   "tr": 80,
+   "rv": 33,
+   "mi": 5,
+   "ot": 10,
+   "total": 128
+  },
+  {
+   "cat": "2014",
+   "tr": 798,
+   "rv": 48,
+   "mi": 6,
+   "ot": 17,
+   "total": 869
+  },
+  {
+   "cat": "2015",
+   "tr": 99,
+   "rv": 46,
+   "mi": 4,
+   "ot": 6,
+   "total": 155
+  },
+  {
+   "cat": "2016",
+   "tr": 1432,
+   "rv": 50,
+   "mi": 10,
+   "ot": 4,
+   "total": 1496
+  },
+  {
+   "cat": "2017",
+   "tr": 87,
+   "rv": 49,
+   "mi": 9,
+   "ot": 7,
+   "total": 152
+  },
+  {
+   "cat": "2018",
+   "tr": 242,
+   "rv": 46,
+   "mi": 22,
+   "ot": 5,
+   "total": 315
+  },
+  {
+   "cat": "2019",
+   "tr": 107,
+   "rv": 65,
+   "mi": 14,
+   "ot": 10,
+   "total": 196
+  },
+  {
+   "cat": "2020",
+   "tr": 166,
+   "rv": 46,
+   "mi": 20,
+   "ot": 3,
+   "total": 235
+  },
+  {
+   "cat": "2021",
+   "tr": 447,
+   "rv": 76,
+   "mi": 21,
+   "ot": 10,
+   "total": 554
+  },
+  {
+   "cat": "2022",
+   "tr": 191,
+   "rv": 118,
+   "mi": 51,
+   "ot": 9,
+   "total": 369
+  },
+  {
+   "cat": "2023",
+   "tr": 226,
+   "rv": 57,
+   "mi": 30,
+   "ot": 13,
+   "total": 326
+  },
+  {
+   "cat": "2024",
+   "tr": 188,
+   "rv": 28,
+   "mi": 28,
+   "ot": 16,
+   "total": 260
+  },
+  {
+   "cat": "2025",
+   "tr": 135,
+   "rv": 61,
+   "mi": 22,
+   "ot": 15,
+   "total": 233
+  }
+ ],
+ "views": [
+  {
+   "id": "n",
+   "label": "Por ano",
+   "yLabel": "Exoplanetas confirmados por ano de descoberta e método",
+   "unit": "",
+   "decimals": 0,
+   "marginLeft": [
+    36,
+    44
+   ],
+   "labelEvery": 4,
+   "labelEveryNarrow": 8,
+   "series": [
+    {
+     "key": "ot",
+     "label": "Outros métodos",
+     "color": "--muted"
+    },
+    {
+     "key": "mi",
+     "label": "Microlente gravitacional",
+     "color": "--accent-4"
+    },
+    {
+     "key": "rv",
+     "label": "Velocidade radial",
+     "color": "--accent-3"
+    },
+    {
+     "key": "tr",
+     "label": "Trânsito",
+     "color": "--accent-2"
+    }
+   ],
+   "tipExtra": [
+    {
+     "key": "total",
+     "label": "Total",
+     "suffix": ""
+    }
+   ],
+   "notes": [
+    {
+     "cat": "2014",
+     "text": "2014 e 2016: validações em massa do Kepler",
+     "short": "Kepler"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "total": 6070,
+  "tr": 4478,
+  "rv": 1158,
+  "mi": 262,
+  "ot": 172,
+  "trShare": 73.8,
+  "rvShare": 19.1,
+  "y2016": 1496,
+  "y2016tr": 1432,
+  "y2014": 869,
+  "share14_16": 39,
+  "min17": 152,
+  "max17": 554,
+  "max17y": "2021",
+  "y2025": 233,
+  "rvFirstOvertaken": "2010",
+  "rvBefore2010": 316,
+  "allBefore2010": 410,
+  "y1995": 1,
+  "mi2022": 51,
+  "miMax": 51,
+  "rvShareBefore2010": 77.1
+ }
+}

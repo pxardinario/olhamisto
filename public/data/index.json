@@ -1,8 +1,119 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-25T07:37:45.458Z",
- "latest": "2026-11-25",
+ "updated": "2026-11-26T07:33:41.127Z",
+ "latest": "2026-11-26",
  "editions": [
+  {
+   "date": "2026-11-26",
+   "number": 18,
+   "lead": "temperatura-portugal-2026-jan-out",
+   "opening": "Cinco histórias para quinta-feira: os dez meses mais quentes de que há registo em Portugal, o azeite que voltou à terra depois do pico, os filhos que o adiamento esconde nas estatísticas, os seis mil planetas encontrados fora do Sistema Solar e o ano em que mais refugiados voltaram a casa desde 1972.",
+   "pieces": [
+    {
+     "id": "temperatura-portugal-2026-jan-out",
+     "title": "De janeiro a outubro de 2026, Portugal teve o período mais quente desde 1940, início da série: mais 1,36 °C do que a média de 1991–2020",
+     "kind": "atualidade",
+     "theme": "ambiente",
+     "themeLabel": "Ambiente",
+     "vizType": "colunas",
+     "vizLabel": "Colunas de desvio face à média · 87 anos",
+     "interactive": false,
+     "question": "Como se compara 2026 com os anos anteriores, até outubro, na temperatura média de Portugal?",
+     "finding": "Na reanálise ERA5 do Copernicus, a temperatura média de Portugal de janeiro a outubro de 2026 foi de 17,61 °C, 1,36 °C acima da média de 1991–2020 e a mais alta desde 1940. O recorde anterior, de 2023, ficou 0,35 °C abaixo. Os dez meses estiveram acima do normal do respetivo mês, mas só setembro bateu o próprio recorde: 23,1 °C, mais 3,08 °C do que a média.",
+     "period": "1940–2026 (janeiro a outubro de cada ano)",
+     "dataset": "temperatura-portugal-jan-out-1940-2026",
+     "sourceNames": [
+      "Copernicus Climate Change Service (C3S/ECMWF) — ERA5 monthly averaged data on single levels from 1940 to present (Hersbach et al., 2023), temperatura a 2 m, dados de 06-11-2026",
+      "Our World in Data — Monthly surface temperature by country (catálogo de dados, versão de 11-11-2026; cópia secundária com a média por país)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "precos-agricolas-azeite-2026",
+     "title": "O azeite pago aos produtores chegou a valer 5,5 vezes o de 2020. Desde o pico, caiu 74%; os ovos e os bovinos duplicaram",
+     "kind": "atualidade",
+     "theme": "economia",
+     "themeLabel": "Economia",
+     "vizType": "linha",
+     "vizLabel": "Linhas · escala log ⇄ linear · cursor",
+     "interactive": true,
+     "question": "O que aconteceu aos preços que os agricultores portugueses recebem desde 2020?",
+     "finding": "Em junho de 2024, o índice de preços do azeite no produtor chegou a 547,5 (média de 2020 = 100). Em setembro de 2026 estava em 143,5: menos 73,8% do que no pico e menos 14,8% do que um ano antes. No mesmo mês, os ovos valiam 212,6 e os bovinos 205,9, mais do dobro de 2020. O conjunto dos bens agrícolas estava em 141,2.",
+     "period": "Janeiro de 2020 a setembro de 2026 (mensal)",
+     "dataset": "precos-agricolas-produtor-2020-2026",
+     "sourceNames": [
+      "INE — Índice de preços de produtos agrícolas no produtor (Base - 2020) por produto agrícola, mensal (0014466), atualizado a 20-11-2026"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "fecundidade-adiamento-portugal",
+     "title": "Em 2013, a fecundidade em Portugal caiu para 1,21 filhos por mulher. Descontado o adiamento dos nascimentos, eram 1,62",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade",
+     "vizType": "linha",
+     "vizLabel": "Linhas com referência · cursor",
+     "interactive": true,
+     "question": "O mínimo de 1,21 filhos por mulher de 2013 mede quantos filhos têm, de facto, as portuguesas?",
+     "finding": "O índice sintético de fecundidade de Portugal desceu até 1,21 em 2013. Corrigido do adiamento dos nascimentos, pelo método de Bongaarts e Feeney calculado pela Human Fertility Database, o valor desse ano era 1,62. As mulheres nascidas em 1974, a geração mais recente com a vida fértil completa na base, tiveram em média 1,60 filhos. A idade média da mãe ao nascimento passou de 27,0 anos em 1984 para 31,8 em 2021.",
+     "period": "1960–2024 (índice ajustado até 2023)",
+     "dataset": "fecundidade-portugal-adiamento-1960-2024",
+     "sourceNames": [
+      "Human Fertility Database — Max Planck Institute for Demographic Research e Vienna Institute of Demography, Portugal (a partir de dados do INE), dados publicados a 02-07-2026, descarregados pela OWID a 22-10-2026",
+      "Our World in Data — Human Fertility Database (catálogo de dados, versão de 22-10-2026; cópia secundária)",
+      "Bongaarts, J. e Feeney, G. (1998), «On the quantum and tempo of fertility», Population and Development Review 24(2): 271–291"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "exoplanetas-descobertas-metodo",
+     "title": "Conhecem-se mais de seis mil planetas fora do Sistema Solar. Quase três em cada quatro foram detetados ao passar em frente à sua estrela",
+     "kind": "descoberta",
+     "theme": "ciencia",
+     "themeLabel": "Ciência",
+     "vizType": "colunas",
+     "vizLabel": "Colunas empilhadas por método",
+     "interactive": false,
+     "question": "Como se encontraram os planetas que orbitam outras estrelas, e a que ritmo?",
+     "finding": "Até ao fim de 2025 foram confirmados 6 070 exoplanetas, segundo o arquivo da NASA: 73,8% pelo método do trânsito e 19,1% pela velocidade radial. Dois anos, 2014 e 2016, somam 39% do total, por causa das validações em massa dos dados do telescópio espacial Kepler. Antes de 2010, 77,1% vinham da velocidade radial; desde 2017, o ritmo anda entre 152 e 554 por ano.",
+     "period": "1992–2025 (ano de descoberta)",
+     "dataset": "exoplanetas-descobertas-1992-2025",
+     "sourceNames": [
+      "NASA Exoplanet Archive (NExScI/Caltech) — planetas confirmados por ano de descoberta e método, recolhido a 08-01-2026",
+      "Our World in Data — Exoplanets (catálogo de dados, versão de 08-01-2026; cópia secundária)",
+      "NASA/JPL — «NASA's Tally of Planets Outside Our Solar System Reaches 6,000» (09-2025)",
+      "Fundação Nobel — Prémio Nobel da Física de 2019 (Peebles; Mayor e Queloz)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "refugiados-regressos-2025",
+     "title": "Em 2025, 4,4 milhões de refugiados voltaram ao país de origem, o máximo desde 1972. Nove em cada dez eram afegãos, sírios ou sudaneses",
+     "kind": "descoberta",
+     "theme": "geopolitica",
+     "themeLabel": "Geopolítica",
+     "vizType": "barras",
+     "vizLabel": "Barras · duas vistas",
+     "interactive": true,
+     "question": "Quantos refugiados regressaram a casa em 2025, e de onde?",
+     "finding": "Segundo o ACNUR, 4 362 272 refugiados regressaram ao país de origem em 2025, 2,7 vezes os de 2024 e o valor mais alto desde 1972. O Afeganistão recebeu 1,95 milhões, a Síria 1,34 milhões e o Sudão 0,65 milhões: 90,3% do total. Mesmo assim, no fim do ano, 4,87 milhões de sírios continuavam refugiados no estrangeiro, contra 5,95 milhões no fim de 2024.",
+     "period": "2025 (série de regressos desde 1965)",
+     "dataset": "refugiados-regressos-2025",
+     "sourceNames": [
+      "ACNUR (UNHCR) — Refugee Population Statistics Database, dados até ao fim de 2025",
+      "Our World in Data — Refugee Population Statistics Database (catálogo de dados, versão de 27-10-2026; cópia secundária)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "falacia-do-planeamento",
+    "title": "A falácia do planeamento",
+    "axis": "sabedoria",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-25",
    "number": 17,

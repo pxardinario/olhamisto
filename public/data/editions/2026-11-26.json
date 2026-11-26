@@ -1,0 +1,300 @@
+{
+ "schema": "ronda-visual/edition@1",
+ "date": "2026-11-26",
+ "number": 18,
+ "status": "publicada",
+ "opening": "Cinco histórias para quinta-feira: os dez meses mais quentes de que há registo em Portugal, o azeite que voltou à terra depois do pico, os filhos que o adiamento esconde nas estatísticas, os seis mil planetas encontrados fora do Sistema Solar e o ano em que mais refugiados voltaram a casa desde 1972.",
+ "lead": "temperatura-portugal-2026-jan-out",
+ "generatedAt": "2026-11-26T08:00:00+00:00",
+ "limitations": [
+  "Mistura da edição: 2 peças de atualidade (temperatura, dados Copernicus de 6 de novembro; preços agrícolas, INE de 20 de novembro) e 3 de descoberta. Peças do tipo «Portugal comparado com a Europa»: nenhuma. Fontes não oficiais: Human Fertility Database, NASA Exoplanet Archive, ACNUR e reanálise ERA5. Sem Portugal como ângulo principal: exoplanetas e refugiados. Tipos de gráfico: colunas (2), linhas (2) e barras (1).",
+  "Verificação independente: as cinco peças e a Chave do Dia ficaram verificadas depois de correções (frase sobre o verão de 2026, comparação mundial, data da fonte da HFD, posição da Ucrânia entre os países de origem de refugiados, reclassificação de afegãos pelo ACNUR em 2025, estimativas da derrapagem da Ópera de Sydney). Quatro peças usam cópias do catálogo da Our World in Data, conferidas contra o catálogo; as fontes de origem (Copernicus, HFD, NASA, ACNUR) não foram consultadas diretamente. Os números do estudo de Buehler, Griffin e Ross foram confirmados só por fontes secundárias.",
+  "Candidatas rejeitadas ou adiadas: preços da habitação por capital (o Eurostat não tem Lisboa), sacos de plástico leves por habitante (definições diferentes entre países), retornos de migrantes na UE (já houve duas peças de migração esta semana), empresas que usam IA em 2026 (série nova do INE sem comparação), utentes sem médico de família 2016–2026 (tema tratado a 16 de novembro), descendência final das gerações na Europa (adiada para não repetir a fecundidade), robotáxis na Califórnia (limite de uma peça dos EUA por semana), Global Hunger Index e Índice de Democracia da EIU (licenças sem reutilização aberta confirmada).",
+  "Nesta execução, a API do INE não respondeu no teste inicial (respondeu minutos depois) e o grapher da Our World in Data continuou inacessível; nenhuma peça foi afetada."
+ ],
+ "pieces": [
+  {
+   "id": "temperatura-portugal-2026-jan-out",
+   "slug": "temperatura-portugal-janeiro-outubro-2026-mais-quente-desde-1940",
+   "kind": "atualidade",
+   "theme": "ambiente",
+   "themeLabel": "Ambiente",
+   "vizType": "colunas",
+   "vizLabel": "Colunas de desvio face à média · 87 anos",
+   "interactive": false,
+   "title": "De janeiro a outubro de 2026, Portugal teve o período mais quente desde 1940, início da série: mais 1,36 °C do que a média de 1991–2020",
+   "question": "Como se compara 2026 com os anos anteriores, até outubro, na temperatura média de Portugal?",
+   "finding": "Na reanálise ERA5 do Copernicus, a temperatura média de Portugal de janeiro a outubro de 2026 foi de 17,61 °C, 1,36 °C acima da média de 1991–2020 e a mais alta desde 1940. O recorde anterior, de 2023, ficou 0,35 °C abaixo. Os dez meses estiveram acima do normal do respetivo mês, mas só setembro bateu o próprio recorde: 23,1 °C, mais 3,08 °C do que a média.",
+   "context": "O serviço europeu Copernicus publicou a 6 de novembro os dados de outubro da reanálise ERA5, que reconstrói o tempo à superfície em todo o planeta desde 1940, combinando observações e um modelo meteorológico. A Our World in Data calcula a partir dela a média de cada país sobre o território. Faltam novembro e dezembro, por isso a comparação é feita só entre os primeiros dez meses de cada ano.",
+   "interpretation": "O recorde não dependeu de um só mês: junho foi o quinto mais quente da série, julho o sétimo e agosto só o 33.º. Somaram-se dez meses acima do normal e um setembro excecional. Os seis anos mais quentes, nestes dez meses, são todos posteriores a 2016. No mundo, nestes dez meses, 2026 é o segundo da série, depois de 2024: mais 0,64 °C.",
+   "chart": {
+    "type": "columns",
+    "dataset": "temperatura-portugal-jan-out-1940-2026"
+   },
+   "period": "1940–2026 (janeiro a outubro de cada ano)",
+   "unit": "°C (diferença para a média de 1991–2020)",
+   "sources": [
+    {
+     "name": "Copernicus Climate Change Service (C3S/ECMWF) — ERA5 monthly averaged data on single levels from 1940 to present (Hersbach et al., 2023), temperatura a 2 m, dados de 06-11-2026",
+     "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview",
+     "accessed": "2026-11-26"
+    },
+    {
+     "name": "Our World in Data — Monthly surface temperature by country (catálogo de dados, versão de 11-11-2026; cópia secundária com a média por país)",
+     "url": "https://catalog.ourworldindata.org/garden/climate/2026-11-11/surface_temperature/surface_temperature.meta.json",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "method": [
+    "Média dos dez valores mensais de janeiro a outubro de cada ano, comparada com a média dos mesmos dez meses em 1991–2020 (16,24 °C). A ERA5 é uma reanálise, não uma rede de estações: os valores podem diferir dos do IPMA, que usa as estações meteorológicas. A média do país é ponderada pela área, sobre o território definido pelas fronteiras do Banco Mundial, só em terra; o continente pesa quase tudo.",
+    "Os meses mais recentes vêm da versão preliminar (ERA5T), que pode ter pequenas revisões. O ano de 2026 está incompleto: a comparação vale só para janeiro a outubro. O desvio de cada mês (setembro: +3,08 °C) é o calculado pela Our World in Data face à média de 1991–2020 desse mês. Contém informação modificada do Copernicus Climate Change Service. Brutos em raw/temperatura-portugal-2026/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-26",
+    "note": "Valores recalculados a partir da cópia do catálogo da OWID (ERA5), sem diferenças; licença e data de publicação conferidas nos metadados. Corrigido: a frase sobre o verão (junho foi o 5.º mais quente) e a comparação mundial, limitada aos dez meses. A fonte primária (CDS do Copernicus) não foi consultada diretamente."
+   }
+  },
+  {
+   "id": "precos-agricolas-azeite-2026",
+   "slug": "precos-produtor-azeite-ovos-bovinos-2020-2026",
+   "kind": "atualidade",
+   "theme": "economia",
+   "themeLabel": "Economia",
+   "vizType": "linha",
+   "vizLabel": "Linhas · escala log ⇄ linear · cursor",
+   "interactive": true,
+   "title": "O azeite pago aos produtores chegou a valer 5,5 vezes o de 2020. Desde o pico, caiu 74%; os ovos e os bovinos duplicaram",
+   "question": "O que aconteceu aos preços que os agricultores portugueses recebem desde 2020?",
+   "finding": "Em junho de 2024, o índice de preços do azeite no produtor chegou a 547,5 (média de 2020 = 100). Em setembro de 2026 estava em 143,5: menos 73,8% do que no pico e menos 14,8% do que um ano antes. No mesmo mês, os ovos valiam 212,6 e os bovinos 205,9, mais do dobro de 2020. O conjunto dos bens agrícolas estava em 141,2.",
+   "context": "O INE publicou a 20 de novembro o índice de preços dos produtos agrícolas no produtor até setembro. Mede o que os agricultores recebem à saída da exploração ou do lagar, antes da distribuição e sem IVA. O azeite foi o caso extremo dos últimos anos, depois de duas campanhas fracas em Espanha, o maior produtor mundial, por causa da seca.",
+   "interpretation": "A descida do azeite já devolveu quase todo o choque, mas o índice continua 43,5% acima da base de 2020. A pressão passou para produtos animais: os ovos tiveram o máximo em dezembro de 2025 e os bovinos em janeiro de 2026, e ambos continuam perto do dobro. Os dados não mostram quanto destas variações chegou às prateleiras, onde os preços dependem também da distribuição.",
+   "chart": {
+    "type": "lines",
+    "dataset": "precos-agricolas-produtor-2020-2026"
+   },
+   "period": "Janeiro de 2020 a setembro de 2026 (mensal)",
+   "unit": "Índice (média de 2020 = 100)",
+   "sources": [
+    {
+     "name": "INE — Índice de preços de produtos agrícolas no produtor (Base - 2020) por produto agrícola, mensal (0014466), atualizado a 20-11-2026",
+     "url": "https://www.ine.pt/xurl/ind/0014466",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "method": [
+    "Índice de preços no produtor com base 2020 = 100, por produto: azeite (080000), ovos (122000), bovinos (111000) e conjunto dos bens agrícolas (140000), tal como publicado pelo INE, sem transformações. Os índices medem preços, não rendimentos: não incluem as quantidades vendidas nem os custos de produção.",
+    "O azeite não tem valor em outubro e novembro de cada ano (sem transações registadas entre campanhas); esses meses ficam em branco no gráfico, sem ligar os pontos. A média simples dos meses de 2020 com valor do azeite é 107,3, e não 100, porque o índice anual da base não é a média simples dos meses publicados. A causa da subida de 2023–2024 (secas em Espanha) é contexto, não é medida por estes dados. Brutos em raw/precos-agricolas/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-26",
+    "note": "Brutos idênticos à API do INE consultada no momento da verificação; todos os valores recalculados. Ajustados o título («bovinos», o produto medido pelo INE) e a nota sobre a média de 2020 do azeite."
+   }
+  },
+  {
+   "id": "fecundidade-adiamento-portugal",
+   "slug": "fecundidade-portugal-indice-sintetico-ajustado-adiamento",
+   "kind": "descoberta",
+   "theme": "sociedade",
+   "themeLabel": "Sociedade",
+   "vizType": "linha",
+   "vizLabel": "Linhas com referência · cursor",
+   "interactive": true,
+   "title": "Em 2013, a fecundidade em Portugal caiu para 1,21 filhos por mulher. Descontado o adiamento dos nascimentos, eram 1,62",
+   "question": "O mínimo de 1,21 filhos por mulher de 2013 mede quantos filhos têm, de facto, as portuguesas?",
+   "finding": "O índice sintético de fecundidade de Portugal desceu até 1,21 em 2013. Corrigido do adiamento dos nascimentos, pelo método de Bongaarts e Feeney calculado pela Human Fertility Database, o valor desse ano era 1,62. As mulheres nascidas em 1974, a geração mais recente com a vida fértil completa na base, tiveram em média 1,60 filhos. A idade média da mãe ao nascimento passou de 27,0 anos em 1984 para 31,8 em 2021.",
+   "context": "O número de filhos por mulher que se cita todos os anos é o índice sintético: soma as taxas de fecundidade de cada idade num só ano, como se uma mulher as vivesse todas. Quando as mulheres têm filhos cada vez mais tarde, esse índice baixa mesmo que, no fim, tenham tantos filhos como antes. Em Portugal está abaixo de 2,1, o nível de substituição das gerações, desde 1982.",
+   "interpretation": "Entre 1985 e 2020, o índice ajustado ficou sempre acima do índice sintético: parte da queda foi adiamento, não renúncia. Mas a fecundidade também caiu de facto: as mulheres nascidas em 1950 tiveram 2,09 filhos, as de 1974 tiveram 1,60, longe dos 2,1. Desde 2021, com a idade média estável, as duas medidas ficam próximas, entre 1,35 e 1,45.",
+   "chart": {
+    "type": "lines",
+    "dataset": "fecundidade-portugal-adiamento-1960-2024"
+   },
+   "period": "1960–2024 (índice ajustado até 2023)",
+   "unit": "Filhos por mulher",
+   "sources": [
+    {
+     "name": "Human Fertility Database — Max Planck Institute for Demographic Research e Vienna Institute of Demography, Portugal (a partir de dados do INE), dados publicados a 02-07-2026, descarregados pela OWID a 22-10-2026",
+     "url": "https://www.humanfertility.org/",
+     "accessed": "2026-11-26"
+    },
+    {
+     "name": "Our World in Data — Human Fertility Database (catálogo de dados, versão de 22-10-2026; cópia secundária)",
+     "url": "https://catalog.ourworldindata.org/garden/hmd/2026-10-22/hfd/period.meta.json",
+     "accessed": "2026-11-26"
+    },
+    {
+     "name": "Bongaarts, J. e Feeney, G. (1998), «On the quantum and tempo of fertility», Population and Development Review 24(2): 271–291",
+     "url": "https://doi.org/10.2307/2807974",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "method": [
+    "Índice sintético de fecundidade (TFR) e índice ajustado ao efeito de calendário (adjTFR) tal como calculados pela Human Fertility Database. O ajuste de Bongaarts e Feeney divide o índice de cada ordem de nascimento por um menos a variação anual da idade média da mãe nessa ordem; é uma estimativa sensível a oscilações anuais e pode ficar abaixo do índice sintético quando a idade média desce (como em 2022).",
+    "A descendência final é a média de filhos das mulheres de uma geração ao fim da vida fértil; na base, a última geração completa de Portugal é a de 1974. Os valores da HFD podem diferir ligeiramente dos publicados pelo INE (p. ex. pela população de referência). Brutos em raw/fecundidade-hfd/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-26",
+    "note": "Índices, descendência final e idade média recalculados a partir da cópia da HFD no catálogo da OWID, sem diferenças; descrição do método de Bongaarts-Feeney conferida. Corrigida a data da fonte (dados da HFD de 02-07-2026). Os dados não foram confirmados diretamente em humanfertility.org."
+   }
+  },
+  {
+   "id": "exoplanetas-descobertas-metodo",
+   "slug": "exoplanetas-confirmados-ano-metodo-1992-2025",
+   "kind": "descoberta",
+   "theme": "ciencia",
+   "themeLabel": "Ciência",
+   "vizType": "colunas",
+   "vizLabel": "Colunas empilhadas por método",
+   "interactive": false,
+   "title": "Conhecem-se mais de seis mil planetas fora do Sistema Solar. Quase três em cada quatro foram detetados ao passar em frente à sua estrela",
+   "question": "Como se encontraram os planetas que orbitam outras estrelas, e a que ritmo?",
+   "finding": "Até ao fim de 2025 foram confirmados 6 070 exoplanetas, segundo o arquivo da NASA: 73,8% pelo método do trânsito e 19,1% pela velocidade radial. Dois anos, 2014 e 2016, somam 39% do total, por causa das validações em massa dos dados do telescópio espacial Kepler. Antes de 2010, 77,1% vinham da velocidade radial; desde 2017, o ritmo anda entre 152 e 554 por ano.",
+   "context": "O primeiro planeta confirmado em torno de uma estrela semelhante ao Sol, 51 Pegasi b, foi anunciado em 1995 e valeu o Nobel da Física de 2019 a Michel Mayor e Didier Queloz. A 17 de setembro de 2025, a NASA anunciou que o seu arquivo tinha passado os seis mil planetas confirmados. Há ainda milhares de candidatos à espera de confirmação por outras observações.",
+   "interpretation": "A contagem diz mais sobre os instrumentos do que sobre a galáxia. O trânsito, que mede a pequena descida de brilho quando o planeta passa à frente da estrela, favorece planetas grandes e próximos da estrela, e os telescópios espaciais Kepler e TESS vigiaram centenas de milhares de estrelas em simultâneo. Os planetas parecidos com a Terra, pequenos e com órbitas longas, continuam a ser os mais difíceis de detetar.",
+   "chart": {
+    "type": "columns",
+    "dataset": "exoplanetas-descobertas-1992-2025"
+   },
+   "period": "1992–2025 (ano de descoberta)",
+   "unit": "Planetas confirmados por ano",
+   "sources": [
+    {
+     "name": "NASA Exoplanet Archive (NExScI/Caltech) — planetas confirmados por ano de descoberta e método, recolhido a 08-01-2026",
+     "url": "https://exoplanetarchive.ipac.caltech.edu/",
+     "accessed": "2026-11-26"
+    },
+    {
+     "name": "Our World in Data — Exoplanets (catálogo de dados, versão de 08-01-2026; cópia secundária)",
+     "url": "https://catalog.ourworldindata.org/garden/space/2026-01-08/exoplanets/exoplanets.meta.json",
+     "accessed": "2026-11-26"
+    },
+    {
+     "name": "NASA/JPL — «NASA's Tally of Planets Outside Our Solar System Reaches 6,000» (09-2025)",
+     "url": "https://www.jpl.nasa.gov/news/nasas-tally-of-planets-outside-our-solar-system-reaches-6000/",
+     "accessed": "2026-11-26"
+    },
+    {
+     "name": "Fundação Nobel — Prémio Nobel da Física de 2019 (Peebles; Mayor e Queloz)",
+     "url": "https://www.nobelprize.org/prizes/physics/2019/summary/",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "method": [
+    "Planetas confirmados no NASA Exoplanet Archive, agrupados pela Our World in Data pelo ano de descoberta e pelo método da primeira identificação: trânsito, velocidade radial, microlente gravitacional e outros (imagem direta, cronometria de pulsares e de trânsitos, astrometria, entre outros). A cópia foi recolhida a 8 de janeiro de 2026: 2025 pode estar incompleto, porque há confirmações publicadas com atraso.",
+    "Os picos de 2014 e 2016 correspondem a validações estatísticas de centenas de candidatos do Kepler publicadas de uma só vez; o ano é o da publicação da descoberta, não o da observação. Os dois planetas de 1992 são os do pulsar PSR B1257+12. Brutos em raw/exoplanetas/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-26",
+    "note": "Contagens e percentagens recalculadas a partir da cópia da OWID; data do anúncio da NASA confirmada por pesquisa. Ajustados o título («detetados») e a extensão da interpretação. O arquivo da NASA não foi consultado diretamente."
+   }
+  },
+  {
+   "id": "refugiados-regressos-2025",
+   "slug": "refugiados-regressos-pais-origem-2025-acnur",
+   "kind": "descoberta",
+   "theme": "geopolitica",
+   "themeLabel": "Geopolítica",
+   "vizType": "barras",
+   "vizLabel": "Barras · duas vistas",
+   "interactive": true,
+   "title": "Em 2025, 4,4 milhões de refugiados voltaram ao país de origem, o máximo desde 1972. Nove em cada dez eram afegãos, sírios ou sudaneses",
+   "question": "Quantos refugiados regressaram a casa em 2025, e de onde?",
+   "finding": "Segundo o ACNUR, 4 362 272 refugiados regressaram ao país de origem em 2025, 2,7 vezes os de 2024 e o valor mais alto desde 1972. O Afeganistão recebeu 1,95 milhões, a Síria 1,34 milhões e o Sudão 0,65 milhões: 90,3% do total. Mesmo assim, no fim do ano, 4,87 milhões de sírios continuavam refugiados no estrangeiro, contra 5,95 milhões no fim de 2024.",
+   "context": "A queda do regime de Bashar al-Assad, em dezembro de 2024, abriu caminho ao regresso de sírios dos países vizinhos e da Europa. Em 2025, o Irão e o Paquistão intensificaram as expulsões de afegãos. O ACNUR publica estes números todos os anos e a Our World in Data atualizou a cópia em outubro. Só 1972 teve mais regressos, com o fim da guerra de independência do Bangladesh.",
+   "interpretation": "Um regresso não é necessariamente uma solução: o próprio ACNUR avisa que os números incluem pessoas expulsas ou pressionadas a sair do país de acolhimento. A lista mostra três situações diferentes: a queda do regime na Síria, expulsões em massa para o Afeganistão e regressos ao Sudão em plena guerra civil. No fim de 2025, a Ucrânia passou a ser o país com mais refugiados no estrangeiro, 5,2 milhões, à frente da Síria.",
+   "chart": {
+    "type": "bars",
+    "dataset": "refugiados-regressos-2025"
+   },
+   "period": "2025 (série de regressos desde 1965)",
+   "unit": "Milhares de pessoas",
+   "sources": [
+    {
+     "name": "ACNUR (UNHCR) — Refugee Population Statistics Database, dados até ao fim de 2025",
+     "url": "https://www.unhcr.org/refugee-statistics/",
+     "accessed": "2026-11-26"
+    },
+    {
+     "name": "Our World in Data — Refugee Population Statistics Database (catálogo de dados, versão de 27-10-2026; cópia secundária)",
+     "url": "https://catalog.ourworldindata.org/garden/un/2026-10-27/refugee_data/refugee_data_origin.meta.json",
+     "accessed": "2026-11-26"
+    }
+   ],
+   "method": [
+    "«Refugiados regressados» são, na definição do ACNUR, antigos refugiados que voltaram ao país de origem durante o ano, de forma espontânea ou organizada, incluindo pessoas expulsas ou pressionadas a sair. Não incluem deslocados internos que regressaram a casa nem pessoas sem estatuto de refugiado (p. ex. afegãos indocumentados expulsos do Irão e do Paquistão), por isso subestimam o total de pessoas que voltaram.",
+    "O total anual soma todos os países de origem. Em 1972, 9,91 milhões de regressos, dos quais 9,80 milhões aparecem na base com a Índia como país de origem: correspondem ao regresso de quem tinha fugido para a Índia na guerra de independência do Bangladesh, em 1971. A vista «Ainda refugiados» usa o número de refugiados desse país no fim de 2025. Em 2025, o ACNUR passou a classificar cerca de um milhão de afegãos, a maioria no Irão, como «outras pessoas com necessidade de proteção internacional» e não como refugiados; parte da descida dos refugiados afegãos deve-se a essa mudança. A contagem de refugiados não inclui os venezuelanos nessa categoria nem os palestinianos sob mandato da UNRWA. Brutos em raw/refugiados-regressos/."
+   ],
+   "verification": {
+    "status": "verificada",
+    "by": "verificador independente (agente H, subagente separado)",
+    "date": "2026-11-26",
+    "note": "Regressos e refugiados recalculados a partir da cópia da OWID, sem diferenças. Corrigido: a Ucrânia só passou a primeira em 2025; acrescentada a reclassificação de cerca de um milhão de afegãos em 2025 e a exclusão dos venezuelanos e palestinianos; datas do contexto e formulação sobre a Síria. Retirada uma afirmação não confirmada sobre a origem dos regressos ao Sudão."
+   }
+  }
+ ],
+ "chave": {
+  "id": "falacia-do-planeamento",
+  "axis": "sabedoria",
+  "axisLabel": "Produtividade e sabedoria prática",
+  "certainty": "Consenso, com uma ressalva",
+  "title": "A falácia do planeamento",
+  "concept": "A tendência para prever que uma tarefa própria vai demorar menos tempo, e custar menos, do que realmente vai, mesmo sabendo que tarefas parecidas no passado se atrasaram. O nome foi proposto por Daniel Kahneman e Amos Tversky em 1979.",
+  "lesson": [
+   "Em 1994, três psicólogos canadianos pediram a estudantes finalistas que estimassem quando acabariam a tese. Em média, previram 33,9 dias. Demoraram 55,5. Só cerca de 30% terminaram dentro do prazo que tinham dado. Eram finalistas, com anos de trabalhos entregues; a previsão não falhava por falta de experiência, falhava apesar dela.",
+   "O mecanismo é o que Kahneman chamou visão de dentro. Quem planeia imagina o caminho da própria tarefa, passo a passo, e esse filme não tem doenças, avarias nem esperas. A visão de fora pergunta outra coisa: quanto costumam demorar projetos parecidos? É como prever a duração de uma viagem pelo mapa ou pelo que demoraram as últimas dez: o mapa não tem trânsito.",
+   "A ressalva está nos casos famosos. A Ópera de Sydney, orçada em 1957 em 7 milhões de dólares australianos para abrir em 1963, abriu em 1973 e custou 102 milhões. Mas parte da diferença é inflação e mudança de projeto: Flyvbjerg conta 1 400% em termos reais, um estudo que refaz as contas chega a cerca de sete vezes e meia. O otimismo explica muito, não tudo."
+  ],
+  "diagram": {
+   "title": "Previsto contra real: 33,9 dias contra 55,5",
+   "svg": "<svg viewBox=\"0 0 340 200\" role=\"img\" aria-label=\"Duas barras horizontais com os resultados de Buehler, Griffin e Ross (1994). A primeira, previsão média dos estudantes para acabar a tese: 33,9 dias. A segunda, tempo que realmente demoraram, em média: 55,5 dias, cerca de 64% mais. Por baixo, a nota: só cerca de 30% acabaram dentro do prazo que tinham previsto. Na parte de baixo, duas caixas: a visão de dentro, que imagina o caminho da própria tarefa, e a visão de fora, que pergunta quanto demoraram tarefas parecidas.\"><text x=\"10\" y=\"16\" font-size=\"11\" fill=\"var(--key-ink-2)\">Estudantes a prever quando acabam a tese (1994)</text><text x=\"10\" y=\"40\" font-size=\"10.5\" fill=\"var(--key-ink)\">Previsto</text><rect x=\"70\" y=\"30\" width=\"137\" height=\"16\" fill=\"var(--key-ink-2)\"/><text x=\"213\" y=\"42\" font-size=\"11\" font-weight=\"700\" fill=\"var(--key-ink)\">33,9 dias</text><text x=\"10\" y=\"68\" font-size=\"10.5\" fill=\"var(--key-ink)\">Real</text><rect x=\"70\" y=\"58\" width=\"137\" height=\"16\" fill=\"var(--key-ink-2)\"/><rect x=\"207\" y=\"58\" width=\"87\" height=\"16\" fill=\"var(--key-acc)\"/><text x=\"300\" y=\"70\" font-size=\"11\" font-weight=\"700\" fill=\"var(--key-ink)\">55,5</text><text x=\"10\" y=\"94\" font-size=\"10.5\" fill=\"var(--key-ink-2)\">Só cerca de 30% acabaram no prazo previsto.</text><rect x=\"10\" y=\"112\" width=\"152\" height=\"76\" rx=\"6\" fill=\"none\" stroke=\"var(--key-rule)\"/><text x=\"86\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"var(--key-ink)\">Visão de dentro</text><text x=\"86\" y=\"152\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">«Faço isto, depois</text><text x=\"86\" y=\"167\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">aquilo, e está feito.»</text><rect x=\"178\" y=\"112\" width=\"152\" height=\"76\" rx=\"6\" fill=\"rgba(200,144,42,.16)\" stroke=\"var(--key-acc)\"/><text x=\"254\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"var(--key-ink)\">Visão de fora</text><text x=\"254\" y=\"152\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">«Quanto demoraram</text><text x=\"254\" y=\"167\" text-anchor=\"middle\" font-size=\"10.5\" fill=\"var(--key-ink)\">casos parecidos?»</text></svg>",
+   "caption": "Médias do estudo 1 de Buehler, Griffin e Ross (1994), com 37 estudantes; as barras estão à escala (a parte destacada é o atraso, 21,6 dias). As caixas de baixo são um esquema conceptual."
+  },
+  "aside": "Em 1979, o mesmo ano em que Kahneman e Tversky deram nome à falácia, o cientista Douglas Hofstadter publicou «Gödel, Escher, Bach» com uma lei em tom de brincadeira: uma tarefa demora sempre mais do que se espera, mesmo quando se tem em conta a lei de Hofstadter.",
+  "application": "Aparece nas obras públicas e nos grandes eventos, nos orçamentos de remodelações em casa, nos prazos de software, nas teses e relatórios e nas listas de tarefas do dia. Bent Flyvbjerg, da Universidade de Oxford, levou a visão de fora aos megaprojetos com o método da previsão por classe de referência, que ajusta cada estimativa pelos desvios de projetos semelhantes.",
+  "motto": "O plano conhece o caminho; o passado conhece os atrasos.",
+  "sources": [
+   {
+    "name": "Buehler, R., Griffin, D. e Ross, M. (1994), «Exploring the ‘planning fallacy’: Why people underestimate their task completion times», Journal of Personality and Social Psychology 67(3): 366–381",
+    "url": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/buehler-et-al-1994.pdf",
+    "accessed": "2026-11-26"
+   },
+   {
+    "name": "Kahneman, D. e Tversky, A. (1979), «Intuitive prediction: Biases and corrective procedures», TIMS Studies in Management Science 12: 313–327 (via Wikipedia, «Planning fallacy», secundária)",
+    "url": "https://en.wikipedia.org/wiki/Planning_fallacy",
+    "accessed": "2026-11-26"
+   },
+   {
+    "name": "Flyvbjerg, B. (2006), «From Nobel Prize to project management: Getting risks right», Project Management Journal 37(3): 5–15 (resumo em PMI, «Top 50 projects: Sydney Opera House», secundária)",
+    "url": "https://www.pmi.org/learning/library/top-50-projects-sydney-opera-house-11757",
+    "accessed": "2026-11-26"
+   },
+   {
+    "name": "CIB — artigo de conferência sobre a derrapagem da Ópera de Sydney com correção da inflação (fator de cerca de 7,5)",
+    "url": "https://www.irbnet.de/daten/iconda/CIB_DC27680.pdf",
+    "accessed": "2026-11-26"
+   },
+   {
+    "name": "McGraw-Hill — «Overoptimism and cost overruns» (estimativa de 1957 de 7 milhões de dólares australianos, abertura prevista para 1963, custo final de 102 milhões em 1973)",
+    "url": "https://highered.mheducation.com/sites/dl/free/0077151569/977774/c10a_Overoptimism_and_cost_overruns.pdf",
+    "accessed": "2026-11-26"
+   }
+  ],
+  "notes": [
+   "Grau de certeza «Consenso, com uma ressalva»: a subestimação dos prazos próprios está replicada em muitos estudos e contextos desde 1994 e é aceite em psicologia e gestão de projetos; a ressalva é que os casos célebres de derrapagem misturam otimismo com inflação, alterações de projeto e incentivos para apresentar orçamentos baixos, que não são erros de previsão.",
+   "Os valores de 33,9 e 55,5 dias e de cerca de 30% são os do primeiro estudo de Buehler, Griffin e Ross (1994), tal como reproduzidos no artigo e em fontes secundárias. Os valores da Ópera de Sydney estão em dólares australianos correntes; as estimativas da derrapagem em termos reais divergem: Flyvbjerg indica 1 400%, um artigo de conferência do CIB chega a cerca de 7,5 vezes, e o resultado varia com o deflator usado."
+  ],
+  "verification": {
+   "status": "verificada",
+   "by": "verificador independente (agente H, subagente separado)",
+   "date": "2026-11-26",
+   "note": "Rotação de eixos, SVG (escala das barras conferida), extensão e voz conferidos. Corrigido: a derrapagem da Ópera de Sydney em termos reais apresenta agora as duas estimativas divergentes (Flyvbjerg, 1 400%; CIB, cerca de 7,5 vezes); retirada a afirmação de que quase todos os estudantes sabiam dos atrasos anteriores. Os valores de Buehler, Griffin e Ross (1994) foram confirmados só por fontes secundárias; o artigo original não abriu neste ambiente."
+  }
+ }
+}
