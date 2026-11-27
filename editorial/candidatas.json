@@ -106,8 +106,8 @@
    "ideia": "População dos 15 países da antiga URSS desde 1991: o Leste europeu encolheu, a Ásia Central quase duplicou",
    "fonte": "Banco Mundial SP.POP.TOTL (API)",
    "licenca": "CC BY 4.0",
-   "estado": "bloqueada",
-   "bloqueio": "2026-11-11: definições territoriais incompatíveis entre países e anos (Crimeia e territórios ocupados na Ucrânia, Transnístria, Abecásia e Ossétia do Sul); a série ucraniana cai 3,2 milhões de 2022 para 2023. Só avançar com os metadados do Banco Mundial/ONU sobre cobertura territorial de cada país.",
+   "estado": "descartada",
+   "bloqueio": "2026-11-11: definições territoriais incompatíveis entre países e anos (Crimeia e territórios ocupados na Ucrânia, Transnístria, Abecásia e Ossétia do Sul); a série ucraniana cai 3,2 milhões de 2022 para 2023. Só avançar com os metadados do Banco Mundial/ONU sobre cobertura territorial de cada país. 2026-11-27: descartada para manter a lista com 30 entradas ativas; bloqueio sem solução à vista.",
    "registada": "2026-11-11",
    "tentativas": 1
   },
@@ -119,17 +119,6 @@
    "licenca": "Eurostat: reutilização permitida com atribuição",
    "estado": "bloqueada",
    "bloqueio": "2026-11-11: seria a terceira peça «Portugal comparado com a Europa»; a origem do crude não é a rota (parte do petróleo saudita e emiradense sai sem passar em Ormuz) — precisa de uma nota metodológica cuidada.",
-   "registada": "2026-11-11",
-   "tentativas": 1
-  },
-  {
-   "id": "esperanca-vida-aos-10-anos",
-   "tema": "historia",
-   "ideia": "Mito: «no passado morria-se aos 30». Esperança de vida à nascença contra esperança de vida aos 10 anos, séculos XVIII–XX",
-   "fonte": "OWID (owid-datasets), a partir da Human Mortality Database e da ONU (WPP 2015)",
-   "licenca": "CC BY 4.0 (OWID); HMD CC BY 4.0",
-   "estado": "descartada",
-   "bloqueio": "2026-11-11: o conjunto da OWID é de 2015 e mistura fontes; faltam a série à nascença da mesma origem e o acesso direto a mortality.org. 2026-11-25: descartada para manter a lista com 30 entradas ativas; conjunto de 2015 com fontes misturadas, sem acesso a mortality.org.",
    "registada": "2026-11-11",
    "tentativas": 1
   },
@@ -195,7 +184,7 @@
    "fonte": "SNS — Portal da Transparência, conjunto utentes-inscritos-em-cuidados-de-saude-primarios (ACSS)",
    "licenca": "CC BY 4.0 por defeito (dados.gov.pt); uso autorizado pelo Pedro em 2026-11-11",
    "estado": "pronta",
-   "bloqueio": "2026-11-16: dados acessíveis; adiada porque a peça do dia usou o conjunto novo (por nacionalidade, desde julho de 2026). A série antiga termina em junho de 2026 e não é comparável com a nova (critério de elegibilidade); a peça teria de o dizer. 2026-11-24: adiada de novo (a edição já tinha uma peça de saúde, cesarianas). 2026-11-26: adiada (tema tratado a 16-11 com a série nova).",
+   "bloqueio": "2026-11-16: dados acessíveis; adiada porque a peça do dia usou o conjunto novo (por nacionalidade, desde julho de 2026). A série antiga termina em junho de 2026 e não é comparável com a nova (critério de elegibilidade); a peça teria de o dizer. 2026-11-24: adiada de novo (a edição já tinha uma peça de saúde, cesarianas). 2026-11-26: adiada (tema tratado a 16-11 com a série nova). 2026-11-27: não tentada (edição já com peça de sociedade e sem espaço para outra de Portugal).",
    "registada": "2026-11-16",
    "tentativas": 0
   },
@@ -205,8 +194,8 @@
    "ideia": "Compras online a vendedores de fora da UE (plataformas asiáticas) e a taxa sobre pequenas encomendas",
    "fonte": "Eurostat isoc_ec_ibos",
    "licenca": "Eurostat, CC BY 4.0",
-   "estado": "bloqueada",
-   "bloqueio": "2026-11-16: o conjunto só vai de 2020 a 2023; procurar um conjunto do Eurostat com 2024–2025 ou dados aduaneiros de pequenas encomendas.",
+   "estado": "descartada",
+   "bloqueio": "2026-11-16: o conjunto só vai de 2020 a 2023; procurar um conjunto do Eurostat com 2024–2025 ou dados aduaneiros de pequenas encomendas. 2026-11-27: descartada para manter a lista com 30 entradas ativas; bloqueio sem solução à vista.",
    "registada": "2026-11-16",
    "tentativas": 1
   },
@@ -349,7 +338,7 @@
    "fonte": "California Public Utilities Commission, via catálogo da OWID (garden/artificial_intelligence/2026-11-20/robotaxis/robotaxis)",
    "licenca": "Domínio público (segundo os metadados da OWID)",
    "estado": "pronta",
-   "bloqueio": "2026-11-24: dados acessíveis; adiada porque a edição já tinha uma peça dos EUA (centros de dados) e o limite é uma por semana. Precisa de ângulo europeu (testes de condução autónoma na UE) para passar o teste de relevância.",
+   "bloqueio": "2026-11-24: dados acessíveis; adiada porque a edição já tinha uma peça dos EUA (centros de dados) e o limite é uma por semana. Precisa de ângulo europeu (testes de condução autónoma na UE) para passar o teste de relevância. 2026-11-27: não tentada (a semana já teve a peça dos centros de dados nos EUA).",
    "registada": "2026-11-24",
    "tentativas": 1
   },
@@ -371,9 +360,9 @@
    "fonte": "Eurostat avia_paoc (trimestral)",
    "licenca": "CC BY 4.0",
    "estado": "bloqueada",
-   "bloqueio": "2026-11-25: o 3.º trimestre de 2026 só existia para seis países; tentar em dezembro.",
+   "bloqueio": "2026-11-25: o 3.º trimestre de 2026 só existia para seis países; tentar em dezembro. 2026-11-27: avia_paoc já tem o 3.º trimestre de 2026, mas só para Áustria, Bulgária, Chipre, Lituânia, Luxemburgo e Eslováquia; continua sem Portugal, Espanha ou a UE.",
    "registada": "2026-11-25",
-   "tentativas": 1
+   "tentativas": 2
   },
   {
    "id": "sacos-plastico-leves-ue",
@@ -418,6 +407,28 @@
    "bloqueio": "2026-11-26: dados acessíveis; adiada porque a peça de Portugal (índice ajustado) saiu hoje. Usar daqui a algumas semanas, com ângulo europeu.",
    "registada": "2026-11-26",
    "tentativas": 0
+  },
+  {
+   "id": "disparidade-salarial-idade-ue-2024",
+   "tema": "sociedade",
+   "ideia": "Disparidade salarial entre homens e mulheres por idade (Portugal e UE, 2024): a diferença cresce com a idade?",
+   "fonte": "Eurostat earn_gr_gpgr2ag (atualizado a 26-11-2026)",
+   "licenca": "Eurostat: reutilização permitida com atribuição",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-27: os valores de 2023 e 2024 são provisórios ou estimados e repetem-se em vários países (Espanha, Bélgica, Roménia: 2024 igual a 2023); a série portuguesa dos 65 ou mais anos cai de 42,8% (2014) para 6,9% (2024), sem explicação; a UE não tem agregado por idade. Esperar pelo inquérito à estrutura dos ganhos de 2026 ou confirmar nos metadados.",
+   "registada": "2026-11-27",
+   "tentativas": 1
+  },
+  {
+   "id": "populacao-continentes-onu",
+   "tema": "geopolitica",
+   "ideia": "População de África contra a da Europa desde 1950 (ONU, World Population Prospects)",
+   "fonte": "ONU, WPP 2024, via catálogo da OWID (garden/un/2024-07-12/un_wpp/population)",
+   "licenca": "CC BY 3.0 IGO",
+   "estado": "bloqueada",
+   "bloqueio": "2026-11-27: a cópia da OWID é a revisão de 2024, com estimativas só até 2023 e projeções a partir daí; procurar a revisão de 2026 (population.un.org) antes de usar como retrato do presente.",
+   "registada": "2026-11-27",
+   "tentativas": 1
   }
  ]
 }

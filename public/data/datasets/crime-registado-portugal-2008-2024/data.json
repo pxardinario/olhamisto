@@ -1,0 +1,181 @@
+{
+ "rows": [
+  {
+   "label": "Homicídio voluntário",
+   "short": "Homicídio",
+   "d16": 6.3,
+   "d08": -41.9,
+   "r24": 0.68,
+   "r08": 1.17,
+   "r16": 0.64,
+   "n24": 72
+  },
+  {
+   "label": "Ofensa física grave",
+   "short": "Ofensa grave",
+   "d16": 33.1,
+   "d08": -6.8,
+   "r24": 6.71,
+   "r08": 7.2,
+   "r16": 5.04,
+   "n24": 714
+  },
+  {
+   "label": "Rapto e sequestro",
+   "short": "Rapto",
+   "d16": 5.9,
+   "d08": -35,
+   "r24": 3.03,
+   "r08": 4.66,
+   "r16": 2.86,
+   "n24": 322
+  },
+  {
+   "label": "Violência sexual",
+   "short": "Viol. sexual",
+   "d16": 27.2,
+   "d08": 42.6,
+   "r24": 30.42,
+   "r08": 21.33,
+   "r16": 23.91,
+   "n24": 3237
+  },
+  {
+   "label": "Roubo",
+   "short": "Roubo",
+   "d16": -31.4,
+   "d08": -55.3,
+   "r24": 88.37,
+   "r08": 197.61,
+   "r16": 128.74,
+   "n24": 9402
+  },
+  {
+   "label": "Furto e roubo em casa",
+   "short": "Furto em casa",
+   "d16": -46.7,
+   "d08": -73.6,
+   "r24": 74.07,
+   "r08": 281.08,
+   "r16": 138.95,
+   "n24": 7881
+  },
+  {
+   "label": "Furto de veículos",
+   "short": "Furto de veículos",
+   "d16": -29.6,
+   "d08": -67.2,
+   "r24": 78.52,
+   "r08": 239.49,
+   "r16": 111.5,
+   "n24": 8354
+  },
+  {
+   "label": "Furto (todos)",
+   "short": "Furto (todos)",
+   "d16": -16.3,
+   "d08": -40,
+   "r24": 722.39,
+   "r08": 1202.99,
+   "r16": 863.57,
+   "n24": 76860
+  },
+  {
+   "label": "Crimes de droga",
+   "short": "Droga",
+   "d16": -3.4,
+   "d08": 51.9,
+   "r24": 53.68,
+   "r08": 35.33,
+   "r16": 55.56,
+   "n24": 5711
+  },
+  {
+   "label": "Burla e fraude",
+   "short": "Burla e fraude",
+   "d16": 126.9,
+   "d08": null,
+   "r24": 427.52,
+   "r08": null,
+   "r16": 188.39,
+   "n24": 45487
+  },
+  {
+   "label": "Crimes informáticos",
+   "short": "Informáticos",
+   "d16": 202.2,
+   "d08": null,
+   "r24": 23.42,
+   "r08": null,
+   "r16": 7.75,
+   "n24": 2492
+  },
+  {
+   "label": "Corrupção",
+   "short": "Corrupção",
+   "d16": 38.8,
+   "d08": null,
+   "r24": 2.04,
+   "r08": null,
+   "r16": 1.47,
+   "n24": 217
+  }
+ ],
+ "config": {
+  "views": [
+   {
+    "id": "d16",
+    "label": "Desde 2016",
+    "key": "d16",
+    "axisLabel": "Variação da taxa de crimes registados por 100 mil habitantes, 2016–2024 (%)",
+    "axisShort": "Variação 2016–2024 (%)"
+   },
+   {
+    "id": "d08",
+    "label": "Desde 2008",
+    "key": "d08",
+    "axisLabel": "Variação da taxa de crimes registados por 100 mil habitantes, 2008–2024 (%)",
+    "axisShort": "Variação 2008–2024 (%)"
+   }
+  ],
+  "unit": "%",
+  "decimals": 1,
+  "posLabel": "Subiu",
+  "negLabel": "Desceu",
+  "howToRead": "Cada barra é uma categoria de crime registado: quanto mudou o número de crimes registados pela polícia por 100 mil habitantes em Portugal. As barras para a direita são subidas; para a esquerda, descidas. Na vista «Desde 2008» faltam as categorias que só começaram a ser contadas em 2016. Registos policiais não são o total de crimes cometidos."
+ },
+ "summary": {
+  "homR08": 1.17,
+  "homR24": 0.68,
+  "homN24": 72,
+  "homN08": 124,
+  "homD08": -41.9,
+  "resR08": 281.08,
+  "resR24": 74.07,
+  "resD08": -73.6,
+  "resN24": 7881,
+  "resN08": 29663,
+  "robD08": -55.3,
+  "vehD08": -67.2,
+  "theftD08": -40,
+  "fraudR16": 188.39,
+  "fraudR24": 427.52,
+  "fraudD16": 126.9,
+  "fraudN24": 45487,
+  "fraudN16": 19482,
+  "fraudR23": 496.72,
+  "cyberR16": 7.75,
+  "cyberR24": 23.42,
+  "cyberD16": 202.2,
+  "cyberN24": 2492,
+  "sexD08": 42.6,
+  "sexD16": 27.2,
+  "sexN24": 3237,
+  "drugD16": -3.4,
+  "nDown16": 5,
+  "nUp16": 7,
+  "fraudVsRes24": 5.8,
+  "fraudVsRob24": 4.8,
+  "updated": "2026-11-25T23:00:00+0100"
+ }
+}

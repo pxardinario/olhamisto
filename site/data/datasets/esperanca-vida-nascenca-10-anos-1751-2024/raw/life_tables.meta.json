@@ -1,0 +1,388 @@
+{
+  "short_name": "life_tables",
+  "title": "Human Mortality Database",
+  "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "hmd",
+    "short_name": "hmd",
+    "title": "Human Mortality Database",
+    "description": "The Human Mortality Database (HMD) is a collaborative project sponsored by the University of California, Berkeley (in the United States of America) and the Max Planck Institute for Demographic Research (in Germany).\n\nIt provides researchers with comprehensive data on mortality from around 40 countries around the world, which have very high coverage and quality of data at the national level, through vital registration and potentially census data.\n\nData is given in terms of period or cohort estimates:\n\n  - **Period data** refers to a snapshot estimated with data at a particular interval. For period life expectancy at birth, this refers to the estimated life expectancy at birth based on a synthetic cohort created using mortality rates across age groups in a given year.\n  - **Cohort data** refers to estimates of a particular birth cohort. For cohort life expectancy at birth, this refers to the average number of years that people in the birth cohort survived. Cohort data may use birth cohorts that are \u2018almost extinct\u2019 rather than entirely extinct.\n\n'Interval' refers to the specific age- and time- period of the estimate. An interval can be a one year period for a single-age group, or it can be wider. For example, the life expectancy of a 40 year old in 2019 corresponds to an interval of 1 single-age group in 1 year. The central death rate of 5\u20139 year olds in 2020 corresponds to an interval of a 5 year age group in 1 year.",
+    "is_public": true,
+    "version": "2025-10-22",
+    "update_period_days": 365,
+    "non_redistributable": false,
+    "jsonld": false,
+    "owners": [
+      "Lucas Rod\u00e9s-Guirao"
+    ],
+    "source_checksum": "d4c4889964934e87e23dab823cda2e1d"
+  },
+  "primary_key": [
+    "country",
+    "year",
+    "sex",
+    "age",
+    "type"
+  ],
+  "dimensions": [
+    {
+      "name": "country",
+      "slug": "country"
+    },
+    {
+      "name": "year",
+      "slug": "year"
+    },
+    {
+      "name": "sex",
+      "slug": "sex"
+    },
+    {
+      "name": "age",
+      "slug": "age"
+    },
+    {
+      "name": "type",
+      "slug": "type"
+    }
+  ],
+  "fields": {
+    "country": {
+      "title": "PopName",
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ]
+    },
+    "year": {
+      "title": "Year",
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ]
+    },
+    "sex": {},
+    "age": {
+      "title": "Age",
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ]
+    },
+    "type": {},
+    "central_death_rate": {
+      "title": "Central death rate",
+      "description_short": "Death rate, calculated as the number of deaths divided by the average number of people alive during the interval.",
+      "description_key": [
+        "The death rate is measured using the number of person-years lived during the interval.",
+        "Person-years refers to the combined total time that a group of people has lived. For example, if 10 people each live for 2 years, they collectively contribute 20 person-years.",
+        "The death rate is slightly different from the 'probability of death' during the interval, because the 'probability of death' metric uses a different denominator: the number of people alive at that age at the start of the interval, while this indicator uses the average number of people alive during the interval."
+      ],
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "deaths per 1,000 people",
+      "display": {
+        "name": "Central death rate at << 'birth' if (age == '0') else age >><< ', ' + sex + 's' if (sex != 'total') >>, << type >>"
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "title_public": "Central death rate <% if age != 'total' %>at << age if age != '0' else 'birth'>><% endif %>",
+        "title_variant": "<< sex + 's, ' if sex != 'total' >><< type + ' tables'>>",
+        "attribution_short": "HMD",
+        "topic_tags": [
+          "Life Expectancy"
+        ]
+      },
+      "description_processing": "The original metric is given as a fraction between 0 and 1 (i.e. per-capita). We multiply this by 1,000 to get a per-1,000 people rate."
+    },
+    "probability_of_death": {
+      "title": "Probability of death",
+      "description_short": "Probability of dying in a given interval, among people who survived to the start of that interval.",
+      "description_key": [
+        "For example, the probability of death for a 50 year old in a given year is found by: dividing the number of deaths in 50 year olds that year, by the number of people alive at the age of 50 at the start of the year."
+      ],
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "%",
+      "display": {
+        "name": "Probability of death at << 'birth' if (age == '0') else age >><< ', ' + sex + 's' if (sex != 'total') >>, << type >>"
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "title_public": "Probability of death <% if age != 'total' %>at << age if age != '0' else 'birth'>><% endif %>",
+        "title_variant": "<< sex + 's, ' if sex != 'total' >><< type + ' tables'>>",
+        "attribution_short": "HMD",
+        "topic_tags": [
+          "Life Expectancy"
+        ]
+      },
+      "description_processing": "The original metric is given as a fraction between 0 and 1 (i.e. per-capita). We multiply this by 100 to get a percentage."
+    },
+    "average_survival_length": {
+      "title": "Average survival length",
+      "description_short": "Average length of survival between ages x and x+n for persons dying in the interval.",
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "years",
+      "short_unit": "years",
+      "display": {
+        "name": "Average survival length at << 'birth' if (age == '0') else age >><< ', ' + sex + 's' if (sex != 'total') >>, << type >>"
+      },
+      "presentation": {
+        "title_public": "Average survival length <% if age != 'total' %>at << age if age != '0' else 'birth'>><% endif %>",
+        "title_variant": "<< sex + 's, ' if sex != 'total' >><< type + ' tables'>>",
+        "attribution_short": "HMD",
+        "topic_tags": [
+          "Life Expectancy"
+        ]
+      }
+    },
+    "number_survivors": {
+      "title": "Number of survivors",
+      "description_short": "Number of survivors at a given age, assuming survivors at 0 years old is 100,000.",
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "survivors",
+      "display": {
+        "name": "Number of survivors at << 'birth' if (age == '0') else age >><< ', ' + sex + 's' if (sex != 'total') >>, << type >>"
+      },
+      "presentation": {
+        "title_public": "Number of survivors <% if age != 'total' %>at << age if age != '0' else 'birth'>><% endif %>",
+        "title_variant": "<< sex + 's, ' if sex != 'total' >><< type + ' tables'>>",
+        "attribution_short": "HMD",
+        "topic_tags": [
+          "Life Expectancy"
+        ]
+      }
+    },
+    "number_deaths": {
+      "title": "Number of deaths",
+      "description_short": "Number of deaths between ages x and x+n.",
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "deaths",
+      "short_unit": "deaths",
+      "display": {
+        "name": "Number of deaths at << 'birth' if (age == '0') else age >><< ', ' + sex + 's' if (sex != 'total') >>, << type >>"
+      },
+      "presentation": {
+        "title_public": "Number of deaths <% if age != 'total' %>at << age if age != '0' else 'birth'>><% endif %>",
+        "title_variant": "<< sex + 's, ' if sex != 'total' >><< type + ' tables'>>",
+        "attribution_short": "HMD",
+        "topic_tags": [
+          "Life Expectancy"
+        ]
+      }
+    },
+    "number_person_years_lived": {
+      "title": "Number of person-years lived",
+      "description_short": "Number of person-years lived between ages x and x+n.",
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "person-years",
+      "display": {
+        "name": "Number of person-years lived at << 'birth' if (age == '0') else age >><< ', ' + sex + 's' if (sex != 'total') >>, << type >>"
+      },
+      "presentation": {
+        "title_public": "Number of person-years lived <% if age != 'total' %>at << age if age != '0' else 'birth'>><% endif %>",
+        "title_variant": "<< sex + 's, ' if sex != 'total' >><< type + ' tables'>>",
+        "attribution_short": "HMD",
+        "topic_tags": [
+          "Life Expectancy"
+        ]
+      }
+    },
+    "number_person_years_remaining": {
+      "title": "Number of person-years remaining",
+      "description_short": "Number of person-years remaining after a given age.",
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "person-years",
+      "display": {
+        "name": "Number of person-years remaining at << 'birth' if (age == '0') else age >><< ', ' + sex + 's' if (sex != 'total') >>, << type >>"
+      },
+      "presentation": {
+        "title_public": "Number of person-years remaining <% if age != 'total' %>at << age if age != '0' else 'birth'>><% endif %>",
+        "title_variant": "<< sex + 's, ' if sex != 'total' >><< type + ' tables'>>",
+        "attribution_short": "HMD",
+        "topic_tags": [
+          "Life Expectancy"
+        ]
+      }
+    },
+    "life_expectancy": {
+      "title": "Life expectancy",
+      "description_short": "<%- if age == '0' -%>\n<%- if sex == 'total' -%>\n<< type | capitalize >> life expectancy at birth, in a given year.\n<%- else -%>\n<< type | capitalize >> life expectancy at birth among << sex + 's' >>, in a given year.\n<%- endif -%>\n<%- else -%>\n<%- if sex == 'total' -%>\nRemaining << type >> life expectancy at age << age >>, in a given year.\n<%- else -%>\nRemaining << type >> life expectancy at age << age >> among << sex + 's' >>, in a given year.\n<%- endif -%>\n<%- endif -%>",
+      "description_key": [
+        "<%- if type == \"period\" -%>\nPeriod life expectancy is a metric that summarizes death rates across all age groups in one particular year.\n<%- else -%>\nCohort life expectancy is the average lifespan of a group of people, usually a birth cohort \u2013 people born in the same year.\n<%- endif -%>",
+        "<%- if type == \"period\" -%>\n<%- if age == '0' -%>\nFor a given year, it represents the average lifespan for a hypothetical group of people, if they experienced the same age-specific death rates throughout their whole lives as the age-specific death rates seen in that particular year.\n<%- else -%>\nFor a given year, it represents the remaining average lifespan for a hypothetical group of people, if they experienced the same age-specific death rates throughout the rest of their lives as the age-specific death rates seen in that particular year.\n<%- endif -%>\n<%- else -%>\n<%- if age == '0' -%>\nIt is calculated by tracking individuals from that cohort throughout their lives until death, and calculating their average lifespan.\n<%- else -%>\nIt is calculated by tracking individuals from that cohort throughout the rest of their lives until death, and calculating their average remaining lifespan.\n<%- endif -%>\n<%- endif -%>",
+        "<%- if age != '0' -%>\n<%- if type == \"period\" -%>\nThis shows the remaining period life expectancy among people who have already reached the age << age >>, using death rates from their age group and older age groups.\n<%- else -%>\nThis shows the remaining cohort life expectancy of people who have reached the age << age >>.\n<%- endif -%>\n<%- endif -%>"
+      ],
+      "origins": [
+        {
+          "producer": "Human Mortality Database",
+          "title": "Human Mortality Database",
+          "description": "The Human Mortality Database (HMD) is a research resource that provides detailed mortality and population data for national populations with high-quality vital statistics. It includes original calculations of death rates and life tables, as well as the underlying data \u2014 such as birth counts, death counts, and census-based population estimates \u2014 used to produce these metrics.\n\nIts scope is limited to countries with virtually complete death registration and census coverage, mostly wealthy and industrialized nations. The database\u2019s core mission is to document the historical rise in human longevity and support research into its causes and implications. HMD follows a rigorous, uniform methodology focused on transparency, reproducibility, and comparability, while acknowledging limitations such as age misreporting and data coverage issues.\n\nEach country\u2019s dataset is curated and quality-checked by dedicated researchers, ensuring reliability for demographic and public health analysis.",
+          "citation_full": "HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org.\n\nSee also the methods protocol:\nWilmoth, J. R., Andreev, K., Jdanov, D., Glei, D. A., Riffe, T., Boe, C., Bubenheim, M., Philipov, D., Shkolnikov, V., Vachon, P., Winant, C., & Barbieri, M. (2021). Methods protocol for the human mortality database (v6). [Available online](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf) (needs log in to mortality.org).",
+          "attribution_short": "HMD",
+          "url_main": "https://www.mortality.org/Data/ZippedDataFiles",
+          "date_accessed": "2025-10-22",
+          "date_published": "2025-09-25",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://www.mortality.org/Data/UserAgreement"
+          }
+        }
+      ],
+      "unit": "years",
+      "short_unit": "years",
+      "display": {
+        "numDecimalPlaces": 1,
+        "name": "Life expectancy at << 'birth' if (age == '0') else age >><< ', ' + sex + 's' if (sex != 'total') >>, << type >>"
+      },
+      "presentation": {
+        "title_public": "Life expectancy <% if age != 'total' %>at << age if age != '0' else 'birth'>><% endif %>",
+        "title_variant": "<< sex + 's, ' if sex != 'total' >><< type + ' tables'>>",
+        "attribution_short": "HMD",
+        "topic_tags": [
+          "Life Expectancy"
+        ]
+      }
+    }
+  }
+}

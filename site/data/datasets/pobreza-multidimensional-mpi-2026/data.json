@@ -1,0 +1,223 @@
+{
+ "rows": [
+  {
+   "label": "Índia (2005→2019)",
+   "short": "Índia",
+   "a": 55.1,
+   "b": 16.4
+  },
+  {
+   "label": "Bangladexe (2014→2022)",
+   "short": "Bangladexe",
+   "a": 30.5,
+   "b": 11.5
+  },
+  {
+   "label": "Nigéria (2013→2024)",
+   "short": "Nigéria",
+   "a": 42.3,
+   "b": 38.7
+  },
+  {
+   "label": "Paquistão (2012→2017)",
+   "short": "Paquistão",
+   "a": 44.5,
+   "b": 38.3
+  },
+  {
+   "label": "Etiópia (2011→2019)",
+   "short": "Etiópia",
+   "a": 83.5,
+   "b": 68.8
+  },
+  {
+   "label": "RD Congo (2007→2023)",
+   "short": "RD Congo",
+   "a": 76.7,
+   "b": 62.4
+  },
+  {
+   "label": "Tanzânia (2004→2022)",
+   "short": "Tanzânia",
+   "a": 73.6,
+   "b": 44.9
+  },
+  {
+   "label": "Quénia (2008→2022)",
+   "short": "Quénia",
+   "a": 50.1,
+   "b": 23
+  },
+  {
+   "label": "Angola (2015→2023)",
+   "short": "Angola",
+   "a": 51.8,
+   "b": 45.5
+  },
+  {
+   "label": "Moçambique (2003→2022)",
+   "short": "Moçambique",
+   "a": 83.9,
+   "b": 59.9
+  },
+  {
+   "label": "São Tomé e Príncipe (2008→2019)",
+   "short": "São Tomé e Príncipe",
+   "a": 40.7,
+   "b": 11.6
+  },
+  {
+   "label": "Guiné-Bissau (2014→2018)",
+   "short": "Guiné-Bissau",
+   "a": 66,
+   "b": 64.4
+  },
+  {
+   "label": "Timor-Leste (2009→2016)",
+   "short": "Timor-Leste",
+   "a": 69.6,
+   "b": 46.9
+  },
+  {
+   "label": "Afeganistão (2015→2022)",
+   "short": "Afeganistão",
+   "a": 46.9,
+   "b": 52.2
+  },
+  {
+   "label": "Rep. Centro-Africana (2010→2018)",
+   "short": "Rep. Centro-Africana",
+   "a": 78.8,
+   "b": 84.1
+  },
+  {
+   "label": "Chade (2010→2019)",
+   "short": "Chade",
+   "a": 89.8,
+   "b": 87.1
+  },
+  {
+   "label": "Níger (2006→2012)",
+   "short": "Níger",
+   "a": 92.9,
+   "b": 89.9
+  }
+ ],
+ "config": {
+  "aLabel": "Primeiro inquérito",
+  "bLabel": "Último inquérito",
+  "unit": "%",
+  "decimals": 1,
+  "domain": [
+   0,
+   100
+  ],
+  "itemLabel": "país",
+  "labelWidth": 200,
+  "labelWidthNarrow": 126,
+  "sorts": [
+   [
+    "b",
+    "Último inquérito"
+   ],
+   [
+    "delta",
+    "Variação"
+   ]
+  ],
+  "howToRead": "Cada linha é um país, com os anos do primeiro e do último inquérito entre parênteses. O ponto cinzento é a percentagem da população em pobreza multidimensional no primeiro inquérito; o azul, no último. Os períodos diferem de país para país; os valores servem para ver a mudança dentro de cada país, mais do que para comparar países."
+ },
+ "summary": {
+  "nCountries": 89,
+  "nDown": 86,
+  "nUp": 3,
+  "up": [
+   "Afghanistan",
+   "Central African Republic",
+   "Montenegro"
+  ],
+  "ind": {
+   "y0": 2005,
+   "h0": 55.1,
+   "y1": 2019,
+   "h1": 16.4
+  },
+  "moz": {
+   "y0": 2003,
+   "h0": 83.9,
+   "y1": 2022,
+   "h1": 59.9
+  },
+  "ago": {
+   "y0": 2015,
+   "h0": 51.8,
+   "y1": 2023,
+   "h1": 45.5
+  },
+  "stp": {
+   "y0": 2008,
+   "h0": 40.7,
+   "y1": 2019,
+   "h1": 11.6
+  },
+  "gnb": {
+   "y0": 2014,
+   "h0": 66,
+   "y1": 2018,
+   "h1": 64.4
+  },
+  "tls": {
+   "y0": 2009,
+   "h0": 69.6,
+   "y1": 2016,
+   "h1": 46.9
+  },
+  "afg": {
+   "y0": 2015,
+   "h0": 46.9,
+   "y1": 2022,
+   "h1": 52.2
+  },
+  "caf": {
+   "y0": 2010,
+   "h0": 78.8,
+   "y1": 2018,
+   "h1": 84.1
+  },
+  "nga": {
+   "y0": 2013,
+   "h0": 42.3,
+   "y1": 2024,
+   "h1": 38.7
+  },
+  "eth": {
+   "y0": 2011,
+   "h0": 83.5,
+   "y1": 2019,
+   "h1": 68.8
+  },
+  "cod": {
+   "y0": 2007,
+   "h0": 76.7,
+   "y1": 2023,
+   "h1": 62.4
+  },
+  "bgd": {
+   "y0": 2014,
+   "h0": 30.5,
+   "y1": 2022,
+   "h1": 11.5
+  },
+  "pak": {
+   "y0": 2012,
+   "h0": 44.5,
+   "y1": 2017,
+   "h1": 38.3
+  },
+  "biggestFall": "India",
+  "over50last": 20,
+  "spanMin": 4,
+  "spanMax": 20,
+  "nPre2020": 49
+ }
+}

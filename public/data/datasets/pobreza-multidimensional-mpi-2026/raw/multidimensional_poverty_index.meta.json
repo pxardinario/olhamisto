@@ -1,0 +1,841 @@
+{
+  "short_name": "multidimensional_poverty_index",
+  "title": "Global Multidimensional Poverty Index (MPI)",
+  "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+  "dataset": {
+    "channel": "garden",
+    "namespace": "ophi",
+    "short_name": "multidimensional_poverty_index",
+    "title": "Global Multidimensional Poverty Index (MPI)",
+    "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+    "is_public": true,
+    "version": "2026-11-04",
+    "update_period_days": 365,
+    "non_redistributable": false,
+    "jsonld": false,
+    "owners": [
+      "Pablo Arriagada"
+    ],
+    "changelog": [
+      {
+        "date": "2026-11-04",
+        "changes": [
+          "Updated to the 2026 global MPI, with new surveys for 13 countries.",
+          "Namibia is no longer included, because OPHI now excludes surveys from 2013 or earlier.",
+          "The harmonized trends for Nepal now start in 2014."
+        ]
+      }
+    ],
+    "source_checksum": "1ecfec939aacbf5ddefaf27db70c4aa3"
+  },
+  "primary_key": [
+    "country",
+    "year",
+    "indicator",
+    "area",
+    "flavor"
+  ],
+  "dimensions": [
+    {
+      "name": "country",
+      "slug": "country"
+    },
+    {
+      "name": "year",
+      "slug": "year"
+    },
+    {
+      "name": "indicator",
+      "slug": "indicator"
+    },
+    {
+      "name": "area",
+      "slug": "area"
+    },
+    {
+      "name": "flavor",
+      "slug": "flavor"
+    }
+  ],
+  "fields": {
+    "country": {
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ]
+    },
+    "year": {
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ]
+    },
+    "indicator": {
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ]
+    },
+    "area": {
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ]
+    },
+    "flavor": {},
+    "intensity": {
+      "title": "Intensity of multidimensional poverty (<<area>>) - <<flavor>>",
+      "description_short": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. The intensity is the share of weighted indicators in which people in multidimensional poverty are deprived on average.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%>",
+      "description_from_producer": "The global MPI is a measure of acute poverty covering over 100 countries in the developing regions of the world. This measure is based on the dual cutoff counting approach to poverty measurement developed by Alkire and Foster (2011). The global MPI was developed in 2010 by Alkire and Santos (2010; 2014) in collaboration with the United Nations Development Programme\u2019s (UNDP) Human Development Report Office (HDRO). Since its inception, the global MPI has used information from 10 indicators, grouped into three equally weighted dimensions: health, education and living standards. These dimensions are the same as those used in the UNDP\u2019s Human Development Index.\n\nThe first major revision of the global MPI was undertaken in 2018, considering improvements in survey microdata and to better align with the 2030 Agenda for Sustainable Development insofar as possible (Alkire and Jahan, 2018; OPHI, 2018; Alkire and Kanagaratnam, 2021). The revision adjusted the definitions of five of the ten indicators: child mortality, nutrition, years of schooling, housing and assets. The normative and empirical decisions that underlie the revision of the global MPI, and adjustments related to the child mortality, nutrition, years of schooling and housing indicators, are discussed in Alkire and Kanagaratnam (2021). Alkire et al. (2022) provide a comprehensive analysis of the consequences of the 2018 revision. The revision of the assets indicator is detailed in Vollmer and Alkire (2022).\n\nThe global MPI begins by establishing a deprivation profile for each person, showing in which of the 10 indicators they are deprived. Each person is identified as deprived or non-deprived in each indicator based on its respective deprivation cutoff. In the case of health and education, each household member may be identified as deprived or not deprived according to the information available for other household members. For example, if any household member for whom data exist is undernourished, each person in that household is considered deprived in nutrition. Taking this approach \u2013 which was required by the data \u2013 does not reveal intrahousehold disparities, but is intuitive and assumes shared positive (or negative) effects of achieving (or not achieving) certain outcomes. Next, looking across indicators, each person\u2019s deprivation score is constructed by adding up the weights of the indicators in which they are deprived. The indicators use a nested weight structure: equal weights across dimensions and an equal weight for each indicator within a dimension. The indicator weight structure of the global MPI means that the living standards indicators receive lower weight than health and education-related indicators because, from a policy perspective, each of the three dimensions is of roughly equal normative importance.\n\nIn the global MPI, a person is identified as multidimensionally poor (MPI poor) if they are deprived in at least one-third of the weighted MPI indicators. In other words, a person is MPI poor if their deprivation score is equal to or higher than the poverty cutoff of 33.33%. After the poverty identification step, we aggregate across individuals to obtain the incidence of poverty, or headcount ratio (H), which represents the percentage of poor people in the population. We then compute the intensity of poverty (A), representing the average deprivation score, or the average percentage of weighted deprivations, experienced by poor people. We compute the adjusted poverty headcount ratio (M0) or the MPI by multiplying together H and A (MPI = H x A).\n\nBoth the incidence and the intensity of multidimensional poverty are highly relevant pieces of information for poverty measurement. The incidence of poverty is intuitive and understandable by anyone. People want to know how many poor people there are in a society as a proportion of the whole population, and the media tend to pick up on the incidence of poverty. Yet, the proportion of poor people as a headline figure is not enough (Alkire, Oldiges and Kanagaratnam, 2021).\n\nA headcount ratio is also estimated using two other poverty cutoffs. The global MPI identifies individuals as vulnerable to poverty if they are not poor but are close to the poverty threshold; that is, if they are deprived in 20% to 33.32% of weighted indicators. The method also applies a higher poverty cutoff to identify individuals in severe poverty, meaning those deprived in 50% or more of the dimensions.\n\nThe Alkire-Foster method has a property that makes the global MPI even more useful \u2013 dimensional breakdown. This property makes it possible to consistently compute the percentage of the population who are multidimensionally poor and simultaneously deprived in an indicator. This is known as the censored headcount ratio of an indicator. While above we described MPI to be the product of H x A, the MPI can equivalently be computed as the weighted sum of the censored headcount ratios of all MPI indicators.\n\nThe censored headcount ratio shows the extent of deprivations among poor people but does not reflect the weights or relative values of the indicators. Two indicators may have the same censored headcount ratios but different contributions to overall poverty, as the contribution depends both on the censored headcount ratio and on the weight assigned to each indicator. As such, a complementary analysis to the censored headcount ratio is the percentage contribution of each indicator to overall multidimensional poverty.",
+      "description_key": [
+        "Being in multidimensional poverty means that a person lives in a household deprived in a third or more of ten weighted indicators, grouped into three dimensions of well-being: **health** (using two indicators: nutrition, child mortality), **education** (using two indicators: years of schooling, school attendance), and **living standards** (using six indicators: cooking fuel, sanitation, drinking water, electricity, housing, assets).",
+        "Each household is assessed against specific thresholds for these indicators. For example, a household is considered deprived in the _electricity_ indicator if it does not have access to it. [This article](https://ourworldindata.org/multidimensional-poverty-index) discusses specific thresholds in more detail.",
+        "The intensity of multidimensional poverty is calculated as the average share of weighted indicators in which those counted as MPI poor are deprived.",
+        "Each indicator contributes to one of the three dimensions of well-being. Health and education indicators are weighted more (1/6 each) than living standards indicators (1/18 each) so that all three dimensions contribute equally to the overall measure.",
+        "<% set cme_link = \"https://ourworldindata.org/grapher/intensity-of-multidimensional-poverty\" %> <% set hot_link = \"https://ourworldindata.org/grapher/intensity-of-multidimensional-poverty-hot\" %><% if flavor == \"Current margin estimate\" %>\nThis indicator is a current margin estimate (CME), meaning that it relies on the most recent survey data available for each country.<% if flavor == \"Current margin estimate\" and area == \"National\" %>\n Look for the [harmonized over time (HOT) estimate](<<hot_link>>) to see trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\n Look for the [current margin estimate (CME)](<<cme_link>>) to see the most recent survey data.\n<%- endif -%>\n<% elif flavor == \"Harmonized over time\" %>\nThis indicator is a harmonized over time (HOT) estimate. This harmonization seeks to make two or more MPI estimates comparable by aligning the indicator definitions in each survey. To make surveys comparable, OPHI sometimes drops or narrows indicators, so a harmonized estimate can differ from the current margin estimate for the same survey, and it is less comparable across countries.<% if flavor == \"Current margin estimate\" and area == \"National\" %>\n Look for the [harmonized over time (HOT) estimate](<<hot_link>>) to see trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\n Look for the [current margin estimate (CME)](<<cme_link>>) to see the most recent survey data.\n<%- endif -%>\n<%- endif -%>"
+      ],
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ],
+      "unit": "%",
+      "short_unit": "%",
+      "display": {
+        "tolerance": 10,
+        "name": "Intensity of multidimensional poverty",
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "title": "Intensity of multidimensional poverty",
+          "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. The intensity is the share of weighted indicators in which people in multidimensional poverty are deprived on average.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%><% if flavor == \"Current margin estimate\" %>\n Estimates based on the most recent household survey data.\n<%- endif -%>",
+          "note": "<%- set cme_link = \"https://ourworldindata.org/grapher/intensity-of-multidimensional-poverty\" -%><%- set hot_link = \"https://ourworldindata.org/grapher/intensity-of-multidimensional-poverty-hot\" -%><% if flavor == \"Current margin estimate\" and area == \"National\" %>\nA [separate dataset](<<hot_link>>) is produced to monitor trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\nThis data aims to provide estimates that are comparable over time within individual countries. A [separate dataset](<<cme_link>>) provides more complete data of the latest estimates for international comparisons.\n<%- endif -%>"
+        },
+        "title_public": "Intensity of multidimensional poverty",
+        "title_variant": "<%- if flavor == \"Current margin estimate\" -%>\nMost recent year\n<%- elif flavor == \"Harmonized over time\" -%>\nHarmonized over time\n<%- endif -%><%- if area == \"Urban\" -%>\n, Urban area\n<%- elif area == \"Rural\" -%>\n, Rural area\n<%- elif area == \"Camp\" -%>\n, Refugee camps\n<%- endif -%>",
+        "attribution_short": "OPHI",
+        "topic_tags": [
+          "Poverty"
+        ],
+        "faqs": [
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-definition"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-sources"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-indicators-unavailable"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-comparability"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-other-sources"
+          }
+        ]
+      },
+      "description_processing": "Some surveys run over two or more calendar years, such as 2023\u20132024. We show each of these surveys in the first year of that period."
+    },
+    "headcount_ratio": {
+      "title": "Share of population living in multidimensional poverty (<<area>>) - <<flavor>>",
+      "description_short": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. This is the share of the population that is multidimensionally poor.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%>",
+      "description_from_producer": "The global MPI is a measure of acute poverty covering over 100 countries in the developing regions of the world. This measure is based on the dual cutoff counting approach to poverty measurement developed by Alkire and Foster (2011). The global MPI was developed in 2010 by Alkire and Santos (2010; 2014) in collaboration with the United Nations Development Programme\u2019s (UNDP) Human Development Report Office (HDRO). Since its inception, the global MPI has used information from 10 indicators, grouped into three equally weighted dimensions: health, education and living standards. These dimensions are the same as those used in the UNDP\u2019s Human Development Index.\n\nThe first major revision of the global MPI was undertaken in 2018, considering improvements in survey microdata and to better align with the 2030 Agenda for Sustainable Development insofar as possible (Alkire and Jahan, 2018; OPHI, 2018; Alkire and Kanagaratnam, 2021). The revision adjusted the definitions of five of the ten indicators: child mortality, nutrition, years of schooling, housing and assets. The normative and empirical decisions that underlie the revision of the global MPI, and adjustments related to the child mortality, nutrition, years of schooling and housing indicators, are discussed in Alkire and Kanagaratnam (2021). Alkire et al. (2022) provide a comprehensive analysis of the consequences of the 2018 revision. The revision of the assets indicator is detailed in Vollmer and Alkire (2022).\n\nThe global MPI begins by establishing a deprivation profile for each person, showing in which of the 10 indicators they are deprived. Each person is identified as deprived or non-deprived in each indicator based on its respective deprivation cutoff. In the case of health and education, each household member may be identified as deprived or not deprived according to the information available for other household members. For example, if any household member for whom data exist is undernourished, each person in that household is considered deprived in nutrition. Taking this approach \u2013 which was required by the data \u2013 does not reveal intrahousehold disparities, but is intuitive and assumes shared positive (or negative) effects of achieving (or not achieving) certain outcomes. Next, looking across indicators, each person\u2019s deprivation score is constructed by adding up the weights of the indicators in which they are deprived. The indicators use a nested weight structure: equal weights across dimensions and an equal weight for each indicator within a dimension. The indicator weight structure of the global MPI means that the living standards indicators receive lower weight than health and education-related indicators because, from a policy perspective, each of the three dimensions is of roughly equal normative importance.\n\nIn the global MPI, a person is identified as multidimensionally poor (MPI poor) if they are deprived in at least one-third of the weighted MPI indicators. In other words, a person is MPI poor if their deprivation score is equal to or higher than the poverty cutoff of 33.33%. After the poverty identification step, we aggregate across individuals to obtain the incidence of poverty, or headcount ratio (H), which represents the percentage of poor people in the population. We then compute the intensity of poverty (A), representing the average deprivation score, or the average percentage of weighted deprivations, experienced by poor people. We compute the adjusted poverty headcount ratio (M0) or the MPI by multiplying together H and A (MPI = H x A).\n\nBoth the incidence and the intensity of multidimensional poverty are highly relevant pieces of information for poverty measurement. The incidence of poverty is intuitive and understandable by anyone. People want to know how many poor people there are in a society as a proportion of the whole population, and the media tend to pick up on the incidence of poverty. Yet, the proportion of poor people as a headline figure is not enough (Alkire, Oldiges and Kanagaratnam, 2021).\n\nA headcount ratio is also estimated using two other poverty cutoffs. The global MPI identifies individuals as vulnerable to poverty if they are not poor but are close to the poverty threshold; that is, if they are deprived in 20% to 33.32% of weighted indicators. The method also applies a higher poverty cutoff to identify individuals in severe poverty, meaning those deprived in 50% or more of the dimensions.\n\nThe Alkire-Foster method has a property that makes the global MPI even more useful \u2013 dimensional breakdown. This property makes it possible to consistently compute the percentage of the population who are multidimensionally poor and simultaneously deprived in an indicator. This is known as the censored headcount ratio of an indicator. While above we described MPI to be the product of H x A, the MPI can equivalently be computed as the weighted sum of the censored headcount ratios of all MPI indicators.\n\nThe censored headcount ratio shows the extent of deprivations among poor people but does not reflect the weights or relative values of the indicators. Two indicators may have the same censored headcount ratios but different contributions to overall poverty, as the contribution depends both on the censored headcount ratio and on the weight assigned to each indicator. As such, a complementary analysis to the censored headcount ratio is the percentage contribution of each indicator to overall multidimensional poverty.",
+      "description_key": [
+        "Being in multidimensional poverty means that a person lives in a household deprived in a third or more of ten weighted indicators, grouped into three dimensions of well-being: **health** (using two indicators: nutrition, child mortality), **education** (using two indicators: years of schooling, school attendance), and **living standards** (using six indicators: cooking fuel, sanitation, drinking water, electricity, housing, assets).",
+        "Each household is assessed against specific thresholds for these indicators. For example, a household is considered deprived in the _electricity_ indicator if it does not have access to it. [This article](https://ourworldindata.org/multidimensional-poverty-index) discusses specific thresholds in more detail.",
+        "Each indicator contributes to one of the three dimensions of well-being. Health and education indicators are weighted more (1/6 each) than living standards indicators (1/18 each) so that all three dimensions contribute equally to the overall measure.",
+        "<% set cme_link = \"https://ourworldindata.org/grapher/share-multi-poverty\" %> <% set hot_link = \"https://ourworldindata.org/grapher/share-of-population-multidimensionally-poor-hot\" %><% if flavor == \"Current margin estimate\" %>\nThis indicator is a current margin estimate (CME), meaning that it relies on the most recent survey data available for each country.<% if flavor == \"Current margin estimate\" and area == \"National\" %>\n Look for the [harmonized over time (HOT) estimate](<<hot_link>>) to see trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\n Look for the [current margin estimate (CME)](<<cme_link>>) to see the most recent survey data.\n<%- endif -%>\n<% elif flavor == \"Harmonized over time\" %>\nThis indicator is a harmonized over time (HOT) estimate. This harmonization seeks to make two or more MPI estimates comparable by aligning the indicator definitions in each survey. To make surveys comparable, OPHI sometimes drops or narrows indicators, so a harmonized estimate can differ from the current margin estimate for the same survey, and it is less comparable across countries.<% if flavor == \"Current margin estimate\" and area == \"National\" %>\n Look for the [harmonized over time (HOT) estimate](<<hot_link>>) to see trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\n Look for the [current margin estimate (CME)](<<cme_link>>) to see the most recent survey data.\n<%- endif -%>\n<%- endif -%>"
+      ],
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ],
+      "unit": "%",
+      "short_unit": "%",
+      "display": {
+        "tolerance": 10,
+        "name": "Share of population living in multidimensional poverty",
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "title": "Share of population living in multidimensional poverty",
+          "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%><% if flavor == \"Current margin estimate\" %>\n Estimates based on the most recent household survey data.\n<%- endif -%>",
+          "note": "<%- set cme_link = \"https://ourworldindata.org/grapher/share-multi-poverty\" -%><%- set hot_link = \"https://ourworldindata.org/grapher/share-of-population-multidimensionally-poor-hot\" -%><% if flavor == \"Current margin estimate\" and area == \"National\" %>\nA [separate dataset](<<hot_link>>) is produced to monitor trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\nThis data aims to provide estimates that are comparable over time within individual countries. A [separate dataset](<<cme_link>>) provides more complete data of the latest estimates for international comparisons.\n<%- endif -%>"
+        },
+        "title_public": "Share of population living in multidimensional poverty",
+        "title_variant": "<%- if flavor == \"Current margin estimate\" -%>\nMost recent year\n<%- elif flavor == \"Harmonized over time\" -%>\nHarmonized over time\n<%- endif -%><%- if area == \"Urban\" -%>\n, Urban area\n<%- elif area == \"Rural\" -%>\n, Rural area\n<%- elif area == \"Camp\" -%>\n, Refugee camps\n<%- endif -%>",
+        "attribution_short": "OPHI",
+        "topic_tags": [
+          "Poverty"
+        ],
+        "faqs": [
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-definition"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-sources"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-indicators-unavailable"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-comparability"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-other-sources"
+          }
+        ]
+      },
+      "description_processing": "Some surveys run over two or more calendar years, such as 2023\u20132024. We show each of these surveys in the first year of that period."
+    },
+    "mpi": {
+      "title": "Multidimensional Poverty Index (MPI) (<<area>>) - <<flavor>>",
+      "description_short": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. The Multidimensional Poverty Index (MPI) is a measure that combines the prevalence and the intensity of multidimensional poverty on a scale from 0 to 1. Higher values indicate higher poverty.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%>",
+      "description_from_producer": "The global MPI is a measure of acute poverty covering over 100 countries in the developing regions of the world. This measure is based on the dual cutoff counting approach to poverty measurement developed by Alkire and Foster (2011). The global MPI was developed in 2010 by Alkire and Santos (2010; 2014) in collaboration with the United Nations Development Programme\u2019s (UNDP) Human Development Report Office (HDRO). Since its inception, the global MPI has used information from 10 indicators, grouped into three equally weighted dimensions: health, education and living standards. These dimensions are the same as those used in the UNDP\u2019s Human Development Index.\n\nThe first major revision of the global MPI was undertaken in 2018, considering improvements in survey microdata and to better align with the 2030 Agenda for Sustainable Development insofar as possible (Alkire and Jahan, 2018; OPHI, 2018; Alkire and Kanagaratnam, 2021). The revision adjusted the definitions of five of the ten indicators: child mortality, nutrition, years of schooling, housing and assets. The normative and empirical decisions that underlie the revision of the global MPI, and adjustments related to the child mortality, nutrition, years of schooling and housing indicators, are discussed in Alkire and Kanagaratnam (2021). Alkire et al. (2022) provide a comprehensive analysis of the consequences of the 2018 revision. The revision of the assets indicator is detailed in Vollmer and Alkire (2022).\n\nThe global MPI begins by establishing a deprivation profile for each person, showing in which of the 10 indicators they are deprived. Each person is identified as deprived or non-deprived in each indicator based on its respective deprivation cutoff. In the case of health and education, each household member may be identified as deprived or not deprived according to the information available for other household members. For example, if any household member for whom data exist is undernourished, each person in that household is considered deprived in nutrition. Taking this approach \u2013 which was required by the data \u2013 does not reveal intrahousehold disparities, but is intuitive and assumes shared positive (or negative) effects of achieving (or not achieving) certain outcomes. Next, looking across indicators, each person\u2019s deprivation score is constructed by adding up the weights of the indicators in which they are deprived. The indicators use a nested weight structure: equal weights across dimensions and an equal weight for each indicator within a dimension. The indicator weight structure of the global MPI means that the living standards indicators receive lower weight than health and education-related indicators because, from a policy perspective, each of the three dimensions is of roughly equal normative importance.\n\nIn the global MPI, a person is identified as multidimensionally poor (MPI poor) if they are deprived in at least one-third of the weighted MPI indicators. In other words, a person is MPI poor if their deprivation score is equal to or higher than the poverty cutoff of 33.33%. After the poverty identification step, we aggregate across individuals to obtain the incidence of poverty, or headcount ratio (H), which represents the percentage of poor people in the population. We then compute the intensity of poverty (A), representing the average deprivation score, or the average percentage of weighted deprivations, experienced by poor people. We compute the adjusted poverty headcount ratio (M0) or the MPI by multiplying together H and A (MPI = H x A).\n\nBoth the incidence and the intensity of multidimensional poverty are highly relevant pieces of information for poverty measurement. The incidence of poverty is intuitive and understandable by anyone. People want to know how many poor people there are in a society as a proportion of the whole population, and the media tend to pick up on the incidence of poverty. Yet, the proportion of poor people as a headline figure is not enough (Alkire, Oldiges and Kanagaratnam, 2021).\n\nA headcount ratio is also estimated using two other poverty cutoffs. The global MPI identifies individuals as vulnerable to poverty if they are not poor but are close to the poverty threshold; that is, if they are deprived in 20% to 33.32% of weighted indicators. The method also applies a higher poverty cutoff to identify individuals in severe poverty, meaning those deprived in 50% or more of the dimensions.\n\nThe Alkire-Foster method has a property that makes the global MPI even more useful \u2013 dimensional breakdown. This property makes it possible to consistently compute the percentage of the population who are multidimensionally poor and simultaneously deprived in an indicator. This is known as the censored headcount ratio of an indicator. While above we described MPI to be the product of H x A, the MPI can equivalently be computed as the weighted sum of the censored headcount ratios of all MPI indicators.\n\nThe censored headcount ratio shows the extent of deprivations among poor people but does not reflect the weights or relative values of the indicators. Two indicators may have the same censored headcount ratios but different contributions to overall poverty, as the contribution depends both on the censored headcount ratio and on the weight assigned to each indicator. As such, a complementary analysis to the censored headcount ratio is the percentage contribution of each indicator to overall multidimensional poverty.",
+      "description_key": [
+        "The Multidimensional Poverty Index (MPI) is calculated by multiplying two values: the [share of people who are multidimensionally poor](https://ourworldindata.org/grapher/share-multi-poverty) and the [intensity of their poverty](https://ourworldindata.org/grapher/intensity-of-multidimensional-poverty-national).",
+        "Being in multidimensional poverty means that a person lives in a household deprived in a third or more of ten weighted indicators, grouped into three dimensions of well-being: **health** (using two indicators: nutrition, child mortality), **education** (using two indicators: years of schooling, school attendance), and **living standards** (using six indicators: cooking fuel, sanitation, drinking water, electricity, housing, assets).",
+        "Each household is assessed against specific thresholds for these indicators. For example, a household is considered deprived in the _electricity_ indicator if it does not have access to it. [This article](https://ourworldindata.org/multidimensional-poverty-index) discusses specific thresholds in more detail.",
+        "Each indicator contributes to one of the three dimensions of well-being. Health and education indicators are weighted more (1/6 each) than living standards indicators (1/18 each) so that all three dimensions contribute equally to the overall measure.",
+        "The intensity of multidimensional poverty is calculated as the average share of weighted indicators in which those counted as MPI poor are deprived.",
+        "<% set cme_link = \"https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi\" %> <% set hot_link = \"https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi-hot\" %><% if flavor == \"Current margin estimate\" %>\nThis indicator is a current margin estimate (CME), meaning that it relies on the most recent survey data available for each country.<% if flavor == \"Current margin estimate\" and area == \"National\" %>\n Look for the [harmonized over time (HOT) estimate](<<hot_link>>) to see trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\n Look for the [current margin estimate (CME)](<<cme_link>>) to see the most recent survey data.\n<%- endif -%>\n<% elif flavor == \"Harmonized over time\" %>\nThis indicator is a harmonized over time (HOT) estimate. This harmonization seeks to make two or more MPI estimates comparable by aligning the indicator definitions in each survey. To make surveys comparable, OPHI sometimes drops or narrows indicators, so a harmonized estimate can differ from the current margin estimate for the same survey, and it is less comparable across countries.<% if flavor == \"Current margin estimate\" and area == \"National\" %>\n Look for the [harmonized over time (HOT) estimate](<<hot_link>>) to see trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\n Look for the [current margin estimate (CME)](<<cme_link>>) to see the most recent survey data.\n<%- endif -%>\n<%- endif -%>"
+      ],
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ],
+      "unit": "",
+      "short_unit": "",
+      "display": {
+        "tolerance": 10,
+        "name": "Multidimensional Poverty Index (MPI)",
+        "numDecimalPlaces": 3
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "title": "Multidimensional Poverty Index (MPI)",
+          "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. The MPI is a measure that combines the prevalence and the intensity of multidimensional poverty on a scale from 0 to 1. Higher values indicate higher poverty.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%><% if flavor == \"Current margin estimate\" %>\n Estimates based on the most recent household survey data.\n<%- endif -%>",
+          "note": "<%- set cme_link = \"https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi\" -%><%- set hot_link = \"https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi-hot\" -%><% if flavor == \"Current margin estimate\" and area == \"National\" %>\nA [separate dataset](<<hot_link>>) is produced to monitor trends over time.\n<% elif flavor == \"Harmonized over time\" and area == \"National\" %>\nThis data aims to provide estimates that are comparable over time within individual countries. A [separate dataset](<<cme_link>>) provides more complete data of the latest estimates for international comparisons.\n<%- endif -%>"
+        },
+        "title_public": "Multidimensional Poverty Index (MPI)",
+        "title_variant": "<%- if flavor == \"Current margin estimate\" -%>\nMost recent year\n<%- elif flavor == \"Harmonized over time\" -%>\nHarmonized over time\n<%- endif -%><%- if area == \"Urban\" -%>\n, Urban area\n<%- elif area == \"Rural\" -%>\n, Rural area\n<%- elif area == \"Camp\" -%>\n, Refugee camps\n<%- endif -%>",
+        "attribution_short": "OPHI",
+        "topic_tags": [
+          "Poverty"
+        ],
+        "faqs": [
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-definition"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-sources"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-indicators-unavailable"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-comparability"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-other-sources"
+          }
+        ]
+      },
+      "description_processing": "Some surveys run over two or more calendar years, such as 2023\u20132024. We show each of these surveys in the first year of that period."
+    },
+    "uncensored_headcount_ratio": {
+      "title": "Share of population deprived in the indicator <<indicator>> (<<area>>) - <<flavor>>",
+      "description_short": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. This is the share of the population deprived in the indicator _<<indicator.lower()>>_.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%>",
+      "description_from_producer": "The global MPI is a measure of acute poverty covering over 100 countries in the developing regions of the world. This measure is based on the dual cutoff counting approach to poverty measurement developed by Alkire and Foster (2011). The global MPI was developed in 2010 by Alkire and Santos (2010; 2014) in collaboration with the United Nations Development Programme\u2019s (UNDP) Human Development Report Office (HDRO). Since its inception, the global MPI has used information from 10 indicators, grouped into three equally weighted dimensions: health, education and living standards. These dimensions are the same as those used in the UNDP\u2019s Human Development Index.\n\nThe first major revision of the global MPI was undertaken in 2018, considering improvements in survey microdata and to better align with the 2030 Agenda for Sustainable Development insofar as possible (Alkire and Jahan, 2018; OPHI, 2018; Alkire and Kanagaratnam, 2021). The revision adjusted the definitions of five of the ten indicators: child mortality, nutrition, years of schooling, housing and assets. The normative and empirical decisions that underlie the revision of the global MPI, and adjustments related to the child mortality, nutrition, years of schooling and housing indicators, are discussed in Alkire and Kanagaratnam (2021). Alkire et al. (2022) provide a comprehensive analysis of the consequences of the 2018 revision. The revision of the assets indicator is detailed in Vollmer and Alkire (2022).\n\nThe global MPI begins by establishing a deprivation profile for each person, showing in which of the 10 indicators they are deprived. Each person is identified as deprived or non-deprived in each indicator based on its respective deprivation cutoff. In the case of health and education, each household member may be identified as deprived or not deprived according to the information available for other household members. For example, if any household member for whom data exist is undernourished, each person in that household is considered deprived in nutrition. Taking this approach \u2013 which was required by the data \u2013 does not reveal intrahousehold disparities, but is intuitive and assumes shared positive (or negative) effects of achieving (or not achieving) certain outcomes. Next, looking across indicators, each person\u2019s deprivation score is constructed by adding up the weights of the indicators in which they are deprived. The indicators use a nested weight structure: equal weights across dimensions and an equal weight for each indicator within a dimension. The indicator weight structure of the global MPI means that the living standards indicators receive lower weight than health and education-related indicators because, from a policy perspective, each of the three dimensions is of roughly equal normative importance.\n\nIn the global MPI, a person is identified as multidimensionally poor (MPI poor) if they are deprived in at least one-third of the weighted MPI indicators. In other words, a person is MPI poor if their deprivation score is equal to or higher than the poverty cutoff of 33.33%. After the poverty identification step, we aggregate across individuals to obtain the incidence of poverty, or headcount ratio (H), which represents the percentage of poor people in the population. We then compute the intensity of poverty (A), representing the average deprivation score, or the average percentage of weighted deprivations, experienced by poor people. We compute the adjusted poverty headcount ratio (M0) or the MPI by multiplying together H and A (MPI = H x A).\n\nBoth the incidence and the intensity of multidimensional poverty are highly relevant pieces of information for poverty measurement. The incidence of poverty is intuitive and understandable by anyone. People want to know how many poor people there are in a society as a proportion of the whole population, and the media tend to pick up on the incidence of poverty. Yet, the proportion of poor people as a headline figure is not enough (Alkire, Oldiges and Kanagaratnam, 2021).\n\nA headcount ratio is also estimated using two other poverty cutoffs. The global MPI identifies individuals as vulnerable to poverty if they are not poor but are close to the poverty threshold; that is, if they are deprived in 20% to 33.32% of weighted indicators. The method also applies a higher poverty cutoff to identify individuals in severe poverty, meaning those deprived in 50% or more of the dimensions.\n\nThe Alkire-Foster method has a property that makes the global MPI even more useful \u2013 dimensional breakdown. This property makes it possible to consistently compute the percentage of the population who are multidimensionally poor and simultaneously deprived in an indicator. This is known as the censored headcount ratio of an indicator. While above we described MPI to be the product of H x A, the MPI can equivalently be computed as the weighted sum of the censored headcount ratios of all MPI indicators.\n\nThe censored headcount ratio shows the extent of deprivations among poor people but does not reflect the weights or relative values of the indicators. Two indicators may have the same censored headcount ratios but different contributions to overall poverty, as the contribution depends both on the censored headcount ratio and on the weight assigned to each indicator. As such, a complementary analysis to the censored headcount ratio is the percentage contribution of each indicator to overall multidimensional poverty.",
+      "description_key": [
+        "Being in multidimensional poverty means that a person lives in a household deprived in a third or more of ten weighted indicators, grouped into three dimensions of well-being: **health** (using two indicators: nutrition, child mortality), **education** (using two indicators: years of schooling, school attendance), and **living standards** (using six indicators: cooking fuel, sanitation, drinking water, electricity, housing, assets).",
+        "A person in a household is deprived in the indicator _<<indicator.lower()>>_ if <% if indicator == \"Nutrition\" %>\nany person under 70 years of age for whom there is nutritional information is undernourished. This indicator is part of the _health_ dimension.\n<% elif indicator == \"Child mortality\" %>\na child under 18 has died in the household in the five-year period preceding the survey. This indicator is part of the _health_ dimension.\n<% elif indicator == \"Years of schooling\" %>\nno eligible household member has completed six years of schooling. This indicator is part of the _education_ dimension.\n<% elif indicator == \"School attendance\" %>\nany school-aged child is not attending school up to the age at which they would complete class 8. This indicator is part of the _education_ dimension.\n<% elif indicator == \"Cooking fuel\" %>\na household cooks using solid fuel, such as dung, agricultural crop, shrubs, wood, charcoal, or coal. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Sanitation\" %>\nthe household has unimproved or no sanitation facility or it is improved but shared with other households. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Drinking water\" %>\nthe household\u2019s source of drinking water is not safe or safe drinking water is a 30-minute or longer walk from home, roundtrip. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Electricity\" %>\nthe household has no electricity. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Housing\" %>\nthe household has inadequate housing materials in any of the three components: floor, roof, or walls. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Assets\" %>\nthe household does not own more than one of these assets: radio, TV, telephone, computer, animal cart, bicycle, motorbike, or refrigerator, and does not own a car or truck. This indicator is part of the _living standards_ dimension.\n<%- endif -%>",
+        "<% if flavor == \"Current margin estimate\" %>\nThis indicator is a current margin estimate (CME), meaning that it relies on the most recent survey data available for each country.\n<% elif flavor == \"Harmonized over time\" %>\nThis indicator is a harmonized over time (HOT) estimate. This harmonization seeks to make two or more MPI estimates comparable by aligning the indicator definitions in each survey. To make surveys comparable, OPHI sometimes drops or narrows indicators, so a harmonized estimate can differ from the current margin estimate for the same survey, and it is less comparable across countries.\n<%- endif -%>"
+      ],
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ],
+      "unit": "%",
+      "short_unit": "%",
+      "display": {
+        "tolerance": 10,
+        "name": "Share of population deprived in the indicator <<indicator>>",
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "title_public": "Share of population deprived in the indicator <<indicator>>",
+        "title_variant": "<%- if flavor == \"Current margin estimate\" -%>\nMost recent year\n<%- elif flavor == \"Harmonized over time\" -%>\nHarmonized over time\n<%- endif -%><%- if area == \"Urban\" -%>\n, Urban area\n<%- elif area == \"Rural\" -%>\n, Rural area\n<%- elif area == \"Camp\" -%>\n, Refugee camps\n<%- endif -%>",
+        "attribution_short": "OPHI",
+        "topic_tags": [
+          "Poverty"
+        ],
+        "faqs": [
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-definition"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-sources"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-indicators-unavailable"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-comparability"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-other-sources"
+          }
+        ]
+      },
+      "description_processing": "Some surveys run over two or more calendar years, such as 2023\u20132024. We show each of these surveys in the first year of that period."
+    },
+    "censored_headcount_ratio": {
+      "title": "Share of population in multidimensional poverty deprived in the indicator <<indicator>> (<<area>>) - <<flavor>>",
+      "description_short": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. This is the share of the multidimensionally poor population deprived in the indicator _<<indicator.lower()>>_.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%>",
+      "description_from_producer": "The global MPI is a measure of acute poverty covering over 100 countries in the developing regions of the world. This measure is based on the dual cutoff counting approach to poverty measurement developed by Alkire and Foster (2011). The global MPI was developed in 2010 by Alkire and Santos (2010; 2014) in collaboration with the United Nations Development Programme\u2019s (UNDP) Human Development Report Office (HDRO). Since its inception, the global MPI has used information from 10 indicators, grouped into three equally weighted dimensions: health, education and living standards. These dimensions are the same as those used in the UNDP\u2019s Human Development Index.\n\nThe first major revision of the global MPI was undertaken in 2018, considering improvements in survey microdata and to better align with the 2030 Agenda for Sustainable Development insofar as possible (Alkire and Jahan, 2018; OPHI, 2018; Alkire and Kanagaratnam, 2021). The revision adjusted the definitions of five of the ten indicators: child mortality, nutrition, years of schooling, housing and assets. The normative and empirical decisions that underlie the revision of the global MPI, and adjustments related to the child mortality, nutrition, years of schooling and housing indicators, are discussed in Alkire and Kanagaratnam (2021). Alkire et al. (2022) provide a comprehensive analysis of the consequences of the 2018 revision. The revision of the assets indicator is detailed in Vollmer and Alkire (2022).\n\nThe global MPI begins by establishing a deprivation profile for each person, showing in which of the 10 indicators they are deprived. Each person is identified as deprived or non-deprived in each indicator based on its respective deprivation cutoff. In the case of health and education, each household member may be identified as deprived or not deprived according to the information available for other household members. For example, if any household member for whom data exist is undernourished, each person in that household is considered deprived in nutrition. Taking this approach \u2013 which was required by the data \u2013 does not reveal intrahousehold disparities, but is intuitive and assumes shared positive (or negative) effects of achieving (or not achieving) certain outcomes. Next, looking across indicators, each person\u2019s deprivation score is constructed by adding up the weights of the indicators in which they are deprived. The indicators use a nested weight structure: equal weights across dimensions and an equal weight for each indicator within a dimension. The indicator weight structure of the global MPI means that the living standards indicators receive lower weight than health and education-related indicators because, from a policy perspective, each of the three dimensions is of roughly equal normative importance.\n\nIn the global MPI, a person is identified as multidimensionally poor (MPI poor) if they are deprived in at least one-third of the weighted MPI indicators. In other words, a person is MPI poor if their deprivation score is equal to or higher than the poverty cutoff of 33.33%. After the poverty identification step, we aggregate across individuals to obtain the incidence of poverty, or headcount ratio (H), which represents the percentage of poor people in the population. We then compute the intensity of poverty (A), representing the average deprivation score, or the average percentage of weighted deprivations, experienced by poor people. We compute the adjusted poverty headcount ratio (M0) or the MPI by multiplying together H and A (MPI = H x A).\n\nBoth the incidence and the intensity of multidimensional poverty are highly relevant pieces of information for poverty measurement. The incidence of poverty is intuitive and understandable by anyone. People want to know how many poor people there are in a society as a proportion of the whole population, and the media tend to pick up on the incidence of poverty. Yet, the proportion of poor people as a headline figure is not enough (Alkire, Oldiges and Kanagaratnam, 2021).\n\nA headcount ratio is also estimated using two other poverty cutoffs. The global MPI identifies individuals as vulnerable to poverty if they are not poor but are close to the poverty threshold; that is, if they are deprived in 20% to 33.32% of weighted indicators. The method also applies a higher poverty cutoff to identify individuals in severe poverty, meaning those deprived in 50% or more of the dimensions.\n\nThe Alkire-Foster method has a property that makes the global MPI even more useful \u2013 dimensional breakdown. This property makes it possible to consistently compute the percentage of the population who are multidimensionally poor and simultaneously deprived in an indicator. This is known as the censored headcount ratio of an indicator. While above we described MPI to be the product of H x A, the MPI can equivalently be computed as the weighted sum of the censored headcount ratios of all MPI indicators.\n\nThe censored headcount ratio shows the extent of deprivations among poor people but does not reflect the weights or relative values of the indicators. Two indicators may have the same censored headcount ratios but different contributions to overall poverty, as the contribution depends both on the censored headcount ratio and on the weight assigned to each indicator. As such, a complementary analysis to the censored headcount ratio is the percentage contribution of each indicator to overall multidimensional poverty.",
+      "description_key": [
+        "Being in multidimensional poverty means that a person lives in a household deprived in a third or more of ten weighted indicators, grouped into three dimensions of well-being: **health** (using two indicators: nutrition, child mortality), **education** (using two indicators: years of schooling, school attendance), and **living standards** (using six indicators: cooking fuel, sanitation, drinking water, electricity, housing, assets).",
+        "A person in a household is deprived in the indicator _<<indicator.lower()>>_ if <% if indicator == \"Nutrition\" %>\nany person under 70 years of age for whom there is nutritional information is undernourished. This indicator is part of the _health_ dimension.\n<% elif indicator == \"Child mortality\" %>\na child under 18 has died in the household in the five-year period preceding the survey. This indicator is part of the _health_ dimension.\n<% elif indicator == \"Years of schooling\" %>\nno eligible household member has completed six years of schooling. This indicator is part of the _education_ dimension.\n<% elif indicator == \"School attendance\" %>\nany school-aged child is not attending school up to the age at which they would complete class 8. This indicator is part of the _education_ dimension.\n<% elif indicator == \"Cooking fuel\" %>\na household cooks using solid fuel, such as dung, agricultural crop, shrubs, wood, charcoal, or coal. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Sanitation\" %>\nthe household has unimproved or no sanitation facility or it is improved but shared with other households. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Drinking water\" %>\nthe household\u2019s source of drinking water is not safe or safe drinking water is a 30-minute or longer walk from home, roundtrip. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Electricity\" %>\nthe household has no electricity. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Housing\" %>\nthe household has inadequate housing materials in any of the three components: floor, roof, or walls. This indicator is part of the _living standards_ dimension.\n<% elif indicator == \"Assets\" %>\nthe household does not own more than one of these assets: radio, TV, telephone, computer, animal cart, bicycle, motorbike, or refrigerator, and does not own a car or truck. This indicator is part of the _living standards_ dimension.\n<%- endif -%>",
+        "<% if flavor == \"Current margin estimate\" %>\nThis indicator is a current margin estimate (CME), meaning that it relies on the most recent survey data available for each country.\n<% elif flavor == \"Harmonized over time\" %>\nThis indicator is a harmonized over time (HOT) estimate. This harmonization seeks to make two or more MPI estimates comparable by aligning the indicator definitions in each survey. To make surveys comparable, OPHI sometimes drops or narrows indicators, so a harmonized estimate can differ from the current margin estimate for the same survey, and it is less comparable across countries.\n<%- endif -%>"
+      ],
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ],
+      "unit": "%",
+      "short_unit": "%",
+      "display": {
+        "tolerance": 10,
+        "name": "Share of population in multidimensional poverty deprived in the indicator <<indicator>>",
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "title_public": "Share of population in multidimensional poverty deprived in the indicator <<indicator>>",
+        "title_variant": "<%- if flavor == \"Current margin estimate\" -%>\nMost recent year\n<%- elif flavor == \"Harmonized over time\" -%>\nHarmonized over time\n<%- endif -%><%- if area == \"Urban\" -%>\n, Urban area\n<%- elif area == \"Rural\" -%>\n, Rural area\n<%- elif area == \"Camp\" -%>\n, Refugee camps\n<%- endif -%>",
+        "attribution_short": "OPHI",
+        "topic_tags": [
+          "Poverty"
+        ],
+        "faqs": [
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-definition"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-sources"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-indicators-unavailable"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-comparability"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-other-sources"
+          }
+        ]
+      },
+      "description_processing": "Some surveys run over two or more calendar years, such as 2023\u20132024. We show each of these surveys in the first year of that period."
+    },
+    "severe": {
+      "title": "Share of population living in severe multidimensional poverty (<<area>>) - <<flavor>>",
+      "description_short": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. This is the share of the population that is in severe multidimensional poverty.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%>",
+      "description_from_producer": "The global MPI is a measure of acute poverty covering over 100 countries in the developing regions of the world. This measure is based on the dual cutoff counting approach to poverty measurement developed by Alkire and Foster (2011). The global MPI was developed in 2010 by Alkire and Santos (2010; 2014) in collaboration with the United Nations Development Programme\u2019s (UNDP) Human Development Report Office (HDRO). Since its inception, the global MPI has used information from 10 indicators, grouped into three equally weighted dimensions: health, education and living standards. These dimensions are the same as those used in the UNDP\u2019s Human Development Index.\n\nThe first major revision of the global MPI was undertaken in 2018, considering improvements in survey microdata and to better align with the 2030 Agenda for Sustainable Development insofar as possible (Alkire and Jahan, 2018; OPHI, 2018; Alkire and Kanagaratnam, 2021). The revision adjusted the definitions of five of the ten indicators: child mortality, nutrition, years of schooling, housing and assets. The normative and empirical decisions that underlie the revision of the global MPI, and adjustments related to the child mortality, nutrition, years of schooling and housing indicators, are discussed in Alkire and Kanagaratnam (2021). Alkire et al. (2022) provide a comprehensive analysis of the consequences of the 2018 revision. The revision of the assets indicator is detailed in Vollmer and Alkire (2022).\n\nThe global MPI begins by establishing a deprivation profile for each person, showing in which of the 10 indicators they are deprived. Each person is identified as deprived or non-deprived in each indicator based on its respective deprivation cutoff. In the case of health and education, each household member may be identified as deprived or not deprived according to the information available for other household members. For example, if any household member for whom data exist is undernourished, each person in that household is considered deprived in nutrition. Taking this approach \u2013 which was required by the data \u2013 does not reveal intrahousehold disparities, but is intuitive and assumes shared positive (or negative) effects of achieving (or not achieving) certain outcomes. Next, looking across indicators, each person\u2019s deprivation score is constructed by adding up the weights of the indicators in which they are deprived. The indicators use a nested weight structure: equal weights across dimensions and an equal weight for each indicator within a dimension. The indicator weight structure of the global MPI means that the living standards indicators receive lower weight than health and education-related indicators because, from a policy perspective, each of the three dimensions is of roughly equal normative importance.\n\nIn the global MPI, a person is identified as multidimensionally poor (MPI poor) if they are deprived in at least one-third of the weighted MPI indicators. In other words, a person is MPI poor if their deprivation score is equal to or higher than the poverty cutoff of 33.33%. After the poverty identification step, we aggregate across individuals to obtain the incidence of poverty, or headcount ratio (H), which represents the percentage of poor people in the population. We then compute the intensity of poverty (A), representing the average deprivation score, or the average percentage of weighted deprivations, experienced by poor people. We compute the adjusted poverty headcount ratio (M0) or the MPI by multiplying together H and A (MPI = H x A).\n\nBoth the incidence and the intensity of multidimensional poverty are highly relevant pieces of information for poverty measurement. The incidence of poverty is intuitive and understandable by anyone. People want to know how many poor people there are in a society as a proportion of the whole population, and the media tend to pick up on the incidence of poverty. Yet, the proportion of poor people as a headline figure is not enough (Alkire, Oldiges and Kanagaratnam, 2021).\n\nA headcount ratio is also estimated using two other poverty cutoffs. The global MPI identifies individuals as vulnerable to poverty if they are not poor but are close to the poverty threshold; that is, if they are deprived in 20% to 33.32% of weighted indicators. The method also applies a higher poverty cutoff to identify individuals in severe poverty, meaning those deprived in 50% or more of the dimensions.\n\nThe Alkire-Foster method has a property that makes the global MPI even more useful \u2013 dimensional breakdown. This property makes it possible to consistently compute the percentage of the population who are multidimensionally poor and simultaneously deprived in an indicator. This is known as the censored headcount ratio of an indicator. While above we described MPI to be the product of H x A, the MPI can equivalently be computed as the weighted sum of the censored headcount ratios of all MPI indicators.\n\nThe censored headcount ratio shows the extent of deprivations among poor people but does not reflect the weights or relative values of the indicators. Two indicators may have the same censored headcount ratios but different contributions to overall poverty, as the contribution depends both on the censored headcount ratio and on the weight assigned to each indicator. As such, a complementary analysis to the censored headcount ratio is the percentage contribution of each indicator to overall multidimensional poverty.",
+      "description_key": [
+        "Being in _severe_ multidimensional poverty means that a person lives in a household deprived in 50% or more of ten weighted indicators, grouped into three dimensions of well-being: **health** (using two indicators: nutrition, child mortality), **education** (using two indicators: years of schooling, school attendance), and **living standards** (using six indicators: cooking fuel, sanitation, drinking water, electricity, housing, assets).",
+        "Each household is assessed against specific thresholds for these indicators. For example, a household is considered deprived in the _electricity_ indicator if it does not have access to it. [This article](https://ourworldindata.org/multidimensional-poverty-index) discusses specific thresholds in more detail.",
+        "Each indicator contributes to one of the three dimensions of well-being. Health and education indicators are weighted more (1/6 each) than living standards indicators (1/18 each) so that all three dimensions contribute equally to the overall measure.",
+        "<% if flavor == \"Current margin estimate\" %>\nThis indicator is a current margin estimate (CME), meaning that it relies on the most recent survey data available for each country.\n<% elif flavor == \"Harmonized over time\" %>\nThis indicator is a harmonized over time (HOT) estimate. This harmonization seeks to make two or more MPI estimates comparable by aligning the indicator definitions in each survey. To make surveys comparable, OPHI sometimes drops or narrows indicators, so a harmonized estimate can differ from the current margin estimate for the same survey, and it is less comparable across countries.\n<%- endif -%>"
+      ],
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ],
+      "unit": "%",
+      "short_unit": "%",
+      "display": {
+        "tolerance": 10,
+        "name": "Share of population living in severe multidimensional poverty",
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "title": "Share of population living in severe multidimensional poverty",
+          "subtitle": "Severe multidimensional poverty is defined as being highly deprived in a range of health, education and living standards indicators.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%><% if flavor == \"Current margin estimate\" %>\n Estimates based on the most recent household survey data.\n<%- endif -%>"
+        },
+        "title_public": "Share of population living in severe multidimensional poverty",
+        "title_variant": "<%- if flavor == \"Current margin estimate\" -%>\nMost recent year\n<%- elif flavor == \"Harmonized over time\" -%>\nHarmonized over time\n<%- endif -%><%- if area == \"Urban\" -%>\n, Urban area\n<%- elif area == \"Rural\" -%>\n, Rural area\n<%- elif area == \"Camp\" -%>\n, Refugee camps\n<%- endif -%>",
+        "attribution_short": "OPHI",
+        "topic_tags": [
+          "Poverty"
+        ],
+        "faqs": [
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-definition"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-sources"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-indicators-unavailable"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-comparability"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-other-sources"
+          }
+        ]
+      },
+      "description_processing": "Some surveys run over two or more calendar years, such as 2023\u20132024. We show each of these surveys in the first year of that period."
+    },
+    "vulnerable": {
+      "title": "Share of population vulnerable to multidimensional poverty (<<area>>) - <<flavor>>",
+      "description_short": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. This is the share of the population that is close to being in multidimensional poverty.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%>",
+      "description_from_producer": "The global MPI is a measure of acute poverty covering over 100 countries in the developing regions of the world. This measure is based on the dual cutoff counting approach to poverty measurement developed by Alkire and Foster (2011). The global MPI was developed in 2010 by Alkire and Santos (2010; 2014) in collaboration with the United Nations Development Programme\u2019s (UNDP) Human Development Report Office (HDRO). Since its inception, the global MPI has used information from 10 indicators, grouped into three equally weighted dimensions: health, education and living standards. These dimensions are the same as those used in the UNDP\u2019s Human Development Index.\n\nThe first major revision of the global MPI was undertaken in 2018, considering improvements in survey microdata and to better align with the 2030 Agenda for Sustainable Development insofar as possible (Alkire and Jahan, 2018; OPHI, 2018; Alkire and Kanagaratnam, 2021). The revision adjusted the definitions of five of the ten indicators: child mortality, nutrition, years of schooling, housing and assets. The normative and empirical decisions that underlie the revision of the global MPI, and adjustments related to the child mortality, nutrition, years of schooling and housing indicators, are discussed in Alkire and Kanagaratnam (2021). Alkire et al. (2022) provide a comprehensive analysis of the consequences of the 2018 revision. The revision of the assets indicator is detailed in Vollmer and Alkire (2022).\n\nThe global MPI begins by establishing a deprivation profile for each person, showing in which of the 10 indicators they are deprived. Each person is identified as deprived or non-deprived in each indicator based on its respective deprivation cutoff. In the case of health and education, each household member may be identified as deprived or not deprived according to the information available for other household members. For example, if any household member for whom data exist is undernourished, each person in that household is considered deprived in nutrition. Taking this approach \u2013 which was required by the data \u2013 does not reveal intrahousehold disparities, but is intuitive and assumes shared positive (or negative) effects of achieving (or not achieving) certain outcomes. Next, looking across indicators, each person\u2019s deprivation score is constructed by adding up the weights of the indicators in which they are deprived. The indicators use a nested weight structure: equal weights across dimensions and an equal weight for each indicator within a dimension. The indicator weight structure of the global MPI means that the living standards indicators receive lower weight than health and education-related indicators because, from a policy perspective, each of the three dimensions is of roughly equal normative importance.\n\nIn the global MPI, a person is identified as multidimensionally poor (MPI poor) if they are deprived in at least one-third of the weighted MPI indicators. In other words, a person is MPI poor if their deprivation score is equal to or higher than the poverty cutoff of 33.33%. After the poverty identification step, we aggregate across individuals to obtain the incidence of poverty, or headcount ratio (H), which represents the percentage of poor people in the population. We then compute the intensity of poverty (A), representing the average deprivation score, or the average percentage of weighted deprivations, experienced by poor people. We compute the adjusted poverty headcount ratio (M0) or the MPI by multiplying together H and A (MPI = H x A).\n\nBoth the incidence and the intensity of multidimensional poverty are highly relevant pieces of information for poverty measurement. The incidence of poverty is intuitive and understandable by anyone. People want to know how many poor people there are in a society as a proportion of the whole population, and the media tend to pick up on the incidence of poverty. Yet, the proportion of poor people as a headline figure is not enough (Alkire, Oldiges and Kanagaratnam, 2021).\n\nA headcount ratio is also estimated using two other poverty cutoffs. The global MPI identifies individuals as vulnerable to poverty if they are not poor but are close to the poverty threshold; that is, if they are deprived in 20% to 33.32% of weighted indicators. The method also applies a higher poverty cutoff to identify individuals in severe poverty, meaning those deprived in 50% or more of the dimensions.\n\nThe Alkire-Foster method has a property that makes the global MPI even more useful \u2013 dimensional breakdown. This property makes it possible to consistently compute the percentage of the population who are multidimensionally poor and simultaneously deprived in an indicator. This is known as the censored headcount ratio of an indicator. While above we described MPI to be the product of H x A, the MPI can equivalently be computed as the weighted sum of the censored headcount ratios of all MPI indicators.\n\nThe censored headcount ratio shows the extent of deprivations among poor people but does not reflect the weights or relative values of the indicators. Two indicators may have the same censored headcount ratios but different contributions to overall poverty, as the contribution depends both on the censored headcount ratio and on the weight assigned to each indicator. As such, a complementary analysis to the censored headcount ratio is the percentage contribution of each indicator to overall multidimensional poverty.",
+      "description_key": [
+        "Being _vulnerable_ to multidimensional poverty means that a person is not multidimensionally poor but lives in a household deprived in 20% to 33.3% of ten weighted indicators, grouped into three dimensions of well-being: **health** (using two indicators: nutrition, child mortality), **education** (using two indicators: years of schooling, school attendance), and **living standards** (using six indicators: cooking fuel, sanitation, drinking water, electricity, housing, assets).",
+        "Each household is assessed against specific thresholds for these indicators. For example, a household is considered deprived in the _electricity_ indicator if it does not have access to it. [This article](https://ourworldindata.org/multidimensional-poverty-index) discusses specific thresholds in more detail.",
+        "Each indicator contributes to one of the three dimensions of well-being. Health and education indicators are weighted more (1/6 each) than living standards indicators (1/18 each) so that all three dimensions contribute equally to the overall measure.",
+        "<% if flavor == \"Current margin estimate\" %>\nThis indicator is a current margin estimate (CME), meaning that it relies on the most recent survey data available for each country.\n<% elif flavor == \"Harmonized over time\" %>\nThis indicator is a harmonized over time (HOT) estimate. This harmonization seeks to make two or more MPI estimates comparable by aligning the indicator definitions in each survey. To make surveys comparable, OPHI sometimes drops or narrows indicators, so a harmonized estimate can differ from the current margin estimate for the same survey, and it is less comparable across countries.\n<%- endif -%>"
+      ],
+      "origins": [
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Current margin estimates (CME)",
+          "description_snapshot": "This dataset contains current margin estimates (CME), based on the most recent survey data.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note. OPHI MPI Methodological Note 64, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        },
+        {
+          "producer": "Alkire et al.",
+          "title": "Global Multidimensional Poverty Index (MPI)",
+          "description": "The global Multidimensional Poverty Index (MPI) is an international measure of acute multidimensional poverty covering over 100 developing countries. It complements traditional monetary poverty measures by capturing the acute deprivations in health, education, and living standards that a person faces simultaneously.\n\nThe MPI assesses poverty at the individual level. If a person is deprived in a third or more of ten (weighted) indicators, the global MPI identifies them as \u2018MPI poor\u2019. The extent \u2013 or intensity \u2013 of their poverty is also measured through the percentage of deprivations they are experiencing.\n\nThe global MPI shows who is poor and how they are poor and can be used to create a comprehensive picture of people living in poverty. It permits comparisons both across countries and world regions, and within countries by ethnic group, urban/rural area, subnational region, and age group, as well as other key household and community characteristics. For each group and for countries as a whole, the composition of MPI by each of the ten indicators shows how people are poor.\n\nThis makes the MPI and its linked information platform invaluable as an analytical tool to identify the most vulnerable people \u2013 the poorest among the poor, revealing poverty patterns within countries and over time, enabling policy makers to target resources and design policies more effectively.\n\nThe global MPI was developed by OPHI with the UN Development Programme (UNDP) for inclusion in UNDP\u2019s flagship Human Development Report in 2010. It has been published annually by OPHI and in the HDRs ever since.",
+          "title_snapshot": "Global Multidimensional Poverty Index (MPI) \u2013 Harmonized over time (HOT)",
+          "description_snapshot": "This dataset contains harmonized over time (HOT) estimates. This harmonization seeks to make two or more MPI estimations comparable by aligning the indicator definitions in each survey.",
+          "citation_full": "- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Changes over Time Results for 89 Countries. OPHI MPI Methodological Note 66, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.\n- Alkire, S., Mishra, R. and Suppa, N. (2026). The Global Multidimensional Poverty Index (MPI) 2026: Disaggregation Results and Methodological Note. OPHI MPI Methodological Note 65, Oxford Poverty and Human Development Initiative (OPHI), University of Oxford.",
+          "attribution": "Alkire et al. (2026) \u2013 The Global Multidimensional Poverty Index (MPI) 2026",
+          "version_producer": "2026",
+          "url_main": "https://ophi.org.uk/global-mpi",
+          "date_accessed": "2026-11-04",
+          "date_published": "2026-10-12",
+          "license": {
+            "name": "CC BY 4.0",
+            "url": "https://ophi.org.uk/global-mpi-frequently-asked-questions"
+          }
+        }
+      ],
+      "unit": "%",
+      "short_unit": "%",
+      "display": {
+        "tolerance": 10,
+        "name": "Share of population vulnerable to multidimensional poverty",
+        "numDecimalPlaces": 1
+      },
+      "processing_level": "minor",
+      "presentation": {
+        "grapher_config": {
+          "title": "Share of population vulnerable to multidimensional poverty",
+          "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. This is the share of the population that is close to the multidimensional poverty threshold.<% if area == \"Urban\" %>\n This indicator is calculated for urban areas.\n<%- elif area == \"Rural\" %>\n This indicator is calculated for rural areas.\n<%- elif area == \"Camp\" %>\n This indicator is calculated for populations within refugee camps (available only for Palestine).\n<%- endif -%><% if flavor == \"Current margin estimate\" %>\n Estimates based on the most recent household survey data.\n<%- endif -%>"
+        },
+        "title_public": "Share of population vulnerable to multidimensional poverty",
+        "title_variant": "<%- if flavor == \"Current margin estimate\" -%>\nMost recent year\n<%- elif flavor == \"Harmonized over time\" -%>\nHarmonized over time\n<%- endif -%><%- if area == \"Urban\" -%>\n, Urban area\n<%- elif area == \"Rural\" -%>\n, Rural area\n<%- elif area == \"Camp\" -%>\n, Refugee camps\n<%- endif -%>",
+        "attribution_short": "OPHI",
+        "topic_tags": [
+          "Poverty"
+        ],
+        "faqs": [
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-definition"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-sources"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-indicators-unavailable"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-comparability"
+          },
+          {
+            "gdoc_id": "1gGburArxglFdHXeTLotFW4TOOLoeRq5XW6UfAdKtaAw",
+            "fragment_id": "mpi-other-sources"
+          }
+        ]
+      },
+      "description_processing": "Some surveys run over two or more calendar years, such as 2023\u20132024. We show each of these surveys in the first year of that period."
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+ "rows": [
+  {
+   "x": 2005,
+   "pt": 34.6,
+   "es": 26.4,
+   "fr": 34.6,
+   "it": 55,
+   "de": 13.2
+  },
+  {
+   "x": 2006,
+   "pt": 38.5,
+   "es": 24,
+   "fr": 32.6,
+   "it": 54,
+   "de": 15.1
+  },
+  {
+   "x": 2007,
+   "pt": 36.4,
+   "es": 20.8,
+   "fr": 29.4,
+   "it": 49.4,
+   "de": 10.6
+  },
+  {
+   "x": 2008,
+   "pt": 33.6,
+   "es": 26.7,
+   "fr": 34.2,
+   "it": 50.2,
+   "de": 16.8
+  },
+  {
+   "x": 2009,
+   "pt": 37.9,
+   "es": 32.8,
+   "fr": 34.8,
+   "it": 52.4,
+   "de": 16.6
+  },
+  {
+   "x": 2010,
+   "pt": 44.9,
+   "es": 27.9,
+   "fr": 31.6,
+   "it": 35.1,
+   "de": 12.8
+  },
+  {
+   "x": 2011,
+   "pt": 40.1,
+   "es": 28.5,
+   "fr": 33.2,
+   "it": 33.6,
+   "de": 13.6
+  },
+  {
+   "x": 2012,
+   "pt": 36.3,
+   "es": 27.3,
+   "fr": 28.1,
+   "it": 33.6,
+   "de": 9.6
+  },
+  {
+   "x": 2013,
+   "pt": 31.9,
+   "es": 24.1,
+   "fr": 27.2,
+   "it": 30.6,
+   "de": 9.2
+  },
+  {
+   "x": 2014,
+   "pt": 36.1,
+   "es": 28,
+   "fr": 32.7,
+   "it": 31,
+   "de": 15.4
+  },
+  {
+   "x": 2015,
+   "pt": 31.5,
+   "es": 25.4,
+   "fr": 34.7,
+   "it": 29.2,
+   "de": 18
+  },
+  {
+   "x": 2016,
+   "pt": 28.8,
+   "es": 21,
+   "fr": 30.3,
+   "it": 27.1,
+   "de": 14.8
+  },
+  {
+   "x": 2017,
+   "pt": 26.6,
+   "es": 18.6,
+   "fr": 23,
+   "it": 24.6,
+   "de": 9
+  },
+  {
+   "x": 2018,
+   "pt": 23.2,
+   "es": 16.6,
+   "fr": 21.3,
+   "it": 21,
+   "de": 4.1
+  },
+  {
+   "x": 2019,
+   "pt": 23.2,
+   "es": 19.4,
+   "fr": 21.4,
+   "it": 23,
+   "de": 5.2
+  },
+  {
+   "x": 2020,
+   "pt": 24.2,
+   "es": 25.3,
+   "fr": 67.7,
+   "it": 31.3,
+   "de": -1.9
+  },
+  {
+   "x": 2021,
+   "pt": 15.9,
+   "es": 11.7,
+   "fr": 20.6,
+   "it": 22.5,
+   "de": -0.2
+  },
+  {
+   "x": 2022,
+   "pt": 20.2,
+   "es": 16.7,
+   "fr": 21.9,
+   "it": 19.9,
+   "de": 0.2
+  },
+  {
+   "x": 2023,
+   "pt": 20.1,
+   "es": 12.5,
+   "fr": 16.7,
+   "it": 19.1,
+   "de": -2.8
+  },
+  {
+   "x": 2024,
+   "pt": 21.4,
+   "es": 18.3,
+   "fr": 18.3,
+   "it": 20.8,
+   "de": -1.9
+  },
+  {
+   "x": 2025,
+   "pt": 15.6,
+   "es": 17.8,
+   "fr": 19.7,
+   "it": 19.9,
+   "de": 3.6
+  }
+ ],
+ "config": {
+  "x": {
+   "min": 2005,
+   "max": 2025,
+   "ticks": [
+    2005,
+    2010,
+    2015,
+    2020,
+    2025
+   ],
+   "tableLabel": "Ano"
+  },
+  "y": {
+   "label": "Vendas de dezembro face a novembro (%)",
+   "suffix": "%",
+   "decimals": 1,
+   "linMin": -10,
+   "linMax": 70,
+   "logDefault": false,
+   "linTicks": [
+    -10,
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70
+   ]
+  },
+  "scaleToggle": false,
+  "dots": false,
+  "series": [
+   {
+    "key": "pt",
+    "label": "Portugal",
+    "short": "Portugal",
+    "color": "--accent",
+    "width": 3
+   },
+   {
+    "key": "it",
+    "label": "Itália",
+    "short": "Itália",
+    "color": "--accent-2",
+    "width": 1.8
+   },
+   {
+    "key": "fr",
+    "label": "França",
+    "short": "França",
+    "color": "--accent-3",
+    "width": 1.8
+   },
+   {
+    "key": "es",
+    "label": "Espanha",
+    "short": "Espanha",
+    "color": "--accent-4",
+    "width": 1.8
+   },
+   {
+    "key": "de",
+    "label": "Alemanha",
+    "short": "Alemanha",
+    "color": "--ink-3",
+    "width": 1.8
+   }
+  ],
+  "labelMargin": [
+   96,
+   96
+  ],
+  "shortEndLabels": true,
+  "refLine": {
+   "value": 0,
+   "label": "Dezembro igual a novembro",
+   "short": "Igual",
+   "at": 2015
+  },
+  "annotations": [
+   {
+    "x": 2010,
+    "key": "pt",
+    "text": "2010: +44,9%",
+    "short": "+44,9%",
+    "dx": 6,
+    "dy": -6,
+    "anchor": "start"
+   }
+  ],
+  "howToRead": "Cada linha mostra, para cada ano, quanto o volume de vendas de dezembro superou o de novembro no comércio a retalho não alimentar (sem combustíveis). Um valor de 40% quer dizer que dezembro vendeu 1,4 vezes o que vendeu novembro. Quanto mais baixa a linha, mais as compras de fim de ano passaram para novembro."
+ },
+ "summary": {
+  "pt05": 34.6,
+  "pt10": 44.9,
+  "pt14": 36.1,
+  "pt15": 31.5,
+  "pt25": 15.6,
+  "pt21": 15.9,
+  "ptMax": 44.9,
+  "ptMaxYear": 2010,
+  "ptMin": 15.6,
+  "ptNovOct14": -1.7,
+  "ptNovOct25": 10.5,
+  "ptAvg0514": 37,
+  "ptAvg2125": 18.6,
+  "es14": 28,
+  "es25": 17.8,
+  "fr14": 32.7,
+  "fr25": 19.7,
+  "it14": 31,
+  "it25": 19.9,
+  "de14": 15.4,
+  "de25": 3.6,
+  "ict14": 58.3,
+  "ict25": 2.8,
+  "ict13": 95.1,
+  "ictNovOct14": 0.1,
+  "ictNovOct25": 17.3,
+  "webNovOct25": 25,
+  "ptOct25": 125.8,
+  "ptNov25": 139,
+  "ptDec25": 160.7,
+  "updated": "2026-11-25T11:00:00+0100"
+ }
+}

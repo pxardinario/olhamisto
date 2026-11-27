@@ -508,14 +508,14 @@ function columns(host, data) {
 }
 
 /* lines: séries temporais com escala log ⇄ linear, cursor, rótulos diretos.
-   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width}], y.logTicks/y.linTicks (marcas explícitas), scaleToggle, dots, gaps (anos sem valor ficam em branco, sem ligar os pontos), annotations[], shade[{from,to,label,short,exact,labelOnly,top}], refLine{value,label,short,at}} */
+   data.rows[{x, key...}], data.config{x{min,max,ticks,tableLabel}, y{label,suffix,decimals,logDefault,logMin,logMax,linMin,linMax}; rows podem ter label (texto do cursor/tabela, p. ex. meses), series[{key,label,color,width,dash (linha tracejada)}], y.logTicks/y.linTicks (marcas explícitas), scaleToggle, dots, gaps (anos sem valor ficam em branco, sem ligar os pontos), annotations[], shade[{from,to,label,short,exact,labelOnly,top}], refLine{value,label,short,at}} */
 function lines(host, data) {
   const C = data.config, rows = data.rows;
   let log = !!C.y.logDefault;
   const tip = tooltip(host.chart);
   if (C.scaleToggle) segmented(host.controls, [["log", "Escala logarítmica"], ["lin", "Escala linear"]], log ? "log" : "lin", (v) => { log = v === "log"; r.redraw(); }, "Escala do eixo vertical");
   if (C.howToRead) { const p = document.createElement("p"); p.className = "how-to-read"; p.textContent = C.howToRead; host.legend.appendChild(p); }
-  if (C.series.length > 1) legend(host.legend, C.series.filter((s, i, a) => a.findIndex((q) => q.color === s.color) === i || s.color !== "--muted").map((s) => ({ color: css(s.color), label: s.color === "--muted" ? "Outros países" : s.label, line: true })));
+  if (C.series.length > 1) legend(host.legend, C.series.filter((s, i, a) => a.findIndex((q) => q.color === s.color) === i || s.color !== "--muted").map((s) => ({ color: css(s.color), label: s.color === "--muted" ? "Outros países" : s.label, line: true, dash: !!s.dash })));
   const d = C.y.decimals ?? 1;
   const r = responsive(host.chart, (W) => {
     const narrow = W < 560;
@@ -543,7 +543,7 @@ function lines(host, data) {
     halo(svg.append("text").attr("class", "ann-muted").attr("x", m.l - (narrow ? 36 : 44)).attr("y", 14).text((narrow ? C.y.label.replace(/ \(.*\)$/, "") : C.y.label) + (log ? " — escala log." : "")));
     const order = [...C.series].sort((a, b) => (a.color === "--muted" ? -1 : 0) - (b.color === "--muted" ? -1 : 0));
     for (const s of order) {
-      svg.append("path").datum(C.gaps ? rows : rows.filter((q) => q[s.key] != null)).attr("fill", "none").attr("stroke", css(s.color)).attr("stroke-width", s.width || 1.6).attr("opacity", s.color === "--muted" ? 0.8 : 1)
+      svg.append("path").datum(C.gaps ? rows : rows.filter((q) => q[s.key] != null)).attr("fill", "none").attr("stroke", css(s.color)).attr("stroke-width", s.width || 1.6).attr("stroke-dasharray", s.dash ? "6 4" : null).attr("opacity", s.color === "--muted" ? 0.8 : 1)
         .attr("stroke-linejoin", "round").attr("d", d3.line().defined((q) => q[s.key] != null).x((q) => x(q.x)).y((q) => y(q[s.key])));
       if (C.dots && s.color !== "--muted") svg.append("g").selectAll("circle").data(rows.filter((q) => q[s.key] != null)).join("circle").attr("cx", (q) => x(q.x)).attr("cy", (q) => y(q[s.key])).attr("r", 2.6).attr("fill", css(s.color)).style("pointer-events", "none");
     }
@@ -580,7 +580,7 @@ function lines(host, data) {
 }
 
 /* dumbbell: dois valores por categoria (a → b), terceiro marcador opcional (c), linha de referência e faixa; ordenação alternável.
-   data.rows[{label,short (rótulo opcional para ecrãs estreitos),a,b,c,highlight}], data.config{aLabel,bLabel,cLabel,ref,refLabel,band,bandLabel,unit,decimals,domain,sorts} */
+   data.rows[{label,short (rótulo opcional para ecrãs estreitos),a,b,c,highlight}], data.config{aLabel,bLabel,cLabel,ref (opcional),refLabel,labelWidth/labelWidthNarrow (margem dos rótulos),band,bandLabel,unit,decimals,domain,sorts} */
 function dumbbell(host, data) {
   const C = data.config; const d = C.decimals ?? 1;
   let sortKey = C.sorts?.[0]?.[0] || "b";
@@ -592,7 +592,7 @@ function dumbbell(host, data) {
     const narrow = W < 560;
     const key = (q) => (sortKey === "delta" ? (q.b ?? -9) - q.a : q.b ?? -9);
     const rows = [...data.rows].sort((p, q) => key(q) - key(p) || q.a - p.a);
-    const rowH = narrow ? 17 : 18, m = { t: 44, r: narrow ? 30 : 60, b: 30, l: narrow ? 104 : 140 };
+    const rowH = narrow ? 17 : 18, m = { t: 44, r: narrow ? 30 : 60, b: 30, l: narrow ? C.labelWidthNarrow || 104 : C.labelWidth || 140 };
     const H = m.t + m.b + rows.length * rowH;
     const svg = svgIn(host.chart, W, H, `Gráfico de halteres: ${C.aLabel} e ${C.bLabel} por ${C.itemLabel || "país"}`);
     const x = d3.scaleLinear().domain(C.domain).range([m.l, W - m.r]);
@@ -601,8 +601,10 @@ function dumbbell(host, data) {
     svg.append("g").attr("class", "grid").selectAll("line").data(x.ticks(narrow ? 4 : 8)).join("line").attr("x1", x).attr("x2", x).attr("y1", m.t - 4).attr("y2", H - m.b);
     svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(narrow ? 4 : 8).tickFormat((t) => fmtN(t, t % 1 ? 1 : 0) + C.unit).tickSizeOuter(0));
     svg.append("g").attr("class", "axis").attr("transform", `translate(0,${m.t - 8})`).call(d3.axisTop(x).ticks(narrow ? 4 : 8).tickFormat((t) => fmtN(t, t % 1 ? 1 : 0) + C.unit).tickSize(0)).call((g) => g.select(".domain").remove());
-    svg.append("line").attr("x1", x(C.ref)).attr("x2", x(C.ref)).attr("y1", m.t - 4).attr("y2", H - m.b).attr("stroke", css("--ink")).attr("stroke-dasharray", "4 3");
-    halo(svg.append("text").attr("class", "ann").style("font-size", "11.5px").attr("x", x(C.ref) + 5).attr("y", 12).text(C.refLabel));
+    if (C.ref != null) {
+      svg.append("line").attr("x1", x(C.ref)).attr("x2", x(C.ref)).attr("y1", m.t - 4).attr("y2", H - m.b).attr("stroke", css("--ink")).attr("stroke-dasharray", "4 3");
+      halo(svg.append("text").attr("class", "ann").style("font-size", "11.5px").attr("x", x(C.ref) + 5).attr("y", 12).text(C.refLabel));
+    }
     const html = (q) => `<b>${q.label}</b><br>${C.aLabel}: ${fmtN(q.a, d)}${C.unit}<br>${C.bLabel}: ${q.b == null ? "sem dados" : fmtN(q.b, d) + C.unit}${q.c != null ? `<br>${C.cLabel}: ${fmtN(q.c, d)}${C.unit}` : ""}`;
     const g = svg.append("g").selectAll("g").data(rows).join("g").attr("transform", (q, i) => `translate(0,${y(i)})`).attr("tabindex", 0)
       .attr("aria-label", (q) => html(q).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim())
@@ -676,7 +678,7 @@ function bars(host, data) {
       halo(svg.append("text").attr("class", "ann").style("font-size", "11px").attr("x", x(v.ref) + 4).attr("y", m.t - 10).text(v.refLabel || ""));
     }
   });
-  function rowsOf() { return data.rows; }
+  function rowsOf() { return data.rows.filter((q) => q[view.key] != null); } // categorias sem valor na vista ficam de fora
   return r;
 }
 

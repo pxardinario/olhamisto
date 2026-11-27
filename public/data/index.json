@@ -1,8 +1,115 @@
 {
  "schema": "ronda-visual/index@1",
- "updated": "2026-11-26T07:33:41.127Z",
- "latest": "2026-11-26",
+ "updated": "2026-11-27T07:37:12.416Z",
+ "latest": "2026-11-27",
  "editions": [
+  {
+   "date": "2026-11-27",
+   "number": 19,
+   "lead": "black-friday-dezembro-novembro",
+   "opening": "Cinco histórias para sexta-feira de Black Friday: as compras de Natal que passaram para novembro, os crimes que saíram das casas para os ecrãs, as línguas que os alunos portugueses deixam no 9.º ano, a velha média que fazia parecer que se morria aos 30 e a pobreza que recuou em 86 de 89 países.",
+   "pieces": [
+    {
+     "id": "black-friday-dezembro-novembro",
+     "title": "No comércio a retalho não alimentar português, dezembro vendia mais 45% do que novembro em 2010. Em 2025, mais 16%",
+     "kind": "atualidade",
+     "theme": "marketing",
+     "themeLabel": "Marketing",
+     "vizType": "linha",
+     "vizLabel": "Linhas · cinco países · cursor",
+     "interactive": true,
+     "question": "Para onde foram as compras de Natal desde que a Black Friday se espalhou pela Europa?",
+     "finding": "No comércio a retalho não alimentar português (sem combustíveis), o volume de vendas de dezembro superou o de novembro em 44,9% em 2010 e em 15,6% em 2025, o mais baixo da série, iniciada em 2000. Novembro passou de vender menos 1,7% do que outubro, em 2014, para mais 10,5%, em 2025. Nas lojas de eletrónica e informática, a vantagem de dezembro caiu de 58,3%, em 2014, para 2,8%, em 2025. Em média, foi de 37,0% em 2005–2014 e de 18,6% em 2021–2025.",
+     "period": "2005–2025 (outubro, novembro e dezembro de cada ano)",
+     "dataset": "black-friday-dezembro-novembro-2005-2025",
+     "sourceNames": [
+      "Eurostat — Turnover and volume of sales in wholesale and retail trade, monthly data (sts_trtu_m), volume de vendas, dados não ajustados, atualizado a 25-11-2026"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "crime-registado-portugal-2008-2024",
+     "title": "Desde 2008, os furtos e roubos em casas registados em Portugal caíram 74%. As burlas mais do que duplicaram desde 2016",
+     "kind": "descoberta",
+     "theme": "sociedade",
+     "themeLabel": "Sociedade",
+     "vizType": "barras",
+     "vizLabel": "Barras divergentes · duas vistas",
+     "interactive": true,
+     "question": "Que crimes registados pela polícia subiram e desceram em Portugal nos últimos anos?",
+     "finding": "Por 100 mil habitantes, os furtos e roubos em residência registados passaram de 281,1 em 2008 para 74,1 em 2024 (−73,6%); os roubos caíram 55,3% e os homicídios voluntários 41,9%. Em sentido contrário, as burlas e fraudes subiram de 188,4 para 427,5 por 100 mil entre 2016 e 2024 (+126,9%), e os crimes contra sistemas informáticos triplicaram.",
+     "period": "2008–2024 (algumas categorias desde 2016)",
+     "dataset": "crime-registado-portugal-2008-2024",
+     "sourceNames": [
+      "Eurostat — Police-recorded offences by offence category (crim_off_cat), dados da Direção-Geral da Política de Justiça, atualizado a 25-11-2026"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "linguas-estrangeiras-escolas-2024",
+     "title": "No 3.º ciclo, 70% dos alunos portugueses estudam francês, mais do dobro da média da UE. No secundário geral, 1,7%",
+     "kind": "descoberta",
+     "theme": "cultura",
+     "themeLabel": "Cultura e educação",
+     "vizType": "halteres",
+     "vizLabel": "Halteres · 2013 → 2024 · referência da UE",
+     "interactive": true,
+     "question": "Que línguas estrangeiras estudam os alunos portugueses, e como se comparam com os da UE?",
+     "finding": "Em 2024, um aluno português do 3.º ciclo estudava em média 1,9 línguas estrangeiras, mais do que a média da UE (1,6), e 70,5% aprendiam francês, contra 29,4% na UE. No secundário geral, a média descia para 0,8 línguas, metade da europeia: 67,3% estudavam inglês (96,4% na UE), 10,4% espanhol, 1,7% francês e 0,9% alemão.",
+     "period": "2013 e 2024 (Portugal também em 2025)",
+     "dataset": "linguas-estrangeiras-escolas-2013-2024",
+     "sourceNames": [
+      "Eurostat — Pupils by education level and modern foreign language studied (educ_uoe_lang01), atualizado a 25-11-2026",
+      "Eurostat — Average number of foreign languages studied per pupil by education level (educ_uoe_lang03)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "esperanca-vida-aos-10-anos-1751-2024",
+     "title": "Em 1800, a esperança de vida à nascença na Suécia era de 32 anos. Quem chegava aos 10 vivia, em média, até aos 55",
+     "kind": "descoberta",
+     "theme": "historia",
+     "themeLabel": "História",
+     "vizType": "linha",
+     "vizLabel": "Linhas · 274 anos · cursor",
+     "interactive": true,
+     "question": "É verdade que, no passado, quase ninguém passava dos 30 ou 40 anos?",
+     "finding": "Na Suécia, com registos desde 1751, a esperança de vida à nascença era de 32,2 anos em 1800; mas 42,6% das crianças morriam antes dos 10, e quem passava essa idade vivia, em média, até aos 54,7. Em 2024, as duas medidas quase coincidem: 83,8 e 84,1 anos. Em Portugal, em 1940, eram 51,4 e 65,2.",
+     "period": "1751–2024 (Suécia); 1940–2023 (Portugal)",
+     "dataset": "esperanca-vida-nascenca-10-anos-1751-2024",
+     "sourceNames": [
+      "Human Mortality Database — University of California, Berkeley, e Max Planck Institute for Demographic Research, tábuas de mortalidade do período, dados publicados a 25-09-2025, CC BY 4.0",
+      "Our World in Data — Human Mortality Database (catálogo de dados, tabela life_tables, versão de 22-10-2025; cópia secundária)"
+     ],
+     "verification": "verificada"
+    },
+    {
+     "id": "pobreza-multidimensional-mpi-2026",
+     "title": "Em 86 de 89 países com inquéritos comparáveis, a pobreza multidimensional desceu. Na Índia, de 55% para 16% da população",
+     "kind": "descoberta",
+     "theme": "geopolitica",
+     "themeLabel": "Geopolítica",
+     "vizType": "halteres",
+     "vizLabel": "Halteres · 17 países · ordenação alternável",
+     "interactive": true,
+     "question": "A pobreza que não se mede só em dinheiro está a recuar nos países mais pobres?",
+     "finding": "Segundo o Índice de Pobreza Multidimensional de 2026, de Oxford, a parte da população em pobreza multidimensional desceu em 86 dos 89 países com dois ou mais inquéritos harmonizados. A Índia teve a maior descida, de 55,1% em 2005 para 16,4% em 2019. Subiu no Afeganistão, na República Centro-Africana e no Montenegro. Em Moçambique, passou de 83,9% para 59,9%.",
+     "period": "Primeiro e último inquérito harmonizado de cada país (2003–2024)",
+     "dataset": "pobreza-multidimensional-mpi-2026",
+     "sourceNames": [
+      "OPHI, Universidade de Oxford — Alkire, S., Mishra, R. e Suppa, N. (2026), «The Global Multidimensional Poverty Index (MPI) 2026: Country Results and Methodological Note», OPHI MPI Methodological Note 64, CC BY 4.0",
+      "Our World in Data — Multidimensional Poverty Index (catálogo de dados, versão de 04-11-2026; cópia secundária)"
+     ],
+     "verification": "verificada"
+    }
+   ],
+   "chave": {
+    "id": "mito-da-tulipomania",
+    "title": "O mito da tulipomania",
+    "axis": "economia",
+    "verification": "verificada"
+   }
+  },
   {
    "date": "2026-11-26",
    "number": 18,

@@ -1,0 +1,113 @@
+{
+ "rows": [
+  {
+   "label": "Inglês · 3.º ciclo",
+   "short": "Inglês · 3.º ciclo",
+   "a": 93.4,
+   "b": 97.1,
+   "c": 97.6
+  },
+  {
+   "label": "Francês · 3.º ciclo",
+   "short": "Francês · 3.º ciclo",
+   "a": 63.3,
+   "b": 70.5,
+   "c": 29.4
+  },
+  {
+   "label": "Espanhol · 3.º ciclo",
+   "short": "Espanhol · 3.º ciclo",
+   "a": 24.1,
+   "b": 22.5,
+   "c": 18.8
+  },
+  {
+   "label": "Alemão · 3.º ciclo",
+   "short": "Alemão · 3.º ciclo",
+   "a": 0.7,
+   "b": 1.3,
+   "c": 20.1
+  },
+  {
+   "label": "Inglês · secundário (cursos gerais)",
+   "short": "Inglês · sec. geral",
+   "a": 59.2,
+   "b": 67.3,
+   "c": 96.4
+  },
+  {
+   "label": "Francês · secundário (cursos gerais)",
+   "short": "Francês · sec. geral",
+   "a": 2.6,
+   "b": 1.7,
+   "c": 20
+  },
+  {
+   "label": "Espanhol · secundário (cursos gerais)",
+   "short": "Espanhol · sec. geral",
+   "a": 8.4,
+   "b": 10.4,
+   "c": 27.5
+  },
+  {
+   "label": "Alemão · secundário (cursos gerais)",
+   "short": "Alemão · sec. geral",
+   "a": 1,
+   "b": 0.9,
+   "c": 20.8
+  }
+ ],
+ "config": {
+  "aLabel": "Portugal, 2013",
+  "bLabel": "Portugal, 2024",
+  "cLabel": "UE, 2024",
+  "unit": "%",
+  "decimals": 1,
+  "domain": [
+   0,
+   100
+  ],
+  "itemLabel": "língua e nível de ensino",
+  "labelWidth": 210,
+  "labelWidthNarrow": 126,
+  "sorts": [
+   [
+    "b",
+    "Portugal, 2024"
+   ],
+   [
+    "delta",
+    "Variação desde 2013"
+   ]
+  ],
+  "howToRead": "Cada linha é uma língua num nível de ensino: a percentagem dos alunos que a estudam. O ponto cinzento é Portugal em 2013, o ponto azul Portugal em 2024 e o anel a média da UE em 2024. O 3.º ciclo vai do 7.º ao 9.º ano; o secundário geral são os cursos científico-humanísticos (10.º ao 12.º ano), sem os profissionais."
+ },
+ "summary": {
+  "freED2pt24": 70.5,
+  "freED2eu24": 29.4,
+  "freED2pt25": 70.1,
+  "freED34pt24": 1.7,
+  "freED34eu24": 20,
+  "freED34pt13": 2.6,
+  "gerED2pt24": 1.3,
+  "gerED2eu24": 20.1,
+  "gerED34pt24": 0.9,
+  "gerED34eu24": 20.8,
+  "engED34pt24": 67.3,
+  "engED34eu24": 96.4,
+  "engED34pt13": 59.2,
+  "engED2pt24": 97.1,
+  "engED2eu24": 97.6,
+  "spaED2pt24": 22.5,
+  "spaED2eu24": 18.8,
+  "spaED34pt24": 10.4,
+  "spaED34eu24": 27.5,
+  "avgED2pt24": 1.9,
+  "avgED2eu24": 1.6,
+  "avgED34pt24": 0.8,
+  "avgED34eu24": 1.6,
+  "avgED34pt13": 0.7,
+  "avgED34pt25": 0.8,
+  "updated": "2026-11-25T23:00:00+0100"
+ }
+}
