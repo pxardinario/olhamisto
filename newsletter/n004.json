@@ -1,0 +1,50 @@
+{
+  "schema": "olhamisto/newsletter@1",
+  "number": 4,
+  "editions": [
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "title": "A descida da idade mediana de Portugal, os assaltos a casas e as burlas registados e três séculos do preço de um prego",
+  "subtitle": "O melhor das edições n.º 15 a 19 do Olhamisto e as cinco Chaves do Dia.",
+  "intro": [
+    "Na quarta semana, o Olhamisto publicou 24 histórias em cinco edições. Esta carta escolhe quatro. Duas ajudam a perceber Portugal: a descida da idade mediana desde 2021 e os crimes registados que mais mudaram. As outras duas seguem séries longas: três séculos do preço de um prego e a computação usada para treinar inteligência artificial. As restantes estão listadas abaixo, com as Chaves do Dia."
+  ],
+  "highlights": [
+    {
+      "piece": "idade-mediana-portugal-2025",
+      "text": "A 1 de janeiro de 2025, metade dos residentes em Portugal tinha mais de 45,6 anos, menos 0,7 do que em 2021: a maior descida da UE e a primeira desde 1977. Entre os portugueses, a idade mediana subiu de 47,1 para 48,4 anos; entre os estrangeiros, desceu de 36,6 para 33,9, quase toda no primeiro ano, marcado por uma quebra de série (ajuste aos Censos de 2021)."
+    },
+    {
+      "piece": "crime-registado-portugal-2008-2024",
+      "text": "Por 100 mil habitantes, os furtos e roubos em residência registados em Portugal passaram de 281,1 em 2008 para 74,1 em 2024, menos 73,6%. As burlas e fraudes subiram de 188,4 para 427,5 entre 2016 e 2024, mais 126,9%, depois do máximo de 2023. São crimes participados e registados, não o total cometido: dependem da vontade de apresentar queixa e das mudanças na lei."
+    },
+    {
+      "piece": "preco-pregos-1695-2011",
+      "text": "Descontada a inflação, um prego comum custava em média 1,74 cêntimos de dólar de 2010 na segunda metade do século XVIII e 0,24 cêntimos nos anos 1930 e 1940, sete vezes menos. O economista Daniel Sichel atribui a maior parte da descida à produtividade das fábricas. Em 2011, último ano da série, custava 3,1 vezes o mínimo de 1944, em parte por materiais mais caros e pregos especiais."
+    },
+    {
+      "piece": "ia-computacao-treino-1950-2026",
+      "text": "Com base nas estimativas da Epoch AI, a computação usada para treinar os modelos de IA notáveis duplicou, em média, a cada 20,5 meses entre 1950 e 2009. De 2010 a agosto de 2026, duplicou a cada 5,7 meses: multiplicou-se por 4,3 por ano, muito mais depressa do que previa a lei de Moore. Isso exigiu sobretudo gastar mais, com mais processadores a trabalhar durante mais tempo."
+    }
+  ],
+  "notes": [
+    {
+      "piece": "fecundidade-adiamento-portugal",
+      "text": "Em 2013, a fecundidade em Portugal caiu para 1,21 filhos por mulher. Descontado o adiamento dos nascimentos, estima-se 1,62."
+    },
+    {
+      "piece": "linguas-estrangeiras-escolas-2024",
+      "text": "Em 2024, 70,5% dos alunos portugueses do 3.º ciclo estudavam francês. No secundário geral, 1,7%."
+    },
+    {
+      "piece": "gelo-marinho-antartida-2025",
+      "text": "Os sete anos com menos gelo marinho na Antártida desde 1979 foram todos entre 2017 e 2025."
+    }
+  ],
+  "correctionsNote": {},
+  "signoff": "Até à próxima semana. Entretanto, quando um número vier sem fonte, trate-o como um boato com casas decimais."
+}
